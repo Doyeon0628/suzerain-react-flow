@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": "node_0",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16031955,\n\nNarrator: My uncle turned to me.\nen\n\n\nMy uncle turned to me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_1",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16032057,\n\nHugo Toras: I have a gift for the bride and gr...\nen\n\n\n\"I have a gift for the bride and groom. A silk plantation just outside of Mermi.\""
+            },
+            "position": {
+                "x": 250,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_2",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16032159,\n\nHugo Toras: But this one is for you.\nen\n\n\n\"But this one is for you.\""
+            },
+            "position": {
+                "x": 500,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_3",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16032261,\n\nNarrator: He reached under the table and pull...\nen\n\n\nHe reached under the table and pulled out a shining golden figurine. A bull."
+            },
+            "position": {
+                "x": 0,
+                "y": 150
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16032363,\n\nHugo Toras: It belonged to my mother. I believ...\nen\n\n\n\"It belonged to my mother. I believe you know what it symbolizes.\""
+            },
+            "position": {
+                "x": 250,
+                "y": 150
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16032585,\n\nPlayer_Romus: House Toras shall hold the throne...\nen\n\n\n\"House Toras shall hold the throne for a thousand years.\""
+            },
+            "position": {
+                "x": 500,
+                "y": 150
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16032687,\n\nPlayer_Romus: We are Torases. Strong, stubborn,...\nen\n\n\n\"We are Torases. Strong, stubborn, immovable.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 300
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16032789,\n\nPlayer_Romus: I am the King, Hugo. I take no bul...\nen\n\n\n\"I am the King, Hugo. I take no bull.\""
+            },
+            "position": {
+                "x": 250,
+                "y": 300
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16033161,\n\nPlayer_Romus: I am honored, Your Grace. I will t...\nen\n\n\n\"I am honored, Your Grace. I will treasure it forever.\""
+            },
+            "position": {
+                "x": 500,
+                "y": 300
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16033263,\n\nNarrator: We both turned our attention forwar...\nen\n\n\nWe both turned our attention forward as our guests began to arrive."
+            },
+            "position": {
+                "x": 0,
+                "y": 450
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 16033365,\n\nHugo Toras: Ha. I insist you take this one.\nen\n\n\n\"Ha. I insist you take this one.\""
+            },
+            "position": {
+                "x": 250,
+                "y": 450
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e0",
+            "source": "node_2",
+            "target": "node_314",
+            "animated": true
+        },
+        {
+            "id": "e1",
+            "source": "node_3",
+            "target": "node_4",
+            "animated": true
+        },
+        {
+            "id": "e2",
+            "source": "node_4",
+            "target": "node_5",
+            "animated": true
+        },
+        {
+            "id": "e3",
+            "source": "node_5",
+            "target": "node_6",
+            "animated": true
+        },
+        {
+            "id": "e4",
+            "source": "node_6",
+            "target": "node_8",
+            "animated": true
+        },
+        {
+            "id": "e5",
+            "source": "node_8",
+            "target": "node_7",
+            "animated": true
+        },
+        {
+            "id": "e6",
+            "source": "node_9",
+            "target": "node_16",
+            "animated": true
+        },
+        {
+            "id": "e7",
+            "source": "node_10",
+            "target": "node_16",
+            "animated": true
+        },
+        {
+            "id": "e8",
+            "source": "node_13",
+            "target": "node_11",
+            "animated": true
+        },
+        {
+            "id": "e9",
+            "source": "node_15",
+            "target": "node_16",
+            "animated": true
+        },
+        {
+            "id": "e10",
+            "source": "node_16",
+            "target": "node_2",
+            "animated": true
+        }
+    ]
+}

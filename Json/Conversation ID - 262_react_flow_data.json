@@ -1,0 +1,176 @@
+{
+    "nodes": [
+        {
+            "id": "node_0",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9509737,\n\nNarrator: You rose to your feet as the bright...\nen\n\n\nYou rose to your feet as the bright light enveloped you."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_1",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9509845,\n\nPlayer: The only thing you could do was to...\nen\n\n\nThe only thing you could do was to look away."
+            },
+            "position": {
+                "x": 250,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_2",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9509947,\n\nNarrator: What had started as a rumble in the...\nen\n\n\nWhat had started as a rumble in the distance was now a deafening roar."
+            },
+            "position": {
+                "x": 500,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_3",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9510049,\n\nNarrator: It took all of your strength and co...\nen\n\n\nIt took all of your strength and courage to rise to your feet again."
+            },
+            "position": {
+                "x": 0,
+                "y": 150
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9510151,\n\nPlayer: You looked outside.\nen\n\n\nYou looked outside."
+            },
+            "position": {
+                "x": 250,
+                "y": 150
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9510253,\n\nNarrator: A mushroom-shaped cloud many skyscr...\nen\n\n\nA mushroom-shaped cloud many skyscrapers tall was towering above Holsord."
+            },
+            "position": {
+                "x": 500,
+                "y": 150
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9510355,\n\nNarrator: You barely registered the shockwave...\nen\n\n\nYou barely registered the shockwave as the wall of extreme heat and pressure destroyed everything in its path."
+            },
+            "position": {
+                "x": 0,
+                "y": 300
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9510457,\n\nPlayer: You couldn't believe what you were...\nen\n\n\nYou couldn't believe what you were seeing."
+            },
+            "position": {
+                "x": 250,
+                "y": 300
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9510559,\n\nPlayer: It was the last thing you saw.\nen\n\n\nIt was the last thing you saw."
+            },
+            "position": {
+                "x": 500,
+                "y": 300
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "default",
+            "data": {
+                "label": "LineNo: 9510667,\n\nPlayer: You closed your ears and crouched d...\nen\n\n\nYou closed your ears and crouched down."
+            },
+            "position": {
+                "x": 0,
+                "y": 450
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e0",
+            "source": "node_1",
+            "target": "node_14",
+            "animated": true
+        },
+        {
+            "id": "e1",
+            "source": "node_3",
+            "target": "node_4",
+            "animated": true
+        },
+        {
+            "id": "e2",
+            "source": "node_4",
+            "target": "node_15",
+            "animated": true
+        },
+        {
+            "id": "e3",
+            "source": "node_5",
+            "target": "node_12",
+            "animated": true
+        },
+        {
+            "id": "e4",
+            "source": "node_6",
+            "target": "node_7",
+            "animated": true
+        },
+        {
+            "id": "e5",
+            "source": "node_7",
+            "target": "node_16",
+            "animated": true
+        },
+        {
+            "id": "e6",
+            "source": "node_8",
+            "target": "node_10",
+            "animated": true
+        },
+        {
+            "id": "e7",
+            "source": "node_9",
+            "target": "node_11",
+            "animated": true
+        },
+        {
+            "id": "e8",
+            "source": "node_10",
+            "target": "node_13",
+            "animated": true
+        },
+        {
+            "id": "e9",
+            "source": "node_11",
+            "target": "node_2",
+            "animated": true
+        }
+    ]
+}
