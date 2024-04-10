@@ -1,2267 +1,329 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9173874,\n\nNarrator: I took a deep breath and opened the...\nen\n\n\nI took a deep breath and opened the grand doors leading to the Supreme Court."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9173982,\n\nPlayer_Italic: I took a seat and everyone followed...\nen\n\n\nI took a seat and everyone followed suit."
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9173988,\n\nPlayer_Italic: I took a seat and everyone followed...\nMenu Text en\n\n\nTake a seat."
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174090,\n\nNarrator: There were no camera flashes this t...\nen\n\n\nThere were no camera flashes this time. No journalists or reporters. Nobody was allowed in the courtroom except the people related to my case."
-            },
-            "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174192,\n\nNarrator: The attendees watched me quietly as...\nen\n\n\nThe attendees watched me quietly as I walked down the aisle to the defendant's table."
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174294,\n\nNarrator: I looked at Chief Justice Heron Gar...\nen\n\n\nI looked at Chief Justice Heron Garaci. After he was seated, he pulled out his reading glasses and quickly rifled through the documents in front of him."
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174396,\n\nNarrator: I looked at Chief Justice Ovid Grec...\nen\n\n\nI looked at Chief Justice Ovid Grecer. After he was seated, he pulled out his reading glasses and quickly rifled through the documents in front of him."
-            },
-            "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174498,\n\nNarrator: I looked at Chief Justice Orso Hawk...\nen\n\n\nI looked at Chief Justice Orso Hawker. After he was seated, he pulled out his reading glasses and quickly rifled through the documents in front of him."
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174600,\n\nHeron Garaci: “This court is now in session.”\nen\n\n\n“This court is now in session.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174708,\n\nOvid Grecer: “This court is now in session.”\nen\n\n\n“This court is now in session.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174816,\n\nOrso Hawker: “This court is now in session.”\nen\n\n\n“This court is now in session.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_11",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9174924,\n\nNarrator: He put them down and looked at me.\nen\n\n\nHe put them down and looked at me."
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175026,\n\nNarrator: A quiet chatter began in the courtr...\nen\n\n\nA quiet chatter began in the courtroom which continued until the door behind the podium opened."
-            },
-            "position": {
-                "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175128,\n\nPlayer_Italic: I rose up from my seat.\nen\n\n\nI rose up from my seat."
-            },
-            "position": {
-                "x": 250,
-                "y": 600
-            }
-        },
-        {
             "id": "node_14",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9175134,\n\nPlayer_Italic: I rose up from my seat.\nMenu Text en\n\n\nRise up from your seat."
+                "label": "Player_Italic\n\nI rose up from my seat."
             },
             "position": {
-                "x": 500,
-                "y": 600
+                "x": 0,
+                "y": 0
             }
         },
         {
             "id": "node_15",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9175236,\n\nPlayer_Italic: I remained seated.\nen\n\n\nI remained seated."
+                "label": "Player_Italic\n\nI remained seated."
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 270,
+                "y": 0
             }
         },
         {
             "id": "node_16",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9175242,\n\nPlayer_Italic: I remained seated.\nMenu Text en\n\n\nRemain seated."
+                "label": "Narrator\n\nHe put them down and looked at me."
             },
             "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175344,\n\nNarrator: He put them down and looked at me.\nen\n\n\nHe put them down and looked at me."
-            },
-            "position": {
-                "x": 500,
-                "y": 750
+                "x": 540,
+                "y": 0
             }
         },
         {
             "id": "node_18",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9175446,\n\nNarrator: He put down the papers and looked a...\nen\n\n\nHe put down the papers and looked at me."
+                "label": "Ovid Grecer\n\n“You may be seated.”"
             },
             "position": {
-                "x": 0,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175548,\n\nOvid Grecer: “You may be seated.”\nen\n\n\n“You may be seated.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175656,\n\nOrso Hawker: “You may be seated.”\nen\n\n\n“You may be seated.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175764,\n\nHeron Garaci: “You may be seated.”\nen\n\n\n“You may be seated.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_22",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175872,\n\nHeron Garaci: “I call the case of the impeachment...\nen\n\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9175980,\n\nHeron Garaci: “I call the case of the impeachment...\nen\n\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_24",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176088,\n\nIsabel Edmonds: “I call the case of the impeachment...\nen\n\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176196,\n\nIsabel Edmonds: “This case will proceed as follows....\nen\n\n\n“This case will proceed as follows.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176304,\n\nIsabel Edmonds: “This case will proceed as follows....\nen\n\n\n“This case will proceed as follows.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176412,\n\nGloria Tory: “This case will proceed as follows....\nen\n\n\n“This case will proceed as follows.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176520,\n\nGloria Tory: “Both parties will have the opportu...\nen\n\n\n“Both parties will have the opportunity to present their evidence.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176628,\n\nIsabel Edmonds: “Both parties will have the opportu...\nen\n\n\n“Both parties will have the opportunity to present their evidence.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_30",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176736,\n\nIsabel Edmonds: “Both parties will have the opportu...\nen\n\n\n“Both parties will have the opportunity to present their evidence.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176844,\n\nIsabel Edmonds: “The prosecution will be called upo...\nen\n\n\n“The prosecution will be called upon first, followed by the defendant.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9176952,\n\nIsabel Edmonds: “The prosecution will be called upo...\nen\n\n\n“The prosecution will be called upon first, followed by the defendant.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9177060,\n\nGloria Tory: “The prosecution will be called upo...\nen\n\n\n“The prosecution will be called upon first, followed by the defendant.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_34",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9177168,\n\nGloria Tory: “After both parties present their c...\nen\n\n\n“After both parties present their claims, the court will present its final verdict on this case.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_35",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9177276,\n\nIsabel Edmonds: “After both parties present their c...\nen\n\n\n“After both parties present their claims, the court will present its final verdict on this case.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9177384,\n\nIsabel Edmonds: “After both parties present their c...\nen\n\n\n“After both parties present their claims, the court will present its final verdict on this case.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9177770,\n\nNarrator: The Supreme Court justices entered...\nen\n\n\nThe Supreme Court justices entered and took their seats one by one."
-            },
-            "position": {
-                "x": 250,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_38",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9177878,\n\nNarrator: A court clerk entered and ordered e...\nen\n\n\nA court clerk entered and ordered everyone to rise for the judges."
-            },
-            "position": {
-                "x": 500,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_39",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9178822,\n\nOrso Hawker: “All evidence has now been presente...\nen\n\n\n“All evidence has now been presented in the court.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1950
+                "x": 810,
+                "y": 0
             }
         },
         {
             "id": "node_40",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9179208,\n\nOvid Grecer: “All evidence has now been presente...\nen\n\n\n“All evidence has now been presented in the court.”"
+                "label": "Narrator\n\nA court clerk entered and ordered everyone to rise for the judges."
             },
             "position": {
-                "x": 250,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9179594,\n\nHeron Garaci: “All evidence has now been presente...\nen\n\n\n“All evidence has now been presented in the court.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9179702,\n\nHeron Garaci: “We will now proceed with the defen...\nen\n\n\n“We will now proceed with the defendant.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9179810,\n\nOvid Grecer: “We will now proceed with the defen...\nen\n\n\n“We will now proceed with the defendant.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9179918,\n\nOrso Hawker: “We will now proceed with the defen...\nen\n\n\n“We will now proceed with the defendant.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180026,\n\nHeron Garaci: “In the light of these allegations,...\nen\n\n\n“In the light of these allegations, what do you have to say for yourself?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180158,\n\nOvid Grecer: “In the light of these allegations,...\nen\n\n\n“In the light of these allegations, what do you have to say for yourself?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180290,\n\nOrso Hawker: “In the light of these allegations,...\nen\n\n\n“In the light of these allegations, what do you have to say for yourself?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_48",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180422,\n\nPlayer: “Does it even matter at this point?...\nen\n\n\n“Does it even matter at this point?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180428,\n\nPlayer: “Does it even matter at this point?...\nMenu Text en\n\n\n“Does it even matter at this point?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180530,\n\nPlayer: “All I have to say is this: Fuck yo...\nen\n\n\n“All I have to say is this: Fuck you!”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180536,\n\nPlayer: “All I have to say is this: Fuck yo...\nMenu Text en\n\n\n“All I have to say is this: Fuck you!”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_52",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180638,\n\nPlayer: “I deny all of this. This is all a...\nen\n\n\n“I deny all of this. This is all a ploy to end my presidency and I will not accept a guilty verdict.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180644,\n\nPlayer: “I deny all of this. This is all a...\nMenu Text en\n\n\n“I deny all of this. This is all a ploy to end my presidency and I will not accept a guilty verdict.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_54",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180746,\n\nPlayer: “I'm going to make it out of this....\nen\n\n\n“I'm going to make it out of this. And one day, you're all going to pay for what you've done to me.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180752,\n\nPlayer: “I'm going to make it out of this....\nMenu Text en\n\n\n“I'm going to make it out of this. And one day, you're all going to pay for what you've done to me.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9180854,\n\nHeron Garaci: “There is no place for conspiracy t...\nen\n\n\n“There is no place for conspiracy theories in this court, Mr. President. The evidence has been presented in a clear and irrefutable manner.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9181518,\n\nOvid Grecer: “There is no place for conspiracy t...\nen\n\n\n“There is no place for conspiracy theories in this court, Mr. President. The evidence has been presented in a clear and irrefutable manner.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9181626,\n\nOrso Hawker: “There is no place for conspiracy t...\nen\n\n\n“There is no place for conspiracy theories in this court, Mr. President. The evidence has been presented in a clear and irrefutable manner.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9182012,\n\nOvid Grecer: “Let the record show that the Presi...\nen\n\n\n“Let the record show that the President has refused the opportunity to defend himself.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_60",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9182120,\n\nHeron Garaci: “Let the record show that the Presi...\nen\n\n\n“Let the record show that the President has refused the opportunity to defend himself.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_61",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9182506,\n\nOrso Hawker: “Let the record show that the Presi...\nen\n\n\n“Let the record show that the President has refused the opportunity to defend himself.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9182892,\n\nOvid Grecer: “Silence! I will not allow threats...\nen\n\n\n“Silence! I will not allow threats in this courtroom!”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9183000,\n\nHeron Garaci: “Silence! I will not allow threats...\nen\n\n\n“Silence! I will not allow threats in this courtroom!”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9183386,\n\nOrso Hawker: “Silence! I will not allow threats...\nen\n\n\n“Silence! I will not allow threats in this courtroom!”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_65",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9183772,\n\nOvid Grecer: “Silence! I will not allow improper...\nen\n\n\n“Silence! I will not allow improper language in this courtroom!”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9183880,\n\nHeron Garaci: “Silence! I will not allow improper...\nen\n\n\n“Silence! I will not allow improper language in this courtroom!”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9184266,\n\nOrso Hawker: “Silence! I will not allow improper...\nen\n\n\n“Silence! I will not allow improper language in this courtroom!”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9184930,\n\nOvid Grecer: “This court will now proceed with t...\nen\n\n\n“This court will now proceed with the final evaluation of the evidence before announcing the verdict.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3300
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_69",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9185038,\n\nHeron Garaci: “This court will now proceed with t...\nen\n\n\n“This court will now proceed with the final evaluation of the evidence before announcing the verdict.”"
+                "label": "Heron Garaci\n\n“There is no place for conspiracy theories in this court, Mr. President. The evidence has been presented in a clear and irrefutable manner.”"
             },
             "position": {
-                "x": 0,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9185146,\n\nOrso Hawker: “This court will now proceed with t...\nen\n\n\n“This court will now proceed with the final evaluation of the evidence before announcing the verdict.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9185254,\n\nNarrator: Half an hour passed.\nen\n\n\nHalf an hour passed."
-            },
-            "position": {
-                "x": 500,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9185356,\n\nNarrator: After nearly an hour of excruciatin...\nen\n\n\nAfter nearly an hour of excruciating waiting, the door opened again. The justices took their seats to deliver the final verdict."
-            },
-            "position": {
-                "x": 0,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9185458,\n\nNarrator: The Justices all stood up and left...\nen\n\n\nThe Justices all stood up and left the room."
-            },
-            "position": {
-                "x": 250,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9185566,\n\nNarrator: I started thinking about my life up...\nen\n\n\nI started thinking about my life up to that point. Where had it all gone wrong?"
-            },
-            "position": {
-                "x": 500,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9185668,\n\nNarrator: Where the hell were the justices?\nen\n\n\nWhere the hell were the justices?"
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9185770,\n\nNarrator: I took a deep breath.\nen\n\n\nI took a deep breath."
-            },
-            "position": {
-                "x": 250,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9186246,\n\nNarrator: The Supreme Court justices entered...\nen\n\n\nThe Supreme Court justices entered and took their seats one by one."
-            },
-            "position": {
-                "x": 500,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9187744,\n\nNarrator: The Supreme Court justices entered...\nen\n\n\nThe Supreme Court justices entered and took their seats one by one."
-            },
-            "position": {
-                "x": 0,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9187852,\n\nNarrator: The Supreme Court justices entered...\nen\n\n\nThe Supreme Court justices entered and took their seats one by one."
-            },
-            "position": {
-                "x": 250,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9187960,\n\nNarrator: The Supreme Court justices entered...\nen\n\n\nThe Supreme Court justices entered and took their seats one by one."
-            },
-            "position": {
-                "x": 500,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188068,\n\nNarrator: The Supreme Court justices entered...\nen\n\n\nThe Supreme Court justices entered and took their seats one by one."
-            },
-            "position": {
-                "x": 0,
-                "y": 4050
+                "x": 1350,
+                "y": 0
             }
         },
         {
             "id": "node_82",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9188176,\n\nDidier Meye: “The prosecution will be called upo...\nen\n\n\n“The prosecution will be called upon first, followed by the defendant.”"
+                "label": "Heron Garaci\n\n“Let the record show that the President has refused the opportunity to defend himself.”"
             },
             "position": {
-                "x": 250,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188284,\n\nDidier Meye: “After both parties present their c...\nen\n\n\n“After both parties present their claims, the court will present its final verdict on this case.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188392,\n\nIsabel Edmonds: “I call the case of the impeachment...\nen\n\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188500,\n\nDidier Meye: “This case will proceed as follows....\nen\n\n\n“This case will proceed as follows.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188608,\n\nDidier Meye: “Both parties will have the opportu...\nen\n\n\n“Both parties will have the opportunity to present their evidence.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188716,\n\nHeron Garaci: “You may be seated.”\nen\n\n\n“You may be seated.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188824,\n\nHeron Garaci: “This court is now in session.”\nen\n\n\n“This court is now in session.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9188932,\n\nNarrator: He put down the papers and looked a...\nen\n\n\nHe put down the papers and looked at me."
-            },
-            "position": {
-                "x": 500,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_90",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189034,\n\nNarrator: I looked at Chief Justice Heron Gar...\nen\n\n\nI looked at Chief Justice Heron Garaci. After he was seated, he pulled out his reading glasses and quickly rifled through the documents in front of him."
-            },
-            "position": {
-                "x": 0,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189136,\n\nNarrator: I looked at the Chief Justice Ovid...\nen\n\n\nI looked at the Chief Justice Ovid Grecer. After he was seated, he pulled out his reading glasses and quickly rifled through the documents in front of him."
-            },
-            "position": {
-                "x": 250,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_92",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189238,\n\nNarrator: He put down the papers and looked a...\nen\n\n\nHe put down the papers and looked at me."
-            },
-            "position": {
-                "x": 500,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189340,\n\nOvid Grecer: “This court is now in session.”\nen\n\n\n“This court is now in session.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_94",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189448,\n\nDidier Meye: “After both parties present their c...\nen\n\n\n“After both parties present their claims, the court will present its final verdict on this case.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189556,\n\nIsabel Edmonds: “I call the case of the impeachment...\nen\n\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189664,\n\nOvid Grecer: “You may be seated.”\nen\n\n\n“You may be seated.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189772,\n\nDidier Meye: “Both parties will have the opportu...\nen\n\n\n“Both parties will have the opportunity to present their evidence.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189880,\n\nDidier Meye: “This case will proceed as follows....\nen\n\n\n“This case will proceed as follows.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9189988,\n\nDidier Meye: “The prosecution will be called upo...\nen\n\n\n“The prosecution will be called upon first, followed by the defendant.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4950
+                "x": 1620,
+                "y": 0
             }
         },
         {
             "id": "node_100",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9190096,\n\nNarrator: I looked at the Chief Justice Ovid...\nen\n\n\nI looked at the Chief Justice Ovid Grecer. After he was seated, he pulled out his reading glasses and quickly rifled through the documents in front of him."
+                "label": "Heron Garaci\n\n“Silence! I will not allow improper language in this courtroom!”"
             },
             "position": {
-                "x": 250,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190198,\n\nNarrator: He put down the papers and looked a...\nen\n\n\nHe put down the papers and looked at me."
-            },
-            "position": {
-                "x": 500,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190300,\n\nOvid Grecer: “This court is now in session.”\nen\n\n\n“This court is now in session.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190408,\n\nDidier Meye: “After both parties present their c...\nen\n\n\n“After both parties present their claims, the court will present its final verdict on this case.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_104",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190516,\n\nDidier Meye: “I call the case of the impeachment...\nen\n\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_105",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190624,\n\nOvid Grecer: “You may be seated.”\nen\n\n\n“You may be seated.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190732,\n\nDidier Meye: “Both parties will have the opportu...\nen\n\n\n“Both parties will have the opportunity to present their evidence.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190840,\n\nDidier Meye: “This case will proceed as follows....\nen\n\n\n“This case will proceed as follows.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9190948,\n\nDidier Meye: “The prosecution will be called upo...\nen\n\n\n“The prosecution will be called upon first, followed by the defendant.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9191334,\n\nHeron Garaci: “I call the case of the impeachment...\nen\n\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9191442,\n\nOrso Hawker: “You may be seated.”\nen\n\n\n“You may be seated.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9191550,\n\nOrso Hawker: “This court is now in session.”\nen\n\n\n“This court is now in session.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_112",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9191658,\n\nNarrator: He put down the papers and looked a...\nen\n\n\nHe put down the papers and looked at me."
-            },
-            "position": {
-                "x": 250,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9191760,\n\nNarrator: I looked at Chief Justice Orso Hawk...\nen\n\n\nI looked at Chief Justice Orso Hawker. After he was seated, he pulled out his reading glasses and quickly rifled through the documents in front of him."
-            },
-            "position": {
-                "x": 500,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_114",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9191862,\n\nNarrator: The Supreme Court justices entered...\nen\n\n\nThe Supreme Court justices entered and took their seats one by one."
-            },
-            "position": {
-                "x": 0,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9191970,\n\nOrso Hawker: “The evidence is clear and it has n...\nen\n\n\n“The evidence is clear and it has now been presented in the court.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9192078,\n\nOrso Hawker: “We will now proceed with the defen...\nen\n\n\n“We will now proceed with the defendant.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9192186,\n\nOrso Hawker: “In the light of these allegations,...\nen\n\n\n“In the light of these allegations, what do you have to say for yourself?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5850
+                "x": 1890,
+                "y": 0
             }
         },
         {
             "id": "node_118",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9192318,\n\nIsabel Edmonds: “The prosecution will be called upo...\nen\n\n\n“The prosecution will be called upon first, followed by the defendant.”"
+                "label": "Narrator\n\nWhere the hell were the justices?"
             },
             "position": {
-                "x": 250,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_119",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9192426,\n\nIsabel Edmonds: “After both parties present their c...\nen\n\n\n“After both parties present their claims, the court will present its final verdict on this case.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9192534,\n\nIsabel Edmonds: “Both parties will have the opportu...\nen\n\n\n“Both parties will have the opportunity to present their evidence.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_121",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9192642,\n\nIsabel Edmonds: “This case will proceed as follows....\nen\n\n\n“This case will proceed as follows.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_122",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9192750,\n\nIsabel Edmonds: “Chief Justice Hawker, please proce...\nen\n\n\n“Chief Justice Hawker, please proceed.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_123",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9192858,\n\nOrso Hawker: “Thank you, Ms. Edmonds.”\nen\n\n\n“Thank you, Ms. Edmonds.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6150
+                "x": 2160,
+                "y": 0
             }
         },
         {
             "id": "node_124",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9192966,\n\nOrso Hawker: “With the declaration of the emerge...\nen\n\n\n“With the declaration of the emergency, President Rayne modified and suspended the rights of freedom.”"
+                "label": "Narrator\n\nThe Supreme Court justices entered and took their seats one by one."
             },
             "position": {
-                "x": 250,
-                "y": 6150
+                "x": 2430,
+                "y": 0
             }
         },
         {
-            "id": "node_125",
-            "type": "default",
+            "id": "node_143",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193074,\n\nOrso Hawker: “Article 100 of the Constitution of...\nen\n\n\n“Article 100 of the Constitution of Sordland clearly states the following...”"
+                "label": "Narrator\n\nThe Supreme Court justices entered and took their seats one by one."
             },
             "position": {
-                "x": 500,
-                "y": 6150
+                "x": 2700,
+                "y": 0
             }
         },
         {
-            "id": "node_126",
-            "type": "default",
+            "id": "node_146",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193182,\n\nOrso Hawker: “...no State shall, in the case of...\nen\n\n\n“...no State shall, in the case of National Emergency, modify or suspend the rights of freedom, defined in Article 100 of the Constitution, unless actually invaded, or in such imminent danger as will not admit of delay.”"
+                "label": "Isabel Edmonds\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
             },
             "position": {
-                "x": 0,
-                "y": 6300
+                "x": 2970,
+                "y": 0
             }
         },
         {
-            "id": "node_127",
-            "type": "default",
+            "id": "node_157",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193290,\n\nOrso Hawker: “Previously, Supreme Court did not...\nen\n\n\n“Previously, Supreme Court did not find any imminent danger to the existence of Sordland and nullified the validity of this emergency act.”"
+                "label": "Isabel Edmonds\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
             },
             "position": {
-                "x": 250,
-                "y": 6300
+                "x": 3240,
+                "y": 0
             }
         },
         {
-            "id": "node_128",
-            "type": "default",
+            "id": "node_166",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193398,\n\nOrso Hawker: “...and high treason against Sordla...\nen\n\n\n“...and high treason against Sordland.”"
+                "label": "Didier Meye\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
             },
             "position": {
-                "x": 500,
-                "y": 6300
+                "x": 3510,
+                "y": 0
             }
         },
         {
-            "id": "node_129",
-            "type": "default",
+            "id": "node_174",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193506,\n\nOrso Hawker: “However, this court accepts the ca...\nen\n\n\n“However, this court accepts the case as a crime against Sordish people...”"
+                "label": "Heron Garaci\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”"
             },
             "position": {
-                "x": 0,
-                "y": 6450
+                "x": 3780,
+                "y": 0
             }
         },
         {
-            "id": "node_130",
-            "type": "default",
+            "id": "node_175",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193614,\n\nPlayer: “You were the one who told me to si...\nen\n\n\n“You were the one who told me to sign this act! You are involved in this too!\""
+                "label": "Orso Hawker\n\n“You may be seated.”"
             },
             "position": {
-                "x": 250,
-                "y": 6450
+                "x": 4050,
+                "y": 0
             }
         },
         {
-            "id": "node_131",
-            "type": "default",
+            "id": "node_183",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193620,\n\nPlayer: “You were the one who told me to si...\nMenu Text en\n\n\n“You were the one who told me to sign this act! You are involved in this too!\""
+                "label": "Isabel Edmonds\n\n“The prosecution will be called upon first, followed by the defendant.”"
             },
             "position": {
-                "x": 500,
-                "y": 6450
+                "x": 4320,
+                "y": 0
             }
         },
         {
-            "id": "node_132",
-            "type": "default",
+            "id": "node_194",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9193722,\n\nOrso Hawker: “Silence! I will not allow slander...\nen\n\n\n“Silence! I will not allow slander in this courtroom!”"
+                "label": "Orso Hawker\n\n“However, this court accepts the case as a crime against Sordish people...”"
             },
             "position": {
-                "x": 0,
-                "y": 6600
+                "x": 4860,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_195",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“You were the one who told me to sign this act! You are involved in this too!\""
+            },
+            "position": {
+                "x": 4860,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
-            "source": "node_1",
-            "target": "node_3",
-            "animated": true
-        },
-        {
-            "id": "e1",
-            "source": "node_3",
-            "target": "node_5",
-            "animated": true
-        },
-        {
-            "id": "e2",
-            "source": "node_3",
-            "target": "node_5",
-            "animated": true
-        },
-        {
-            "id": "e3",
-            "source": "node_4",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_5",
-            "target": "node_6",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_6",
-            "target": "node_4",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_7",
-            "target": "node_13",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_8",
-            "target": "node_17",
-            "animated": true
-        },
-        {
-            "id": "e8",
-            "source": "node_9",
-            "target": "node_18",
-            "animated": true
-        },
-        {
-            "id": "e9",
-            "source": "node_10",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e10",
-            "source": "node_11",
-            "target": "node_19",
-            "animated": true
-        },
-        {
-            "id": "e11",
-            "source": "node_12",
-            "target": "node_20",
-            "animated": true
-        },
-        {
-            "id": "e12",
-            "source": "node_13",
-            "target": "node_10",
-            "animated": true
-        },
-        {
-            "id": "e13",
+            "id": "e14_to_41",
             "source": "node_14",
             "target": "node_41",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e14",
-            "source": "node_14",
-            "target": "node_41",
-            "animated": true
-        },
-        {
-            "id": "e15",
+            "id": "e15_to_172",
             "source": "node_15",
             "target": "node_172",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e16",
-            "source": "node_15",
-            "target": "node_172",
-            "animated": true
-        },
-        {
-            "id": "e17",
+            "id": "e16_to_172",
             "source": "node_16",
             "target": "node_172",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e18",
-            "source": "node_17",
-            "target": "node_11",
-            "animated": true
-        },
-        {
-            "id": "e19",
+            "id": "e18_to_12",
             "source": "node_18",
             "target": "node_12",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e20",
-            "source": "node_19",
-            "target": "node_22",
-            "animated": true
-        },
-        {
-            "id": "e21",
-            "source": "node_20",
-            "target": "node_23",
-            "animated": true
-        },
-        {
-            "id": "e22",
-            "source": "node_21",
-            "target": "node_24",
-            "animated": true
-        },
-        {
-            "id": "e23",
-            "source": "node_22",
-            "target": "node_25",
-            "animated": true
-        },
-        {
-            "id": "e24",
-            "source": "node_23",
-            "target": "node_26",
-            "animated": true
-        },
-        {
-            "id": "e25",
-            "source": "node_24",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e26",
-            "source": "node_25",
-            "target": "node_29",
-            "animated": true
-        },
-        {
-            "id": "e27",
-            "source": "node_26",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e28",
-            "source": "node_27",
-            "target": "node_28",
-            "animated": true
-        },
-        {
-            "id": "e29",
-            "source": "node_28",
-            "target": "node_33",
-            "animated": true
-        },
-        {
-            "id": "e30",
-            "source": "node_29",
-            "target": "node_31",
-            "animated": true
-        },
-        {
-            "id": "e31",
-            "source": "node_30",
-            "target": "node_32",
-            "animated": true
-        },
-        {
-            "id": "e32",
-            "source": "node_31",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e33",
-            "source": "node_32",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e34",
-            "source": "node_33",
-            "target": "node_34",
-            "animated": true
-        },
-        {
-            "id": "e35",
-            "source": "node_34",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e36",
-            "source": "node_35",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e37",
-            "source": "node_39",
-            "target": "node_42",
-            "animated": true
-        },
-        {
-            "id": "e38",
+            "id": "e40_to_8",
             "source": "node_40",
             "target": "node_8",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e39",
-            "source": "node_50",
-            "target": "node_56",
-            "animated": true
-        },
-        {
-            "id": "e40",
-            "source": "node_54",
-            "target": "node_51",
-            "animated": true
-        },
-        {
-            "id": "e41",
-            "source": "node_58",
-            "target": "node_52",
-            "animated": true
-        },
-        {
-            "id": "e42",
-            "source": "node_59",
-            "target": "node_60",
-            "animated": true
-        },
-        {
-            "id": "e43",
-            "source": "node_60",
-            "target": "node_63",
-            "animated": true
-        },
-        {
-            "id": "e44",
-            "source": "node_61",
-            "target": "node_64",
-            "animated": true
-        },
-        {
-            "id": "e45",
-            "source": "node_62",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e46",
-            "source": "node_63",
-            "target": "node_67",
-            "animated": true
-        },
-        {
-            "id": "e47",
-            "source": "node_64",
-            "target": "node_67",
-            "animated": true
-        },
-        {
-            "id": "e48",
-            "source": "node_65",
-            "target": "node_67",
-            "animated": true
-        },
-        {
-            "id": "e49",
-            "source": "node_65",
-            "target": "node_67",
-            "animated": true
-        },
-        {
-            "id": "e50",
-            "source": "node_66",
-            "target": "node_79",
-            "animated": true
-        },
-        {
-            "id": "e51",
-            "source": "node_66",
-            "target": "node_79",
-            "animated": true
-        },
-        {
-            "id": "e52",
-            "source": "node_67",
-            "target": "node_97",
-            "animated": true
-        },
-        {
-            "id": "e53",
-            "source": "node_67",
-            "target": "node_97",
-            "animated": true
-        },
-        {
-            "id": "e54",
-            "source": "node_68",
-            "target": "node_74",
-            "animated": true
-        },
-        {
-            "id": "e55",
-            "source": "node_68",
-            "target": "node_74",
-            "animated": true
-        },
-        {
-            "id": "e56",
+            "id": "e69_to_88",
             "source": "node_69",
             "target": "node_88",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e57",
-            "source": "node_76",
-            "target": "node_71",
-            "animated": true
-        },
-        {
-            "id": "e58",
-            "source": "node_77",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e59",
-            "source": "node_81",
-            "target": "node_84",
-            "animated": true
-        },
-        {
-            "id": "e60",
+            "id": "e82_to_109",
             "source": "node_82",
             "target": "node_109",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e61",
-            "source": "node_86",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e62",
-            "source": "node_90",
-            "target": "node_93",
-            "animated": true
-        },
-        {
-            "id": "e63",
-            "source": "node_91",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e64",
-            "source": "node_95",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e65",
-            "source": "node_99",
-            "target": "node_102",
-            "animated": true
-        },
-        {
-            "id": "e66",
+            "id": "e100_to_109",
             "source": "node_100",
             "target": "node_109",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e67",
-            "source": "node_104",
-            "target": "node_105",
-            "animated": true
-        },
-        {
-            "id": "e68",
-            "source": "node_111",
-            "target": "node_106",
-            "animated": true
-        },
-        {
-            "id": "e69",
-            "source": "node_112",
-            "target": "node_117",
-            "animated": true
-        },
-        {
-            "id": "e70",
-            "source": "node_113",
-            "target": "node_117",
-            "animated": true
-        },
-        {
-            "id": "e71",
-            "source": "node_114",
-            "target": "node_117",
-            "animated": true
-        },
-        {
-            "id": "e72",
-            "source": "node_115",
-            "target": "node_119",
-            "animated": true
-        },
-        {
-            "id": "e73",
-            "source": "node_116",
-            "target": "node_120",
-            "animated": true
-        },
-        {
-            "id": "e74",
-            "source": "node_117",
-            "target": "node_118",
-            "animated": true
-        },
-        {
-            "id": "e75",
+            "id": "e118_to_115",
             "source": "node_118",
             "target": "node_115",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e76",
-            "source": "node_119",
-            "target": "node_116",
-            "animated": true
-        },
-        {
-            "id": "e77",
+            "id": "e124_to_48",
             "source": "node_124",
             "target": "node_48",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e78",
-            "source": "node_140",
-            "target": "node_143",
-            "animated": true
-        },
-        {
-            "id": "e79",
-            "source": "node_141",
-            "target": "node_154",
-            "animated": true
-        },
-        {
-            "id": "e80",
-            "source": "node_142",
-            "target": "node_153",
-            "animated": true
-        },
-        {
-            "id": "e81",
+            "id": "e143_to_9",
             "source": "node_143",
             "target": "node_9",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e82",
-            "source": "node_144",
-            "target": "node_163",
-            "animated": true
-        },
-        {
-            "id": "e83",
-            "source": "node_145",
-            "target": "node_146",
-            "animated": true
-        },
-        {
-            "id": "e84",
+            "id": "e146_to_37",
             "source": "node_146",
             "target": "node_37",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e85",
-            "source": "node_147",
-            "target": "node_148",
-            "animated": true
-        },
-        {
-            "id": "e86",
-            "source": "node_148",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e87",
-            "source": "node_149",
-            "target": "node_145",
-            "animated": true
-        },
-        {
-            "id": "e88",
-            "source": "node_150",
-            "target": "node_147",
-            "animated": true
-        },
-        {
-            "id": "e89",
-            "source": "node_151",
-            "target": "node_150",
-            "animated": true
-        },
-        {
-            "id": "e90",
-            "source": "node_152",
-            "target": "node_151",
-            "animated": true
-        },
-        {
-            "id": "e91",
-            "source": "node_153",
-            "target": "node_152",
-            "animated": true
-        },
-        {
-            "id": "e92",
-            "source": "node_154",
-            "target": "node_155",
-            "animated": true
-        },
-        {
-            "id": "e93",
-            "source": "node_155",
-            "target": "node_156",
-            "animated": true
-        },
-        {
-            "id": "e94",
-            "source": "node_156",
-            "target": "node_159",
-            "animated": true
-        },
-        {
-            "id": "e95",
+            "id": "e157_to_37",
             "source": "node_157",
             "target": "node_37",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e96",
-            "source": "node_158",
-            "target": "node_161",
-            "animated": true
-        },
-        {
-            "id": "e97",
-            "source": "node_159",
-            "target": "node_158",
-            "animated": true
-        },
-        {
-            "id": "e98",
-            "source": "node_160",
-            "target": "node_162",
-            "animated": true
-        },
-        {
-            "id": "e99",
-            "source": "node_161",
-            "target": "node_160",
-            "animated": true
-        },
-        {
-            "id": "e100",
-            "source": "node_162",
-            "target": "node_157",
-            "animated": true
-        },
-        {
-            "id": "e101",
-            "source": "node_163",
-            "target": "node_164",
-            "animated": true
-        },
-        {
-            "id": "e102",
-            "source": "node_164",
-            "target": "node_165",
-            "animated": true
-        },
-        {
-            "id": "e103",
-            "source": "node_165",
-            "target": "node_168",
-            "animated": true
-        },
-        {
-            "id": "e104",
+            "id": "e166_to_37",
             "source": "node_166",
             "target": "node_37",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e105",
-            "source": "node_167",
-            "target": "node_170",
-            "animated": true
-        },
-        {
-            "id": "e106",
-            "source": "node_168",
-            "target": "node_167",
-            "animated": true
-        },
-        {
-            "id": "e107",
-            "source": "node_169",
-            "target": "node_171",
-            "animated": true
-        },
-        {
-            "id": "e108",
-            "source": "node_170",
-            "target": "node_169",
-            "animated": true
-        },
-        {
-            "id": "e109",
+            "id": "e174_to_126",
             "source": "node_174",
             "target": "node_126",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e110",
+            "id": "e175_to_187",
             "source": "node_175",
             "target": "node_187",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e111",
-            "source": "node_176",
-            "target": "node_175",
-            "animated": true
-        },
-        {
-            "id": "e112",
-            "source": "node_177",
-            "target": "node_176",
-            "animated": true
-        },
-        {
-            "id": "e113",
-            "source": "node_178",
-            "target": "node_177",
-            "animated": true
-        },
-        {
-            "id": "e114",
-            "source": "node_179",
-            "target": "node_178",
-            "animated": true
-        },
-        {
-            "id": "e115",
-            "source": "node_180",
-            "target": "node_179",
-            "animated": true
-        },
-        {
-            "id": "e116",
-            "source": "node_181",
-            "target": "node_182",
-            "animated": true
-        },
-        {
-            "id": "e117",
-            "source": "node_182",
-            "target": "node_183",
-            "animated": true
-        },
-        {
-            "id": "e118",
+            "id": "e183_to_67",
             "source": "node_183",
             "target": "node_67",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e119",
-            "source": "node_184",
-            "target": "node_185",
-            "animated": true
-        },
-        {
-            "id": "e120",
-            "source": "node_185",
-            "target": "node_188",
-            "animated": true
-        },
-        {
-            "id": "e121",
-            "source": "node_186",
-            "target": "node_184",
-            "animated": true
-        },
-        {
-            "id": "e122",
-            "source": "node_187",
-            "target": "node_186",
-            "animated": true
-        },
-        {
-            "id": "e123",
-            "source": "node_188",
-            "target": "node_189",
-            "animated": true
-        },
-        {
-            "id": "e124",
-            "source": "node_189",
-            "target": "node_190",
-            "animated": true
-        },
-        {
-            "id": "e125",
-            "source": "node_190",
-            "target": "node_191",
-            "animated": true
-        },
-        {
-            "id": "e126",
-            "source": "node_191",
-            "target": "node_192",
-            "animated": true
-        },
-        {
-            "id": "e127",
-            "source": "node_192",
-            "target": "node_193",
-            "animated": true
-        },
-        {
-            "id": "e128",
-            "source": "node_193",
-            "target": "node_195",
-            "animated": true
-        },
-        {
-            "id": "e129",
+            "id": "e194_to_181",
             "source": "node_194",
             "target": "node_181",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e130",
+            "id": "e195_to_194",
             "source": "node_195",
             "target": "node_194",
-            "animated": true
-        },
-        {
-            "id": "e131",
-            "source": "node_195",
-            "target": "node_194",
-            "animated": true
-        },
-        {
-            "id": "e132",
-            "source": "node_196",
-            "target": "node_197",
-            "animated": true
+            "type": "step"
         }
     ]
 }

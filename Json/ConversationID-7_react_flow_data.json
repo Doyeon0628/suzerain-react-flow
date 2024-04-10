@@ -1,91 +1,23 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
+            "id": "node_6",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 1745608,\n\nNarrator: Symon Holl sat right across from me...\nen\n\n\nSymon Holl sat right across from me."
+                "label": "Symon Holl\n\n\"I will get to work on it immediately.\""
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 1745716,\n\nSymon Holl: What will our grand economic plan...\nen\n\n\n\"What will our grand economic plan be, Mr. President?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 1745826,\n\nPlayer: Promote market economy.\nen\n\n\n\"Promote market economy.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 1745928,\n\nPlayer: Promote planned economy.\nen\n\n\n\"Promote planned economy.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 1746030,\n\nSymon Holl: I will get to work on it immediate...\nen\n\n\n\"I will get to work on it immediately.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 150
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
-            "source": "node_1",
-            "target": "node_3",
-            "animated": true
-        },
-        {
-            "id": "e1",
-            "source": "node_3",
-            "target": "node_4",
-            "animated": true
-        },
-        {
-            "id": "e2",
-            "source": "node_4",
-            "target": "node_6",
-            "animated": true
-        },
-        {
-            "id": "e3",
-            "source": "node_5",
-            "target": "node_7",
-            "animated": true
-        },
-        {
-            "id": "e4",
+            "id": "e6_to_7",
             "source": "node_6",
             "target": "node_7",
-            "animated": true
+            "type": "step"
         }
     ]
 }

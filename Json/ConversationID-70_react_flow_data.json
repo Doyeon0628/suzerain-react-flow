@@ -1,4443 +1,839 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3450677,\n\nNarrator: Sordland One's flight from Holsord...\nen\n\n\nSordland One's flight from Holsord to Wraclawitz took approximately five hours. Despite heavy turbulence, I managed to sleep a little."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
             "id": "node_1",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3450785,\n\nNarrator: Symon, Deivid and I landed at the i...\nen\n\n\nSymon, Deivid and I landed at the international airport of the capital city of Wehlen. Our aim here was to finalise the trade deal drafted between Sordland and Wehlen."
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3450887,\n\nNarrator: Our plane landed, and the door open...\nen\n\n\nOur plane landed, and the door opened. The sun blinded me for a moment. I stepped outside."
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3450989,\n\nNarrator: I saw the soldiers lined up on eith...\nen\n\n\nI saw the soldiers lined up on either side of a red carpet. There must've been at least a hundred of them. A marching band started playing and the soldiers immediately saluted me."
+                "label": "Narrator\n\nSordland One's flight from Holsord to Wraclawitz took approximately five hours. Despite heavy turbulence, I managed to sleep a little."
             },
             "position": {
                 "x": 0,
-                "y": 150
+                "y": 0
             }
         },
         {
             "id": "node_4",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3451099,\n\nPlayer: “Nice to see you, Mr. President.”\nen\n\n\n“Nice to see you, Mr. President.”"
+                "label": "Narrator\n\nOur plane landed, and the door opened. The sun blinded me for a moment. I stepped outside."
             },
             "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451105,\n\nPlayer: “Nice to see you, Mr. President.”\nMenu Text en\n\n\n“Nice to see you, Mr. President.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451207,\n\nPlayer_Italic: I saluted the soldiers.\nen\n\n\nI saluted the soldiers."
-            },
-            "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451213,\n\nPlayer_Italic: I saluted the soldiers.\nMenu Text en\n\n\nSalute the soldiers."
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451315,\n\nPlayer_Italic: I walked downstairs and proceeded w...\nen\n\n\nI walked downstairs and proceeded without any gestures."
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451321,\n\nPlayer_Italic: I walked downstairs and proceeded w...\nMenu Text en\n\n\nProceed to the red carpet without any gestures."
-            },
-            "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451423,\n\nNarrator: At the bottom of the stairs, Wiktor...\nen\n\n\nAt the bottom of the stairs, Wiktor Smolak was waiting for me next to a military jeep with a few soldiers by his side. There were a few reporters at the edge of the crowd, waiting with their cameras."
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_11",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451525,\n\nNarrator: He was a tall man, almost as tall a...\nen\n\n\nHe was a tall man, almost as tall as me. He was wearing large sunglasses and a regular suit, contrasting with the military attire of everyone else in the field."
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451633,\n\nWiktor Smolak: “Mr. President. Welcome to Wraclawi...\nen\n\n\n“Mr. President. Welcome to Wraclawitz.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451735,\n\nNarrator: He immediately motioned for an embr...\nen\n\n\nHe immediately motioned for an embrace. We hugged and many cameras went off at the same time. He turned around for a couple of additional poses."
-            },
-            "position": {
-                "x": 250,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451853,\n\nPlayer: “Thank you for inviting us.”\nen\n\n\n“Thank you for inviting us.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451859,\n\nPlayer: “Thank you for inviting us.”\nMenu Text en\n\n\n“Thank you for inviting us.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451961,\n\nPlayer_Italic: I pulled him aside for a couple of...\nen\n\n\nI pulled him aside for a couple of more poses."
-            },
-            "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3451967,\n\nPlayer_Italic: I pulled him aside for a couple of...\nMenu Text en\n\n\nPull him aside for a couple of more poses yourself."
-            },
-            "position": {
-                "x": 500,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_18",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452069,\n\nWiktor Smolak: “Now that the pleasantries are done...\nen\n\n\n“Now that the pleasantries are done, let's go! We will take the jeep for a tour.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452171,\n\nNarrator: With another tune from the marching...\nen\n\n\nWith another tune from the marching band, we boarded the military jeep. He sat in the driver's seat and I sat next to him."
-            },
-            "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452273,\n\nNarrator: As we started speeding up, the sold...\nen\n\n\nAs we started speeding up, the soldiers saluted again. Wiktor saluted back."
-            },
-            "position": {
-                "x": 500,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452383,\n\nPlayer_Italic: I saluted the soldiers.\nen\n\n\nI saluted the soldiers."
-            },
-            "position": {
-                "x": 0,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_22",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452389,\n\nPlayer_Italic: I saluted the soldiers.\nMenu Text en\n\n\nSalute the soldiers."
-            },
-            "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452491,\n\nPlayer_Italic: I did nothing.\nen\n\n\nI did nothing."
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_24",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452497,\n\nPlayer_Italic: I did nothing.\nMenu Text en\n\n\nDo nothing."
-            },
-            "position": {
-                "x": 0,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452599,\n\nWiktor Smolak: “We will first go to the city cente...\nen\n\n\n“We will first go to the city center to see the unveiling of a statue.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452717,\n\nNarrator: Both of our security details starte...\nen\n\n\nBoth of our security details started following us immediately, along with a team of reporters."
-            },
-            "position": {
-                "x": 500,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452819,\n\nPlayer: “Whose statue?”\nen\n\n\n“Whose statue?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452825,\n\nPlayer: “Whose statue?”\nMenu Text en\n\n\n“Whose statue?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452927,\n\nPlayer: “Sounds ...exciting.”\nen\n\n\n“Sounds ...exciting.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_30",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3452933,\n\nPlayer: “Sounds ...exciting.”\nMenu Text en\n\n\n“Sounds ...exciting.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453035,\n\nPlayer: “I'd rather not waste time. Let's g...\nen\n\n\n“I'd rather not waste time. Let's get straight to business.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453041,\n\nPlayer: “I'd rather not waste time. Let's g...\nMenu Text en\n\n\n“I'd rather not waste time. Let's get straight to business.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453143,\n\nWiktor Smolak: “Ah, Mr. President. I must insist....\nen\n\n\n“Ah, Mr. President. I must insist. Also, I am in the driver's seat.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_34",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453245,\n\nWiktor Smolak: “This is an important occasion for...\nen\n\n\n“This is an important occasion for Wehlen. I am sure you will like it.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_35",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453347,\n\nWiktor Smolak: “Mine, of course.”\nen\n\n\n“Mine, of course.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453449,\n\nNarrator: We kept making small talk about the...\nen\n\n\nWe kept making small talk about the flight and the weather as we made our way towards the city center."
-            },
-            "position": {
-                "x": 0,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453551,\n\nNarrator: On almost every corner, there were...\nen\n\n\nOn almost every corner, there were reporters taking photos of us. Aside from them, though, the streets seemed completely empty."
-            },
-            "position": {
-                "x": 250,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_38",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453669,\n\nPlayer: “Is Wraclawitz always this empty?”\nen\n\n\n“Is Wraclawitz always this empty?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_39",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453675,\n\nPlayer: “Is Wraclawitz always this empty?”\nMenu Text en\n\n\n“Is Wraclawitz always this empty?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_40",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453777,\n\nPlayer: “Is this all a big photo op for you...\nen\n\n\n“Is this all a big photo op for you?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453783,\n\nPlayer: “Is this all a big photo op for you...\nMenu Text en\n\n\n“Is this all a big photo op for you?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453885,\n\nWiktor Smolak: “I had this part of the city close...\nen\n\n\n“I had this part of the city close down because of your visit so that you could enjoy the city in peace.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3453987,\n\nWiktor Smolak: “It is a good opportunity to show t...\nen\n\n\n“It is a good opportunity to show the world our unity in Eastern Merkopa. We must display our unified strength to Rumburg.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454089,\n\nPlayer: “How long is this going to take?”\nen\n\n\n“How long is this going to take?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454095,\n\nPlayer: “How long is this going to take?”\nMenu Text en\n\n\n“How long is this going to take?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454197,\n\nWiktor Smolak: “Patience is a virtue. We will be d...\nen\n\n\n“Patience is a virtue. We will be done soon, and then we can discuss our trade deal.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454299,\n\nWiktor Smolak: “There we are.”\nen\n\n\n“There we are.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_48",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454401,\n\nNarrator: We arrived at the center. In the mi...\nen\n\n\nWe arrived at the center. In the middle of a large plaza, there was a covered statue. Large crowds of people were gathered behind fences. waving both Sordland and Wehlen flags. Wiktor waved back at them."
-            },
-            "position": {
-                "x": 0,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454503,\n\nWiktor Smolak: “My people have been very supportiv...\nen\n\n\n“My people have been very supportive of this visit, Mr. President. I am sure you are delighted to see them.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454605,\n\nNarrator: A man came closer to the fences and...\nen\n\n\nA man came closer to the fences and started yelling at Wiktor. With my limited knowledge of the Wehzek language, I understood the words 'Wiktor' and 'murderer'."
-            },
-            "position": {
-                "x": 500,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454707,\n\nNarrator: Almost instantaneously, two soldier...\nen\n\n\nAlmost instantaneously, two soldiers came up from behind the man and he was taken away."
-            },
-            "position": {
-                "x": 0,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_52",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454809,\n\nWiktor Smolak: “Thankfully the sun is out. Today w...\nen\n\n\n“Thankfully the sun is out. Today will be a good day for the reveal.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454927,\n\nPlayer: “I see that you know how to handle...\nen\n\n\n“I see that you know how to handle dissidents. Very good.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_54",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3454933,\n\nPlayer: “I see that you know how to handle...\nMenu Text en\n\n\n“I see that you know how to handle dissidents. Very good.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455035,\n\nPlayer: “What will happen to the man who wa...\nen\n\n\n“What will happen to the man who was protesting you?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455041,\n\nPlayer: “What will happen to the man who wa...\nMenu Text en\n\n\n“What will happen to the man who was protesting you?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455143,\n\nPlayer: “Very good.”\nen\n\n\n“Very good.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455149,\n\nPlayer: “Very good.”\nMenu Text en\n\n\n“Very good.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455251,\n\nWiktor Smolak: “Oh, which man? That one in the cro...\nen\n\n\n“Oh, which man? That one in the crowd?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_60",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455353,\n\nWiktor Smolak: “Don't worry about the details. He...\nen\n\n\n“Don't worry about the details. He must've been a troubled fellow. Let's focus on the event.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_61",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455455,\n\nWiktor Smolak: “I am glad you approve. We are of t...\nen\n\n\n“I am glad you approve. We are of the same mind.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455557,\n\nWiktor Smolak: “See, I knew we would get along fin...\nen\n\n\n“See, I knew we would get along fine.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455659,\n\nWiktor Smolak: “Let's take our places.”\nen\n\n\n“Let's take our places.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455761,\n\nNarrator: We took our places in front of the...\nen\n\n\nWe took our places in front of the statue. With a drumroll, the statue of Wiktor Smolak was uncovered."
-            },
-            "position": {
-                "x": 250,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_65",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455863,\n\nNarrator: It was a fairly good likeness, albe...\nen\n\n\nIt was a fairly good likeness, albeit more muscular than the real Wiktor. He was wearing a cloak and holding a sword in his hand."
-            },
-            "position": {
-                "x": 500,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3455965,\n\nWiktor Smolak: “Excellent statue. Very lifelike. W...\nen\n\n\n“Excellent statue. Very lifelike. What do you think?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456083,\n\nPlayer: “Our artists can do better in Sordl...\nen\n\n\n“Our artists can do better in Sordland.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456089,\n\nPlayer: “Our artists can do better in Sordl...\nMenu Text en\n\n\n“Our artists can do better in Sordland.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456191,\n\nPlayer: “Yes, it's very good. Very lifelike...\nen\n\n\n“Yes, it's very good. Very lifelike.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456197,\n\nPlayer: “Yes, it's very good. Very lifelike...\nMenu Text en\n\n\n“Yes, it's very good. Very lifelike.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456299,\n\nPlayer: “Mr. Smolak, I don't have time for...\nen\n\n\n“Mr. Smolak, I don't have time for these games. Let's get straight to the business.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456305,\n\nPlayer: “Mr. Smolak, I don't have time for...\nMenu Text en\n\n\n“Mr. Smolak, I don't have time for these games. Let's get straight to the business.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456407,\n\nWiktor Smolak: “Don't worry. We will.”\nen\n\n\n“Don't worry. We will.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456509,\n\nWiktor Smolak: “Glad you appreciate the art behind...\nen\n\n\n“Glad you appreciate the art behind it.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456611,\n\nNarrator: His face soured.\nen\n\n\nHis face soured."
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456713,\n\nWiktor Smolak: “Well...then I'd like to contact on...\nen\n\n\n“Well...then I'd like to contact one.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456815,\n\nNarrator: He turned to the soldiers and start...\nen\n\n\nHe turned to the soldiers and started yelling at them in Wehzek. The soldiers covered the statue again."
-            },
-            "position": {
-                "x": 500,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3456917,\n\nWiktor Smolak: “Join me for a walk.”\nen\n\n\n“Join me for a walk.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457019,\n\nNarrator: I followed him through the streets....\nen\n\n\nI followed him through the streets. At every corner, more and more photos were taken."
-            },
-            "position": {
-                "x": 250,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457121,\n\nNarrator: We stopped in front of a pastry ven...\nen\n\n\nWe stopped in front of a pastry vendor on the street."
-            },
-            "position": {
-                "x": 500,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457223,\n\nWiktor Smolak: “Give me two strudels.”\nen\n\n\n“Give me two strudels.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457325,\n\nNarrator: The man behind the stand smiled and...\nen\n\n\nThe man behind the stand smiled and gave us two strudels."
-            },
-            "position": {
-                "x": 250,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457443,\n\nPlayer_Italic: I put my hand on my wallet and brou...\nen\n\n\nI put my hand on my wallet and brought up some money to give the vendor."
-            },
-            "position": {
-                "x": 500,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457449,\n\nPlayer_Italic: I put my hand on my wallet and brou...\nMenu Text en\n\n\nPay the street vendor."
-            },
-            "position": {
-                "x": 0,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457551,\n\nPlayer: “Are you going to pay for it?”\nen\n\n\n“Are you going to pay for it?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457557,\n\nPlayer: “Are you going to pay for it?”\nMenu Text en\n\n\n“Are you going to pay for it?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4200
+                "x": 270,
+                "y": 0
             }
         },
         {
             "id": "node_87",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3457659,\n\nPlayer_Italic: I waited for him to pay the street...\nen\n\n\nI waited for him to pay the street vendor. He simply took the two strudels and didn't pay anything."
+                "label": "Player\n\n“I don't smoke.”"
             },
             "position": {
-                "x": 0,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457665,\n\nPlayer_Italic: I waited for him to pay the street...\nMenu Text en\n\n\nWait for him to pay the street vendor."
-            },
-            "position": {
-                "x": 250,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457783,\n\nWiktor Smolak: “Of course, Mr. Rayne! Smolak's got...\nen\n\n\n“Of course, Mr. Rayne! Smolak's got your back!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_90",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457885,\n\nWiktor Smolak: “Hold up. Your money doesn't count...\nen\n\n\n“Hold up. Your money doesn't count here. I got this.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3457987,\n\nNarrator: He handed the money to the street v...\nen\n\n\nHe handed the money to the street vendor with a huge smile on his face. The cameras flashed again."
-            },
-            "position": {
-                "x": 250,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_92",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458089,\n\nPlayer_Italic: I kept walking alongside Wiktor.\nen\n\n\nI kept walking alongside Wiktor."
-            },
-            "position": {
-                "x": 500,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458095,\n\nPlayer_Italic: I kept walking alongside Wiktor.\nMenu Text en\n\n\nKeep walking."
-            },
-            "position": {
-                "x": 0,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_94",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458197,\n\nNarrator: Afterwards, we walked a short dista...\nen\n\n\nAfterwards, we walked a short distance to the palace."
-            },
-            "position": {
-                "x": 250,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458299,\n\nNarrator: Passing the gates, we made our way...\nen\n\n\nPassing the gates, we made our way into the main building made from ivory-colored stones. The old guard towers flanked the magnificent structure from both sides."
-            },
-            "position": {
-                "x": 500,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458401,\n\nNarrator: The inside of the palace was very s...\nen\n\n\nThe inside of the palace was very spacious, with a very large chandelier hanging from the ceiling. Grand staircases made from the same ivory stone had red carpets on them. On the upper levels, guards stood wearing the traditional outfits of the old Wehzek kingdom."
-            },
-            "position": {
-                "x": 0,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458503,\n\nNarrator: We finally reached the office of th...\nen\n\n\nWe finally reached the office of the President of Wehlen. The door closed behind us. I looked around at the golden ornaments on the walls and the various jewel-encrusted artifacts."
-            },
-            "position": {
-                "x": 250,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458605,\n\nNarrator: As it was customary in Wehlen, we s...\nen\n\n\nAs it was customary in Wehlen, we sat down on the carpet."
-            },
-            "position": {
-                "x": 500,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458707,\n\nWiktor Smolak: “Now we can talk about our trade de...\nen\n\n\n“Now we can talk about our trade deal.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4950
+                "x": 540,
+                "y": 0
             }
         },
         {
             "id": "node_100",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3458817,\n\nPlayer: “Finally.”\nen\n\n\n“Finally.”"
+                "label": "Wiktor Smolak\n\n“I know you have put an embargo on Rumburg, and I congratulate you for standing up to them. But let me ask you a question. What do you really think about Rumburg?”"
             },
             "position": {
-                "x": 250,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458823,\n\nPlayer: “Finally.”\nMenu Text en\n\n\n“Finally.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458925,\n\nPlayer_Italic: I nodded.\nen\n\n\nI nodded."
-            },
-            "position": {
-                "x": 0,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3458931,\n\nPlayer_Italic: I nodded.\nMenu Text en\n\n\nNod."
-            },
-            "position": {
-                "x": 250,
-                "y": 5100
+                "x": 810,
+                "y": 0
             }
         },
         {
             "id": "node_104",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3459033,\n\nWiktor Smolak: “But before that.”\nen\n\n\n“But before that.”"
+                "label": "Wiktor Smolak\n\n“Exactly! To hell with Rumburg! I like you already, Anton!”"
             },
             "position": {
-                "x": 500,
-                "y": 5100
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_105",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3459135,\n\nNarrator: He clapped his hands twice.\nen\n\n\nHe clapped his hands twice."
+                "label": "Wiktor Smolak\n\n“I agree with your sentiments, Anton. They are a threat to everyone in the region.”"
             },
             "position": {
-                "x": 0,
-                "y": 5250
+                "x": 1350,
+                "y": 0
             }
         },
         {
             "id": "node_106",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3459237,\n\nWiktor Smolak: “Bring the Khisha.”\nen\n\n\n“Bring the Khisha.”"
+                "label": "Wiktor Smolak\n\n“I wouldn't be so sure, Anton.”"
             },
             "position": {
-                "x": 250,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459339,\n\nNarrator: A few assistants immediately entere...\nen\n\n\nA few assistants immediately entered the room, carrying a large ornamented Khisha, the well-known smoking instrument originating from Wehlen. They immediately lit it up and the room was filled with the smell of tobacco."
-            },
-            "position": {
-                "x": 500,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459441,\n\nNarrator: Wiktor inhaled the smoke and handed...\nen\n\n\nWiktor inhaled the smoke and handed me the Khisha."
-            },
-            "position": {
-                "x": 0,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459551,\n\nPlayer_Italic: I inhaled the smoke.\nen\n\n\nI inhaled the smoke."
-            },
-            "position": {
-                "x": 250,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459557,\n\nPlayer_Italic: I inhaled the smoke.\nMenu Text en\n\n\nPartake."
-            },
-            "position": {
-                "x": 500,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459659,\n\nPlayer: “I don't smoke.”\nen\n\n\n“I don't smoke.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_112",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459665,\n\nPlayer: “I don't smoke.”\nMenu Text en\n\n\n“I don't smoke.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459767,\n\nWiktor Smolak: “Your loss. It's the finest tobacco...\nen\n\n\n“Your loss. It's the finest tobacco in the land.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5550
+                "x": 1620,
+                "y": 0
             }
         },
         {
             "id": "node_114",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3459869,\n\nWiktor Smolak: “So... Mr. President. Bah, that's t...\nen\n\n\n“So... Mr. President. Bah, that's too long. Can I call you Anton?”"
+                "label": "Player\n\n“Regardless, I would rather prevent further conflict in the region.”"
             },
             "position": {
-                "x": 0,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3459979,\n\nNarrator: He took another puff, filling the r...\nen\n\n\nHe took another puff, filling the room with more smoke."
-            },
-            "position": {
-                "x": 250,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3460081,\n\nPlayer: “I prefer my official title.”\nen\n\n\n“I prefer my official title.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3460087,\n\nPlayer: “I prefer my official title.”\nMenu Text en\n\n\n“I prefer my official title.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5850
+                "x": 1890,
+                "y": 0
             }
         },
         {
             "id": "node_118",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3460189,\n\nPlayer: “Sure.”\nen\n\n\n“Sure.”"
+                "label": "Wiktor Smolak\n\n“You know as well as I do, Anton. They are coming whether we like it or not. They are the aggressor, not us.”"
             },
             "position": {
-                "x": 250,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_119",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3460195,\n\nPlayer: “Sure.”\nMenu Text en\n\n\n“Sure.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3460393,\n\nWiktor Smolak: “Very well, Mr. President.”\nen\n\n\n“Very well, Mr. President.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_121",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3460495,\n\nWiktor Smolak: “Anton.”\nen\n\n\n“Anton.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_122",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3460597,\n\nWiktor Smolak: “Tell me. What do you really think...\nen\n\n\n“Tell me. What do you really think about Rumburg?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6000
+                "x": 2160,
+                "y": 0
             }
         },
         {
             "id": "node_123",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3461001,\n\nWiktor Smolak: “I know you have put an embargo on...\nen\n\n\n“I know you have put an embargo on Rumburg, and I congratulate you for standing up to them. But let me ask you a question. What do you really think about Rumburg?”"
+                "label": "Player\n\n“Not much in particular. Like any other country, they have their needs and their own agenda.”"
             },
             "position": {
-                "x": 0,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_124",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461119,\n\nPlayer: “They are a threat to the region.”\nen\n\n\n“They are a threat to the region.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_125",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461125,\n\nPlayer: “They are a threat to the region.”\nMenu Text en\n\n\n“They are a threat to the region.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_126",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461227,\n\nPlayer: “A barking dog doesn't bite.”\nen\n\n\n“A barking dog doesn't bite.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461233,\n\nPlayer: “A barking dog doesn't bite.”\nMenu Text en\n\n\n“A barking dog doesn't bite.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461335,\n\nPlayer: “They can go to hell!”\nen\n\n\n“They can go to hell!”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461341,\n\nPlayer: “They can go to hell!”\nMenu Text en\n\n\n“They can go to hell!”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_130",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461443,\n\nWiktor Smolak: “Exactly! To hell with Rumburg! I l...\nen\n\n\n“Exactly! To hell with Rumburg! I like you already, Anton!”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_131",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461545,\n\nWiktor Smolak: “I agree with your sentiments, Anto...\nen\n\n\n“I agree with your sentiments, Anton. They are a threat to everyone in the region.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_132",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3461647,\n\nWiktor Smolak: “I wouldn't be so sure, Anton.”\nen\n\n\n“I wouldn't be so sure, Anton.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_133",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462027,\n\nWiktor Smolak: “I wouldn't be so sure, Mr. Preside...\nen\n\n\n“I wouldn't be so sure, Mr. President.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_134",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462129,\n\nWiktor Smolak: “I assure you their time will come....\nen\n\n\n“I assure you their time will come.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462247,\n\nPlayer: “Are you planning something?”\nen\n\n\n“Are you planning something?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6750
-            }
-        },
-        {
-            "id": "node_136",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462253,\n\nPlayer: “Are you planning something?”\nMenu Text en\n\n\n“Are you planning something?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6750
+                "x": 2430,
+                "y": 0
             }
         },
         {
             "id": "node_137",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3462355,\n\nPlayer: “In due time, yes.”\nen\n\n\n“In due time, yes.”"
+                "label": "Wiktor Smolak\n\n“We must be careful, Mr. President.”"
             },
             "position": {
-                "x": 500,
-                "y": 6750
+                "x": 2700,
+                "y": 0
             }
         },
         {
             "id": "node_138",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3462361,\n\nPlayer: “In due time, yes.”\nMenu Text en\n\n\n“In due time, yes.”"
+                "label": "Player\n\n“What is it?”"
             },
             "position": {
-                "x": 0,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462463,\n\nPlayer: “Regardless, I would rather prevent...\nen\n\n\n“Regardless, I would rather prevent further conflict in the region.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462469,\n\nPlayer: “Regardless, I would rather prevent...\nMenu Text en\n\n\n“Regardless, I would rather prevent further conflict in the region.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_141",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462571,\n\nWiktor Smolak: “Well...”\nen\n\n\n“Well...”"
-            },
-            "position": {
-                "x": 0,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_142",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462673,\n\nWiktor Smolak: “Not yet.”\nen\n\n\n“Not yet.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_143",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3462775,\n\nWiktor Smolak: “First, I need to solve some proble...\nen\n\n\n“First, I need to solve some problems they are creating for me.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7050
+                "x": 2970,
+                "y": 0
             }
         },
         {
             "id": "node_144",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3462885,\n\nWiktor Smolak: “You know as well as I do, Anton. T...\nen\n\n\n“You know as well as I do, Anton. They are coming whether we like it or not. They are the aggressor, not us.”"
+                "label": "Wiktor Smolak\n\n“I call it Operation Bear Trap.”"
             },
             "position": {
-                "x": 0,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_145",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3463265,\n\nWiktor Smolak: “You know as well as I do, Mr. Pres...\nen\n\n\n“You know as well as I do, Mr. President. They are coming whether we like it or not. They are the aggressor, not us.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7200
+                "x": 3240,
+                "y": 0
             }
         },
         {
             "id": "node_146",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3463367,\n\nPlayer: “Not much in particular. Like any o...\nen\n\n\n“Not much in particular. Like any other country, they have their needs and their own agenda.”"
+                "label": "Player\n\n“What do you want from me?”"
             },
             "position": {
-                "x": 500,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_147",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3463373,\n\nPlayer: “Not much in particular. Like any o...\nMenu Text en\n\n\n“Not much in particular. Like any other country, they have their needs and their own agenda.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 7350
+                "x": 3510,
+                "y": 0
             }
         },
         {
             "id": "node_148",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3463475,\n\nWiktor Smolak: “Yes, they do. But their ambitions...\nen\n\n\n“Yes, they do. But their ambitions are over Wehlen and Sordland.”"
+                "label": "Wiktor Smolak\n\n“Here is the deal. I will give you objectively the *best* trade deal in the region.”"
             },
             "position": {
-                "x": 250,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3463855,\n\nWiktor Smolak: “Exactly! To hell with Rumburg! I l...\nen\n\n\n“Exactly! To hell with Rumburg! I like you already, Mr. President!”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7350
+                "x": 3780,
+                "y": 0
             }
         },
         {
             "id": "node_150",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3464235,\n\nWiktor Smolak: “I agree with your sentiments, Mr....\nen\n\n\n“I agree with your sentiments, Mr. President. They are a threat to everyone in the region.”"
+                "label": "Wiktor Smolak\n\n“You will give me your assistance crushing the terrorists on both of our borders.”"
             },
             "position": {
-                "x": 0,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3464615,\n\nWiktor Smolak: “We must be careful, Anton.”\nen\n\n\n“We must be careful, Anton.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7500
+                "x": 3780,
+                "y": 200
             }
         },
         {
             "id": "node_152",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3464717,\n\nWiktor Smolak: “We must be careful, Mr. President....\nen\n\n\n“We must be careful, Mr. President.”"
+                "label": "Player\n\n“I need specifics.”"
             },
             "position": {
-                "x": 500,
-                "y": 7500
+                "x": 3510,
+                "y": 200
             }
         },
         {
             "id": "node_153",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3464819,\n\nPlayer: “What is it?”\nen\n\n\n“What is it?”"
+                "label": "Player\n\n“Absolutely not. I won't meddle in Wehlen's military interventions.”"
             },
             "position": {
-                "x": 0,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_154",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3464825,\n\nPlayer: “What is it?”\nMenu Text en\n\n\n“What is it?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_155",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3464927,\n\nPlayer: “I'm listening.”\nen\n\n\n“I'm listening.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_156",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3464933,\n\nPlayer: “I'm listening.”\nMenu Text en\n\n\n“I'm listening.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_157",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465035,\n\nNarrator: He clapped his hands again. Two ass...\nen\n\n\nHe clapped his hands again. Two assistants came into the room with a map of the border regions between Wehlen and Sordland. He pointed at the border."
-            },
-            "position": {
-                "x": 250,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_158",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465137,\n\nWiktor Smolak: “Look.”\nen\n\n\n“Look.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_159",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465239,\n\nWiktor Smolak: “Bluds and their so called *BFF* ar...\nen\n\n\n“Bluds and their so called *BFF* are causing problems for me in this region. They are getting increasingly dangerous with Rumburg's active support. I know that they are a problem for you as well.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465341,\n\nWiktor Smolak: “I will not allow these traitors to...\nen\n\n\n“I will not allow these traitors to exist within my borders. So I will hit them with all the might of Wehlen. These terrorists need to be destroyed.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465443,\n\nWiktor Smolak: “I call it Operation Bear Trap.”\nen\n\n\n“I call it Operation Bear Trap.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465561,\n\nPlayer: “I don't support any military actio...\nen\n\n\n“I don't support any military action this close to our borders.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_163",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465567,\n\nPlayer: “I don't support any military actio...\nMenu Text en\n\n\n“I don't support any military action this close to our borders.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_164",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465669,\n\nPlayer: “What do you want from me?”\nen\n\n\n“What do you want from me?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465675,\n\nPlayer: “What do you want from me?”\nMenu Text en\n\n\n“What do you want from me?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_166",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465777,\n\nPlayer: “I like the sound of it.”\nen\n\n\n“I like the sound of it.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 8250
+                "x": 4050,
+                "y": 0
             }
         },
         {
             "id": "node_167",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3465783,\n\nPlayer: “I like the sound of it.”\nMenu Text en\n\n\n“I like the sound of it.”"
+                "label": "Wiktor Smolak\n\n“You know that as long as they use the mountains in Wehlen as a base, Sordland and Lespia will equally suffer. This is in the interest of the whole region.”"
             },
             "position": {
-                "x": 500,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465885,\n\nWiktor Smolak: “Here is the deal. I will give you...\nen\n\n\n“Here is the deal. I will give you objectively the *best* trade deal in the region.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 8400
-            }
-        },
-        {
-            "id": "node_169",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3465987,\n\nNarrator: He grinned and lay back on the larg...\nen\n\n\nHe grinned and lay back on the large pillow behind him."
-            },
-            "position": {
-                "x": 250,
-                "y": 8400
+                "x": 4320,
+                "y": 0
             }
         },
         {
             "id": "node_170",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3466089,\n\nWiktor Smolak: “You will give me your assistance c...\nen\n\n\n“You will give me your assistance crushing the terrorists on both of our borders.”"
+                "label": "Player\n\n“There might be international ramifications.”"
             },
             "position": {
-                "x": 500,
-                "y": 8400
-            }
-        },
-        {
-            "id": "node_171",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3466207,\n\nNarrator: He lay back on the large pillow beh...\nen\n\n\nHe lay back on the large pillow behind him."
-            },
-            "position": {
-                "x": 0,
-                "y": 8550
+                "x": 4590,
+                "y": 0
             }
         },
         {
             "id": "node_172",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3466309,\n\nPlayer: “I need specifics.”\nen\n\n\n“I need specifics.”"
+                "label": "Wiktor Smolak\n\n“What I want from you in return for all the money and the resources, is only a joint operation between our armies against the BFF.”"
             },
             "position": {
-                "x": 250,
-                "y": 8550
+                "x": 4860,
+                "y": 0
             }
         },
         {
             "id": "node_173",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3466315,\n\nPlayer: “I need specifics.”\nMenu Text en\n\n\n“I need specifics.”"
+                "label": "Player\n\n“Deal.”"
             },
             "position": {
-                "x": 500,
-                "y": 8550
+                "x": 9720,
+                "y": 200
             }
         },
         {
             "id": "node_174",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3466417,\n\nPlayer: “Absolutely not. I won't meddle in...\nen\n\n\n“Absolutely not. I won't meddle in Wehlen's military interventions.”"
+                "label": "Narrator\n\nI took a moment to think about it."
             },
             "position": {
-                "x": 0,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_175",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3466423,\n\nPlayer: “Absolutely not. I won't meddle in...\nMenu Text en\n\n\n“Absolutely not. I won't meddle in Wehlen's military interventions.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_176",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3466525,\n\nPlayer: “Two birds, one stone.”\nen\n\n\n“Two birds, one stone.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_177",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3466531,\n\nPlayer: “Two birds, one stone.”\nMenu Text en\n\n\n“Two birds, one stone.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_178",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3466633,\n\nWiktor Smolak: “You read my mind.”\nen\n\n\n“You read my mind.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3466735,\n\nWiktor Smolak: “This is not just Wehlen's problem....\nen\n\n\n“This is not just Wehlen's problem. This is also Sordland's problem. These terrorists are doing anything they can to destabilize the region.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 8850
+                "x": 5400,
+                "y": 0
             }
         },
         {
             "id": "node_180",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3466837,\n\nWiktor Smolak: “Sure.”\nen\n\n\n“Sure.”"
+                "label": "Wiktor Smolak\n\n“You are a tough one, Anton.”"
             },
             "position": {
-                "x": 0,
-                "y": 9000
+                "x": 5670,
+                "y": 0
             }
         },
         {
             "id": "node_181",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3466939,\n\nWiktor Smolak: “My spies have infiltrated BFF cell...\nen\n\n\n“My spies have infiltrated BFF cells and they found caches of KA-74s. We traced them back to Rumburg. This alone justifies my retaliation to protect my country!”"
+                "label": "Wiktor Smolak\n\n“You are a tough one, Mr. President.”"
             },
             "position": {
-                "x": 250,
-                "y": 9000
+                "x": 5940,
+                "y": 0
             }
         },
         {
             "id": "node_182",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3467041,\n\nWiktor Smolak: “Worst of all, we also found that s...\nen\n\n\n“Worst of all, we also found that similar shipments are going to Sordland. Rumburg is trying to unite the BFF forces in both of our countries.”"
+                "label": "Wiktor Smolak\n\n“Wait, Mr. President. Wait.”"
             },
             "position": {
-                "x": 500,
-                "y": 9000
-            }
-        },
-        {
-            "id": "node_183",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3467421,\n\nWiktor Smolak: “Yes, Anton. You see. This is not j...\nen\n\n\n“Yes, Anton. You see. This is not just Wehlen's problem.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_184",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3467523,\n\nWiktor Smolak: “Yes, Mr. President. You see. This...\nen\n\n\n“Yes, Mr. President. You see. This is not just Wehlen's problem.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_185",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3467625,\n\nWiktor Smolak: “Let's take a step back and talk ab...\nen\n\n\n“Let's take a step back and talk about what you will get in return.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_186",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3467727,\n\nWiktor Smolak: “I propose you a no-tariff agreemen...\nen\n\n\n“I propose you a no-tariff agreement, co-investment projects and oil.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 9300
+                "x": 5670,
+                "y": 200
             }
         },
         {
             "id": "node_187",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3467829,\n\nWiktor Smolak: “You know that as long as they use...\nen\n\n\n“You know that as long as they use the mountains in Wehlen as a base, Sordland and Lespia will equally suffer. This is in the interest of the whole region.”"
+                "label": "Wiktor Smolak\n\n“I knew I could trust you, Anton.”"
             },
             "position": {
-                "x": 250,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_188",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3467947,\n\nPlayer: “What kind of support do you need f...\nen\n\n\n“What kind of support do you need from me? Can't Wehlen handle it by itself?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_189",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3467953,\n\nPlayer: “What kind of support do you need f...\nMenu Text en\n\n\n“What kind of support do you need from me? Can't Wehlen handle it by itself?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_190",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468055,\n\nWiktor Smolak: “We can, but these vermin are good...\nen\n\n\n“We can, but these vermin are good at hiding. As I told you, they operate and keep reorganizing inside both of our countries.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_191",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468157,\n\nPlayer: “There might be international ramif...\nen\n\n\n“There might be international ramifications.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9450
+                "x": 6210,
+                "y": 0
             }
         },
         {
             "id": "node_192",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3468163,\n\nPlayer: “There might be international ramif...\nMenu Text en\n\n\n“There might be international ramifications.”"
+                "label": "Wiktor Smolak\n\n“Normally, I wouldn't offer anything else but, I like you.”"
             },
             "position": {
-                "x": 0,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_193",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468265,\n\nWiktor Smolak: “To hell with international ramific...\nen\n\n\n“To hell with international ramifications! I will protect my country! I don't care what they say!”"
-            },
-            "position": {
-                "x": 250,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_194",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468367,\n\nWiktor Smolak: “What I want from you in return for...\nen\n\n\n“What I want from you in return for all the money and the resources, is only a joint operation between our armies against the BFF.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_195",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468469,\n\nPlayer: “Deal.”\nen\n\n\n“Deal.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_196",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468475,\n\nPlayer: “Deal.”\nMenu Text en\n\n\n“Deal.” [-1 Government Budget]"
-            },
-            "position": {
-                "x": 250,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_197",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468577,\n\nNarrator: I took a moment to think about it.\nen\n\n\nI took a moment to think about it."
-            },
-            "position": {
-                "x": 500,
-                "y": 9750
+                "x": 6480,
+                "y": 0
             }
         },
         {
             "id": "node_198",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3468695,\n\nPlayer: “No deal. It's too risky. I'm afrai...\nen\n\n\n“No deal. It's too risky. I'm afraid I can't accept.”"
+                "label": "Wiktor Smolak\n\n“That's unfortunate. I thought we could be friends.”"
             },
             "position": {
-                "x": 0,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_199",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468701,\n\nPlayer: “No deal. It's too risky. I'm afrai...\nMenu Text en\n\n\n“No deal. It's too risky. I'm afraid I can't accept.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_200",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3468803,\n\nPlayer: “Let's negotiate Sordland's contrib...\nen\n\n\n“Let's negotiate Sordland's contribution in this operation.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9900
+                "x": 6750,
+                "y": 0
             }
         },
         {
             "id": "node_201",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3468809,\n\nPlayer: “Let's negotiate Sordland's contrib...\nMenu Text en\n\n\n“Let's negotiate Sordland's contribution in this operation.”"
+                "label": "Wiktor Smolak\n\n“Tonight we will drink!”"
             },
             "position": {
-                "x": 0,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_202",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3469189,\n\nWiktor Smolak: “You are a tough one, Anton.”\nen\n\n\n“You are a tough one, Anton.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_203",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3469291,\n\nWiktor Smolak: “You are a tough one, Mr. President...\nen\n\n\n“You are a tough one, Mr. President.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_204",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3469393,\n\nWiktor Smolak: “Wait, Mr. President. Wait.”\nen\n\n\n“Wait, Mr. President. Wait.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_205",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3469495,\n\nWiktor Smolak: “Wait, Anton. Wait.”\nen\n\n\n“Wait, Anton. Wait.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10200
+                "x": 7020,
+                "y": 0
             }
         },
         {
             "id": "node_206",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3469875,\n\nWiktor Smolak: “I knew I could trust you, Anton.”\nen\n\n\n“I knew I could trust you, Anton.”"
+                "label": "Narrator\n\nThe next day, I returned to Sordland with a hangover."
             },
             "position": {
-                "x": 500,
-                "y": 10200
+                "x": 7290,
+                "y": 0
             }
         },
         {
             "id": "node_207",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3470255,\n\nWiktor Smolak: “I knew I could trust you, Mr. Pres...\nen\n\n\n“I knew I could trust you, Mr. President.”"
+                "label": "Wiktor Smolak\n\n“My assistants will show you the way.”"
             },
             "position": {
-                "x": 0,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_208",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3470357,\n\nWiktor Smolak: “Normally, I wouldn't offer anythin...\nen\n\n\n“Normally, I wouldn't offer anything else but, I like you.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_209",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3470459,\n\nWiktor Smolak: “Here is my final offer.”\nen\n\n\n“Here is my final offer.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10350
+                "x": 7290,
+                "y": 400
             }
         },
         {
             "id": "node_210",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3470561,\n\nWiktor Smolak: “When the operation starts, with yo...\nen\n\n\n“When the operation starts, with you or without you, there will be stragglers trying to cross into Sordland.”"
+                "label": "Player_Italic\n\nI nodded and left."
             },
             "position": {
-                "x": 0,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_211",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3470663,\n\nWiktor Smolak: “We just want you to support the op...\nen\n\n\n“We just want you to support the operation even if you do not join. Stop the terrorists from fleeing into your country and you will have your deal. Simple, isn't it?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_212",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3470765,\n\nWiktor Smolak: “So what do you think?”\nen\n\n\n“So what do you think?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_213",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3470875,\n\nPlayer: “No deal. I'm afraid I can't accept...\nen\n\n\n“No deal. I'm afraid I can't accept.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 10650
-            }
-        },
-        {
-            "id": "node_214",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3470881,\n\nPlayer: “No deal. I'm afraid I can't accept...\nMenu Text en\n\n\n“No deal. I'm afraid I can't accept.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10650
-            }
-        },
-        {
-            "id": "node_215",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3470983,\n\nWiktor Smolak: “That's unfortunate. I thought we c...\nen\n\n\n“That's unfortunate. I thought we could be friends.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10650
+                "x": 7560,
+                "y": 0
             }
         },
         {
             "id": "node_216",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3471085,\n\nWiktor Smolak: “But you decided to leave Wehlen to...\nen\n\n\n“But you decided to leave Wehlen to fend for itself.”"
+                "label": "Wiktor Smolak\n\n“I knew I could trust you, Anton.”"
             },
             "position": {
-                "x": 0,
-                "y": 10800
-            }
-        },
-        {
-            "id": "node_217",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3471187,\n\nWiktor Smolak: “Such a shame. I am sure a powerful...\nen\n\n\n“Such a shame. I am sure a powerful leader like Soll would've accepted this great offer without a doubt.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10800
+                "x": 7830,
+                "y": 0
             }
         },
         {
             "id": "node_218",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3471289,\n\nWiktor Smolak: “Tonight we will drink!”\nen\n\n\n“Tonight we will drink!”"
+                "label": "Player\n\n“Deal.”"
             },
             "position": {
-                "x": 500,
-                "y": 10800
+                "x": 8640,
+                "y": 400
             }
         },
         {
             "id": "node_219",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3471391,\n\nNarrator: He clapped his hands again.\nen\n\n\nHe clapped his hands again."
+                "label": "Wiktor Smolak\n\n“Tonight we will drink!”"
             },
             "position": {
-                "x": 0,
-                "y": 10950
-            }
-        },
-        {
-            "id": "node_220",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3471493,\n\nWiktor Smolak: “Drinks! Dancers! Music!”\nen\n\n\n“Drinks! Dancers! Music!”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10950
+                "x": 8370,
+                "y": 0
             }
         },
         {
             "id": "node_221",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3471595,\n\nNarrator: Instead of the two assistants this...\nen\n\n\nInstead of the two assistants this time, a group of dancers and performers entered. Smoke filled  the room."
+                "label": "Narrator\n\nHe clapped his hands again."
             },
             "position": {
-                "x": 500,
-                "y": 10950
-            }
-        },
-        {
-            "id": "node_222",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3471697,\n\nNarrator: As they performed their songs, we c...\nen\n\n\nAs they performed their songs, we clinked our glasses to our new partnership while sipping the sweet Wehzek liquor."
-            },
-            "position": {
-                "x": 0,
-                "y": 11100
-            }
-        },
-        {
-            "id": "node_223",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3471805,\n\nNarrator: The next day, I returned to Sordlan...\nen\n\n\nThe next day, I returned to Sordland with a hangover."
-            },
-            "position": {
-                "x": 250,
-                "y": 11100
-            }
-        },
-        {
-            "id": "node_224",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3471913,\n\nWiktor Smolak: “My assistants will show you the wa...\nen\n\n\n“My assistants will show you the way.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 11100
-            }
-        },
-        {
-            "id": "node_225",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3472015,\n\nWiktor Smolak: “Goodbye, Mr. Rayne.”\nen\n\n\n“Goodbye, Mr. Rayne.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 11250
-            }
-        },
-        {
-            "id": "node_226",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3472125,\n\nPlayer: “Take care of yourself, Wiktor.”\nen\n\n\n“Take care of yourself, Wiktor.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 11250
-            }
-        },
-        {
-            "id": "node_227",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3472131,\n\nPlayer: “Take care of yourself, Wiktor.”\nMenu Text en\n\n\n“Take care of yourself, Wiktor.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 11250
-            }
-        },
-        {
-            "id": "node_228",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3472233,\n\nPlayer_Italic: I nodded and left.\nen\n\n\nI nodded and left."
-            },
-            "position": {
-                "x": 0,
-                "y": 11400
+                "x": 8640,
+                "y": 0
             }
         },
         {
             "id": "node_229",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3472239,\n\nPlayer_Italic: I nodded and left.\nMenu Text en\n\n\nNod and leave."
+                "label": "Wiktor Smolak\n\n“I knew I could trust you, Mr. President.”"
             },
             "position": {
-                "x": 250,
-                "y": 11400
+                "x": 8640,
+                "y": 200
             }
         },
         {
-            "id": "node_230",
-            "type": "default",
+            "id": "node_279",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3472341,\n\nNarrator: I returned to Sordland immediately.\nen\n\n\nI returned to Sordland immediately."
+                "label": "Wiktor Smolak\n\n\"Exactly.\""
             },
             "position": {
-                "x": 500,
-                "y": 11400
+                "x": 8910,
+                "y": 0
             }
         },
         {
-            "id": "node_231",
-            "type": "default",
+            "id": "node_280",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3472449,\n\nNarrator: I felt relieved to be back in Holso...\nen\n\n\nI felt relieved to be back in Holsord."
+                "label": "Wiktor Smolak\n\n“I will cut all their supplies from Rumburg and trap them on the mountains.”"
             },
             "position": {
-                "x": 0,
-                "y": 11550
+                "x": 1890,
+                "y": 200
             }
         },
         {
-            "id": "node_232",
-            "type": "default",
+            "id": "node_281",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3472839,\n\nWiktor Smolak: “I knew I could trust you, Anton.”\nen\n\n\n“I knew I could trust you, Anton.”"
+                "label": "Player\n\n\"Why would you offer me so much?\""
             },
             "position": {
-                "x": 250,
-                "y": 11550
+                "x": 3240,
+                "y": 200
             }
         },
         {
-            "id": "node_233",
-            "type": "default",
+            "id": "node_297",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3472941,\n\nNarrator: The next day, I returned to Sordlan...\nen\n\n\nThe next day, I returned to Sordland with a hangover."
+                "label": "Narrator\n\nIt was probably the highest-quality tobacco I had ever smoked. I handed it back."
             },
             "position": {
-                "x": 500,
-                "y": 11550
+                "x": 270,
+                "y": 200
             }
         },
         {
-            "id": "node_234",
-            "type": "default",
+            "id": "node_300",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3473049,\n\nPlayer: “Deal.”\nen\n\n\n“Deal.”"
+                "label": "Wiktor Smolak\n\n\"However, the main problem is the border security between our nations. BFF militants have been using the mountains between Sordland and Wehlen to escape justice in both of our countries.\""
             },
             "position": {
-                "x": 0,
-                "y": 11700
+                "x": 7290,
+                "y": 200
             }
         },
         {
-            "id": "node_235",
-            "type": "default",
+            "id": "node_302",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3473055,\n\nPlayer: “Deal.”\nMenu Text en\n\n\n“Deal.”"
+                "label": "Wiktor Smolak\n\n“In return, you will assist me in destroying the armed militants in my country.\""
             },
             "position": {
-                "x": 250,
-                "y": 11700
+                "x": 9180,
+                "y": 0
             }
         },
         {
-            "id": "node_236",
-            "type": "default",
+            "id": "node_303",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3473157,\n\nWiktor Smolak: “Tonight we will drink!”\nen\n\n\n“Tonight we will drink!”"
+                "label": "Wiktor Smolak\n\n“And now, I need to solve some problems they are creating for me.”"
             },
             "position": {
-                "x": 500,
-                "y": 11700
+                "x": 10260,
+                "y": 200
             }
         },
         {
-            "id": "node_237",
-            "type": "default",
+            "id": "node_304",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3473259,\n\nNarrator: A group of dancers and performers e...\nen\n\n\nA group of dancers and performers entered and smoke filled the room."
+                "label": "Wiktor Smolak\n\n“But now, I need to solve some problems they are creating for me.”"
             },
             "position": {
-                "x": 0,
-                "y": 11850
+                "x": 2430,
+                "y": 200
             }
         },
         {
-            "id": "node_238",
-            "type": "default",
+            "id": "node_324",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3473361,\n\nNarrator: He clapped his hands again.\nen\n\n\nHe clapped his hands again."
+                "label": "Wiktor Smolak\n\n\"What I seek from you, in reciprocation for this advantageous collaboration, is merely a cooperative military endeavor involving our forces against the BFF.\""
             },
             "position": {
-                "x": 250,
-                "y": 11850
+                "x": 9720,
+                "y": 0
             }
         },
         {
-            "id": "node_239",
-            "type": "default",
+            "id": "node_328",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3473463,\n\nWiktor Smolak: “Drinks! Dancers! Music!”\nen\n\n\n“Drinks! Dancers! Music!”"
+                "label": "Player\n\n\"Are you suggesting we pay a higher rate than usual?\""
             },
             "position": {
-                "x": 500,
-                "y": 11850
+                "x": 9990,
+                "y": 0
             }
         },
         {
-            "id": "node_240",
-            "type": "default",
+            "id": "node_333",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3474035,\n\nNarrator: As they performed their songs, we c...\nen\n\n\nAs they performed their songs, we clinked our glasses to our new partnership while sipping the sweet Wehzek liquor."
+                "label": "Wiktor Smolak\n\n“In exchange, we will offer you a competitive new oil price, aligned with the latest market dynamics, and in turn, you'll aid me in dismantling the armed militants in my country.\""
             },
             "position": {
-                "x": 0,
-                "y": 12000
-            }
-        },
-        {
-            "id": "node_241",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3474137,\n\nWiktor Smolak: “I knew I could trust you, Mr. Pres...\nen\n\n\n“I knew I could trust you, Mr. President.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 12000
-            }
-        },
-        {
-            "id": "node_242",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3478843,\n\nWiktor Smolak: Exactly.\nen\n\n\n\"Exactly.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 12000
-            }
-        },
-        {
-            "id": "node_243",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3478945,\n\nWiktor Smolak: “I will cut all their supplies from...\nen\n\n\n“I will cut all their supplies from Rumburg and trap them on the mountains.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 12150
-            }
-        },
-        {
-            "id": "node_244",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3479047,\n\nPlayer: Why would you offer me so much?\nen\n\n\n\"Why would you offer me so much?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 12150
-            }
-        },
-        {
-            "id": "node_245",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3479053,\n\nPlayer: Why would you offer me so much?\nMenu Text en\n\n\n\"Why would you offer me so much?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 12150
-            }
-        },
-        {
-            "id": "node_246",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3479155,\n\nWiktor Smolak: “Why wouldn't I? I want Sordland to...\nen\n\n\n“Why wouldn't I? I want Sordland to be Wehlen's friend.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 12300
-            }
-        },
-        {
-            "id": "node_247",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3479257,\n\nWiktor Smolak: The question is, do you also want...\nen\n\n\n\"The question is, do you also want Wehlen as your friend?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 12300
-            }
-        },
-        {
-            "id": "node_248",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3480597,\n\nNarrator: It was probably the highest-quality...\nen\n\n\nIt was probably the highest-quality tobacco I had ever smoked. I handed it back."
-            },
-            "position": {
-                "x": 500,
-                "y": 12300
-            }
-        },
-        {
-            "id": "node_249",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3480891,\n\nWiktor Smolak: However, the main problem is the b...\nen\n\n\n\"However, the main problem is the border security between our nations. BFF militants have been using the mountains between Sordland and Wehlen to escape justice in both of our countries.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 12450
-            }
-        },
-        {
-            "id": "node_250",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3480993,\n\nWiktor Smolak: If we don't act and trap them in t...\nen\n\n\n\"If we don't act and trap them in those mountains, they will keep replenishing their forces in both of our countries and keep waging war against our citizens.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 12450
-            }
-        },
-        {
-            "id": "node_251",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3481095,\n\nWiktor Smolak: “In return, you will assist me in d...\nen\n\n\n“In return, you will assist me in destroying the armed militants in my country.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 12450
-            }
-        },
-        {
-            "id": "node_252",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3481197,\n\nWiktor Smolak: “And now, I need to solve some prob...\nen\n\n\n“And now, I need to solve some problems they are creating for me.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 12600
-            }
-        },
-        {
-            "id": "node_253",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3481307,\n\nWiktor Smolak: “But now, I need to solve some prob...\nen\n\n\n“But now, I need to solve some problems they are creating for me.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 12600
-            }
-        },
-        {
-            "id": "node_254",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3482741,\n\nPlayer: “Deal.”\nen\n\n\n“Deal.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 12600
-            }
-        },
-        {
-            "id": "node_255",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3482747,\n\nPlayer: “Deal.”\nMenu Text en\n\n\n“Deal.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 12750
-            }
-        },
-        {
-            "id": "node_256",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3483223,\n\nWiktor Smolak: What I seek from you, in reciproca...\nen\n\n\n\"What I seek from you, in reciprocation for this advantageous collaboration, is merely a cooperative military endeavor involving our forces against the BFF.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 12750
-            }
-        },
-        {
-            "id": "node_257",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3483603,\n\nPlayer: Are you suggesting we pay a higher...\nen\n\n\n\"Are you suggesting we pay a higher rate than usual?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 12750
-            }
-        },
-        {
-            "id": "node_258",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3483609,\n\nPlayer: Are you suggesting we pay a higher...\nMenu Text en\n\n\n\"Are you suggesting we pay a higher rate than usual?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 12900
-            }
-        },
-        {
-            "id": "node_259",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3483711,\n\nWiktor Smolak: Indeed, there are additional expen...\nen\n\n\n\"Indeed, there are additional expenses emerging within our oil sector. Consider it a modest surcharge, a token of our potential friendship.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 12900
-            }
-        },
-        {
-            "id": "node_260",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3484091,\n\nWiktor Smolak: “In exchange, we will offer you a c...\nen\n\n\n“In exchange, we will offer you a competitive new oil price, aligned with the latest market dynamics, and in turn, you'll aid me in dismantling the armed militants in my country.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 12900
+                "x": 10260,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e1_to_316",
             "source": "node_1",
             "target": "node_316",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e1",
-            "source": "node_3",
-            "target": "node_4",
-            "animated": true
-        },
-        {
-            "id": "e2",
+            "id": "e4_to_297",
             "source": "node_4",
             "target": "node_297",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e3",
-            "source": "node_5",
-            "target": "node_6",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_6",
-            "target": "node_9",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_6",
-            "target": "node_9",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_7",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_7",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e8",
-            "source": "node_8",
-            "target": "node_10",
-            "animated": true
-        },
-        {
-            "id": "e9",
-            "source": "node_8",
-            "target": "node_10",
-            "animated": true
-        },
-        {
-            "id": "e10",
-            "source": "node_9",
-            "target": "node_10",
-            "animated": true
-        },
-        {
-            "id": "e11",
-            "source": "node_10",
-            "target": "node_11",
-            "animated": true
-        },
-        {
-            "id": "e12",
-            "source": "node_11",
-            "target": "node_12",
-            "animated": true
-        },
-        {
-            "id": "e13",
-            "source": "node_12",
-            "target": "node_13",
-            "animated": true
-        },
-        {
-            "id": "e14",
-            "source": "node_13",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e15",
-            "source": "node_13",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e16",
-            "source": "node_14",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e17",
-            "source": "node_14",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e18",
-            "source": "node_15",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e19",
-            "source": "node_16",
-            "target": "node_17",
-            "animated": true
-        },
-        {
-            "id": "e20",
-            "source": "node_17",
-            "target": "node_18",
-            "animated": true
-        },
-        {
-            "id": "e21",
-            "source": "node_18",
-            "target": "node_20",
-            "animated": true
-        },
-        {
-            "id": "e22",
-            "source": "node_18",
-            "target": "node_20",
-            "animated": true
-        },
-        {
-            "id": "e23",
-            "source": "node_19",
-            "target": "node_22",
-            "animated": true
-        },
-        {
-            "id": "e24",
-            "source": "node_19",
-            "target": "node_22",
-            "animated": true
-        },
-        {
-            "id": "e25",
-            "source": "node_20",
-            "target": "node_22",
-            "animated": true
-        },
-        {
-            "id": "e26",
-            "source": "node_21",
-            "target": "node_25",
-            "animated": true
-        },
-        {
-            "id": "e27",
-            "source": "node_22",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e28",
-            "source": "node_22",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e29",
-            "source": "node_23",
-            "target": "node_28",
-            "animated": true
-        },
-        {
-            "id": "e30",
-            "source": "node_23",
-            "target": "node_28",
-            "animated": true
-        },
-        {
-            "id": "e31",
-            "source": "node_24",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e32",
-            "source": "node_24",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e33",
-            "source": "node_25",
-            "target": "node_26",
-            "animated": true
-        },
-        {
-            "id": "e34",
-            "source": "node_26",
-            "target": "node_29",
-            "animated": true
-        },
-        {
-            "id": "e35",
-            "source": "node_27",
-            "target": "node_29",
-            "animated": true
-        },
-        {
-            "id": "e36",
-            "source": "node_28",
-            "target": "node_29",
-            "animated": true
-        },
-        {
-            "id": "e37",
-            "source": "node_29",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e38",
-            "source": "node_30",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e39",
-            "source": "node_30",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e40",
-            "source": "node_31",
-            "target": "node_33",
-            "animated": true
-        },
-        {
-            "id": "e41",
-            "source": "node_31",
-            "target": "node_33",
-            "animated": true
-        },
-        {
-            "id": "e42",
-            "source": "node_32",
-            "target": "node_34",
-            "animated": true
-        },
-        {
-            "id": "e43",
-            "source": "node_33",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e44",
-            "source": "node_34",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e45",
-            "source": "node_34",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e46",
-            "source": "node_35",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e47",
-            "source": "node_36",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e48",
-            "source": "node_37",
-            "target": "node_38",
-            "animated": true
-        },
-        {
-            "id": "e49",
-            "source": "node_38",
-            "target": "node_39",
-            "animated": true
-        },
-        {
-            "id": "e50",
-            "source": "node_39",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e51",
-            "source": "node_40",
-            "target": "node_41",
-            "animated": true
-        },
-        {
-            "id": "e52",
-            "source": "node_41",
-            "target": "node_42",
-            "animated": true
-        },
-        {
-            "id": "e53",
-            "source": "node_42",
-            "target": "node_45",
-            "animated": true
-        },
-        {
-            "id": "e54",
-            "source": "node_42",
-            "target": "node_45",
-            "animated": true
-        },
-        {
-            "id": "e55",
-            "source": "node_43",
-            "target": "node_48",
-            "animated": true
-        },
-        {
-            "id": "e56",
-            "source": "node_43",
-            "target": "node_48",
-            "animated": true
-        },
-        {
-            "id": "e57",
-            "source": "node_44",
-            "target": "node_46",
-            "animated": true
-        },
-        {
-            "id": "e58",
-            "source": "node_44",
-            "target": "node_46",
-            "animated": true
-        },
-        {
-            "id": "e59",
-            "source": "node_45",
-            "target": "node_50",
-            "animated": true
-        },
-        {
-            "id": "e60",
-            "source": "node_46",
-            "target": "node_47",
-            "animated": true
-        },
-        {
-            "id": "e61",
-            "source": "node_47",
-            "target": "node_51",
-            "animated": true
-        },
-        {
-            "id": "e62",
-            "source": "node_48",
-            "target": "node_49",
-            "animated": true
-        },
-        {
-            "id": "e63",
-            "source": "node_49",
-            "target": "node_51",
-            "animated": true
-        },
-        {
-            "id": "e64",
-            "source": "node_50",
-            "target": "node_51",
-            "animated": true
-        },
-        {
-            "id": "e65",
-            "source": "node_51",
-            "target": "node_52",
-            "animated": true
-        },
-        {
-            "id": "e66",
-            "source": "node_52",
-            "target": "node_53",
-            "animated": true
-        },
-        {
-            "id": "e67",
-            "source": "node_53",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e68",
-            "source": "node_53",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e69",
-            "source": "node_54",
-            "target": "node_59",
-            "animated": true
-        },
-        {
-            "id": "e70",
-            "source": "node_54",
-            "target": "node_59",
-            "animated": true
-        },
-        {
-            "id": "e71",
-            "source": "node_55",
-            "target": "node_58",
-            "animated": true
-        },
-        {
-            "id": "e72",
-            "source": "node_55",
-            "target": "node_58",
-            "animated": true
-        },
-        {
-            "id": "e73",
-            "source": "node_56",
-            "target": "node_57",
-            "animated": true
-        },
-        {
-            "id": "e74",
-            "source": "node_57",
-            "target": "node_62",
-            "animated": true
-        },
-        {
-            "id": "e75",
-            "source": "node_58",
-            "target": "node_62",
-            "animated": true
-        },
-        {
-            "id": "e76",
-            "source": "node_59",
-            "target": "node_60",
-            "animated": true
-        },
-        {
-            "id": "e77",
-            "source": "node_60",
-            "target": "node_61",
-            "animated": true
-        },
-        {
-            "id": "e78",
-            "source": "node_61",
-            "target": "node_62",
-            "animated": true
-        },
-        {
-            "id": "e79",
-            "source": "node_62",
-            "target": "node_63",
-            "animated": true
-        },
-        {
-            "id": "e80",
-            "source": "node_63",
-            "target": "node_64",
-            "animated": true
-        },
-        {
-            "id": "e81",
-            "source": "node_64",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e82",
-            "source": "node_65",
-            "target": "node_66",
-            "animated": true
-        },
-        {
-            "id": "e83",
-            "source": "node_66",
-            "target": "node_69",
-            "animated": true
-        },
-        {
-            "id": "e84",
-            "source": "node_66",
-            "target": "node_69",
-            "animated": true
-        },
-        {
-            "id": "e85",
-            "source": "node_67",
-            "target": "node_71",
-            "animated": true
-        },
-        {
-            "id": "e86",
-            "source": "node_67",
-            "target": "node_71",
-            "animated": true
-        },
-        {
-            "id": "e87",
-            "source": "node_68",
-            "target": "node_70",
-            "animated": true
-        },
-        {
-            "id": "e88",
-            "source": "node_68",
-            "target": "node_70",
-            "animated": true
-        },
-        {
-            "id": "e89",
-            "source": "node_69",
-            "target": "node_73",
-            "animated": true
-        },
-        {
-            "id": "e90",
-            "source": "node_70",
-            "target": "node_72",
-            "animated": true
-        },
-        {
-            "id": "e91",
-            "source": "node_71",
-            "target": "node_72",
-            "animated": true
-        },
-        {
-            "id": "e92",
-            "source": "node_72",
-            "target": "node_74",
-            "animated": true
-        },
-        {
-            "id": "e93",
-            "source": "node_72",
-            "target": "node_74",
-            "animated": true
-        },
-        {
-            "id": "e94",
-            "source": "node_73",
-            "target": "node_74",
-            "animated": true
-        },
-        {
-            "id": "e95",
-            "source": "node_74",
-            "target": "node_75",
-            "animated": true
-        },
-        {
-            "id": "e96",
-            "source": "node_75",
-            "target": "node_76",
-            "animated": true
-        },
-        {
-            "id": "e97",
-            "source": "node_76",
-            "target": "node_77",
-            "animated": true
-        },
-        {
-            "id": "e98",
-            "source": "node_77",
-            "target": "node_78",
-            "animated": true
-        },
-        {
-            "id": "e99",
-            "source": "node_78",
-            "target": "node_79",
-            "animated": true
-        },
-        {
-            "id": "e100",
-            "source": "node_79",
-            "target": "node_81",
-            "animated": true
-        },
-        {
-            "id": "e101",
-            "source": "node_79",
-            "target": "node_81",
-            "animated": true
-        },
-        {
-            "id": "e102",
-            "source": "node_80",
-            "target": "node_82",
-            "animated": true
-        },
-        {
-            "id": "e103",
-            "source": "node_80",
-            "target": "node_82",
-            "animated": true
-        },
-        {
-            "id": "e104",
-            "source": "node_81",
-            "target": "node_82",
-            "animated": true
-        },
-        {
-            "id": "e105",
-            "source": "node_82",
-            "target": "node_83",
-            "animated": true
-        },
-        {
-            "id": "e106",
-            "source": "node_83",
-            "target": "node_84",
-            "animated": true
-        },
-        {
-            "id": "e107",
-            "source": "node_84",
-            "target": "node_85",
-            "animated": true
-        },
-        {
-            "id": "e108",
-            "source": "node_85",
-            "target": "node_86",
-            "animated": true
-        },
-        {
-            "id": "e109",
-            "source": "node_86",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e110",
-            "source": "node_86",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e111",
+            "id": "e87_to_299",
             "source": "node_87",
             "target": "node_299",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e112",
-            "source": "node_87",
-            "target": "node_299",
-            "animated": true
-        },
-        {
-            "id": "e113",
-            "source": "node_88",
-            "target": "node_89",
-            "animated": true
-        },
-        {
-            "id": "e114",
-            "source": "node_89",
-            "target": "node_91",
-            "animated": true
-        },
-        {
-            "id": "e115",
-            "source": "node_90",
-            "target": "node_93",
-            "animated": true
-        },
-        {
-            "id": "e116",
-            "source": "node_91",
-            "target": "node_90",
-            "animated": true
-        },
-        {
-            "id": "e117",
-            "source": "node_91",
-            "target": "node_90",
-            "animated": true
-        },
-        {
-            "id": "e118",
-            "source": "node_92",
-            "target": "node_95",
-            "animated": true
-        },
-        {
-            "id": "e119",
-            "source": "node_92",
-            "target": "node_95",
-            "animated": true
-        },
-        {
-            "id": "e120",
-            "source": "node_94",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e121",
-            "source": "node_95",
-            "target": "node_98",
-            "animated": true
-        },
-        {
-            "id": "e122",
-            "source": "node_96",
-            "target": "node_98",
-            "animated": true
-        },
-        {
-            "id": "e123",
+            "id": "e100_to_97",
             "source": "node_100",
             "target": "node_97",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e124",
-            "source": "node_101",
-            "target": "node_104",
-            "animated": true
-        },
-        {
-            "id": "e125",
-            "source": "node_101",
-            "target": "node_104",
-            "animated": true
-        },
-        {
-            "id": "e126",
-            "source": "node_102",
-            "target": "node_130",
-            "animated": true
-        },
-        {
-            "id": "e127",
-            "source": "node_102",
-            "target": "node_130",
-            "animated": true
-        },
-        {
-            "id": "e128",
-            "source": "node_103",
-            "target": "node_108",
-            "animated": true
-        },
-        {
-            "id": "e129",
-            "source": "node_103",
-            "target": "node_108",
-            "animated": true
-        },
-        {
-            "id": "e130",
+            "id": "e104_to_126",
             "source": "node_104",
             "target": "node_126",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e131",
+            "id": "e105_to_112",
             "source": "node_105",
             "target": "node_112",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e132",
+            "id": "e106_to_112",
             "source": "node_106",
             "target": "node_112",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e133",
-            "source": "node_110",
-            "target": "node_111",
-            "animated": true
-        },
-        {
-            "id": "e134",
-            "source": "node_111",
-            "target": "node_112",
-            "animated": true
-        },
-        {
-            "id": "e135",
-            "source": "node_112",
-            "target": "node_115",
-            "animated": true
-        },
-        {
-            "id": "e136",
-            "source": "node_112",
-            "target": "node_115",
-            "animated": true
-        },
-        {
-            "id": "e137",
-            "source": "node_113",
-            "target": "node_116",
-            "animated": true
-        },
-        {
-            "id": "e138",
-            "source": "node_113",
-            "target": "node_116",
-            "animated": true
-        },
-        {
-            "id": "e139",
+            "id": "e114_to_280",
             "source": "node_114",
             "target": "node_280",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e140",
-            "source": "node_114",
-            "target": "node_280",
-            "animated": true
-        },
-        {
-            "id": "e141",
-            "source": "node_115",
-            "target": "node_120",
-            "animated": true
-        },
-        {
-            "id": "e142",
-            "source": "node_116",
-            "target": "node_117",
-            "animated": true
-        },
-        {
-            "id": "e143",
-            "source": "node_117",
-            "target": "node_118",
-            "animated": true
-        },
-        {
-            "id": "e144",
+            "id": "e118_to_140",
             "source": "node_118",
             "target": "node_140",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e145",
-            "source": "node_122",
-            "target": "node_123",
-            "animated": true
-        },
-        {
-            "id": "e146",
+            "id": "e123_to_304",
             "source": "node_123",
             "target": "node_304",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e147",
-            "source": "node_123",
-            "target": "node_304",
-            "animated": true
-        },
-        {
-            "id": "e148",
-            "source": "node_124",
-            "target": "node_125",
-            "animated": true
-        },
-        {
-            "id": "e149",
-            "source": "node_128",
-            "target": "node_129",
-            "animated": true
-        },
-        {
-            "id": "e150",
-            "source": "node_132",
-            "target": "node_133",
-            "animated": true
-        },
-        {
-            "id": "e151",
-            "source": "node_136",
-            "target": "node_138",
-            "animated": true
-        },
-        {
-            "id": "e152",
+            "id": "e137_to_112",
             "source": "node_137",
             "target": "node_112",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e153",
+            "id": "e138_to_112",
             "source": "node_138",
             "target": "node_112",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e154",
-            "source": "node_138",
-            "target": "node_112",
-            "animated": true
-        },
-        {
-            "id": "e155",
-            "source": "node_139",
-            "target": "node_141",
-            "animated": true
-        },
-        {
-            "id": "e156",
-            "source": "node_139",
-            "target": "node_141",
-            "animated": true
-        },
-        {
-            "id": "e157",
-            "source": "node_140",
-            "target": "node_141",
-            "animated": true
-        },
-        {
-            "id": "e158",
-            "source": "node_141",
-            "target": "node_142",
-            "animated": true
-        },
-        {
-            "id": "e159",
-            "source": "node_142",
-            "target": "node_143",
-            "animated": true
-        },
-        {
-            "id": "e160",
-            "source": "node_143",
-            "target": "node_144",
-            "animated": true
-        },
-        {
-            "id": "e161",
+            "id": "e144_to_281",
             "source": "node_144",
             "target": "node_281",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e162",
-            "source": "node_145",
-            "target": "node_148",
-            "animated": true
-        },
-        {
-            "id": "e163",
-            "source": "node_145",
-            "target": "node_148",
-            "animated": true
-        },
-        {
-            "id": "e164",
+            "id": "e146_to_152",
             "source": "node_146",
             "target": "node_152",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e165",
-            "source": "node_146",
-            "target": "node_152",
-            "animated": true
-        },
-        {
-            "id": "e166",
-            "source": "node_147",
-            "target": "node_150",
-            "animated": true
-        },
-        {
-            "id": "e167",
-            "source": "node_147",
-            "target": "node_150",
-            "animated": true
-        },
-        {
-            "id": "e168",
+            "id": "e148_to_150",
             "source": "node_148",
             "target": "node_150",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e169",
-            "source": "node_149",
-            "target": "node_151",
-            "animated": true
-        },
-        {
-            "id": "e170",
+            "id": "e150_to_149",
             "source": "node_150",
             "target": "node_149",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e171",
-            "source": "node_151",
-            "target": "node_155",
-            "animated": true
-        },
-        {
-            "id": "e172",
+            "id": "e152_to_149",
             "source": "node_152",
             "target": "node_149",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e173",
-            "source": "node_152",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e174",
+            "id": "e153_to_158",
             "source": "node_153",
             "target": "node_158",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e175",
-            "source": "node_153",
-            "target": "node_158",
-            "animated": true
-        },
-        {
-            "id": "e176",
-            "source": "node_154",
-            "target": "node_157",
-            "animated": true
-        },
-        {
-            "id": "e177",
-            "source": "node_154",
-            "target": "node_157",
-            "animated": true
-        },
-        {
-            "id": "e178",
-            "source": "node_155",
-            "target": "node_156",
-            "animated": true
-        },
-        {
-            "id": "e179",
-            "source": "node_156",
-            "target": "node_159",
-            "animated": true
-        },
-        {
-            "id": "e180",
-            "source": "node_157",
-            "target": "node_159",
-            "animated": true
-        },
-        {
-            "id": "e181",
-            "source": "node_158",
-            "target": "node_159",
-            "animated": true
-        },
-        {
-            "id": "e182",
-            "source": "node_159",
-            "target": "node_160",
-            "animated": true
-        },
-        {
-            "id": "e183",
-            "source": "node_163",
-            "target": "node_165",
-            "animated": true
-        },
-        {
-            "id": "e184",
-            "source": "node_164",
-            "target": "node_166",
-            "animated": true
-        },
-        {
-            "id": "e185",
-            "source": "node_165",
-            "target": "node_166",
-            "animated": true
-        },
-        {
-            "id": "e186",
-            "source": "node_166",
-            "target": "node_167",
-            "animated": true
-        },
-        {
-            "id": "e187",
+            "id": "e167_to_331",
             "source": "node_167",
             "target": "node_331",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e188",
-            "source": "node_168",
-            "target": "node_171",
-            "animated": true
-        },
-        {
-            "id": "e189",
-            "source": "node_168",
-            "target": "node_171",
-            "animated": true
-        },
-        {
-            "id": "e190",
-            "source": "node_169",
-            "target": "node_170",
-            "animated": true
-        },
-        {
-            "id": "e191",
+            "id": "e170_to_322",
             "source": "node_170",
             "target": "node_322",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e192",
-            "source": "node_170",
-            "target": "node_322",
-            "animated": true
-        },
-        {
-            "id": "e193",
-            "source": "node_171",
-            "target": "node_172",
-            "animated": true
-        },
-        {
-            "id": "e194",
+            "id": "e172_to_322",
             "source": "node_172",
             "target": "node_322",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e195",
+            "id": "e173_to_175",
             "source": "node_173",
             "target": "node_175",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e196",
-            "source": "node_173",
-            "target": "node_175",
-            "animated": true
-        },
-        {
-            "id": "e197",
+            "id": "e174_to_321",
             "source": "node_174",
             "target": "node_321",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e198",
-            "source": "node_175",
-            "target": "node_177",
-            "animated": true
-        },
-        {
-            "id": "e199",
-            "source": "node_175",
-            "target": "node_177",
-            "animated": true
-        },
-        {
-            "id": "e200",
-            "source": "node_176",
-            "target": "node_185",
-            "animated": true
-        },
-        {
-            "id": "e201",
-            "source": "node_176",
-            "target": "node_185",
-            "animated": true
-        },
-        {
-            "id": "e202",
+            "id": "e180_to_182",
             "source": "node_180",
             "target": "node_182",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e203",
+            "id": "e181_to_193",
             "source": "node_181",
             "target": "node_193",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e204",
+            "id": "e182_to_193",
             "source": "node_182",
             "target": "node_193",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e205",
-            "source": "node_183",
-            "target": "node_193",
-            "animated": true
-        },
-        {
-            "id": "e206",
+            "id": "e187_to_183",
             "source": "node_187",
             "target": "node_183",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e207",
-            "source": "node_191",
-            "target": "node_192",
-            "animated": true
-        },
-        {
-            "id": "e208",
+            "id": "e192_to_202",
             "source": "node_192",
             "target": "node_202",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e209",
-            "source": "node_193",
-            "target": "node_194",
-            "animated": true
-        },
-        {
-            "id": "e210",
-            "source": "node_194",
-            "target": "node_195",
-            "animated": true
-        },
-        {
-            "id": "e211",
-            "source": "node_195",
-            "target": "node_196",
-            "animated": true
-        },
-        {
-            "id": "e212",
-            "source": "node_196",
-            "target": "node_197",
-            "animated": true
-        },
-        {
-            "id": "e213",
-            "source": "node_197",
-            "target": "node_198",
-            "animated": true
-        },
-        {
-            "id": "e214",
-            "source": "node_197",
-            "target": "node_198",
-            "animated": true
-        },
-        {
-            "id": "e215",
+            "id": "e198_to_233",
             "source": "node_198",
             "target": "node_233",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e216",
-            "source": "node_199",
-            "target": "node_200",
-            "animated": true
-        },
-        {
-            "id": "e217",
-            "source": "node_200",
-            "target": "node_201",
-            "animated": true
-        },
-        {
-            "id": "e218",
+            "id": "e201_to_208",
             "source": "node_201",
             "target": "node_208",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e219",
-            "source": "node_202",
-            "target": "node_203",
-            "animated": true
-        },
-        {
-            "id": "e220",
-            "source": "node_203",
-            "target": "node_204",
-            "animated": true
-        },
-        {
-            "id": "e221",
-            "source": "node_204",
-            "target": "node_205",
-            "animated": true
-        },
-        {
-            "id": "e222",
-            "source": "node_205",
-            "target": "node_206",
-            "animated": true
-        },
-        {
-            "id": "e223",
+            "id": "e206_to_300",
             "source": "node_206",
             "target": "node_300",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e224",
+            "id": "e207_to_214",
             "source": "node_207",
             "target": "node_214",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e225",
-            "source": "node_208",
-            "target": "node_209",
-            "animated": true
-        },
-        {
-            "id": "e226",
-            "source": "node_209",
-            "target": "node_211",
-            "animated": true
-        },
-        {
-            "id": "e227",
-            "source": "node_209",
-            "target": "node_211",
-            "animated": true
-        },
-        {
-            "id": "e228",
+            "id": "e210_to_212",
             "source": "node_210",
             "target": "node_212",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e229",
-            "source": "node_210",
-            "target": "node_212",
-            "animated": true
-        },
-        {
-            "id": "e230",
-            "source": "node_211",
-            "target": "node_212",
-            "animated": true
-        },
-        {
-            "id": "e231",
-            "source": "node_212",
-            "target": "node_213",
-            "animated": true
-        },
-        {
-            "id": "e232",
+            "id": "e216_to_231",
             "source": "node_216",
             "target": "node_231",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e233",
-            "source": "node_217",
-            "target": "node_220",
-            "animated": true
-        },
-        {
-            "id": "e234",
+            "id": "e218_to_214",
             "source": "node_218",
             "target": "node_214",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e235",
-            "source": "node_218",
-            "target": "node_214",
-            "animated": true
-        },
-        {
-            "id": "e236",
+            "id": "e219_to_227",
             "source": "node_219",
             "target": "node_227",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e237",
-            "source": "node_220",
-            "target": "node_222",
-            "animated": true
-        },
-        {
-            "id": "e238",
+            "id": "e221_to_229",
             "source": "node_221",
             "target": "node_229",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e239",
-            "source": "node_222",
-            "target": "node_223",
-            "animated": true
-        },
-        {
-            "id": "e240",
-            "source": "node_228",
-            "target": "node_232",
-            "animated": true
-        },
-        {
-            "id": "e241",
+            "id": "e229_to_218",
             "source": "node_229",
             "target": "node_218",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e242",
+            "id": "e279_to_312",
             "source": "node_279",
             "target": "node_312",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e243",
+            "id": "e280_to_305",
             "source": "node_280",
             "target": "node_305",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e244",
+            "id": "e281_to_145",
             "source": "node_281",
             "target": "node_145",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e245",
-            "source": "node_281",
-            "target": "node_145",
-            "animated": true
-        },
-        {
-            "id": "e246",
-            "source": "node_282",
-            "target": "node_283",
-            "animated": true
-        },
-        {
-            "id": "e247",
-            "source": "node_283",
-            "target": "node_284",
-            "animated": true
-        },
-        {
-            "id": "e248",
+            "id": "e297_to_5",
             "source": "node_297",
             "target": "node_5",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e249",
+            "id": "e300_to_207",
             "source": "node_300",
             "target": "node_207",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e250",
-            "source": "node_301",
-            "target": "node_302",
-            "animated": true
-        },
-        {
-            "id": "e251",
+            "id": "e302_to_161",
             "source": "node_302",
             "target": "node_161",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e252",
+            "id": "e303_to_168",
             "source": "node_303",
             "target": "node_168",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e253",
+            "id": "e304_to_140",
             "source": "node_304",
             "target": "node_140",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e254",
-            "source": "node_319",
-            "target": "node_320",
-            "animated": true
-        },
-        {
-            "id": "e255",
-            "source": "node_319",
-            "target": "node_320",
-            "animated": true
-        },
-        {
-            "id": "e256",
+            "id": "e324_to_173",
             "source": "node_324",
             "target": "node_173",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e257",
+            "id": "e328_to_282",
             "source": "node_328",
             "target": "node_282",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e258",
-            "source": "node_328",
-            "target": "node_282",
-            "animated": true
-        },
-        {
-            "id": "e259",
-            "source": "node_329",
-            "target": "node_330",
-            "animated": true
-        },
-        {
-            "id": "e260",
+            "id": "e333_to_303",
             "source": "node_333",
             "target": "node_303",
-            "animated": true
+            "type": "step"
         }
     ]
 }

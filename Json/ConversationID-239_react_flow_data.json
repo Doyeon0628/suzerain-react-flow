@@ -1,2165 +1,550 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8898670,\n\nModerator: Uh, it appears we have time for on...\nen\n\n\n\"Uh, it appears we have time for one last question.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8898772,\n\nModerator: President Rayne, given this countr...\nen\n\n\n\"President Rayne, given this country's rather turbulent political history...\""
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
             "id": "node_2",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8898874,\n\nModerator: Will you accept the results of the...\nen\n\n\n\"Will you accept the results of the election, whatever they are?\""
+                "label": "Moderator\n\n\"Uh, it appears we have time for one last question.\""
             },
             "position": {
-                "x": 500,
+                "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899000,\n\nPlayer: What kind of a question is that? O...\nen\n\n\n\"What kind of a question is that? Of course I'll accept the results.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899006,\n\nPlayer: What kind of a question is that? O...\nMenu Text en\n\n\n\"What kind of a question is that? Of course I'll accept the results.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899108,\n\nPlayer: I will respect what the people of...\nen\n\n\n\"I will respect what the people of Sordland decide.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899114,\n\nPlayer: I will respect what the people of...\nMenu Text en\n\n\n\"I will respect what the people of Sordland decide.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899216,\n\nPlayer: I accepted the results when the US...\nen\n\n\n\"I accepted the results when the USP voted me out, didn't I?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899222,\n\nPlayer: I accepted the results when the US...\nMenu Text en\n\n\n\"I accepted the results when the USP voted me out, didn't I?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899594,\n\nPlayer: Yes. But I pledge I will never sto...\nen\n\n\n\"Yes. But I pledge I will never stop fighting for my beliefs.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899600,\n\nPlayer: Yes. But I pledge I will never sto...\nMenu Text en\n\n\n\"Yes. But I pledge I will never stop fighting for my beliefs.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_11",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8899702,\n\nDenis Stahler: Ha! Listen to this man.\nen\n\n\n\"Ha! Listen to this man.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8900082,\n\nDenis Stahler: You're going to trust someone who...\nen\n\n\n\"You're going to trust someone who promised change, only to warp the constitution to suit his own desires?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8900740,\n\nDenis Stahler: You're going to trust someone who...\nen\n\n\n\"You're going to trust someone who promised change, only to attempt to warp the constitution to suit his own desires?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8900842,\n\nDenis Stahler: You're going to trust someone who...\nen\n\n\n\"You're going to trust someone who fabricated an emergency as an excuse to seize power?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8900944,\n\nModerator: Mr. Stahler, my question was for t...\nen\n\n\n\"Mr. Stahler, my question was for the President alone. Please don't interrupt.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8901880,\n\nNarrator: Denis looked like he wanted to say...\nen\n\n\nDenis looked like he wanted to say something, but thought better of it."
-            },
-            "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8902260,\n\nNarrator: Mansoun looked like he wanted to sa...\nen\n\n\nMansoun looked like he wanted to say something, but thought better of it."
-            },
-            "position": {
-                "x": 500,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_18",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8902640,\n\nNarrator: Manoly looked like she wanted to sa...\nen\n\n\nManoly looked like she wanted to say something, but thought better of it."
-            },
-            "position": {
-                "x": 0,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8902742,\n\nNarrator: Frens looked like he wanted to say...\nen\n\n\nFrens looked like he wanted to say something, but thought better of it."
-            },
-            "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8902844,\n\nFrens Ricter: The mere fact that you have to ask...\nen\n\n\n\"The mere fact that you have to ask that question is proof that Sordland is far from the democracy it must become.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8903502,\n\nManoly Suheil: The mere fact that you have to ask...\nen\n\n\n\"The mere fact that you have to ask that question is proof that Sordland is far from the democracy it must become.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_22",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8903604,\n\nModerator: Right. I'd like to end the evening...\nen\n\n\n\"Right. I'd like to end the evening by allowing each candidate to make a short closing statement.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8903706,\n\nNarrator: Denis looked at the floor.\nen\n\n\nDenis looked at the floor."
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_24",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904086,\n\nLileas Graf: This is such a disrespectful quest...\nen\n\n\n\"This is such a disrespectful question to ask a sitting president. The leader of Sordland shall stay in power for however long its people and God will.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904490,\n\nPlayer: I couldn't have said that better m...\nen\n\n\n\"I couldn't have said that better myself.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904496,\n\nPlayer: I couldn't have said that better m...\nMenu Text en\n\n\n\"I couldn't have said that better myself.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904598,\n\nPlayer: And that's the reason I left the U...\nen\n\n\n\"And that's the reason I left the USP.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904604,\n\nPlayer: And that's the reason I left the U...\nMenu Text en\n\n\n\"And that's the reason I left the USP.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904706,\n\nKesaro Kibener: Surely this is a disrespectful que...\nen\n\n\n\"Surely this is a disrespectful question to ask a sitting president. The leader of Sordland shall stay in power for however long its people and God will.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_30",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904824,\n\nRemus Holstron: How dare you ask that of a sitting...\nen\n\n\n\"How dare you ask that of a sitting president? The leader of Sordland shall stay in power for however long is the Sords and God wills it.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904942,\n\nPlayer: If there is a God, you will never...\nen\n\n\n\"If there is a God, you will never become president.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8904948,\n\nPlayer: If there is a God, you will never...\nMenu Text en\n\n\n\"If there is a God, you will never become president.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8905050,\n\nPlayer: She was well within her right to a...\nen\n\n\n\"She was well within her right to ask that. The president must never be elevated above anyone else.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_34",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8905056,\n\nPlayer: She was well within her right to a...\nMenu Text en\n\n\n\"She was well within her right to ask that. The president must never be elevated above anyone else.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_35",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8905992,\n\nDenis Stahler: No further comment. The events of...\nen\n\n\n\"No further comment. The events of this evening speak for themselves.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8906094,\n\nMansoun Leke: I agree. No further comment.\nen\n\n\n\"I agree. No further comment.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8906196,\n\nFrens Ricter: I have nothing to add. I trust the...\nen\n\n\n\"I have nothing to add. I trust the Sordish people will make the right decision.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_38",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8906576,\n\nManoly Suheil: I have nothing to add. I trust the...\nen\n\n\n\"I have nothing to add. I trust the Sordish people will make the right decision.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_39",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8906956,\n\nMansoun Leke: Mansoun looked at Denis' empty chai...\nen\n\n\nMansoun looked at Denis' empty chair."
-            },
-            "position": {
-                "x": 0,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_40",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8907058,\n\nMansoun Leke: I won't comment further. The event...\nen\n\n\n\"I won't comment further. The events of this evening speak for themselves.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8907438,\n\nNarrator: Frens looked at Denis and Mansoun's...\nen\n\n\nFrens looked at Denis and Mansoun's empty chairs."
-            },
-            "position": {
-                "x": 500,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8907540,\n\nNarrator: Manoly looked at Denis and Mansoun'...\nen\n\n\nManoly looked at Denis and Mansoun's empty chairs."
-            },
-            "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8907920,\n\nLileas Graf: Well, I will say something.\nen\n\n\n\"Well, I will say something.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8908022,\n\nLileas Graf: People of Sordland, I have watched...\nen\n\n\n\"People of Sordland, I have watched this man lead our great country astray. Place your trust in me, and I will put us back on the path that the Lord chose for us.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8908680,\n\nKesaro Kibener: Whatever differences of opinion Pr...\nen\n\n\n\"Whatever differences of opinion President Rayne and I expressed during this debate, the NFP is prepared to stand with him and his party. For a Sordland that truly belongs to the Sords.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8909060,\n\nKesaro Kibener: For a Sordland that truly belongs...\nen\n\n\n\"For a Sordland that truly belongs to its own people, there is only one way to vote.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8909162,\n\nRemus Holstron: I am a man of action, not of words.\nen\n\n\n\"I am a man of action, not of words.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_48",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8909264,\n\nRemus Holstron: Vote NFP. For a Sordland that trul...\nen\n\n\n\"Vote NFP. For a Sordland that truly belongs to the Sords. We shall realise our destiny as a great people.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8909366,\n\nModerator: President Rayne?\nen\n\n\n\"President Rayne?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8909492,\n\nDenis Stahler: I am grateful to the President for...\nen\n\n\n\"I am grateful to the President for finally paving the way for my party into Assembly. But I ask you: Why stop there? Sordish Socialism is upon our doorstep. All that is left to do is embrace it.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8909872,\n\nDenis Stahler: My party spent years shut out of a...\nen\n\n\n\"My party spent years shut out of assembly while the voices of thousands of Sords were denied. It is time for a new way forward. The People's Front is the future Sordland deserves.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_52",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8910252,\n\nDenis Stahler: Join our coalition and we promise...\nen\n\n\n\"Join our coalition and we promise equality for every man and woman, every Blud and Sord.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8910354,\n\nMansoun Leke: Now that smaller parties have been...\nen\n\n\n\"Now that smaller parties have been given a voice, it is time to rise up and make your own heard. Man or woman, Blud or Sord.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2550
             }
         },
         {
             "id": "node_54",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8910734,\n\nFrens Ricter: I know Sordland is ready for democ...\nen\n\n\n\"I know Sordland is ready for democracy. Under the PFJP, you will enjoy a freedom you have never known before.\""
+                "label": "Narrator\n\nDenis looked at the floor."
             },
             "position": {
-                "x": 0,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911114,\n\nManoly Suheil: My predecessor Frens Ricter believ...\nen\n\n\n\"My predecessor Frens Ricter believed that Sordland was finally ready for democracy. It's time for the people to prove him right.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911494,\n\nPlayer: I've already said everything I nee...\nen\n\n\n\"I've already said everything I need to say. Thank you for a pleasant evening.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911500,\n\nPlayer: I've already said everything I nee...\nMenu Text en\n\n\n\"I've already said everything I need to say. Thank you for a pleasant evening.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911602,\n\nPlayer: Why accept my opponents' mediocre...\nen\n\n\n\"Why accept my opponents' mediocre promises when you could have... the moon?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911608,\n\nPlayer: Why accept my opponents' mediocre...\nMenu Text en\n\n\n\"Why accept my opponents' mediocre promises when you could have... the moon?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_60",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911710,\n\nPlayer: People of Sordland... we have only...\nen\n\n\n\"People of Sordland... we have only just begun.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_61",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911716,\n\nPlayer: People of Sordland... we have only...\nMenu Text en\n\n\n\"People of Sordland... we have only just begun.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3000
+                "x": 3510,
+                "y": 200
             }
         },
         {
             "id": "node_62",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8911818,\n\nPlayer: A new day began to dawn. We must n...\nen\n\n\n\"A new day began to dawn. We must not abandon what we started.\""
+                "label": "Player\n\n\"I couldn't have said that better myself.\""
             },
             "position": {
-                "x": 500,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911824,\n\nPlayer: A new day began to dawn. We must n...\nMenu Text en\n\n\n\"A new day began to dawn. We must not abandon what we started.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8911926,\n\nModerator: Very well. Thanks to all the candi...\nen\n\n\n\"Very well. Thanks to all the candidates for your time tonight. The Sordish Broadcasting Corporation wishes all our viewers a good evening.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_65",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8912028,\n\nNarrator: She motioned to the crew, and the c...\nen\n\n\nShe motioned to the crew, and the cameras stopped rolling."
-            },
-            "position": {
-                "x": 500,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8912408,\n\nFrens Ricter: Whatever differences President Ray...\nen\n\n\n\"Whatever differences President Rayne and I expressed during this debate, our alliance still stands. No matter who wins, we will govern together to bring Sordland a freedom it has never known before.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3300
+                "x": 540,
+                "y": 0
             }
         },
         {
             "id": "node_67",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8913074,\n\nPlayer: I understand your concerns given m...\nen\n\n\n\"I understand your concerns given my predecessors' attempts to cling to power. But I swear I will serve only as long as the people want me.\""
+                "label": "Player\n\n\"She was well within her right to ask that. The president must never be elevated above anyone else.\""
             },
             "position": {
-                "x": 250,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8913080,\n\nPlayer: I understand your concerns given m...\nMenu Text en\n\n\n\"I understand your concerns given my predecessors' attempts to cling to power. But I swear I will serve only as long as the people want me.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8913182,\n\nPlayer: Of course, there's always the poss...\nen\n\n\n\"Of course, there's always the possibility of election fraud, in which case I will fight to make sure the will of the people is respected.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8913188,\n\nPlayer: Of course, there's always the poss...\nMenu Text en\n\n\n\"Of course, there's always the possibility of election fraud, in which case I will fight to make sure the will of the people is respected.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8914124,\n\nModerator: Um...with those who remain at leas...\nen\n\n\n\"Um...with those who remain at least.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8914226,\n\nMansoun Leke: Denis, calm down.\nen\n\n\n\"Denis, calm down.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8914328,\n\nDenis Stahler: No. The charade has gone on long e...\nen\n\n\n\"No. The charade has gone on long enough. How can the blatant censorship of the media go unremarked upon on this stage?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8914430,\n\nDenis Stahler: Gladly.\nen\n\n\n\"Gladly.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8914532,\n\nNarrator: The moderator took a minute to rega...\nen\n\n\nThe moderator took a minute to regain her composure."
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8914634,\n\nNarrator: Denis rose from his seat.\nen\n\n\nDenis rose from his seat."
-            },
-            "position": {
-                "x": 250,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8914742,\n\nDenis Stahler: Admiration? You had me thrown in p...\nen\n\n\n\"Admiration? You had me thrown in prison!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8915138,\n\nPlayer: Denis, I have nothing but admirati...\nen\n\n\n\"Denis, I have nothing but admiration for you and your ideology. Please do not test my goodwill.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8915144,\n\nPlayer: Denis, I have nothing but admirati...\nMenu Text en\n\n\n\"Denis, I have nothing but admiration for you and your ideology. Please do not test my goodwill.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8915246,\n\nDenis Stahler: Unbelievable.\nen\n\n\n\"Unbelievable.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8915348,\n\nDenis Stahler: This charade has gone on long enou...\nen\n\n\n\"This charade has gone on long enough. Can't you others see he has the media rigged against us?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916014,\n\nPlayer: Don't make me do it again.\nen\n\n\n\"Don't make me do it again.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916020,\n\nPlayer: Don't make me do it again.\nMenu Text en\n\n\n\"Don't make me do it again.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916122,\n\nPlayer: I didn't give that order.\nen\n\n\n\"I didn't give that order.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916128,\n\nPlayer: I didn't give that order.\nMenu Text en\n\n\n\"I didn't give that order.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916230,\n\nDenis Stahler: Not to mention the disappearance o...\nen\n\n\n\"Not to mention the disappearance of one of the most prominent opposition leaders.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916338,\n\nDenis Stahler: Not to mention the disappearance o...\nen\n\n\n\"Not to mention the disappearance of one of the most prominent opposition parties.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916446,\n\nDenis Stahler: Let's go, Mansoun.\nen\n\n\n\"Let's go, Mansoun.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916826,\n\nDenis Stahler: To say nothing of the mysterious d...\nen\n\n\n\"To say nothing of the mysterious deaths of certain individuals in the President's orbit...\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_90",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916934,\n\nPlayer: Leave this building. Now.\nen\n\n\n\"Leave this building. Now.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8916940,\n\nPlayer: Leave this building. Now.\nMenu Text en\n\n\n\"Leave this building. Now.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4500
+                "x": 810,
+                "y": 0
             }
         },
         {
             "id": "node_92",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8917042,\n\nNarrator: The studio went deathly silent.\nen\n\n\nThe studio went deathly silent."
+                "label": "Narrator\n\nFrens looked at Denis and Mansoun's empty chairs."
             },
             "position": {
-                "x": 500,
-                "y": 4500
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_93",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8917168,\n\nPlayer: Mr. Stahler. If I really am as pow...\nen\n\n\n\"Mr. Stahler. If I really am as powerful as you claim, wouldn't it be extremely foolish of you to speak against me?\""
+                "label": "Narrator\n\nManoly looked at Denis and Mansoun's empty chairs."
             },
             "position": {
-                "x": 0,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_94",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917174,\n\nPlayer: Mr. Stahler. If I really am as pow...\nMenu Text en\n\n\n\"Mr. Stahler. If I really am as powerful as you claim, wouldn't it be extremely foolish of you to speak against me?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917276,\n\nPlayer: Sit back down. Now.\nen\n\n\n\"Sit back down. Now.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917282,\n\nPlayer: Sit back down. Now.\nMenu Text en\n\n\n\"Sit back down. Now.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917384,\n\nPlayer: Mr. Stahler. Leave this stage and...\nen\n\n\n\"Mr. Stahler. Leave this stage and do not ever show your face in front of me again.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917390,\n\nPlayer: Mr. Stahler. Leave this stage and...\nMenu Text en\n\n\n\"Mr. Stahler. Leave this stage and do not ever show your face in front of me again.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917762,\n\nDenis Stahler: I'll find my own way out.\nen\n\n\n\"I'll find my own way out.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917864,\n\nDenis Stahler: The hell you do.\nen\n\n\n\"The hell you do.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917982,\n\nPlayer: I have no idea what you're talking...\nen\n\n\n\"I have no idea what you're talking about.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8917988,\n\nPlayer: I have no idea what you're talking...\nMenu Text en\n\n\n\"I have no idea what you're talking about.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918090,\n\nDenis Stahler: I--\nen\n\n\n\"I--\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_104",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918200,\n\nDenis Stahler: Abdicating responsibility. A good...\nen\n\n\n\"Abdicating responsibility. A good look for a President.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_105",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918302,\n\nPlayer: If I was censoring the media, woul...\nen\n\n\n\"If I was censoring the media, would I permit you to make this kind of scene?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918308,\n\nPlayer: If I was censoring the media, woul...\nMenu Text en\n\n\n\"If I was censoring the media, would I permit you to make this kind of scene?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918410,\n\nPlayer: Whatever you think you know about...\nen\n\n\n\"Whatever you think you know about me, it's a lie.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918416,\n\nPlayer: Whatever you think you know about...\nMenu Text en\n\n\n\"Whatever you think you know about me, it's a lie.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918518,\n\nNarrator: Denis gaped at me indignantly, then...\nen\n\n\nDenis gaped at me indignantly, then sat, his face red."
-            },
-            "position": {
-                "x": 250,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918620,\n\nPlayer: Guards, this man is a danger to me...\nen\n\n\n\"Guards, this man is a danger to me. Please escort him out of the building at once.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8918626,\n\nPlayer: Guards, this man is a danger to me...\nMenu Text en\n\n\n\"Guards, this man is a danger to me. Please escort him out of the building at once.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_112",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 8919006,\n\nNarrator: Denis sat, his face red. None of th...\nen\n\n\nDenis sat, his face red. None of the other candidates spoke."
-            },
-            "position": {
-                "x": 250,
-                "y": 5550
+                "x": 1350,
+                "y": 0
             }
         },
         {
             "id": "node_113",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8919108,\n\nNarrator: Denis paled slightly.\nen\n\n\nDenis paled slightly."
+                "label": "Denis Stahler\n\n\"I am grateful to the President for finally paving the way for my party into Assembly. But I ask you: Why stop there? Sordish Socialism is upon our doorstep. All that is left to do is embrace it.\""
             },
             "position": {
-                "x": 500,
-                "y": 5550
+                "x": 1620,
+                "y": 0
             }
         },
         {
-            "id": "node_114",
-            "type": "default",
+            "id": "node_134",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8919210,\n\nDenis Stahler: I won't play this game a second lo...\nen\n\n\n\"I won't play this game a second longer.\""
+                "label": "Player\n\n\"I've already said everything I need to say. Thank you for a pleasant evening.\""
             },
             "position": {
-                "x": 0,
-                "y": 5700
+                "x": 1890,
+                "y": 0
             }
         },
         {
-            "id": "node_115",
-            "type": "default",
+            "id": "node_143",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8919590,\n\nNarrator: He and Denis walked out of the stud...\nen\n\n\nHe and Denis walked out of the studio. None of the other candidates spoke."
+                "label": "Frens Ricter\n\n\"Whatever differences President Rayne and I expressed during this debate, our alliance still stands. No matter who wins, we will govern together to bring Sordland a freedom it has never known before.\""
             },
             "position": {
-                "x": 250,
-                "y": 5700
+                "x": 2160,
+                "y": 0
             }
         },
         {
-            "id": "node_116",
-            "type": "default",
+            "id": "node_151",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8920336,\n\nDenis Stahler: They're more violent than they use...\nen\n\n\n\"They're more violent than they used to be, I'll agree with you there. But your reaction crossed a line.\""
+                "label": "Player\n\n\"Of course, there's always the possibility of election fraud, in which case I will fight to make sure the will of the people is respected.\""
             },
             "position": {
-                "x": 500,
-                "y": 5700
+                "x": 2430,
+                "y": 0
             }
         },
         {
-            "id": "node_117",
-            "type": "default",
+            "id": "node_161",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8920534,\n\nPlayer: The Red Youth were out of control....\nen\n\n\n\"The Red Youth were out of control. You should have done something.\""
+                "label": "Moderator\n\n\"Um...with those who remain at least.\""
             },
             "position": {
-                "x": 0,
-                "y": 5850
+                "x": 2700,
+                "y": 0
             }
         },
         {
-            "id": "node_118",
-            "type": "default",
+            "id": "node_162",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8920540,\n\nPlayer: The Red Youth were out of control....\nMenu Text en\n\n\n\"The Red Youth were out of control. You should have done something.\""
+                "label": "Mansoun Leke\n\n\"Denis, calm down.\""
             },
             "position": {
-                "x": 250,
-                "y": 5850
+                "x": 2970,
+                "y": 0
             }
         },
         {
-            "id": "node_119",
-            "type": "default",
+            "id": "node_165",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8920738,\n\nMansoun Leke: It doesn't have to be this way. Vo...\nen\n\n\n\"It doesn't have to be this way. Vote People's Front for real change in '57.\""
+                "label": "Narrator\n\nThe moderator took a minute to regain her composure."
             },
             "position": {
-                "x": 500,
-                "y": 5850
+                "x": 6210,
+                "y": 400
             }
         },
         {
-            "id": "node_120",
-            "type": "default",
+            "id": "node_166",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8920840,\n\nDenis Stahler: I cannot fucking believe this!\nen\n\n\n\"I cannot fucking believe this!\""
+                "label": "Narrator\n\nDenis rose from his seat."
             },
             "position": {
-                "x": 0,
-                "y": 6000
+                "x": 3510,
+                "y": 0
             }
         },
         {
-            "id": "node_121",
-            "type": "default",
+            "id": "node_167",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8920942,\n\nNarrator: Denis loudly pushed his chair back...\nen\n\n\nDenis loudly pushed his chair back and stormed out of the studio. None of the other candidates spoke."
+                "label": "Denis Stahler\n\n\"Admiration? You had me thrown in prison!\""
             },
             "position": {
-                "x": 250,
-                "y": 6000
+                "x": 7830,
+                "y": 200
             }
         },
         {
-            "id": "node_122",
-            "type": "default",
+            "id": "node_172",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8921044,\n\nDenis Stahler: Let's just get this dog and pony s...\nen\n\n\n\"Let's just get this dog and pony show over with.\""
+                "label": "Denis Stahler\n\n\"Unbelievable.\""
             },
             "position": {
-                "x": 500,
-                "y": 6000
+                "x": 5940,
+                "y": 200
             }
         },
         {
-            "id": "node_123",
-            "type": "default",
+            "id": "node_173",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8921146,\n\nMansoun Leke: Sorry, Denis, I can't risk it. You...\nen\n\n\n\"Sorry, Denis, I can't risk it. You're on your own.\""
+                "label": "Denis Stahler\n\n\"This charade has gone on long enough. Can't you others see he has the media rigged against us?\""
             },
             "position": {
-                "x": 0,
-                "y": 6150
+                "x": 4320,
+                "y": 0
             }
         },
         {
-            "id": "node_124",
-            "type": "default",
+            "id": "node_181",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8921248,\n\nNarrator: Mansoun got up and looked into the...\nen\n\n\nMansoun got up and looked into the camera."
+                "label": "Player\n\n\"I didn't give that order.\""
             },
             "position": {
-                "x": 250,
-                "y": 6150
+                "x": 4590,
+                "y": 0
             }
         },
         {
-            "id": "node_125",
-            "type": "default",
+            "id": "node_182",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8921898,\n\nDenis Stahler: You claimed to understand the plig...\nen\n\n\n\"You claimed to understand the plight of the common man back in Narbel. But it was all an act, wasn't it, Mr. President?\""
+                "label": "Denis Stahler\n\n\"Not to mention the disappearance of one of the most prominent opposition leaders.\""
             },
             "position": {
-                "x": 500,
-                "y": 6150
+                "x": 4860,
+                "y": 0
             }
         },
         {
-            "id": "node_126",
-            "type": "default",
+            "id": "node_190",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 8922000,\n\nDenis Stahler: Ever since our confrontation in Na...\nen\n\n\n\"Ever since our confrontation in Narbel I've known exactly what kind of man you were, Mr. President.\""
+                "label": "Narrator\n\nThe studio went deathly silent."
             },
             "position": {
-                "x": 0,
-                "y": 6300
+                "x": 6210,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_192",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Sit back down. Now.\""
+            },
+            "position": {
+                "x": 5400,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Mr. Stahler. Leave this stage and do not ever show your face in front of me again.\""
+            },
+            "position": {
+                "x": 5670,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_196",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"I'll find my own way out.\""
+            },
+            "position": {
+                "x": 5940,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"Abdicating responsibility. A good look for a President.\""
+            },
+            "position": {
+                "x": 6210,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_209",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDenis sat, his face red. None of the other candidates spoke."
+            },
+            "position": {
+                "x": 6480,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_215",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe and Denis walked out of the studio. None of the other candidates spoke."
+            },
+            "position": {
+                "x": 6750,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"They're more violent than they used to be, I'll agree with you there. But your reaction crossed a line.\""
+            },
+            "position": {
+                "x": 7020,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The Red Youth were out of control. You should have done something.\""
+            },
+            "position": {
+                "x": 7290,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_228",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"I cannot fucking believe this!\""
+            },
+            "position": {
+                "x": 7560,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDenis loudly pushed his chair back and stormed out of the studio. None of the other candidates spoke."
+            },
+            "position": {
+                "x": 7830,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"Sorry, Denis, I can't risk it. You're on your own.\""
+            },
+            "position": {
+                "x": 8100,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"Ever since our confrontation in Narbel I've known exactly what kind of man you were, Mr. President.\""
+            },
+            "position": {
+                "x": 8370,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e2_to_99",
             "source": "node_2",
             "target": "node_99",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e1",
-            "source": "node_3",
-            "target": "node_4",
-            "animated": true
-        },
-        {
-            "id": "e2",
-            "source": "node_4",
-            "target": "node_5",
-            "animated": true
-        },
-        {
-            "id": "e3",
-            "source": "node_5",
-            "target": "node_12",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_5",
-            "target": "node_12",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_6",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_6",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_7",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e8",
-            "source": "node_7",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e9",
-            "source": "node_10",
-            "target": "node_8",
-            "animated": true
-        },
-        {
-            "id": "e10",
-            "source": "node_10",
-            "target": "node_8",
-            "animated": true
-        },
-        {
-            "id": "e11",
-            "source": "node_12",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e12",
-            "source": "node_16",
-            "target": "node_47",
-            "animated": true
-        },
-        {
-            "id": "e13",
-            "source": "node_23",
-            "target": "node_25",
-            "animated": true
-        },
-        {
-            "id": "e14",
-            "source": "node_24",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e15",
-            "source": "node_25",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e16",
-            "source": "node_35",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e17",
-            "source": "node_39",
-            "target": "node_41",
-            "animated": true
-        },
-        {
-            "id": "e18",
-            "source": "node_43",
-            "target": "node_44",
-            "animated": true
-        },
-        {
-            "id": "e19",
-            "source": "node_44",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e20",
-            "source": "node_45",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e21",
-            "source": "node_52",
-            "target": "node_56",
-            "animated": true
-        },
-        {
-            "id": "e22",
-            "source": "node_53",
-            "target": "node_56",
-            "animated": true
-        },
-        {
-            "id": "e23",
+            "id": "e54_to_159",
             "source": "node_54",
             "target": "node_159",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e24",
-            "source": "node_58",
-            "target": "node_60",
-            "animated": true
-        },
-        {
-            "id": "e25",
+            "id": "e62_to_148",
             "source": "node_62",
             "target": "node_148",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e26",
-            "source": "node_62",
-            "target": "node_148",
-            "animated": true
-        },
-        {
-            "id": "e27",
-            "source": "node_63",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e28",
-            "source": "node_63",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e29",
-            "source": "node_64",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e30",
-            "source": "node_65",
-            "target": "node_68",
-            "animated": true
-        },
-        {
-            "id": "e31",
-            "source": "node_66",
-            "target": "node_68",
-            "animated": true
-        },
-        {
-            "id": "e32",
-            "source": "node_66",
-            "target": "node_68",
-            "animated": true
-        },
-        {
-            "id": "e33",
+            "id": "e67_to_54",
             "source": "node_67",
             "target": "node_54",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e34",
-            "source": "node_67",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e35",
-            "source": "node_77",
-            "target": "node_81",
-            "animated": true
-        },
-        {
-            "id": "e36",
-            "source": "node_78",
-            "target": "node_75",
-            "animated": true
-        },
-        {
-            "id": "e37",
-            "source": "node_79",
-            "target": "node_81",
-            "animated": true
-        },
-        {
-            "id": "e38",
-            "source": "node_83",
-            "target": "node_84",
-            "animated": true
-        },
-        {
-            "id": "e39",
-            "source": "node_87",
-            "target": "node_90",
-            "animated": true
-        },
-        {
-            "id": "e40",
-            "source": "node_88",
-            "target": "node_89",
-            "animated": true
-        },
-        {
-            "id": "e41",
+            "id": "e92_to_153",
             "source": "node_92",
             "target": "node_153",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e42",
+            "id": "e93_to_80",
             "source": "node_93",
             "target": "node_80",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e43",
-            "source": "node_97",
-            "target": "node_100",
-            "animated": true
-        },
-        {
-            "id": "e44",
-            "source": "node_98",
-            "target": "node_99",
-            "animated": true
-        },
-        {
-            "id": "e45",
-            "source": "node_105",
-            "target": "node_113",
-            "animated": true
-        },
-        {
-            "id": "e46",
-            "source": "node_109",
-            "target": "node_110",
-            "animated": true
-        },
-        {
-            "id": "e47",
-            "source": "node_110",
-            "target": "node_113",
-            "animated": true
-        },
-        {
-            "id": "e48",
-            "source": "node_111",
-            "target": "node_112",
-            "animated": true
-        },
-        {
-            "id": "e49",
-            "source": "node_112",
-            "target": "node_113",
-            "animated": true
-        },
-        {
-            "id": "e50",
+            "id": "e113_to_138",
             "source": "node_113",
             "target": "node_138",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e51",
-            "source": "node_117",
-            "target": "node_118",
-            "animated": true
-        },
-        {
-            "id": "e52",
-            "source": "node_121",
-            "target": "node_128",
-            "animated": true
-        },
-        {
-            "id": "e53",
-            "source": "node_122",
-            "target": "node_128",
-            "animated": true
-        },
-        {
-            "id": "e54",
-            "source": "node_126",
-            "target": "node_128",
-            "animated": true
-        },
-        {
-            "id": "e55",
-            "source": "node_130",
-            "target": "node_156",
-            "animated": true
-        },
-        {
-            "id": "e56",
+            "id": "e134_to_100",
             "source": "node_134",
             "target": "node_100",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e57",
-            "source": "node_134",
-            "target": "node_100",
-            "animated": true
-        },
-        {
-            "id": "e58",
-            "source": "node_135",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e59",
-            "source": "node_135",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e60",
-            "source": "node_136",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e61",
-            "source": "node_136",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e62",
-            "source": "node_137",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e63",
-            "source": "node_137",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e64",
-            "source": "node_138",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e65",
-            "source": "node_139",
-            "target": "node_140",
-            "animated": true
-        },
-        {
-            "id": "e66",
+            "id": "e143_to_127",
             "source": "node_143",
             "target": "node_127",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e67",
-            "source": "node_150",
-            "target": "node_152",
-            "animated": true
-        },
-        {
-            "id": "e68",
-            "source": "node_150",
-            "target": "node_152",
-            "animated": true
-        },
-        {
-            "id": "e69",
+            "id": "e151_to_54",
             "source": "node_151",
             "target": "node_54",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e70",
-            "source": "node_151",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e71",
+            "id": "e161_to_69",
             "source": "node_161",
             "target": "node_69",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e72",
+            "id": "e162_to_69",
             "source": "node_162",
             "target": "node_69",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e73",
-            "source": "node_163",
-            "target": "node_164",
-            "animated": true
-        },
-        {
-            "id": "e74",
-            "source": "node_164",
-            "target": "node_175",
-            "animated": true
-        },
-        {
-            "id": "e75",
+            "id": "e165_to_213",
             "source": "node_165",
             "target": "node_213",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e76",
+            "id": "e166_to_54",
             "source": "node_166",
             "target": "node_54",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e77",
+            "id": "e167_to_234",
             "source": "node_167",
             "target": "node_234",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e78",
-            "source": "node_171",
-            "target": "node_174",
-            "animated": true
-        },
-        {
-            "id": "e79",
-            "source": "node_171",
-            "target": "node_174",
-            "animated": true
-        },
-        {
-            "id": "e80",
+            "id": "e172_to_207",
             "source": "node_172",
             "target": "node_207",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e81",
+            "id": "e173_to_220",
             "source": "node_173",
             "target": "node_220",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e82",
-            "source": "node_180",
-            "target": "node_186",
-            "animated": true
-        },
-        {
-            "id": "e83",
-            "source": "node_180",
-            "target": "node_186",
-            "animated": true
-        },
-        {
-            "id": "e84",
+            "id": "e181_to_210",
             "source": "node_181",
             "target": "node_210",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e85",
-            "source": "node_181",
-            "target": "node_210",
-            "animated": true
-        },
-        {
-            "id": "e86",
+            "id": "e182_to_202",
             "source": "node_182",
             "target": "node_202",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e87",
-            "source": "node_183",
-            "target": "node_186",
-            "animated": true
-        },
-        {
-            "id": "e88",
-            "source": "node_184",
-            "target": "node_186",
-            "animated": true
-        },
-        {
-            "id": "e89",
-            "source": "node_188",
-            "target": "node_191",
-            "animated": true
-        },
-        {
-            "id": "e90",
-            "source": "node_189",
-            "target": "node_191",
-            "animated": true
-        },
-        {
-            "id": "e91",
-            "source": "node_189",
-            "target": "node_191",
-            "animated": true
-        },
-        {
-            "id": "e92",
+            "id": "e190_to_165",
             "source": "node_190",
             "target": "node_165",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e93",
-            "source": "node_191",
-            "target": "node_195",
-            "animated": true
-        },
-        {
-            "id": "e94",
-            "source": "node_191",
-            "target": "node_195",
-            "animated": true
-        },
-        {
-            "id": "e95",
+            "id": "e192_to_211",
             "source": "node_192",
             "target": "node_211",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e96",
-            "source": "node_192",
-            "target": "node_211",
-            "animated": true
-        },
-        {
-            "id": "e97",
+            "id": "e193_to_210",
             "source": "node_193",
             "target": "node_210",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e98",
-            "source": "node_193",
-            "target": "node_210",
-            "animated": true
-        },
-        {
-            "id": "e99",
+            "id": "e196_to_172",
             "source": "node_196",
             "target": "node_172",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e100",
-            "source": "node_198",
-            "target": "node_213",
-            "animated": true
-        },
-        {
-            "id": "e101",
-            "source": "node_199",
-            "target": "node_203",
-            "animated": true
-        },
-        {
-            "id": "e102",
-            "source": "node_199",
-            "target": "node_203",
-            "animated": true
-        },
-        {
-            "id": "e103",
-            "source": "node_200",
-            "target": "node_199",
-            "animated": true
-        },
-        {
-            "id": "e104",
+            "id": "e201_to_190",
             "source": "node_201",
             "target": "node_190",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e105",
-            "source": "node_202",
-            "target": "node_213",
-            "animated": true
-        },
-        {
-            "id": "e106",
-            "source": "node_202",
-            "target": "node_213",
-            "animated": true
-        },
-        {
-            "id": "e107",
-            "source": "node_203",
-            "target": "node_205",
-            "animated": true
-        },
-        {
-            "id": "e108",
-            "source": "node_203",
-            "target": "node_205",
-            "animated": true
-        },
-        {
-            "id": "e109",
-            "source": "node_204",
-            "target": "node_212",
-            "animated": true
-        },
-        {
-            "id": "e110",
-            "source": "node_205",
-            "target": "node_173",
-            "animated": true
-        },
-        {
-            "id": "e111",
-            "source": "node_205",
-            "target": "node_173",
-            "animated": true
-        },
-        {
-            "id": "e112",
+            "id": "e209_to_205",
             "source": "node_209",
             "target": "node_205",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e113",
-            "source": "node_210",
-            "target": "node_220",
-            "animated": true
-        },
-        {
-            "id": "e114",
-            "source": "node_211",
-            "target": "node_201",
-            "animated": true
-        },
-        {
-            "id": "e115",
+            "id": "e215_to_230",
             "source": "node_215",
             "target": "node_230",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e116",
+            "id": "e223_to_232",
             "source": "node_223",
             "target": "node_232",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e117",
+            "id": "e225_to_220",
             "source": "node_225",
             "target": "node_220",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e118",
-            "source": "node_225",
-            "target": "node_220",
-            "animated": true
-        },
-        {
-            "id": "e119",
-            "source": "node_227",
-            "target": "node_220",
-            "animated": true
-        },
-        {
-            "id": "e120",
+            "id": "e228_to_216",
             "source": "node_228",
             "target": "node_216",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e121",
+            "id": "e229_to_167",
             "source": "node_229",
             "target": "node_167",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e122",
-            "source": "node_230",
-            "target": "node_225",
-            "animated": true
-        },
-        {
-            "id": "e123",
+            "id": "e231_to_210",
             "source": "node_231",
             "target": "node_210",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e124",
-            "source": "node_232",
-            "target": "node_230",
-            "animated": true
-        },
-        {
-            "id": "e125",
-            "source": "node_239",
-            "target": "node_241",
-            "animated": true
-        },
-        {
-            "id": "e126",
+            "id": "e240_to_169",
             "source": "node_240",
             "target": "node_169",
-            "animated": true
+            "type": "step"
         }
     ]
 }

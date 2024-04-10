@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
+            "id": "node_66",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 5948221,\n\nNarrator: I returned to Holsord with good new...\nen\n\n\nI returned to Holsord with good news."
+                "label": "Narrator\n\nI returned to Holsord with good news."
             },
             "position": {
                 "x": 0,
@@ -14,10 +14,10 @@
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e66_to_55",
             "source": "node_66",
             "target": "node_55",
-            "animated": true
+            "type": "step"
         }
     ]
 }

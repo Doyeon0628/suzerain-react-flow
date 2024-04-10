@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
+            "id": "node_19",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 5836432,\n\n...: BFF nuanced some riots\nen\n\n\nBFF nuanced some riots"
+                "label": "...\n\nBFF nuanced some riots"
             },
             "position": {
                 "x": 0,
@@ -12,131 +12,29 @@
             }
         },
         {
-            "id": "node_1",
-            "type": "default",
+            "id": "node_24",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 5836804,\n\n...: blud rebellion, racial tension\nen\n\n\nblud rebellion, racial tension"
+                "label": "...\n\nblud rebellion, racial tension"
             },
             "position": {
-                "x": 250,
+                "x": 270,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 5837176,\n\n...: police massacres + more autocrat nu...\nen\n\n\npolice massacres + more autocrat nuances"
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 5837270,\n\n...: needs law enforcement budget checks...\nen\n\n\nneeds law enforcement budget checks, security decision checks. how well is the police doing?"
-            },
-            "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 5837364,\n\n...: BFF nuanced riots, militants battle\nen\n\n\nBFF nuanced riots, militants battle"
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 5837458,\n\n...: riots, militants battle\nen\n\n\nriots, militants battle"
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 5837830,\n\n...: some riots\nen\n\n\nsome riots"
-            },
-            "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 5838194,\n\n...: People rally against SC and stand w...\nen\n\n\nPeople rally against SC and stand with Rayne"
-            },
-            "position": {
-                "x": 250,
-                "y": 300
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e19_to_25",
             "source": "node_19",
             "target": "node_25",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e1",
+            "id": "e24_to_31",
             "source": "node_24",
             "target": "node_31",
-            "animated": true
-        },
-        {
-            "id": "e2",
-            "source": "node_28",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e3",
-            "source": "node_28",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_28",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_28",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_35",
-            "target": "node_32",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_38",
-            "target": "node_40",
-            "animated": true
+            "type": "step"
         }
     ]
 }

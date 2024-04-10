@@ -1,3559 +1,1009 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15238152,\n\nNarrator: I was having lunch in one of my din...\nen\n\n\nI was having lunch in one of my dining rooms when my new butler told me that someone was requesting my urgent attention."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15238254,\n\nPlayer_Romus: What is so urgent that it keeps me...\nen\n\n\n\"What is so urgent that it keeps me from enjoying my lunch in peace and quiet?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15238356,\n\nNarrator: I took a final sip from my soup, wi...\nen\n\n\nI took a final sip from my soup, wiped my mouth and got up to greet the person who'd dared to disturb me."
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15238458,\n\nNarrator: Lucita hurried into the room and bo...\nen\n\n\nLucita hurried into the room and bowed."
-            },
-            "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15238560,\n\nNarrator: Titus hurried into the room and bow...\nen\n\n\nTitus hurried into the room and bowed."
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
             "id": "node_5",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15238662,\n\nLucita Azaro: I'm sorry to disrupt you, Your Maj...\nen\n\n\n\"I'm sorry to disrupt you, Your Majesty.\""
+                "label": "Narrator\n\nI was having lunch in one of my dining rooms when my new butler told me that someone was requesting my urgent attention."
             },
             "position": {
-                "x": 500,
-                "y": 150
+                "x": 0,
+                "y": 0
             }
         },
         {
             "id": "node_6",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15238780,\n\nTitus Gordion: I am sorry to disrupt you, sir.\nen\n\n\n\"I am sorry to disrupt you, sir.\""
+                "label": "Player_Romus\n\n\"What is so urgent that it keeps me from enjoying my lunch in peace and quiet?\""
             },
             "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15238898,\n\nPlayer_Romus: Speak.\nen\n\n\n\"Speak.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15239000,\n\nPlayer_Romus: No worries at all. Now, what do yo...\nen\n\n\n\"No worries at all. Now, what do you need?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15239102,\n\nLucita Azaro: Even the palace walls have ears, Y...\nen\n\n\n\"Even the palace walls have ears, Your Majesty. If you wouldn't mind...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15239498,\n\nNarrator: She looked around and gestured at t...\nen\n\n\nShe looked around and gestured at the butler."
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_11",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15239600,\n\nTitus Gordion: Even the palace walls have ears, s...\nen\n\n\n\"Even the palace walls have ears, sir. If you wouldn't mind...\""
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15239702,\n\nLucita Azaro: I've concluded my investigation in...\nen\n\n\n\"I've concluded my investigation into Grand Wiseman Ignacius.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15239804,\n\nLucita Azaro: It turns out your suspicions were...\nen\n\n\n\"It turns out your suspicions were correct. I now have concrete proof that he was behind the poisoning of your late father.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15239922,\n\nLucita Azaro: I had many of his priests interrog...\nen\n\n\n\"I had many of his priests interrogated. Unfortunately, it proved impossible to get through to them.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15240024,\n\nPlayer_Romus: Thank you, Sebastien. You may leav...\nen\n\n\n\"Thank you, Sebastien. You may leave.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15240126,\n\nPlayer_Romus_Italic: I gestured at the butler to leave.\nen\n\n\nI gestured at the butler to leave."
-            },
-            "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15240132,\n\nPlayer_Romus_Italic: I gestured at the butler to leave.\nMenu Text en\n\n\nGesture at the butler to leave."
-            },
-            "position": {
-                "x": 500,
-                "y": 750
+                "x": 270,
+                "y": 0
             }
         },
         {
             "id": "node_18",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15240234,\n\nPlayer_Romus: Out. Now.\nen\n\n\n\"Out. Now.\""
+                "label": "Narrator\n\nShe looked around and gestured at the butler."
             },
             "position": {
-                "x": 0,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15240614,\n\nLucita Azaro: Despite trying numerous methods, t...\nen\n\n\n\"Despite trying numerous methods, they remained tight-lipped. Even with a Duchess.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15240716,\n\nLucita Azaro: But then, just as I was starting t...\nen\n\n\n\"But then, just as I was starting to lose hope, a boy working under one of the priests opened up and gave us the break we desperately needed.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15240818,\n\nLucita Azaro: He led us to this, Your Majesty. I...\nen\n\n\n\"He led us to this, Your Majesty. It belongs to the Grand Wiseman.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1050
+                "x": 540,
+                "y": 0
             }
         },
         {
             "id": "node_22",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15240920,\n\nTitus Gordion: My investigation into the Grand Wi...\nen\n\n\n\"My investigation into the Grand Wiseman has concluded.\""
+                "label": "Lucita Azaro\n\n\"I had many of his priests interrogated. Unfortunately, it proved impossible to get through to them.\""
             },
             "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15241022,\n\nTitus Gordion: As it turns out, your suspicions ab...\nen\n\n\nAs it turns out, your suspicions about him were correct. I now have concrete proof that he was behind the poisoning of your late father.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
+                "x": 810,
+                "y": 0
             }
         },
         {
             "id": "node_24",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15241140,\n\nTitus Gordion: I subjected many of his priests to...\nen\n\n\n\"I subjected many of his priests to interrogation. Regrettably, it proved impossible to elicit any useful information from them.\""
+                "label": "Player_Romus_Italic\n\nI gestured at the butler to leave."
             },
             "position": {
-                "x": 0,
-                "y": 1200
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_25",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15241242,\n\nTitus Gordion: Despite our best efforts, they rem...\nen\n\n\n\"Despite our best efforts, they remained uncooperative and silent. Even to a Captain of the Golden Guard.\""
+                "label": "Player_Romus\n\n\"Out. Now.\""
             },
             "position": {
-                "x": 250,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15241344,\n\nTitus Gordion: Much to our relief, a boy working...\nen\n\n\n\"Much to our relief, a boy working under one of the priests opened up and gave us the break we desperately needed.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15241446,\n\nTitus Gordion: He led us to this, sir. It belongs...\nen\n\n\n\"He led us to this, sir. It belongs to the Grand Wiseman.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15241548,\n\nSal Investigation Results Questions\nTitle en\n\n\nSal Investigation Results Questions"
-            },
-            "position": {
-                "x": 250,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15241690,\n\nPlayer_Romus: Where did you find the bottle?\nen\n\n\n\"Where did you find the bottle?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_30",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15242158,\n\nNarrator: She handed me the small brown bottl...\nen\n\n\nShe handed me the small brown bottle. It still had a little bit of liquid left in it."
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15242260,\n\nLucita Azaro: Be very careful with how you handl...\nen\n\n\n\"Be very careful with how you handle it, Your Majesty. We wouldn't want you to share the same fate as your father.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1500
+                "x": 1350,
+                "y": 0
             }
         },
         {
             "id": "node_32",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15242362,\n\nTitus Gordion: Be very careful with how you handl...\nen\n\n\n\"Be very careful with how you handle it , Your Majesty. We wouldn't want you to share the same fate as your father.\""
+                "label": "Titus Gordion\n\n\"My investigation into the Grand Wiseman has concluded.\""
             },
             "position": {
-                "x": 500,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15242464,\n\nNarrator: He handed me the small brown bottle...\nen\n\n\nHe handed me the small brown bottle. It still had a little bit of liquid left in it."
-            },
-            "position": {
-                "x": 0,
-                "y": 1650
+                "x": 1620,
+                "y": 0
             }
         },
         {
             "id": "node_34",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15242566,\n\nPlayer_Romus: How can you be sure it belongs to...\nen\n\n\n\"How can you be sure it belongs to him?\""
+                "label": "Titus Gordion\n\n\"I subjected many of his priests to interrogation. Regrettably, it proved impossible to elicit any useful information from them.\""
             },
             "position": {
-                "x": 250,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_35",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15243034,\n\nPlayer_Romus: Who is this boy that told you abou...\nen\n\n\n\"Who is this boy that told you about this?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15243502,\n\nLucita Azaro: And it just so happens that our to...\nen\n\n\n\"And it just so happens that our toxicologists identified this liquid to be a lethal poison called M-Man-\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15243604,\n\nTitus Gordion: Our toxicologists identified this...\nen\n\n\n\"Our toxicologists identified this liquid to be a lethal poison called M-Man-\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1800
+                "x": 1890,
+                "y": 0
             }
         },
         {
             "id": "node_38",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15243706,\n\nPlayer_Romus: That's all I wanted to know.\nen\n\n\n\"That's all I wanted to know.\""
+                "label": "Sal Investigation Results Questions\n\nSal Investigation Results Questions"
             },
             "position": {
-                "x": 500,
-                "y": 1800
+                "x": 2160,
+                "y": 0
             }
         },
         {
             "id": "node_39",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15244642,\n\nLucita Azaro: The boy took us to a secret chambe...\nen\n\n\n\"The boy took us to a secret chamber within the capital's Archsanctuary which Sal apparently used as a study.\""
+                "label": "Player_Romus\n\n\"Where did you find the bottle?\""
             },
             "position": {
-                "x": 0,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_40",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15244744,\n\nTitus Gordion: The boy took us to a secret chambe...\nen\n\n\n\"The boy took us to a secret chamber within the capital's Archsanctuary, which Sal seemingly utilized as a study.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15244846,\n\nPlayer_Romus: How does the poison work?\nen\n\n\n\"How does the poison work?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15245592,\n\nPlayer_Romus: What is this boy's name?\nen\n\n\n\"What is this boy's name?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15246060,\n\nLucita Azaro: It was a dark damp place. And old....\nen\n\n\n\"It was a dark damp place. And old. Very old. The bottle was found in a drawer.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15246162,\n\nTitus Gordion: It was a dark damp place. And old....\nen\n\n\n\"It was a dark damp place. And old. Very old. The bottle was discovered in a drawer.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
+                "x": 4320,
+                "y": 200
             }
         },
         {
             "id": "node_45",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15246354,\n\nLucita Azaro: We found some of Sal's personal be...\nen\n\n\n\"We found some of Sal's personal belongings where we found the bottle.\""
+                "label": "Lucita Azaro\n\n\"Be very careful with how you handle it, Your Majesty. We wouldn't want you to share the same fate as your father.\""
             },
             "position": {
-                "x": 0,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15246456,\n\nTitus Gordion: We stumbled upon some of Sal's per...\nen\n\n\n\"We stumbled upon some of Sal's personal belongings in the same location where we discovered the bottle.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15246648,\n\nLucita Azaro: The boy was an orphan that was tak...\nen\n\n\n\"The boy was an orphan that was taken in years ago. He was learning to be a priest.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2250
+                "x": 2700,
+                "y": 0
             }
         },
         {
             "id": "node_48",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15246750,\n\nTitus Gordion: The boy, an orphan taken in years...\nen\n\n\n\"The boy, an orphan taken in years ago, was being trained to become a priest.\""
+                "label": "Player_Romus\n\n\"How can you be sure it belongs to him?\""
             },
             "position": {
-                "x": 0,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15246942,\n\nLucita Azaro: Initially hesitant to divulge info...\nen\n\n\n\"Initially hesitant to divulge information, he eventually opened up when we stressed the urgency of the life-or-death situation.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15247044,\n\nLucita Azaro: Of course, he knows nothing about...\nen\n\n\n\"Of course, he knows nothing about this substance or how it was used.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15247146,\n\nTitus Gordion: Initially reluctant to disclose an...\nen\n\n\n\"Initially reluctant to disclose anything, he eventually acquiesced when we stressed the severity of the life-or-death situation.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_52",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15247248,\n\nTitus Gordion: Naturally, he is unaware of what t...\nen\n\n\n\"Naturally, he is unaware of what this substance is or how it was used.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15247628,\n\nLucita Azaro: His name is Alfreth Tilda.\nen\n\n\n\"His name is Alfreth Tilda.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_54",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15247730,\n\nTitus Gordion: Alfreth Tilda.\nen\n\n\n\"Alfreth Tilda.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15247832,\n\nLucita Azaro: He displayed remarkable courage co...\nen\n\n\n\"He displayed remarkable courage considering his age.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15247934,\n\nTitus Gordion: Quite the brave lad.\nen\n\n\n\"Quite the brave lad.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15248126,\n\nLucita Azaro: According to our experts, it's cap...\nen\n\n\n\"According to our experts, it's capable of causing powerful hallucinations in very small doses.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15248228,\n\nTitus Gordion: Our experts have determined that i...\nen\n\n\n\"Our experts have determined that it's capable of causing powerful hallucinations in very small doses.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2850
+                "x": 2970,
+                "y": 0
             }
         },
         {
             "id": "node_59",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15248330,\n\nLucita Azaro: On the other hand, consuming the w...\nen\n\n\n\"On the other hand, consuming the wrong amount can be fatal.\""
+                "label": "Titus Gordion\n\n\"Our toxicologists identified this liquid to be a lethal poison called M-Man-\""
             },
             "position": {
-                "x": 500,
-                "y": 2850
+                "x": 1620,
+                "y": 400
             }
         },
         {
             "id": "node_60",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15248432,\n\nTitus Gordion: On the other hand, consuming the w...\nen\n\n\n\"On the other hand, consuming the wrong amount can be fatal.\""
+                "label": "Player_Romus\n\n\"That's all I wanted to know.\""
             },
             "position": {
-                "x": 0,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_61",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15248902,\n\nPlayer_Romus: Enough said. Can you bring the Gra...\nen\n\n\n\"Enough said. Can you bring the Grand Wiseman in for questioning?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249282,\n\nLucita Azaro: That's not all. There is something...\nen\n\n\n\"That's not all. There is something else.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249384,\n\nTitus Gordion: That's not all. There's something...\nen\n\n\n\"That's not all. There's something else you should see.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249486,\n\nNarrator: She presented a sheet of paper. It...\nen\n\n\nShe presented a sheet of paper. It looked quite old."
-            },
-            "position": {
-                "x": 250,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_65",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249588,\n\nNarrator: He presented a sheet of paper. It l...\nen\n\n\nHe presented a sheet of paper. It looked quite old."
-            },
-            "position": {
-                "x": 500,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249690,\n\nPlayer_Romus_Italic: I took it and read it.\nen\n\n\nI took it and read it."
-            },
-            "position": {
-                "x": 0,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249696,\n\nPlayer_Romus_Italic: I took it and read it.\nMenu Text en\n\n\nTake it and read it."
-            },
-            "position": {
-                "x": 250,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249798,\n\nNarrator: There were dates and short descript...\nen\n\n\nThere were dates and short descriptions underneath."
-            },
-            "position": {
-                "x": 500,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15249900,\n\nSal Investigation Paper\nTitle en\n\n\nSal Investigation Paper"
-            },
-            "position": {
-                "x": 0,
-                "y": 3450
+                "x": 2160,
+                "y": 400
             }
         },
         {
             "id": "node_70",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15250034,\n\nPlayer_Romus_Italic: I read the first entry.\nen\n\n\nI read the first entry."
+                "label": "Lucita Azaro\n\n\"The boy took us to a secret chamber within the capital's Archsanctuary which Sal apparently used as a study.\""
             },
             "position": {
-                "x": 250,
-                "y": 3450
+                "x": 3240,
+                "y": 0
             }
         },
         {
             "id": "node_71",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15250040,\n\nPlayer_Romus_Italic: I read the first entry.\nMenu Text en\n\n\nRead the first entry."
+                "label": "Titus Gordion\n\n\"The boy took us to a secret chamber within the capital's Archsanctuary, which Sal seemingly utilized as a study.\""
             },
             "position": {
-                "x": 500,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15250508,\n\nPlayer_Romus_Italic: I read the second entry.\nen\n\n\nI read the second entry."
-            },
-            "position": {
-                "x": 0,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15250514,\n\nPlayer_Romus_Italic: I read the second entry.\nMenu Text en\n\n\nRead the second entry."
-            },
-            "position": {
-                "x": 250,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15250982,\n\nPlayer_Romus_Italic: Read the third entry.\nen\n\n\nRead the third entry."
-            },
-            "position": {
-                "x": 500,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15250988,\n\nPlayer_Romus_Italic: Read the third entry.\nMenu Text en\n\n\nRead the third entry."
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15251456,\n\nNarrator: Valero agreed to go through the tr...\nen\n\n\n\"Valero agreed to go through the trials that I proposed. I fear what may come, yet I remain steadfast in the knowledge that the prophesied king will eventually return.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15251558,\n\nNarrator: 24th of October, sunset.\nen\n\n\n\"24th of October, sunset.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15251660,\n\nNarrator: 16th of October, late afternoon.\nen\n\n\n\"16th of October, late afternoon.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15251762,\n\nNarrator: 1st of November, close to midnight.\nen\n\n\n\"1st of November, close to midnight.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15251864,\n\nNarrator: I cannot believe that the king has...\nen\n\n\n\"I cannot believe that the king has entrusted me with this sacred task. Sometimes I think that I take his faith in me for granted.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15251966,\n\nNarrator: We will see if he is the one. I pr...\nen\n\n\n\"We will see if he is the one. I pray that it is true. I must up the dosage further. We are getting closer.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15252068,\n\nNarrator: While he exhibits signs of joy and...\nen\n\n\n\"While he exhibits signs of joy and laughter, it appears that the dosage is insufficient. I will augment it.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15252170,\n\nNarrator: The King is having convulsions. Th...\nen\n\n\n\"The King is having convulsions. The dosage might be too high. But we are so close. So close.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15252272,\n\nPlayer_Romus_Italic: Read the fourth entry.\nen\n\n\nRead the fourth entry."
-            },
-            "position": {
-                "x": 0,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15252278,\n\nPlayer_Romus_Italic: Read the fourth entry.\nMenu Text en\n\n\nRead the fourth entry."
-            },
-            "position": {
-                "x": 250,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15252746,\n\nNarrator: 18th of November, two minutes to m...\nen\n\n\n\"18th of November, two minutes to midnight.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15252848,\n\nNarrator: He whispered my name before I left...\nen\n\n\n\"He whispered my name before I left his chambers. It still echoes in my head. 'Sal, Sal... look after Romus.'\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4350
+                "x": 3510,
+                "y": 0
             }
         },
         {
             "id": "node_88",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15252950,\n\nNarrator: Something dark is lurking. I can s...\nen\n\n\n\"Something dark is lurking. I can see the shadows engulf us. We have been cursed. I gave the final dose to the King.\""
+                "label": "Lucita Azaro\n\n\"We found some of Sal's personal belongings where we found the bottle.\""
             },
             "position": {
-                "x": 250,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15253052,\n\nNarrator: Everything depends on this now. I...\nen\n\n\n\"Everything depends on this now. I will administer the final dose on the 18th. Oh God, I pray to you for a successful outcome.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_90",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15253154,\n\nNarrator: Valero was weak. He is not the cho...\nen\n\n\n\"Valero was weak. He is not the chosen one. We have failed. Perhaps his son... Time will tell.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4500
+                "x": 3780,
+                "y": 0
             }
         },
         {
             "id": "node_91",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15253256,\n\nPlayer_Romus_Italic: I handed over the note.\nen\n\n\nI handed over the note."
+                "label": "Lucita Azaro\n\n\"The boy was an orphan that was taken in years ago. He was learning to be a priest.\""
             },
             "position": {
-                "x": 250,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_92",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15253262,\n\nPlayer_Romus_Italic: I handed over the note.\nMenu Text en\n\n\nHand over the note."
-            },
-            "position": {
-                "x": 500,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15254002,\n\nLucita Azaro: Your orders?\nen\n\n\n\"Your orders?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4650
+                "x": 4050,
+                "y": 0
             }
         },
         {
             "id": "node_94",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15254128,\n\nTitus Gordion: Your orders, sir?\nen\n\n\n\"Your orders, sir?\""
+                "label": "Lucita Azaro\n\n\"Initially hesitant to divulge information, he eventually opened up when we stressed the urgency of the life-or-death situation.\""
             },
             "position": {
-                "x": 250,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15254254,\n\nPlayer_Romus: What do you think I should do?\nen\n\n\n\"What do you think I should do?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15254356,\n\nPlayer_Romus: I don't care what he has or hasn't...\nen\n\n\n\"I don't care what he has or hasn't done. Do not mention a word of this to anyone. Sal walks free.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15254458,\n\nPlayer_Romus: Arrest the Grand Wiseman immediate...\nen\n\n\n\"Arrest the Grand Wiseman immediately and throw him in prison to rot.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15254560,\n\nPlayer_Romus: Bring him to me. I will talk to hi...\nen\n\n\n\"Bring him to me. I will talk to him first.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15254940,\n\nLucita Azaro: If it were up to me, I'd say that...\nen\n\n\n\"If it were up to me, I'd say that he should be arrested for treason against the Crown, of course.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15255058,\n\nTitus Gordion: I believe he should be arrested fo...\nen\n\n\n\"I believe he should be arrested for treason against the Crown, of course.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15255454,\n\nLucita Azaro: This is... unexpected, but I shall...\nen\n\n\n\"This is... unexpected, but I shall abide by your command, Your Majesty.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15255556,\n\nTitus Gordion: This is... not the direction I'd e...\nen\n\n\n\"This is... not the direction I'd expected you to take, but if it pleases you, so be it.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256032,\n\nLucita Azaro: As you wish, Your Majesty.\nen\n\n\n\"As you wish, Your Majesty.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_104",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256134,\n\nTitus Gordion: As you wish, sir.\nen\n\n\n\"As you wish, sir.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_105",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256236,\n\nSal Questioning\nTitle en\n\n\nSal Questioning"
-            },
-            "position": {
-                "x": 0,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256338,\n\nLucita Azaro: It is as good as done.\nen\n\n\n\"It is as good as done.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256440,\n\nTitus Gordion: It shall be done.\nen\n\n\n\"It shall be done.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256542,\n\nNarrator: She bowed and left the room.\nen\n\n\nShe bowed and left the room."
-            },
-            "position": {
-                "x": 0,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256644,\n\nNarrator: He bowed and left the room.\nen\n\n\nHe bowed and left the room."
-            },
-            "position": {
-                "x": 250,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256746,\n\nNarrator: I sat back down at the table.\nen\n\n\nI sat back down at the table."
-            },
-            "position": {
-                "x": 500,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256848,\n\nNarrator: I looked at the bottle right next t...\nen\n\n\nI looked at the bottle right next to the bowl of soup."
-            },
-            "position": {
-                "x": 0,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_112",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15256950,\n\nNarrator: I couldn't possibly finish eating a...\nen\n\n\nI couldn't possibly finish eating after the taste this conversation had left in my mouth."
-            },
-            "position": {
-                "x": 250,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15257426,\n\nLucita Azaro: As you wish, Your Majesty.\nen\n\n\n\"As you wish, Your Majesty.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_114",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15257528,\n\nTitus Gordion: As you wish, Your Majesty.\nen\n\n\n\"As you wish, Your Majesty.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15257720,\n\nNarrator: A few hours later Lucita and a few...\nen\n\n\nA few hours later Lucita and a few guards arrived, as did my guest of honor."
-            },
-            "position": {
-                "x": 250,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258100,\n\nNarrator: Several hours later, Titus arrived...\nen\n\n\nSeveral hours later, Titus arrived with a few guards, along with my esteemed guest."
-            },
-            "position": {
-                "x": 500,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258202,\n\nLucita Azaro: Here you are, Your Majesty. We bro...\nen\n\n\n\"Here you are, Your Majesty. We brought him to you as ordered.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_118",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258304,\n\nTitus Gordion: We brought him to you as instructe...\nen\n\n\n\"We brought him to you as instructed.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_119",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258406,\n\nNarrator: The guards held Sal by both arms. H...\nen\n\n\nThe guards held Sal by both arms. His head was leaning forward."
-            },
-            "position": {
-                "x": 500,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258516,\n\nPlayer_Romus: Everyone except Sal. Out. I will s...\nen\n\n\n\"Everyone except Sal. Out. I will speak to him privately.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_121",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258618,\n\nPlayer_Romus: Keep him close in case he tries an...\nen\n\n\n\"Keep him close in case he tries anything.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_122",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258720,\n\nNarrator: It took a few tries to convince eve...\nen\n\n\nIt took a few tries to convince everyone to leave. Eventually, though, Sal and I was alone."
-            },
-            "position": {
-                "x": 500,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_123",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258822,\n\nNarrator: The guards held his arms tighter.\nen\n\n\nThe guards held his arms tighter."
-            },
-            "position": {
-                "x": 0,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_124",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15258924,\n\nSal Questions Hub\nTitle en\n\n\nSal Questions Hub"
-            },
-            "position": {
-                "x": 250,
-                "y": 6150
+                "x": 4320,
+                "y": 0
             }
         },
         {
             "id": "node_125",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15259058,\n\nNarrator: The Grand Wiseman didn't dare to lo...\nen\n\n\nThe Grand Wiseman didn't dare to look me in the eye."
+                "label": "Player_Romus_Italic\n\nI read the first entry."
             },
             "position": {
-                "x": 500,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_126",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15259160,\n\nPlayer_Romus: Why did you do it?\nen\n\n\n\"Why did you do it?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15259262,\n\nPlayer_Romus: Why should I spare you?\nen\n\n\n\"Why should I spare you?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15259364,\n\nPlayer_Romus: What is this I read about the 'cho...\nen\n\n\n\"What is this I read about the 'chosen one?' The prophecy?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15260564,\n\nPlayer_Romus: Are you sorry for what you have do...\nen\n\n\n\"Are you sorry for what you have done? Do you repent for your sins?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_130",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15261032,\n\nNarrator: He didn't dare look me in the eyes.\nen\n\n\nHe didn't dare look me in the eyes."
-            },
-            "position": {
-                "x": 250,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_131",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15261500,\n\nPlayer_Romus: I'm finished with this interrogati...\nen\n\n\n\"I'm finished with this interrogation. Everyone, please return.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_132",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15262714,\n\nPlayer_Romus: I'm finished with this interrogati...\nen\n\n\n\"I'm finished with this interrogation. Here is my verdict.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_133",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15262824,\n\nPlayer_Romus: Here is my verdict.\nen\n\n\n\"Here is my verdict.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_134",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15262934,\n\nNarrator: They came back into the room, seemi...\nen\n\n\nThey came back into the room, seeming both apprehensive and relieved upon realizing that their King was not in any danger."
-            },
-            "position": {
-                "x": 500,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263036,\n\nNarrator: They appeared eagerly to hear my ve...\nen\n\n\nThey appeared eagerly to hear my verdict."
-            },
-            "position": {
-                "x": 0,
-                "y": 6750
-            }
-        },
-        {
-            "id": "node_136",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263146,\n\nSal Ignacius: Because I believed in Valero -- yo...\nen\n\n\n\"Because I believed in Valero -- your father.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 6750
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263248,\n\nSal Ignacius: That he was the one. The prophesie...\nen\n\n\n\"That he was the one. The prophesied king.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6750
-            }
-        },
-        {
-            "id": "node_138",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263350,\n\nSal Ignacius: As did he. Yet it was all for naug...\nen\n\n\n\"As did he. Yet it was all for naught.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263452,\n\nLucita Azaro: You are insane.\nen\n\n\n\"You are insane.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263554,\n\nTitus Gordion: You're out of your mind.\nen\n\n\n\"You're out of your mind.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_141",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263746,\n\nSal Ignacius: Because there is still hope, Romus.\nen\n\n\n\"Because there is still hope, Romus.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_142",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15263848,\n\nSal Ignacius: Your father may have not been the...\nen\n\n\n\"Your father may have not been the one but as it is foretold, it may very well be you!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7050
+                "x": 4590,
+                "y": 0
             }
         },
         {
             "id": "node_143",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15264506,\n\nSal Ignacius: Do what you must, Romus the First.\nen\n\n\n\"Do what you must, Romus the First.\""
+                "label": "Narrator\n\n\"1st of November, close to midnight.\""
             },
             "position": {
-                "x": 500,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_144",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15264608,\n\nSal Ignacius: I am a humble servant of God and h...\nen\n\n\n\"I am a humble servant of God and he alone knows my path.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_145",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15264710,\n\nSal Ignacius: The prophecy is real. All the even...\nen\n\n\n\"The prophecy is real. All the events are falling into place.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7200
+                "x": 4860,
+                "y": 0
             }
         },
         {
             "id": "node_146",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15264812,\n\nLucita Azaro: Did your God tell you to slay your...\nen\n\n\n\"Did your God tell you to slay your king, kingslayer?\""
+                "label": "Narrator\n\n\"While he exhibits signs of joy and laughter, it appears that the dosage is insufficient. I will augment it.\""
             },
             "position": {
-                "x": 500,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_147",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15264914,\n\nTitus Gordion: Was it God's command for you to ki...\nen\n\n\n\"Was it God's command for you to kill your king, kingslayer?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_148",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15265106,\n\nSal Ignacius: Beneath the watchful gaze of the a...\nen\n\n\n\"Beneath the watchful gaze of the ancients, upon the hallowed altar, the king will partake of the sacred draught, its composition known only to the cloistered few.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15265208,\n\nSal Ignacius: As the elixir courses through his...\nen\n\n\n\"As the elixir courses through his veins, the world around him shall dissolve, giving way to a realm of shifting shadows and luminous figures.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_150",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15265310,\n\nSal Ignacius: In this otherworldly expanse, the...\nen\n\n\n\"In this otherworldly expanse, the whispers of the ancients will foretell the trials and triumphs of his reign.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15265412,\n\nSal Ignacius: Amidst this ethereal void, a silho...\nen\n\n\n\"Amidst this ethereal void, a silhouette will emerge, a boy, born of his lineage, reaching for a crown that dances like a flame, its form blurring the lines between now and what is yet to come, a symbol of a legacy shrouded in the mists of destiny.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_152",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15265514,\n\nSal Ignacius: This has been passed down for cent...\nen\n\n\n\"This has been passed down for centuries, Your Majesty, and I shall recite it to you.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_153",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15266172,\n\nLucita Azaro: Such bullshit.... How dare you cal...\nen\n\n\n\"Such bullshit.... How dare you call yourself a priest.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_154",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15266274,\n\nTitus Gordion: Sounds like a lot of bullshit, if...\nen\n\n\n\"Sounds like a lot of bullshit, if you ask me. And you dare call yourself a priest...\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_155",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15266466,\n\nSal Ignacius: Valero was kind... and a friend, Y...\nen\n\n\n\"Valero was kind... and a friend, Your Majesty.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_156",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15266568,\n\nSal Ignacius: One of the few I could call upon....\nen\n\n\n\"One of the few I could call upon. Yet, he was weak.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_157",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15266670,\n\nSal Ignacius: I am sorry for what transpired. Bu...\nen\n\n\n\"I am sorry for what transpired. But his time had come.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_158",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15267328,\n\nLucita Azaro: All because of you.\nen\n\n\n\"All because of you.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_159",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15267430,\n\nTitus Gordion: Because of you.\nen\n\n\n\"Because of you.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15267622,\n\nSal Ignacius: Perhaps, you are interested in pur...\nen\n\n\n\"Perhaps, you are interested in pursuing your destiny like your father, Your Majesty.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15267724,\n\nSal Ignacius: If you're curious and permit me, I...\nen\n\n\n\"If you're curious and permit me, I'll reveal to you a world beyond your imagination.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15267826,\n\nSal Ignacius: Otherwise, this secret shall die w...\nen\n\n\n\"Otherwise, this secret shall die with me, forever lost.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_163",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15267928,\n\nPlayer_Romus: I don't care what he has or hasn't...\nen\n\n\n\"I don't care what he has or hasn't done. You're not to mention a word of this to anyone. Sal walks free.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_164",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15268030,\n\nSal Ignacius: Every day, I try.\nen\n\n\n\"Every day, I try.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15268132,\n\nPlayer_Romus: Arrest Grand Wiseman Sal Ignacius...\nen\n\n\n\"Arrest Grand Wiseman Sal Ignacius immediately. Let him rot in prison for the rest of his short life.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_166",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15268512,\n\nLucita Azaro: As you wish, Your Majesty.\nen\n\n\n\"As you wish, Your Majesty.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_167",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15268614,\n\nTitus Gordion: As you wish, sir.\nen\n\n\n\"As you wish, sir.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15268812,\n\nLucita Azaro: It shall be done.\nen\n\n\n\"It shall be done.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8400
-            }
-        },
-        {
-            "id": "node_169",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15268914,\n\nTitus Gordion: Consider it done.\nen\n\n\n\"Consider it done.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8400
+                "x": 5130,
+                "y": 0
             }
         },
         {
             "id": "node_170",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15269016,\n\nNarrator: The guards forcibly escorted Sal aw...\nen\n\n\nThe guards forcibly escorted Sal away. Lucita bowed before leaving."
+                "label": "Player_Romus\n\n\"Arrest the Grand Wiseman immediately and throw him in prison to rot.\""
             },
             "position": {
-                "x": 500,
-                "y": 8400
+                "x": 5940,
+                "y": 200
             }
         },
         {
             "id": "node_171",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15269118,\n\nNarrator: The guards forcibly escorted Sal aw...\nen\n\n\nThe guards forcibly escorted Sal away. Titus bowed before leaving."
+                "label": "Player_Romus\n\n\"Bring him to me. I will talk to him first.\""
             },
             "position": {
-                "x": 0,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_172",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15269498,\n\nLucita Azaro: Forgive me, but I must admit, this...\nen\n\n\n\"Forgive me, but I must admit, this is rather unexpected. Nonetheless, I will comply with your command, Your Majesty.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_173",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15269600,\n\nTitus Gordion: I must say, this is not the direct...\nen\n\n\n\"I must say, this is not the direction I'd expected you to take, but if it pleases you, so be it.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_174",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15269702,\n\nLucita Azaro: It shall be done.\nen\n\n\n\"It shall be done.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_175",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15269804,\n\nTitus Gordion: It will be done.\nen\n\n\n\"It will be done.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8700
+                "x": 5670,
+                "y": 0
             }
         },
         {
             "id": "node_176",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15269906,\n\nSal Ignacius: Thank you, Your Majesty.\nen\n\n\n\"Thank you, Your Majesty.\""
+                "label": "Titus Gordion\n\n\"I believe he should be arrested for treason against the Crown, of course.\""
             },
             "position": {
-                "x": 500,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_177",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15270024,\n\nNarrator: Sal bowed and left the room.\nen\n\n\nSal bowed and left the room."
-            },
-            "position": {
-                "x": 0,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_178",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15271940,\n\nNarrator: I was having lunch in one of my din...\nen\n\n\nI was having lunch in one of my dining rooms when Pabel told me that someone was requesting my urgent attention."
-            },
-            "position": {
-                "x": 250,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15272320,\n\nNarrator: I took a final sip from my soup, wi...\nen\n\n\nI took a final sip from my soup, wiped my mouth and got up to greet my visitor."
-            },
-            "position": {
-                "x": 500,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_180",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15272700,\n\nNarrator: She looked around and gestured at P...\nen\n\n\nShe looked around and gestured at Pabel."
-            },
-            "position": {
-                "x": 0,
-                "y": 9000
-            }
-        },
-        {
-            "id": "node_181",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15273080,\n\nNarrator: She looked around and gestured at P...\nen\n\n\nShe looked around and gestured at Pabel."
-            },
-            "position": {
-                "x": 250,
-                "y": 9000
-            }
-        },
-        {
-            "id": "node_182",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15273182,\n\nNarrator: She looked around and gestured at t...\nen\n\n\nShe looked around and gestured at the butler."
-            },
-            "position": {
-                "x": 500,
-                "y": 9000
-            }
-        },
-        {
-            "id": "node_183",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15273562,\n\nNarrator: Pabel left the room after bowing re...\nen\n\n\nPabel left the room after bowing respectfully."
-            },
-            "position": {
-                "x": 0,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_184",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15273664,\n\nNarrator: The butler left the room after bowi...\nen\n\n\nThe butler left the room after bowing respectfully."
-            },
-            "position": {
-                "x": 250,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_185",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15273766,\n\nPlayer_Romus: Sal! I knew it was him!\nen\n\n\n\"Sal! I knew it was him!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_186",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15273868,\n\nPlayer_Romus: Please go on.\nen\n\n\n\"Please go on.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_187",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15273970,\n\nPlayer_Romus: I have a hard time believing that.\nen\n\n\n\"I have a hard time believing that.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_188",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15274350,\n\nNarrator: She pulled out an evidence bag that...\nen\n\n\nShe pulled out an evidence bag that contained what looked like a small bottle."
-            },
-            "position": {
-                "x": 500,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_189",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15274452,\n\nNarrator: He pulled out an evidence bag that...\nen\n\n\nHe pulled out an evidence bag that contained what looked like a small bottle."
-            },
-            "position": {
-                "x": 0,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_190",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15274554,\n\nNarrator: She struggled to read the name from...\nen\n\n\nShe struggled to read the name from the label and squinted her eyes."
-            },
-            "position": {
-                "x": 250,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_191",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15274656,\n\nNarrator: He struggled to read the name from...\nen\n\n\nHe struggled to read the name from the label and squinted his eyes."
-            },
-            "position": {
-                "x": 500,
-                "y": 9450
+                "x": 5940,
+                "y": 0
             }
         },
         {
             "id": "node_192",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15274758,\n\nLucita Azaro: Mandra...gora off-offici...narium....\nen\n\n\n\"Mandra...gora off-offici...narium. Something like that. It's apparently made from a plant.\""
+                "label": "Narrator\n\nHe bowed and left the room."
             },
             "position": {
-                "x": 0,
-                "y": 9600
+                "x": 6210,
+                "y": 0
             }
         },
         {
             "id": "node_193",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15274860,\n\nTitus Gordion: Mandra...gora off-officinarium. So...\nen\n\n\n\"Mandra...gora off-officinarium. Something like that. It's apparently made from a plant.\""
+                "label": "Narrator\n\nI sat back down at the table."
             },
             "position": {
-                "x": 250,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_194",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15275240,\n\nPlayer_Romus_Italic: I gestured at Pabel to leave.\nen\n\n\nI gestured at Pabel to leave."
-            },
-            "position": {
-                "x": 500,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_195",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15275246,\n\nPlayer_Romus_Italic: I gestured at Pabel to leave.\nMenu Text en\n\n\nGesture at Pabel to leave."
-            },
-            "position": {
-                "x": 0,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_196",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15275626,\n\nPlayer_Romus: Thank you, Pabel. You may leave.\nen\n\n\n\"Thank you, Pabel. You may leave.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_197",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15275728,\n\nSal Ignacius: The path chosen for us will prevai...\nen\n\n\n\"The path chosen for us will prevail, Romus. You can't fight your fate.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_198",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15275830,\n\nSal Ignacius: Mark my words.\nen\n\n\n\"Mark my words.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_199",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15275932,\n\nPlayer_Romus: I am not sparing you out of charit...\nen\n\n\n\"I am not sparing you out of charity. You will help me when the time comes. Just as I helped you.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_200",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15276034,\n\nPlayer_Romus: Go now and leave me be.\nen\n\n\n\"Go now and leave me be.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 9900
+                "x": 6480,
+                "y": 0
             }
         },
         {
             "id": "node_201",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15276136,\n\nSal Ignacius: Of course.\nen\n\n\n\"Of course.\""
+                "label": "Titus Gordion\n\n\"As you wish, Your Majesty.\""
             },
             "position": {
-                "x": 0,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_202",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15276238,\n\nPlayer_Romus_Italic: I nodded and gestured him to leave.\nen\n\n\nI nodded and gestured him to leave."
-            },
-            "position": {
-                "x": 250,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_203",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15276244,\n\nPlayer_Romus_Italic: I nodded and gestured him to leave.\nMenu Text en\n\n\nNod and gesture him to leave."
-            },
-            "position": {
-                "x": 500,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_204",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15276346,\n\nSal Ignacius: The path chosen for us will prevai...\nen\n\n\n\"The path chosen for us will prevail, Your Majesty. We all have a purpose in this world.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_205",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15276448,\n\nSal Ignacius: Yours is yet to unfold.\nen\n\n\n\"Yours is yet to unfold.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_206",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 15276550,\n\nNarrator: She gestured the guards to round up...\nen\n\n\nShe gestured the guards to round up and leave the room. After bowing she left."
-            },
-            "position": {
-                "x": 500,
-                "y": 10200
+                "x": 6750,
+                "y": 0
             }
         },
         {
             "id": "node_207",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15276652,\n\nNarrator: He gestured the guards to round up...\nen\n\n\nHe gestured the guards to round up and leave the room. After bowing he left."
+                "label": "Narrator\n\nSeveral hours later, Titus arrived with a few guards, along with my esteemed guest."
             },
             "position": {
-                "x": 0,
-                "y": 10350
+                "x": 7020,
+                "y": 0
             }
         },
         {
-            "id": "node_208",
-            "type": "default",
+            "id": "node_209",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 15277032,\n\nNarrator: I wondered to myself whether this w...\nen\n\n\nI wondered to myself whether this was somehow related to the holy wine Sal drank at my consecration ceremony."
+                "label": "Titus Gordion\n\n\"We brought him to you as instructed.\""
             },
             "position": {
-                "x": 250,
-                "y": 10350
+                "x": 7290,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_210",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe guards held Sal by both arms. His head was leaning forward."
+            },
+            "position": {
+                "x": 7560,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_215",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Questions Hub\n\nSal Questions Hub"
+            },
+            "position": {
+                "x": 7830,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_216",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe Grand Wiseman didn't dare to look me in the eye."
+            },
+            "position": {
+                "x": 9990,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_232",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Are you sorry for what you have done? Do you repent for your sins?\""
+            },
+            "position": {
+                "x": 8370,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_237",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe didn't dare look me in the eyes."
+            },
+            "position": {
+                "x": 8640,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_262",
+            "type": "customNode",
+            "data": {
+                "label": "Lucita Azaro\n\n\"You are insane.\""
+            },
+            "position": {
+                "x": 8910,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_265",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"Because there is still hope, Romus.\""
+            },
+            "position": {
+                "x": 9180,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"The prophecy is real. All the events are falling into place.\""
+            },
+            "position": {
+                "x": 9450,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_293",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"Valero was kind... and a friend, Your Majesty.\""
+            },
+            "position": {
+                "x": 9720,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_305",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"Perhaps, you are interested in pursuing your destiny like your father, Your Majesty.\""
+            },
+            "position": {
+                "x": 9990,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_308",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I don't care what he has or hasn't done. You're not to mention a word of this to anyone. Sal walks free.\""
+            },
+            "position": {
+                "x": 10260,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_309",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"Every day, I try.\""
+            },
+            "position": {
+                "x": 10530,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_310",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Arrest Grand Wiseman Sal Ignacius immediately. Let him rot in prison for the rest of his short life.\""
+            },
+            "position": {
+                "x": 8640,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_317",
+            "type": "customNode",
+            "data": {
+                "label": "Lucita Azaro\n\n\"It shall be done.\""
+            },
+            "position": {
+                "x": 10800,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_320",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe guards forcibly escorted Sal away. Titus bowed before leaving."
+            },
+            "position": {
+                "x": 11070,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_327",
+            "type": "customNode",
+            "data": {
+                "label": "Titus Gordion\n\n\"It will be done.\""
+            },
+            "position": {
+                "x": 11340,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"Thank you, Your Majesty.\""
+            },
+            "position": {
+                "x": 11610,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_329",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSal bowed and left the room."
+            },
+            "position": {
+                "x": 11880,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_362",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe looked around and gestured at the butler."
+            },
+            "position": {
+                "x": 12150,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_366",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nPabel left the room after bowing respectfully."
+            },
+            "position": {
+                "x": 12420,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_367",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe butler left the room after bowing respectfully."
+            },
+            "position": {
+                "x": 12690,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_368",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Sal! I knew it was him!\""
+            },
+            "position": {
+                "x": 12960,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_374",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe pulled out an evidence bag that contained what looked like a small bottle."
+            },
+            "position": {
+                "x": 13230,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_375",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe pulled out an evidence bag that contained what looked like a small bottle."
+            },
+            "position": {
+                "x": 1620,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_376",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe struggled to read the name from the label and squinted her eyes."
+            },
+            "position": {
+                "x": 2160,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_388",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"The path chosen for us will prevail, Romus. You can't fight your fate.\""
+            },
+            "position": {
+                "x": 13500,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_390",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I am not sparing you out of charity. You will help me when the time comes. Just as I helped you.\""
+            },
+            "position": {
+                "x": 13770,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_396",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe gestured the guards to round up and leave the room. After bowing she left."
+            },
+            "position": {
+                "x": 14040,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_397",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe gestured the guards to round up and leave the room. After bowing he left."
+            },
+            "position": {
+                "x": 11340,
+                "y": 200
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e5_to_333",
             "source": "node_5",
             "target": "node_333",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e1",
+            "id": "e6_to_351",
             "source": "node_6",
             "target": "node_351",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e2",
-            "source": "node_7",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e3",
-            "source": "node_8",
-            "target": "node_3",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_9",
-            "target": "node_11",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_10",
-            "target": "node_12",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_11",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_12",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e8",
-            "source": "node_13",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e9",
-            "source": "node_14",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e10",
+            "id": "e18_to_359",
             "source": "node_18",
             "target": "node_359",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e11",
-            "source": "node_19",
-            "target": "node_15",
-            "animated": true
-        },
-        {
-            "id": "e12",
-            "source": "node_20",
-            "target": "node_26",
-            "animated": true
-        },
-        {
-            "id": "e13",
-            "source": "node_21",
-            "target": "node_22",
-            "animated": true
-        },
-        {
-            "id": "e14",
+            "id": "e22_to_370",
             "source": "node_22",
             "target": "node_370",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e15",
-            "source": "node_23",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e16",
+            "id": "e24_to_364",
             "source": "node_24",
             "target": "node_364",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e17",
-            "source": "node_24",
-            "target": "node_364",
-            "animated": true
-        },
-        {
-            "id": "e18",
+            "id": "e25_to_364",
             "source": "node_25",
             "target": "node_364",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e19",
-            "source": "node_29",
-            "target": "node_33",
-            "animated": true
-        },
-        {
-            "id": "e20",
-            "source": "node_30",
-            "target": "node_31",
-            "animated": true
-        },
-        {
-            "id": "e21",
-            "source": "node_31",
-            "target": "node_32",
-            "animated": true
-        },
-        {
-            "id": "e22",
+            "id": "e32_to_375",
             "source": "node_32",
             "target": "node_375",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e23",
-            "source": "node_33",
-            "target": "node_34",
-            "animated": true
-        },
-        {
-            "id": "e24",
+            "id": "e34_to_370",
             "source": "node_34",
             "target": "node_370",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e25",
-            "source": "node_35",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e26",
-            "source": "node_36",
-            "target": "node_37",
-            "animated": true
-        },
-        {
-            "id": "e27",
-            "source": "node_37",
-            "target": "node_38",
-            "animated": true
-        },
-        {
-            "id": "e28",
+            "id": "e38_to_376",
             "source": "node_38",
             "target": "node_376",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e29",
+            "id": "e39_to_112",
             "source": "node_39",
             "target": "node_112",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e30",
-            "source": "node_44",
-            "target": "node_62",
-            "animated": true
-        },
-        {
-            "id": "e31",
+            "id": "e45_to_399",
             "source": "node_45",
             "target": "node_399",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e32",
-            "source": "node_46",
-            "target": "node_45",
-            "animated": true
-        },
-        {
-            "id": "e33",
-            "source": "node_47",
-            "target": "node_48",
-            "animated": true
-        },
-        {
-            "id": "e34",
+            "id": "e48_to_399",
             "source": "node_48",
             "target": "node_399",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e35",
-            "source": "node_53",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e36",
-            "source": "node_58",
-            "target": "node_68",
-            "animated": true
-        },
-        {
-            "id": "e37",
+            "id": "e59_to_377",
             "source": "node_59",
             "target": "node_377",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e38",
+            "id": "e60_to_378",
             "source": "node_60",
             "target": "node_378",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e39",
+            "id": "e70_to_93",
             "source": "node_70",
             "target": "node_93",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e40",
+            "id": "e71_to_86",
             "source": "node_71",
             "target": "node_86",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e41",
-            "source": "node_72",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e42",
-            "source": "node_80",
-            "target": "node_108",
-            "animated": true
-        },
-        {
-            "id": "e43",
-            "source": "node_85",
-            "target": "node_99",
-            "animated": true
-        },
-        {
-            "id": "e44",
-            "source": "node_86",
-            "target": "node_88",
-            "animated": true
-        },
-        {
-            "id": "e45",
+            "id": "e88_to_39",
             "source": "node_88",
             "target": "node_39",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e46",
-            "source": "node_89",
-            "target": "node_91",
-            "animated": true
-        },
-        {
-            "id": "e47",
+            "id": "e91_to_39",
             "source": "node_91",
             "target": "node_39",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e48",
-            "source": "node_92",
-            "target": "node_95",
-            "animated": true
-        },
-        {
-            "id": "e49",
+            "id": "e94_to_39",
             "source": "node_94",
             "target": "node_39",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e50",
-            "source": "node_95",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e51",
-            "source": "node_96",
-            "target": "node_94",
-            "animated": true
-        },
-        {
-            "id": "e52",
-            "source": "node_97",
-            "target": "node_98",
-            "animated": true
-        },
-        {
-            "id": "e53",
-            "source": "node_101",
-            "target": "node_103",
-            "animated": true
-        },
-        {
-            "id": "e54",
-            "source": "node_102",
-            "target": "node_104",
-            "animated": true
-        },
-        {
-            "id": "e55",
-            "source": "node_103",
-            "target": "node_105",
-            "animated": true
-        },
-        {
-            "id": "e56",
-            "source": "node_104",
-            "target": "node_106",
-            "animated": true
-        },
-        {
-            "id": "e57",
-            "source": "node_106",
-            "target": "node_39",
-            "animated": true
-        },
-        {
-            "id": "e58",
-            "source": "node_107",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e59",
-            "source": "node_108",
-            "target": "node_110",
-            "animated": true
-        },
-        {
-            "id": "e60",
-            "source": "node_109",
-            "target": "node_111",
-            "animated": true
-        },
-        {
-            "id": "e61",
-            "source": "node_114",
-            "target": "node_115",
-            "animated": true
-        },
-        {
-            "id": "e62",
-            "source": "node_118",
-            "target": "node_120",
-            "animated": true
-        },
-        {
-            "id": "e63",
-            "source": "node_119",
-            "target": "node_121",
-            "animated": true
-        },
-        {
-            "id": "e64",
-            "source": "node_120",
-            "target": "node_122",
-            "animated": true
-        },
-        {
-            "id": "e65",
-            "source": "node_121",
-            "target": "node_123",
-            "animated": true
-        },
-        {
-            "id": "e66",
-            "source": "node_122",
-            "target": "node_123",
-            "animated": true
-        },
-        {
-            "id": "e67",
-            "source": "node_122",
-            "target": "node_123",
-            "animated": true
-        },
-        {
-            "id": "e68",
-            "source": "node_123",
-            "target": "node_124",
-            "animated": true
-        },
-        {
-            "id": "e69",
-            "source": "node_124",
-            "target": "node_125",
-            "animated": true
-        },
-        {
-            "id": "e70",
+            "id": "e125_to_160",
             "source": "node_125",
             "target": "node_160",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e71",
-            "source": "node_125",
-            "target": "node_160",
-            "animated": true
-        },
-        {
-            "id": "e72",
-            "source": "node_130",
-            "target": "node_143",
-            "animated": true
-        },
-        {
-            "id": "e73",
-            "source": "node_130",
-            "target": "node_143",
-            "animated": true
-        },
-        {
-            "id": "e74",
-            "source": "node_135",
-            "target": "node_142",
-            "animated": true
-        },
-        {
-            "id": "e75",
-            "source": "node_135",
-            "target": "node_142",
-            "animated": true
-        },
-        {
-            "id": "e76",
-            "source": "node_140",
-            "target": "node_144",
-            "animated": true
-        },
-        {
-            "id": "e77",
-            "source": "node_141",
-            "target": "node_147",
-            "animated": true
-        },
-        {
-            "id": "e78",
-            "source": "node_142",
-            "target": "node_145",
-            "animated": true
-        },
-        {
-            "id": "e79",
+            "id": "e143_to_141",
             "source": "node_143",
             "target": "node_141",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e80",
-            "source": "node_144",
-            "target": "node_148",
-            "animated": true
-        },
-        {
-            "id": "e81",
-            "source": "node_145",
-            "target": "node_146",
-            "animated": true
-        },
-        {
-            "id": "e82",
+            "id": "e146_to_163",
             "source": "node_146",
             "target": "node_163",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e83",
-            "source": "node_147",
-            "target": "node_163",
-            "animated": true
-        },
-        {
-            "id": "e84",
-            "source": "node_148",
-            "target": "node_157",
-            "animated": true
-        },
-        {
-            "id": "e85",
-            "source": "node_148",
-            "target": "node_157",
-            "animated": true
-        },
-        {
-            "id": "e86",
-            "source": "node_152",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e87",
-            "source": "node_154",
-            "target": "node_156",
-            "animated": true
-        },
-        {
-            "id": "e88",
-            "source": "node_155",
-            "target": "node_158",
-            "animated": true
-        },
-        {
-            "id": "e89",
-            "source": "node_156",
-            "target": "node_155",
-            "animated": true
-        },
-        {
-            "id": "e90",
-            "source": "node_157",
-            "target": "node_163",
-            "animated": true
-        },
-        {
-            "id": "e91",
-            "source": "node_158",
-            "target": "node_163",
-            "animated": true
-        },
-        {
-            "id": "e92",
-            "source": "node_158",
-            "target": "node_163",
-            "animated": true
-        },
-        {
-            "id": "e93",
-            "source": "node_166",
-            "target": "node_168",
-            "animated": true
-        },
-        {
-            "id": "e94",
-            "source": "node_167",
-            "target": "node_170",
-            "animated": true
-        },
-        {
-            "id": "e95",
-            "source": "node_168",
-            "target": "node_170",
-            "animated": true
-        },
-        {
-            "id": "e96",
-            "source": "node_169",
-            "target": "node_173",
-            "animated": true
-        },
-        {
-            "id": "e97",
+            "id": "e170_to_408",
             "source": "node_170",
             "target": "node_408",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e98",
+            "id": "e171_to_183",
             "source": "node_171",
             "target": "node_183",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e99",
-            "source": "node_175",
-            "target": "node_177",
-            "animated": true
-        },
-        {
-            "id": "e100",
+            "id": "e176_to_170",
             "source": "node_176",
             "target": "node_170",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e101",
-            "source": "node_180",
-            "target": "node_182",
-            "animated": true
-        },
-        {
-            "id": "e102",
-            "source": "node_181",
-            "target": "node_190",
-            "animated": true
-        },
-        {
-            "id": "e103",
-            "source": "node_186",
-            "target": "node_188",
-            "animated": true
-        },
-        {
-            "id": "e104",
-            "source": "node_187",
-            "target": "node_190",
-            "animated": true
-        },
-        {
-            "id": "e105",
-            "source": "node_188",
-            "target": "node_191",
-            "animated": true
-        },
-        {
-            "id": "e106",
-            "source": "node_189",
-            "target": "node_205",
-            "animated": true
-        },
-        {
-            "id": "e107",
-            "source": "node_190",
-            "target": "node_192",
-            "animated": true
-        },
-        {
-            "id": "e108",
-            "source": "node_191",
-            "target": "node_193",
-            "animated": true
-        },
-        {
-            "id": "e109",
+            "id": "e192_to_334",
             "source": "node_192",
             "target": "node_334",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e110",
+            "id": "e193_to_335",
             "source": "node_193",
             "target": "node_335",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e111",
-            "source": "node_194",
-            "target": "node_195",
-            "animated": true
-        },
-        {
-            "id": "e112",
-            "source": "node_195",
-            "target": "node_196",
-            "animated": true
-        },
-        {
-            "id": "e113",
-            "source": "node_200",
-            "target": "node_202",
-            "animated": true
-        },
-        {
-            "id": "e114",
+            "id": "e201_to_336",
             "source": "node_201",
             "target": "node_336",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e115",
-            "source": "node_203",
-            "target": "node_189",
-            "animated": true
-        },
-        {
-            "id": "e116",
+            "id": "e207_to_339",
             "source": "node_207",
             "target": "node_339",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e117",
-            "source": "node_208",
-            "target": "node_210",
-            "animated": true
-        },
-        {
-            "id": "e118",
+            "id": "e209_to_340",
             "source": "node_209",
             "target": "node_340",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e119",
+            "id": "e210_to_340",
             "source": "node_210",
             "target": "node_340",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e120",
-            "source": "node_211",
-            "target": "node_213",
-            "animated": true
-        },
-        {
-            "id": "e121",
-            "source": "node_212",
-            "target": "node_239",
-            "animated": true
-        },
-        {
-            "id": "e122",
-            "source": "node_213",
-            "target": "node_215",
-            "animated": true
-        },
-        {
-            "id": "e123",
-            "source": "node_214",
-            "target": "node_217",
-            "animated": true
-        },
-        {
-            "id": "e124",
+            "id": "e215_to_238",
             "source": "node_215",
             "target": "node_238",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e125",
+            "id": "e216_to_250",
             "source": "node_216",
             "target": "node_250",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e126",
-            "source": "node_217",
-            "target": "node_216",
-            "animated": true
-        },
-        {
-            "id": "e127",
-            "source": "node_218",
-            "target": "node_221",
-            "animated": true
-        },
-        {
-            "id": "e128",
-            "source": "node_219",
-            "target": "node_228",
-            "animated": true
-        },
-        {
-            "id": "e129",
+            "id": "e232_to_284",
             "source": "node_232",
             "target": "node_284",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e130",
+            "id": "e237_to_310",
             "source": "node_237",
             "target": "node_310",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e131",
-            "source": "node_241",
-            "target": "node_243",
-            "animated": true
-        },
-        {
-            "id": "e132",
-            "source": "node_255",
-            "target": "node_257",
-            "animated": true
-        },
-        {
-            "id": "e133",
-            "source": "node_256",
-            "target": "node_309",
-            "animated": true
-        },
-        {
-            "id": "e134",
-            "source": "node_257",
-            "target": "node_309",
-            "animated": true
-        },
-        {
-            "id": "e135",
-            "source": "node_258",
-            "target": "node_259",
-            "animated": true
-        },
-        {
-            "id": "e136",
-            "source": "node_259",
-            "target": "node_309",
-            "animated": true
-        },
-        {
-            "id": "e137",
-            "source": "node_260",
-            "target": "node_261",
-            "animated": true
-        },
-        {
-            "id": "e138",
-            "source": "node_261",
-            "target": "node_262",
-            "animated": true
-        },
-        {
-            "id": "e139",
+            "id": "e262_to_247",
             "source": "node_262",
             "target": "node_247",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e140",
-            "source": "node_263",
-            "target": "node_265",
-            "animated": true
-        },
-        {
-            "id": "e141",
+            "id": "e265_to_216",
             "source": "node_265",
             "target": "node_216",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e142",
-            "source": "node_266",
-            "target": "node_267",
-            "animated": true
-        },
-        {
-            "id": "e143",
-            "source": "node_273",
-            "target": "node_274",
-            "animated": true
-        },
-        {
-            "id": "e144",
-            "source": "node_274",
-            "target": "node_275",
-            "animated": true
-        },
-        {
-            "id": "e145",
+            "id": "e275_to_268",
             "source": "node_275",
             "target": "node_268",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e146",
-            "source": "node_276",
-            "target": "node_279",
-            "animated": true
-        },
-        {
-            "id": "e147",
-            "source": "node_277",
-            "target": "node_279",
-            "animated": true
-        },
-        {
-            "id": "e148",
-            "source": "node_279",
-            "target": "node_216",
-            "animated": true
-        },
-        {
-            "id": "e149",
-            "source": "node_280",
-            "target": "node_281",
-            "animated": true
-        },
-        {
-            "id": "e150",
-            "source": "node_281",
-            "target": "node_282",
-            "animated": true
-        },
-        {
-            "id": "e151",
-            "source": "node_282",
-            "target": "node_283",
-            "animated": true
-        },
-        {
-            "id": "e152",
-            "source": "node_283",
-            "target": "node_285",
-            "animated": true
-        },
-        {
-            "id": "e153",
-            "source": "node_290",
-            "target": "node_292",
-            "animated": true
-        },
-        {
-            "id": "e154",
-            "source": "node_291",
-            "target": "node_293",
-            "animated": true
-        },
-        {
-            "id": "e155",
+            "id": "e293_to_216",
             "source": "node_293",
             "target": "node_216",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e156",
-            "source": "node_294",
-            "target": "node_295",
-            "animated": true
-        },
-        {
-            "id": "e157",
-            "source": "node_295",
-            "target": "node_296",
-            "animated": true
-        },
-        {
-            "id": "e158",
-            "source": "node_302",
-            "target": "node_304",
-            "animated": true
-        },
-        {
-            "id": "e159",
-            "source": "node_303",
-            "target": "node_305",
-            "animated": true
-        },
-        {
-            "id": "e160",
+            "id": "e305_to_216",
             "source": "node_305",
             "target": "node_216",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e161",
-            "source": "node_306",
-            "target": "node_307",
-            "animated": true
-        },
-        {
-            "id": "e162",
-            "source": "node_307",
-            "target": "node_308",
-            "animated": true
-        },
-        {
-            "id": "e163",
+            "id": "e308_to_331",
             "source": "node_308",
             "target": "node_331",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e164",
+            "id": "e309_to_409",
             "source": "node_309",
             "target": "node_409",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e165",
+            "id": "e310_to_294",
             "source": "node_310",
             "target": "node_294",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e166",
-            "source": "node_314",
-            "target": "node_316",
-            "animated": true
-        },
-        {
-            "id": "e167",
-            "source": "node_315",
-            "target": "node_318",
-            "animated": true
-        },
-        {
-            "id": "e168",
+            "id": "e317_to_312",
             "source": "node_317",
             "target": "node_312",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e169",
-            "source": "node_318",
-            "target": "node_320",
-            "animated": true
-        },
-        {
-            "id": "e170",
-            "source": "node_319",
-            "target": "node_321",
-            "animated": true
-        },
-        {
-            "id": "e171",
+            "id": "e320_to_342",
             "source": "node_320",
             "target": "node_342",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e172",
-            "source": "node_324",
-            "target": "node_326",
-            "animated": true
-        },
-        {
-            "id": "e173",
-            "source": "node_325",
-            "target": "node_327",
-            "animated": true
-        },
-        {
-            "id": "e174",
-            "source": "node_326",
-            "target": "node_328",
-            "animated": true
-        },
-        {
-            "id": "e175",
+            "id": "e327_to_397",
             "source": "node_327",
             "target": "node_397",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e176",
+            "id": "e328_to_398",
             "source": "node_328",
             "target": "node_398",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e177",
+            "id": "e329_to_394",
             "source": "node_329",
             "target": "node_394",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e178",
-            "source": "node_349",
-            "target": "node_403",
-            "animated": true
-        },
-        {
-            "id": "e179",
-            "source": "node_353",
-            "target": "node_354",
-            "animated": true
-        },
-        {
-            "id": "e180",
-            "source": "node_357",
-            "target": "node_358",
-            "animated": true
-        },
-        {
-            "id": "e181",
-            "source": "node_361",
-            "target": "node_362",
-            "animated": true
-        },
-        {
-            "id": "e182",
+            "id": "e362_to_20",
             "source": "node_362",
             "target": "node_20",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e183",
+            "id": "e366_to_404",
             "source": "node_366",
             "target": "node_404",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e184",
+            "id": "e367_to_407",
             "source": "node_367",
             "target": "node_407",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e185",
+            "id": "e368_to_407",
             "source": "node_368",
             "target": "node_407",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e186",
-            "source": "node_369",
-            "target": "node_372",
-            "animated": true
-        },
-        {
-            "id": "e187",
-            "source": "node_370",
-            "target": "node_372",
-            "animated": true
-        },
-        {
-            "id": "e188",
+            "id": "e374_to_35",
             "source": "node_374",
             "target": "node_35",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e189",
+            "id": "e375_to_59",
             "source": "node_375",
             "target": "node_59",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e190",
+            "id": "e376_to_60",
             "source": "node_376",
             "target": "node_60",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e191",
-            "source": "node_377",
-            "target": "node_379",
-            "animated": true
-        },
-        {
-            "id": "e192",
-            "source": "node_378",
-            "target": "node_380",
-            "animated": true
-        },
-        {
-            "id": "e193",
-            "source": "node_379",
-            "target": "node_46",
-            "animated": true
-        },
-        {
-            "id": "e194",
-            "source": "node_383",
-            "target": "node_384",
-            "animated": true
-        },
-        {
-            "id": "e195",
-            "source": "node_383",
-            "target": "node_384",
-            "animated": true
-        },
-        {
-            "id": "e196",
-            "source": "node_387",
-            "target": "node_388",
-            "animated": true
-        },
-        {
-            "id": "e197",
+            "id": "e388_to_364",
             "source": "node_388",
             "target": "node_364",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e198",
-            "source": "node_389",
-            "target": "node_390",
-            "animated": true
-        },
-        {
-            "id": "e199",
+            "id": "e390_to_341",
             "source": "node_390",
             "target": "node_341",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e200",
-            "source": "node_391",
-            "target": "node_393",
-            "animated": true
-        },
-        {
-            "id": "e201",
-            "source": "node_392",
-            "target": "node_393",
-            "animated": true
-        },
-        {
-            "id": "e202",
-            "source": "node_393",
-            "target": "node_395",
-            "animated": true
-        },
-        {
-            "id": "e203",
-            "source": "node_393",
-            "target": "node_395",
-            "animated": true
-        },
-        {
-            "id": "e204",
-            "source": "node_394",
-            "target": "node_395",
-            "animated": true
-        },
-        {
-            "id": "e205",
-            "source": "node_395",
-            "target": "node_396",
-            "animated": true
-        },
-        {
-            "id": "e206",
+            "id": "e396_to_330",
             "source": "node_396",
             "target": "node_330",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e207",
+            "id": "e397_to_344",
             "source": "node_397",
             "target": "node_344",
-            "animated": true
-        },
-        {
-            "id": "e208",
-            "source": "node_401",
-            "target": "node_405",
-            "animated": true
+            "type": "step"
         }
     ]
 }

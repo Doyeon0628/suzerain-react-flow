@@ -1,40 +1,23 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
+            "id": "node_13",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 5251623,\n\nNarrator: With the nationalization decisions...\nen\n\n\nWith the nationalization decisions made, all that was left was for Sordland's two most prominent oligarchs to sign the paperwork. And so I called them both to the Palace conference room."
+                "label": "Narrator\n\nWith the nationalization decisions made, all that was left was for Sordland's two most prominent oligarchs to sign the paperwork. And so I called them both to the Palace conference room."
             },
             "position": {
                 "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 5251731,\n\nNarrator: Lucian showed Marcel Koronti and Wa...\nen\n\n\nLucian showed Marcel Koronti and Walter Tusk in. They sat across the table from me, leaving one empty chair between them."
-            },
-            "position": {
-                "x": 250,
                 "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e13_to_1",
             "source": "node_13",
             "target": "node_1",
-            "animated": true
-        },
-        {
-            "id": "e1",
-            "source": "node_14",
-            "target": "node_15",
-            "animated": true
+            "type": "step"
         }
     ]
 }

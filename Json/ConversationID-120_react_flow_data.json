@@ -1,176 +1,74 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4889487,\n\nGus Manger: “In a few years the vineyard may ev...\nen\n\n\n“In a few years the vineyard may even challenge the regional samples. It would need some further attention to reach those goals however.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
             "id": "node_1",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4890145,\n\nGus Manger: “FC Anrica has seen a boost of tick...\nen\n\n\n“FC Anrica has seen a boost of ticket sales after your endorsement and participation in the club. The management decided to send over a slice of that pie.”"
+                "label": "Gus Manger\n\n“In a few years the vineyard may even challenge the regional samples. It would need some further attention to reach those goals however.”"
             },
             "position": {
-                "x": 250,
+                "x": 0,
                 "y": 0
             }
         },
         {
-            "id": "node_2",
-            "type": "default",
+            "id": "node_10",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4890247,\n\nGus Manger: “The management of Underhall has de...\nen\n\n\n“The management of Underhall has decided to send big bonuses to the board after high revenue growth this quarter.”"
+                "label": "Gus Manger\n\n“The management of Underhall has decided to send big bonuses to the board after high revenue growth this quarter.”"
             },
             "position": {
-                "x": 500,
+                "x": 270,
                 "y": 0
             }
         },
         {
-            "id": "node_3",
-            "type": "default",
+            "id": "node_21",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4890349,\n\nGus Manger: “Several construction projects have...\nen\n\n\n“Several construction projects have been accomplished around the country. The company coffers are filled and we stand to benefit.”"
+                "label": "Gus Manger\n\n“Additionally, I bring good news regarding our investment.”"
+            },
+            "position": {
+                "x": 540,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“The money should be arriving in your account shortly.”"
             },
             "position": {
                 "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4890547,\n\nGus Manger: “The vineyard has begun producing s...\nen\n\n\n“The vineyard has begun producing some wine. I have also arranged several wine-tasters to sample and give ideas on how to improve the quality.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4890841,\n\nGus Manger: “The manager personally thanked you...\nen\n\n\n“The manager personally thanked you for the support you have shown to the team. Several players have already decided to join the USP.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4890943,\n\nGus Manger: “After the successful contract win,...\nen\n\n\n“After the successful contract win, the company has received and accepted several mega-projects in other countries. The future stands bright for the corporation.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4891323,\n\nGus Manger: “Additionally, I bring good news re...\nen\n\n\n“Additionally, I bring good news regarding our investment.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4891425,\n\nGus Manger: “The money should be arriving in yo...\nen\n\n\n“The money should be arriving in your account shortly.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4891805,\n\nGus Manger: “The manager personally thanked you...\nen\n\n\n“The manager personally thanked you for the support you have shown and wanted me to relay that he is no fan of the mayor Leste either.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 450
+                "y": 200
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e1_to_22",
             "source": "node_1",
             "target": "node_22",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e1",
-            "source": "node_9",
-            "target": "node_4",
-            "animated": true
-        },
-        {
-            "id": "e2",
+            "id": "e10_to_24",
             "source": "node_10",
             "target": "node_24",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e3",
-            "source": "node_11",
-            "target": "node_19",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_13",
-            "target": "node_23",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_16",
-            "target": "node_23",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_17",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e7",
+            "id": "e21_to_12",
             "source": "node_21",
             "target": "node_12",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e8",
+            "id": "e22_to_7",
             "source": "node_22",
             "target": "node_7",
-            "animated": true
-        },
-        {
-            "id": "e9",
-            "source": "node_26",
-            "target": "node_17",
-            "animated": true
+            "type": "step"
         }
     ]
 }

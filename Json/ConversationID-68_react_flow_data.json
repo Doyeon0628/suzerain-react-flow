@@ -1,3678 +1,1196 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3421331,\n\nNarrator: The sun was just beginning to rise...\nen\n\n\nThe sun was just beginning to rise as Lucian, Petr and I gathered in my office to discuss the fallout of the Benfi Festival."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3421439,\n\nLucian Galade: “The news is about to break, even a...\nen\n\n\n“The news is about to break, even as we speak. We must act swiftly to protect the administration.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3421541,\n\nPetr Vectern: “Agreed. This isn't good, Anton.”\nen\n\n\n“Agreed. This isn't good, Anton.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
             "id": "node_3",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3421913,\n\nLucian Galade: “The most important thing is the na...\nen\n\n\n“The most important thing is the narrative. We need to regain control of it.\""
+                "label": "Lucian Galade\n\n“The news is about to break, even as we speak. We must act swiftly to protect the administration.”"
             },
             "position": {
                 "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422015,\n\nPetr Vectern: He also has incredible influence o...\nen\n\n\n\"He also has incredible influence over the USP's conservative wing, including our MP's. We've got to act before he rallies the others against you.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422117,\n\nLucian Galade: “At the same time, you must not apo...\nen\n\n\n“At the same time, you must not apologize yourself. Insulting the First Lady is an act that should not go unpunished.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422243,\n\nPlayer: You've got that right. How dare he...\nen\n\n\n\"You've got that right. How dare he insult my wife!”"
-            },
-            "position": {
-                "x": 0,
-                "y": 300
+                "y": 0
             }
         },
         {
             "id": "node_7",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3422249,\n\nPlayer: You've got that right. How dare he...\nMenu Text en\n\n\n\"You've got that right. How dare he insult my wife!”"
+                "label": "Lucian Galade\n\n“The most important thing is the narrative. We need to regain control of it.\""
             },
             "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422351,\n\nPlayer: “We could talk with him. Try to def...\nen\n\n\n“We could talk with him. Try to defuse the situation.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422357,\n\nPlayer: “We could talk with him. Try to def...\nMenu Text en\n\n\n“We could talk with him. Try to defuse the situation.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422459,\n\nPlayer: “He and his conservative cronies wo...\nen\n\n\n“He and his conservative cronies won't be able to stand up to the full force of our administration.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_11",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422465,\n\nPlayer: “He and his conservative cronies wo...\nMenu Text en\n\n\n“He and his conservative cronies won't be able to stand up to the full force of our administration.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422567,\n\nLucian Galade: “Exactly. A show of force could wea...\nen\n\n\n“Exactly. A show of force could weaken his position.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422669,\n\nPetr Vectern: “It was unacceptable. Monica didn't...\nen\n\n\n“It was unacceptable. Monica didn't deserve that.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422771,\n\nLucian Galade: “Engaging in talks has a chance of...\nen\n\n\n“Engaging in talks has a chance of backfiring, but it could be the simplest solution.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422873,\n\nLucian Galade: “Perhaps she was allowed a little t...\nen\n\n\n“Perhaps she was allowed a little too much autonomy with her speech.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3422975,\n\nPetr Vectern: He acted like an ass, too. Maybe y...\nen\n\n\n\"He acted like an ass, too. Maybe you can both come out of this looking good.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423077,\n\nPetr Vectern: “Maybe. Or just get him to dig in h...\nen\n\n\n“Maybe. Or just get him to dig in harder.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_18",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423179,\n\nLucian Galade: “How should we proceed, sir?\nen\n\n\n“How should we proceed, sir?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423297,\n\nPlayer: “We will request a formal apology f...\nen\n\n\n“We will request a formal apology from Curtan.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423303,\n\nPlayer: “We will request a formal apology f...\nMenu Text en\n\n\n“We will request a formal apology from Curtan.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 900
+                "x": 270,
+                "y": 0
             }
         },
         {
             "id": "node_21",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3423405,\n\nPlayer: “I'm going to call Marcel Koronti....\nen\n\n\n“I'm going to call Marcel Koronti. We have our deal -- let's put it to use.\""
+                "label": "Player\n\n“We will request a formal apology from Curtan.”"
             },
             "position": {
-                "x": 0,
-                "y": 1050
+                "x": 1080,
+                "y": 600
             }
         },
         {
             "id": "node_22",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3423411,\n\nPlayer: “I'm going to call Marcel Koronti....\nMenu Text en\n\n\n“I'm going to call Marcel Koronti. We have our deal -- let's put it to use.\""
+                "label": "Player\n\n“I'm going to call Marcel Koronti. We have our deal -- let's put it to use.\""
             },
             "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423783,\n\nPlayer: “Our deal with Marcel Koronti might...\nen\n\n\n“Our deal with Marcel Koronti might be a solution.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_24",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423789,\n\nPlayer: “Our deal with Marcel Koronti might...\nMenu Text en\n\n\n“Our deal with Marcel Koronti might be a solution.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423891,\n\nLucian Galade: “That would be the most ideal optio...\nen\n\n\n“That would be the most ideal option.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3423993,\n\nPetr Vectern: I still don't trust that man furth...\nen\n\n\n\"I still don't trust that man further than I could throw him. But he might prove useful in this case.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3424095,\n\nLucian Galade: “I don't expect much compliance aft...\nen\n\n\n“I don't expect much compliance after you forcefully removed him from the venue.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1350
+                "x": 810,
+                "y": 0
             }
         },
         {
             "id": "node_28",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3424197,\n\nLucian Galade: Excellent choice. With his influen...\nen\n\n\n\"Excellent choice. With his influence on the media, this could be contained fairly easily.”"
+                "label": "Petr Vectern\n\n\"I still don't trust that man further than I could throw him. But he might prove useful in this case.”"
             },
             "position": {
-                "x": 250,
-                "y": 1350
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_29",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3424299,\n\nMarcel Koronti: “I was wondering when you would cal...\nen\n\n\n“I was wondering when you would call.”"
+                "label": "Lucian Galade\n\n“I don't expect much compliance after you forcefully removed him from the venue.”"
             },
             "position": {
-                "x": 500,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_30",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3424423,\n\nNarrator: Petr left the room and came back wi...\nen\n\n\nPetr left the room and came back with Livia. She had on a short dress and dark eyeliner -- clearly she'd been counting on me being away at the festival for longer. Still, her demeanor was nothing but professional."
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3424531,\n\nPetr Vectern: “Maybe he's had time to cool off. I...\nen\n\n\n“Maybe he's had time to cool off. I'll ask Livia to get him on the line.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1500
+                "x": 1080,
+                "y": 400
             }
         },
         {
             "id": "node_32",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3424633,\n\nPetr Vectern: I'm still skeptical about this. Bu...\nen\n\n\n\"I'm still skeptical about this. But fine. I'll fetch Livia.”"
+                "label": "Narrator\n\nPetr left the room and came back with Livia. She had on a short dress and dark eyeliner -- clearly she'd been counting on me being away at the festival for longer. Still, her demeanor was nothing but professional."
             },
             "position": {
-                "x": 500,
-                "y": 1500
+                "x": 10260,
+                "y": 200
             }
         },
         {
             "id": "node_33",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3424735,\n\nPlayer: “Were you expecting me?”\nen\n\n\n“Were you expecting me?”"
+                "label": "Petr Vectern\n\n“Maybe he's had time to cool off. I'll ask Livia to get him on the line.\""
             },
             "position": {
-                "x": 0,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_34",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3424741,\n\nPlayer: “Were you expecting me?”\nMenu Text en\n\n\n“Were you expecting me to?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 1650
+                "x": 1620,
+                "y": 0
             }
         },
         {
             "id": "node_35",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3424843,\n\nPlayer: “You seem to have forgotten how to...\nen\n\n\n“You seem to have forgotten how to greet people with respect.”"
+                "label": "Player\n\n“Were you expecting me?”"
             },
             "position": {
-                "x": 500,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3424849,\n\nPlayer: “You seem to have forgotten how to...\nMenu Text en\n\n\n“You seem to have forgotten how to greet people with respect.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1800
+                "x": 1890,
+                "y": 0
             }
         },
         {
             "id": "node_37",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3424951,\n\nMarcel Koronti: “Of course I was.”\nen\n\n\n“Of course I was.”"
+                "label": "Marcel Koronti\n\n“Of course I was.”"
             },
             "position": {
-                "x": 250,
-                "y": 1800
+                "x": 2160,
+                "y": 0
             }
         },
         {
             "id": "node_38",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3425059,\n\nPlayer: “Curtan. I am calling to extend the...\nen\n\n\n“Curtan. I am calling to extend the olive branch.”"
+                "label": "Player\n\n“Curtan. I am calling to extend the olive branch.”"
             },
             "position": {
-                "x": 500,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_39",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3425065,\n\nPlayer: “Curtan. I am calling to extend the...\nMenu Text en\n\n\n“Curtan. I am calling to extend the olive branch.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 1950
+                "x": 2430,
+                "y": 0
             }
         },
         {
             "id": "node_40",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3425167,\n\nCurtan Leste: “What do you want, Rayne?\nen\n\n\n“What do you want, Rayne?\""
+                "label": "Curtan Leste\n\n“Is that so?”"
             },
             "position": {
-                "x": 250,
-                "y": 1950
+                "x": 9990,
+                "y": 200
             }
         },
         {
             "id": "node_41",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3425283,\n\nCurtan Leste: “Is that so?”\nen\n\n\n“Is that so?”"
+                "label": "Player\n\n“You insulted my wife. Would you have acted differently if the roles were reversed?”"
             },
             "position": {
-                "x": 500,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3425391,\n\nPlayer: “You insulted my wife. Would you ha...\nen\n\n\n“You insulted my wife. Would you have acted differently if the roles were reversed?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3425397,\n\nPlayer: “You insulted my wife. Would you ha...\nMenu Text en\n\n\n“You insulted my wife. Would you have acted differently if the roles were reversed?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3425499,\n\nPlayer: “It was a mistake. A grave one at t...\nen\n\n\n“It was a mistake. A grave one at that.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3425505,\n\nPlayer: “It was a mistake. A grave one at t...\nMenu Text en\n\n\n“It was a mistake. A grave one at that.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3425607,\n\nCurtan Leste: “At the very least, you have the co...\nen\n\n\n“At the very least, you have the courage to accept that it was.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2250
+                "x": 2970,
+                "y": 0
             }
         },
         {
             "id": "node_47",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3425715,\n\nCurtan Leste: “She insulted our culture and herit...\nen\n\n\n“She insulted our culture and heritage. I only protected our values.”"
+                "label": "Player\n\n“I called you for a resolution.”"
             },
             "position": {
-                "x": 500,
-                "y": 2250
+                "x": 4050,
+                "y": 200
             }
         },
         {
             "id": "node_48",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3425823,\n\nCurtan Leste: “Wrong decision. I am disappointed,...\nen\n\n\n“Wrong decision. I am disappointed, Mr. President.”"
+                "label": "Player\n\n“Do you want a solution or not?”"
             },
             "position": {
-                "x": 0,
-                "y": 2400
+                "x": 3510,
+                "y": 0
             }
         },
         {
             "id": "node_49",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3425931,\n\nPlayer: “Let's put all of this behind us.”\nen\n\n\n“Let's put all of this behind us.”"
+                "label": "Narrator\n\nHe paused. The ball was in my court."
             },
             "position": {
-                "x": 250,
-                "y": 2400
+                "x": 3780,
+                "y": 0
             }
         },
         {
             "id": "node_50",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3425937,\n\nPlayer: “Let's put all of this behind us.”\nMenu Text en\n\n\n“Let's put all of this behind us.”"
+                "label": "Curtan Leste\n\n“Let's see how you like the press hearing about the loss of Anrica to the National Front.”"
             },
             "position": {
-                "x": 500,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426039,\n\nPlayer: “I called you for a resolution.”\nen\n\n\n“I called you for a resolution.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 2550
+                "x": 4050,
+                "y": 0
             }
         },
         {
             "id": "node_52",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3426045,\n\nPlayer: “I called you for a resolution.”\nMenu Text en\n\n\n“I called you for a resolution.”"
+                "label": "Player\n\n“You just made a very powerful enemy. Don't forget that.”"
             },
             "position": {
-                "x": 250,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426147,\n\nPlayer: “Do you want a solution or not?”\nen\n\n\n“Do you want a solution or not?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2550
+                "x": 4320,
+                "y": 0
             }
         },
         {
             "id": "node_54",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3426153,\n\nPlayer: “Do you want a solution or not?”\nMenu Text en\n\n\n“Do you want a solution or not?”"
+                "label": "Player_Italic\n\nI hung up the phone."
             },
             "position": {
-                "x": 0,
-                "y": 2700
+                "x": 4590,
+                "y": 0
             }
         },
         {
             "id": "node_55",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3426255,\n\nNarrator: He paused. The ball was in my court...\nen\n\n\nHe paused. The ball was in my court."
+                "label": "Narrator\n\nCurtan Leste hung up the phone."
             },
             "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426373,\n\nCurtan Leste: “Let's see how you like the press h...\nen\n\n\n“Let's see how you like the press hearing about the loss of Anrica to the National Front.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
+                "x": 4860,
+                "y": 0
             }
         },
         {
             "id": "node_57",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3426497,\n\nPlayer: “You piece of shit!”\nen\n\n\n“You piece of shit!”"
+                "label": "Lucian Galade\n\n“That went worse than expected. We've lost the chance to control the narrative, and we've lost a city to another party.”"
             },
             "position": {
-                "x": 0,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426503,\n\nPlayer: “You piece of shit!”\nMenu Text en\n\n\n“You piece of shit!”"
-            },
-            "position": {
-                "x": 250,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426605,\n\nPlayer: “You just made a very powerful enem...\nen\n\n\n“You just made a very powerful enemy. Don't forget that.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_60",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426611,\n\nPlayer: “You just made a very powerful enem...\nMenu Text en\n\n\n“You just made a very powerful enemy.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3000
+                "x": 5130,
+                "y": 0
             }
         },
         {
             "id": "node_61",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3426713,\n\nCurtan Leste: “You seem to be surrounded by more...\nen\n\n\n“You seem to be surrounded by more and more enemies these days, Mr. President.”"
+                "label": "Lucian Galade\n\n“That went far better than expected. We have both our apology and a chance to change the narrative.\""
             },
             "position": {
-                "x": 250,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426821,\n\nPlayer_Italic: I hung up the phone.\nen\n\n\nI hung up the phone."
-            },
-            "position": {
-                "x": 500,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3426827,\n\nPlayer_Italic: I hung up the phone.\nMenu Text en\n\n\nHang up the phone."
-            },
-            "position": {
-                "x": 0,
-                "y": 3150
+                "x": 5400,
+                "y": 0
             }
         },
         {
             "id": "node_64",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3426935,\n\nNarrator: Curtan Leste hung up the phone.\nen\n\n\nCurtan Leste hung up the phone."
+                "label": "Lucian Galade\n\n“I'll start working on our official response to his apology, to paint us in the best light possible.”"
             },
             "position": {
-                "x": 250,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_65",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3427043,\n\nPetr Vectern: “That's going to have consequences....\nen\n\n\n“That's going to have consequences. Is there anything else we can do?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3150
+                "x": 7830,
+                "y": 200
             }
         },
         {
             "id": "node_66",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3427145,\n\nLucian Galade: “That went worse than expected. We'...\nen\n\n\n“That went worse than expected. We've lost the chance to control the narrative, and we've lost a city to another party.”"
+                "label": "Marcel Koronti\n\n“We're running out of time for pleasantries, aren't we, Mr. President?”"
             },
             "position": {
-                "x": 0,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3427525,\n\nLucian Galade: “That went far better than expected...\nen\n\n\n“That went far better than expected. We have both our apology and a chance to change the narrative.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3427627,\n\nPetr Vectern: “I can't believe you agreed to keep...\nen\n\n\n“I can't believe you agreed to keep Monica out of politics. She won't take that well.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3427729,\n\nNarrator: Lucian departed, which left me and...\nen\n\n\nLucian departed, which left me and Petr in the room."
-            },
-            "position": {
-                "x": 0,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3427853,\n\nLucian Galade: “I'll start working on our official...\nen\n\n\n“I'll start working on our official response to his apology, to paint us in the best light possible.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3427955,\n\nCurtan Leste: “Manners, Mr. President.”\nen\n\n\n“Manners, Mr. President.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428063,\n\nMarcel Koronti: “We're running out of time for plea...\nen\n\n\n“We're running out of time for pleasantries, aren't we, Mr. President?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428171,\n\nPlayer: “Think about this, Marcel. You don'...\nen\n\n\n“Think about this, Marcel. You don't want me on the other side of the fence.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428177,\n\nPlayer: “Think about this, Marcel. You don'...\nMenu Text en\n\n\n“Think about this, Marcel. You don't want me on the other side of the fence.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428279,\n\nMarcel Koronti: “I've just seen the proofs for Sord...\nen\n\n\n“I've just seen the proofs for Sordland Today. It seems your incident with poor Mayor Leste is about to make headlines.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428403,\n\nPlayer: “What about the other papers?”\nen\n\n\n“What about the other papers?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428409,\n\nPlayer: “What about the other papers?”\nMenu Text en\n\n\n“What about the other papers?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428511,\n\nPlayer: “We had a deal. I hope you have not...\nen\n\n\n“We had a deal. I hope you have not forgotten.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428517,\n\nPlayer: “We had a deal. I hope you have not...\nMenu Text en\n\n\n“We had a deal. I hope you have not forgotten.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 3900
+                "x": 4320,
+                "y": 200
             }
         },
         {
             "id": "node_80",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3428619,\n\nMarcel Koronti: “I know I don't. We have a deal. af...\nen\n\n\n“I know I don't. We have a deal. after all.\""
+                "label": "Player\n\n“How disappointing.”"
             },
             "position": {
-                "x": 500,
-                "y": 3900
+                "x": 7290,
+                "y": 200
             }
         },
         {
             "id": "node_81",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3428727,\n\nMarcel Koronti: “Deyr Journal, The Radical, Holsord...\nen\n\n\n“Deyr Journal, The Radical, Holsord Post and Lachaven Times are all prepared to print the story on the front page.”"
+                "label": "Player\n\n“Your promise was about erasing mistakes.”"
             },
             "position": {
-                "x": 0,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428835,\n\nMarcel Koronti: “Of course not. Mutual respect betw...\nen\n\n\n“Of course not. Mutual respect between partners is a must.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3428943,\n\nMarcel Koronti: “I take it that you want this conta...\nen\n\n\n“I take it that you want this contained, if not completely gone?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429059,\n\nPlayer: “I only want to minimize the damage...\nen\n\n\n“I only want to minimize the damage. The less prominent the story, the better.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429065,\n\nPlayer: “I only want to minimize the damage...\nMenu Text en\n\n\n“I only want to minimize the damage. The less prominent the story, the better.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4200
+                "x": 6210,
+                "y": 0
             }
         },
         {
             "id": "node_86",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3429167,\n\nPlayer: “I want it gone.”\nen\n\n\n“I want it gone.”"
+                "label": "Marcel Koronti\n\n“A president replacing an invited speaker with his own wife, then forcing him out of the ceremony itself? It might go international.\""
             },
             "position": {
-                "x": 500,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429173,\n\nPlayer: “I want it gone.”\nMenu Text en\n\n\n“I want it gone.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429275,\n\nMarcel Koronti: “That's certainly within the realm...\nen\n\n\n“That's certainly within the realm of possibility. I can have you banished to the back pages in the next hour.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429391,\n\nMarcel Koronti: “Alas, the event is too newsworthy...\nen\n\n\n“Alas, the event is too newsworthy to receive no coverage. But I can have you banished to the back pages in the next hour.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4350
+                "x": 6210,
+                "y": 200
             }
         },
         {
             "id": "node_90",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3429611,\n\nPlayer: “How disappointing.”\nen\n\n\n“How disappointing.”"
+                "label": "Player\n\n“Yes. Handle the situation immediately.”"
             },
             "position": {
-                "x": 0,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429617,\n\nPlayer: “How disappointing.”\nMenu Text en\n\n\n“How disappointing.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_92",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429719,\n\nPlayer: “Your promise was about erasing mis...\nen\n\n\n“Your promise was about erasing mistakes.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429725,\n\nPlayer: “Your promise was about erasing mis...\nMenu Text en\n\n\n“Your promise was about erasing mistakes.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4650
+                "x": 6480,
+                "y": 0
             }
         },
         {
             "id": "node_94",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3429827,\n\nPlayer: “Do you think this could blow out o...\nen\n\n\n“Do you think this could blow out of proportion?”"
+                "label": "Lucian Galade\n\n“I know Mr. Koronti may have dubious intentions, but it's going to be difficult to contain this media backlash on our own.”"
             },
             "position": {
-                "x": 250,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429833,\n\nPlayer: “Do you think this could blow out o...\nMenu Text en\n\n\n“Do you think this could blow out of proportion?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3429935,\n\nPlayer: “And what would you want from me in...\nen\n\n\n“And what would you want from me in return?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 4800
+                "x": 6750,
+                "y": 0
             }
         },
         {
             "id": "node_97",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3429941,\n\nPlayer: “And what would you want from me in...\nMenu Text en\n\n\n“And what would you want from me in return?”"
+                "label": "Marcel Koronti\n\n“Good luck to you.”"
             },
             "position": {
-                "x": 250,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3430043,\n\nMarcel Koronti: Oh, we'll worry about that when th...\nen\n\n\n\"Oh, we'll worry about that when the time comes.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4800
+                "x": 7020,
+                "y": 0
             }
         },
         {
             "id": "node_99",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3430151,\n\nMarcel Koronti: “I'm not a Saint, Mr. President. I...\nen\n\n\n“I'm not a Saint, Mr. President. I can not perform miracles. I too have my limits.”"
+                "label": "Marcel Koronti\n\n“Perfect. I'll call my contacts at the other papers first -- I should be able to persuade them to downplay the situation.”"
             },
             "position": {
-                "x": 0,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3430259,\n\nMarcel Koronti: “A president replacing an invited s...\nen\n\n\n“A president replacing an invited speaker with his own wife, then forcing him out of the ceremony itself? It might go international.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3430367,\n\nPlayer: “Thank you again. Have a good day.”\nen\n\n\n“Thank you again. Have a good day.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3430373,\n\nPlayer: “Thank you again. Have a good day.”\nMenu Text en\n\n\n“Thank you again.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3430475,\n\nPlayer: “Looking forward to the results. En...\nen\n\n\n“Looking forward to the results. Enjoy your day, Marcel.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 5100
+                "x": 7290,
+                "y": 0
             }
         },
         {
             "id": "node_104",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3430481,\n\nPlayer: “Looking forward to the results. En...\nMenu Text en\n\n\n“Looking forward to the results.”"
+                "label": "Petr Vectern\n\n“I'm surprised he was so enthusiastic about it. But either way, he just made our lives easier.”"
             },
             "position": {
-                "x": 500,
-                "y": 5100
+                "x": 7560,
+                "y": 0
             }
         },
         {
             "id": "node_105",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3430583,\n\nPlayer: “If this... partnership comes to li...\nen\n\n\n“If this... partnership comes to light, it would be an even bigger scandal.”"
+                "label": "Lucian Galade\n\n“I knew this partnership was the right decision. Mr. Koronti should be able to keep the incident under control.”"
             },
             "position": {
-                "x": 0,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3430589,\n\nPlayer: “If this... partnership comes to li...\nMenu Text en\n\n\n“If this... partnership comes to light, it would be an even bigger scandal.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3430691,\n\nPlayer: “Yes. Handle the situation immediat...\nen\n\n\n“Yes. Handle the situation immediately.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 5250
+                "x": 7830,
+                "y": 0
             }
         },
         {
             "id": "node_108",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3430697,\n\nPlayer: “Yes. Handle the situation immediat...\nMenu Text en\n\n\n“Yes. Handle the situation immediately.”"
+                "label": "Petr Vectern\n\n“Ha. More of this, I suppose.”"
             },
             "position": {
-                "x": 0,
-                "y": 5400
+                "x": 7830,
+                "y": 400
             }
         },
         {
             "id": "node_109",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3430799,\n\nMarcel Koronti: “So, do you want me to get to work?...\nen\n\n\n“So, do you want me to get to work?”"
+                "label": "Petr Vectern\n\n“They're a little better, thanks.”"
             },
             "position": {
-                "x": 250,
-                "y": 5400
+                "x": 8100,
+                "y": 0
             }
         },
         {
             "id": "node_110",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3431011,\n\nPetr Vectern: “Time to go into full damage contro...\nen\n\n\n“Time to go into full damage control. This ought to end well.”"
+                "label": "Player\n\n“How are the upcoming trade deals for Agnolia and Wehlen coming along?”"
             },
             "position": {
-                "x": 500,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3431113,\n\nLucian Galade: “I know Mr. Koronti may have dubiou...\nen\n\n\n“I know Mr. Koronti may have dubious intentions, but it's going to be difficult to contain this media backlash on our own.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5550
+                "x": 7830,
+                "y": 600
             }
         },
         {
             "id": "node_112",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3431215,\n\nMarcel Koronti: “Well in that case, I have no reaso...\nen\n\n\n“Well in that case, I have no reason to be talking to you right now.”"
+                "label": "Petr Vectern\n\n“It's been a while since we had a drink or two together.”"
             },
             "position": {
-                "x": 250,
-                "y": 5550
+                "x": 8370,
+                "y": 0
             }
         },
         {
             "id": "node_113",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3431323,\n\nNarrator: Marcel hung up the phone.\nen\n\n\nMarcel hung up the phone."
+                "label": "Player\n\n“Yes, it's been far too long. Shall we?”"
             },
             "position": {
-                "x": 500,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_114",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3431431,\n\nMarcel Koronti: “Good luck to you.”\nen\n\n\n“Good luck to you.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3431539,\n\nMarcel Koronti: After that, making the necessary c...\nen\n\n\n\"After that, making the necessary changes to my own publication should be no trouble at all.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5700
+                "x": 7830,
+                "y": 1000
             }
         },
         {
             "id": "node_116",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3431647,\n\nMarcel Koronti: “Perfect. I'll call my contacts at...\nen\n\n\n“Perfect. I'll call my contacts at the other papers first -- I should be able to persuade them to downplay the situation.”"
+                "label": "Petr Vectern\n\n“Right now Leste looks like the victim -- harangued for defending Sordland's precious cultural values until he had no choice but to leave.\""
             },
             "position": {
-                "x": 500,
-                "y": 5700
+                "x": 8640,
+                "y": 0
             }
         },
         {
             "id": "node_117",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3431761,\n\nMarcel Koronti: “Don't you worry. Until next time,...\nen\n\n\n“Don't you worry. Until next time, Mr. President.”"
+                "label": "Lucian Galade\n\n“If Sordland Today paints you in a favorable light, other publications are bound to follow.”"
             },
             "position": {
-                "x": 0,
-                "y": 5850
+                "x": 13230,
+                "y": 200
             }
         },
         {
             "id": "node_118",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3432147,\n\nPetr Vectern: “I'm surprised he was so enthusiast...\nen\n\n\n“I'm surprised he was so enthusiastic about it. But either way, he just made our lives easier.”"
+                "label": "Curtan Leste\n\n“Enjoy the fallout.”"
             },
             "position": {
-                "x": 250,
-                "y": 5850
+                "x": 1080,
+                "y": 200
             }
         },
         {
             "id": "node_119",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3432249,\n\nLucian Galade: “I knew this partnership was the ri...\nen\n\n\n“I knew this partnership was the right decision. Mr. Koronti should be able to keep the incident under control.”"
+                "label": "Curtan Leste\n\n“What makes you think that I will hear anything you say? You had me thrown out, for God's sake!”"
             },
             "position": {
-                "x": 500,
-                "y": 5850
+                "x": 4320,
+                "y": 400
             }
         },
         {
             "id": "node_120",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3432351,\n\nPlayer: “Any plans for the holiday next mon...\nen\n\n\n“Any plans for the holiday next month?”"
+                "label": "Narrator\n\nAt that very moment, the phone began to ring. The news was out."
             },
             "position": {
-                "x": 0,
-                "y": 6000
+                "x": 9180,
+                "y": 0
             }
         },
         {
             "id": "node_121",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3432357,\n\nPlayer: “Any plans for the holiday next mon...\nMenu Text en\n\n\n“Any plans for the holiday next month?”"
+                "label": "Livia Suno\n\n“I'll let you know once I have him on the line.”"
             },
             "position": {
-                "x": 250,
-                "y": 6000
+                "x": 9450,
+                "y": 0
             }
         },
         {
             "id": "node_122",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3432459,\n\nPlayer: “How are things between you and Eve...\nen\n\n\n“How are things between you and Evelyn?”"
+                "label": "Livia Suno\n\n“Mr. Vectern told me what happened. Should I connect you with the mayor directly?”"
             },
             "position": {
-                "x": 500,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_123",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3432465,\n\nPlayer: “How are things between you and Eve...\nMenu Text en\n\n\n“How are things between you and Evelyn?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6150
+                "x": 9720,
+                "y": 0
             }
         },
         {
             "id": "node_124",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3432567,\n\nPetr Vectern: “Ha. More of this, I suppose.”\nen\n\n\n“Ha. More of this, I suppose.”"
+                "label": "Player\n\n“Yes please.”"
             },
             "position": {
-                "x": 250,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_125",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3432669,\n\nPetr Vectern: “They're a little better, thanks.”\nen\n\n\n“They're a little better, thanks.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_126",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3432771,\n\nPlayer: “How are the upcoming trade deals f...\nen\n\n\n“How are the upcoming trade deals for Agnolia and Wehlen coming along?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3432777,\n\nPlayer: “How are the upcoming trade deals f...\nMenu Text en\n\n\n“How are the upcoming trade deals for Agnolia and Wehlen coming along?”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3432879,\n\nPetr Vectern: “As well as expected. They had thei...\nen\n\n\n“As well as expected. They had their own concerns, but they'll fall in line.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6300
+                "x": 9990,
+                "y": 0
             }
         },
         {
             "id": "node_129",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3432981,\n\nPetr Vectern: “It's been a while since we had a d...\nen\n\n\n“It's been a while since we had a drink or two together.”"
+                "label": "Narrator\n\nMarcel Koronti, the CEO of the HOS Conglomerate, was on the line."
             },
             "position": {
-                "x": 0,
-                "y": 6450
+                "x": 9720,
+                "y": 200
             }
         },
         {
             "id": "node_130",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3433099,\n\nPlayer: “Yes, it's been far too long. Shall...\nen\n\n\n“Yes, it's been far too long. Shall we?”"
+                "label": "Narrator\n\nLivia left the room to arrange the call. A few minutes later, the telephone lit up."
             },
             "position": {
-                "x": 250,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_131",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3433105,\n\nPlayer: “Yes, it's been far too long. Shall...\nMenu Text en\n\n\n“Yes, it's been far too long. Shall we?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6450
+                "x": 10260,
+                "y": 0
             }
         },
         {
             "id": "node_132",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3433207,\n\nPlayer: “Maybe later.”\nen\n\n\n“Maybe later.”"
+                "label": "Livia Suno\n\n“I'll let you know once I have him on the line.”"
             },
             "position": {
-                "x": 0,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_133",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3433213,\n\nPlayer: “Maybe later.”\nMenu Text en\n\n\n“Maybe later.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_134",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3433411,\n\nPetr Vectern: “Right now Leste looks like the vic...\nen\n\n\n“Right now Leste looks like the victim -- harangued for defending Sordland's precious cultural values until he had no choice but to leave.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3433513,\n\nLucian Galade: “If Sordland Today paints you in a...\nen\n\n\n“If Sordland Today paints you in a favorable light, other publications are bound to follow.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 6750
+                "x": 10530,
+                "y": 0
             }
         },
         {
             "id": "node_136",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3433615,\n\nCurtan Leste: “Enjoy the fallout.”\nen\n\n\n“Enjoy the fallout.”"
+                "label": "Livia Suno\n\n“As you wish.”"
             },
             "position": {
-                "x": 250,
-                "y": 6750
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3433723,\n\nCurtan Leste: “What makes you think that I will h...\nen\n\n\n“What makes you think that I will hear anything you say? You had me thrown out, for God's sake!”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6750
+                "x": 10800,
+                "y": 0
             }
         },
         {
             "id": "node_138",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3433839,\n\nNarrator: At that very moment, the phone bega...\nen\n\n\nAt that very moment, the phone began to ring. The news was out."
+                "label": "Narrator\n\nMayor Curtan Leste's untimely departure was bound to reflect badly on me. The only question was how much damage the incident would cause."
             },
             "position": {
-                "x": 0,
-                "y": 6900
+                "x": 1890,
+                "y": 200
             }
         },
         {
             "id": "node_139",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3433947,\n\nLivia Suno: “I'll let you know once I have him...\nen\n\n\n“I'll let you know once I have him on the line.”"
+                "label": "Player\n\n“I demand a public and formal apology for your behavior at the festival.\""
             },
             "position": {
-                "x": 250,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434049,\n\nLivia Suno: “Mr. Vectern told me what happened....\nen\n\n\n“Mr. Vectern told me what happened. Should I connect you with the mayor directly?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 6900
+                "x": 0,
+                "y": 200
             }
         },
         {
             "id": "node_141",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3434159,\n\nNarrator: Curtan had definitely not cooled of...\nen\n\n\nCurtan had definitely not cooled off. I did not like his tone at all."
+                "label": "Curtan Leste\n\n“Why would I possibly apologize to you? You had me thrown out, for God's sake!”"
             },
             "position": {
-                "x": 0,
-                "y": 7050
+                "x": 11070,
+                "y": 0
             }
         },
         {
             "id": "node_142",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3434267,\n\nPlayer: “Yes please.”\nen\n\n\n“Yes please.”"
+                "label": "Curtan Leste\n\n“That depends on you.”"
             },
             "position": {
-                "x": 250,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_143",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434273,\n\nPlayer: “Yes please.”\nMenu Text en\n\n\n“Yes please.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_144",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434375,\n\nPlayer: “That would be appreciated.”\nen\n\n\n“That would be appreciated.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_145",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434381,\n\nPlayer: “That would be appreciated.”\nMenu Text en\n\n\n“That would be appreciated.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_146",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434483,\n\nNarrator: Livia left the room to arrange the...\nen\n\n\nLivia left the room to arrange the call. A few minutes later, the phone line lit up."
-            },
-            "position": {
-                "x": 500,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_147",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434591,\n\nLivia Suno: “As you wish.”\nen\n\n\n“As you wish.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_148",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434693,\n\nLivia Suno: “I hope you won't make any compromi...\nen\n\n\n“I hope you won't make any compromises with Mr. Leste. He behaved like a pig at the festival.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434795,\n\nNarrator: Marcel Koronti, the CEO of the HOS...\nen\n\n\nMarcel Koronti, the CEO of the HOS Conglomerate, was on the line."
-            },
-            "position": {
-                "x": 500,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_150",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3434903,\n\nNarrator: Livia left the room to arrange the...\nen\n\n\nLivia left the room to arrange the call. A few minutes later, the telephone lit up."
-            },
-            "position": {
-                "x": 0,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435011,\n\nLivia Suno: “To be honest, though, I think you...\nen\n\n\n“To be honest, though, I think you should keep this deal in your pocket until you have a scandal worth covering up. Leste was completely in the wrong here.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_152",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435113,\n\nLivia Suno: “I'll let you know once I have him...\nen\n\n\n“I'll let you know once I have him on the line.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_153",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435215,\n\nLivia Suno: “Mr. Vectern told me what happened....\nen\n\n\n“Mr. Vectern told me what happened. Should I connect you to Mr. Koronti directly?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_154",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435325,\n\nPlayer: “Yes, please.”\nen\n\n\n“Yes, please.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7650
+                "x": 11340,
+                "y": 0
             }
         },
         {
             "id": "node_155",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3435331,\n\nPlayer: “Yes, please.”\nMenu Text en\n\n\n“Yes, please.”"
+                "label": "Player\n\n“Thank you. Goodbye.”"
             },
             "position": {
-                "x": 500,
-                "y": 7650
+                "x": 11610,
+                "y": 0
             }
         },
         {
             "id": "node_156",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3435433,\n\nPlayer: “That would be appreciated.”\nen\n\n\n“That would be appreciated.”"
+                "label": "Player\n\n“I will be waiting for it. Goodbye.”"
             },
             "position": {
-                "x": 0,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_157",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435439,\n\nPlayer: “That would be appreciated.”\nMenu Text en\n\n\n“That would be appreciated.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_158",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435541,\n\nLivia Suno: “As you wish.”\nen\n\n\n“As you wish.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 7800
+                "x": 11880,
+                "y": 0
             }
         },
         {
             "id": "node_159",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3435643,\n\nNarrator: Petr left the room and came back wi...\nen\n\n\nPetr left the room and came back with my secretary. She had on a short dress and dark eyeliner -- clearly she'd been counting on me being away at the festival for longer. Still, her demeanor was nothing but professional."
+                "label": "Marcel Koronti\n\n“But in times like these, I'm your personal lord and savior. You know that. Otherwise you wouldn't have called.”"
             },
             "position": {
-                "x": 0,
-                "y": 7950
+                "x": 12150,
+                "y": 0
             }
         },
         {
             "id": "node_160",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3435751,\n\nNarrator: Mayor Curtan Leste's untimely depar...\nen\n\n\nMayor Curtan Leste's untimely departure was bound to reflect badly on me. The only question was how much damage the incident would cause."
+                "label": "Marcel Koronti\n\n“That is a big *if*, Mr. President, compared to what is happening *now*.”"
             },
             "position": {
-                "x": 250,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435853,\n\nPlayer: “I demand a public and formal apolo...\nen\n\n\n“I demand a public and formal apology for your behavior at the festival.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3435859,\n\nPlayer: “I demand a public and formal apolo...\nMenu Text en\n\n\n“I demand a public and formal apology for your behavior at the festival.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8100
+                "x": 6210,
+                "y": 400
             }
         },
         {
             "id": "node_163",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3435961,\n\nCurtan Leste: “Is that so? You've got some nerve....\nen\n\n\n“Is that so? You've got some nerve.”"
+                "label": "Player\n\n“I changed my mind. It's too risky.”"
             },
             "position": {
-                "x": 250,
-                "y": 8100
+                "x": 12420,
+                "y": 0
             }
         },
         {
             "id": "node_164",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3436069,\n\nCurtan Leste: “Why would I possibly apologize to...\nen\n\n\n“Why would I possibly apologize to you? You had me thrown out, for God's sake!”"
+                "label": "Narrator\n\nHe leaned back in his chair."
             },
             "position": {
-                "x": 500,
-                "y": 8100
+                "x": 12690,
+                "y": 0
             }
         },
         {
             "id": "node_165",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3436185,\n\nCurtan Leste: “That depends on you.”\nen\n\n\n“That depends on you.”"
+                "label": "Player\n\n“For God's sake, Petr, it's six in the morning!”"
             },
             "position": {
-                "x": 0,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_166",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3436293,\n\nCurtan Leste: “Here is my demand.”\nen\n\n\n“Here is my demand.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 8250
+                "x": 7830,
+                "y": 800
             }
         },
         {
             "id": "node_167",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3436401,\n\nCurtan Leste: “The First Lady won't be allowed to...\nen\n\n\n“The First Lady won't be allowed to meddle in politics from now on. No meetings. No advocating for her little causes. And certainly no speeches.\""
+                "label": "Petr Vectern\n\n“Right now Leste looks like the victim, thrown out of the festival for defending Sordland's precious cultural values.”"
             },
             "position": {
-                "x": 500,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3436509,\n\nCurtan Leste: “Should you fail to keep her from d...\nen\n\n\n“Should you fail to keep her from doing so, you can say your goodbyes to Anrica.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8400
-            }
-        },
-        {
-            "id": "node_169",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3436617,\n\nCurtan Leste: On the other hand, if you do this,...\nen\n\n\n\"On the other hand, if you do this, I will issue a full apology and your party will retain my support.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8400
-            }
-        },
-        {
-            "id": "node_170",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3436725,\n\nCurtan Leste: “What will it be?”\nen\n\n\n“What will it be?”"
-            },
-            "position": {
-                "x": 500,
-                "y": 8400
+                "x": 12960,
+                "y": 0
             }
         },
         {
             "id": "node_171",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3436841,\n\nPlayer: “You leave me no choice. I'll tell...\nen\n\n\n“You leave me no choice. I'll tell Monica she's out of politics.\""
+                "label": "Lucian Galade\n\n\"Considering he opted to leave the venue rather than deliver an apology last night, I would hardly expect one from him now.\""
             },
             "position": {
-                "x": 0,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_172",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3436847,\n\nPlayer: “You leave me no choice. I'll tell...\nMenu Text en\n\n\n“You leave me no choice. I'll tell Monica she's out of politics.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_173",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3436949,\n\nPlayer: “I refuse. You are the one who is i...\nen\n\n\n“I refuse. You are the one who is in the wrong. I won't punish her for your crimes.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_174",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3436955,\n\nPlayer: “I refuse. You are the one who is i...\nMenu Text en\n\n\n“I refuse. You are the one who is in the wrong. I won't punish her for your crimes.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_175",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437153,\n\nCurtan Leste: “I'm glad that we came to terms.”\nen\n\n\n“I'm glad that we came to terms.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_176",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437267,\n\nCurtan Leste: “I will announce my public apology...\nen\n\n\n“I will announce my public apology to the press immediately.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_177",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437375,\n\nCurtan Leste: “Have a good day, Mr. President.”\nen\n\n\n“Have a good day, Mr. President.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_178",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437587,\n\nPlayer: “Thank you. Goodbye.”\nen\n\n\n“Thank you. Goodbye.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437593,\n\nPlayer: “Thank you. Goodbye.”\nMenu Text en\n\n\n“Thank you.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_180",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437695,\n\nPlayer: “I will be waiting for it. Goodbye....\nen\n\n\n“I will be waiting for it. Goodbye.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 9000
-            }
-        },
-        {
-            "id": "node_181",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437701,\n\nPlayer: “I will be waiting for it. Goodbye....\nMenu Text en\n\n\n“I will be waiting for it.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 9000
+                "x": 13230,
+                "y": 0
             }
         },
         {
             "id": "node_182",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3437803,\n\nPlayer: “Don't get cocky.”\nen\n\n\n“Don't get cocky.”"
+                "label": "Curtan Leste\n\n“Why would I possibly apologize to you? You humiliated me in front of my entire home city!\""
             },
             "position": {
-                "x": 500,
-                "y": 9000
-            }
-        },
-        {
-            "id": "node_183",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3437809,\n\nPlayer: “Don't get cocky.”\nMenu Text en\n\n\n“Don't get cocky.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 9150
+                "x": 13500,
+                "y": 0
             }
         },
         {
             "id": "node_184",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3437911,\n\nMarcel Koronti: “Apologies for my behaviour, Mr. Pr...\nen\n\n\n“Apologies for my behaviour, Mr. President, but we both know that time is of the essence.”"
+                "label": "Narrator\n\nPetr grinned. Lucian looked outraged."
             },
             "position": {
-                "x": 250,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_185",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438019,\n\nMarcel Koronti: “But in times like these, I'm your...\nen\n\n\n“But in times like these, I'm your personal lord and savior. You know that. Otherwise you wouldn't have called.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9150
+                "x": 810,
+                "y": 200
             }
         },
         {
             "id": "node_186",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3438127,\n\nMarcel Koronti: “That is a big *if*, Mr. President,...\nen\n\n\n“That is a big *if*, Mr. President, compared to what is happening *now*.”"
+                "label": "Lucian Galade\n\n\"A compromise may be necessary, Mr. President. Unless you'd rather take advice from someone in a conical brassiere.”"
             },
             "position": {
-                "x": 0,
-                "y": 9300
+                "x": 13770,
+                "y": 0
             }
         },
         {
             "id": "node_187",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3438235,\n\nMarcel Koronti: “But it is your decision. So what w...\nen\n\n\n“But it is your decision. So what will it be?”"
+                "label": "Narrator\n\nPetr grinned. Lucian looked outraged."
             },
             "position": {
-                "x": 250,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_188",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438351,\n\nPlayer: “Handle the situation immediately.”\nen\n\n\n“Handle the situation immediately.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_189",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438357,\n\nPlayer: “Handle the situation immediately.”\nMenu Text en\n\n\n“Handle the situation immediately.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_190",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438459,\n\nPlayer: “I changed my mind. It's too risky....\nen\n\n\n“I changed my mind. It's too risky.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_191",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438465,\n\nPlayer: “I changed my mind. It's too risky....\nMenu Text en\n\n\n“I changed my mind. It's too risky.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_192",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438567,\n\nNarrator: He leaned back in his chair.\nen\n\n\nHe leaned back in his chair."
-            },
-            "position": {
-                "x": 0,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_193",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438669,\n\nPlayer: “For God's sake, Petr, it's six in...\nen\n\n\n“For God's sake, Petr, it's six in the morning!”"
-            },
-            "position": {
-                "x": 250,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_194",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3438675,\n\nPlayer: “For God's sake, Petr, it's six in...\nMenu Text en\n\n\n“For God's sake, Petr, it's six in the morning!”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9600
+                "x": 14040,
+                "y": 0
             }
         },
         {
             "id": "node_195",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3438873,\n\nPetr Vectern: “Right now Leste looks like the vic...\nen\n\n\n“Right now Leste looks like the victim, thrown out of the festival for defending Sordland's precious cultural values.”"
+                "label": "Player\n\n“Agreed. Let's do it.”"
             },
             "position": {
-                "x": 0,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_196",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3439253,\n\nLucian Galade: Considering he opted to leave the...\nen\n\n\n\"Considering he opted to leave the venue rather than deliver an apology last night, I would hardly expect one from him now.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_197",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3440189,\n\nCurtan Leste: “What makes you think that I will h...\nen\n\n\n“What makes you think that I will hear anything you say? You humiliated me in front of my entire home city!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 9750
+                "x": 14310,
+                "y": 0
             }
         },
         {
             "id": "node_198",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3440305,\n\nCurtan Leste: “Why would I possibly apologize to...\nen\n\n\n“Why would I possibly apologize to you? You humiliated me in front of my entire home city!\""
+                "label": "Player\n\n“Let's just talk to him. He can't stay angry forever.”"
             },
             "position": {
-                "x": 0,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_199",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3440517,\n\nNarrator: Petr grinned. Lucian looked outrage...\nen\n\n\nPetr grinned. Lucian looked outraged."
-            },
-            "position": {
-                "x": 250,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_200",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3440619,\n\nLucian Galade: Talk to Koronti, Mr. President. Un...\nen\n\n\n\"Talk to Koronti, Mr. President. Unless you'd rather take advice from someone in a conical brassiere.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_201",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3440721,\n\nLucian Galade: A compromise may be necessary, Mr....\nen\n\n\n\"A compromise may be necessary, Mr. President. Unless you'd rather take advice from someone in a conical brassiere.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_202",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3440823,\n\nNarrator: Petr grinned. Lucian looked outrage...\nen\n\n\nPetr grinned. Lucian looked outraged."
-            },
-            "position": {
-                "x": 250,
-                "y": 10050
+                "x": 14580,
+                "y": 0
             }
         },
         {
             "id": "node_203",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 3440925,\n\nLucian Galade: “That does not look like it went go...\nen\n\n\n“That does not look like it went good.”"
+                "label": "Lucian Galade\n\n“I don't expect much compliance after you forcefully removed him from the venue.”"
             },
             "position": {
-                "x": 500,
-                "y": 10050
-            }
-        },
-        {
-            "id": "node_204",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441027,\n\nPetr Vectern: “Is there anything else we can do?”\nen\n\n\n“Is there anything else we can do?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_205",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441407,\n\nLucian Galade: “We could give a call to Mr. Koront...\nen\n\n\n“We could give a call to Mr. Koronti.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_206",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441517,\n\nLucian Galade: “Unfortunately, I don't think so.”\nen\n\n\n“Unfortunately, I don't think so.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_207",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441619,\n\nPlayer: “Agreed. Let's do it.”\nen\n\n\n“Agreed. Let's do it.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_208",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441625,\n\nPlayer: “Agreed. Let's do it.”\nMenu Text en\n\n\n“Agreed. Let's do it.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_209",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441727,\n\nPlayer: “No. We will manage without him.”\nen\n\n\n“No. We will manage without him.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_210",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441733,\n\nPlayer: “No. We will manage without him.”\nMenu Text en\n\n\n“No. We will manage without him.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_211",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441835,\n\nLucian Galade: “Very well.”\nen\n\n\n“Very well.”"
-            },
-            "position": {
-                "x": 250,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_212",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441937,\n\nPlayer: “Let's just talk to him. He can't s...\nen\n\n\n“Let's just talk to him. He can't stay angry forever.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_213",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3441943,\n\nPlayer: “Let's just talk to him. He can't s...\nMenu Text en\n\n\n“Let's just talk to him. He can't stay angry forever.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 10650
-            }
-        },
-        {
-            "id": "node_214",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3442045,\n\nLucian Galade: Considering he opted to leave the...\nen\n\n\n\"Considering he opted to leave the venue rather than deliver an apology last night, I would hardly expect anything from him now.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 10650
-            }
-        },
-        {
-            "id": "node_215",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 3442425,\n\nLucian Galade: “I don't expect much compliance aft...\nen\n\n\n“I don't expect much compliance after you forcefully removed him from the venue.”"
-            },
-            "position": {
-                "x": 500,
-                "y": 10650
+                "x": 14850,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
-            "source": "node_1",
-            "target": "node_3",
-            "animated": true
-        },
-        {
-            "id": "e1",
+            "id": "e3_to_139",
             "source": "node_3",
             "target": "node_139",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e2",
-            "source": "node_4",
-            "target": "node_5",
-            "animated": true
-        },
-        {
-            "id": "e3",
+            "id": "e7_to_23",
             "source": "node_7",
             "target": "node_23",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e4",
-            "source": "node_9",
-            "target": "node_10",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_10",
-            "target": "node_11",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_11",
-            "target": "node_13",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_11",
-            "target": "node_13",
-            "animated": true
-        },
-        {
-            "id": "e8",
-            "source": "node_12",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e9",
-            "source": "node_12",
-            "target": "node_16",
-            "animated": true
-        },
-        {
-            "id": "e10",
-            "source": "node_13",
-            "target": "node_17",
-            "animated": true
-        },
-        {
-            "id": "e11",
-            "source": "node_13",
-            "target": "node_17",
-            "animated": true
-        },
-        {
-            "id": "e12",
-            "source": "node_14",
-            "target": "node_15",
-            "animated": true
-        },
-        {
-            "id": "e13",
-            "source": "node_15",
-            "target": "node_20",
-            "animated": true
-        },
-        {
-            "id": "e14",
-            "source": "node_16",
-            "target": "node_18",
-            "animated": true
-        },
-        {
-            "id": "e15",
-            "source": "node_17",
-            "target": "node_19",
-            "animated": true
-        },
-        {
-            "id": "e16",
-            "source": "node_18",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e17",
-            "source": "node_19",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e18",
-            "source": "node_20",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e19",
+            "id": "e21_to_6",
             "source": "node_21",
             "target": "node_6",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e20",
-            "source": "node_21",
-            "target": "node_6",
-            "animated": true
-        },
-        {
-            "id": "e21",
+            "id": "e22_to_184",
             "source": "node_22",
             "target": "node_184",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e22",
-            "source": "node_22",
-            "target": "node_184",
-            "animated": true
-        },
-        {
-            "id": "e23",
-            "source": "node_25",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e24",
-            "source": "node_25",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e25",
-            "source": "node_27",
-            "target": "node_28",
-            "animated": true
-        },
-        {
-            "id": "e26",
+            "id": "e28_to_118",
             "source": "node_28",
             "target": "node_118",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e27",
+            "id": "e29_to_21",
             "source": "node_29",
             "target": "node_21",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e28",
-            "source": "node_30",
-            "target": "node_34",
-            "animated": true
-        },
-        {
-            "id": "e29",
-            "source": "node_31",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e30",
+            "id": "e32_to_158",
             "source": "node_32",
             "target": "node_158",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e31",
+            "id": "e33_to_123",
             "source": "node_33",
             "target": "node_123",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e32",
-            "source": "node_34",
-            "target": "node_33",
-            "animated": true
-        },
-        {
-            "id": "e33",
+            "id": "e35_to_138",
             "source": "node_35",
             "target": "node_138",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e34",
-            "source": "node_35",
-            "target": "node_138",
-            "animated": true
-        },
-        {
-            "id": "e35",
-            "source": "node_36",
-            "target": "node_38",
-            "animated": true
-        },
-        {
-            "id": "e36",
-            "source": "node_36",
-            "target": "node_38",
-            "animated": true
-        },
-        {
-            "id": "e37",
+            "id": "e37_to_67",
             "source": "node_37",
             "target": "node_67",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e38",
+            "id": "e38_to_69",
             "source": "node_38",
             "target": "node_69",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e39",
-            "source": "node_38",
-            "target": "node_69",
-            "animated": true
-        },
-        {
-            "id": "e40",
-            "source": "node_39",
-            "target": "node_41",
-            "animated": true
-        },
-        {
-            "id": "e41",
+            "id": "e40_to_140",
             "source": "node_40",
             "target": "node_140",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e42",
+            "id": "e41_to_179",
             "source": "node_41",
             "target": "node_179",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e43",
-            "source": "node_41",
-            "target": "node_179",
-            "animated": true
-        },
-        {
-            "id": "e44",
-            "source": "node_42",
-            "target": "node_45",
-            "animated": true
-        },
-        {
-            "id": "e45",
-            "source": "node_42",
-            "target": "node_45",
-            "animated": true
-        },
-        {
-            "id": "e46",
-            "source": "node_43",
-            "target": "node_44",
-            "animated": true
-        },
-        {
-            "id": "e47",
-            "source": "node_44",
-            "target": "node_50",
-            "animated": true
-        },
-        {
-            "id": "e48",
-            "source": "node_45",
-            "target": "node_50",
-            "animated": true
-        },
-        {
-            "id": "e49",
-            "source": "node_46",
-            "target": "node_51",
-            "animated": true
-        },
-        {
-            "id": "e50",
-            "source": "node_46",
-            "target": "node_51",
-            "animated": true
-        },
-        {
-            "id": "e51",
+            "id": "e47_to_143",
             "source": "node_47",
             "target": "node_143",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e52",
-            "source": "node_47",
-            "target": "node_143",
-            "animated": true
-        },
-        {
-            "id": "e53",
+            "id": "e48_to_143",
             "source": "node_48",
             "target": "node_143",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e54",
-            "source": "node_48",
-            "target": "node_143",
-            "animated": true
-        },
-        {
-            "id": "e55",
+            "id": "e49_to_143",
             "source": "node_49",
             "target": "node_143",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e56",
+            "id": "e50_to_47",
             "source": "node_50",
             "target": "node_47",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e57",
-            "source": "node_51",
-            "target": "node_55",
-            "animated": true
-        },
-        {
-            "id": "e58",
-            "source": "node_51",
-            "target": "node_55",
-            "animated": true
-        },
-        {
-            "id": "e59",
+            "id": "e52_to_66",
             "source": "node_52",
             "target": "node_66",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e60",
-            "source": "node_52",
-            "target": "node_66",
-            "animated": true
-        },
-        {
-            "id": "e61",
-            "source": "node_53",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e62",
+            "id": "e54_to_119",
             "source": "node_54",
             "target": "node_119",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e63",
-            "source": "node_54",
-            "target": "node_119",
-            "animated": true
-        },
-        {
-            "id": "e64",
+            "id": "e55_to_189",
             "source": "node_55",
             "target": "node_189",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e65",
-            "source": "node_56",
-            "target": "node_59",
-            "animated": true
-        },
-        {
-            "id": "e66",
+            "id": "e57_to_191",
             "source": "node_57",
             "target": "node_191",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e67",
+            "id": "e61_to_58",
             "source": "node_61",
             "target": "node_58",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e68",
-            "source": "node_62",
-            "target": "node_63",
-            "animated": true
-        },
-        {
-            "id": "e69",
-            "source": "node_63",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e70",
+            "id": "e64_to_108",
             "source": "node_64",
             "target": "node_108",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e71",
-            "source": "node_65",
-            "target": "node_64",
-            "animated": true
-        },
-        {
-            "id": "e72",
+            "id": "e66_to_119",
             "source": "node_66",
             "target": "node_119",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e73",
-            "source": "node_67",
-            "target": "node_69",
-            "animated": true
-        },
-        {
-            "id": "e74",
-            "source": "node_67",
-            "target": "node_69",
-            "animated": true
-        },
-        {
-            "id": "e75",
-            "source": "node_68",
-            "target": "node_72",
-            "animated": true
-        },
-        {
-            "id": "e76",
-            "source": "node_69",
-            "target": "node_71",
-            "animated": true
-        },
-        {
-            "id": "e77",
-            "source": "node_69",
-            "target": "node_71",
-            "animated": true
-        },
-        {
-            "id": "e78",
-            "source": "node_70",
-            "target": "node_73",
-            "animated": true
-        },
-        {
-            "id": "e79",
-            "source": "node_70",
-            "target": "node_73",
-            "animated": true
-        },
-        {
-            "id": "e80",
-            "source": "node_71",
-            "target": "node_74",
-            "animated": true
-        },
-        {
-            "id": "e81",
-            "source": "node_72",
-            "target": "node_75",
-            "animated": true
-        },
-        {
-            "id": "e82",
-            "source": "node_73",
-            "target": "node_75",
-            "animated": true
-        },
-        {
-            "id": "e83",
-            "source": "node_74",
-            "target": "node_75",
-            "animated": true
-        },
-        {
-            "id": "e84",
-            "source": "node_75",
-            "target": "node_77",
-            "animated": true
-        },
-        {
-            "id": "e85",
-            "source": "node_75",
-            "target": "node_77",
-            "animated": true
-        },
-        {
-            "id": "e86",
-            "source": "node_76",
-            "target": "node_78",
-            "animated": true
-        },
-        {
-            "id": "e87",
-            "source": "node_76",
-            "target": "node_78",
-            "animated": true
-        },
-        {
-            "id": "e88",
-            "source": "node_77",
-            "target": "node_79",
-            "animated": true
-        },
-        {
-            "id": "e89",
-            "source": "node_78",
-            "target": "node_84",
-            "animated": true
-        },
-        {
-            "id": "e90",
+            "id": "e80_to_88",
             "source": "node_80",
             "target": "node_88",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e91",
-            "source": "node_80",
-            "target": "node_88",
-            "animated": true
-        },
-        {
-            "id": "e92",
+            "id": "e81_to_86",
             "source": "node_81",
             "target": "node_86",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e93",
-            "source": "node_81",
-            "target": "node_86",
-            "animated": true
-        },
-        {
-            "id": "e94",
-            "source": "node_82",
-            "target": "node_86",
-            "animated": true
-        },
-        {
-            "id": "e95",
-            "source": "node_82",
-            "target": "node_86",
-            "animated": true
-        },
-        {
-            "id": "e96",
-            "source": "node_83",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e97",
-            "source": "node_83",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e98",
-            "source": "node_84",
-            "target": "node_85",
-            "animated": true
-        },
-        {
-            "id": "e99",
-            "source": "node_85",
-            "target": "node_92",
-            "animated": true
-        },
-        {
-            "id": "e100",
+            "id": "e86_to_160",
             "source": "node_86",
             "target": "node_160",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e101",
-            "source": "node_87",
-            "target": "node_92",
-            "animated": true
-        },
-        {
-            "id": "e102",
-            "source": "node_87",
-            "target": "node_92",
-            "animated": true
-        },
-        {
-            "id": "e103",
-            "source": "node_88",
-            "target": "node_101",
-            "animated": true
-        },
-        {
-            "id": "e104",
-            "source": "node_88",
-            "target": "node_101",
-            "animated": true
-        },
-        {
-            "id": "e105",
-            "source": "node_89",
-            "target": "node_101",
-            "animated": true
-        },
-        {
-            "id": "e106",
-            "source": "node_89",
-            "target": "node_101",
-            "animated": true
-        },
-        {
-            "id": "e107",
+            "id": "e90_to_161",
             "source": "node_90",
             "target": "node_161",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e108",
-            "source": "node_90",
-            "target": "node_161",
-            "animated": true
-        },
-        {
-            "id": "e109",
-            "source": "node_91",
-            "target": "node_93",
-            "animated": true
-        },
-        {
-            "id": "e110",
-            "source": "node_93",
-            "target": "node_100",
-            "animated": true
-        },
-        {
-            "id": "e111",
+            "id": "e94_to_64",
             "source": "node_94",
             "target": "node_64",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e112",
-            "source": "node_95",
-            "target": "node_94",
-            "animated": true
-        },
-        {
-            "id": "e113",
-            "source": "node_96",
-            "target": "node_98",
-            "animated": true
-        },
-        {
-            "id": "e114",
+            "id": "e97_to_102",
             "source": "node_97",
             "target": "node_102",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e115",
-            "source": "node_98",
-            "target": "node_97",
-            "animated": true
-        },
-        {
-            "id": "e116",
+            "id": "e99_to_80",
             "source": "node_99",
             "target": "node_80",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e117",
-            "source": "node_100",
-            "target": "node_99",
-            "animated": true
-        },
-        {
-            "id": "e118",
+            "id": "e104_to_95",
             "source": "node_104",
             "target": "node_95",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e119",
+            "id": "e105_to_64",
             "source": "node_105",
             "target": "node_64",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e120",
-            "source": "node_106",
-            "target": "node_105",
-            "animated": true
-        },
-        {
-            "id": "e121",
-            "source": "node_106",
-            "target": "node_105",
-            "animated": true
-        },
-        {
-            "id": "e122",
-            "source": "node_107",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e123",
-            "source": "node_107",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e124",
+            "id": "e108_to_110",
             "source": "node_108",
             "target": "node_110",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e125",
+            "id": "e109_to_165",
             "source": "node_109",
             "target": "node_165",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e126",
+            "id": "e110_to_165",
             "source": "node_110",
             "target": "node_165",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e127",
-            "source": "node_110",
-            "target": "node_165",
-            "animated": true
-        },
-        {
-            "id": "e128",
-            "source": "node_111",
-            "target": "node_112",
-            "animated": true
-        },
-        {
-            "id": "e129",
+            "id": "e112_to_165",
             "source": "node_112",
             "target": "node_165",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e130",
+            "id": "e113_to_166",
             "source": "node_113",
             "target": "node_166",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e131",
-            "source": "node_113",
-            "target": "node_166",
-            "animated": true
-        },
-        {
-            "id": "e132",
-            "source": "node_114",
-            "target": "node_121",
-            "animated": true
-        },
-        {
-            "id": "e133",
-            "source": "node_114",
-            "target": "node_121",
-            "animated": true
-        },
-        {
-            "id": "e134",
+            "id": "e116_to_206",
             "source": "node_116",
             "target": "node_206",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e135",
+            "id": "e117_to_9",
             "source": "node_117",
             "target": "node_9",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e136",
+            "id": "e118_to_29",
             "source": "node_118",
             "target": "node_29",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e137",
+            "id": "e119_to_56",
             "source": "node_119",
             "target": "node_56",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e138",
+            "id": "e120_to_42",
             "source": "node_120",
             "target": "node_42",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e139",
+            "id": "e121_to_205",
             "source": "node_121",
             "target": "node_205",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e140",
+            "id": "e122_to_129",
             "source": "node_122",
             "target": "node_129",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e141",
-            "source": "node_123",
-            "target": "node_126",
-            "animated": true
-        },
-        {
-            "id": "e142",
+            "id": "e124_to_40",
             "source": "node_124",
             "target": "node_40",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e143",
-            "source": "node_124",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e144",
-            "source": "node_125",
-            "target": "node_128",
-            "animated": true
-        },
-        {
-            "id": "e145",
-            "source": "node_125",
-            "target": "node_128",
-            "animated": true
-        },
-        {
-            "id": "e146",
-            "source": "node_126",
-            "target": "node_122",
-            "animated": true
-        },
-        {
-            "id": "e147",
-            "source": "node_127",
-            "target": "node_124",
-            "animated": true
-        },
-        {
-            "id": "e148",
-            "source": "node_128",
-            "target": "node_129",
-            "animated": true
-        },
-        {
-            "id": "e149",
+            "id": "e129_to_188",
             "source": "node_129",
             "target": "node_188",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e150",
+            "id": "e130_to_32",
             "source": "node_130",
             "target": "node_32",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e151",
-            "source": "node_131",
-            "target": "node_130",
-            "animated": true
-        },
-        {
-            "id": "e152",
+            "id": "e132_to_185",
             "source": "node_132",
             "target": "node_185",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e153",
-            "source": "node_133",
-            "target": "node_132",
-            "animated": true
-        },
-        {
-            "id": "e154",
-            "source": "node_134",
-            "target": "node_136",
-            "animated": true
-        },
-        {
-            "id": "e155",
-            "source": "node_134",
-            "target": "node_136",
-            "animated": true
-        },
-        {
-            "id": "e156",
-            "source": "node_135",
-            "target": "node_137",
-            "animated": true
-        },
-        {
-            "id": "e157",
-            "source": "node_135",
-            "target": "node_137",
-            "animated": true
-        },
-        {
-            "id": "e158",
+            "id": "e136_to_133",
             "source": "node_136",
             "target": "node_133",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e159",
-            "source": "node_137",
-            "target": "node_132",
-            "animated": true
-        },
-        {
-            "id": "e160",
+            "id": "e138_to_134",
             "source": "node_138",
             "target": "node_134",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e161",
+            "id": "e139_to_4",
             "source": "node_139",
             "target": "node_4",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e162",
-            "source": "node_139",
-            "target": "node_4",
-            "animated": true
-        },
-        {
-            "id": "e163",
-            "source": "node_140",
-            "target": "node_141",
-            "animated": true
-        },
-        {
-            "id": "e164",
+            "id": "e141_to_176",
             "source": "node_141",
             "target": "node_176",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e165",
+            "id": "e142_to_42",
             "source": "node_142",
             "target": "node_42",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e166",
-            "source": "node_143",
-            "target": "node_144",
-            "animated": true
-        },
-        {
-            "id": "e167",
-            "source": "node_144",
-            "target": "node_145",
-            "animated": true
-        },
-        {
-            "id": "e168",
-            "source": "node_145",
-            "target": "node_146",
-            "animated": true
-        },
-        {
-            "id": "e169",
-            "source": "node_146",
-            "target": "node_147",
-            "animated": true
-        },
-        {
-            "id": "e170",
-            "source": "node_147",
-            "target": "node_148",
-            "animated": true
-        },
-        {
-            "id": "e171",
-            "source": "node_148",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e172",
-            "source": "node_148",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e173",
-            "source": "node_149",
-            "target": "node_151",
-            "animated": true
-        },
-        {
-            "id": "e174",
-            "source": "node_149",
-            "target": "node_151",
-            "animated": true
-        },
-        {
-            "id": "e175",
-            "source": "node_151",
-            "target": "node_152",
-            "animated": true
-        },
-        {
-            "id": "e176",
-            "source": "node_152",
-            "target": "node_153",
-            "animated": true
-        },
-        {
-            "id": "e177",
-            "source": "node_153",
-            "target": "node_155",
-            "animated": true
-        },
-        {
-            "id": "e178",
+            "id": "e155_to_157",
             "source": "node_155",
             "target": "node_157",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e179",
-            "source": "node_155",
-            "target": "node_157",
-            "animated": true
-        },
-        {
-            "id": "e180",
+            "id": "e156_to_154",
             "source": "node_156",
             "target": "node_154",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e181",
-            "source": "node_156",
-            "target": "node_154",
-            "animated": true
-        },
-        {
-            "id": "e182",
-            "source": "node_157",
-            "target": "node_154",
-            "animated": true
-        },
-        {
-            "id": "e183",
-            "source": "node_157",
-            "target": "node_154",
-            "animated": true
-        },
-        {
-            "id": "e184",
-            "source": "node_158",
-            "target": "node_159",
-            "animated": true
-        },
-        {
-            "id": "e185",
+            "id": "e159_to_69",
             "source": "node_159",
             "target": "node_69",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e186",
+            "id": "e160_to_92",
             "source": "node_160",
             "target": "node_92",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e187",
-            "source": "node_161",
-            "target": "node_162",
-            "animated": true
-        },
-        {
-            "id": "e188",
-            "source": "node_162",
-            "target": "node_164",
-            "animated": true
-        },
-        {
-            "id": "e189",
-            "source": "node_162",
-            "target": "node_164",
-            "animated": true
-        },
-        {
-            "id": "e190",
+            "id": "e163_to_93",
             "source": "node_163",
             "target": "node_93",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e191",
-            "source": "node_163",
-            "target": "node_93",
-            "animated": true
-        },
-        {
-            "id": "e192",
+            "id": "e164_to_96",
             "source": "node_164",
             "target": "node_96",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e193",
+            "id": "e165_to_113",
             "source": "node_165",
             "target": "node_113",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e194",
-            "source": "node_165",
-            "target": "node_113",
-            "animated": true
-        },
-        {
-            "id": "e195",
+            "id": "e167_to_31",
             "source": "node_167",
             "target": "node_31",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e196",
+            "id": "e171_to_117",
             "source": "node_171",
             "target": "node_117",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e197",
-            "source": "node_181",
-            "target": "node_182",
-            "animated": true
-        },
-        {
-            "id": "e198",
+            "id": "e182_to_42",
             "source": "node_182",
             "target": "node_42",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e199",
+            "id": "e184_to_173",
             "source": "node_184",
             "target": "node_173",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e200",
-            "source": "node_185",
-            "target": "node_186",
-            "animated": true
-        },
-        {
-            "id": "e201",
+            "id": "e186_to_131",
             "source": "node_186",
             "target": "node_131",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e202",
+            "id": "e187_to_127",
             "source": "node_187",
             "target": "node_127",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e203",
-            "source": "node_188",
-            "target": "node_187",
-            "animated": true
-        },
-        {
-            "id": "e204",
-            "source": "node_189",
-            "target": "node_190",
-            "animated": true
-        },
-        {
-            "id": "e205",
-            "source": "node_193",
-            "target": "node_195",
-            "animated": true
-        },
-        {
-            "id": "e206",
-            "source": "node_194",
-            "target": "node_197",
-            "animated": true
-        },
-        {
-            "id": "e207",
+            "id": "e195_to_65",
             "source": "node_195",
             "target": "node_65",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e208",
-            "source": "node_195",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e209",
-            "source": "node_196",
-            "target": "node_31",
-            "animated": true
-        },
-        {
-            "id": "e210",
-            "source": "node_196",
-            "target": "node_31",
-            "animated": true
-        },
-        {
-            "id": "e211",
-            "source": "node_197",
-            "target": "node_198",
-            "animated": true
-        },
-        {
-            "id": "e212",
+            "id": "e198_to_65",
             "source": "node_198",
             "target": "node_65",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e213",
-            "source": "node_198",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e214",
-            "source": "node_199",
-            "target": "node_201",
-            "animated": true
-        },
-        {
-            "id": "e215",
+            "id": "e203_to_200",
             "source": "node_203",
             "target": "node_200",
-            "animated": true
+            "type": "step"
         }
     ]
 }

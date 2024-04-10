@@ -1,1060 +1,244 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9604430,\n\nNarrator: The soldier stared at you as you pr...\nen\n\n\nThe soldier stared at you as you pressed the cold steel to the side of your head.\\n\\nYour hand began to tremble.\\n\\nYou..."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9604436,\n\nNarrator: The soldier stared at you as you pr...\nMenu Text en\n\n\n1958|Holsord"
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9604546,\n\nPlayer: ...pulled the trigger.\nen\n\n\n...pulled the trigger."
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9604648,\n\nPlayer: ...put your gun down.\nen\n\n\n...put your gun down."
-            },
-            "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605306,\n\nNarrator: You pointed the gun at the soldier....\nen\n\n\nYou pointed the gun at the soldier. A young man, no more than Franc's age, unfairly asked to die for his country.\\n\\nTwo more men burst in and started yelling at you to lower your weapon in broken Sordish.\\n\\nYou..."
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605312,\n\nNarrator: You pointed the gun at the soldier....\nMenu Text en\n\n\n1958|Holsord"
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605422,\n\nNarrator: You put your gun down on the table,...\nen\n\n\nYou put your gun down on the table, begging for your life as images of your family flashed before your eyes.\\n\\nThe soldiers pulled you up roughly by the elbows, laughing. One of them spat in your face and called you a coward.\\n\\nYou..."
-            },
-            "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605428,\n\nNarrator: You put your gun down on the table,...\nMenu Text en\n\n\n1958|Holsord"
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605546,\n\nPlayer: ...pulled the trigger.\nen\n\n\n...pulled the trigger."
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605648,\n\nPlayer: ...thought there might still be a w...\nen\n\n\n...thought there might still be a way out of this."
-            },
-            "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605750,\n\nPlayer: ...vowed to yourself that they woul...\nen\n\n\n...vowed to yourself that they would pay."
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
             "id": "node_11",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9605852,\n\nPlayer: ...closed your eyes and accepted wh...\nen\n\n\n...closed your eyes and accepted whatever might happen."
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9605954,\n\nPlayer: ...punched him in the face.\nen\n\n\n...punched him in the face."
+                "label": "Narrator\n\nYou pointed the gun at the soldier. A young man, no more than Franc's age, unfairly asked to die for his country.\\n\\nTwo more men burst in and started yelling at you to lower your weapon in broken Sordish.\\n\\nYou..."
             },
             "position": {
                 "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9606056,\n\nNarrator: The soldier reeled back, then re-tr...\nen\n\n\nThe soldier reeled back, then re-trained his gun on you, sneering.\\n\\nYou prepared for the end.\\n\\nAnother one of the men approached you and hit you with the headstock of his rifle."
-            },
-            "position": {
-                "x": 250,
-                "y": 600
+                "y": 0
             }
         },
         {
             "id": "node_14",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9606158,\n\nNarrator: They laughed after detaining you. T...\nen\n\n\nThey laughed after detaining you. They started taking photos with you.\\n\\nThey cheerfully carried you to a personnel truck while singing Rumburgian victory songs."
+                "label": "Player\n\n...thought there might still be a way out of this."
             },
             "position": {
-                "x": 500,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9606260,\n\nNarrator: As you hesitated, the soldier snatc...\nen\n\n\nAs you hesitated, the soldier snatched the gun out of your hand. He and his men moved in on you and began to beat you mercilessly, until your face was bleeding and your eyes had swollen shut.\\n\\nThey cheerfully carried you to a personnel truck while singing Rumburgian victory songs."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
+                "x": 270,
+                "y": 0
             }
         },
         {
             "id": "node_16",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9606362,\n\nNarrator: Your life flashed before your eyes.\nen\n\n\nYour life flashed before your eyes.\\n\\nYou thought of happy times, sad times, all the decisions you had made that led you to this very moment."
+                "label": "Player\n\n...closed your eyes and accepted whatever might happen."
             },
             "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9606476,\n\nPlayer: And so Anton Rayne was no more.\nen\n\n\nAnd so Anton Rayne was no more."
-            },
-            "position": {
-                "x": 500,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_18",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9606584,\n\nPlayer: Your journey to the enemy territory...\nen\n\n\nYour journey to the enemy territory began."
-            },
-            "position": {
-                "x": 0,
-                "y": 900
+                "x": 540,
+                "y": 0
             }
         },
         {
             "id": "node_19",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9606686,\n\nNarrator: The young soldier collapsed motionl...\nen\n\n\nThe young soldier collapsed motionless. \\n\\nSwearing, his reinforcements aimed their rifles at you. You managed to kill another one in the melee.\\n\\nWhen the gunfire ended, you looked down to your body."
+                "label": "Narrator\n\nThey laughed after detaining you. They started taking photos with you.\\n\\nThey cheerfully carried you to a personnel truck while singing Rumburgian victory songs."
             },
             "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9606794,\n\nPlayer: Blood was everywhere.\nen\n\n\nBlood was everywhere."
-            },
-            "position": {
-                "x": 500,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9606896,\n\nPlayer: ...prayed the soldiers would spare...\nen\n\n\n...prayed the soldiers would spare them."
-            },
-            "position": {
-                "x": 0,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_22",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9606998,\n\nPlayer: ...told them it was all going to be...\nen\n\n\n...told them it was all going to be okay."
-            },
-            "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9607100,\n\nPlayer: ...said you were sorry for everythi...\nen\n\n\n...said you were sorry for everything."
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
+                "x": 2700,
+                "y": 200
             }
         },
         {
             "id": "node_24",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9607202,\n\nNarrator: Your voice only came out as a quiet...\nen\n\n\nYour voice only came out as a quiet whisper. Yet you knew that they had heard what you said.\\n\\nYou started to feel so tired that you couldn't keep your eyes open. You decided to rest for just a moment.\\n\\nAfter taking a deep breath, you closed your eyes."
+                "label": "Narrator\n\nThe young soldier collapsed motionless. \\n\\nSwearing, his reinforcements aimed their rifles at you. You managed to kill another one in the melee.\\n\\nWhen the gunfire ended, you looked down to your body."
             },
             "position": {
-                "x": 0,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9607304,\n\nNarrator: You started to feel so tired that y...\nen\n\n\nYou started to feel so tired that you couldn't keep your eyes open. You decided to rest for just a moment.\\n\\nAfter taking a deep breath, you closed your eyes."
-            },
-            "position": {
-                "x": 250,
-                "y": 1200
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_26",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9607406,\n\nPlayer: ...wished that things had gone diff...\nen\n\n\n...wished that things had gone differently."
+                "label": "Player\n\n...prayed the soldiers would spare them."
             },
             "position": {
-                "x": 500,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9607508,\n\nPlayer: ...felt no regrets.\nen\n\n\n...felt no regrets."
-            },
-            "position": {
-                "x": 0,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9607610,\n\nPlayer: ...cursed your luck.\nen\n\n\n...cursed your luck."
-            },
-            "position": {
-                "x": 250,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9607712,\n\nNarrator: You started to feel so tired that y...\nen\n\n\nYou started to feel so tired that you couldn't keep your eyes open. You decided to rest for just a moment.\\n\\nAfter taking a deep breath, you closed your eyes."
-            },
-            "position": {
-                "x": 500,
-                "y": 1350
+                "x": 1350,
+                "y": 0
             }
         },
         {
             "id": "node_30",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9607814,\n\nPlayer: ...said you were sorry for everythi...\nen\n\n\n...said you were sorry for everything."
+                "label": "Narrator\n\nYou started to feel so tired that you couldn't keep your eyes open. You decided to rest for just a moment.\\n\\nAfter taking a deep breath, you closed your eyes."
             },
             "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9607916,\n\nPlayer: ...told your family it was all goin...\nen\n\n\n...told your family it was all going to be okay."
-            },
-            "position": {
-                "x": 250,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9608018,\n\nPlayer: ...begged the soldiers to leave the...\nen\n\n\n...begged the soldiers to leave them alone."
-            },
-            "position": {
-                "x": 500,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9608398,\n\nNarrator: You put your gun down on the table,...\nen\n\n\nYou put your gun down on the table, begging for the lives of your family.\\n\\nThe soldiers pulled you up roughly by the elbows, laughing. One of them spat in your face and called you a coward.\\n\\nYou..."
-            },
-            "position": {
-                "x": 0,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_34",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9608404,\n\nNarrator: You put your gun down on the table,...\nMenu Text en\n\n\n1958|Holsord"
-            },
-            "position": {
-                "x": 250,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_35",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9608522,\n\nPlayer: You blacked out.\nen\n\n\nYou blacked out."
-            },
-            "position": {
-                "x": 500,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9608902,\n\nNarrator: They laughed after detaining you. T...\nen\n\n\nThey laughed after detaining you. They started taking photos with you.\\n\\nOne of them grabbed the arms of your family. Their screams were heartbreaking.\\n\\nYou..."
-            },
-            "position": {
-                "x": 0,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9609020,\n\nNarrator: A soldier approached and hit you wi...\nen\n\n\nA soldier approached and hit you with the headstock of his rifle."
-            },
-            "position": {
-                "x": 250,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_38",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9609400,\n\nNarrator: The soldier reeled back, then re-tr...\nen\n\n\nThe soldier reeled back, then re-trained his gun on you, sneering.\\n\\nMonica cried out your name. You prepared for the end.\\n\\nAnother one of the men approached you and hit you with the headstock of his rifle."
-            },
-            "position": {
-                "x": 500,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_39",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9609502,\n\nNarrator: One day you were woken up with a sp...\nen\n\n\nOne day you were woken up with a splash of icy water.\\n\\nThe warden told you that the Queen would pay you a visit. You prepared a makeshift knife and hid it well.\\n\\nShe entered the cell. You..."
-            },
-            "position": {
-                "x": 0,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_40",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9609612,\n\nPlayer: ...begged for mercy.\nen\n\n\n...begged for mercy."
-            },
-            "position": {
-                "x": 250,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9609714,\n\nPlayer: ...tried to stab her.\nen\n\n\n...tried to stab her."
-            },
-            "position": {
-                "x": 500,
-                "y": 1950
+                "x": 1620,
+                "y": 0
             }
         },
         {
             "id": "node_42",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9609816,\n\nNarrator: The prison guards quickly wrenched...\nen\n\n\nThe prison guards quickly wrenched the knife out of your hands.\\n\\nQueen Beatrice Livingston demanded your immediate execution. \\n\\nYou were forcibly brought before an electric chair."
+                "label": "Player\n\nYou blacked out."
             },
             "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9609918,\n\nPlayer: They strapped you to the seat.\nen\n\n\nThey strapped you to the seat."
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9610020,\n\nNarrator: The metal cap was put on your head...\nen\n\n\nThe metal cap was put on your head without wetting the sponge.\\n\\nThe Queen pulled the lever."
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9610122,\n\nNarrator: Queen Beatrice smiled and gestured...\nen\n\n\nQueen Beatrice smiled and gestured down towards her shoes.\\n\\nYou..."
-            },
-            "position": {
-                "x": 0,
-                "y": 2250
+                "x": 1890,
+                "y": 0
             }
         },
         {
             "id": "node_46",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9610232,\n\nPlayer: ...told her you'd rather die.\nen\n\n\n...told her you'd rather die."
+                "label": "Narrator\n\nThey laughed after detaining you. They started taking photos with you.\\n\\nOne of them grabbed the arms of your family. Their screams were heartbreaking.\\n\\nYou..."
             },
             "position": {
-                "x": 250,
-                "y": 2250
+                "x": 2160,
+                "y": 0
             }
         },
         {
             "id": "node_47",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9610334,\n\nPlayer: ...knelt down and kissed her feet.\nen\n\n\n...knelt down and kissed her feet."
+                "label": "Narrator\n\nA soldier approached and hit you with the headstock of his rifle."
             },
             "position": {
-                "x": 500,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_48",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9610436,\n\nNarrator: With a haughty laugh, she left your...\nen\n\n\nWith a haughty laugh, she left your cell.\\n\\nYou never saw her again."
-            },
-            "position": {
-                "x": 0,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9610538,\n\nNarrator: She laughed at your humiliation and...\nen\n\n\nShe laughed at your humiliation and left the cell.\\n\\nYou never saw her again."
-            },
-            "position": {
-                "x": 250,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9610640,\n\nNarrator: Many years passed, with every day e...\nen\n\n\nMany years passed, with every day exactly like the one before it. You lived in complete isolation.\\n\\nYou knew nothing about your family, Sordland, or the state of the world outside your four walls."
-            },
-            "position": {
-                "x": 500,
-                "y": 2400
+                "x": 2430,
+                "y": 0
             }
         },
         {
             "id": "node_51",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9610646,\n\nNarrator: Many years passed, with every day e...\nMenu Text en\n\n\n1960|Rumburg"
+                "label": "Narrator\n\nThe soldier reeled back, then re-trained his gun on you, sneering.\\n\\nMonica cried out your name. You prepared for the end.\\n\\nAnother one of the men approached you and hit you with the headstock of his rifle."
             },
             "position": {
-                "x": 0,
-                "y": 2550
+                "x": 2700,
+                "y": 0
             }
         },
         {
-            "id": "node_52",
-            "type": "default",
+            "id": "node_67",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9610748,\n\nPlayer: Time flies in jail.\nen\n\n\nTime flies in jail."
+                "label": "Narrator\n\nIn Rumburg, they locked you in a prison cell.\\n\\nHours turned into days and days turned into weeks. Guards and soldiers tormented you from dusk until dawn, scarring your mind and body long after you'd told them everything you knew about Sordland and your presidency.\\n\\nYou asked about your family, but none of your questions were answered."
             },
             "position": {
-                "x": 250,
-                "y": 2550
+                "x": 2970,
+                "y": 0
             }
         },
         {
-            "id": "node_53",
-            "type": "default",
+            "id": "node_86",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9610850,\n\nPlayer: You had grown old.\nen\n\n\nYou had grown old."
+                "label": "Narrator\n\nYou looked at the other side of the room. Monica, Deana and Franc were yelling and reaching out to you.\\n\\nSoldiers grabbed their arms. Their screams were heartbreaking.\\n\\nAs you were fading away, you..."
             },
             "position": {
-                "x": 500,
-                "y": 2550
+                "x": 3240,
+                "y": 0
             }
         },
         {
-            "id": "node_54",
-            "type": "default",
+            "id": "node_87",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 9610952,\n\nNarrator: You spent the rest of your years im...\nen\n\n\nYou spent the rest of your years imprisoned at the Tower of Thornbourg until, finally, your body gave in.\\n\\nWith a deep sigh, you closed your eyes for one last time."
+                "label": "Narrator\n\nYou looked at the other side of the room. Monica and Deana were yelling and reaching out to you.\\n\\nSoldiers grabbed their arms. Their screams were heartbreaking.\\n\\nAs you were fading away, you..."
             },
             "position": {
-                "x": 0,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9610958,\n\nNarrator: You spent the rest of your years im...\nMenu Text en\n\n\n1974|Rumburg"
-            },
-            "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9611060,\n\nNarrator: In Rumburg, they locked you in a pr...\nen\n\n\nIn Rumburg, they locked you in a prison cell.\\n\\nHours turned into days and days turned into weeks. Guards and soldiers tormented you from dusk until dawn, scarring your mind and body long after you'd told them everything you knew about Sordland and your presidency.\\n\\nYou asked about your family, but none of your questions were answered."
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9611162,\n\nPlayer: When would it end?\nen\n\n\nWhen would it end?"
-            },
-            "position": {
-                "x": 0,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9611264,\n\nNarrator: By the time you came to yourself, y...\nen\n\n\nBy the time you came to yourself, you were in a Rumburg prison cell.\\n\\nHours turned into days and days turned into weeks. Guards and soldiers tormented you from dusk until dawn, scarring your mind and body long after you'd told them everything you knew about Sordland and your presidency.\\n\\nYou asked about your family, but none of your questions were answered."
-            },
-            "position": {
-                "x": 250,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9612756,\n\nNarrator: You reached into your pocket and pu...\nen\n\n\nYou reached into your pocket and pulled out a crumpled family photo. You, Monica, Franc and Deana, posing proudly on the day of your inauguration.\\n\\nYour bloody fingers stained the print.\\n\\nYou..."
-            },
-            "position": {
-                "x": 500,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_60",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9612874,\n\nNarrator: You looked at the other side of the...\nen\n\n\nYou looked at the other side of the room. Monica, Deana and Franc were yelling and reaching out to you.\\n\\nSoldiers grabbed their arms. Their screams were heartbreaking.\\n\\nAs you were fading away, you..."
-            },
-            "position": {
-                "x": 0,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_61",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 9612992,\n\nNarrator: You looked at the other side of the...\nen\n\n\nYou looked at the other side of the room. Monica and Deana were yelling and reaching out to you.\\n\\nSoldiers grabbed their arms. Their screams were heartbreaking.\\n\\nAs you were fading away, you..."
-            },
-            "position": {
-                "x": 250,
-                "y": 3000
+                "x": 3510,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
-            "source": "node_1",
-            "target": "node_6",
-            "animated": true
-        },
-        {
-            "id": "e1",
-            "source": "node_1",
-            "target": "node_6",
-            "animated": true
-        },
-        {
-            "id": "e2",
-            "source": "node_3",
-            "target": "node_15",
-            "animated": true
-        },
-        {
-            "id": "e3",
-            "source": "node_4",
-            "target": "node_25",
-            "animated": true
-        },
-        {
-            "id": "e4",
+            "id": "e11_to_39",
             "source": "node_11",
             "target": "node_39",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e5",
-            "source": "node_11",
-            "target": "node_39",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_12",
-            "target": "node_5",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_12",
-            "target": "node_5",
-            "animated": true
-        },
-        {
-            "id": "e8",
-            "source": "node_13",
-            "target": "node_18",
-            "animated": true
-        },
-        {
-            "id": "e9",
+            "id": "e14_to_22",
             "source": "node_14",
             "target": "node_22",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e10",
-            "source": "node_15",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e11",
+            "id": "e16_to_44",
             "source": "node_16",
             "target": "node_44",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e12",
-            "source": "node_17",
-            "target": "node_44",
-            "animated": true
-        },
-        {
-            "id": "e13",
-            "source": "node_18",
-            "target": "node_49",
-            "animated": true
-        },
-        {
-            "id": "e14",
+            "id": "e19_to_43",
             "source": "node_19",
             "target": "node_43",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e15",
-            "source": "node_20",
-            "target": "node_24",
-            "animated": true
-        },
-        {
-            "id": "e16",
-            "source": "node_21",
-            "target": "node_24",
-            "animated": true
-        },
-        {
-            "id": "e17",
-            "source": "node_22",
-            "target": "node_23",
-            "animated": true
-        },
-        {
-            "id": "e18",
-            "source": "node_23",
-            "target": "node_2",
-            "animated": true
-        },
-        {
-            "id": "e19",
+            "id": "e24_to_68",
             "source": "node_24",
             "target": "node_68",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e20",
-            "source": "node_25",
-            "target": "node_26",
-            "animated": true
-        },
-        {
-            "id": "e21",
+            "id": "e26_to_74",
             "source": "node_26",
             "target": "node_74",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e22",
-            "source": "node_27",
-            "target": "node_31",
-            "animated": true
-        },
-        {
-            "id": "e23",
-            "source": "node_28",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e24",
-            "source": "node_29",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e25",
+            "id": "e30_to_23",
             "source": "node_30",
             "target": "node_23",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e26",
-            "source": "node_31",
-            "target": "node_23",
-            "animated": true
-        },
-        {
-            "id": "e27",
-            "source": "node_32",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e28",
-            "source": "node_33",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e29",
-            "source": "node_34",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e30",
-            "source": "node_35",
-            "target": "node_23",
-            "animated": true
-        },
-        {
-            "id": "e31",
-            "source": "node_36",
-            "target": "node_48",
-            "animated": true
-        },
-        {
-            "id": "e32",
-            "source": "node_37",
-            "target": "node_48",
-            "animated": true
-        },
-        {
-            "id": "e33",
-            "source": "node_41",
-            "target": "node_13",
-            "animated": true
-        },
-        {
-            "id": "e34",
-            "source": "node_41",
-            "target": "node_13",
-            "animated": true
-        },
-        {
-            "id": "e35",
+            "id": "e42_to_18",
             "source": "node_42",
             "target": "node_18",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e36",
+            "id": "e46_to_20",
             "source": "node_46",
             "target": "node_20",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e37",
+            "id": "e47_to_36",
             "source": "node_47",
             "target": "node_36",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e38",
+            "id": "e51_to_19",
             "source": "node_51",
             "target": "node_19",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e39",
-            "source": "node_52",
-            "target": "node_43",
-            "animated": true
-        },
-        {
-            "id": "e40",
-            "source": "node_53",
-            "target": "node_54",
-            "animated": true
-        },
-        {
-            "id": "e41",
-            "source": "node_54",
-            "target": "node_59",
-            "animated": true
-        },
-        {
-            "id": "e42",
-            "source": "node_55",
-            "target": "node_56",
-            "animated": true
-        },
-        {
-            "id": "e43",
-            "source": "node_56",
-            "target": "node_57",
-            "animated": true
-        },
-        {
-            "id": "e44",
-            "source": "node_57",
-            "target": "node_58",
-            "animated": true
-        },
-        {
-            "id": "e45",
-            "source": "node_58",
-            "target": "node_23",
-            "animated": true
-        },
-        {
-            "id": "e46",
-            "source": "node_59",
-            "target": "node_61",
-            "animated": true
-        },
-        {
-            "id": "e47",
-            "source": "node_60",
-            "target": "node_62",
-            "animated": true
-        },
-        {
-            "id": "e48",
-            "source": "node_61",
-            "target": "node_63",
-            "animated": true
-        },
-        {
-            "id": "e49",
-            "source": "node_62",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e50",
-            "source": "node_63",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e51",
-            "source": "node_63",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e52",
-            "source": "node_64",
-            "target": "node_66",
-            "animated": true
-        },
-        {
-            "id": "e53",
-            "source": "node_65",
-            "target": "node_64",
-            "animated": true
-        },
-        {
-            "id": "e54",
-            "source": "node_66",
-            "target": "node_67",
-            "animated": true
-        },
-        {
-            "id": "e55",
-            "source": "node_66",
-            "target": "node_67",
-            "animated": true
-        },
-        {
-            "id": "e56",
+            "id": "e67_to_23",
             "source": "node_67",
             "target": "node_23",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e57",
-            "source": "node_68",
-            "target": "node_69",
-            "animated": true
-        },
-        {
-            "id": "e58",
-            "source": "node_69",
-            "target": "node_53",
-            "animated": true
-        },
-        {
-            "id": "e59",
-            "source": "node_85",
-            "target": "node_88",
-            "animated": true
-        },
-        {
-            "id": "e60",
+            "id": "e86_to_34",
             "source": "node_86",
             "target": "node_34",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e61",
+            "id": "e87_to_29",
             "source": "node_87",
             "target": "node_29",
-            "animated": true
+            "type": "step"
         }
     ]
 }

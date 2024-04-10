@@ -1,2097 +1,533 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4905375,\n\nPlayer: Our priority will be the investiga...\nen\n\n\n\"Our priority will be the investigation of the Court. We'll start working on a defence.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4905381,\n\nPlayer: Our priority will be the investiga...\nMenu Text en\n\n\n\"Our priority will be the investigation of the Court. We'll start working on a defence.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4906039,\n\nPlayer: We proved our capabilities already...\nen\n\n\n\"We proved our capabilities already. Now we are ready to enact more reforms.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4906045,\n\nPlayer: We proved our capabilities already...\nMenu Text en\n\n\n\"We proved our capabilities already. Now we are ready to enact more reforms.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4906147,\n\nPlayer: My next plan is to use my emergenc...\nen\n\n\n\"My next plan is to use my emergency powers to enact major reforms.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4906153,\n\nPlayer: My next plan is to use my emergenc...\nMenu Text en\n\n\n\"My next plan is to use my emergency powers to enact major reforms.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907081,\n\nPlayer: We must also do something about th...\nen\n\n\n\"We must also do something about the BFF.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907087,\n\nPlayer: We must also do something about th...\nMenu Text en\n\n\n\"We must also do something about the BFF.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907189,\n\nPlayer: Next, I will start campaigning for...\nen\n\n\n\"Next, I will start campaigning for a transition to parliamentary democracy.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907195,\n\nPlayer: Next, I will start campaigning for...\nMenu Text en\n\n\n\"Next, I will start campaigning for a transition to parliamentary democracy.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907297,\n\nPlayer: Soon I'll be enacting major reform...\nen\n\n\n\"Soon I'll be enacting major reforms with my new powers.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
             "id": "node_11",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4907303,\n\nPlayer: Soon I'll be enacting major reform...\nMenu Text en\n\n\n\"Soon I'll be enacting major reforms with my new powers.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907397,\n\nConstitutionChanged\nTitle en\n\n\nConstitutionChanged"
+                "label": "Player\n\n\"Our priority will be the investigation of the Court. We'll start working on a defence.\""
             },
             "position": {
                 "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907491,\n\nConstitutionFailed\nTitle en\n\n\nConstitutionFailed"
-            },
-            "position": {
-                "x": 250,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907585,\n\nEmergencyContinues\nTitle en\n\n\nEmergencyContinues"
-            },
-            "position": {
-                "x": 500,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907679,\n\nImpeachmentPossibility\nTitle en\n\n\nImpeachmentPossibility"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907773,\n\nEmergencyStopped\nTitle en\n\n\nEmergencyStopped"
-            },
-            "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907867,\n\nPlayer: We will start campaigning for bigg...\nen\n\n\n\"We will start campaigning for bigger changes.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 750
+                "y": 0
             }
         },
         {
             "id": "node_18",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4907873,\n\nPlayer: We will start campaigning for bigg...\nMenu Text en\n\n\n\"We will start campaigning for bigger changes.\""
+                "label": "Player\n\n\"We proved our capabilities already. Now we are ready to enact more reforms.\""
             },
             "position": {
-                "x": 0,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4907975,\n\nNarrator: Lucian nodded in agreement. Ciara g...\nen\n\n\nLucian nodded in agreement. Ciara gave me a mocking stare."
-            },
-            "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908077,\n\nNarrator: Lileas spread out her arms and look...\nen\n\n\nLileas spread out her arms and looked at me in disbelief."
-            },
-            "position": {
-                "x": 500,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908179,\n\nNarrator: Nia narrowed her eyes skeptically.\nen\n\n\nNia narrowed her eyes skeptically."
-            },
-            "position": {
-                "x": 0,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_22",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908289,\n\nNarrator: The cabinet looked at me with curio...\nen\n\n\nThe cabinet looked at me with curiosity."
-            },
-            "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908391,\n\nLileas Graf: This is getting ridiculous, Mr. Pr...\nen\n\n\n\"This is getting ridiculous, Mr. President.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_24",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908499,\n\nLileas Graf: The Constitution is not a toy. You...\nen\n\n\n\"The Constitution is not a toy. You can't just play with it and change it however you like.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908607,\n\nLileas Graf: With all due respect, I believe yo...\nen\n\n\n\"With all due respect, I believe you are not seeing things clearly anymore, Mr. President. I'm concerned about you.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908715,\n\nNarrator: As Petr was about to respond, Gus c...\nen\n\n\nAs Petr was about to respond, Gus cut in."
-            },
-            "position": {
-                "x": 500,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908817,\n\nGus Manger: In this rare occasion, I have to a...\nen\n\n\n\"In this rare occasion, I have to admit that I agree with Mrs. Graf here. It's important not to get ahead of ourselves.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4908925,\n\nGus Manger: Sordish reality is quite different...\nen\n\n\n\"Sordish reality is quite different than what's being said here. Let's not kid ourselves.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4909049,\n\nCiara Walda: I believe the decision that led to...\nen\n\n\n\"I believe the decision that led to these investigations was taken without the counsel of Council of Ministers.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1350
+                "x": 270,
+                "y": 0
             }
         },
         {
             "id": "node_30",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4909151,\n\nCiara Walda: And there is only one signature on...\nen\n\n\n\"And there is only one signature on that emergency decree, Mr. President.\""
+                "label": "Player\n\n\"Next, I will start campaigning for a transition to parliamentary democracy.\""
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 540,
+                "y": 0
             }
         },
         {
             "id": "node_31",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4909253,\n\nNarrator: Petr stood up.\nen\n\n\nPetr stood up."
+                "label": "Player\n\n\"Soon I'll be enacting major reforms with my new powers.\""
             },
             "position": {
-                "x": 250,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4909355,\n\nPetr Vectern: What are you trying to say, Mrs. W...\nen\n\n\n\"What are you trying to say, Mrs. Walda? Don't overstep your boundaries.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4909457,\n\nCiara Walda: I just don't see how we could be o...\nen\n\n\n\"I just don't see how we could be of any help under such circumstances.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_34",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4909559,\n\nLileas Graf: And what kind of changes are these?\nen\n\n\n\"And what kind of changes are these?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_35",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4909683,\n\nPlayer: I will campaign for the transition...\nen\n\n\n\"I will campaign for the transition into a parliamentary system.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4909689,\n\nPlayer: I will campaign for the transition...\nMenu Text en\n\n\n\"I will campaign for the transition into a parliamentary system.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910069,\n\nPlayer: I will campaign for strengthening...\nen\n\n\n\"I will campaign for strengthening the executive further.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_38",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910075,\n\nPlayer: I will campaign for strengthening...\nMenu Text en\n\n\n\"I will campaign for strengthening the executive further.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1800
+                "x": 810,
+                "y": 0
             }
         },
         {
             "id": "node_39",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4910177,\n\nPlayer: Your lack of idealism is saddening...\nen\n\n\n\"Your lack of idealism is saddening. We can't develop if we don't even try.\""
+                "label": "Narrator\n\nLileas spread out her arms and looked at me in disbelief."
             },
             "position": {
-                "x": 0,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_40",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910183,\n\nPlayer: Your lack of idealism is saddening...\nMenu Text en\n\n\n\"Your lack of idealism is saddening. We can't develop if we don't even try.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1950
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_41",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4910285,\n\nNarrator: Nia spread out her arms and looked...\nen\n\n\nNia spread out her arms and looked at me in disbelief. Just as she was about to speak, Lileas jumped in."
+                "label": "Narrator\n\nThe cabinet looked at me with curiosity."
             },
             "position": {
-                "x": 500,
-                "y": 1950
+                "x": 1350,
+                "y": 0
             }
         },
         {
             "id": "node_42",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4910387,\n\nLileas Graf: With all due respect, I believe yo...\nen\n\n\n\"With all due respect, I believe you are not seeing things clearly anymore, Mr. President. I'm concerned about you.\""
+                "label": "Lileas Graf\n\n\"This is getting ridiculous, Mr. President.\""
             },
             "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910495,\n\nPlayer: We will continue our privatization...\nen\n\n\n\"We will continue our privatization and fully integrate Sordland into the free market.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910501,\n\nPlayer: We will continue our privatization...\nMenu Text en\n\n\n\"We will continue our privatization and fully integrate Sordland into the free market.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910603,\n\nPlayer: The presidential system is flawed....\nen\n\n\n\"The presidential system is flawed. Look at our history.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910609,\n\nPlayer: The presidential system is flawed....\nMenu Text en\n\n\n\"The presidential system is flawed. Look at our history.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910711,\n\nPlayer: I will hear no discussions. This w...\nen\n\n\n\"I will hear no discussions. This will be our focus.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2250
+                "x": 1620,
+                "y": 0
             }
         },
         {
             "id": "node_48",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4910717,\n\nPlayer: I will hear no discussions. This w...\nMenu Text en\n\n\n\"I will hear no discussions. This will be our focus.\""
+                "label": "Ciara Walda\n\n\"I believe the decision that led to these investigations was taken without the counsel of Council of Ministers.\""
             },
             "position": {
-                "x": 0,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910819,\n\nLileas Graf: This is getting ridiculous, Mr. Pr...\nen\n\n\n\"This is getting ridiculous, Mr. President.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4910927,\n\nLileas Graf: The Constitution is not a toy. You...\nen\n\n\n\"The Constitution is not a toy. You can't just play with it and change it however you like.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911035,\n\nNarrator: As Petr was about to respond, Nia c...\nen\n\n\nAs Petr was about to respond, Nia cut in."
-            },
-            "position": {
-                "x": 0,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_52",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911137,\n\nNia Morgna: In this rare occasion, I have to a...\nen\n\n\n\"In this rare occasion, I have to admit that I agree with Mrs. Graf here. It's important not to get ahead of ourselves.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911245,\n\nNia Morgna: I cannot let this country be shape...\nen\n\n\n\"I cannot let this country be shaped according to one man's ideals again.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2550
+                "x": 1890,
+                "y": 0
             }
         },
         {
             "id": "node_54",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4911369,\n\nPlayer: I will hear no discussions. This w...\nen\n\n\n\"I will hear no discussions. This will be our focus.\""
+                "label": "Player\n\n\"I will campaign for the transition into a parliamentary system.\""
             },
             "position": {
-                "x": 0,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911375,\n\nPlayer: I will hear no discussions. This w...\nMenu Text en\n\n\n\"I will hear no discussions. This will be our focus.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911477,\n\nPlayer: You can try to stop me. Don't forg...\nen\n\n\n\"You can try to stop me. Don't forget that you are working for me.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911483,\n\nPlayer: You can try to stop me. Don't forg...\nMenu Text en\n\n\n\"You can try to stop me. Don't forget that you are working for me.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911585,\n\nPlayer: You are hurting me, Mrs. Morgna. D...\nen\n\n\n\"You are hurting me, Mrs. Morgna. Do you really see me as an authoritarian?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4911591,\n\nPlayer: You are hurting me, Mrs. Morgna. D...\nMenu Text en\n\n\n\"You are hurting me, Mrs. Morgna. Do you really see me as an authoritarian?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2850
+                "x": 1620,
+                "y": 200
             }
         },
         {
             "id": "node_60",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4912249,\n\nPlayer: We will continue our nationalizati...\nen\n\n\n\"We will continue our nationalization and fully take control of the means of production.\""
+                "label": "Narrator\n\nNia spread out her arms and looked at me in disbelief. Just as she was about to speak, Lileas jumped in."
             },
             "position": {
-                "x": 0,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_61",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4912255,\n\nPlayer: We will continue our nationalizati...\nMenu Text en\n\n\n\"We will continue our nationalization and fully take control of the means of production.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3000
+                "x": 2160,
+                "y": 0
             }
         },
         {
             "id": "node_62",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4912357,\n\nPlayer: More social policies.\nen\n\n\n\"More social policies.\""
+                "label": "Player\n\n\"We will continue our privatization and fully integrate Sordland into the free market.\""
             },
             "position": {
-                "x": 500,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4912363,\n\nPlayer: More social policies.\nMenu Text en\n\n\n\"More social policies.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3150
+                "x": 2430,
+                "y": 0
             }
         },
         {
             "id": "node_64",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4912743,\n\nPlayer: We will pursue the nationalization...\nen\n\n\n\"We will pursue the nationalization of the means of production.\""
+                "label": "Player\n\n\"I will hear no discussions. This will be our focus.\""
             },
             "position": {
-                "x": 250,
-                "y": 3150
+                "x": 1890,
+                "y": 200
             }
         },
         {
             "id": "node_65",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4912749,\n\nPlayer: We will pursue the nationalization...\nMenu Text en\n\n\n\"We will pursue the nationalisation of the means of production.\""
+                "label": "Lileas Graf\n\n\"This is getting ridiculous, Mr. President.\""
             },
             "position": {
-                "x": 500,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4912851,\n\nPlayer: We will pursue further free market...\nen\n\n\n\"We will pursue further free market reforms.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4912857,\n\nPlayer: We will pursue further free market...\nMenu Text en\n\n\n\"We will pursue further free market reforms.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4912959,\n\nLileas Graf: I see.\nen\n\n\n\"I see.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4913067,\n\nLileas Graf: I see. Further destruction of our...\nen\n\n\n\"I see. Further destruction of our economy.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4913371,\n\nNarrator: Deivid looked at Gus.\nen\n\n\nDeivid looked at Gus."
-            },
-            "position": {
-                "x": 250,
-                "y": 3450
+                "x": 2700,
+                "y": 0
             }
         },
         {
             "id": "node_71",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4913473,\n\nDeivid Wisci: Mr. President is right.\nen\n\n\n\"Mr. President is right.\""
+                "label": "Player\n\n\"You can try to stop me. Don't forget that you are working for me.\""
             },
             "position": {
-                "x": 500,
-                "y": 3450
+                "x": 2970,
+                "y": 0
             }
         },
         {
             "id": "node_72",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4913575,\n\nLileas Graf: I see. Very Bold.\nen\n\n\n\"I see. Very Bold.\""
+                "label": "Player\n\n\"You are hurting me, Mrs. Morgna. Do you really see me as an authoritarian?\""
             },
             "position": {
-                "x": 0,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4913683,\n\nLileas Graf: Maybe too bold.\nen\n\n\n\"Maybe too bold.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4913881,\n\nDeivid Wisci: I fully support rewriting the whol...\nen\n\n\n\"I fully support rewriting the whole Constitution and establish a more democratic parliamentary system in Sordland.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4913991,\n\nPlayer: Thank you for your support, Mr. Wi...\nen\n\n\n\"Thank you for your support, Mr. Wisci.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4913997,\n\nPlayer: Thank you for your support, Mr. Wi...\nMenu Text en\n\n\n\"Thank you for your support, Mr. Wisci.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914099,\n\nNarrator: Nobody responded. Nia was furious.\nen\n\n\nNobody responded. Nia was furious."
-            },
-            "position": {
-                "x": 500,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914201,\n\nNarrator: He smiled. Nobody else responded.\nen\n\n\nHe smiled. Nobody else responded."
-            },
-            "position": {
-                "x": 0,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914303,\n\nNia Morgna: Yes, Mr. President. I will no long...\nen\n\n\n\"Yes, Mr. President. I will no longer be silent about it.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914705,\n\nPlayer: Fine. I will no longer stay idle a...\nen\n\n\n\"Fine. I will no longer stay idle about disloyalty either. We'll talk about this very soon.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914711,\n\nPlayer: Fine. I will no longer stay idle a...\nMenu Text en\n\n\n\"Fine. I will no longer stay idle about disloyalty either. We'll talk about this very soon.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914813,\n\nPlayer: We'll talk about this later, Mrs....\nen\n\n\n\"We'll talk about this later, Mrs. Morgna. Let's move on for now, shall we?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914819,\n\nPlayer: We'll talk about this later, Mrs....\nMenu Text en\n\n\n\"We'll talk about this later, Mrs. Morgna. Let's move on for now, shall we?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4914921,\n\nNia Morgna: You are showing the tendency, Mr....\nen\n\n\n\"You are showing the tendency, Mr. President.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915045,\n\nPlayer: Frankly, I don't care. I've told y...\nen\n\n\n\"Frankly, I don't care. I've told you our focus and that's it.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915051,\n\nPlayer: Frankly, I don't care. I've told y...\nMenu Text en\n\n\n\"Frankly, I don't care. I've told you our focus and that's it.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4200
+                "x": 3240,
+                "y": 0
             }
         },
         {
             "id": "node_87",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4915153,\n\nNarrator: She did not respond.\nen\n\n\nShe did not respond."
+                "label": "Lileas Graf\n\n\"I see. Further destruction of our economy.\""
             },
             "position": {
-                "x": 0,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915255,\n\nNia Morgna: Whatever you say, Mr. President.\nen\n\n\n\"Whatever you say, Mr. President.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915363,\n\nPlayer: Let's not argue about this now, Mr...\nen\n\n\n\"Let's not argue about this now, Mrs. Graf.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4350
+                "x": 3510,
+                "y": 0
             }
         },
         {
             "id": "node_90",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4915369,\n\nPlayer: Let's not argue about this now, Mr...\nMenu Text en\n\n\n\"Let's not argue about this now, Mrs. Graf.\""
+                "label": "Narrator\n\nDeivid looked at Gus."
             },
             "position": {
-                "x": 0,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915561,\n\nLileas Graf: Whatever you say, *Mr. President*.\nen\n\n\n\"Whatever you say, *Mr. President*.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_92",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915669,\n\nPlayer: Why can't you be more like Lucian,...\nen\n\n\n\"Why can't you be more like Lucian, Mrs. Walda?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915675,\n\nPlayer: Why can't you be more like Lucian,...\nMenu Text en\n\n\n\"Why can't you be more like Lucian, Mrs. Walda?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_94",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4915867,\n\nNarrator: Lucian nodded in agreement.\nen\n\n\nLucian nodded in agreement."
-            },
-            "position": {
-                "x": 250,
-                "y": 4650
+                "x": 3780,
+                "y": 200
             }
         },
         {
             "id": "node_95",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4916059,\n\nPlayer: Frankly, I don't care what you thi...\nen\n\n\n\"Frankly, I don't care what you think. Our focus has been decided.\""
+                "label": "Deivid Wisci\n\n\"I fully support rewriting the whole Constitution and establish a more democratic parliamentary system in Sordland.\""
             },
             "position": {
-                "x": 500,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916065,\n\nPlayer: Frankly, I don't care what you thi...\nMenu Text en\n\n\n\"Frankly, I don't care what you think. Our focus has been decided.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916167,\n\nNarrator: Lucian stepped up.\nen\n\n\nLucian stepped up."
-            },
-            "position": {
-                "x": 250,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916269,\n\nLucian Galade: I'm already working on it, Mr. Pre...\nen\n\n\n\"I'm already working on it, Mr. President.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4800
+                "x": 4860,
+                "y": 400
             }
         },
         {
             "id": "node_99",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4916379,\n\nPlayer: Thank you Lucian. Please make sure...\nen\n\n\n\"Thank you Lucian. Please make sure the whole team is on the same page with us.\""
+                "label": "Nia Morgna\n\n\"Yes, Mr. President. I will no longer be silent about it.\""
             },
             "position": {
-                "x": 0,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916385,\n\nPlayer: Thank you Lucian. Please make sure...\nMenu Text en\n\n\n\"Thank you Lucian. Please make sure the whole team is on the same page with us.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916487,\n\nPlayer: I will be using my powers to their...\nen\n\n\n\"I will be using my powers to their limits.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916493,\n\nPlayer: I will be using my powers to their...\nMenu Text en\n\n\n\"I will be using my powers to their limits.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916595,\n\nCiara Walda: With all due respect, I'm not goin...\nen\n\n\n\"With all due respect, I'm not going to respond to that.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_104",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916705,\n\nPlayer: Frankly, I don't care what you thi...\nen\n\n\n\"Frankly, I don't care what you think. We have bigger problems here.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_105",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916711,\n\nPlayer: Frankly, I don't care what you thi...\nMenu Text en\n\n\n\"Frankly, I don't care what you think. We have bigger problems here.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916813,\n\nNarrator: Lucian nodded. Nobody else responde...\nen\n\n\nLucian nodded. Nobody else responded."
-            },
-            "position": {
-                "x": 250,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4916915,\n\nIosef Lancea: Yes sir. It is of utmost importanc...\nen\n\n\n\"Yes sir. It is of utmost importance.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4917025,\n\nNarrator: Iosef stood up.\nen\n\n\nIosef stood up."
-            },
-            "position": {
-                "x": 0,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4917127,\n\nPlayer: I want Mrs. Graf to put the region...\nen\n\n\n\"I want Mrs. Graf to put the region of Bergia under heavy surveillance.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4917133,\n\nPlayer: I want Mrs. Graf to put the region...\nMenu Text en\n\n\n\"I want Mrs. Graf to put the region of Bergia under heavy surveillance.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5400
+                "x": 3780,
+                "y": 0
             }
         },
         {
             "id": "node_111",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4917235,\n\nPlayer: I want to establish peace talks wi...\nen\n\n\n\"I want to establish peace talks with the group.\""
+                "label": "Lileas Graf\n\n\"Whatever you say, *Mr. President*.\""
             },
             "position": {
-                "x": 0,
-                "y": 5550
+                "x": 4050,
+                "y": 0
             }
         },
         {
             "id": "node_112",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4917241,\n\nPlayer: I want to establish peace talks wi...\nMenu Text en\n\n\n\"I want to establish peace talks with the group.\""
+                "label": "Player\n\n\"Why can't you be more like Lucian, Mrs. Walda?\""
             },
             "position": {
-                "x": 250,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4917439,\n\nLileas Graf: As you wish.\nen\n\n\n\"As you wish.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5550
+                "x": 4860,
+                "y": 200
             }
         },
         {
             "id": "node_114",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4917547,\n\nIosef Lancea: Sir, I would advise against it. Th...\nen\n\n\n\"Sir, I would advise against it. They are our enemies.\""
+                "label": "Narrator\n\nLucian nodded in agreement."
             },
             "position": {
-                "x": 0,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4917649,\n\nPlayer: I want you to just try and reach o...\nen\n\n\n\"I want you to just try and reach out to them. We should be diplomatic.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5700
+                "x": 1350,
+                "y": 200
             }
         },
         {
             "id": "node_116",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4917655,\n\nPlayer: I want you to just try and reach o...\nMenu Text en\n\n\n\"I want you to just try and reach out to them. We should be diplomatic.\""
+                "label": "Player\n\n\"Frankly, I don't care what you think. Our focus has been decided.\""
             },
             "position": {
-                "x": 500,
-                "y": 5700
+                "x": 5940,
+                "y": 200
             }
         },
         {
             "id": "node_117",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4917757,\n\nLileas Graf: I can't believe you are justifying...\nen\n\n\n\"I can't believe you are justifying the murders of our Sordish citizens.\""
+                "label": "Narrator\n\nLucian stepped up."
             },
             "position": {
-                "x": 0,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_118",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4917865,\n\nNarrator: Lucian stepped up.\nen\n\n\nLucian stepped up."
-            },
-            "position": {
-                "x": 250,
-                "y": 5850
+                "x": 4860,
+                "y": 0
             }
         },
         {
             "id": "node_119",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4917967,\n\nLucian Galade: I'll look into it, sir.\nen\n\n\n\"I'll look into it, sir.\""
+                "label": "Player\n\n\"Thank you Lucian. Please make sure the whole team is on the same page with us.\""
             },
             "position": {
-                "x": 500,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4918069,\n\nLileas Graf: So we're going to sit on a table w...\nen\n\n\n\"So we're going to sit on a table with murderers now? No deal will benefit those who died in their acts of terror.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6000
+                "x": 5130,
+                "y": 0
             }
         },
         {
             "id": "node_121",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4918275,\n\nPlayer: They are fighting us because the s...\nen\n\n\n\"They are fighting us because the state has never listened to them before.\""
+                "label": "Ciara Walda\n\n\"With all due respect, I'm not going to respond to that.\""
             },
             "position": {
-                "x": 250,
-                "y": 6000
+                "x": 5400,
+                "y": 0
             }
         },
         {
-            "id": "node_122",
-            "type": "default",
+            "id": "node_123",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4918281,\n\nPlayer: They are fighting us because the s...\nMenu Text en\n\n\n\"They are fighting us because the state has never listened to them before.\""
+                "label": "Narrator\n\nLucian nodded. Nobody else responded."
             },
             "position": {
-                "x": 500,
-                "y": 6000
+                "x": 5670,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n\"Yes sir. It is of utmost importance.\""
+            },
+            "position": {
+                "x": 5940,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I want to establish peace talks with the group.\""
+            },
+            "position": {
+                "x": 6210,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_129",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf\n\n\"As you wish.\""
+            },
+            "position": {
+                "x": 540,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"They are fighting us because the state has never listened to them before.\""
+            },
+            "position": {
+                "x": 6480,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e11_to_34",
             "source": "node_11",
             "target": "node_34",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e1",
-            "source": "node_11",
-            "target": "node_34",
-            "animated": true
-        },
-        {
-            "id": "e2",
+            "id": "e18_to_36",
             "source": "node_18",
             "target": "node_36",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e3",
-            "source": "node_18",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_19",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e5",
-            "source": "node_19",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e6",
-            "source": "node_28",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e7",
-            "source": "node_28",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e8",
+            "id": "e30_to_129",
             "source": "node_30",
             "target": "node_129",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e9",
-            "source": "node_30",
-            "target": "node_129",
-            "animated": true
-        },
-        {
-            "id": "e10",
+            "id": "e31_to_40",
             "source": "node_31",
             "target": "node_40",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e11",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e12",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e13",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e14",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e15",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e16",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e17",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e18",
-            "source": "node_31",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e19",
-            "source": "node_38",
-            "target": "node_42",
-            "animated": true
-        },
-        {
-            "id": "e20",
+            "id": "e39_to_49",
             "source": "node_39",
             "target": "node_49",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e21",
-            "source": "node_40",
-            "target": "node_43",
-            "animated": true
-        },
-        {
-            "id": "e22",
+            "id": "e41_to_114",
             "source": "node_41",
             "target": "node_114",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e23",
+            "id": "e42_to_54",
             "source": "node_42",
             "target": "node_54",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e24",
-            "source": "node_43",
-            "target": "node_44",
-            "animated": true
-        },
-        {
-            "id": "e25",
-            "source": "node_44",
-            "target": "node_45",
-            "animated": true
-        },
-        {
-            "id": "e26",
-            "source": "node_45",
-            "target": "node_46",
-            "animated": true
-        },
-        {
-            "id": "e27",
-            "source": "node_46",
-            "target": "node_47",
-            "animated": true
-        },
-        {
-            "id": "e28",
-            "source": "node_47",
-            "target": "node_48",
-            "animated": true
-        },
-        {
-            "id": "e29",
+            "id": "e48_to_64",
             "source": "node_48",
             "target": "node_64",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e30",
-            "source": "node_49",
-            "target": "node_50",
-            "animated": true
-        },
-        {
-            "id": "e31",
-            "source": "node_50",
-            "target": "node_51",
-            "animated": true
-        },
-        {
-            "id": "e32",
-            "source": "node_51",
-            "target": "node_52",
-            "animated": true
-        },
-        {
-            "id": "e33",
-            "source": "node_52",
-            "target": "node_53",
-            "animated": true
-        },
-        {
-            "id": "e34",
-            "source": "node_53",
-            "target": "node_118",
-            "animated": true
-        },
-        {
-            "id": "e35",
+            "id": "e54_to_81",
             "source": "node_54",
             "target": "node_81",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e36",
-            "source": "node_54",
-            "target": "node_81",
-            "animated": true
-        },
-        {
-            "id": "e37",
-            "source": "node_58",
-            "target": "node_59",
-            "animated": true
-        },
-        {
-            "id": "e38",
-            "source": "node_58",
-            "target": "node_59",
-            "animated": true
-        },
-        {
-            "id": "e39",
-            "source": "node_59",
-            "target": "node_61",
-            "animated": true
-        },
-        {
-            "id": "e40",
-            "source": "node_59",
-            "target": "node_61",
-            "animated": true
-        },
-        {
-            "id": "e41",
+            "id": "e60_to_91",
             "source": "node_60",
             "target": "node_91",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e42",
-            "source": "node_61",
-            "target": "node_66",
-            "animated": true
-        },
-        {
-            "id": "e43",
+            "id": "e62_to_68",
             "source": "node_62",
             "target": "node_68",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e44",
-            "source": "node_62",
-            "target": "node_68",
-            "animated": true
-        },
-        {
-            "id": "e45",
-            "source": "node_63",
-            "target": "node_88",
-            "animated": true
-        },
-        {
-            "id": "e46",
-            "source": "node_63",
-            "target": "node_88",
-            "animated": true
-        },
-        {
-            "id": "e47",
+            "id": "e64_to_91",
             "source": "node_64",
             "target": "node_91",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e48",
-            "source": "node_64",
-            "target": "node_91",
-            "animated": true
-        },
-        {
-            "id": "e49",
+            "id": "e65_to_90",
             "source": "node_65",
             "target": "node_90",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e50",
-            "source": "node_66",
-            "target": "node_67",
-            "animated": true
-        },
-        {
-            "id": "e51",
-            "source": "node_67",
-            "target": "node_62",
-            "animated": true
-        },
-        {
-            "id": "e52",
-            "source": "node_68",
-            "target": "node_69",
-            "animated": true
-        },
-        {
-            "id": "e53",
-            "source": "node_69",
-            "target": "node_70",
-            "animated": true
-        },
-        {
-            "id": "e54",
-            "source": "node_70",
-            "target": "node_72",
-            "animated": true
-        },
-        {
-            "id": "e55",
-            "source": "node_70",
-            "target": "node_72",
-            "animated": true
-        },
-        {
-            "id": "e56",
+            "id": "e71_to_89",
             "source": "node_71",
             "target": "node_89",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e57",
-            "source": "node_71",
-            "target": "node_89",
-            "animated": true
-        },
-        {
-            "id": "e58",
+            "id": "e72_to_98",
             "source": "node_72",
             "target": "node_98",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e59",
-            "source": "node_72",
-            "target": "node_98",
-            "animated": true
-        },
-        {
-            "id": "e60",
-            "source": "node_79",
-            "target": "node_82",
-            "animated": true
-        },
-        {
-            "id": "e61",
-            "source": "node_79",
-            "target": "node_82",
-            "animated": true
-        },
-        {
-            "id": "e62",
-            "source": "node_80",
-            "target": "node_93",
-            "animated": true
-        },
-        {
-            "id": "e63",
-            "source": "node_80",
-            "target": "node_93",
-            "animated": true
-        },
-        {
-            "id": "e64",
-            "source": "node_84",
-            "target": "node_86",
-            "animated": true
-        },
-        {
-            "id": "e65",
-            "source": "node_84",
-            "target": "node_86",
-            "animated": true
-        },
-        {
-            "id": "e66",
-            "source": "node_85",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e67",
-            "source": "node_85",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e68",
-            "source": "node_86",
-            "target": "node_88",
-            "animated": true
-        },
-        {
-            "id": "e69",
+            "id": "e87_to_95",
             "source": "node_87",
             "target": "node_95",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e70",
+            "id": "e90_to_44",
             "source": "node_90",
             "target": "node_44",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e71",
-            "source": "node_91",
-            "target": "node_92",
-            "animated": true
-        },
-        {
-            "id": "e72",
-            "source": "node_92",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e73",
-            "source": "node_93",
-            "target": "node_94",
-            "animated": true
-        },
-        {
-            "id": "e74",
+            "id": "e95_to_44",
             "source": "node_95",
             "target": "node_44",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e75",
-            "source": "node_96",
-            "target": "node_90",
-            "animated": true
-        },
-        {
-            "id": "e76",
-            "source": "node_96",
-            "target": "node_90",
-            "animated": true
-        },
-        {
-            "id": "e77",
-            "source": "node_97",
-            "target": "node_99",
-            "animated": true
-        },
-        {
-            "id": "e78",
-            "source": "node_98",
-            "target": "node_89",
-            "animated": true
-        },
-        {
-            "id": "e79",
+            "id": "e99_to_90",
             "source": "node_99",
             "target": "node_90",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e80",
-            "source": "node_103",
-            "target": "node_106",
-            "animated": true
-        },
-        {
-            "id": "e81",
-            "source": "node_103",
-            "target": "node_106",
-            "animated": true
-        },
-        {
-            "id": "e82",
-            "source": "node_104",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e83",
-            "source": "node_104",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e84",
-            "source": "node_105",
-            "target": "node_108",
-            "animated": true
-        },
-        {
-            "id": "e85",
-            "source": "node_106",
-            "target": "node_107",
-            "animated": true
-        },
-        {
-            "id": "e86",
-            "source": "node_106",
-            "target": "node_107",
-            "animated": true
-        },
-        {
-            "id": "e87",
-            "source": "node_107",
-            "target": "node_108",
-            "animated": true
-        },
-        {
-            "id": "e88",
-            "source": "node_108",
-            "target": "node_111",
-            "animated": true
-        },
-        {
-            "id": "e89",
-            "source": "node_109",
-            "target": "node_111",
-            "animated": true
-        },
-        {
-            "id": "e90",
-            "source": "node_109",
-            "target": "node_111",
-            "animated": true
-        },
-        {
-            "id": "e91",
+            "id": "e111_to_44",
             "source": "node_111",
             "target": "node_44",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e92",
+            "id": "e112_to_95",
             "source": "node_112",
             "target": "node_95",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e93",
-            "source": "node_112",
-            "target": "node_95",
-            "animated": true
-        },
-        {
-            "id": "e94",
+            "id": "e114_to_44",
             "source": "node_114",
             "target": "node_44",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e95",
+            "id": "e116_to_44",
             "source": "node_116",
             "target": "node_44",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e96",
-            "source": "node_116",
-            "target": "node_44",
-            "animated": true
-        },
-        {
-            "id": "e97",
+            "id": "e117_to_112",
             "source": "node_117",
             "target": "node_112",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e98",
-            "source": "node_118",
-            "target": "node_119",
-            "animated": true
-        },
-        {
-            "id": "e99",
+            "id": "e119_to_113",
             "source": "node_119",
             "target": "node_113",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e100",
-            "source": "node_119",
-            "target": "node_113",
-            "animated": true
-        },
-        {
-            "id": "e101",
-            "source": "node_120",
-            "target": "node_124",
-            "animated": true
-        },
-        {
-            "id": "e102",
-            "source": "node_120",
-            "target": "node_124",
-            "animated": true
-        },
-        {
-            "id": "e103",
+            "id": "e121_to_115",
             "source": "node_121",
             "target": "node_115",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e104",
-            "source": "node_122",
-            "target": "node_123",
-            "animated": true
-        },
-        {
-            "id": "e105",
-            "source": "node_122",
-            "target": "node_123",
-            "animated": true
-        },
-        {
-            "id": "e106",
+            "id": "e123_to_116",
             "source": "node_123",
             "target": "node_116",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e107",
+            "id": "e124_to_116",
             "source": "node_124",
             "target": "node_116",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e108",
-            "source": "node_125",
-            "target": "node_128",
-            "animated": true
-        },
-        {
-            "id": "e109",
-            "source": "node_126",
-            "target": "node_125",
-            "animated": true
-        },
-        {
-            "id": "e110",
-            "source": "node_126",
-            "target": "node_125",
-            "animated": true
-        },
-        {
-            "id": "e111",
+            "id": "e127_to_130",
             "source": "node_127",
             "target": "node_130",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e112",
-            "source": "node_127",
-            "target": "node_130",
-            "animated": true
-        },
-        {
-            "id": "e113",
+            "id": "e129_to_126",
             "source": "node_129",
             "target": "node_126",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e114",
-            "source": "node_130",
-            "target": "node_139",
-            "animated": true
-        },
-        {
-            "id": "e115",
-            "source": "node_131",
-            "target": "node_136",
-            "animated": true
-        },
-        {
-            "id": "e116",
-            "source": "node_131",
-            "target": "node_136",
-            "animated": true
-        },
-        {
-            "id": "e117",
-            "source": "node_132",
-            "target": "node_134",
-            "animated": true
-        },
-        {
-            "id": "e118",
-            "source": "node_133",
-            "target": "node_134",
-            "animated": true
-        },
-        {
-            "id": "e119",
-            "source": "node_134",
-            "target": "node_135",
-            "animated": true
-        },
-        {
-            "id": "e120",
-            "source": "node_135",
-            "target": "node_137",
-            "animated": true
-        },
-        {
-            "id": "e121",
+            "id": "e137_to_44",
             "source": "node_137",
             "target": "node_44",
-            "animated": true
-        },
-        {
-            "id": "e122",
-            "source": "node_137",
-            "target": "node_44",
-            "animated": true
+            "type": "step"
         }
     ]
 }

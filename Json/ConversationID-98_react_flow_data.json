@@ -1,4188 +1,1434 @@
 {
     "nodes": [
         {
-            "id": "node_0",
-            "type": "default",
+            "id": "node_1",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4280863,\n\nNarrator: I arrived home from work, hung my j...\nen\n\n\nI arrived home from work, hung my jacket up, and put my briefcase in the hall."
+                "label": "Narrator\n\nI arrived home from work, hung my jacket up, and put my briefcase in the hall."
             },
             "position": {
                 "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_1",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4280971,\n\nPlayer: Darling, what's wrong?\nen\n\n\n\"Darling, what's wrong?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4280977,\n\nPlayer: Darling, what's wrong?\nMenu Text en\n\n\n\"Darling, what's wrong?\""
-            },
-            "position": {
-                "x": 500,
                 "y": 0
             }
         },
         {
             "id": "node_3",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4281079,\n\nPlayer: Who is it from?\nen\n\n\n\"Who is it from?\""
+                "label": "Player\n\n\"Darling, what's wrong?\""
             },
             "position": {
-                "x": 0,
-                "y": 150
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281085,\n\nPlayer: Who is it from?\nMenu Text en\n\n\n\"Who is it from?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 150
+                "x": 270,
+                "y": 0
             }
         },
         {
             "id": "node_5",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4281187,\n\nPlayer_Italic: I sat down on the couch next to Mon...\nen\n\n\nI sat down on the couch next to Monica."
+                "label": "Player_Italic\n\nI sat down on the couch next to Monica."
             },
             "position": {
-                "x": 500,
-                "y": 150
+                "x": 540,
+                "y": 0
             }
         },
         {
             "id": "node_6",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4281193,\n\nPlayer_Italic: I sat down on the couch next to Mon...\nMenu Text en\n\n\nSit down next to Monica."
+                "label": "Monica\n\n\"It's from the Department of Education. Franc's university exam results are in.\""
             },
             "position": {
-                "x": 0,
-                "y": 300
-            }
-        },
-        {
-            "id": "node_7",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281295,\n\nMonica: It's from the Department of Educat...\nen\n\n\n\"It's from the Department of Education. Franc's university exam results are in.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 300
+                "x": 5940,
+                "y": 200
             }
         },
         {
             "id": "node_8",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4281421,\n\nPlayer: How did he do?\nen\n\n\n\"How did he do?\""
+                "label": "Player\n\n\"Why are you so worried, then?\""
             },
             "position": {
-                "x": 500,
-                "y": 300
+                "x": 1080,
+                "y": 0
             }
         },
         {
             "id": "node_9",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4281427,\n\nPlayer: How did he do?\nMenu Text en\n\n\n\"How did he do?\""
+                "label": "Player\n\n\"He failed, didn't he?\""
             },
             "position": {
-                "x": 0,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_10",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281529,\n\nPlayer: Why are you so worried, then?\nen\n\n\n\"Why are you so worried, then?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_11",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281535,\n\nPlayer: Why are you so worried, then?\nMenu Text en\n\n\n\"Why are you so worried, then?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 450
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281637,\n\nPlayer: He failed, didn't he?\nen\n\n\n\"He failed, didn't he?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281643,\n\nPlayer: He failed, didn't he?\nMenu Text en\n\n\n\"He failed, didn't he?\""
-            },
-            "position": {
-                "x": 250,
-                "y": 600
+                "x": 1350,
+                "y": 0
             }
         },
         {
             "id": "node_14",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4281745,\n\nMonica: Just read the letter.\nen\n\n\n\"Just read the letter.\""
+                "label": "Player\n\n\"Maybe it'll be good for him to learn from his mistakes.\""
             },
             "position": {
-                "x": 500,
-                "y": 600
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281847,\n\nNarrator: I looked at the page. Below Franc's...\nen\n\n\nI looked at the page. Below Franc's name and address, his score was written: 435 points, out of a total of 1000."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4281949,\n\nNarrator: At the bottom of the letter, the wo...\nen\n\n\nAt the bottom of the letter, the word \"Failed\" was stamped in red."
-            },
-            "position": {
-                "x": 250,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_17",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282051,\n\nMonica: All those years of effort, all tho...\nen\n\n\n\"All those years of effort, all those private lessons... all down the drain.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 750
+                "x": 1620,
+                "y": 0
             }
         },
         {
             "id": "node_18",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4282153,\n\nPlayer: Maybe it'll be good for him to lea...\nen\n\n\n\"Maybe it'll be good for him to learn from his mistakes.\""
+                "label": "Monica\n\n\"No, but he should be back from school soon.\""
             },
             "position": {
-                "x": 0,
-                "y": 900
+                "x": 1890,
+                "y": 0
             }
         },
         {
             "id": "node_19",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4282159,\n\nPlayer: Maybe it'll be good for him to lea...\nMenu Text en\n\n\n\"Maybe it'll be good for him to learn from his mistakes.\""
+                "label": "Monica\n\n\"I just don't understand. Franc's a smart boy -- why would he sabotage himself like this?\""
             },
             "position": {
-                "x": 250,
-                "y": 900
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282261,\n\nPlayer: Does he know the results yet?\nen\n\n\n\"Does he know the results yet?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 900
+                "x": 2160,
+                "y": 0
             }
         },
         {
             "id": "node_21",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4282267,\n\nPlayer: Does he know the results yet?\nMenu Text en\n\n\n\"Does he know the results yet?\""
+                "label": "Player_Italic\n\nI waited for Monica to start the conversation."
             },
             "position": {
-                "x": 0,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_22",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282369,\n\nPlayer: He brought this upon himself.\nen\n\n\n\"He brought this upon himself.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282375,\n\nPlayer: He brought this upon himself.\nMenu Text en\n\n\n\"He brought this upon himself.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1050
-            }
-        },
-        {
-            "id": "node_24",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282477,\n\nMonica: This isn't just about Franc, you k...\nen\n\n\n\"This isn't just about Franc, you know. Him failing will reflect badly on you. On us.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282579,\n\nMonica: No, but he should be back from sch...\nen\n\n\n\"No, but he should be back from school soon.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 1200
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282681,\n\nMonica: I just don't understand. Franc's a...\nen\n\n\n\"I just don't understand. Franc's a smart boy -- why would he sabotage himself like this?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1200
+                "x": 2430,
+                "y": 0
             }
         },
         {
             "id": "node_27",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4282783,\n\nNarrator: I heard a key turning in the front...\nen\n\n\nI heard a key turning in the front door. Franc stomped in and was about to go straight upstairs when he noticed us both in the living room."
+                "label": "Franc\n\n\"I... I need a moment.\""
             },
             "position": {
-                "x": 0,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282891,\n\nPlayer_Italic: I waited for Monica to start the co...\nen\n\n\nI waited for Monica to start the conversation."
-            },
-            "position": {
-                "x": 250,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282897,\n\nPlayer_Italic: I waited for Monica to start the co...\nMenu Text en\n\n\nWait for Monica to start the conversation."
-            },
-            "position": {
-                "x": 500,
-                "y": 1350
-            }
-        },
-        {
-            "id": "node_30",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4282999,\n\nPlayer: Have a seat, Franc.\nen\n\n\n\"Have a seat, Franc.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
+                "x": 2700,
+                "y": 0
             }
         },
         {
             "id": "node_31",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4283005,\n\nPlayer: Have a seat, Franc.\nMenu Text en\n\n\n\"Have a seat, Franc.\""
+                "label": "Player\n\n\"How could you let us down like this?\""
             },
             "position": {
-                "x": 250,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4283107,\n\nNarrator: He took a seat across from us, and...\nen\n\n\nHe took a seat across from us, and I handed him the letter. He started reading it."
-            },
-            "position": {
-                "x": 500,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4283209,\n\nMonica: Your exam results arrived today.\nen\n\n\n\"Your exam results arrived today.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1650
-            }
-        },
-        {
-            "id": "node_34",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4283311,\n\nNarrator: Franc sat down, and Monica handed h...\nen\n\n\nFranc sat down, and Monica handed him the letter. He started reading it."
-            },
-            "position": {
-                "x": 250,
-                "y": 1650
+                "x": 2970,
+                "y": 0
             }
         },
         {
             "id": "node_35",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4283413,\n\nFranc: Oh, shit.\nen\n\n\n\"Oh, shit.\""
+                "label": "Franc\n\n\"I know, I know, I can't do anything right!\""
             },
             "position": {
-                "x": 500,
-                "y": 1650
+                "x": 3240,
+                "y": 0
             }
         },
         {
             "id": "node_36",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4283539,\n\nFranc: I... I need a moment.\nen\n\n\n\"I... I need a moment.\""
+                "label": "Player\n\n\"So it seems.\""
             },
             "position": {
-                "x": 0,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4283641,\n\nNarrator: He went to the kitchen sink and was...\nen\n\n\nHe went to the kitchen sink and washed his face. A moment later, he came back."
-            },
-            "position": {
-                "x": 250,
-                "y": 1800
+                "x": 3510,
+                "y": 0
             }
         },
         {
             "id": "node_38",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4283743,\n\nFranc: I never thought this would happen....\nen\n\n\n\"I never thought this would happen. I'm so sorry.\""
+                "label": "Monica\n\n\"Anton. Isn't there *anything* you can do?\""
             },
             "position": {
-                "x": 500,
-                "y": 1800
-            }
-        },
-        {
-            "id": "node_39",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4283869,\n\nPlayer: It's my fault. I should have been...\nen\n\n\n\"It's my fault. I should have been around to help you study.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1950
+                "x": 3780,
+                "y": 0
             }
         },
         {
             "id": "node_40",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4283875,\n\nPlayer: It's my fault. I should have been...\nMenu Text en\n\n\n\"It's my fault. I should have been around to help you study.\""
+                "label": "Monica\n\n\"I'm going upstairs after him.\""
             },
             "position": {
-                "x": 250,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4283977,\n\nPlayer: How could you let us down like thi...\nen\n\n\n\"How could you let us down like this?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 1950
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4283983,\n\nPlayer: How could you let us down like thi...\nMenu Text en\n\n\n\"How could you let us down like this?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284085,\n\nPlayer: You made your mother cry with your...\nen\n\n\n\"You made your mother cry with your actions.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284091,\n\nPlayer: You made your mother cry with your...\nMenu Text en\n\n\n\"You made your mother cry with your actions.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2100
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284193,\n\nPlayer: It's not the end of the world.\nen\n\n\n\"It's not the end of the world.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284199,\n\nPlayer: It's not the end of the world.\nMenu Text en\n\n\n\"It's not the end of the world.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2250
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284301,\n\nFranc: Pretty close, though, isn't it?\nen\n\n\n\"Pretty close, though, isn't it?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2250
+                "x": 4050,
+                "y": 0
             }
         },
         {
             "id": "node_48",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4284403,\n\nFranc: I know, I know, I can't do anythin...\nen\n\n\n\"I know, I know, I can't do anything right!\""
+                "label": "Narrator\n\nMonica went upstairs after Franc and I started reading documents before dinner."
             },
             "position": {
-                "x": 0,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284505,\n\nPlayer: So it seems.\nen\n\n\n\"So it seems.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284511,\n\nPlayer: So it seems.\nMenu Text en\n\n\n\"So it seems.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2400
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284613,\n\nPlayer: Not so fast. There might be someth...\nen\n\n\n\"Not so fast. There might be something I can do.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2550
+                "x": 17010,
+                "y": 200
             }
         },
         {
             "id": "node_52",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4284619,\n\nPlayer: Not so fast. There might be someth...\nMenu Text en\n\n\n\"Not so fast. There might be something I can do.\""
+                "label": "Player\n\n\"With enough money, I could get you into Harcard in Arcasia. It's one of the best universities in the world.\""
             },
             "position": {
-                "x": 250,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284721,\n\nMonica: Anton. Isn't there *anything* you...\nen\n\n\n\"Anton. Isn't there *anything* you can do?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2550
-            }
-        },
-        {
-            "id": "node_54",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284823,\n\nMonica: If Alphonso could get his dimwit s...\nen\n\n\n\"If Alphonso could get his dimwit son into Kingshill University, I'm sure Holsord State would have room for a bright boy like Franc.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4284941,\n\nMonica: I'm going upstairs after him.\nen\n\n\n\"I'm going upstairs after him.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 2700
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4285059,\n\nPlayer: Leave him be. He needs time.\nen\n\n\n\"Leave him be. He needs time.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 2700
+                "x": 4590,
+                "y": 0
             }
         },
         {
             "id": "node_57",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4285065,\n\nPlayer: Leave him be. He needs time.\nMenu Text en\n\n\n\"Leave him be. He needs time.\""
+                "label": "Player\n\n\"United People's University in United Contana is free. It also has an excellent medical program.\""
             },
             "position": {
-                "x": 0,
-                "y": 2850
+                "x": 4860,
+                "y": 0
             }
         },
         {
             "id": "node_58",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4285167,\n\nPlayer_Italic: I said nothing.\nen\n\n\nI said nothing."
+                "label": "Franc\n\n\"Communism, I can dig that.\""
             },
             "position": {
-                "x": 250,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4285173,\n\nPlayer_Italic: I said nothing.\nMenu Text en\n\n\nSay nothing."
-            },
-            "position": {
-                "x": 500,
-                "y": 2850
-            }
-        },
-        {
-            "id": "node_60",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4285275,\n\nPlayer: Suit yourself.\nen\n\n\n\"Suit yourself.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3000
+                "x": 15390,
+                "y": 200
             }
         },
         {
             "id": "node_61",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4285281,\n\nPlayer: Suit yourself.\nMenu Text en\n\n\n\"Suit yourself.\""
+                "label": "Player\n\n\"It's been decided. You're going to United Contana, Franc.\""
             },
             "position": {
-                "x": 250,
-                "y": 3000
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4285383,\n\nNarrator: Monica went upstairs after Franc an...\nen\n\n\nMonica went upstairs after Franc and I started reading documents before dinner."
-            },
-            "position": {
-                "x": 500,
-                "y": 3000
+                "x": 5400,
+                "y": 0
             }
         },
         {
             "id": "node_63",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4285491,\n\nMonica: I suppose I need some time as well.\nen\n\n\n\"I suppose I need some time as well.\""
+                "label": "Player\n\n\"He must have made us proud.\""
             },
             "position": {
-                "x": 0,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4285593,\n\nNarrator: Monica left the living room and I s...\nen\n\n\nMonica left the living room and I started reading newspapers before dinner."
-            },
-            "position": {
-                "x": 250,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_65",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4285797,\n\nNarrator: Monica went upstairs after Franc an...\nen\n\n\nMonica went upstairs after Franc and I started reading documents before dinner."
-            },
-            "position": {
-                "x": 500,
-                "y": 3150
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286191,\n\nPlayer: With enough money, I could get you...\nen\n\n\n\"With enough money, I could get you into Harcard in Arcasia. It's one of the best universities in the world.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286197,\n\nPlayer: With enough money, I could get you...\nMenu Text en\n\n\n\"With enough money, I could get you into Harcard in Arcasia. It's one of the best universities in the world.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286299,\n\nFranc: That sounds... great, actually!\nen\n\n\n\"That sounds... great, actually!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3300
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286401,\n\nMonica: Anton! I want him to stay in Sordl...\nen\n\n\n\"Anton! I want him to stay in Sordland.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286503,\n\nFranc: Mom. I've got to get out and exper...\nen\n\n\n\"Mom. I've got to get out and experience the world sometime. And in Arcasia, people might see me as something more than just the president's son.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286605,\n\nMonica: I still don't like it, but I under...\nen\n\n\n\"I still don't like it, but I understand.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3450
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286707,\n\nPlayer: United People's University in Unit...\nen\n\n\n\"United People's University in United Contana is free. It also has an excellent medical program.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286713,\n\nPlayer: United People's University in Unit...\nMenu Text en\n\n\n\"United People's University in United Contana is free. It also has an excellent medical program.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286815,\n\nFranc: Communism, I can dig that.\nen\n\n\n\"Communism, I can dig that.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3600
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4286917,\n\nFranc: Not exactly how I was expecting to...\nen\n\n\n\"Not exactly how I was expecting to spend my student years, but anything's better than the military.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
+                "x": 5670,
+                "y": 0
             }
         },
         {
             "id": "node_76",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4287019,\n\nMonica: This is the future of our boy, Ant...\nen\n\n\n\"This is the future of our boy, Anton. What should we do?\""
+                "label": "Narrator\n\nMonica briefly rested her head on my shoulder, then handed me the letter."
             },
             "position": {
-                "x": 250,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4287145,\n\nPlayer: It's been decided. You're going to...\nen\n\n\n\"It's been decided. You're going to United Contana, Franc.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4287151,\n\nPlayer: It's been decided. You're going to...\nMenu Text en\n\n\n\"It's been decided. You're going to United Contana, Franc.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4287349,\n\nPlayer: He must have made us proud.\nen\n\n\n\"He must have made us proud.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 3900
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4287355,\n\nPlayer: He must have made us proud.\nMenu Text en\n\n\n\"He must have made us proud.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 3900
+                "x": 5940,
+                "y": 0
             }
         },
         {
             "id": "node_81",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4287457,\n\nMonica: See for yourself.\nen\n\n\n\"See for yourself.\""
+                "label": "Monica\n\n\"You know what this means -- he's going to have to join the military. He could die, Anton!\""
             },
             "position": {
-                "x": 0,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4287837,\n\nNarrator: Gone were the days when I could exp...\nen\n\n\nGone were the days when I could expect a warm welcome from my family. Franc was either at school, barricaded in his room or out with friends. Deana spent more and more time at her after-school art classes, and Monica... well, Monica avoided me at all costs."
-            },
-            "position": {
-                "x": 250,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4287939,\n\nNarrator: I awaited my usual welcome from Dea...\nen\n\n\nI awaited my usual welcome from Deana before realizing she was out at one of her art classes. Franc was still at school, and Monica... it had been a long time since she'd come to the door to greet me."
-            },
-            "position": {
-                "x": 500,
-                "y": 4050
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4288319,\n\nNarrator: I paused, awaiting my usual greetin...\nen\n\n\nI paused, awaiting my usual greeting from my wife and daughter. Deana was out at one of her after-school art classes, I remembered. But where was Monica?"
-            },
-            "position": {
-                "x": 0,
-                "y": 4200
+                "x": 6210,
+                "y": 0
             }
         },
         {
             "id": "node_85",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4288421,\n\nNarrator: From the living room, I heard a muf...\nen\n\n\nFrom the living room, I heard a muffled sob."
+                "label": "Monica\n\n\"He did this to get back at you, you know. Maybe if you had been there for him more often...\""
             },
             "position": {
-                "x": 250,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4288523,\n\nNarrator: I entered to find Monica sitting on...\nen\n\n\nI entered to find Monica sitting on the sofa, a letter in her hands and a look of despair on her face."
-            },
-            "position": {
-                "x": 500,
-                "y": 4200
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4288647,\n\nNarrator: Monica briefly rested her head on m...\nen\n\n\nMonica briefly rested her head on my shoulder, then handed me the letter."
-            },
-            "position": {
-                "x": 0,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4289027,\n\nNarrator: Monica pointedly moved a few inches...\nen\n\n\nMonica pointedly moved a few inches away from me, then handed me the letter."
-            },
-            "position": {
-                "x": 250,
-                "y": 4350
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4289129,\n\nMonica: You know what this means -- he's g...\nen\n\n\n\"You know what this means -- he's going to have to join the military. He could die, Anton!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4350
+                "x": 6480,
+                "y": 0
             }
         },
         {
             "id": "node_90",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4289525,\n\nMonica: He did this to get back at you, yo...\nen\n\n\n\"He did this to get back at you, you know. Maybe if you had been there for him more often...\""
+                "label": "Franc\n\n\"Mom? Dad? What's going on?\""
             },
             "position": {
-                "x": 0,
-                "y": 4500
+                "x": 6750,
+                "y": 0
             }
         },
         {
             "id": "node_91",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4289905,\n\nFranc: Hi, Mom. What's going on?\nen\n\n\n\"Hi, Mom. What's going on?\""
+                "label": "Player\n\n\"Franc! Language!\""
             },
             "position": {
-                "x": 250,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_92",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4290015,\n\nFranc: Mom? Dad? What's going on?\nen\n\n\n\"Mom? Dad? What's going on?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4500
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4290125,\n\nPlayer: Franc! Language!\nen\n\n\n\"Franc! Language!\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4650
+                "x": 7020,
+                "y": 0
             }
         },
         {
             "id": "node_94",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4290131,\n\nPlayer: Franc! Language!\nMenu Text en\n\n\n\"Franc! Language!\""
+                "label": "Player\n\n\"You're a disappointment to this family, Franc.\""
             },
             "position": {
-                "x": 250,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4290233,\n\nPlayer: That's all you have to say?\nen\n\n\n\"That's all you have to say?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4650
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4290239,\n\nPlayer: That's all you have to say?\nMenu Text en\n\n\n\"That's all you have to say?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4290341,\n\nPlayer: Son, we're not angry at you...\nen\n\n\n\"Son, we're not angry at you...\""
-            },
-            "position": {
-                "x": 250,
-                "y": 4800
+                "x": 7290,
+                "y": 0
             }
         },
         {
             "id": "node_98",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4290347,\n\nPlayer: Son, we're not angry at you...\nMenu Text en\n\n\n\"Son, we're not angry at you...\""
+                "label": "Franc\n\n\"Do you think I give a fuck?\""
             },
             "position": {
-                "x": 500,
-                "y": 4800
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4290449,\n\nPlayer: You're a disappointment to this fa...\nen\n\n\n\"You're a disappointment to this family, Franc.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 4950
+                "x": 7560,
+                "y": 0
             }
         },
         {
             "id": "node_100",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4290455,\n\nPlayer: You're a disappointment to this fa...\nMenu Text en\n\n\n\"You're a disappointment to this family, Franc.\""
+                "label": "Franc\n\n\"Right, you should've taken a break from running the country to help your loser son!\""
             },
             "position": {
-                "x": 250,
-                "y": 4950
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4290835,\n\nFranc: Do you think I give a fuck?\nen\n\n\n\"Do you think I give a fuck?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 4950
+                "x": 7830,
+                "y": 0
             }
         },
         {
             "id": "node_102",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4290937,\n\nNarrator: Monica gasped.\nen\n\n\nMonica gasped."
+                "label": "Franc\n\n\"It's all about you, isn't it? You don't care that I bombed the test. You just care how it makes you look!\""
             },
             "position": {
-                "x": 0,
-                "y": 5100
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4291039,\n\nFranc: Right, you should've taken a break...\nen\n\n\n\"Right, you should've taken a break from running the country to help your loser son!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5100
+                "x": 8100,
+                "y": 0
             }
         },
         {
             "id": "node_104",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4291141,\n\nNarrator: Franc looked close to tears. Monica...\nen\n\n\nFranc looked close to tears. Monica put her hand on his shoulder."
+                "label": "Player\n\n\"My image doesn't matter. This is your future we're talking about.\""
             },
             "position": {
-                "x": 500,
-                "y": 5100
+                "x": 8370,
+                "y": 0
             }
         },
         {
             "id": "node_105",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4291243,\n\nFranc: It's all about you, isn't it? You...\nen\n\n\n\"It's all about you, isn't it? You don't care that I bombed the test. You just care how it makes you look!\""
+                "label": "Player\n\n\"You're right. The President of Sordland cannot have a failure for a son!\""
             },
             "position": {
-                "x": 0,
-                "y": 5250
+                "x": 8640,
+                "y": 0
             }
         },
         {
             "id": "node_106",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4291361,\n\nPlayer: How dare you speak to your parents...\nen\n\n\n\"How dare you speak to your parents that way!\""
+                "label": "Narrator\n\nMonica put her hand on his shoulder. She glared at me."
             },
             "position": {
-                "x": 250,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4291367,\n\nPlayer: How dare you speak to your parents...\nMenu Text en\n\n\n\"How dare you speak to your parents that way!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5250
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4291469,\n\nPlayer: My image doesn't matter. This is y...\nen\n\n\n\"My image doesn't matter. This is your future we're talking about.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4291475,\n\nPlayer: My image doesn't matter. This is y...\nMenu Text en\n\n\n\"My image doesn't matter. This is your future we're talking about.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5400
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4291577,\n\nPlayer: You're right. The President of Sor...\nen\n\n\n\"You're right. The President of Sordland cannot have a failure for a son!\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5400
+                "x": 8910,
+                "y": 0
             }
         },
         {
             "id": "node_111",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4291583,\n\nPlayer: You're right. The President of Sor...\nMenu Text en\n\n\n\"You're right. The President of Sordland cannot have a failure for a son!\""
+                "label": "Monica\n\n\"It's going to be okay. But you really should have studied harder, Franc.\""
             },
             "position": {
-                "x": 0,
-                "y": 5550
+                "x": 9180,
+                "y": 0
             }
         },
         {
             "id": "node_112",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4291685,\n\nNarrator: Monica put her hand on his shoulder...\nen\n\n\nMonica put her hand on his shoulder. She glared at me."
+                "label": "Monica\n\n\"Yes!\""
             },
             "position": {
-                "x": 250,
-                "y": 5550
+                "x": 8100,
+                "y": 200
             }
         },
         {
             "id": "node_113",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4291787,\n\nNarrator: Monica put her hand on his shoulder...\nen\n\n\nMonica put her hand on his shoulder."
+                "label": "Player\n\n\"I'm not going to take life lessons from Ewald Alphonso.\""
             },
             "position": {
-                "x": 500,
-                "y": 5550
-            }
-        },
-        {
-            "id": "node_114",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4291889,\n\nMonica: I know it's been a rough time. But...\nen\n\n\n\"I know it's been a rough time. But you really should have studied harder, Franc.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4291991,\n\nFranc: I know.\nen\n\n\n\"I know.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4292093,\n\nNarrator: Franc's face crumpled.\nen\n\n\nFranc's face crumpled."
-            },
-            "position": {
-                "x": 500,
-                "y": 5700
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4292195,\n\nMonica: It's going to be okay. But you rea...\nen\n\n\n\"It's going to be okay. But you really should have studied harder, Franc.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_118",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4292297,\n\nMonica: Yes!\nen\n\n\n\"Yes!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_119",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4292399,\n\nPlayer: I'm not going to take life lessons...\nen\n\n\n\"I'm not going to take life lessons from Ewald Alphonso.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 5850
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4292405,\n\nPlayer: I'm not going to take life lessons...\nMenu Text en\n\n\n\"I'm not going to take life lessons from Ewald Alphonso.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6000
+                "x": 10530,
+                "y": 200
             }
         },
         {
             "id": "node_121",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4293063,\n\nPlayer: I am a respected alumnus, it's tru...\nen\n\n\n\"I am a respected alumnus, it's true.\""
+                "label": "Player\n\n\"I do have connections to the board.\""
             },
             "position": {
-                "x": 250,
-                "y": 6000
+                "x": 9450,
+                "y": 0
             }
         },
         {
             "id": "node_122",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4293069,\n\nPlayer: I am a respected alumnus, it's tru...\nMenu Text en\n\n\n\"I am a respected alumnus, it's true.\""
+                "label": "Player\n\n\"It would be nice to have him closer to home.\""
             },
             "position": {
-                "x": 500,
-                "y": 6000
-            }
-        },
-        {
-            "id": "node_123",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4293171,\n\nPlayer: I do have connections to the board.\nen\n\n\n\"I do have connections to the board.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_124",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4293177,\n\nPlayer: I do have connections to the board.\nMenu Text en\n\n\n\"I do have connections to the board.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 6150
-            }
-        },
-        {
-            "id": "node_125",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4293279,\n\nPlayer: It would be nice to have him close...\nen\n\n\n\"It would be nice to have him closer to home.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6150
+                "x": 9720,
+                "y": 0
             }
         },
         {
             "id": "node_126",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4293285,\n\nPlayer: It would be nice to have him close...\nMenu Text en\n\n\n\"It would be nice to have him closer to home.\""
+                "label": "Franc\n\n\"I guess it's the army for me, then...\""
             },
             "position": {
-                "x": 0,
-                "y": 6300
+                "x": 9990,
+                "y": 0
             }
         },
         {
             "id": "node_127",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4293681,\n\nFranc: I guess it's the army for me, then...\nen\n\n\n\"I guess it's the army for me, then...\""
+                "label": "Franc\n\n\"So, what am I supposed to do now?\""
             },
             "position": {
-                "x": 250,
-                "y": 6300
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4293791,\n\nFranc: So, what am I supposed to do now?\nen\n\n\n\"So, what am I supposed to do now?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6300
+                "x": 10260,
+                "y": 0
             }
         },
         {
             "id": "node_129",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4293901,\n\nPlayer: Well, there's always military scho...\nen\n\n\n\"Well, there's always military school. But you're the president's son. You still have options.\""
+                "label": "Player\n\n\"You'll go to military school, of course. It's the only place that will have you.\""
             },
             "position": {
-                "x": 0,
-                "y": 6450
+                "x": 10530,
+                "y": 0
             }
         },
         {
             "id": "node_130",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4293907,\n\nPlayer: Well, there's always military scho...\nMenu Text en\n\n\n\"Well, there's always military school. But you're the president's son. You still have options.\""
+                "label": "Narrator\n\nMonica surprised me with her enthusiasm."
             },
             "position": {
-                "x": 250,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_131",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4294009,\n\nPlayer: You'll go to military school, of c...\nen\n\n\n\"You'll go to military school, of course. It's the only place that will have you.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6450
-            }
-        },
-        {
-            "id": "node_132",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4294015,\n\nPlayer: You'll go to military school, of c...\nMenu Text en\n\n\n\"You'll go to military school, of course. It's the only place that will have you.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_133",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4294117,\n\nNarrator: Monica surprised me with her enthus...\nen\n\n\nMonica surprised me with her enthusiasm."
-            },
-            "position": {
-                "x": 250,
-                "y": 6600
-            }
-        },
-        {
-            "id": "node_134",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4294497,\n\nFranc: But I failed the exam. This sucks....\nen\n\n\n\"But I failed the exam. This sucks. Are you sure about all of this. Isn't it technically illegal?\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6600
+                "x": 10800,
+                "y": 0
             }
         },
         {
             "id": "node_135",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4294615,\n\nFranc: If you're going to abuse your powe...\nen\n\n\n\"If you're going to abuse your power to get me into a school, I want it to be as far away from this family as possible.\""
+                "label": "Franc\n\n\"If you're going to abuse your power to get me into a school, I want it to be as far away from this family as possible.\""
             },
             "position": {
-                "x": 0,
-                "y": 6750
+                "x": 11070,
+                "y": 0
             }
         },
         {
             "id": "node_136",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4294733,\n\nPlayer: Wait. You could also study abroad....\nen\n\n\n\"Wait. You could also study abroad...\""
+                "label": "Player\n\n\"Wait. You could also study abroad...\""
             },
             "position": {
-                "x": 250,
-                "y": 6750
+                "x": 11340,
+                "y": 0
             }
         },
         {
             "id": "node_137",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4294739,\n\nPlayer: Wait. You could also study abroad....\nMenu Text en\n\n\n\"Wait. You could also study abroad...\""
+                "label": "Player\n\n\"It's true, you could study abroad...\""
             },
             "position": {
-                "x": 500,
-                "y": 6750
+                "x": 11610,
+                "y": 0
             }
         },
         {
             "id": "node_138",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4294841,\n\nPlayer: It's true, you could study abroad....\nen\n\n\n\"It's true, you could study abroad...\""
+                "label": "Player\n\n\"No. I won't influence your life. You've got to live with what you've done.\""
             },
             "position": {
-                "x": 0,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4294847,\n\nPlayer: It's true, you could study abroad....\nMenu Text en\n\n\n\"It's true, you could study abroad...\""
-            },
-            "position": {
-                "x": 250,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4294949,\n\nPlayer: No. I won't influence your life. Y...\nen\n\n\n\"No. I won't influence your life. You've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 6900
-            }
-        },
-        {
-            "id": "node_141",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4294955,\n\nPlayer: No. I won't influence your life. Y...\nMenu Text en\n\n\n\"No. I won't influence your life. You've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7050
+                "x": 11880,
+                "y": 0
             }
         },
         {
             "id": "node_142",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4295335,\n\nMonica: Really? President Anton Rayne sudd...\nen\n\n\n\"Really? President Anton Rayne suddenly refuses to influence his family members' lives? After banning his wife from politics?\""
+                "label": "Monica\n\n\"Really? President Anton Rayne suddenly refuses to influence his family members' lives? After banning his wife from politics?\""
             },
             "position": {
-                "x": 250,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_143",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295453,\n\nPlayer: That's beside the point. You were...\nen\n\n\n\"That's beside the point. You were the one who caused that whole deal in the first place.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7050
-            }
-        },
-        {
-            "id": "node_144",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295459,\n\nPlayer: That's beside the point. You were...\nMenu Text en\n\n\n\"That's beside the point. You were the one who caused that whole deal in the first place.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_145",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295561,\n\nMonica: Come on, Anton. This is the least...\nen\n\n\n\"Come on, Anton. This is the least you can do after what you did to me!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_146",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295663,\n\nPlayer: There was more at play there than...\nen\n\n\n\"There was more at play there than just you or me or any of us. I have a duty to this nation.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7200
-            }
-        },
-        {
-            "id": "node_147",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295669,\n\nPlayer: There was more at play there than...\nMenu Text en\n\n\n\"There was more at play there than just you or me or any of us. I have a duty to this nation.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_148",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295771,\n\nMonica: I'm so sorry that duty required yo...\nen\n\n\n\"I'm so sorry that duty required you to publicly ridicule me!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295873,\n\nPlayer: Don't change the subject from Fran...\nen\n\n\n\"Don't change the subject from Franc to you.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7350
-            }
-        },
-        {
-            "id": "node_150",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295879,\n\nPlayer: Don't change the subject from Fran...\nMenu Text en\n\n\n\"Don't change the subject from Franc to you.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4295981,\n\nFranc: Mom! Dad! Stop fighting!\nen\n\n\n\"Mom! Dad! Stop fighting!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7500
+                "x": 12150,
+                "y": 0
             }
         },
         {
             "id": "node_152",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4296361,\n\nFranc: I don't want to cause any more tro...\nen\n\n\n\"I don't want to cause any more trouble than I already have. I'll go to military school.\""
+                "label": "Franc\n\n\"I don't want to cause any more trouble than I already have. I'll go to military school.\""
             },
             "position": {
-                "x": 500,
-                "y": 7500
-            }
-        },
-        {
-            "id": "node_153",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4296463,\n\nFranc: I don't want to cause any more tro...\nen\n\n\n\"I don't want to cause any more trouble than I already have. I'll join the army.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7650
+                "x": 12420,
+                "y": 0
             }
         },
         {
             "id": "node_154",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4296565,\n\nFranc: I'm sick of this house and I'm sic...\nen\n\n\n\"I'm sick of this house and I'm sick of both of you. I'll go to military school.\""
+                "label": "Franc\n\n\"I'm sick of this house and I'm sick of both of you. I'll go to military school.\""
             },
             "position": {
-                "x": 250,
-                "y": 7650
+                "x": 12690,
+                "y": 0
             }
         },
         {
             "id": "node_155",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4296667,\n\nFranc: I'm sick of this house and I'm sic...\nen\n\n\n\"I'm sick of this house and I'm sick of both of you. I'll join the goddamn army.\""
+                "label": "Franc\n\n\"I'm sick of this house and I'm sick of both of you. I'll join the goddamn army.\""
             },
             "position": {
-                "x": 500,
-                "y": 7650
-            }
-        },
-        {
-            "id": "node_156",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4297325,\n\nMonica: I understand principles are import...\nen\n\n\n\"I understand principles are important. But, Anton, which is more important? Your principles or your son's future?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_157",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4297435,\n\nNarrator: Franc ran upstairs to his room.\nen\n\n\nFranc ran upstairs to his room."
-            },
-            "position": {
-                "x": 250,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_158",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4297543,\n\nPlayer: Franc, wait--\nen\n\n\n\"Franc, wait--\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7800
-            }
-        },
-        {
-            "id": "node_159",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4297549,\n\nPlayer: Franc, wait--\nMenu Text en\n\n\n\"Franc, wait--\""
-            },
-            "position": {
-                "x": 0,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4297651,\n\nPlayer: Good. It's time you learned some d...\nen\n\n\n\"Good. It's time you learned some discipline.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 7950
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4297657,\n\nPlayer: Good. It's time you learned some d...\nMenu Text en\n\n\n\"Good. It's time you learned some discipline.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 7950
+                "x": 13230,
+                "y": 200
             }
         },
         {
             "id": "node_162",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4297951,\n\nPlayer: My principles, of course.\nen\n\n\n\"My principles, of course.\""
+                "label": "Monica\n\n\"I understand principles are important. But, Anton, which is more important? Your principles or your son's future?\""
             },
             "position": {
-                "x": 0,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_163",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4297957,\n\nPlayer: My principles, of course.\nMenu Text en\n\n\n\"My principles, of course.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8100
+                "x": 13230,
+                "y": 0
             }
         },
         {
             "id": "node_164",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4298059,\n\nPlayer: My son's future, of course.\nen\n\n\n\"My son's future, of course.\""
+                "label": "Player\n\n\"Franc, wait--\""
             },
             "position": {
-                "x": 500,
-                "y": 8100
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4298065,\n\nPlayer: My son's future, of course.\nMenu Text en\n\n\n\"My son's future, of course.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_166",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4298167,\n\nMonica: Then I believe you will make the r...\nen\n\n\n\"Then I believe you will make the right choice.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8250
-            }
-        },
-        {
-            "id": "node_167",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4298277,\n\nFranc: I knew it.\nen\n\n\n\"I knew it.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 8250
+                "x": 15120,
+                "y": 200
             }
         },
         {
             "id": "node_168",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4298753,\n\nFranc: If it's so important to you, I'll...\nen\n\n\n\"If it's so important to you, I'll join the goddamn army. I won't be around to disgrace you any further.\""
+                "label": "Player\n\n\"My principles, of course.\""
             },
             "position": {
-                "x": 0,
-                "y": 8400
-            }
-        },
-        {
-            "id": "node_169",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4298855,\n\nFranc: If it's so important to you, I'll...\nen\n\n\n\"If it's so important to you, I'll go to goddamn military school. I won't be around to disgrace you any further.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8400
+                "x": 13230,
+                "y": 400
             }
         },
         {
             "id": "node_170",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4299235,\n\nPlayer: No, I've made my decision. You're...\nen\n\n\n\"No, I've made my decision. You're going to military school, Franc.\""
+                "label": "Monica\n\n\"Then I believe you will make the right choice.\""
             },
             "position": {
-                "x": 500,
-                "y": 8400
-            }
-        },
-        {
-            "id": "node_171",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4299241,\n\nPlayer: No, I've made my decision. You're...\nMenu Text en\n\n\n\"No, I've made my decision. You're going to military school.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_172",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4299343,\n\nPlayer: No, I've made my decision. You're...\nen\n\n\n\"No, I've made my decision. You're joining the army, Franc.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_173",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4299349,\n\nPlayer: No, I've made my decision. You're...\nMenu Text en\n\n\n\"No, I've made my decision. You're joining the army.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 8550
-            }
-        },
-        {
-            "id": "node_174",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4299451,\n\nPlayer: Fine. Let me think about this.\nen\n\n\n\"Fine. Let me think about this.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_175",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4299457,\n\nPlayer: Fine. Let me think about this.\nMenu Text en\n\n\n\"Fine. Let me think about this.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8700
-            }
-        },
-        {
-            "id": "node_176",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4299559,\n\nMonica: Thank you, Anton.\nen\n\n\n\"Thank you, Anton.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 8700
+                "x": 13770,
+                "y": 0
             }
         },
         {
             "id": "node_177",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4300131,\n\nFranc: Great. See you when I come home in...\nen\n\n\n\"Great. See you when I come home in a body bag.\""
+                "label": "Franc\n\n\"If it's so important to you, I'll go to goddamn military school. I won't be around to disgrace you any further.\""
             },
             "position": {
-                "x": 0,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_178",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4300233,\n\nFranc: All right, Dad. Serves me right fo...\nen\n\n\n\"All right, Dad. Serves me right for not studying.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4300335,\n\nPlayer: There's Holsord State, or you coul...\nen\n\n\n\"There's Holsord State, or you could study abroad...\""
-            },
-            "position": {
-                "x": 500,
-                "y": 8850
-            }
-        },
-        {
-            "id": "node_180",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4300341,\n\nPlayer: There's Holsord State, or you coul...\nMenu Text en\n\n\n\"There's Holsord State, or you could study abroad...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 9000
-            }
-        },
-        {
-            "id": "node_181",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4300443,\n\nStudy Abroad\nTitle en\n\n\nStudy Abroad"
-            },
-            "position": {
-                "x": 250,
-                "y": 9000
+                "x": 14040,
+                "y": 0
             }
         },
         {
             "id": "node_182",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4300911,\n\nPlayer: You know how I feel about communis...\nen\n\n\n\"You know how I feel about communists, but United People's University in Contana is free. It also has an excellent medical program.\""
+                "label": "Player\n\n\"No, I've made my decision. You're joining the army, Franc.\""
             },
             "position": {
-                "x": 500,
-                "y": 9000
+                "x": 14310,
+                "y": 0
             }
         },
         {
             "id": "node_183",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4300917,\n\nPlayer: You know how I feel about communis...\nMenu Text en\n\n\n\"You know how I feel about communists, but United People's University in Contana is free. It also has an excellent medical program.\""
+                "label": "Player\n\n\"Fine. Let me think about this.\""
             },
             "position": {
-                "x": 0,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_184",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4301297,\n\nPlayer: Holsord State University is the ri...\nen\n\n\n\"Holsord State University is the right decision after all.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_185",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4301303,\n\nPlayer: Holsord State University is the ri...\nMenu Text en\n\n\n\"Holsord State University is the right decision after all. [Nepotism]\""
-            },
-            "position": {
-                "x": 500,
-                "y": 9150
-            }
-        },
-        {
-            "id": "node_186",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4301405,\n\nPlayer: I won't influence your life, Franc...\nen\n\n\n\"I won't influence your life, Franc. The military is the right choice.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_187",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4301411,\n\nPlayer: I won't influence your life, Franc...\nMenu Text en\n\n\n\"I won't influence your life, Franc. The military is the right choice.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_188",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4301513,\n\nMilitary Convo\nTitle en\n\n\nMilitary Convo"
-            },
-            "position": {
-                "x": 500,
-                "y": 9300
-            }
-        },
-        {
-            "id": "node_189",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4301615,\n\nMonica: What do you think, Anton?\nen\n\n\n\"What do you think, Anton?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 9450
-            }
-        },
-        {
-            "id": "node_190",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4302281,\n\nPlayer: There's also Harcard in Arcasia. I...\nen\n\n\n\"There's also Harcard in Arcasia. It's one of the best universities in the world. With enough money, I could get you in.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9450
+                "x": 14580,
+                "y": 0
             }
         },
         {
             "id": "node_191",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4302287,\n\nPlayer: There's also Harcard in Arcasia. I...\nMenu Text en\n\n\n\"There's also Harcard in Arcasia. It's one of the best universities in the world. With enough money, I could get you in.\""
+                "label": "Franc\n\n\"All right, Dad. Serves me right for not studying.\""
             },
             "position": {
-                "x": 500,
-                "y": 9450
+                "x": 14850,
+                "y": 0
             }
         },
         {
             "id": "node_192",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4302671,\n\nPlayer: On second thought, I'd rather send...\nen\n\n\n\"On second thought, I'd rather send Franc to Harcard in Arcasia.\""
+                "label": "Player\n\n\"There's Holsord State, or you could study abroad...\""
             },
             "position": {
-                "x": 0,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_193",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4302677,\n\nPlayer: On second thought, I'd rather send...\nMenu Text en\n\n\n\"On second thought, I'd rather send Franc to Harcard in Arcasia.\" [-2 Personal Wealth]"
-            },
-            "position": {
-                "x": 250,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_194",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4302779,\n\nPlayer: It's been decided. I'll pay for Fr...\nen\n\n\n\"It's been decided. I'll pay for Franc to go to Harcard.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 9600
-            }
-        },
-        {
-            "id": "node_195",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4302785,\n\nPlayer: It's been decided. I'll pay for Fr...\nMenu Text en\n\n\n\"It's been decided. I'll pay for Franc to go to Harcard.\" [-2 Personal Wealth]"
-            },
-            "position": {
-                "x": 0,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_196",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4302887,\n\nPlayer: On the other hand, United People's...\nen\n\n\n\"On the other hand, United People's University in United Contana is free and has an excellent medical program...\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_197",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4302893,\n\nPlayer: On the other hand, United People's...\nMenu Text en\n\n\n\"On the other hand, United People's University in United Contana is free and has an excellent medical program...\""
-            },
-            "position": {
-                "x": 500,
-                "y": 9750
-            }
-        },
-        {
-            "id": "node_198",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4303273,\n\nPlayer: On second thought, I'd rather send...\nen\n\n\n\"On second thought, I'd rather send Franc to United Contana.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_199",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4303279,\n\nPlayer: On second thought, I'd rather send...\nMenu Text en\n\n\n\"On second thought, I'd rather send Franc to United Contana.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_200",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4304047,\n\nHolsord State Decided\nTitle en\n\n\nHolsord State Decided"
-            },
-            "position": {
-                "x": 500,
-                "y": 9900
-            }
-        },
-        {
-            "id": "node_201",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4304427,\n\nFranc: The better to keep me under your t...\nen\n\n\n\"The better to keep me under your thumb at all times.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 10050
+                "x": 15120,
+                "y": 0
             }
         },
         {
             "id": "node_202",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4304535,\n\nFranc: Thanks so much, Dad. I swear I won...\nen\n\n\n\"Thanks so much, Dad. I swear I won't let you down this time.\""
+                "label": "Player\n\n\"Holsord State University is the right decision after all.\""
             },
             "position": {
-                "x": 250,
-                "y": 10050
+                "x": 15390,
+                "y": 0
             }
         },
         {
             "id": "node_203",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4304643,\n\nFranc: But fine, I accept. It's better th...\nen\n\n\n\"But fine, I accept. It's better than the army.\""
+                "label": "Player\n\n\"I won't influence your life, Franc. The military is the right choice.\""
             },
             "position": {
-                "x": 500,
-                "y": 10050
+                "x": 17280,
+                "y": 200
             }
         },
         {
             "id": "node_204",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4304745,\n\nNarrator: Monica let out a long exhale.\nen\n\n\nMonica let out a long exhale."
+                "label": "Military Convo\n\nMilitary Convo"
             },
             "position": {
-                "x": 0,
-                "y": 10200
+                "x": 15930,
+                "y": 0
             }
         },
         {
             "id": "node_205",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4304847,\n\nMonica: What a day! Who's hungry for dinne...\nen\n\n\n\"What a day! Who's hungry for dinner?\""
+                "label": "Monica\n\n\"What do you think, Anton?\""
             },
             "position": {
-                "x": 250,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_206",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4304949,\n\nNarrator: Monica disappeared to the kitchen;...\nen\n\n\nMonica disappeared to the kitchen; Franc to his room. I went to my office and began making some phone calls."
-            },
-            "position": {
-                "x": 500,
-                "y": 10200
-            }
-        },
-        {
-            "id": "node_207",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4305057,\n\nStudy Abroad Decided\nTitle en\n\n\nStudy Abroad Decided"
-            },
-            "position": {
-                "x": 0,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_208",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4305437,\n\nFranc: I don't care. Whichever gets me ou...\nen\n\n\n\"I don't care. Whichever gets me out of here the fastest!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_209",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4305545,\n\nFranc: Thanks, Dad. Holsord State still w...\nen\n\n\n\"Thanks, Dad. Holsord State still would have been my first choice.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 10350
-            }
-        },
-        {
-            "id": "node_210",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4305653,\n\nMonica: Not only yours.\nen\n\n\n\"Not only yours.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 10500
+                "x": 20790,
+                "y": 600
             }
         },
         {
             "id": "node_211",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4305755,\n\nFranc: But it's your call to make, after...\nen\n\n\n\"But it's your call to make, after the way I messed up.\""
+                "label": "Player\n\n\"There's also Harcard in Arcasia. It's one of the best universities in the world. With enough money, I could get you in.\""
             },
             "position": {
-                "x": 250,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_212",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4311225,\n\nPlayer: Holsord State University is the ri...\nen\n\n\n\"Holsord State University is the right decision after all. It will cost a little extra due to the privatization changes.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 10500
-            }
-        },
-        {
-            "id": "node_213",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4311231,\n\nPlayer: Holsord State University is the ri...\nMenu Text en\n\n\n\"Holsord State University is the right decision after all. It will cost a little extra due to the privatization changes. [-1 Personal Wealth], [Nepotism]\""
-            },
-            "position": {
-                "x": 0,
-                "y": 10650
-            }
-        },
-        {
-            "id": "node_214",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4312451,\n\nPlayer: No. I won't influence your life. Y...\nen\n\n\n\"No. I won't influence your life. You've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 10650
-            }
-        },
-        {
-            "id": "node_215",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4312457,\n\nPlayer: No. I won't influence your life. Y...\nMenu Text en\n\n\n\"No. I won't influence your life. You've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 10650
+                "x": 16470,
+                "y": 0
             }
         },
         {
             "id": "node_216",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4313307,\n\nPlayer: Terrific. Holsord State it is, the...\nen\n\n\n\"Terrific. Holsord State it is, then.\""
+                "label": "Player\n\n\"On second thought, I'd rather send Franc to Harcard in Arcasia.\""
             },
             "position": {
-                "x": 0,
-                "y": 10800
+                "x": 15390,
+                "y": 400
             }
         },
         {
             "id": "node_217",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4313313,\n\nPlayer: Terrific. Holsord State it is, the...\nMenu Text en\n\n\n\"Terrific. Holsord State it is, then. [Nepotism]\""
+                "label": "Player\n\n\"It's been decided. I'll pay for Franc to go to Harcard.\""
             },
             "position": {
-                "x": 250,
-                "y": 10800
-            }
-        },
-        {
-            "id": "node_218",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4313505,\n\nPlayer: Terrific. Holsord State it is, the...\nen\n\n\n\"Terrific. Holsord State it is, then. Though, It going to cost us a little bit extra due to the privatization changes.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 10800
-            }
-        },
-        {
-            "id": "node_219",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4313511,\n\nPlayer: Terrific. Holsord State it is, the...\nMenu Text en\n\n\n\"Terrific. Holsord State it is, then. Though, It is going to cost us a little bit extra due to the privatization changes. [-1 Personal Wealth], [Nepotism]\""
-            },
-            "position": {
-                "x": 0,
-                "y": 10950
-            }
-        },
-        {
-            "id": "node_220",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4313709,\n\nPlayer: Unfortunately, Holsord is a no go....\nen\n\n\n\"Unfortunately, Holsord is a no go. We don't have the money, right now.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 10950
-            }
-        },
-        {
-            "id": "node_221",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4313715,\n\nPlayer: Unfortunately, Holsord is a no go....\nMenu Text en\n\n\n\"Unfortunately, Holsord is a no go. We don't have the money, right now.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 10950
-            }
-        },
-        {
-            "id": "node_222",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4313817,\n\nFranc: All thanks to you and your privati...\nen\n\n\n\"All thanks to you and your privatization changes!\""
-            },
-            "position": {
-                "x": 0,
-                "y": 11100
-            }
-        },
-        {
-            "id": "node_223",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4313927,\n\nPlayer: You could also study abroad...\nen\n\n\n\"You could also study abroad...\""
-            },
-            "position": {
-                "x": 250,
-                "y": 11100
-            }
-        },
-        {
-            "id": "node_224",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4313933,\n\nPlayer: You could also study abroad...\nMenu Text en\n\n\n\"You could also study abroad...\""
-            },
-            "position": {
-                "x": 500,
-                "y": 11100
-            }
-        },
-        {
-            "id": "node_225",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4314035,\n\nPlayer: So, I guess, you've got to live wi...\nen\n\n\n\"So, I guess, you've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 11250
-            }
-        },
-        {
-            "id": "node_226",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4314041,\n\nPlayer: So, I guess, you've got to live wi...\nMenu Text en\n\n\n\"No. I won't influence your life. You've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 11250
-            }
-        },
-        {
-            "id": "node_227",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4314323,\n\nPlayer: No, I've made my decision. I'm sen...\nen\n\n\n\"No, I've made my decision. I'm sending you to Holsord State.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 11250
-            }
-        },
-        {
-            "id": "node_228",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4314329,\n\nPlayer: No, I've made my decision. I'm sen...\nMenu Text en\n\n\n\"No, I've made my decision. I'm sending you to Holsord State. [Nepotism]\""
-            },
-            "position": {
-                "x": 0,
-                "y": 11400
-            }
-        },
-        {
-            "id": "node_229",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315269,\n\nPlayer: You could also study abroad...\nen\n\n\n\"You could also study abroad...\""
-            },
-            "position": {
-                "x": 250,
-                "y": 11400
-            }
-        },
-        {
-            "id": "node_230",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315275,\n\nPlayer: You could also study abroad...\nMenu Text en\n\n\n\"You could also study abroad...\""
-            },
-            "position": {
-                "x": 500,
-                "y": 11400
-            }
-        },
-        {
-            "id": "node_231",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315377,\n\nPlayer: You're right. Besides, We don't ha...\nen\n\n\n\"You're right. Besides, We don't have the money for Holsord, right now.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 11550
-            }
-        },
-        {
-            "id": "node_232",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315383,\n\nPlayer: You're right. Besides, We don't ha...\nMenu Text en\n\n\n\"You're right. Besides, We don't have the money for Holsord, right now.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 11550
-            }
-        },
-        {
-            "id": "node_233",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315575,\n\nPlayer: No, I've made my decision. I'm sen...\nen\n\n\n\"No, I've made my decision. I'm sending you to Holsord State, even if it is going to cost us a little bit extra due to the privatization changes.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 11550
-            }
-        },
-        {
-            "id": "node_234",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315581,\n\nPlayer: No, I've made my decision. I'm sen...\nMenu Text en\n\n\n\"No, I've made my decision. I'm sending you to Holsord State, even if it is going to cost us a little bit extra due to the privatization changes. [-1 Personal Wealth], [Nepotism]\""
-            },
-            "position": {
-                "x": 0,
-                "y": 11700
-            }
-        },
-        {
-            "id": "node_235",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315779,\n\nPlayer: So, I guess, you've got to live wi...\nen\n\n\n\"So, I guess, you've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 250,
-                "y": 11700
-            }
-        },
-        {
-            "id": "node_236",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315785,\n\nPlayer: So, I guess, you've got to live wi...\nMenu Text en\n\n\n\"So, I guess, you've got to live with what you've done.\""
-            },
-            "position": {
-                "x": 500,
-                "y": 11700
-            }
-        },
-        {
-            "id": "node_237",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4315977,\n\nFranc: All thanks to you and your privati...\nen\n\n\n\"All thanks to you and your privatization changes!\""
-            },
-            "position": {
-                "x": 0,
-                "y": 11850
-            }
-        },
-        {
-            "id": "node_238",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4316087,\n\nFranc: Wow, you're the best dad, ever!\nen\n\n\n\"Wow, you're the best dad, ever!\""
-            },
-            "position": {
-                "x": 250,
-                "y": 11850
-            }
-        },
-        {
-            "id": "node_239",
-            "type": "default",
-            "data": {
-                "label": "LineNo: 4316189,\n\nNarrator: Franc sneered at my statement.\nen\n\n\nFranc sneered at my statement."
-            },
-            "position": {
-                "x": 500,
-                "y": 11850
+                "x": 16740,
+                "y": 0
             }
         },
         {
             "id": "node_240",
-            "type": "default",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4316291,\n\nNarrator: Franc sneered at my statement.\nen\n\n\nFranc sneered at my statement."
+                "label": "Study Abroad Decided\n\nStudy Abroad Decided"
             },
             "position": {
-                "x": 0,
-                "y": 12000
+                "x": 17010,
+                "y": 0
             }
         },
         {
-            "id": "node_241",
-            "type": "default",
+            "id": "node_305",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4316393,\n\nFranc: Wow, you're the best dad, ever!\nen\n\n\n\"Wow, you're the best dad, ever!\""
+                "label": "Player\n\n\"Holsord State University is the right decision after all. It will cost a little extra due to the privatization changes.\""
             },
             "position": {
-                "x": 250,
-                "y": 12000
+                "x": 17280,
+                "y": 0
             }
         },
         {
-            "id": "node_242",
-            "type": "default",
+            "id": "node_318",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4316495,\n\nPlayer: Actually... nevermind.\nen\n\n\n\"Actually... nevermind.\""
+                "label": "Player\n\n\"No. I won't influence your life. You've got to live with what you've done.\""
             },
             "position": {
-                "x": 500,
-                "y": 12000
+                "x": 17550,
+                "y": 0
             }
         },
         {
-            "id": "node_243",
-            "type": "default",
+            "id": "node_329",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4316501,\n\nPlayer: Actually... nevermind.\nMenu Text en\n\n\n\"Actually... nevermind.\""
+                "label": "Player\n\n\"Terrific. Holsord State it is, then. Though, It going to cost us a little bit extra due to the privatization changes.\""
             },
             "position": {
-                "x": 0,
-                "y": 12150
+                "x": 17820,
+                "y": 0
             }
         },
         {
-            "id": "node_244",
-            "type": "default",
+            "id": "node_331",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4316603,\n\nMonica: This is the future of our boy, Ant...\nen\n\n\n\"This is the future of our boy, Anton. What should we do?\""
+                "label": "Player\n\n\"Unfortunately, Holsord is a no go. We don't have the money, right now.\""
             },
             "position": {
-                "x": 250,
-                "y": 12150
+                "x": 18090,
+                "y": 0
             }
         },
         {
-            "id": "node_245",
-            "type": "default",
+            "id": "node_333",
+            "type": "customNode",
             "data": {
-                "label": "LineNo: 4317261,\n\nFranc: Holsord State would be amazing! A...\nen\n\n\n\"Holsord State would be amazing! A bunch of my friends are going there, I could still come home to do my laundry.\""
+                "label": "Player\n\n\"You could also study abroad...\""
             },
             "position": {
-                "x": 500,
-                "y": 12150
+                "x": 18360,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_337",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No, I've made my decision. I'm sending you to Holsord State.\""
+            },
+            "position": {
+                "x": 20790,
+                "y": 400
+            }
+        },
+        {
+            "id": "node_347",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You could also study abroad...\""
+            },
+            "position": {
+                "x": 19170,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_348",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You're right. Besides, We don't have the money for Holsord, right now.\""
+            },
+            "position": {
+                "x": 19170,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_350",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No, I've made my decision. I'm sending you to Holsord State, even if it is going to cost us a little bit extra due to the privatization changes.\""
+            },
+            "position": {
+                "x": 19440,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_352",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"So, I guess, you've got to live with what you've done.\""
+            },
+            "position": {
+                "x": 19710,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_354",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"All thanks to you and your privatization changes!\""
+            },
+            "position": {
+                "x": 21060,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_355",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Wow, you're the best dad, ever!\""
+            },
+            "position": {
+                "x": 20250,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_356",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc sneered at my statement."
+            },
+            "position": {
+                "x": 20790,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_357",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc sneered at my statement."
+            },
+            "position": {
+                "x": 20790,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_359",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Actually... nevermind.\""
+            },
+            "position": {
+                "x": 21060,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_367",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Holsord State would be amazing! A bunch of my friends are going there, I could still come home to do my laundry.\""
+            },
+            "position": {
+                "x": 21330,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e0",
+            "id": "e1_to_289",
             "source": "node_1",
             "target": "node_289",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e1",
+            "id": "e3_to_66",
             "source": "node_3",
             "target": "node_66",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e2",
-            "source": "node_3",
-            "target": "node_66",
-            "animated": true
-        },
-        {
-            "id": "e3",
-            "source": "node_4",
-            "target": "node_78",
-            "animated": true
-        },
-        {
-            "id": "e4",
-            "source": "node_4",
-            "target": "node_78",
-            "animated": true
-        },
-        {
-            "id": "e5",
+            "id": "e5_to_78",
             "source": "node_5",
             "target": "node_78",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e6",
-            "source": "node_5",
-            "target": "node_78",
-            "animated": true
-        },
-        {
-            "id": "e7",
+            "id": "e6_to_78",
             "source": "node_6",
             "target": "node_78",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e8",
-            "source": "node_7",
-            "target": "node_10",
-            "animated": true
-        },
-        {
-            "id": "e9",
-            "source": "node_7",
-            "target": "node_10",
-            "animated": true
-        },
-        {
-            "id": "e10",
+            "id": "e8_to_65",
             "source": "node_8",
             "target": "node_65",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e11",
-            "source": "node_8",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e12",
+            "id": "e9_to_65",
             "source": "node_9",
             "target": "node_65",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e13",
-            "source": "node_9",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e14",
-            "source": "node_10",
-            "target": "node_11",
-            "animated": true
-        },
-        {
-            "id": "e15",
-            "source": "node_11",
-            "target": "node_12",
-            "animated": true
-        },
-        {
-            "id": "e16",
-            "source": "node_12",
-            "target": "node_13",
-            "animated": true
-        },
-        {
-            "id": "e17",
-            "source": "node_13",
-            "target": "node_14",
-            "animated": true
-        },
-        {
-            "id": "e18",
+            "id": "e14_to_124",
             "source": "node_14",
             "target": "node_124",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e19",
-            "source": "node_14",
-            "target": "node_124",
-            "animated": true
-        },
-        {
-            "id": "e20",
-            "source": "node_15",
-            "target": "node_18",
-            "animated": true
-        },
-        {
-            "id": "e21",
-            "source": "node_15",
-            "target": "node_18",
-            "animated": true
-        },
-        {
-            "id": "e22",
-            "source": "node_16",
-            "target": "node_19",
-            "animated": true
-        },
-        {
-            "id": "e23",
-            "source": "node_16",
-            "target": "node_19",
-            "animated": true
-        },
-        {
-            "id": "e24",
-            "source": "node_17",
-            "target": "node_18",
-            "animated": true
-        },
-        {
-            "id": "e25",
+            "id": "e18_to_83",
             "source": "node_18",
             "target": "node_83",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e26",
+            "id": "e19_to_83",
             "source": "node_19",
             "target": "node_83",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e27",
-            "source": "node_20",
-            "target": "node_21",
-            "animated": true
-        },
-        {
-            "id": "e28",
+            "id": "e21_to_87",
             "source": "node_21",
             "target": "node_87",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e29",
-            "source": "node_21",
-            "target": "node_87",
-            "animated": true
-        },
-        {
-            "id": "e30",
-            "source": "node_22",
-            "target": "node_25",
-            "animated": true
-        },
-        {
-            "id": "e31",
-            "source": "node_22",
-            "target": "node_25",
-            "animated": true
-        },
-        {
-            "id": "e32",
-            "source": "node_23",
-            "target": "node_24",
-            "animated": true
-        },
-        {
-            "id": "e33",
-            "source": "node_24",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e34",
-            "source": "node_25",
-            "target": "node_26",
-            "animated": true
-        },
-        {
-            "id": "e35",
-            "source": "node_26",
-            "target": "node_27",
-            "animated": true
-        },
-        {
-            "id": "e36",
+            "id": "e27_to_95",
             "source": "node_27",
             "target": "node_95",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e37",
-            "source": "node_28",
-            "target": "node_29",
-            "animated": true
-        },
-        {
-            "id": "e38",
-            "source": "node_29",
-            "target": "node_30",
-            "animated": true
-        },
-        {
-            "id": "e39",
-            "source": "node_30",
-            "target": "node_34",
-            "animated": true
-        },
-        {
-            "id": "e40",
-            "source": "node_30",
-            "target": "node_34",
-            "animated": true
-        },
-        {
-            "id": "e41",
+            "id": "e31_to_264",
             "source": "node_31",
             "target": "node_264",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e42",
-            "source": "node_31",
-            "target": "node_264",
-            "animated": true
-        },
-        {
-            "id": "e43",
-            "source": "node_32",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e44",
-            "source": "node_32",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e45",
-            "source": "node_33",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e46",
-            "source": "node_33",
-            "target": "node_36",
-            "animated": true
-        },
-        {
-            "id": "e47",
-            "source": "node_34",
-            "target": "node_35",
-            "animated": true
-        },
-        {
-            "id": "e48",
+            "id": "e35_to_266",
             "source": "node_35",
             "target": "node_266",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e49",
+            "id": "e36_to_265",
             "source": "node_36",
             "target": "node_265",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e50",
-            "source": "node_36",
-            "target": "node_265",
-            "animated": true
-        },
-        {
-            "id": "e51",
-            "source": "node_37",
-            "target": "node_39",
-            "animated": true
-        },
-        {
-            "id": "e52",
-            "source": "node_37",
-            "target": "node_39",
-            "animated": true
-        },
-        {
-            "id": "e53",
+            "id": "e38_to_113",
             "source": "node_38",
             "target": "node_113",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e54",
-            "source": "node_39",
-            "target": "node_40",
-            "animated": true
-        },
-        {
-            "id": "e55",
+            "id": "e40_to_123",
             "source": "node_40",
             "target": "node_123",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e56",
-            "source": "node_41",
-            "target": "node_43",
-            "animated": true
-        },
-        {
-            "id": "e57",
-            "source": "node_41",
-            "target": "node_43",
-            "animated": true
-        },
-        {
-            "id": "e58",
-            "source": "node_42",
-            "target": "node_46",
-            "animated": true
-        },
-        {
-            "id": "e59",
-            "source": "node_42",
-            "target": "node_46",
-            "animated": true
-        },
-        {
-            "id": "e60",
-            "source": "node_43",
-            "target": "node_49",
-            "animated": true
-        },
-        {
-            "id": "e61",
-            "source": "node_43",
-            "target": "node_49",
-            "animated": true
-        },
-        {
-            "id": "e62",
-            "source": "node_44",
-            "target": "node_45",
-            "animated": true
-        },
-        {
-            "id": "e63",
-            "source": "node_45",
-            "target": "node_48",
-            "animated": true
-        },
-        {
-            "id": "e64",
-            "source": "node_46",
-            "target": "node_47",
-            "animated": true
-        },
-        {
-            "id": "e65",
+            "id": "e48_to_294",
             "source": "node_48",
             "target": "node_294",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e66",
+            "id": "e52_to_360",
             "source": "node_52",
             "target": "node_360",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e67",
-            "source": "node_52",
-            "target": "node_360",
-            "animated": true
-        },
-        {
-            "id": "e68",
-            "source": "node_53",
-            "target": "node_224",
-            "animated": true
-        },
-        {
-            "id": "e69",
-            "source": "node_54",
-            "target": "node_55",
-            "animated": true
-        },
-        {
-            "id": "e70",
-            "source": "node_55",
-            "target": "node_56",
-            "animated": true
-        },
-        {
-            "id": "e71",
-            "source": "node_56",
-            "target": "node_57",
-            "animated": true
-        },
-        {
-            "id": "e72",
+            "id": "e57_to_206",
             "source": "node_57",
             "target": "node_206",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e73",
-            "source": "node_57",
-            "target": "node_206",
-            "animated": true
-        },
-        {
-            "id": "e74",
+            "id": "e58_to_216",
             "source": "node_58",
             "target": "node_216",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e75",
-            "source": "node_59",
-            "target": "node_60",
-            "animated": true
-        },
-        {
-            "id": "e76",
-            "source": "node_60",
-            "target": "node_61",
-            "animated": true
-        },
-        {
-            "id": "e77",
+            "id": "e61_to_210",
             "source": "node_61",
             "target": "node_210",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e78",
-            "source": "node_61",
-            "target": "node_210",
-            "animated": true
-        },
-        {
-            "id": "e79",
+            "id": "e63_to_254",
             "source": "node_63",
             "target": "node_254",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e80",
-            "source": "node_63",
-            "target": "node_254",
-            "animated": true
-        },
-        {
-            "id": "e81",
-            "source": "node_64",
-            "target": "node_65",
-            "animated": true
-        },
-        {
-            "id": "e82",
-            "source": "node_68",
-            "target": "node_71",
-            "animated": true
-        },
-        {
-            "id": "e83",
-            "source": "node_69",
-            "target": "node_75",
-            "animated": true
-        },
-        {
-            "id": "e84",
-            "source": "node_73",
-            "target": "node_74",
-            "animated": true
-        },
-        {
-            "id": "e85",
-            "source": "node_74",
-            "target": "node_75",
-            "animated": true
-        },
-        {
-            "id": "e86",
-            "source": "node_75",
-            "target": "node_76",
-            "animated": true
-        },
-        {
-            "id": "e87",
+            "id": "e76_to_6",
             "source": "node_76",
             "target": "node_6",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e88",
-            "source": "node_80",
-            "target": "node_81",
-            "animated": true
-        },
-        {
-            "id": "e89",
+            "id": "e81_to_7",
             "source": "node_81",
             "target": "node_7",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e90",
+            "id": "e85_to_20",
             "source": "node_85",
             "target": "node_20",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e91",
-            "source": "node_89",
-            "target": "node_91",
-            "animated": true
-        },
-        {
-            "id": "e92",
+            "id": "e90_to_22",
             "source": "node_90",
             "target": "node_22",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e93",
+            "id": "e91_to_22",
             "source": "node_91",
             "target": "node_22",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e94",
-            "source": "node_91",
-            "target": "node_22",
-            "animated": true
-        },
-        {
-            "id": "e95",
-            "source": "node_92",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e96",
-            "source": "node_92",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e97",
-            "source": "node_93",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e98",
-            "source": "node_93",
-            "target": "node_96",
-            "animated": true
-        },
-        {
-            "id": "e99",
+            "id": "e94_to_313",
             "source": "node_94",
             "target": "node_313",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e100",
-            "source": "node_94",
-            "target": "node_313",
-            "animated": true
-        },
-        {
-            "id": "e101",
+            "id": "e98_to_28",
             "source": "node_98",
             "target": "node_28",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e102",
-            "source": "node_99",
-            "target": "node_100",
-            "animated": true
-        },
-        {
-            "id": "e103",
+            "id": "e100_to_103",
             "source": "node_100",
             "target": "node_103",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e104",
-            "source": "node_101",
-            "target": "node_102",
-            "animated": true
-        },
-        {
-            "id": "e105",
+            "id": "e102_to_112",
             "source": "node_102",
             "target": "node_112",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e106",
-            "source": "node_103",
-            "target": "node_106",
-            "animated": true
-        },
-        {
-            "id": "e107",
-            "source": "node_103",
-            "target": "node_106",
-            "animated": true
-        },
-        {
-            "id": "e108",
+            "id": "e104_to_314",
             "source": "node_104",
             "target": "node_314",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e109",
-            "source": "node_104",
-            "target": "node_314",
-            "animated": true
-        },
-        {
-            "id": "e110",
+            "id": "e105_to_262",
             "source": "node_105",
             "target": "node_262",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e111",
-            "source": "node_105",
-            "target": "node_262",
-            "animated": true
-        },
-        {
-            "id": "e112",
+            "id": "e106_to_263",
             "source": "node_106",
             "target": "node_263",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e113",
-            "source": "node_107",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e114",
-            "source": "node_108",
-            "target": "node_109",
-            "animated": true
-        },
-        {
-            "id": "e115",
-            "source": "node_109",
-            "target": "node_111",
-            "animated": true
-        },
-        {
-            "id": "e116",
-            "source": "node_110",
-            "target": "node_115",
-            "animated": true
-        },
-        {
-            "id": "e117",
+            "id": "e111_to_110",
             "source": "node_111",
             "target": "node_110",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e118",
+            "id": "e112_to_110",
             "source": "node_112",
             "target": "node_110",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e119",
+            "id": "e113_to_131",
             "source": "node_113",
             "target": "node_131",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e120",
-            "source": "node_113",
-            "target": "node_131",
-            "animated": true
-        },
-        {
-            "id": "e121",
-            "source": "node_120",
-            "target": "node_122",
-            "animated": true
-        },
-        {
-            "id": "e122",
-            "source": "node_120",
-            "target": "node_122",
-            "animated": true
-        },
-        {
-            "id": "e123",
+            "id": "e121_to_132",
             "source": "node_121",
             "target": "node_132",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e124",
-            "source": "node_121",
-            "target": "node_132",
-            "animated": true
-        },
-        {
-            "id": "e125",
+            "id": "e122_to_132",
             "source": "node_122",
             "target": "node_132",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e126",
-            "source": "node_122",
-            "target": "node_132",
-            "animated": true
-        },
-        {
-            "id": "e127",
+            "id": "e126_to_17",
             "source": "node_126",
             "target": "node_17",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e128",
+            "id": "e127_to_37",
             "source": "node_127",
             "target": "node_37",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e129",
-            "source": "node_128",
-            "target": "node_130",
-            "animated": true
-        },
-        {
-            "id": "e130",
-            "source": "node_128",
-            "target": "node_130",
-            "animated": true
-        },
-        {
-            "id": "e131",
+            "id": "e129_to_113",
             "source": "node_129",
             "target": "node_113",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e132",
-            "source": "node_129",
-            "target": "node_113",
-            "animated": true
-        },
-        {
-            "id": "e133",
+            "id": "e130_to_39",
             "source": "node_130",
             "target": "node_39",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e134",
-            "source": "node_134",
-            "target": "node_136",
-            "animated": true
-        },
-        {
-            "id": "e135",
+            "id": "e135_to_320",
             "source": "node_135",
             "target": "node_320",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e136",
+            "id": "e136_to_341",
             "source": "node_136",
             "target": "node_341",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e137",
-            "source": "node_136",
-            "target": "node_341",
-            "animated": true
-        },
-        {
-            "id": "e138",
+            "id": "e137_to_195",
             "source": "node_137",
             "target": "node_195",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e139",
-            "source": "node_137",
-            "target": "node_195",
-            "animated": true
-        },
-        {
-            "id": "e140",
+            "id": "e138_to_196",
             "source": "node_138",
             "target": "node_196",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e141",
-            "source": "node_138",
-            "target": "node_196",
-            "animated": true
-        },
-        {
-            "id": "e142",
+            "id": "e142_to_163",
             "source": "node_142",
             "target": "node_163",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e143",
-            "source": "node_143",
-            "target": "node_146",
-            "animated": true
-        },
-        {
-            "id": "e144",
-            "source": "node_143",
-            "target": "node_146",
-            "animated": true
-        },
-        {
-            "id": "e145",
-            "source": "node_144",
-            "target": "node_145",
-            "animated": true
-        },
-        {
-            "id": "e146",
-            "source": "node_145",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e147",
-            "source": "node_145",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e148",
-            "source": "node_146",
-            "target": "node_147",
-            "animated": true
-        },
-        {
-            "id": "e149",
-            "source": "node_147",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e150",
-            "source": "node_147",
-            "target": "node_149",
-            "animated": true
-        },
-        {
-            "id": "e151",
-            "source": "node_148",
-            "target": "node_145",
-            "animated": true
-        },
-        {
-            "id": "e152",
+            "id": "e152_to_160",
             "source": "node_152",
             "target": "node_160",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e153",
-            "source": "node_153",
-            "target": "node_168",
-            "animated": true
-        },
-        {
-            "id": "e154",
+            "id": "e154_to_167",
             "source": "node_154",
             "target": "node_167",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e155",
+            "id": "e155_to_168",
             "source": "node_155",
             "target": "node_168",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e156",
+            "id": "e162_to_155",
             "source": "node_162",
             "target": "node_155",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e157",
-            "source": "node_163",
-            "target": "node_170",
-            "animated": true
-        },
-        {
-            "id": "e158",
+            "id": "e164_to_269",
             "source": "node_164",
             "target": "node_269",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e159",
-            "source": "node_164",
-            "target": "node_269",
-            "animated": true
-        },
-        {
-            "id": "e160",
-            "source": "node_165",
-            "target": "node_164",
-            "animated": true
-        },
-        {
-            "id": "e161",
-            "source": "node_165",
-            "target": "node_164",
-            "animated": true
-        },
-        {
-            "id": "e162",
+            "id": "e168_to_259",
             "source": "node_168",
             "target": "node_259",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e163",
-            "source": "node_168",
-            "target": "node_259",
-            "animated": true
-        },
-        {
-            "id": "e164",
-            "source": "node_169",
-            "target": "node_173",
-            "animated": true
-        },
-        {
-            "id": "e165",
-            "source": "node_169",
-            "target": "node_173",
-            "animated": true
-        },
-        {
-            "id": "e166",
+            "id": "e170_to_267",
             "source": "node_170",
             "target": "node_267",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e167",
-            "source": "node_171",
-            "target": "node_184",
-            "animated": true
-        },
-        {
-            "id": "e168",
-            "source": "node_176",
-            "target": "node_178",
-            "animated": true
-        },
-        {
-            "id": "e169",
+            "id": "e177_to_167",
             "source": "node_177",
             "target": "node_167",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e170",
-            "source": "node_181",
-            "target": "node_182",
-            "animated": true
-        },
-        {
-            "id": "e171",
-            "source": "node_181",
-            "target": "node_182",
-            "animated": true
-        },
-        {
-            "id": "e172",
+            "id": "e182_to_189",
             "source": "node_182",
             "target": "node_189",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e173",
-            "source": "node_182",
-            "target": "node_189",
-            "animated": true
-        },
-        {
-            "id": "e174",
+            "id": "e183_to_190",
             "source": "node_183",
             "target": "node_190",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e175",
-            "source": "node_183",
-            "target": "node_190",
-            "animated": true
-        },
-        {
-            "id": "e176",
-            "source": "node_184",
-            "target": "node_185",
-            "animated": true
-        },
-        {
-            "id": "e177",
-            "source": "node_190",
-            "target": "node_186",
-            "animated": true
-        },
-        {
-            "id": "e178",
+            "id": "e191_to_164",
             "source": "node_191",
             "target": "node_164",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e179",
+            "id": "e192_to_164",
             "source": "node_192",
             "target": "node_164",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e180",
-            "source": "node_192",
-            "target": "node_164",
-            "animated": true
-        },
-        {
-            "id": "e181",
-            "source": "node_193",
-            "target": "node_198",
-            "animated": true
-        },
-        {
-            "id": "e182",
-            "source": "node_198",
-            "target": "node_197",
-            "animated": true
-        },
-        {
-            "id": "e183",
-            "source": "node_198",
-            "target": "node_197",
-            "animated": true
-        },
-        {
-            "id": "e184",
+            "id": "e202_to_58",
             "source": "node_202",
             "target": "node_58",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e185",
-            "source": "node_202",
-            "target": "node_58",
-            "animated": true
-        },
-        {
-            "id": "e186",
+            "id": "e203_to_214",
             "source": "node_203",
             "target": "node_214",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e187",
-            "source": "node_203",
-            "target": "node_214",
-            "animated": true
-        },
-        {
-            "id": "e188",
+            "id": "e204_to_215",
             "source": "node_204",
             "target": "node_215",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e189",
+            "id": "e205_to_140",
             "source": "node_205",
             "target": "node_140",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e190",
+            "id": "e211_to_315",
             "source": "node_211",
             "target": "node_315",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e191",
-            "source": "node_211",
-            "target": "node_315",
-            "animated": true
-        },
-        {
-            "id": "e192",
+            "id": "e216_to_59",
             "source": "node_216",
             "target": "node_59",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e193",
-            "source": "node_216",
-            "target": "node_59",
-            "animated": true
-        },
-        {
-            "id": "e194",
+            "id": "e217_to_226",
             "source": "node_217",
             "target": "node_226",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e195",
-            "source": "node_217",
-            "target": "node_226",
-            "animated": true
-        },
-        {
-            "id": "e196",
-            "source": "node_218",
-            "target": "node_228",
-            "animated": true
-        },
-        {
-            "id": "e197",
-            "source": "node_218",
-            "target": "node_228",
-            "animated": true
-        },
-        {
-            "id": "e198",
-            "source": "node_222",
-            "target": "node_223",
-            "animated": true
-        },
-        {
-            "id": "e199",
-            "source": "node_222",
-            "target": "node_223",
-            "animated": true
-        },
-        {
-            "id": "e200",
-            "source": "node_230",
-            "target": "node_258",
-            "animated": true
-        },
-        {
-            "id": "e201",
-            "source": "node_234",
-            "target": "node_236",
-            "animated": true
-        },
-        {
-            "id": "e202",
-            "source": "node_235",
-            "target": "node_237",
-            "animated": true
-        },
-        {
-            "id": "e203",
-            "source": "node_236",
-            "target": "node_238",
-            "animated": true
-        },
-        {
-            "id": "e204",
-            "source": "node_237",
-            "target": "node_238",
-            "animated": true
-        },
-        {
-            "id": "e205",
-            "source": "node_238",
-            "target": "node_239",
-            "animated": true
-        },
-        {
-            "id": "e206",
-            "source": "node_239",
-            "target": "node_240",
-            "animated": true
-        },
-        {
-            "id": "e207",
+            "id": "e240_to_48",
             "source": "node_240",
             "target": "node_48",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e208",
-            "source": "node_244",
-            "target": "node_246",
-            "animated": true
-        },
-        {
-            "id": "e209",
-            "source": "node_245",
-            "target": "node_238",
-            "animated": true
-        },
-        {
-            "id": "e210",
-            "source": "node_246",
-            "target": "node_247",
-            "animated": true
-        },
-        {
-            "id": "e211",
-            "source": "node_247",
-            "target": "node_248",
-            "animated": true
-        },
-        {
-            "id": "e212",
+            "id": "e305_to_203",
             "source": "node_305",
             "target": "node_203",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e213",
-            "source": "node_305",
-            "target": "node_203",
-            "animated": true
-        },
-        {
-            "id": "e214",
+            "id": "e318_to_205",
             "source": "node_318",
             "target": "node_205",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e215",
-            "source": "node_318",
-            "target": "node_205",
-            "animated": true
-        },
-        {
-            "id": "e216",
-            "source": "node_327",
-            "target": "node_329",
-            "animated": true
-        },
-        {
-            "id": "e217",
-            "source": "node_327",
-            "target": "node_329",
-            "animated": true
-        },
-        {
-            "id": "e218",
+            "id": "e329_to_231",
             "source": "node_329",
             "target": "node_231",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e219",
-            "source": "node_329",
-            "target": "node_231",
-            "animated": true
-        },
-        {
-            "id": "e220",
+            "id": "e331_to_326",
             "source": "node_331",
             "target": "node_326",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e221",
-            "source": "node_331",
-            "target": "node_326",
-            "animated": true
-        },
-        {
-            "id": "e222",
-            "source": "node_332",
-            "target": "node_333",
-            "animated": true
-        },
-        {
-            "id": "e223",
+            "id": "e333_to_335",
             "source": "node_333",
             "target": "node_335",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e224",
-            "source": "node_333",
-            "target": "node_335",
-            "animated": true
-        },
-        {
-            "id": "e225",
-            "source": "node_334",
-            "target": "node_336",
-            "animated": true
-        },
-        {
-            "id": "e226",
-            "source": "node_334",
-            "target": "node_336",
-            "animated": true
-        },
-        {
-            "id": "e227",
+            "id": "e337_to_205",
             "source": "node_337",
             "target": "node_205",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e228",
-            "source": "node_337",
-            "target": "node_205",
-            "animated": true
-        },
-        {
-            "id": "e229",
+            "id": "e347_to_194",
             "source": "node_347",
             "target": "node_194",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e230",
-            "source": "node_347",
-            "target": "node_194",
-            "animated": true
-        },
-        {
-            "id": "e231",
+            "id": "e348_to_347",
             "source": "node_348",
             "target": "node_347",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e232",
-            "source": "node_348",
-            "target": "node_347",
-            "animated": true
-        },
-        {
-            "id": "e233",
+            "id": "e350_to_231",
             "source": "node_350",
             "target": "node_231",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e234",
-            "source": "node_350",
-            "target": "node_231",
-            "animated": true
-        },
-        {
-            "id": "e235",
+            "id": "e352_to_339",
             "source": "node_352",
             "target": "node_339",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e236",
-            "source": "node_352",
-            "target": "node_339",
-            "animated": true
-        },
-        {
-            "id": "e237",
+            "id": "e354_to_205",
             "source": "node_354",
             "target": "node_205",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e238",
+            "id": "e355_to_353",
             "source": "node_355",
             "target": "node_353",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e239",
+            "id": "e356_to_337",
             "source": "node_356",
             "target": "node_337",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e240",
+            "id": "e357_to_356",
             "source": "node_357",
             "target": "node_356",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e241",
-            "source": "node_358",
-            "target": "node_359",
-            "animated": true
-        },
-        {
-            "id": "e242",
+            "id": "e359_to_354",
             "source": "node_359",
             "target": "node_354",
-            "animated": true
+            "type": "step"
         },
         {
-            "id": "e243",
-            "source": "node_359",
-            "target": "node_354",
-            "animated": true
-        },
-        {
-            "id": "e244",
-            "source": "node_360",
-            "target": "node_361",
-            "animated": true
-        },
-        {
-            "id": "e245",
+            "id": "e367_to_272",
             "source": "node_367",
             "target": "node_272",
-            "animated": true
+            "type": "step"
         }
     ]
 }
