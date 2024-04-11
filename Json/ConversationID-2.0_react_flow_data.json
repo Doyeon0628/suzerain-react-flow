@@ -1,0 +1,1770 @@
+{
+    "nodes": [
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"My cabinet members were gathered to...\"\n\nMy cabinet members were gathered to discuss the shooting outside the Palace. Lileas presented the initial report.\n\nAddConversant(Lileas Graf); AddConversant(Nia Morgna); AddConversant(Petr Vectern); AddConversant(Iosef Lancea); AddConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn01_SnO_MPShot = true\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“I agree. We are re-evaluating our...\"\n\n“I agree. We are re-evaluating our security measures. However, the recession has affected my ministry negatively.”"
+            },
+            "position": {
+                "x": 2025,
+                "y": 1400
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea: \"“Only if we stay vigilant as a coun...\"\n\n“Only if we stay vigilant as a country... We must think about the upcoming budget.”"
+            },
+            "position": {
+                "x": 945,
+                "y": 1400
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“Freedom of expression is part of o...\"\n\n“Freedom of expression is part of our constitution. We can't have anyone, let alone an MP, shot for voicing different opinions.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 5800
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“But why Bernard Circas?”\"\n\n“But why Bernard Circas?”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 2800
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“What were the motivations behind s...\"\n\n“What were the motivations behind such a horrid act?”\n\n“What were the motivations of such a horrid act?”"
+            },
+            "position": {
+                "x": 810,
+                "y": 400
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“We should refrain from making the...\"\n\n“We should refrain from making the issue a political one from the start. It will only add fuel to the fire.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 1200
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“Regardless, a full investigation i...\"\n\n“Regardless, a full investigation into all involved parties is under way. We will find the subversives and punish them soon enough, Mr. President.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 4200
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"The meeting concluded and the minis...\"\n\nThe meeting concluded and the ministers left the room with concerned looks. It was hard to anticipate what would happen next.\n\nRemoveConversant(Lileas Graf); RemoveConversant(Nia Morgna); RemoveConversant(Petr Vectern); RemoveConversant(Iosef Lancea); RemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 1485,
+                "y": 5200
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“The guards at the scene were fifty...\"\n\n“The guards at the scene were fifty meters away and immediately took action by responding and killing the assailant who was identified as a member of the nationalist organization, Young Sords.”"
+            },
+            "position": {
+                "x": 1755,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“An MP shot near the Palace. That i...\"\n\n“An MP shot near the Palace. That is absolutely unacceptable.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 800
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“Our investigators are suspecting a...\"\n\n“Our investigators are suspecting a political assassination since the Young Sords have been threatening the communists for some time.”"
+            },
+            "position": {
+                "x": 945,
+                "y": 1200
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“He has always been an infamous fig...\"\n\n“He has always been an infamous figure. His poems had a large impact in the spread of communist ideas in Sordland. Many considered him a threat.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 1400
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“This may well create a dangerous a...\"\n\n“This may well create a dangerous atmosphere where the left versus right political violence of the 1920s could spark once again.”"
+            },
+            "position": {
+                "x": 810,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“I fully agree. We should protect f...\"\n\n“I fully agree. We should protect freedom of speech.”"
+            },
+            "position": {
+                "x": 1350,
+                "y": 1600
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“The Malenyevist ideology that the...\"\n\n“The Malenyevist ideology that the Red Youth promotes poses threats to our country too. We should be cautious.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 3000
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“The nationalist Young Sords have o...\"\n\n“The nationalist Young Sords have overstepped, and they must face consequences for such an extreme action.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 3000
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern: \"“A return to those days would be de...\"\n\n“A return to those days would be devastating. The coups are the reason why our country stagnated for a decade.”"
+            },
+            "position": {
+                "x": 1755,
+                "y": 3000
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"Nia Morgna, the Minister of Justice...\"\n\nNia Morgna, the Minister of Justice, sighed."
+            },
+            "position": {
+                "x": 1485,
+                "y": 1800
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“Our laws do, and for good reason....\"\n\n“Our laws do, and for good reason. Silencing voices only results in fear and stagnation inside society.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 2000
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"Several police cars rushed past the...\"\n\nSeveral police cars rushed past the Maroon Palace and everyone went silent."
+            },
+            "position": {
+                "x": 1215,
+                "y": 3200
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea: \"“All due respect, ma'am, but we sho...\"\n\n“All due respect, ma'am, but we shouldn't be quick to jump to conclusions before a full investigation has been conducted.”"
+            },
+            "position": {
+                "x": 1350,
+                "y": 5000
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“Agreed. We are always watchful of...\"\n\n“Agreed. We are always watchful of internal threats, like the banned Communist Party members who support a similar agenda as the Red Youth.”"
+            },
+            "position": {
+                "x": 1755,
+                "y": 3800
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea: \"“Don't be stupid, woman. These orga...\"\n\n“Don't be stupid, woman. These organizations speak against the state. The Labor Union of Sordland is also in the same boat. I wouldn't be surprised if United Contana had a hand in supporting all of them.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 3200
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“I hear your concerns, our police d...\"\n\n“I hear your concerns, our police do their best to uphold the rights of our citizens. We will prevent such an act from happening again by making sure our security measures are re-evaluated.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 3800
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“I agree. Internal stability must b...\"\n\n“I agree. Internal stability must be maintained. Our security funding might need to be increased.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 3600
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“We should not lose sight of our re...\"\n\n“We should not lose sight of our real political goals, like the constitutional reforms.”"
+            },
+            "position": {
+                "x": 1080,
+                "y": 6000
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“It is too soon to to jump to concl...\"\n\n“It is too soon to to jump to conclusions. Reckless acts will have dire consequences.”"
+            },
+            "position": {
+                "x": 1620,
+                "y": 6400
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“I am sure the Minister of Interior...\"\n\n“I am sure the Minister of Interior has already taken the necessary precautions.”"
+            },
+            "position": {
+                "x": 1080,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“Agreed, these matters shouldn't di...\"\n\n“Agreed, these matters shouldn't distract us from what the people want us to do.”"
+            },
+            "position": {
+                "x": 1350,
+                "y": 6200
+            }
+        },
+        {
+            "id": "node_36",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reformist_Intention == true\n\nnan"
+            },
+            "position": {
+                "x": 1620,
+                "y": 6600
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reformist_Intention == true\n\nnan"
+            },
+            "position": {
+                "x": 1350,
+                "y": 6000
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Reformist_Intention == true)\n\nnan"
+            },
+            "position": {
+                "x": 1620,
+                "y": 6200
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Dictator_Intention == true\n\nnan"
+            },
+            "position": {
+                "x": 1620,
+                "y": 6000
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Dictator_Intention == true)\n\nnan"
+            },
+            "position": {
+                "x": 1350,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Intention == true\n\nnan"
+            },
+            "position": {
+                "x": 1890,
+                "y": 6000
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Autocrat_Intention == true)\n\nnan"
+            },
+            "position": {
+                "x": 1620,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“Any direct attack against the gove...\"\n\n“Any direct attack against the government and our people is a serious concern but we don't know enough to act on yet.”"
+            },
+            "position": {
+                "x": 1080,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“It seems that the tensions between...\"\n\n“It seems that the tensions between the communists and nationalists will escalate further.”"
+            },
+            "position": {
+                "x": 1350,
+                "y": 400
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“You can be assured that our police...\"\n\n“You can be assured that our police units and intelligence units are on increased threat condition. Nobody should be able to move a finger against government officials.”"
+            },
+            "position": {
+                "x": 1890,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern: \"“This will be it for today then. We...\"\n\n“This will be it for today then. We will convene again soon. Thank you all, and keep us updated.”"
+            },
+            "position": {
+                "x": 1350,
+                "y": 6400
+            }
+        },
+        {
+            "id": "node_51",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"Nia had always been one of the only...\"\n\nNia had always been one of the only members of the Justice Ministry truly deserving of the name. She had survived countless attacks on her character while fighting corruption within the ministry, and rising to power had only compounded her sense of moral duty."
+            },
+            "position": {
+                "x": 1755,
+                "y": 800
+            }
+        },
+        {
+            "id": "node_52",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"Minister of Defense Iosef Lancea gr...\"\n\nMinister of Defense Iosef Lancea grunted in disapproval. He towered over the rest of us in full military uniform, his many war medals conspicuously on display."
+            },
+            "position": {
+                "x": 1485,
+                "y": 2600
+            }
+        },
+        {
+            "id": "node_53",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"Minister of Defense Iosef Lancea gr...\"\n\nMinister of Defense Iosef Lancea grunted in disapproval. He towered over the rest of us in full military uniform, his many war medals conspicuously on display."
+            },
+            "position": {
+                "x": 1755,
+                "y": 3600
+            }
+        },
+        {
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“Fortunately, yes. You were simply...\"\n\n“Fortunately, yes. You were simply in the wrong place at the wrong time. Our security forces have no reason to believe anybody has motivations to act against the President of Sordland for now.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 3600
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“So I wasn't the target?”\"\n\n“So I wasn't the target?”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 1400
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“The Red Youth has condemned the ki...\"\n\n“The Red Youth has condemned the killing but didn't stop there. They promised revenge.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 1200
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“This will in turn spark further ag...\"\n\n“This will in turn spark further aggression from the Young Sords. The whole cycle started because Bernard Circas expressed his views. We can't simply look away.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 2200
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“This is not a simple overstep but...\"\n\n“This is not a simple overstep but an attack on our country. Murder for political opinions is a thing of the past. Our administration is building something new.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 2400
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“These groups wouldn't resort to un...\"\n\n“These groups wouldn't resort to unconventional means if they were represented in our Assembly. The high electoral threshold and bans are making these factions extreme.”"
+            },
+            "position": {
+                "x": 1755,
+                "y": 3200
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“Justice will be served and the rul...\"\n\n“Justice will be served and the rule of law will return to this country stronger than ever.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 3400
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“It is political, though, isn't it?...\"\n\n“It is political, though, isn't it?”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 5600
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“It's early, but will we attend the...\"\n\n“It's early, but will we attend the funeral?”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 4400
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea: \"“How can that be achieved when it i...\"\n\n“How can that be achieved when it is Bernard Circas we are talking about? He is *the* communist of Sordland.”"
+            },
+            "position": {
+                "x": 1755,
+                "y": 4400
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea: \"“There aren't many sides. The state...\"\n\n“There aren't many sides. The state versus its enemies.”"
+            },
+            "position": {
+                "x": 1620,
+                "y": 4800
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna: \"“We had that before and know very w...\"\n\n“We had that before and know very well how it was.”"
+            },
+            "position": {
+                "x": 1350,
+                "y": 4800
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea: \"“Agreed, ma'am. Our Gendarmerie wil...\"\n\n“Agreed, ma'am. Our Gendarmerie will also help boost security in the rural areas where possible. There might be more violence to come.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 3400
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"Minister of Defense Iosef Lancea gr...\"\n\nMinister of Defense Iosef Lancea grunted in approval. He towered over the rest of us in full military uniform, his many war medals conspicuously on display."
+            },
+            "position": {
+                "x": 1485,
+                "y": 4000
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"“Agreed. We will reach out to the N...\"\n\n“Agreed. We will reach out to the NFP and ask them to calm the situation with the Young Sords. The two groups have ties and Mr. Kibener sees reason, after all, which can't be said about the Young Sords at times.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 3800
+            }
+        },
+        {
+            "id": "node_69",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“You are right, we need to calm the...\"\n\n“You are right, we need to calm the situation.”\n\n“You are right. We need to defuse the situation.”"
+            },
+            "position": {
+                "x": 1755,
+                "y": 3400
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“Yes, but we need to calm the count...\"\n\n“Yes, but we need to calm the country. If we take sides we could escalate the situation further.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 4400
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“Our government is capable to maint...\"\n\n“Our government is capable to maintain security. Our job will be to reduce tensions.”"
+            },
+            "position": {
+                "x": 1215,
+                "y": 4600
+            }
+        },
+        {
+            "id": "node_72",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“In my opinion we should. The nuanc...\"\n\n“In my opinion we should. The nuance here is to detach the person from the violent act.”"
+            },
+            "position": {
+                "x": 1485,
+                "y": 4600
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade: \"“It is difficult, but an elected of...\"\n\n“It is difficult, but an elected official has been shot. This is unacceptable for our new administration. We need to make sure we show our stance by condemning it at the funeral.”"
+            },
+            "position": {
+                "x": 1755,
+                "y": 4600
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"Lucian took some notes after checki...\"\n\nLucian took some notes after checking the latest newspapers and reports."
+            },
+            "position": {
+                "x": 1620,
+                "y": 5000
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“We can't fix the recession if ther...\"\n\n“We can't fix the recession if there isn't stability.”"
+            },
+            "position": {
+                "x": 1350,
+                "y": 6600
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Player: \"“We will make it through this and d...\"\n\n“We will make it through this and deliver our promises.”"
+            },
+            "position": {
+                "x": 2430,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern: \"“You are right. We need to trust ou...\"\n\n“You are right. We need to trust our ministers to stabilize the situation if it comes to it.”"
+            },
+            "position": {
+                "x": 1620,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern: \"“No use worrying about it now. Let'...\"\n\n“No use worrying about it now. Let's analyze the effects first. We will cross that bridge when we come to it.”"
+            },
+            "position": {
+                "x": 2430,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern: \"“Hell yes, President Rayne!”\"\n\n“Hell yes, President Rayne!”"
+            },
+            "position": {
+                "x": 1890,
+                "y": 400
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Intention == false\n\nnan"
+            },
+            "position": {
+                "x": 1620,
+                "y": 400
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Intention == false\n\nnan"
+            },
+            "position": {
+                "x": 1350,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Autocrat_Intention == false)\n\nnan"
+            },
+            "position": {
+                "x": 2700,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Intention == true\n\nnan"
+            },
+            "position": {
+                "x": 1890,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_86",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Autocrat_Intention == true)\n\nnan"
+            },
+            "position": {
+                "x": 2970,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea: \"“We will prevail.”\"\n\n“We will prevail.”"
+            },
+            "position": {
+                "x": 2700,
+                "y": 200
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern: \"“We are here to stay.”\"\n\n“We are here to stay.”"
+            },
+            "position": {
+                "x": 2160,
+                "y": 400
+            }
+        },
+        {
+            "id": "node_90",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern: \"“I'll do my best to help coordinate...\"\n\n“I'll do my best to help coordinate the administrative tasks.”"
+            },
+            "position": {
+                "x": 1890,
+                "y": 600
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn01_LT_Murder = true\n\nnan"
+            },
+            "position": {
+                "x": 1485,
+                "y": 5400
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"She spat the last word out with som...\"\n\nShe spat the last word out with some distaste."
+            },
+            "position": {
+                "x": 2025,
+                "y": 1200
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf: \"\"The president and his family were...\"\n\n\"The president and his family were unharmed, praise God.\""
+            },
+            "position": {
+                "x": 1080,
+                "y": 600
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 1215,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_95",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 1620,
+                "y": 1600
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e3_to_4",
+            "source": "node_3",
+            "target": "node_4",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e4_to_10",
+            "source": "node_4",
+            "target": "node_10",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e5_to_95",
+            "source": "node_5",
+            "target": "node_95",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e6_to_19",
+            "source": "node_6",
+            "target": "node_19",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e7_to_33",
+            "source": "node_7",
+            "target": "node_33",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e8_to_20",
+            "source": "node_8",
+            "target": "node_20",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e10_to_93",
+            "source": "node_10",
+            "target": "node_93",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e11_to_17",
+            "source": "node_11",
+            "target": "node_17",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e12_to_62",
+            "source": "node_12",
+            "target": "node_62",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e13_to_91",
+            "source": "node_13",
+            "target": "node_91",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e14_to_92",
+            "source": "node_14",
+            "target": "node_92",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e15_to_94",
+            "source": "node_15",
+            "target": "node_94",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e16_to_6",
+            "source": "node_16",
+            "target": "node_6",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e17_to_19",
+            "source": "node_17",
+            "target": "node_19",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e18_to_17",
+            "source": "node_18",
+            "target": "node_17",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e19_to_23",
+            "source": "node_19",
+            "target": "node_23",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e20_to_25",
+            "source": "node_20",
+            "target": "node_25",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e21_to_28",
+            "source": "node_21",
+            "target": "node_28",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e22_to_59",
+            "source": "node_22",
+            "target": "node_59",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e23_to_24",
+            "source": "node_23",
+            "target": "node_24",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e24_to_57",
+            "source": "node_24",
+            "target": "node_57",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e25_to_66",
+            "source": "node_25",
+            "target": "node_66",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e26_to_13",
+            "source": "node_26",
+            "target": "node_13",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e27_to_12",
+            "source": "node_27",
+            "target": "node_12",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e28_to_60",
+            "source": "node_28",
+            "target": "node_60",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e29_to_12",
+            "source": "node_29",
+            "target": "node_12",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e30_to_68",
+            "source": "node_30",
+            "target": "node_68",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e31_to_35",
+            "source": "node_31",
+            "target": "node_35",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e32_to_36",
+            "source": "node_32",
+            "target": "node_36",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e34_to_75",
+            "source": "node_34",
+            "target": "node_75",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e35_to_50",
+            "source": "node_35",
+            "target": "node_50",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e36_to_75",
+            "source": "node_36",
+            "target": "node_75",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e37_to_38",
+            "source": "node_37",
+            "target": "node_38",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e38_to_32",
+            "source": "node_38",
+            "target": "node_32",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e40_to_42",
+            "source": "node_40",
+            "target": "node_42",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e41_to_46",
+            "source": "node_41",
+            "target": "node_46",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e43_to_45",
+            "source": "node_43",
+            "target": "node_45",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e44_to_46",
+            "source": "node_44",
+            "target": "node_46",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e46_to_47",
+            "source": "node_46",
+            "target": "node_47",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e47_to_75",
+            "source": "node_47",
+            "target": "node_75",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e49_to_82",
+            "source": "node_49",
+            "target": "node_82",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e50_to_75",
+            "source": "node_50",
+            "target": "node_75",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e51_to_14",
+            "source": "node_51",
+            "target": "node_14",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e52_to_8",
+            "source": "node_52",
+            "target": "node_8",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e53_to_27",
+            "source": "node_53",
+            "target": "node_27",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e54_to_29",
+            "source": "node_54",
+            "target": "node_29",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e55_to_17",
+            "source": "node_55",
+            "target": "node_17",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e56_to_55",
+            "source": "node_56",
+            "target": "node_55",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e57_to_58",
+            "source": "node_57",
+            "target": "node_58",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e58_to_52",
+            "source": "node_58",
+            "target": "node_52",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e59_to_69",
+            "source": "node_59",
+            "target": "node_69",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e60_to_54",
+            "source": "node_60",
+            "target": "node_54",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e61_to_7",
+            "source": "node_61",
+            "target": "node_7",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e62_to_71",
+            "source": "node_62",
+            "target": "node_71",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e63_to_73",
+            "source": "node_63",
+            "target": "node_73",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e64_to_74",
+            "source": "node_64",
+            "target": "node_74",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e65_to_26",
+            "source": "node_65",
+            "target": "node_26",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e66_to_30",
+            "source": "node_66",
+            "target": "node_30",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e67_to_12",
+            "source": "node_67",
+            "target": "node_12",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e68_to_67",
+            "source": "node_68",
+            "target": "node_67",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e69_to_53",
+            "source": "node_69",
+            "target": "node_53",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e70_to_72",
+            "source": "node_70",
+            "target": "node_72",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e71_to_65",
+            "source": "node_71",
+            "target": "node_65",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e72_to_26",
+            "source": "node_72",
+            "target": "node_26",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e73_to_64",
+            "source": "node_73",
+            "target": "node_64",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e74_to_26",
+            "source": "node_74",
+            "target": "node_26",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e75_to_48",
+            "source": "node_75",
+            "target": "node_48",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e77_to_80",
+            "source": "node_77",
+            "target": "node_80",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e78_to_81",
+            "source": "node_78",
+            "target": "node_81",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e79_to_51",
+            "source": "node_79",
+            "target": "node_51",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e80_to_51",
+            "source": "node_80",
+            "target": "node_51",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e81_to_51",
+            "source": "node_81",
+            "target": "node_51",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e82_to_84",
+            "source": "node_82",
+            "target": "node_84",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e83_to_77",
+            "source": "node_83",
+            "target": "node_77",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e85_to_87",
+            "source": "node_85",
+            "target": "node_87",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e86_to_88",
+            "source": "node_86",
+            "target": "node_88",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e88_to_89",
+            "source": "node_88",
+            "target": "node_89",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e89_to_90",
+            "source": "node_89",
+            "target": "node_90",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e90_to_51",
+            "source": "node_90",
+            "target": "node_51",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e91_to_61",
+            "source": "node_91",
+            "target": "node_61",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e92_to_5",
+            "source": "node_92",
+            "target": "node_5",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e93_to_15",
+            "source": "node_93",
+            "target": "node_15",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e94_to_16",
+            "source": "node_94",
+            "target": "node_16",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        },
+        {
+            "id": "e95_to_2",
+            "source": "node_95",
+            "target": "node_2",
+            "type": "step",
+            "animated": true,
+            "style": {
+                "stroke": "red"
+            }
+        }
+    ]
+}
