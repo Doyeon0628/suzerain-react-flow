@@ -1,0 +1,278 @@
+{
+    "nodes": [
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe royal council convened upon my calling."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus: \"...\"\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Council_GrandVizier_Sal == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Council_Security_Lucita == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Council_Security_Taddeus == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Council_Security_Titus == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_69",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Council_Treasury_Elena == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Council_Treasury_Elena == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Council_Treasury_Rusty == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Council_Wiseman_Sal == true && RiziaDLC.Council_GrandVizier_Sal == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_RD_Order_AntiNarcoticsOperations == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Elena Werner\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Sal Ignacius\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_182",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator: \"...\"\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [DebriefHub]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_195",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe councilors waited for a response."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e22_to_183",
+            "source": "node_22",
+            "target": "node_183",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_55",
+            "source": "node_23",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_132",
+            "source": "node_59",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_133",
+            "source": "node_60",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_135",
+            "source": "node_65",
+            "target": "node_135",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_136",
+            "source": "node_68",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e69_to_137",
+            "source": "node_69",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_138",
+            "source": "node_71",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_139",
+            "source": "node_74",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_141",
+            "source": "node_77",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e78_to_142",
+            "source": "node_78",
+            "target": "node_142",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_70",
+            "source": "node_137",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_76",
+            "source": "node_140",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e182_to_22",
+            "source": "node_182",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e194_to_20",
+            "source": "node_194",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e195_to_21",
+            "source": "node_195",
+            "target": "node_21",
+            "type": "step"
+        }
+    ]
+}

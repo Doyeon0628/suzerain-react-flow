@@ -1,0 +1,448 @@
+{
+    "nodes": [
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn06_InT_Taurus == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote -= 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reform_NFP_Convinced == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reform_PFJP_Convinced == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn06_Lobbying_Bribe == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_Oligarchs_Content == true || BaseGame.Accepted_MediaDeal == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 3\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Albin_Convinced == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Albin_Convinced == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 3\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Gloria_Convinced == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_Oligarchs_Ally == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Dictator_Path == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote -= 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_USP_Vote_Reformers_MinorConvinced = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PFJP_Vote_FullConvinced = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_NFP_Vote_MinorConvinced = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_OldGuard_Content == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == false && BaseGame.Bill_Turn04_WorkersRights_Signed == true && BaseGame.Bill_Turn05_ReligiousHarmony_Vetoed == true && BaseGame.Decision_Turn02_EconomicRelief_BailedPeople == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e7_to_42",
+            "source": "node_7",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_76",
+            "source": "node_12",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_76",
+            "source": "node_13",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_55",
+            "source": "node_16",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_86",
+            "source": "node_19",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_72",
+            "source": "node_23",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_81",
+            "source": "node_26",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_14",
+            "source": "node_27",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_20",
+            "source": "node_29",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_66",
+            "source": "node_31",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_58",
+            "source": "node_32",
+            "target": "node_58",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_62",
+            "source": "node_35",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_71",
+            "source": "node_41",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_74",
+            "source": "node_42",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_10",
+            "source": "node_45",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_20",
+            "source": "node_49",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_47",
+            "source": "node_56",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_17",
+            "source": "node_60",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_23",
+            "source": "node_68",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_30",
+            "source": "node_71",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_17",
+            "source": "node_73",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_14",
+            "source": "node_74",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_20",
+            "source": "node_75",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_43",
+            "source": "node_81",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_14",
+            "source": "node_88",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_14",
+            "source": "node_91",
+            "target": "node_14",
+            "type": "step"
+        }
+    ]
+}

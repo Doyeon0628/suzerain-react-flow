@@ -1,0 +1,74 @@
+{
+    "nodes": [
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reformist_Intention == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn01_InT_Investment_Railway == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn01_InT_Investment_Railway == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Ewald Alphonso\n\n\"Your choice not to pursue constitutional reform is a conservative stance, differing from my belief that change is necessary for Sordland's advancement.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e5_to_12",
+            "source": "node_5",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_31",
+            "source": "node_20",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_35",
+            "source": "node_22",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_19",
+            "source": "node_26",
+            "target": "node_19",
+            "type": "step"
+        }
+    ]
+}

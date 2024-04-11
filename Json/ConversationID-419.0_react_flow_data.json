@@ -1,0 +1,108 @@
+{
+    "nodes": [
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe warmth of the water and the bubbles helped me relax a little bit. I took a sip from my virgin Romultini -- my mother had given the name to the cocktail -- and let out a long sigh."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "Wiktor Smolak (R)\n\n\"Good evening, Your Majesty. I hope I am not disturbing your evening.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I would rather not give Zille. What about something else?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI thought for another brief moment."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "Wiktor Smolak (R)\n\n\"You are speaking my language, Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_Negotiations\", \"R_Negotiations_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e4_to_91",
+            "source": "node_4",
+            "target": "node_91",
+            "type": "step"
+        },
+        {
+            "id": "e7_to_89",
+            "source": "node_7",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_88",
+            "source": "node_57",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_84",
+            "source": "node_64",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_57",
+            "source": "node_85",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_6",
+            "source": "node_94",
+            "target": "node_6",
+            "type": "step"
+        }
+    ]
+}

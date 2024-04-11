@@ -1,0 +1,74 @@
+{
+    "nodes": [
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI pushed open the door and stepped into the bustling locker room. The players, clad in their FC Anrica jerseys, all stopped what they were doing and turned their heads to look at me.\n\nRemoveConversant(Curtan Leste); RemoveConversant(Gus Manger); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.FCAnricaTeamSpeech_Stress <= 5 && BaseGameIsolated.FCAnricaTeamSpeech_Stress >= 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.FCAnrica_Wins = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e2_to_219",
+            "source": "node_2",
+            "target": "node_219",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_50",
+            "source": "node_42",
+            "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_43",
+            "source": "node_55",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_2",
+            "source": "node_60",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

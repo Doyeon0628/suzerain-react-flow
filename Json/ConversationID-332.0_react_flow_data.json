@@ -1,0 +1,159 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"Make way. Make way for the Princess of Rizia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe coffin was placed in the center where it was going to be lowered for the final voyage."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I am sorry.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.VinaFuneral_CoffinFarewell_JoinedMother = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI took my place for the final voyage ritual."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveConversant(\"Estela Toras\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_Still\", \"R_Still_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_85",
+            "source": "node_1",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e4_to_75",
+            "source": "node_4",
+            "target": "node_75",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_76",
+            "source": "node_21",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e54_to_82",
+            "source": "node_54",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_52",
+            "source": "node_61",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_34",
+            "source": "node_68",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_23",
+            "source": "node_77",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e80_to_71",
+            "source": "node_80",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_2",
+            "source": "node_84",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

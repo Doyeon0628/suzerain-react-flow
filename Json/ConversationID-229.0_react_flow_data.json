@@ -1,0 +1,346 @@
+{
+    "nodes": [
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.NFPLeader_Remus == true && BaseGame.Turn09_A_Investigation_NFP_Trialled_Remus == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nBack during the '53 election, I had debated my political opponents on the radio. Now the debate was to be televised, like everything else these days."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI kept my mouth shut.\n\nSay nothing."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Moderator\n\n\"To my right, Lileas Graf, former Interior Minister and leader of the USP.\"\n\nAddConversant(Lileas Graf); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_69",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"Greci Sordland.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"That's right. We may have failed to meet the threshold last time, but the poor and downtrodden of Sordland *will* unite and rise up.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_LileasGraf == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf\n\n\"And protector of the legacy of Tarquin Soll, lest we forget. I'm looking forward to your questions.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe shot a pointed glance in my direction."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_PFJP_RicterFramed == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Faction_PFJP_Destroyed == true )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Lost == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_142",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn10_PartyCongress_Lost == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e17_to_133",
+            "source": "node_17",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_6",
+            "source": "node_22",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_9",
+            "source": "node_23",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_141",
+            "source": "node_27",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_132",
+            "source": "node_45",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_89",
+            "source": "node_47",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_136",
+            "source": "node_56",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_82",
+            "source": "node_61",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e69_to_77",
+            "source": "node_69",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_98",
+            "source": "node_75",
+            "target": "node_98",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_47",
+            "source": "node_83",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_1",
+            "source": "node_91",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_54",
+            "source": "node_96",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_54",
+            "source": "node_97",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_139",
+            "source": "node_123",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_48",
+            "source": "node_132",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_57",
+            "source": "node_137",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_74",
+            "source": "node_138",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_28",
+            "source": "node_140",
+            "target": "node_28",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_28",
+            "source": "node_142",
+            "target": "node_28",
+            "type": "step"
+        }
+    ]
+}

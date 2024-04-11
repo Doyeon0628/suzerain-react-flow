@@ -1,0 +1,550 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThey read the decree and discussed it amongst themselves.\n\nAddConversant(Lucian Galade); AddConversant(Orso Hawker); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_YS == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"I agree with declaring the Young Sords as a threat, especially after the shooting. However, I think we might bring the nationalists wrath upon ourselves.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Embargo_UC == true && BaseGame.Reform_EmergencyDecree_Banned_RY)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Going against United Contana and banning the Red Youth will definitely make us an enemy of the Contanan Security Pact.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_36",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"We can't take this lightly.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"But we're also acting against Arcasia, Mr. President. We'll need them against the Eastern powers.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n\"As much as I despise Arcasia and have a reason to believe that they're behind all this mess...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n\"With the order of this decree, we would be able to detain anybody who is suspected for a crime.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_SuspendedProtests == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n\"That's precisely who we are against, Mr. Galade.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_72",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n\"I'll be in touch, Mr. President.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Thank you for all the hard work.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n\"Of course, Mr. President. We are working together in this.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn03_A_Constitution = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn03_EmergencyDecree_Autocrat = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_86",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn03_ST_RayneIgnores_NoDeal_A = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "// Start\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_YS == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_Ban_WPB = true;\\nBaseGame.Sollist += 2;\\nBaseGame.Democratic -= 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_Ban_RedYouth = true;\\nBaseGame.Malenyevist -= 2;\\nBaseGame.Sollist += 2\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == true && BaseGame.Reform_EmergencyDecree_Banned_YS == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_Ban_RedYouth = true;\\nBaseGame.Policy_Law_Ban_YoungSords = true;\\nBaseGame.Malenyevist -= 2;\\nBaseGame.Democratic -= 2;\\nBaseGame.Sollist -= 2\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn01_EnT_Economy_Market == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_109",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn01_EnT_Economy_Market == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_110",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Embargo_Arcasia == true || BaseGame.Reform_EmergencyDecree_Embargo_Rumburg == true || \\nBaseGame.Reform_EmergencyDecree_Embargo_UC == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Embargo_Arcasia == true || BaseGame.Reform_EmergencyDecree_Embargo_Rumburg == true || \\nBaseGame.Reform_EmergencyDecree_Embargo_UC == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_90",
+            "source": "node_1",
+            "target": "node_90",
+            "type": "step"
+        },
+        {
+            "id": "e2_to_42",
+            "source": "node_2",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_20",
+            "source": "node_15",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_23",
+            "source": "node_16",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_36",
+            "source": "node_33",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_46",
+            "source": "node_34",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e36_to_35",
+            "source": "node_36",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_43",
+            "source": "node_40",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_52",
+            "source": "node_42",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_56",
+            "source": "node_48",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_67",
+            "source": "node_61",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_62",
+            "source": "node_67",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e72_to_88",
+            "source": "node_72",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_72",
+            "source": "node_76",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e79_to_72",
+            "source": "node_79",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e80_to_72",
+            "source": "node_80",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_108",
+            "source": "node_81",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e86_to_81",
+            "source": "node_86",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_81",
+            "source": "node_87",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_2",
+            "source": "node_89",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_100",
+            "source": "node_92",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_104",
+            "source": "node_93",
+            "target": "node_104",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_102",
+            "source": "node_98",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_103",
+            "source": "node_99",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_104",
+            "source": "node_100",
+            "target": "node_104",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_111",
+            "source": "node_103",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_94",
+            "source": "node_106",
+            "target": "node_94",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_103",
+            "source": "node_107",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e109_to_89",
+            "source": "node_109",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e110_to_2",
+            "source": "node_110",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_82",
+            "source": "node_112",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_82",
+            "source": "node_114",
+            "target": "node_82",
+            "type": "step"
+        }
+    ]
+}

@@ -1,0 +1,601 @@
+{
+    "nodes": [
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLoud applauses came from the opposition."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"I ask for my honorable colleagues to support the PFJP in revoking this emergency, here and now!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n\"I'm sorry to interrupt, Mr. Ricter, but the President has asked for an opportunity to respond. You have directly addressed the President in your speech, so I shall give him the opportunity to give a brief response.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n\"The President has the floor.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The decree is completely legal.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_53",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n\"Mr. President... Please.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"Thank you, Mrs. Speaker. I have to say, I deplore the reaction of the President...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"I am talking to the members of the United Sordland Party as well! Do not act partisan in matters with such critical importance. We know that this emergency is a dangerous exaggeration and it can have very grim consequences on our democratic institutions.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nOne man from the USP seats yelled: \"in your dreams!\" It made the USP burst in laughter."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"It breaches on the right for a fair trial by giving the State the right to detain anyone without a trial. This is a breach on democracy as well as the freedoms of men defined in the Section 100 of the Constitution.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"No decree can give you the power to destroy ideas which are eternal and indestructible!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"We must adhere to the basic principles of a constitutional state, to the equality of rights, and the concept of social legislation anchored therein. I ask everybody's support in the upcoming vote.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"Mr. President spoke nonsense.\"\n\nRemoveConversant(Gloria Tory); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSuddenly Gloria's gavel echoed in the hall, which eliminated the carefree attitude that lurked after the voting."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n\"Ayes does not exceed the two-third threshold, so the nays have it.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe turned around and went back to his seat.\n\nRemoveConversant(Frens Ricter); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n\"Yes, Mr. President.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nGloria did her best to bring order back to the Assembly and proceed with the schedule.\n\nRemoveConversant(Gloria Tory); RemoveConversant(Mansoun Leke); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Wehlen_TradeDeal == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_141",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn05_Uziren_BorderReport = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_142",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn05_A_Speech = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn05_R_EmergencyDebate = true;\\nBaseGameSupport.News_Turn05_HP_EmergencyDebate = true;\\nBaseGameSupport.News_Turn05_LT_EmergencyReview = true\\n\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn05_A_Autocrat_Ricter_Shouted = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_146",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_151",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn05_A_Autocrat_Ricter_Shouted == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_155",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn05_ST_RayneRicterDebate_Shout_NoDeal = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Agnolia_HeljilandRecognised == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn05_G_WalkerWarnsNavy = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_162",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_163",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"AssemblyLaughter\");\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"AssemblyApplause2\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_165",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"GavelBang\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_166",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e26_to_165",
+            "source": "node_26",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_49",
+            "source": "node_31",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_59",
+            "source": "node_32",
+            "target": "node_59",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_145",
+            "source": "node_34",
+            "target": "node_145",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_136",
+            "source": "node_43",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e53_to_146",
+            "source": "node_53",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_85",
+            "source": "node_56",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_32",
+            "source": "node_58",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_164",
+            "source": "node_60",
+            "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_64",
+            "source": "node_67",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_101",
+            "source": "node_77",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e78_to_77",
+            "source": "node_78",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_95",
+            "source": "node_84",
+            "target": "node_95",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_166",
+            "source": "node_93",
+            "target": "node_166",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_84",
+            "source": "node_94",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_78",
+            "source": "node_100",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_132",
+            "source": "node_103",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_117",
+            "source": "node_113",
+            "target": "node_117",
+            "type": "step"
+        },
+        {
+            "id": "e115_to_118",
+            "source": "node_115",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_47",
+            "source": "node_136",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_133",
+            "source": "node_138",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e141_to_158",
+            "source": "node_141",
+            "target": "node_158",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_158",
+            "source": "node_142",
+            "target": "node_158",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_163",
+            "source": "node_143",
+            "target": "node_163",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_33",
+            "source": "node_145",
+            "target": "node_33",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_54",
+            "source": "node_146",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e151_to_156",
+            "source": "node_151",
+            "target": "node_156",
+            "type": "step"
+        },
+        {
+            "id": "e155_to_139",
+            "source": "node_155",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_139",
+            "source": "node_157",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_143",
+            "source": "node_161",
+            "target": "node_143",
+            "type": "step"
+        },
+        {
+            "id": "e162_to_143",
+            "source": "node_162",
+            "target": "node_143",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_2",
+            "source": "node_163",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_61",
+            "source": "node_164",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e165_to_27",
+            "source": "node_165",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e166_to_94",
+            "source": "node_166",
+            "target": "node_94",
+            "type": "step"
+        }
+    ]
+}

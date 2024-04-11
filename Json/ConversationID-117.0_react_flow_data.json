@@ -1,0 +1,210 @@
+{
+    "nodes": [
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nPetr smiled."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"First, I want to talk about our new focus and some of my plans going forward.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Frens_Promise_Alliance == true && BaseGameIsolated.Turn07_CourtResults_AllianceHub == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Frens_Promise_Alliance == true && BaseGameIsolated.Turn07_CourtResults_AllianceHub == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [PlayerAnnounceHub]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Frens_Promise_Alliance == true && BaseGameIsolated.Turn07_CourtResults_AllianceHub == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "PlayerAnnounceHub\n\nPlayerAnnounceHub"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_CourtResults_PlansHub == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_CourtResults_ReportsHub == true && BaseGameIsolated.Turn07_CourtResults_PlansHub == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_CourtResults_ReportsHub = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_CourtResults_PlansHub = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e2_to_5",
+            "source": "node_2",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_1",
+            "source": "node_11",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_1",
+            "source": "node_12",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e14_to_10",
+            "source": "node_14",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_1",
+            "source": "node_19",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_1",
+            "source": "node_25",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_1",
+            "source": "node_29",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_1",
+            "source": "node_34",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_2",
+            "source": "node_38",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_1",
+            "source": "node_42",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_30",
+            "source": "node_44",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_30",
+            "source": "node_46",
+            "target": "node_30",
+            "type": "step"
+        }
+    ]
+}

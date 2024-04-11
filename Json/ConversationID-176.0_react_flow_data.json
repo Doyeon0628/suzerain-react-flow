@@ -1,0 +1,329 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.YoungSords_Aids_Security == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Order_ViolentSuppression = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveConversant(\"Livia Suno\");\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "//\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_AutonomousZoneOfBergia == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn08_Valgen_GruniBergiaSynergy = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\\nBaseGame.Economy_Gruni += 1;\\nBaseGame.Economy_Bergia += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Lucian Galade\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"The Livia Suno affair has left me with much to catch up on.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_USP_Obstructionist == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_121",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe walked out. I took a look at the folder in front of me, then at the coffee carafe in the corner of the room."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Turn08_LT_FCAnricaPromisingSeason_Default = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_G_UCSatelliteUncovers = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_125",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Diplomacy_Valgsland_Alliance == true && BaseGame.Archetype_ComradeRayne == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn08_Holsord_ATOInfluenceGrows = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "SetRichPresence(\"Receiving a critical briefing on the latest developments\", \"Maroon Palace\", \"Holsord\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_133",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_133",
+            "source": "node_1",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e3_to_86",
+            "source": "node_3",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_93",
+            "source": "node_6",
+            "target": "node_93",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_1",
+            "source": "node_46",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_1",
+            "source": "node_48",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_4",
+            "source": "node_49",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_49",
+            "source": "node_77",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_49",
+            "source": "node_82",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_49",
+            "source": "node_83",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_83",
+            "source": "node_84",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_100",
+            "source": "node_91",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_85",
+            "source": "node_99",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e121_to_35",
+            "source": "node_121",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_46",
+            "source": "node_122",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_8",
+            "source": "node_123",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e125_to_34",
+            "source": "node_125",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_34",
+            "source": "node_131",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_34",
+            "source": "node_132",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e133_to_124",
+            "source": "node_133",
+            "target": "node_124",
+            "type": "step"
+        }
+    ]
+}

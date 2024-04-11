@@ -1,0 +1,2046 @@
+{
+    "nodes": [
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThat was Lucian's idea. As he saw it, granting the people a rare glimpse of the Grand Ceremony, and showing them how seriously their President took this holy event, would ease any tensions that lingered in the region."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Yeah, sure.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Thank you. It is nice to be here in Deyr again.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Archpriest.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI bowed my head before the Archpriest, which triggered a few murmurs of approval from the crowd.\n\nBow your head before the Archpriest."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Shall we move inside for your confession?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Sure. Let's get this over with.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe Archpriest gave me an infectious smile as he straightened back up. Tall and handsome, in his mid-50s, he was one of the youngest and most popular Archpriests in history. Some of his more avid followers even likened him to Saint Dast.\n\nAddConversant(Archpriest); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“I am indescribably happy to be sharing this moment with you as well as every Blud and Sord, old and young, tuning in to their television to watch this holy commemoration!”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe smiled beatifically as the crowd burst into rapturous applause. After it subsided, he turned to me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe made our way downstairs where the ceremony was already in progress. The choir sang angelically as the Archpriest took his position beside the altar. When they finished their hymn, an expectant silence fell over the room. It was time for my part."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI grabbed the sceptre with my right hand then touched the altar with left.\n\nGrab the sceptre with your right hand, then touch the altar with your left."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nSceptre in hand, I kissed the ring of the Archpriest.\n\nKiss the ring of the Archpriest."
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI touched the sword with my right hand.\n\nTouch the sword with your right hand."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI got up and proceeded to my designated spot next to Lucian. He leaned over and whispered in my ear.\n\nRemoveConversant(Archpriest); AddConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual2 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual3 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“Compared to last year, that went surprisingly well, sir.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“Unfortunately that was not quite correct, sir.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual1 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual2 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual3 == true &&\\nBaseGameIsolated.Turn07_A_SuccessfulRitual4 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual5 == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe entered our cars and drove back to our suites in Deyr.\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe left the cathedral to greet the waiting crowd.\n\nSetRichPresenceData(Sent an escaped whistleblower agent back to their country, Presidential Office, Maroon Palace);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_SuccessfulRitual1 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual2 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual3 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual4 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual5 == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAs I walked outside, I heard scattered boos. A man in a Worker's Party of Bludia shirt shouted that I was only here for show, that I couldn't even bother to get the ceremony right. Others yelled in agreement."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAs I walked outside, I heard scattered boos. A man in a shirt bearing the colors of the Bludish flag shouted that I'd only done the ceremony for show. Lucian hadn't been exactly right about my presence easing tensions, it seemed.\n\nAddReport(President Mends Ties?); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“We should go before things get heated.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThat was Lucian's idea. As he saw it, granting the people a rare glimpse of the Grand Ceremony, and showing them how seriously their President took this holy event, would ease the tensions that lingered following my decree to ban the Workers' Party of Bludia."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_86",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Oh, great people of Sordland! Once again we are gathered here to honor the Day of Descension!”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe crowd was still booing angrily. The Archpriest turned and raised both of his hands, and everyone immediately fell silent."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_95",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI exited the car and was greeted by a chorus of boos. Some people in the crowd began raising signs and chanting in protest of my ban. I ducked my head as the guards quickly ushered me to the grand gates.\n\nExit the car."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn07_A_DayOfDescension = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“Then touch the sword with the hand you touched the altar with. Hand the sceptre over to the Archpriest and receive the sword before passing it on to a disciple.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“My confession?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe gestured towards a chair in the dark room. The room smelled of old mahogany and scented candles. The Archpriest proceeded to light each and every one of the candles. One for each virtue and vice."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“I will be right with you.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I confess that I have been a bad husband.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_108",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I confess that I was involved in shady dealings.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Walter Tusk.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Hmm I see. This must've been done out of necessity for the greater good.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Family is the cornerstone of society. Under the watchful eyes of the God, men are required to protect their wives and family.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_121",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I've been neglecting my family due to the stress of my position.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Against the wishes of my wife, I banned her from involvement in politics.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_Admin_Monica_Barred == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Anything else you would like to confess?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Absolute certainty only belongs to God. All else feels uncertainty many times in their lives. This is especially true for men of power.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I am trying to reform the country, but I don't know if the country is ready for that yet.”\n\n“I am trying to reform the country, but I don't know if the country is ready for it yet.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_141",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reformist_Path == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Reformist_Path == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“That's all for today.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Confession Hub]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Confession Hub]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Confessed_Bribery == true || BaseGameIsolated.Turn07_A_Confessed_BadHusband == true || BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Confessed_SelfDoubt = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_166",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Confessed_BadHusband = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Confessed_Bribery = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_174",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Fine. I will confess.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Pride is the most dangerous vice of all. Perhaps you will come to this realization at one point in your life.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Are you ready for the ceremony?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_189",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Yes. Let's get on with it.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe leaned back in his chair comfortably."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Welfare_EvolutionMandatoryBanCreationism == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_203",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“I realize it has been months since the Benfi Festival, but this is my first chance to bring it up with you. It's about the actions of the First Lady.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_205",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“As you know, the festival is a holy event. Letting a woman make the opening speech did not sit well with us. We share the same concerns as Mr. Leste.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_210",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I agree. It was my fault. Won't happen again.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_218",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“I also heard you decided on the new curriculum...”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_228",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“I heard you decided on the new school curriculum...”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe pulled out a large rectangular box from his desk drawer. The box was lined with gold and expensive gemstones."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Frens_Bribed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_242",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Frens_Bribed == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_245",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Walter_Promise_BailBusinessFulfilled == true || BaseGame.Relations_Walter_Promise_CompanyFulfilled == true || BaseGame.Relations_Walter_Promise_PrivatizationFulfilled == true || BaseGame.Relations_Walter_Promise_TaxFulfilled == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I couldn't control myself and hit my wife.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_251",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Confessed_BadHusband == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_253",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_Confessed_BadHusband == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_256",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_Confessed_Bribery == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_259",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_264",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIt was a man holding a picket sign that said: 'Stop The Religious Disharmony Bill'."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“But of course. I am but a simple man and a mere servant of God.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "Archpriest\n\n“Very well, Mr. President.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion -= 3;\\nBaseGame.Bludish_Opinion -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe Archpriest lay the sword on my shoulder.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_276",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual4 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_277",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI handed the sceptre to the Archpriest and waited for him to give me the sword.\n\nHand the sceptre to the Archpriest."
+            },
+            "position": {
+                "x": 0,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI handed the sceptre to the disciple next to me.\n\nHand the sceptre to the disciples."
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe Archpriest handed me the sword.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI handed the sword back to the Archpriest. He took it and passed it to a disciple.\n\nHand the sword back to the Archpriest."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI placed the sword on the altar. The Archpriest picked it back up and handed it to one of the disciples.\n\nPlace the sword on the altar."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_284",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn07_LT_RitualWin = true;\\nBaseGameSupport.CountryReport_Turn07_Derdia_BlessesCongratulatesRitual = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn07_R_RitualFailed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_289",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn07_ST_RitualFailed_NoDeal = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_290",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion <= 0 && BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_293",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn07_HP_ProtestsDespiteEmergency = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_294",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn04_InT_RailwayIssue_Solved == false && BaseGame.Turn01_InT_Investment_Railway == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThis year, however, for the first time ever, it was going to be televised."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_301",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThis year, however, for the first time ever, it was going to be televised."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_302",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn01_InfrastructureProject_Invest == true && BaseGameSupport.Journal_Turn06_RailwayOpening == false && BaseGameSupport.Journal_Turn06_HighwayOpening == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn01_InfrastructureProject_Invest == true && BaseGameSupport.Journal_Turn06_RailwayOpening == false && BaseGameSupport.Journal_Turn06_HighwayOpening == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_306",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Albin Clavin.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_307",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Albin_Bribed == true || BaseGame.Relations_Albin_PromisedVP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn07_RumburgWhistleblower_GrantAsylum == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_317",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe left the cathedral to greet the waiting crowd.\n\nSetRichPresenceData(Granted asylum to a whistleblower which escaped from another country, Presidential Office, Maroon Palace);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == false || BaseGameIsolated.Turn07_A_Confessed_BadHusband == false || BaseGameIsolated.Turn07_A_Confessed_Bribery == false \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_320",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == false || BaseGameIsolated.Turn07_A_Confessed_BadHusband == false || BaseGameIsolated.Turn07_A_Confessed_Bribery == false )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_322",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateProgress(\"Progress_Highway\", 75);\\n\\n// Updates token effect progress to the given value in PERCENTAGE(eg: 50%)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "EnableCollectionItem(\"CollectionItem_Dagger\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_324",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Do not test my limits. I kindly ask of you.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_326",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"BooCrowd\");\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_327",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"CheerCrowdCamera\");\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"BooScatter\");\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_330",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"CheerCrowd\");\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_331",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"BooScatter\");\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_332",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e4_to_303",
+            "source": "node_4",
+            "target": "node_303",
+            "type": "step"
+        },
+        {
+            "id": "e10_to_80",
+            "source": "node_10",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_103",
+            "source": "node_22",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_85",
+            "source": "node_23",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_85",
+            "source": "node_24",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_85",
+            "source": "node_25",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_100",
+            "source": "node_26",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_262",
+            "source": "node_29",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_31",
+            "source": "node_32",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_91",
+            "source": "node_34",
+            "target": "node_91",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_26",
+            "source": "node_35",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_46",
+            "source": "node_38",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_276",
+            "source": "node_41",
+            "target": "node_276",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_276",
+            "source": "node_42",
+            "target": "node_276",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_278",
+            "source": "node_44",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_41",
+            "source": "node_46",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_276",
+            "source": "node_47",
+            "target": "node_276",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_278",
+            "source": "node_48",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_274",
+            "source": "node_49",
+            "target": "node_274",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_275",
+            "source": "node_50",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_315",
+            "source": "node_56",
+            "target": "node_315",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_98",
+            "source": "node_57",
+            "target": "node_98",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_331",
+            "source": "node_60",
+            "target": "node_331",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_332",
+            "source": "node_61",
+            "target": "node_332",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_57",
+            "source": "node_64",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_330",
+            "source": "node_71",
+            "target": "node_330",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_57",
+            "source": "node_74",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_57",
+            "source": "node_75",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e78_to_5",
+            "source": "node_78",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e79_to_6",
+            "source": "node_79",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_17",
+            "source": "node_84",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e86_to_93",
+            "source": "node_86",
+            "target": "node_93",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_32",
+            "source": "node_87",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_35",
+            "source": "node_92",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_88",
+            "source": "node_93",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_327",
+            "source": "node_95",
+            "target": "node_327",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_328",
+            "source": "node_96",
+            "target": "node_328",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_19",
+            "source": "node_97",
+            "target": "node_19",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_291",
+            "source": "node_98",
+            "target": "node_291",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_10",
+            "source": "node_99",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_262",
+            "source": "node_101",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_102",
+            "source": "node_103",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_160",
+            "source": "node_106",
+            "target": "node_160",
+            "type": "step"
+        },
+        {
+            "id": "e108_to_172",
+            "source": "node_108",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_311",
+            "source": "node_114",
+            "target": "node_311",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_136",
+            "source": "node_117",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_156",
+            "source": "node_119",
+            "target": "node_156",
+            "type": "step"
+        },
+        {
+            "id": "e121_to_247",
+            "source": "node_121",
+            "target": "node_247",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_133",
+            "source": "node_122",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_134",
+            "source": "node_123",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_169",
+            "source": "node_136",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_167",
+            "source": "node_137",
+            "target": "node_167",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_255",
+            "source": "node_140",
+            "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e141_to_154",
+            "source": "node_141",
+            "target": "node_154",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_141",
+            "source": "node_143",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_165",
+            "source": "node_158",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_170",
+            "source": "node_159",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_140",
+            "source": "node_160",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_140",
+            "source": "node_161",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_108",
+            "source": "node_164",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e166_to_140",
+            "source": "node_166",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_140",
+            "source": "node_168",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_319",
+            "source": "node_174",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_140",
+            "source": "node_176",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_194",
+            "source": "node_188",
+            "target": "node_194",
+            "type": "step"
+        },
+        {
+            "id": "e189_to_188",
+            "source": "node_189",
+            "target": "node_188",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_204",
+            "source": "node_198",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_195",
+            "source": "node_199",
+            "target": "node_195",
+            "type": "step"
+        },
+        {
+            "id": "e203_to_229",
+            "source": "node_203",
+            "target": "node_229",
+            "type": "step"
+        },
+        {
+            "id": "e205_to_230",
+            "source": "node_205",
+            "target": "node_230",
+            "type": "step"
+        },
+        {
+            "id": "e210_to_208",
+            "source": "node_210",
+            "target": "node_208",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_228",
+            "source": "node_218",
+            "target": "node_228",
+            "type": "step"
+        },
+        {
+            "id": "e228_to_36",
+            "source": "node_228",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_220",
+            "source": "node_229",
+            "target": "node_220",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_118",
+            "source": "node_240",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
+            "id": "e242_to_240",
+            "source": "node_242",
+            "target": "node_240",
+            "type": "step"
+        },
+        {
+            "id": "e245_to_115",
+            "source": "node_245",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_122",
+            "source": "node_249",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e251_to_137",
+            "source": "node_251",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e253_to_107",
+            "source": "node_253",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e256_to_110",
+            "source": "node_256",
+            "target": "node_110",
+            "type": "step"
+        },
+        {
+            "id": "e259_to_119",
+            "source": "node_259",
+            "target": "node_119",
+            "type": "step"
+        },
+        {
+            "id": "e264_to_22",
+            "source": "node_264",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_22",
+            "source": "node_271",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_22",
+            "source": "node_272",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_22",
+            "source": "node_273",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_285",
+            "source": "node_274",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_286",
+            "source": "node_275",
+            "target": "node_286",
+            "type": "step"
+        },
+        {
+            "id": "e276_to_44",
+            "source": "node_276",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e277_to_281",
+            "source": "node_277",
+            "target": "node_281",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_277",
+            "source": "node_278",
+            "target": "node_277",
+            "type": "step"
+        },
+        {
+            "id": "e280_to_45",
+            "source": "node_280",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_280",
+            "source": "node_282",
+            "target": "node_280",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_45",
+            "source": "node_283",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e284_to_45",
+            "source": "node_284",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_55",
+            "source": "node_285",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e289_to_54",
+            "source": "node_289",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e290_to_54",
+            "source": "node_290",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e293_to_326",
+            "source": "node_293",
+            "target": "node_326",
+            "type": "step"
+        },
+        {
+            "id": "e294_to_326",
+            "source": "node_294",
+            "target": "node_326",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_76",
+            "source": "node_300",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e301_to_322",
+            "source": "node_301",
+            "target": "node_322",
+            "type": "step"
+        },
+        {
+            "id": "e302_to_323",
+            "source": "node_302",
+            "target": "node_323",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_295",
+            "source": "node_304",
+            "target": "node_295",
+            "type": "step"
+        },
+        {
+            "id": "e306_to_76",
+            "source": "node_306",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e307_to_118",
+            "source": "node_307",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_118",
+            "source": "node_314",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
+            "id": "e317_to_58",
+            "source": "node_317",
+            "target": "node_58",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_65",
+            "source": "node_318",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e320_to_175",
+            "source": "node_320",
+            "target": "node_175",
+            "type": "step"
+        },
+        {
+            "id": "e322_to_298",
+            "source": "node_322",
+            "target": "node_298",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_76",
+            "source": "node_323",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e324_to_228",
+            "source": "node_324",
+            "target": "node_228",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_177",
+            "source": "node_325",
+            "target": "node_177",
+            "type": "step"
+        },
+        {
+            "id": "e326_to_2",
+            "source": "node_326",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e327_to_97",
+            "source": "node_327",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_18",
+            "source": "node_328",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e330_to_73",
+            "source": "node_330",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e331_to_63",
+            "source": "node_331",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e332_to_62",
+            "source": "node_332",
+            "target": "node_62",
+            "type": "step"
+        }
+    ]
+}

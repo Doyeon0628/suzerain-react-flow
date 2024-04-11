@@ -1,0 +1,805 @@
+{
+    "nodes": [
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandals_Severity >= 3 || BaseGame.Public_Opinion < 0 \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandals_Severity >= 3 || BaseGame.Public_Opinion < 0 )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nRight before kickoff, all of the members of FC Anrica suddenly lay down on the field."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe guards formed a cordon to let Serge and me through."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Retired == true || (BaseGame.Turn10_PartyCongress_Lost == true && BaseGame.Turn10_PartyCongress_FormNewParty == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You still think I'm great? After I almost got you killed?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "Serge Wolkner\n\n\"Sir!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "Serge Wolkner\n\n\"Sir?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "Serge Wolkner\n\n\"Is something on your mind, sir?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I can't wait till I can leave this all behind.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"He was a naive idiot.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_120",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Retired == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Rumburg_War == false && (BaseGame.Ending_Coup == true || BaseGame.Ending_ImpeachmentTrial == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSerge looked at me, his eyes shining."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_144",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn10_FinalSupper_BrokeTV == true \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "Serge Wolkner\n\n\"Nothing would make me happier.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_153",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_MilitaryParade_AssassinationAttempt == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMaybe this would be my year after all."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI cracked open two beers and we raised the bottles in a brief toast."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_163",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI gritted my teeth. I had come this far. I would finish what I had started.\n\nDecide to continue."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_171",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIf only for Serge's sake."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_173",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI decided to cover up my tracks. There were some documents that needed to be incinerated.\n\nLeave after covering up your tracks."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_174",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Exile = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_175",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIt was time for a fresh start. I hoped Serge would understand."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_178",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Retired == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMy presidency was coming to an end. But for this evening, at least, it didn't matter."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI walked Serge to the door, then went upstairs. I still had some work to do."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Serge Wolkner\n\n\"What? Sir, you can't just...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_205",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes. That's it. I will leave for Kyrute soon. But, first, I have to cover my tracks. Just in case.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_210",
+            "type": "customNode",
+            "data": {
+                "label": "Serge Wolkner\n\n\"No matter what happens, sir, it's been a pleasure to serve you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_219",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Thank you, Serge. Stay for a beer?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "Serge Wolkner\n\n\"Nothing would make me happier.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_230",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Exile = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_FinalSupper_Retired = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_232",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Retired == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI went upstairs to my office and started working again.\n\nStart planning for the end of your presidency."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_237",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Exile_LeaveNow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_239",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Lost == true && BaseGame.Turn10_PartyCongress_FormNewParty == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_242",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I can't wait for a fresh start in politics.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_243",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What's the point of continuing in politics?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_244",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI willed myself to stop thinking so hard. I was tired. That was all.\n\nStop contemplating and go to bed."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_246",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveNow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_247",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveLater = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_248",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveNow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_Retire = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e14_to_4",
+            "source": "node_14",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_199",
+            "source": "node_16",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_67",
+            "source": "node_19",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_41",
+            "source": "node_22",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_39",
+            "source": "node_24",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_22",
+            "source": "node_29",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_62",
+            "source": "node_50",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_5",
+            "source": "node_64",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_75",
+            "source": "node_65",
+            "target": "node_75",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_153",
+            "source": "node_76",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_240",
+            "source": "node_82",
+            "target": "node_240",
+            "type": "step"
+        },
+        {
+            "id": "e115_to_154",
+            "source": "node_115",
+            "target": "node_154",
+            "type": "step"
+        },
+        {
+            "id": "e120_to_136",
+            "source": "node_120",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_179",
+            "source": "node_131",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e135_to_178",
+            "source": "node_135",
+            "target": "node_178",
+            "type": "step"
+        },
+        {
+            "id": "e144_to_65",
+            "source": "node_144",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_161",
+            "source": "node_149",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e153_to_77",
+            "source": "node_153",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_149",
+            "source": "node_158",
+            "target": "node_149",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_2",
+            "source": "node_159",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_233",
+            "source": "node_163",
+            "target": "node_233",
+            "type": "step"
+        },
+        {
+            "id": "e171_to_232",
+            "source": "node_171",
+            "target": "node_232",
+            "type": "step"
+        },
+        {
+            "id": "e173_to_249",
+            "source": "node_173",
+            "target": "node_249",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_248",
+            "source": "node_174",
+            "target": "node_248",
+            "type": "step"
+        },
+        {
+            "id": "e175_to_2",
+            "source": "node_175",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_202",
+            "source": "node_178",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_20",
+            "source": "node_199",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_232",
+            "source": "node_200",
+            "target": "node_232",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_232",
+            "source": "node_201",
+            "target": "node_232",
+            "type": "step"
+        },
+        {
+            "id": "e205_to_247",
+            "source": "node_205",
+            "target": "node_247",
+            "type": "step"
+        },
+        {
+            "id": "e210_to_219",
+            "source": "node_210",
+            "target": "node_219",
+            "type": "step"
+        },
+        {
+            "id": "e219_to_211",
+            "source": "node_219",
+            "target": "node_211",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_2",
+            "source": "node_226",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e230_to_2",
+            "source": "node_230",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_207",
+            "source": "node_231",
+            "target": "node_207",
+            "type": "step"
+        },
+        {
+            "id": "e232_to_250",
+            "source": "node_232",
+            "target": "node_250",
+            "type": "step"
+        },
+        {
+            "id": "e235_to_170",
+            "source": "node_235",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_232",
+            "source": "node_237",
+            "target": "node_232",
+            "type": "step"
+        },
+        {
+            "id": "e239_to_176",
+            "source": "node_239",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e242_to_79",
+            "source": "node_242",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e243_to_114",
+            "source": "node_243",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e244_to_86",
+            "source": "node_244",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e246_to_231",
+            "source": "node_246",
+            "target": "node_231",
+            "type": "step"
+        },
+        {
+            "id": "e247_to_238",
+            "source": "node_247",
+            "target": "node_238",
+            "type": "step"
+        },
+        {
+            "id": "e248_to_177",
+            "source": "node_248",
+            "target": "node_177",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_239",
+            "source": "node_249",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_2",
+            "source": "node_250",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

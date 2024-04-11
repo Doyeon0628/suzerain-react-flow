@@ -1,0 +1,329 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_FPnT_AntiCapitalistRayne == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.TradeDeal_Negotiation_Valgsland == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "// continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_HP_Sordland_Lespia_New_Trade = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn04_RegionalInvestment_Lorren == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Diplomacy_Lespia_Coal_Trade = true;\\nBaseGame.Economy_Lorren += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_TradeDeal == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Lespia_TradeDeal == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_SoldSordishPetroleum == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_53",
+            "type": "customNode",
+            "data": {
+                "label": "// Continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_Alliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Lespia_Alliance == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI returned to Holsord with good news.\n\nSetRichPresenceData(Signed an alliance treaty with a neighbouring country, Yellow House, Lespia); UnlockSteamAchievement(Game_LespiaAlliance); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn04_GruniRuralDev_NoFunding == false || BaseGame.Decision_Turn06_Megaproject_Benfi == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy_Gruni += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_72",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "EnableNews(\"G_Sordland_Lespia_Alliance\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_76",
+            "source": "node_1",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_1",
+            "source": "node_15",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_1",
+            "source": "node_16",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_68",
+            "source": "node_24",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_79",
+            "source": "node_29",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_46",
+            "source": "node_35",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_69",
+            "source": "node_45",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_69",
+            "source": "node_46",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_32",
+            "source": "node_48",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_62",
+            "source": "node_49",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e53_to_37",
+            "source": "node_53",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_54",
+            "source": "node_55",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_67",
+            "source": "node_57",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_55",
+            "source": "node_66",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_29",
+            "source": "node_68",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_54",
+            "source": "node_71",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e72_to_54",
+            "source": "node_72",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e78_to_61",
+            "source": "node_78",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e79_to_25",
+            "source": "node_79",
+            "target": "node_25",
+            "type": "step"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "nodes": [
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"It concerns the Bernard Circas assassination.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes. The sooner the better.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No, let this be our little secret for now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"I assume Mrs. Morgna will want to take action on this immediately. They could go to trial by the end of the month.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_NFP_Trialled_RemusAndKesaro = true;\\nBaseGameSupport.Journal_Turn09_Investigations_TrialRemusAndKesaro = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.NFPLeader_Remus = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e2_to_51",
+            "source": "node_2",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_13",
+            "source": "node_23",
+            "target": "node_13",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_20",
+            "source": "node_27",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_23",
+            "source": "node_34",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_17",
+            "source": "node_35",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_11",
+            "source": "node_45",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_9",
+            "source": "node_48",
+            "target": "node_9",
+            "type": "step"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "nodes": [
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe looked at me with fury in his eyes."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe walked up to my desk and placed his pin on it."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveConversant(\"Hugo Toras\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e40_to_27",
+            "source": "node_40",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_46",
+            "source": "node_55",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_4",
+            "source": "node_83",
+            "target": "node_4",
+            "type": "step"
+        }
+    ]
+}

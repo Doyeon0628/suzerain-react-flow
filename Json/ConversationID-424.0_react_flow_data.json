@@ -1,0 +1,108 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"Mr. Adria claims he will be unjustly persecuted if he returns to Rizia. But if you deem his crime worthy of punishment by your laws, you may have him.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I don't understand. Are you saying my butler was a homosexual?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"And yet RIzia would have him punished for either.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"Very well. I'll give the orders when I arrive back at the Garrison.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Derdia_NegotiatingPower -= 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_77",
+            "source": "node_1",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_64",
+            "source": "node_27",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_74",
+            "source": "node_47",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_73",
+            "source": "node_58",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_41",
+            "source": "node_64",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_37",
+            "source": "node_71",
+            "target": "node_37",
+            "type": "step"
+        }
+    ]
+}

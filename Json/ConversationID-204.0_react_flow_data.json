@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e9_to_28",
+            "source": "node_9",
+            "target": "node_28",
+            "type": "step"
+        },
+        {
+            "id": "e28_to_13",
+            "source": "node_28",
+            "target": "node_13",
+            "type": "step"
+        }
+    ]
+}

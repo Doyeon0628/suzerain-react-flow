@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion < -5\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe usual crowd of protesters was waiting for me outside the gates of the complex."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandals_Severity >= 3 || BaseGame.Public_Opinion < 0 \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nBefore kickoff, the team captain gave a short speech thanking me for all I'd done during my term. At least my own football team still liked me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nRight before kickoff, all of the members of FC Anrica suddenly lay down on the field."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_ImpeachmentTrial == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn10_PartyCongress_Lost == true && BaseGame.Turn10_PartyCongress_FormNewParty == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI went up to my office and began drafting a speech announcing my retirement from politics.\n\nDraft a speech announcing your retirement from politics."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Rumburg_War == false &&(BaseGame.Ending_ImpeachmentTrial == true || BaseGame.Ending_Coup == true || BaseGame.Rumburg_GivenEstordAndNarbel == true))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI gritted my teeth. I would stick it out until the end of my term -- but no longer.\n\nStick with your plan to retire."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI willed myself to stop overthinking everything. I was tired.\n\nStop contemplating and go to bed."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e2_to_48",
+            "source": "node_2",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_15",
+            "source": "node_5",
+            "target": "node_15",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_52",
+            "source": "node_22",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_22",
+            "source": "node_31",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_52",
+            "source": "node_32",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_74",
+            "source": "node_63",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e80_to_101",
+            "source": "node_80",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_2",
+            "source": "node_87",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_82",
+            "source": "node_91",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_107",
+            "source": "node_94",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_88",
+            "source": "node_104",
+            "target": "node_88",
+            "type": "step"
+        }
+    ]
+}

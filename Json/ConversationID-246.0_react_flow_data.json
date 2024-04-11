@@ -1,0 +1,431 @@
+{
+    "nodes": [
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI rose up from my seat.\n\nRise up from your seat."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI remained seated.\n\nRemain seated."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe put them down and looked at me."
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Leaker_ACP == true && BaseGame.LeakedScandal_Testify_ACP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Leaker_LucianGalade == true && BaseGame.LeakedScandal_Testify_Lucian == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Leaker_LucianGalade == true && BaseGame.LeakedScandal_Testify_Lucian == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Leaker_MarcelKoronti == true || BaseGame.Leaker_WalterTusk == true ) && BaseGame.LeakedScandal_Testify_Oligarchs == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Leaker_MarcelKoronti == true || BaseGame.Leaker_WalterTusk == true ) && BaseGame.LeakedScandal_Testify_Oligarchs == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_69",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n“There is no place for conspiracy theories in this court, Mr. President. The evidence has been presented in a clear and irrefutable manner.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n“Let the record show that the President has refused the opportunity to defend himself.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_121",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Leaker_HeronGaraci == true && BaseGame.LeakedScandal_Testify_Heron == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Leaker_HeronGaraci == true && BaseGame.LeakedScandal_Testify_Heron == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe Supreme Court justices entered and took their seats one by one.\n\nAddConversant(Heron Garaci); AddConversant(Isabel Edmonds); AddConversant(Gloria Tory); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_Action_Court_ExperiencedJustice == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_133",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_Action_Court_GloriaJustice == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe Supreme Court justices entered and took their seats one by one.\n\nAddConversant(Ovid Grecer); AddConversant(Didier Meye); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_146",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_166",
+            "type": "customNode",
+            "data": {
+                "label": "Didier Meye\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_174",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n“I call the case of the impeachment charges against the President of Sordland. The case number is 385372.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_183",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n“The prosecution will be called upon first, followed by the defendant.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_202",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e14_to_41",
+            "source": "node_14",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_172",
+            "source": "node_15",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_172",
+            "source": "node_16",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_1",
+            "source": "node_38",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_16",
+            "source": "node_41",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_1",
+            "source": "node_43",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_122",
+            "source": "node_47",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_1",
+            "source": "node_49",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e69_to_88",
+            "source": "node_69",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_109",
+            "source": "node_82",
+            "target": "node_109",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_109",
+            "source": "node_83",
+            "target": "node_109",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_109",
+            "source": "node_92",
+            "target": "node_109",
+            "type": "step"
+        },
+        {
+            "id": "e121_to_199",
+            "source": "node_121",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_1",
+            "source": "node_123",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e124_to_48",
+            "source": "node_124",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_40",
+            "source": "node_127",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e133_to_125",
+            "source": "node_133",
+            "target": "node_125",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_9",
+            "source": "node_143",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_37",
+            "source": "node_146",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_37",
+            "source": "node_157",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e166_to_37",
+            "source": "node_166",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_126",
+            "source": "node_174",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e183_to_196",
+            "source": "node_183",
+            "target": "node_196",
+            "type": "step"
+        },
+        {
+            "id": "e197_to_114",
+            "source": "node_197",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e202_to_198",
+            "source": "node_202",
+            "target": "node_198",
+            "type": "step"
+        }
+    ]
+}

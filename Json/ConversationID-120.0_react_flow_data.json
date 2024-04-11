@@ -1,0 +1,125 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_P_Underhall == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.PersonalWealth += 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn02_InT_Corporation_UnderhallConstruction == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Additionally, I bring good news regarding our investment.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“The money should be arriving in your account shortly.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_Personal_Festival_LesteKicked == true && BaseGame.Turn05_Personal_Festival_Force == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_22",
+            "source": "node_1",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e3_to_23",
+            "source": "node_3",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e14_to_3",
+            "source": "node_14",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_15",
+            "source": "node_18",
+            "target": "node_15",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_12",
+            "source": "node_21",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_7",
+            "source": "node_22",
+            "target": "node_7",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_2",
+            "source": "node_23",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

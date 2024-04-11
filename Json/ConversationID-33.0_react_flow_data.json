@@ -1,0 +1,380 @@
+{
+    "nodes": [
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThey placed the draft for the Emergency act in front of me."
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"It's because Mr. Ricter made it known that our administration is blocking the reforms. Many are protesting against that now too.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nNot long after, Orso and Lucian arrived.\n\nAddConversant(Lucian Galade); AddConversant(Orso Hawker); RemoveConversant(Livia Suno); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Greetings.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI was walking to my office. Today was the day to finally write the Emergency Act and order the execution of the decree.\n\nSetRichPresenceData(Preparing the emergency decree, Center Hall, Maroon Palace); PlaySceneMusic(Master); AddReport(Morna, Mayor request port construction); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n\"Fine, thank you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nTalks with the leading figures of the Old Guards were fruitful and the preparation for the emergency was already underway."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLivia left to hang up my coat. I walked into my office and sat down."
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMy secretary greeted me at the entrance to my presidential office.\n\nAddConversant(Livia Suno); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n\"Good morning, Mr. President.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'm about to make stressful decisions. So, not feeling that great.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You may be right. But I just don't see any other way out of this.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n\"That's good to hear.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe averted her eyes away from me and smiled."
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n\"How are you today, sir?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAfter carefully examining the draft and my own notes, I buried myself in the papers.\n\nOpenAutocratEmergencyActPanel(); WaitforMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n\"Regardless of who they are or what they support, the situation is clear. Let's see how we'll proceed with the President's decree.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn03_LT_BenfiFestival = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_36",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe paused before taking my coat. It looked like she had something on her mind."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn03_A_Pre_Constitution = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn03_E_EPA_PotentialsAnalysis = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e3_to_34",
+            "source": "node_3",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e4_to_39",
+            "source": "node_4",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_35",
+            "source": "node_5",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_18",
+            "source": "node_6",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_14",
+            "source": "node_9",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e10_to_36",
+            "source": "node_10",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_31",
+            "source": "node_11",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_30",
+            "source": "node_13",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_37",
+            "source": "node_16",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_3",
+            "source": "node_18",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_29",
+            "source": "node_20",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_9",
+            "source": "node_26",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e28_to_25",
+            "source": "node_28",
+            "target": "node_25",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_37",
+            "source": "node_29",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_20",
+            "source": "node_31",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_20",
+            "source": "node_32",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_5",
+            "source": "node_34",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_4",
+            "source": "node_35",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e36_to_12",
+            "source": "node_36",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_26",
+            "source": "node_38",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_1",
+            "source": "node_40",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_2",
+            "source": "node_41",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

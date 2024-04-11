@@ -1,0 +1,499 @@
+{
+    "nodes": [
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe reform committee had intensified work after the negotiations with the Old Guard broke down. Options regarding the new Constitution were already laid out.\n\nSetRichPresenceData(Discussing the results from the Reform Committee, White Room, Maroon Palace); PlaySceneMusic(Choices); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA few minutes later, Lucian and Petr arrived.\n\nAddConversant(Lucian Galade); AddConversant(Petr Vectern); AddConversant(Nia Morgna); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"There are some people in USP who would support a new Constitution with more executive powers. Getting the support of the nationalists is our best bet.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Now we have a better picture of your intentions, sir. I will start reaching out to my contacts to make a draft that works for you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"But now we have a better picture of your intentions, sir. I will start reaching out to my contacts to make a draft that works for you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Your service is appreciated.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"I'm sure you will lead us to greatness, sir. Thanks for your time.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Together we will democratize Sordland.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Thanks for the meeting, everybody.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Thank you for your time, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Since we have arrived at the same page with Ms. Morgna again I will reach out to her to for guidance on the draft constitution work. She has principles and wouldn't go against her own code out of previous disagreements.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"I think this is where we'll call it, sir. Have a good day.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n0x01000000000A0148\n\nRemoveConversant(Nia Morgna); RemoveConversant(Lucian Galade); RemoveConversant(Petr Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Dictator_Path = true;\\nBaseGame.Reform_Dictator_Intention = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"After what they pulled off I say let's screw them over. We can go all the way with the reforms and shatter the power of the Old Guard.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The future lies in a true reform of the constitution. The people elected us for that, let us embrace our purpose.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reformist_Path = true;\\nBaseGame.Reform_Reformist_Intention = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"True, sorry I got a little hotheaded.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Prologue_Speech_Democracy_Liberal == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We should not be blinded by hatred of foes. Our true purpose will be real reform for the future of this nation.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"The reform committee has presented two options. It's either we take more power to ourselves to beat the Old Guard or we opt for a true reformist agenda to democratise Sordland.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"Very well if that is your decision. We will need to engage further with the progressive wing.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Intention = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"I will fully support you, Anton.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn03_LateBrief_ReformistBranch = true; BaseGameSupport.Journal_Turn03_LateReform_Reformist = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn03_LateBrief_DictatorBranch = true; BaseGameSupport.Journal_Turn03_LateReform_Dictator = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn03_LateBrief_ReformistBranch == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "!(GameCondition.Turn03_LateBrief_ReformistBranch == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e3_to_70",
+            "source": "node_3",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e4_to_60",
+            "source": "node_4",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_43",
+            "source": "node_5",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_1",
+            "source": "node_6",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_24",
+            "source": "node_9",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_16",
+            "source": "node_13",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_38",
+            "source": "node_21",
+            "target": "node_38",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_32",
+            "source": "node_25",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_35",
+            "source": "node_26",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_36",
+            "source": "node_29",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_34",
+            "source": "node_35",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_40",
+            "source": "node_37",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_3",
+            "source": "node_39",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_3",
+            "source": "node_40",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_53",
+            "source": "node_42",
+            "target": "node_53",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_50",
+            "source": "node_46",
+            "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_58",
+            "source": "node_48",
+            "target": "node_58",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_59",
+            "source": "node_49",
+            "target": "node_59",
+            "type": "step"
+        },
+        {
+            "id": "e54_to_47",
+            "source": "node_54",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_63",
+            "source": "node_56",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_62",
+            "source": "node_57",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_67",
+            "source": "node_58",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_1",
+            "source": "node_59",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_5",
+            "source": "node_60",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_6",
+            "source": "node_61",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_49",
+            "source": "node_62",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_41",
+            "source": "node_63",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_56",
+            "source": "node_65",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e70_to_2",
+            "source": "node_70",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

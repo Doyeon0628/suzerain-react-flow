@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n\"I think you'd also agree that Mrs. Morgna isn't doing much to justify the retainment of her position.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e4_to_11",
+            "source": "node_4",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e7_to_4",
+            "source": "node_7",
+            "target": "node_4",
+            "type": "step"
+        }
+    ]
+}

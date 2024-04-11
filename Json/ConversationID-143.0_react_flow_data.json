@@ -1,0 +1,703 @@
+{
+    "nodes": [
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_VPSelection_Albin == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_VPSelection_Gloria == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian and I were on our way to my office. I was holding a mug of coffee in one hand and a folder of various documents in the other.\n\n\n\nPlaySceneMusic(Reflection); AddConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I don't want to cause further division among Sords because of this.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAs we turned a corner, Lucian spoke.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Why should I attend a Bludish anniversary?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI heard Gloria's voice from behind him.\n\n\n\nAddConversant(Gloria Tory); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nOne of them saw us, bowed his head and changed the name tag on the door to 'Vice President Gloria Tory'.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe noticed us and immediately made his way to us.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian's upper lip curled. He and Albin stared at each other down for a moment.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“I am not your servant, Mrs. Tory.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Albin Clavin\n\n“Good to see you too, Mr. President. I'm almost ready to get to work. That reminds me...”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n“It was just a simple request, Mr. Galade. I don't know what's with you but I don't like your attitude.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Albin Clavin\n\n“True, but I am your superior, *Lucian*.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“We work with requests here, Mr. Clavin. Not orders.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe two of us continued to my office to talk about our Aschraf strategy.\n\n\n\nRemoveConversant(Albin Clavin); RemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Lucian, do as your Vice President says.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Gloria. Go talk to the Staff Secretary yourself. We are busy.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“That's the job of an office secretary, Mrs. Tory. Not our chief strategist.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“For the Aschraf matter, I will present you with our options later.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "Albin Clavin\n\n“I will stop by as soon as this is done.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_90",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“I will present you with our options on the Aschraf matter later.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n“Well then. I must get back to the move. Thank you for visiting, Mr. President.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI entered my office and asked Sylvia for a second cup of coffee to wake me up.\n\n\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_111",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAnother long day was waiting for me.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'm expecting good work from you. Do not disappoint me.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "Gloria Tory\n\n“I will do my best.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_120",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI entered my office and asked Sylvia for a second cup of coffee to wake me up.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_130",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_133",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_R_VP_Gloria = true\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_R_VP_Lucian = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_R_VP_Albin = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_139",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_HP_VP_Gloria = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_144",
+            "type": "customNode",
+            "data": {
+                "label": "AssignConnection(\"Page_Cabinet\", \"Position_VicePresident\", \"Cabinet_VicePresident_AlbinClavin\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "AssignConnection(\"Page_Cabinet\", \"Position_VicePresident\", \"Cabinet_VicePresident_GloriaTory\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_151",
+            "type": "customNode",
+            "data": {
+                "label": "AssignConnection(\"Page_Legislative\", \"Position_Speaker\", \"Legislative_AlbinClavin\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_155",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCharacterTitle(\"Gloria Tory\", \"Vice President\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_156",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCharacterTitle(\"Albin Clavin\", \"Vice President\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e4_to_145",
+            "source": "node_4",
+            "target": "node_145",
+            "type": "step"
+        },
+        {
+            "id": "e7_to_146",
+            "source": "node_7",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e8_to_147",
+            "source": "node_8",
+            "target": "node_147",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_144",
+            "source": "node_9",
+            "target": "node_144",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_34",
+            "source": "node_12",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_10",
+            "source": "node_16",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_157",
+            "source": "node_25",
+            "target": "node_157",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_155",
+            "source": "node_29",
+            "target": "node_155",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_51",
+            "source": "node_33",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_45",
+            "source": "node_37",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_57",
+            "source": "node_42",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_39",
+            "source": "node_48",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_41",
+            "source": "node_55",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_72",
+            "source": "node_56",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_87",
+            "source": "node_62",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e70_to_89",
+            "source": "node_70",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_119",
+            "source": "node_71",
+            "target": "node_119",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_92",
+            "source": "node_74",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_91",
+            "source": "node_77",
+            "target": "node_91",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_123",
+            "source": "node_88",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_69",
+            "source": "node_89",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e90_to_105",
+            "source": "node_90",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_113",
+            "source": "node_93",
+            "target": "node_113",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_158",
+            "source": "node_101",
+            "target": "node_158",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_101",
+            "source": "node_111",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_101",
+            "source": "node_112",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_101",
+            "source": "node_119",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e120_to_116",
+            "source": "node_120",
+            "target": "node_116",
+            "type": "step"
+        },
+        {
+            "id": "e130_to_31",
+            "source": "node_130",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e133_to_30",
+            "source": "node_133",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_30",
+            "source": "node_134",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_29",
+            "source": "node_137",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_29",
+            "source": "node_138",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e139_to_127",
+            "source": "node_139",
+            "target": "node_127",
+            "type": "step"
+        },
+        {
+            "id": "e144_to_13",
+            "source": "node_144",
+            "target": "node_13",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_124",
+            "source": "node_145",
+            "target": "node_124",
+            "type": "step"
+        },
+        {
+            "id": "e151_to_142",
+            "source": "node_151",
+            "target": "node_142",
+            "type": "step"
+        },
+        {
+            "id": "e155_to_27",
+            "source": "node_155",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_26",
+            "source": "node_156",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_12",
+            "source": "node_157",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_2",
+            "source": "node_158",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

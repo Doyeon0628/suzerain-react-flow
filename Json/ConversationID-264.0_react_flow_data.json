@@ -1,0 +1,57 @@
+{
+    "nodes": [
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_AcceptedMarcelCar == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Retirement_Holsord == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\nYou felt sad."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e10_to_56",
+            "source": "node_10",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_1",
+            "source": "node_45",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_1",
+            "source": "node_55",
+            "target": "node_1",
+            "type": "step"
+        }
+    ]
+}

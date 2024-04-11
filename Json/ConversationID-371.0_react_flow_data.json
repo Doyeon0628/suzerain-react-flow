@@ -1,0 +1,329 @@
+{
+    "nodes": [
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I doubt that Morella would allow such an extension given your history.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"It depends on whether you are able to make peace with the Morellan prime minister.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"I hear you have sold oil and gas to other Merkopan countries. Perhaps you would be willing to ship it to us across the Gulf of Moridia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"Once energy is flowing from Rizia to Derdia, we can begin to talk about further cooperation.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_DerdiaRequests_Morella == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I agree to extend the pipeline. But you must be ready to stop your disgraceful border violations.\"\n\n\"I agree to extend the pipeline. But you must be ready to stop your disgraceful border violations.\" [-1 Budget]"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"My answer is no. You will have to come up with another energy solution.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I wouldn't call energy 'riches'. It is a basic need.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Resources_Energy < 2)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Wouldn't it be easier for you to buy oil from Wehlen?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"To be frank, we need your diplomatic support more than we need you to buy our energy.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Turn07_Diplomacy_Derdia_EnableSaltanaMeeting = true; RiziaDLCIsolated.Turn07_Derdia_FavorsDone += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Trait_ReligiousKing == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"You're very optimistic. But I would not count on Morella to offer either of those to us.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"That's unfortunate, Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"Diplomatic support from a country with rolling blackouts. I'm not sure how much that's worth, Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"'United' is not the word for it. But if Rizia wishes for us to keep the peace, we shall.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"But as long as you continue to support Golcondists, we will endeavor to support you in whatever matters we can.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Resources_Budget > 1)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e4_to_61",
+            "source": "node_4",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_55",
+            "source": "node_13",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_8",
+            "source": "node_27",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e28_to_55",
+            "source": "node_28",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_84",
+            "source": "node_29",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_64",
+            "source": "node_37",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_71",
+            "source": "node_39",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_74",
+            "source": "node_43",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_36",
+            "source": "node_56",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_82",
+            "source": "node_57",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_81",
+            "source": "node_58",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_110",
+            "source": "node_65",
+            "target": "node_110",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_45",
+            "source": "node_68",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e70_to_100",
+            "source": "node_70",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_110",
+            "source": "node_71",
+            "target": "node_110",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_54",
+            "source": "node_75",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e79_to_97",
+            "source": "node_79",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_17",
+            "source": "node_92",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_38",
+            "source": "node_112",
+            "target": "node_38",
+            "type": "step"
+        }
+    ]
+}

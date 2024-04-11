@@ -1,0 +1,125 @@
+{
+    "nodes": [
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'd like to finish the meeting with a speech.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_CourtResults_SpeechHub = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn05_AutocratEmergency_Extend == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Reform_AssemblyVote_Success == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Faction_OldGuard_Content == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_CourtVote_Success == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Reform_Court_Success == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e3_to_11",
+            "source": "node_3",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_30",
+            "source": "node_5",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_28",
+            "source": "node_15",
+            "target": "node_28",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_39",
+            "source": "node_19",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_47",
+            "source": "node_25",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_10",
+            "source": "node_27",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_42",
+            "source": "node_49",
+            "target": "node_42",
+            "type": "step"
+        }
+    ]
+}

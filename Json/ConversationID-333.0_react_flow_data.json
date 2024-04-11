@@ -1,0 +1,329 @@
+{
+    "nodes": [
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus_Italic\n\nI gestured to an aide and commanded him to rename the castle.\n\nCastle Victory."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus_Italic\n\nI gestured to an aide and commanded him to rename the castle.\n\nCastle Toras."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus_Italic\n\nI gestured to an aide and commanded him to rename the castle.\n\nCastle Romus."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus_Italic\n\nI gestured to an aide and commanded him to rename the castle.\n\nCastle Pales."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe large doors swung slowly open and I spurred my horse, following the parade."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI looked at the horizon towards the port of Pales."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Apologize to your King. In front of everyone.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You fought valiantly, Axel.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_116",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI turned around and looked at Pales."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_120",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveConversant(\"Axel Reinhart\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_128",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.War_Pales_Won_AxelTortured = true;\\nRiziaDLC.Axel_Arrested = true; RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Success_TortureAxel = true;\\nEnableCodexEntry(\"Characters_ForeignLeaders_AxelReinhart_Arrested\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_133",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Axel_Arrested = true; RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Success_ArrestAxel = true;\\nEnableCodexEntry(\"Characters_ForeignLeaders_AxelReinhart_Arrested\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Win_Renamed_CastleVictory = true; RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Success_CastleVictory = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Win_Renamed_CastlePales = true; RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Success_CastlePales = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Success = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_ForThePeople\", \"R_ForThePeople_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_142",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.Reports_Turn10_Pales_ChemicalCleanup = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_154",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.War_Used_ExperimentalWeapons_Solles == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e9_to_140",
+            "source": "node_9",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e10_to_137",
+            "source": "node_10",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_136",
+            "source": "node_11",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_135",
+            "source": "node_12",
+            "target": "node_135",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_138",
+            "source": "node_13",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_131",
+            "source": "node_59",
+            "target": "node_131",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_89",
+            "source": "node_93",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_134",
+            "source": "node_96",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e116_to_115",
+            "source": "node_116",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e120_to_156",
+            "source": "node_120",
+            "target": "node_156",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_88",
+            "source": "node_122",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e128_to_114",
+            "source": "node_128",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e133_to_39",
+            "source": "node_133",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_14",
+            "source": "node_136",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_14",
+            "source": "node_137",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_14",
+            "source": "node_138",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_14",
+            "source": "node_140",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_121",
+            "source": "node_142",
+            "target": "node_121",
+            "type": "step"
+        },
+        {
+            "id": "e154_to_145",
+            "source": "node_154",
+            "target": "node_145",
+            "type": "step"
+        }
+    ]
+}

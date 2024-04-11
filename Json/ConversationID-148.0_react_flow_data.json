@@ -1,0 +1,176 @@
+{
+    "nodes": [
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Policy_Law_Decree_Default == true || BaseGame.Policy_Law_Decree_Stronger == true) && BaseGame.Reform_Autocrat_CourtVote_Success == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameUI.PresidentialPower_Condition_GenderEqualityInEducation = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Policy_Law_Decree_Default == true || BaseGame.Policy_Law_Decree_Stronger == true) && BaseGame.Reform_Autocrat_CourtVote_Success == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameUI.PresidentialPower_Condition_FreePrescriptionMedicine = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_Decree_Default == true || BaseGame.Policy_Law_Decree_Stronger == true || BaseGame.Policy_Law_Decree_Weaker == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_Decree_Default == true || BaseGame.Policy_Law_Decree_Stronger == true || BaseGame.Policy_Law_Decree_Weaker == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Policy_Law_Decree_Stronger == true && BaseGame.Reform_Autocrat_CourtVote_Success == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameUI.PresidentialPower_Condition_RelocationOfTeachersAndDoctorsToRuralAreas = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameUI.PresidentialPower_Condition_LowerRetirementAge = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_Decree_Default == true || BaseGame.Policy_Law_Decree_Stronger == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e13_to_24",
+            "source": "node_13",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_11",
+            "source": "node_18",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_47",
+            "source": "node_19",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_47",
+            "source": "node_22",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_67",
+            "source": "node_35",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_44",
+            "source": "node_55",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_50",
+            "source": "node_60",
+            "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_40",
+            "source": "node_64",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_44",
+            "source": "node_65",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_59",
+            "source": "node_66",
+            "target": "node_59",
+            "type": "step"
+        }
+    ]
+}

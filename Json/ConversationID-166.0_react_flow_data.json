@@ -1,0 +1,1706 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Media_SordlandToday_Bias == true && BaseGame.Accepted_MediaDeal == true) && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false || (BaseGame.HeartOfSordland_Nationalization >3 || BaseGame.Media_Censored == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_ShareBlame == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“We remain vigilant against external and internal enemies. We will not tolerate any crimes against the state.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMany camera flashes went off. A reporter raised her hand to speak.\n\nAddConversant(Reporter); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes? What is it?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"A source within the palace? Who do you think she meant?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That she did can be directly traced to the carelessness of one man: Petr Vectern.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Rest assured the traitor shall be brought to justice.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Rest assured a security breach of this magnitude shall never happen again.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"Wait just a--\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe clamor of reporters was growing louder. Petr grabbed me by the collar and yanked me away from the microphones."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Rest assured the traitor shall be brought to justice.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"However, the fact remains that she should never have been allowed to access sensitive government information.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You don't have to do this.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_130",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will be answering all questions on the vice president's behalf.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "Reporter\n\n\"Are you implying that you and the covert agent posing as President Rayne's secretary were engaged in intimate relations?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Reporter\n\n\"President Rayne, was Mr. Vectern implying that he and the covert agent posing as President Rayne's secretary were engaged in intimate relations?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_150",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"What the hell, Anton? We never discussed this.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "Reporter\n\n\"President Rayne, were you implying that Mr. Vectern and the covert agent posing as your secretary were engaged in intimate relations?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_169",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes, and it wasn't the only such affair.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_174",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian interjected."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will take exactly one question.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_187",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe reporters reluctantly dispersed. Lucian, Petr and I looked at each other for what seemed like an eternity. Finally, Petr lowered his eyes.\n\nRemoveConversant(Reporter); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Too soon.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_189",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Mr. Vectern certainly made a scene, but it appears that you will make it out of this unscathed.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_191",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I have a few candidates in mind.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"I guess I'll go to the palace and start packing my things, then.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI watched Petr descend the courthouse stairs to his car, alone.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nPetr shook his head. I watched him descend the courthouse steps to his car, alone.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "Reporter\n\n\"Sir, you just had your vice president arraigned in full view of the public--\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Very good, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_204",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI watched him descend the courthouse steps to his car.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_205",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI watched Petr descend the courthouse stairs to his car.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_206",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI said nothing and watched Petr descend the courthouse steps to his car.\n\nSay nothing.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_207",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'll come with you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_209",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"I guess I'll go to the palace and start packing my things, then.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_212",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"See you around, Anton.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrSelfResigned = true; BaseGameSupport.Journal_Turn08_SecondScandal_PetrSelfResigned = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_214",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_219",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_221",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_222",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_228",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn08_SecondScandal_RumburgBlamed = true;\\nBaseGame.Public_Opinion += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_232",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn08_SecondScandal_PetrTrialled = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_233",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_243",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_251",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_252",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion -= 3;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_253",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_254",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion -= 2;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_255",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_LiviaTrialled == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_257",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_LiviaTrialled == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_262",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_ST_Press_Conference_Blame_Petr_Media = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_263",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_ST_No_Blame_Media = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_R_Livia_Investigate_Trialled = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_279",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Media_Censored == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_284",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_289",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_A_Petr_Protected == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_291",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_A_Petr_Protected == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_297",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true || BaseGame.Turn08_SecondScandal_PetrForcedResign == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_301",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_KeptAsVP = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_302",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Arrested = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_303",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Dismissed = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Resigned = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_305",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Petr_Dead = true;\\nBaseGame.Petr_isVP = false;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_306",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Others_LiviaSuno = false; BaseGameSupport.Codex_Characters_Others_LiviaSuno_ArrestedAsSpy = true; BaseGameSupport.Codex_Characters_Others_LiviaSuno_Dismissed = false; BaseGameSupport.Codex_Characters_Others_LiviaSuno_Missing = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_307",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrTrialled == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_310",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == false && BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_313",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_ST_Press_Conference_Blame_Petr_NoMedia = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_PressConference_PetrKnowsResigning == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_317",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHow could I forget? I was about to blame my best friend for a scandal that would otherwise shatter my administration. Petr hadn't said a word to me since I broke the news to him in my office."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_PressConference_PetrKnowsResigning == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe clamor of reporters was growing louder. Petr seemed to shrink behind the podium, his charisma failing him at last."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_PressConference_PetrKnowsResigning == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_326",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"A shame about your friend, Mr. President. But it appears you will make it out of this unscathed.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_327",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_330",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_ST_Livia_Petr_Secretly_Jailed_Killed_NoMedia = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_331",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Turn08_SecondScandal_SecretState_ArrestLivia == true && BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true) || (BaseGame.Turn08_SecondScandal_SecretState_Kill_Livia == true && BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_333",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Turn08_SecondScandal_SecretState_ArrestLivia == true && BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true) || (BaseGame.Turn08_SecondScandal_SecretState_Kill_Livia == true && BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_334",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_ST_Livia_Petr_Secretly_Jailed_Killed_Media = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_339",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCharacterTitle(\"Petr Vectern\", \"Former Vice President\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_340",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCharacterTitle(\"Petr Vectern\", \"Former Vice President\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_341",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"PressRelease\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_342",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_343",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_234",
+            "source": "node_1",
+            "target": "node_234",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_290",
+            "source": "node_6",
+            "target": "node_290",
+            "type": "step"
+        },
+        {
+            "id": "e10_to_315",
+            "source": "node_10",
+            "target": "node_315",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_227",
+            "source": "node_22",
+            "target": "node_227",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_76",
+            "source": "node_24",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_101",
+            "source": "node_27",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_231",
+            "source": "node_33",
+            "target": "node_231",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_342",
+            "source": "node_37",
+            "target": "node_342",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_215",
+            "source": "node_38",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_253",
+            "source": "node_41",
+            "target": "node_253",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_220",
+            "source": "node_63",
+            "target": "node_220",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_6",
+            "source": "node_73",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_87",
+            "source": "node_75",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_230",
+            "source": "node_77",
+            "target": "node_230",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_244",
+            "source": "node_85",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_233",
+            "source": "node_87",
+            "target": "node_233",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_176",
+            "source": "node_98",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_151",
+            "source": "node_99",
+            "target": "node_151",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_229",
+            "source": "node_101",
+            "target": "node_229",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_214",
+            "source": "node_117",
+            "target": "node_214",
+            "type": "step"
+        },
+        {
+            "id": "e130_to_254",
+            "source": "node_130",
+            "target": "node_254",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_141",
+            "source": "node_131",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_209",
+            "source": "node_140",
+            "target": "node_209",
+            "type": "step"
+        },
+        {
+            "id": "e150_to_255",
+            "source": "node_150",
+            "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_223",
+            "source": "node_168",
+            "target": "node_223",
+            "type": "step"
+        },
+        {
+            "id": "e169_to_167",
+            "source": "node_169",
+            "target": "node_167",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_188",
+            "source": "node_174",
+            "target": "node_188",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_200",
+            "source": "node_176",
+            "target": "node_200",
+            "type": "step"
+        },
+        {
+            "id": "e187_to_339",
+            "source": "node_187",
+            "target": "node_339",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_306",
+            "source": "node_188",
+            "target": "node_306",
+            "type": "step"
+        },
+        {
+            "id": "e189_to_202",
+            "source": "node_189",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e191_to_189",
+            "source": "node_191",
+            "target": "node_189",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_203",
+            "source": "node_193",
+            "target": "node_203",
+            "type": "step"
+        },
+        {
+            "id": "e197_to_324",
+            "source": "node_197",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_324",
+            "source": "node_198",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_324",
+            "source": "node_199",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_185",
+            "source": "node_200",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e204_to_6",
+            "source": "node_204",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e205_to_190",
+            "source": "node_205",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e206_to_190",
+            "source": "node_206",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e207_to_190",
+            "source": "node_207",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e209_to_341",
+            "source": "node_209",
+            "target": "node_341",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_205",
+            "source": "node_212",
+            "target": "node_205",
+            "type": "step"
+        },
+        {
+            "id": "e213_to_206",
+            "source": "node_213",
+            "target": "node_206",
+            "type": "step"
+        },
+        {
+            "id": "e214_to_120",
+            "source": "node_214",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e219_to_41",
+            "source": "node_219",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e221_to_66",
+            "source": "node_221",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e222_to_64",
+            "source": "node_222",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_175",
+            "source": "node_223",
+            "target": "node_175",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_34",
+            "source": "node_224",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_104",
+            "source": "node_225",
+            "target": "node_104",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_79",
+            "source": "node_226",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e228_to_23",
+            "source": "node_228",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e232_to_319",
+            "source": "node_232",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e233_to_88",
+            "source": "node_233",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e243_to_3",
+            "source": "node_243",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e251_to_86",
+            "source": "node_251",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e252_to_251",
+            "source": "node_252",
+            "target": "node_251",
+            "type": "step"
+        },
+        {
+            "id": "e253_to_46",
+            "source": "node_253",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e254_to_132",
+            "source": "node_254",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e255_to_139",
+            "source": "node_255",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e257_to_307",
+            "source": "node_257",
+            "target": "node_307",
+            "type": "step"
+        },
+        {
+            "id": "e262_to_268",
+            "source": "node_262",
+            "target": "node_268",
+            "type": "step"
+        },
+        {
+            "id": "e263_to_280",
+            "source": "node_263",
+            "target": "node_280",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_308",
+            "source": "node_274",
+            "target": "node_308",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_308",
+            "source": "node_275",
+            "target": "node_308",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_260",
+            "source": "node_278",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e279_to_260",
+            "source": "node_279",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_267",
+            "source": "node_281",
+            "target": "node_267",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_268",
+            "source": "node_282",
+            "target": "node_268",
+            "type": "step"
+        },
+        {
+            "id": "e284_to_275",
+            "source": "node_284",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_308",
+            "source": "node_286",
+            "target": "node_308",
+            "type": "step"
+        },
+        {
+            "id": "e289_to_308",
+            "source": "node_289",
+            "target": "node_308",
+            "type": "step"
+        },
+        {
+            "id": "e291_to_302",
+            "source": "node_291",
+            "target": "node_302",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_304",
+            "source": "node_297",
+            "target": "node_304",
+            "type": "step"
+        },
+        {
+            "id": "e301_to_256",
+            "source": "node_301",
+            "target": "node_256",
+            "type": "step"
+        },
+        {
+            "id": "e302_to_256",
+            "source": "node_302",
+            "target": "node_256",
+            "type": "step"
+        },
+        {
+            "id": "e303_to_256",
+            "source": "node_303",
+            "target": "node_256",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_256",
+            "source": "node_304",
+            "target": "node_256",
+            "type": "step"
+        },
+        {
+            "id": "e305_to_256",
+            "source": "node_305",
+            "target": "node_256",
+            "type": "step"
+        },
+        {
+            "id": "e306_to_340",
+            "source": "node_306",
+            "target": "node_340",
+            "type": "step"
+        },
+        {
+            "id": "e307_to_259",
+            "source": "node_307",
+            "target": "node_259",
+            "type": "step"
+        },
+        {
+            "id": "e310_to_332",
+            "source": "node_310",
+            "target": "node_332",
+            "type": "step"
+        },
+        {
+            "id": "e313_to_332",
+            "source": "node_313",
+            "target": "node_332",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_332",
+            "source": "node_314",
+            "target": "node_332",
+            "type": "step"
+        },
+        {
+            "id": "e317_to_16",
+            "source": "node_317",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_17",
+            "source": "node_318",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_99",
+            "source": "node_321",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_159",
+            "source": "node_323",
+            "target": "node_159",
+            "type": "step"
+        },
+        {
+            "id": "e326_to_190",
+            "source": "node_326",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e327_to_191",
+            "source": "node_327",
+            "target": "node_191",
+            "type": "step"
+        },
+        {
+            "id": "e330_to_336",
+            "source": "node_330",
+            "target": "node_336",
+            "type": "step"
+        },
+        {
+            "id": "e331_to_343",
+            "source": "node_331",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e333_to_328",
+            "source": "node_333",
+            "target": "node_328",
+            "type": "step"
+        },
+        {
+            "id": "e334_to_343",
+            "source": "node_334",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e339_to_324",
+            "source": "node_339",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e340_to_194",
+            "source": "node_340",
+            "target": "node_194",
+            "type": "step"
+        },
+        {
+            "id": "e341_to_210",
+            "source": "node_341",
+            "target": "node_210",
+            "type": "step"
+        },
+        {
+            "id": "e342_to_38",
+            "source": "node_342",
+            "target": "node_38",
+            "type": "step"
+        },
+        {
+            "id": "e343_to_2",
+            "source": "node_343",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

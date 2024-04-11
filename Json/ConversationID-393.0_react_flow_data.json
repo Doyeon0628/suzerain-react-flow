@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel: \"...\"\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_146",
+            "type": "customNode",
+            "data": {
+                "label": "Deivid Wisci (R)\n\n\"A splendid idea, Laurento. Let's find a spot where we can talk more comfortably.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e9_to_150",
+            "source": "node_9",
+            "target": "node_150",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_9",
+            "source": "node_146",
+            "target": "node_9",
+            "type": "step"
+        }
+    ]
+}

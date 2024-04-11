@@ -1,0 +1,1417 @@
+{
+    "nodes": [
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Don't you know what time it is?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n“I don't think it can. I didn't know who to call.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'm sure he'll turn up.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Get some sleep, Evelyn.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Yes, just a work call. Sorry for waking you up.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“For a while.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe looked at me in confusion and anger.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI followed Monica to the bedroom and pulled the covers over my head.\n\nGo to sleep."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI quickly fell asleep.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe phone rang for only a few seconds.\n\n\n\nAddConversant(Karl Greiser); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn09_Personal_PetrGoesMissing = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI heard a soft voice from the other end.\n\n\n\nAddConversant(Evelyn Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“He's probably just with some other girl.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"You're right. I'll try to relax.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I knew, by the way. About all his affairs. I'm so sorry I never came to you about it.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"I'm sure you would have.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"I don't sleep much these days anyway.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_86",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"Of course.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_116",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It was Evelyn. She's got some crackpot theories about what happened to Petr.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_PetrForcedResign == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_120",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI went to my private study, picked up the phone and called Karl."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Sorry for calling this late.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_126",
+            "type": "customNode",
+            "data": {
+                "label": "Karl Greiser\n\n“Not a problem, sir. I only sleep for three fifteen-minute intervals per night.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_139",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAs I was eating breakfast the next morning, the phone rang."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI picked up. It was Karl.\n\nAddConversant(Karl Greiser); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Well? Is it done?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_151",
+            "type": "customNode",
+            "data": {
+                "label": "Karl Greiser\n\n\"I've done what we agreed on, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Karl Greiser\n\n\"His wedding ring, a half-empty bottle of pills, and a handwritten note were planted on a bridge overlooking the Unger River.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_185",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn09_Holsord_Petr_Missing = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1750
+            }
+        },
+        {
+            "id": "node_186",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_189",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_192",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI went to my private study, picked up the phone and called Lucian."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"We still have Petr's wedding ring and a sample of his handwriting. It would be fairly easy for the SSP to plant evidence of his death by suicide.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_203",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Can you ask the new chief?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_211",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Remember that thing with Petr? Turns out Karl didn't cover his tracks.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe hung up. I put away the phone and went down to the bedroom to get some sleep.\n\n\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_214",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_216",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Fired_KarlGreiser == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_218",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"He was a prick who didn't deserve you.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_222",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Morning, Lucian.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Did you find him?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Can you call Evelyn and tell her? I'm not sure I'm up to the task.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No! Not Petr!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_227",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"I'm sorry for yours, Anton.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_228",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"The SSP has complied with our request, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"Maybe not. But he didn't deserve to go out like this.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_230",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Indeed it is, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What did the note say?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_234",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Oh, no. I was afraid of that.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_236",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm so sorry for your loss.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_237",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"I just can't believe it.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"Not exactly.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_239",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Morning, Evelyn.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"His wedding ring, a half-empty bottle of pills, and a handwritten note were planted on a bridge overlooking the Unger River.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_241",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"The man was obviously in an unstable state before. I don't think it's a stretch of the imagination.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_242",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"A friend of mine in Erlory convinced local police to scour the area. They found Petr's wedding ring along with a half-empty bottle of pills and a handwritten note on a bridge overlooking the Unger River.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_245",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Any news?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_246",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"I hope we never have to speak of this again, sir.\""
+            },
+            "position": {
+                "x": 540,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_247",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian hung up. With a heavy heart, I started mentally rehearsing what I would say to Evelyn.\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_248",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Do you think Evelyn will be convinced?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"They think-- they're telling me he...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_253",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI picked up. It was Lucian.\n\nAddConversant(Karl Greiser); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_254",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_258",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"Hi again, Anton.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_261",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe trailed off."
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_262",
+            "type": "customNode",
+            "data": {
+                "label": "Evelyn Vectern\n\n\"I need a moment. I'll talk to you soon.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_263",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_266",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_ST_Petr_SuicideConfirmed = true; BaseGameSupport.News_Turn09_LT_Petr_SuicideConfirmed = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_267",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Suicide = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Resigned = false;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false;\\n\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == true || BaseGame.Petr_Dead == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_277",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_PetrForcedResign == true || BaseGame.Petr_Dead == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_PetrMissing_CalledKarl = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_PetrMissing_CalledKarl == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_284",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn09_PetrMissing_CalledKarl == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Hello, Karl.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_292",
+            "type": "customNode",
+            "data": {
+                "label": "Karl Greiser\n\n\"I sent some of my men to investigate, and, well...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_293",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e7_to_67",
+            "source": "node_7",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_87",
+            "source": "node_17",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_68",
+            "source": "node_23",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_70",
+            "source": "node_24",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e30_to_114",
+            "source": "node_30",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_86",
+            "source": "node_39",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_118",
+            "source": "node_42",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_282",
+            "source": "node_46",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_140",
+            "source": "node_49",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_140",
+            "source": "node_50",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_140",
+            "source": "node_65",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_276",
+            "source": "node_66",
+            "target": "node_276",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_4",
+            "source": "node_67",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_279",
+            "source": "node_75",
+            "target": "node_279",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_279",
+            "source": "node_76",
+            "target": "node_279",
+            "type": "step"
+        },
+        {
+            "id": "e80_to_26",
+            "source": "node_80",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_45",
+            "source": "node_84",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e86_to_42",
+            "source": "node_86",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_279",
+            "source": "node_112",
+            "target": "node_279",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_77",
+            "source": "node_113",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e116_to_33",
+            "source": "node_116",
+            "target": "node_33",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_35",
+            "source": "node_117",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_187",
+            "source": "node_119",
+            "target": "node_187",
+            "type": "step"
+        },
+        {
+            "id": "e120_to_190",
+            "source": "node_120",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_213",
+            "source": "node_123",
+            "target": "node_213",
+            "type": "step"
+        },
+        {
+            "id": "e126_to_213",
+            "source": "node_126",
+            "target": "node_213",
+            "type": "step"
+        },
+        {
+            "id": "e139_to_65",
+            "source": "node_139",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_215",
+            "source": "node_140",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_283",
+            "source": "node_145",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e151_to_286",
+            "source": "node_151",
+            "target": "node_286",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_175",
+            "source": "node_159",
+            "target": "node_175",
+            "type": "step"
+        },
+        {
+            "id": "e185_to_268",
+            "source": "node_185",
+            "target": "node_268",
+            "type": "step"
+        },
+        {
+            "id": "e186_to_281",
+            "source": "node_186",
+            "target": "node_281",
+            "type": "step"
+        },
+        {
+            "id": "e189_to_46",
+            "source": "node_189",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e192_to_121",
+            "source": "node_192",
+            "target": "node_121",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_214",
+            "source": "node_199",
+            "target": "node_214",
+            "type": "step"
+        },
+        {
+            "id": "e203_to_198",
+            "source": "node_203",
+            "target": "node_198",
+            "type": "step"
+        },
+        {
+            "id": "e211_to_207",
+            "source": "node_211",
+            "target": "node_207",
+            "type": "step"
+        },
+        {
+            "id": "e213_to_128",
+            "source": "node_213",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e214_to_140",
+            "source": "node_214",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e216_to_255",
+            "source": "node_216",
+            "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_252",
+            "source": "node_218",
+            "target": "node_252",
+            "type": "step"
+        },
+        {
+            "id": "e222_to_233",
+            "source": "node_222",
+            "target": "node_233",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_185",
+            "source": "node_224",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_239",
+            "source": "node_225",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_253",
+            "source": "node_226",
+            "target": "node_253",
+            "type": "step"
+        },
+        {
+            "id": "e227_to_238",
+            "source": "node_227",
+            "target": "node_238",
+            "type": "step"
+        },
+        {
+            "id": "e228_to_263",
+            "source": "node_228",
+            "target": "node_263",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_241",
+            "source": "node_229",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e230_to_263",
+            "source": "node_230",
+            "target": "node_263",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_241",
+            "source": "node_231",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e234_to_226",
+            "source": "node_234",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e236_to_185",
+            "source": "node_236",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_228",
+            "source": "node_237",
+            "target": "node_228",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_219",
+            "source": "node_238",
+            "target": "node_219",
+            "type": "step"
+        },
+        {
+            "id": "e239_to_261",
+            "source": "node_239",
+            "target": "node_261",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_259",
+            "source": "node_240",
+            "target": "node_259",
+            "type": "step"
+        },
+        {
+            "id": "e241_to_250",
+            "source": "node_241",
+            "target": "node_250",
+            "type": "step"
+        },
+        {
+            "id": "e242_to_218",
+            "source": "node_242",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
+            "id": "e245_to_234",
+            "source": "node_245",
+            "target": "node_234",
+            "type": "step"
+        },
+        {
+            "id": "e246_to_260",
+            "source": "node_246",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e247_to_226",
+            "source": "node_247",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e248_to_185",
+            "source": "node_248",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_247",
+            "source": "node_250",
+            "target": "node_247",
+            "type": "step"
+        },
+        {
+            "id": "e253_to_236",
+            "source": "node_253",
+            "target": "node_236",
+            "type": "step"
+        },
+        {
+            "id": "e254_to_220",
+            "source": "node_254",
+            "target": "node_220",
+            "type": "step"
+        },
+        {
+            "id": "e258_to_225",
+            "source": "node_258",
+            "target": "node_225",
+            "type": "step"
+        },
+        {
+            "id": "e261_to_243",
+            "source": "node_261",
+            "target": "node_243",
+            "type": "step"
+        },
+        {
+            "id": "e262_to_235",
+            "source": "node_262",
+            "target": "node_235",
+            "type": "step"
+        },
+        {
+            "id": "e263_to_224",
+            "source": "node_263",
+            "target": "node_224",
+            "type": "step"
+        },
+        {
+            "id": "e266_to_186",
+            "source": "node_266",
+            "target": "node_186",
+            "type": "step"
+        },
+        {
+            "id": "e267_to_186",
+            "source": "node_267",
+            "target": "node_186",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_66",
+            "source": "node_271",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_66",
+            "source": "node_274",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_66",
+            "source": "node_275",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e277_to_264",
+            "source": "node_277",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e280_to_80",
+            "source": "node_280",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_2",
+            "source": "node_281",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_51",
+            "source": "node_282",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e284_to_149",
+            "source": "node_284",
+            "target": "node_149",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_156",
+            "source": "node_286",
+            "target": "node_156",
+            "type": "step"
+        },
+        {
+            "id": "e292_to_291",
+            "source": "node_292",
+            "target": "node_291",
+            "type": "step"
+        },
+        {
+            "id": "e293_to_158",
+            "source": "node_293",
+            "target": "node_158",
+            "type": "step"
+        }
+    ]
+}

@@ -1,0 +1,754 @@
+{
+    "nodes": [
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI was walking down the corridor towards my office on the way back from lunch.\n\nPlaySceneMusic(Reform); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nRight next to the door, Lileas was waiting. She approached me.\n\nAddConversant(Lileas Graf); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Can we trust this informant?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "Karl Greiser\n\n“We have interrogated him thoroughly and confirmed the information he gave us.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe nodded at Karl. Karl leaned forward and spoke into the microphone."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "Karl Greiser\n\n“Mr. President.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf\n\n“There has been an update on the Koronti investigation.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_90",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_MarcelArrested = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Detained_MikailAven == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn07_Detained_MikailAven == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_Oligarchs_KorontiLeader == true && BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Detained_WalterTusk == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_Oligarchs_KorontiLeader = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_108",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nRight next to the door, Lileas and Nia were waiting. They approached me.\n\nAddConversant(Lileas Graf); AddConversant(Nia Morgna); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_109",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf\n\n“We have interrogated him thoroughly and confirmed the information he gave us.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_118",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nNia nodded to Lileas, who leaned forward and spoke into the microphone."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_125",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThey left and I made my way back to my office.\n\nRemoveConversant(Lileas Graf); RemoveConversant(Nia Morgna); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_126",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn09_KorontiLead_NoLeads = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn09_KorontiLead_Arrest = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_128",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_LE_Policy_SecretStateService == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_130",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_SnO_LE_Policy_SecretStateService == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“In time, I am sure it will.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAs soon as she turned her back to leave, I couldn't help but smirk.\n\nRemoveConversant(Lileas Graf); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Everyone is innocent until proven guilty, right?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“No matter how much we probed into HOS, no matter how many employees we tried to get insider information from, their mouths were completely shut.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“Anyway. I won't take any more of your time.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_148",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Faction_Oligarchs_KorontiLeader == true && BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_153",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“Yes. Really.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_154",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“No need to exaggerate. We will find something in the future. I am sure.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_155",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“There are many words that describe HOS and Koronti, and I still believe innocent is not one of them.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_156",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“I just wanted to let you know that I will keep my eyes open. I will make sure the truth comes out about HOS.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“Thank you, Mr. President.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n“Never.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true && BaseGame.Turn08_SnO_KorontiInvestigationStopped == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_163",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SnO_KorontiInvestigationStopped == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_Oligarchs_Destroyed = false; BaseGame.Faction_Oligarchs_Enemy = true;\\nBaseGame.Faction_Oligarchs_Content = false;\\nBaseGame.Faction_Oligarchs_Ally = false;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_169",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Business_MarcelKoronti = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_ArrestedLegally = true; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Detained = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Fled = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FledAndExtradited = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FoundDeadInPrison = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_KonrathDead = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_LostControlOfHOS = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_NedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCShares = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_170",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Detained_WalterTusk == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_184",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Leader_Oligarchs_WalterTusk = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_185",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e3_to_160",
+            "source": "node_3",
+            "target": "node_160",
+            "type": "step"
+        },
+        {
+            "id": "e8_to_106",
+            "source": "node_8",
+            "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_110",
+            "source": "node_15",
+            "target": "node_110",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_110",
+            "source": "node_17",
+            "target": "node_110",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_116",
+            "source": "node_39",
+            "target": "node_116",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_123",
+            "source": "node_59",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_91",
+            "source": "node_68",
+            "target": "node_91",
+            "type": "step"
+        },
+        {
+            "id": "e90_to_127",
+            "source": "node_90",
+            "target": "node_127",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_170",
+            "source": "node_91",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_181",
+            "source": "node_93",
+            "target": "node_181",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_182",
+            "source": "node_94",
+            "target": "node_182",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_3",
+            "source": "node_101",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_92",
+            "source": "node_104",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_183",
+            "source": "node_105",
+            "target": "node_183",
+            "type": "step"
+        },
+        {
+            "id": "e108_to_5",
+            "source": "node_108",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e109_to_11",
+            "source": "node_109",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_19",
+            "source": "node_112",
+            "target": "node_19",
+            "type": "step"
+        },
+        {
+            "id": "e115_to_27",
+            "source": "node_115",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e118_to_40",
+            "source": "node_118",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_45",
+            "source": "node_122",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e125_to_60",
+            "source": "node_125",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e126_to_62",
+            "source": "node_126",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_3",
+            "source": "node_127",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e128_to_99",
+            "source": "node_128",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e130_to_9",
+            "source": "node_130",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_157",
+            "source": "node_136",
+            "target": "node_157",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_150",
+            "source": "node_137",
+            "target": "node_150",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_127",
+            "source": "node_138",
+            "target": "node_127",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_158",
+            "source": "node_143",
+            "target": "node_158",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_159",
+            "source": "node_145",
+            "target": "node_159",
+            "type": "step"
+        },
+        {
+            "id": "e148_to_141",
+            "source": "node_148",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e153_to_147",
+            "source": "node_153",
+            "target": "node_147",
+            "type": "step"
+        },
+        {
+            "id": "e154_to_136",
+            "source": "node_154",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e155_to_136",
+            "source": "node_155",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_136",
+            "source": "node_156",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_145",
+            "source": "node_157",
+            "target": "node_145",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_146",
+            "source": "node_158",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_146",
+            "source": "node_159",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_176",
+            "source": "node_163",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_3",
+            "source": "node_168",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e169_to_3",
+            "source": "node_169",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e170_to_128",
+            "source": "node_170",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e184_to_168",
+            "source": "node_184",
+            "target": "node_168",
+            "type": "step"
+        },
+        {
+            "id": "e185_to_169",
+            "source": "node_185",
+            "target": "node_169",
+            "type": "step"
+        }
+    ]
+}

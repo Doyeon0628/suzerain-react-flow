@@ -1,0 +1,193 @@
+{
+    "nodes": [
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Leaker_WalterTusk == true || (BaseGame.Leaker_ACP == true && BaseGame.Turn07_Investigate_Opposition == true)) && BaseGame.Relations_Albin_Bribed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandal_FrensRicter_TaurusBribe = true; BaseGame.LeakedScandals_Severity += 1;\\nBaseGame.LeakedScandal_Testify_ACP = true;\\nBaseGame.LeakedScandal_Testify_Oligarchs = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandal_HeronGaraci_Bribe = true; BaseGame.LeakedScandals_Severity += 1;\\nBaseGame.LeakedScandal_Testify_Heron = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Leaker_LucianGalade == true && BaseGame.Decision_Turn09_FundPoliticalGroup_YoungSords == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Leaker_MarcelKoronti == true || (BaseGame.Leaker_ACP == true && BaseGame.Turn07_Investigate_Oligarchs == true)) && BaseGame.Turn07_GrantedShares_WalterTusk == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Leaker_WalterTusk == true || (BaseGame.Leaker_ACP == true && BaseGame.Turn07_Investigate_Oligarchs == true)) && BaseGame.Turn07_GrantedShares_MarcelKoronti == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && BaseGame.Turn07_SecretState_Detained_KesaroKibener == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "!(((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && (BaseGame.Turn07_SecretState_Kill_OrsoHawker == true && BaseGame.YoungSords_Kill_OrsoHawker == false))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && BaseGame.Turn07_SecretState_Kill_FrensRicter == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandal_SecretState_DetainPetrVectern = true; BaseGame.LeakedScandals_Severity += 3;\\nBaseGame.LeakedScandal_Testify_Lucian = true;\\nBaseGame.LeakedScandal_Testify_Karl = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e2_to_621",
+            "source": "node_2",
+            "target": "node_621",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_12",
+            "source": "node_18",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e30_to_23",
+            "source": "node_30",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_35",
+            "source": "node_38",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_88",
+            "source": "node_47",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_41",
+            "source": "node_50",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_41",
+            "source": "node_62",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_68",
+            "source": "node_84",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_80",
+            "source": "node_87",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_72",
+            "source": "node_101",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_72",
+            "source": "node_105",
+            "target": "node_72",
+            "type": "step"
+        }
+    ]
+}

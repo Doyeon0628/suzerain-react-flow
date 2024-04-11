@@ -1,0 +1,414 @@
+{
+    "nodes": [
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...used it as an excuse to cut loose and schmooze with celebrities."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe team won more matches than it had in years. The people of Anrica forgot about your shortcomings as a President and celebrated you as their football club's savior.\\n\\nThanks to your popularity, your wife was able to pick up her political career where she had left off.\\n\\nMonica emerged as a valuable ally to the new administration, representing Sordish women as gender equality policies were made and implemented. You...\n\n1960|Anrica\n\nPlaySoundEffect(Celebration); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...stayed silent, but used your influence with Anrica conservatives to lobby for her cause."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Retirement_FamilyWithYou == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Retirement_FamilyWithYou == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Epilogue_NewPresident_Frens == true || BaseGame.Epilogue_NewPresident_Manoly == true || BaseGame.Epilogue_NewPresident_PeoplesFront == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe team won more matches than it had in years. The people of Anrica forgot about your shortcomings as a President and celebrated you as their football club's savior.\\n\\nMeanwhile, you couldn't help but notice your ex-wife gaining political traction in the capitol.\\n\\nMonica emerged as one of the fiercest opponents of the new administration, rallying thousands of Sordish women to fight for change. You...\n\n1960|Anrica\n\nPlaySoundEffect(Celebration); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...found some racy photos of her you'd once taken, and leaked them to the press."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Divorce == false && BaseGame.Relations_Monica_DivorceAfterElection == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...started writing a memoir."
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, by now living on a farm in Bergia with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\n1975|Bergia\n\nUnlockSteamAchievement(Epilogue_Retirement); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe team lost more matches in one year than it had in the previous decade. They and you became a laughing stock.\\n\\nMeanwhile, you couldn't help but notice your ex-wife gaining political traction in the capitol.\\n\\nMonica emerged as a valuable ally to the new administration, representing Sordish women as gender equality policies were made and implemented. You...\n\n1960|Anrica"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...found some racy photos of her you'd once taken, and leaked them to the press."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\nYears went by."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\nYears went by."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...start writing a memoir."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, by now living on a farm in Bergia with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nThe rest of your days were spent between Anrica and Bergia. You weren't rich, but you were happy to have the love of your family.\n\n1975|Bergia\n\nUnlockSteamAchievement(Epilogue_Retirement); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, by now living in the Arcasian suburbs with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\n1975|Arcasia\n\nUnlockSteamAchievement(Epilogue_Retirement); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn07_Personal_University_Abroad_Arcasia == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_monicaspeech\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_loss\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e9_to_40",
+            "source": "node_9",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e10_to_97",
+            "source": "node_10",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_33",
+            "source": "node_13",
+            "target": "node_33",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_54",
+            "source": "node_16",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_50",
+            "source": "node_17",
+            "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_13",
+            "source": "node_24",
+            "target": "node_13",
+            "type": "step"
+        },
+        {
+            "id": "e28_to_14",
+            "source": "node_28",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_14",
+            "source": "node_29",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_9",
+            "source": "node_32",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_99",
+            "source": "node_40",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_100",
+            "source": "node_41",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_71",
+            "source": "node_43",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_98",
+            "source": "node_58",
+            "target": "node_98",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_38",
+            "source": "node_61",
+            "target": "node_38",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_39",
+            "source": "node_62",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_77",
+            "source": "node_65",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_102",
+            "source": "node_67",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_70",
+            "source": "node_82",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_70",
+            "source": "node_83",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_76",
+            "source": "node_88",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_87",
+            "source": "node_93",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_18",
+            "source": "node_96",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_15",
+            "source": "node_97",
+            "target": "node_15",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_79",
+            "source": "node_99",
+            "target": "node_79",
+            "type": "step"
+        }
+    ]
+}

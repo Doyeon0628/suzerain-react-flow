@@ -1,0 +1,23 @@
+{
+    "nodes": [
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Hugo_RicoNotPardoned = true;\\nRiziaDLC.Country_HouseToras -= 5\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e32_to_2",
+            "source": "node_32",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

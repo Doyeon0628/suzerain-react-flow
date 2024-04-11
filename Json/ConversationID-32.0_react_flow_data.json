@@ -1,0 +1,669 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAfter looking into the changes the team began discussing it amongst themselves. Lucian spoke afterwards.\n\nAddConversant(Lucian Galade); AddConversant(Petr Vectern); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Law_Impeachment_Removed == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Law_Threshold_3 == true || BaseGame.Reform_Law_Threshold_8 == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Law_Ministers_Default == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Law_Ministers_Default == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"I think we can end the meeting here.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"But sir, I understand that you're trying to get rid of the impeachment, however I have to say that it may create problems within the party.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We'll figure it out.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will make sure they get behind.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Wish you good luck with the party, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We will handle the party.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"We will all be doing our part, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"We will all do our best to make it work, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"I have to say...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"The new lower electoral threshold will be really difficult for the party to accept. Our guys are not fond of that idea.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will not give in.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"But I have to say this too...\""
+            },
+            "position": {
+                "x": 540,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Thanks for the advice.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Law_Ministers_Default == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"Not reforming the minister laws will also be frowned upon by the party. The Assembly members have insisted on getting involved in the process.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm prepared to reconsider if it comes to that.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"In the meantime, you must introduce this proposal to our party, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"You'll need to a strong speech to get them behind you. But I advise you to first talk to the leaders of the both conservative and reformist wings of the party.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Sir, you are pretty well-versed in speeches. You know the party. Just make sure you get them hyped up about the reforms.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"As Mr. Vectern said, Mrs. Tory will probably be easier to persuade. We need to unite the party under these changes, so her support is vital.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"As far as I'm aware, Mr. Clavin will be our biggest problem, he may try to paint you as a dictator. Mrs. Tory will also be tough but we'll need to get her first.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_53",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will handle them.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"I'm good.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn03_A_Constitution = true;\\nBaseGameSupport.Report_Turn03_Holsord_ReformCommittee = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn03_ReformPackage_Dictator = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn03_A_AutocratSpeech = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Prologue_University_Political_Nationalist == true && BaseGame.Decision_Turn03_StabilityOrder_BanRedYouth == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Law_Judges_Impeachment_Assembly == true && BaseGame.Reform_Law_Impeachment_Removed == true && BaseGame.Reform_Law_Honorary_Presidents == true\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Law_Judges_Impeachment_Assembly == true && BaseGame.Reform_Law_Impeachment_Removed == true && BaseGame.Reform_Law_Honorary_Presidents == true\\n)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_60",
+            "source": "node_1",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e2_to_154",
+            "source": "node_2",
+            "target": "node_154",
+            "type": "step"
+        },
+        {
+            "id": "e7_to_17",
+            "source": "node_7",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e10_to_27",
+            "source": "node_10",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_48",
+            "source": "node_12",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e14_to_31",
+            "source": "node_14",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_56",
+            "source": "node_15",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_80",
+            "source": "node_16",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_21",
+            "source": "node_18",
+            "target": "node_21",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_26",
+            "source": "node_19",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_25",
+            "source": "node_21",
+            "target": "node_25",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_16",
+            "source": "node_22",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_61",
+            "source": "node_24",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_44",
+            "source": "node_25",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_49",
+            "source": "node_26",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e28_to_22",
+            "source": "node_28",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_35",
+            "source": "node_29",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e30_to_22",
+            "source": "node_30",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_19",
+            "source": "node_33",
+            "target": "node_19",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_22",
+            "source": "node_34",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_33",
+            "source": "node_37",
+            "target": "node_33",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_34",
+            "source": "node_39",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_39",
+            "source": "node_41",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_34",
+            "source": "node_43",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_42",
+            "source": "node_45",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_51",
+            "source": "node_46",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_34",
+            "source": "node_48",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_56",
+            "source": "node_49",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_12",
+            "source": "node_50",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e53_to_47",
+            "source": "node_53",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_26",
+            "source": "node_55",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_45",
+            "source": "node_58",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_67",
+            "source": "node_59",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_4",
+            "source": "node_60",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_59",
+            "source": "node_65",
+            "target": "node_59",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_2",
+            "source": "node_66",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e79_to_24",
+            "source": "node_79",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_79",
+            "source": "node_81",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_24",
+            "source": "node_82",
+            "target": "node_24",
+            "type": "step"
+        }
+    ]
+}

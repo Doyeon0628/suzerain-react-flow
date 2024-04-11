@@ -1,0 +1,380 @@
+{
+    "nodes": [
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe ringing sound felt off for some reason. I knew something was wrong."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"Romus, my boy.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"I am very sad to inform you that your daughter, our Princess Vina has passed away during her captivity in Pales.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI did not hear the rest of it. All I heard was the ringing of my ears. I dropped the phone on the ground."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIt was all in vain. Everything. My life. The crown."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"Father. It's me! Vina!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Hugo Toras\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Hugo Toras\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Vina Toras\");\\nRemoveConversant(\"Hugo Toras\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Hostage = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.Journal_Turn10_VinaRescueOutcome_Died = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_95",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_Sunrise\", \"R_Sunrise_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Lucita_Married == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_111",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Pabel_Gone == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "Pabel Adria\n\n\"I heard a noise. Is everything all right, Rom?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nJust then, Pabel rushed into my quarters."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "PlayCustomMapMusic(\"Rizia_Map_Music_Tense\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.VinaManus_Together == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_126",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"Now that this ordeal is behind us, do Manus and I have your permission to marry?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_155",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"Listen...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_156",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e4_to_44",
+            "source": "node_4",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_89",
+            "source": "node_6",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_97",
+            "source": "node_26",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e28_to_92",
+            "source": "node_28",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_107",
+            "source": "node_31",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_123",
+            "source": "node_38",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_96",
+            "source": "node_57",
+            "target": "node_96",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_40",
+            "source": "node_87",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_49",
+            "source": "node_88",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_8",
+            "source": "node_89",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_29",
+            "source": "node_92",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_47",
+            "source": "node_94",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_5",
+            "source": "node_95",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_86",
+            "source": "node_106",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_32",
+            "source": "node_111",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_32",
+            "source": "node_114",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_32",
+            "source": "node_119",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_32",
+            "source": "node_122",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_40",
+            "source": "node_123",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e126_to_103",
+            "source": "node_126",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e155_to_103",
+            "source": "node_155",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_103",
+            "source": "node_156",
+            "target": "node_103",
+            "type": "step"
+        }
+    ]
+}

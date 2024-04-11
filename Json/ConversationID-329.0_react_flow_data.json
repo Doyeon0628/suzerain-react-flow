@@ -1,0 +1,363 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Is this supposed to be a guilt trip? If it is, it is not working.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"There is always hope. No matter how dire the situation is.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "Lucita Azaro\n\n\"We have news from the frontline, Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"Thank you, Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Taddeus_Disgraced == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Taddeus Azaro, you will leave your post immediately and relinquish all of your duties. I am de-ranking you to Colonel.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Taddeus_Deranked = true; RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Failed_DerankedTaddeus = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Lucita Azaro. You will share your fathers' fate. I am sentencing you to prison for your failures and insult against the King.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_125",
+            "type": "customNode",
+            "data": {
+                "label": "Lucita Azaro\n\n\"Please.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Relations_Lucita_Together == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucita's eyes widened in shock."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_153",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Taddeus_Arrested = true;\\nRiziaDLC.Lucita_Arrested = true;\\nRiziaDLC.Council_Security_Lucita = false;\\nRiziaDLC.Council_Security_Taddeus = false;\\nRiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Failed_ArrestLucitaAndTaddeus = true; RiziaDLC.Relations_Lucita_Together = false;\\nEnableCodexEntry(\"Characters_Council_LucitaAzaro_Arrested\");\\nEnableCodexEntry(\"Characters_Council_TaddeusAzaro_Arrested\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "Lucita Azaro\n\n\"Thank you, You Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Taddeus_Arrested = true;\\nRiziaDLC.Lucita_Arrested = false;\\nRiziaDLC.Council_Security_Taddeus = false; RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Failed_ArrestTaddeus = true;\\nEnableCodexEntry(\"Characters_Council_TaddeusAzaro_Arrested\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Relations_Lucita_Together = false; RiziaDLC.Lucita_Married = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.Journal_Turn10_War_Pales_Operation2_Failed = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_162",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_Consequence\", \"R_Consequence_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_165",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Faction_HouseAzaro_Lucita = false;\\nRiziaDLC.Faction_HouseAzaro_Taddeus = false;\\nRiziaDLC.Faction_HouseAzaro_Carlos = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_163",
+            "source": "node_1",
+            "target": "node_163",
+            "type": "step"
+        },
+        {
+            "id": "e3_to_109",
+            "source": "node_3",
+            "target": "node_109",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_86",
+            "source": "node_12",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_87",
+            "source": "node_13",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e14_to_86",
+            "source": "node_14",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_6",
+            "source": "node_85",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_132",
+            "source": "node_94",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_15",
+            "source": "node_98",
+            "target": "node_15",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_164",
+            "source": "node_100",
+            "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_149",
+            "source": "node_106",
+            "target": "node_149",
+            "type": "step"
+        },
+        {
+            "id": "e124_to_120",
+            "source": "node_124",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e125_to_161",
+            "source": "node_125",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_100",
+            "source": "node_127",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_100",
+            "source": "node_131",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e153_to_149",
+            "source": "node_153",
+            "target": "node_149",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_106",
+            "source": "node_158",
+            "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_106",
+            "source": "node_159",
+            "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_150",
+            "source": "node_160",
+            "target": "node_150",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_134",
+            "source": "node_161",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e162_to_3",
+            "source": "node_162",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e165_to_110",
+            "source": "node_165",
+            "target": "node_110",
+            "type": "step"
+        }
+    ]
+}

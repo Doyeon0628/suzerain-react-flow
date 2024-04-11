@@ -1,0 +1,533 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Rumburg_War == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWith the election looming, I'd practically been sleeping at the Maroon Palace lately. But tonight, I made a deliberate effort to get home early.\n\nPlaySceneMusic(Mountains); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Monica_Divorce == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_ImpeachmentTrial == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_ImpeachmentTrial == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Dinner_Petr = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Rumburg_War == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_ElectionSpeech = false; BaseGame.Ending_RumburgWarLost = false; BaseGame.Ending_RumburgWarWin = false; BaseGame.Ending_WorldWar = false; BaseGame.Ending_Exile = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Rumburg_War == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Monica_Divorce == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn10_R_Monica_Divorce_Banned = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_NFP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.NFPLeader_Remus == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_128",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn10_LT_RemusCancelsAlliance = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Faction_NFP_Destroyed == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_133",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_PFJP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_NFP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_144",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn10_ST_Coalition_PFJPOrNFP_Media = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_FPnT_RumburgIsolated == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_ElectionSpeech == true && \\n(BaseGame.Enable_Congress == false || BaseGame.Turn10_PartyCongress_Won == true || BaseGame.Turn10_PartyCongress_FormNewParty == true) && \\n(BaseGame.Faction_PFJP_Destroyed == false || BaseGame.Faction_NFP_Destroyed == false || BaseGame.Turn10_PartyCongress_Lost == true)\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_154",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn10_ST_SordlandFirstDebate_BeforeDebate = true;\\nBaseGame.Enable_Debate = true;\\nBaseGameSupport.Report_Turn10_Lachaven_DebatePrep = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_OldGuard_Trial_Lileas == false && BaseGame.Turn10_PartyCongress_FormNewParty == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Deana_PresentAtFinalSupper == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn10_LT_Monica_Divorce_AntonKeepDeana = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true && BaseGame.Rumburg_GivenEstordAndNarbel == false && BaseGame.Exile_LeaveNow == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_171",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup = false;\\nBaseGame.Ending_Exile = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_112",
+            "source": "node_1",
+            "target": "node_112",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_38",
+            "source": "node_5",
+            "target": "node_38",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_42",
+            "source": "node_6",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_1",
+            "source": "node_26",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_1",
+            "source": "node_37",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_8",
+            "source": "node_41",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_8",
+            "source": "node_45",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_166",
+            "source": "node_55",
+            "target": "node_166",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_92",
+            "source": "node_61",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_69",
+            "source": "node_77",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e79_to_61",
+            "source": "node_79",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_96",
+            "source": "node_84",
+            "target": "node_96",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_162",
+            "source": "node_101",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_146",
+            "source": "node_106",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_146",
+            "source": "node_107",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_134",
+            "source": "node_114",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_108",
+            "source": "node_122",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e128_to_138",
+            "source": "node_128",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_123",
+            "source": "node_132",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e133_to_108",
+            "source": "node_133",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_126",
+            "source": "node_137",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e144_to_108",
+            "source": "node_144",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_108",
+            "source": "node_145",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_175",
+            "source": "node_149",
+            "target": "node_175",
+            "type": "step"
+        },
+        {
+            "id": "e154_to_173",
+            "source": "node_154",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_153",
+            "source": "node_160",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_173",
+            "source": "node_161",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_103",
+            "source": "node_164",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_62",
+            "source": "node_168",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e171_to_62",
+            "source": "node_171",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_61",
+            "source": "node_176",
+            "target": "node_61",
+            "type": "step"
+        }
+    ]
+}

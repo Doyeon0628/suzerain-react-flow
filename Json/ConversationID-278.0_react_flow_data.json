@@ -1,0 +1,23 @@
+{
+    "nodes": [
+        {
+            "id": "node_0",
+            "type": "customNode",
+            "data": {
+                "label": "input\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e0_to_2",
+            "source": "node_0",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

@@ -1,0 +1,839 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIt was a great victory for my administration.\n\nRemoveConversant(Lucian Galade); RemoveConversant(Symon Holl); RemoveConversant(Gus Manger); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe railway officially opened to the public right after we left, and thousands began using it."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn06_InT_Show == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Sounds fantastic. The President arriving to Lachaven in the driver's seat would make the headlines for sure.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSymon and Gus, who had heavily assisted in the project, had come to discuss the ceremony plans with Lucian and myself.\n\nAddConversant(Symon Holl); AddConversant(Gus Manger); AddConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "Symon Holl\n\n“I don't support anything beyond the opening ceremony. The railway's completion speaks for itself.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“I see your point. But involving the President further could be beneficial for the administration.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“It's been a long time since the last successful infrastructure project. From a public relations point of view, we can certainly capitalize on the occasion.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'd like Gus with me.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI walked up to the podium to address the crowd. The press was taking dozens of pictures.\n\nWalk to the podium."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian's voice echoed in the central station. Thousands of Sordland and USP flags began to wave as the loud cheers intensified."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“See you at the ceremony.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI gave the green light to Lucian, and the opening address began.\n\nSignal for Lucian to begin the ceremony.\n\nAddConversant(Symon Holl); AddConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe took our places onstage."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Thank you for your kind words. It truly means a good deal.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe crowd began cheering my name."
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“I welcome you Holsordians today as a proud servant of this country.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Symon Holl\n\n“Our aim with this project wasobvious: to improve the speed and efficiency of transportation.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_95",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSymon handed me an oversized pair of scissors."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“The journey to Lachaven should take about four hours. The rest of us will be on the train as well.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Economy_AverageTransportation = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_102",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian stood up."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Well done, everyone.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 1750
+            }
+        },
+        {
+            "id": "node_110",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“What are your thoughts?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_111",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“I think so too. Mr. President?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I guess we can't avoid that.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Thank you.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Once again, good work everyone.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian took Gus' place after he was done with his speech."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Prologue_Birthplace_Holsord_Middle\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThough the construction delay had taken its toll on our morale, this was still a proud moment for all of us."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“First of all...”"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_128",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_129",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn02_InT_Corporation_TaurusHolding == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn02_InT_Corporation_SordishState == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn06_InT_Show == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_HP_L1_SSC_NoShow = true;\\nBaseGameSupport.News_Turn08_E_L1_SSC_NoShow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_144",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_E_L1_SSC_Show = true;\\nBaseGameSupport.News_Turn08_HP_L1_SSC_Show = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn04_InT_RailwayIssue_Solved = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_146",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveTokenStatus(\"Sordland_City_Holsord\", \"Progress_Railway\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_154",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn04_RegionalInvestment_Lorren == true && BaseGame.Decision_Turn02_EconomicRelief_BailedBusinesses == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_156",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn04_RegionalInvestment_Lorren == true && BaseGame.Decision_Turn02_EconomicRelief_BailedBusinesses == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "EnableCollectionItem(\"CollectionItem_CeremonialScissors\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCityGdp(\"Sordland_City_Holsord\", \"52.5\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_170",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"RibbonCut\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_171",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_129",
+            "source": "node_1",
+            "target": "node_129",
+            "type": "step"
+        },
+        {
+            "id": "e4_to_172",
+            "source": "node_4",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_128",
+            "source": "node_5",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_169",
+            "source": "node_6",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_96",
+            "source": "node_15",
+            "target": "node_96",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_124",
+            "source": "node_17",
+            "target": "node_124",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_103",
+            "source": "node_18",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_95",
+            "source": "node_20",
+            "target": "node_95",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_115",
+            "source": "node_23",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_101",
+            "source": "node_24",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_90",
+            "source": "node_46",
+            "target": "node_90",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_120",
+            "source": "node_47",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_89",
+            "source": "node_50",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_88",
+            "source": "node_56",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_94",
+            "source": "node_61",
+            "target": "node_94",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_81",
+            "source": "node_84",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_116",
+            "source": "node_89",
+            "target": "node_116",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_62",
+            "source": "node_92",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_48",
+            "source": "node_93",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_50",
+            "source": "node_95",
+            "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_171",
+            "source": "node_96",
+            "target": "node_171",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_22",
+            "source": "node_97",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_155",
+            "source": "node_98",
+            "target": "node_155",
+            "type": "step"
+        },
+        {
+            "id": "e102_to_111",
+            "source": "node_102",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_125",
+            "source": "node_103",
+            "target": "node_125",
+            "type": "step"
+        },
+        {
+            "id": "e110_to_24",
+            "source": "node_110",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_19",
+            "source": "node_111",
+            "target": "node_19",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_34",
+            "source": "node_112",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_87",
+            "source": "node_113",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_81",
+            "source": "node_114",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e115_to_65",
+            "source": "node_115",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_10",
+            "source": "node_119",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_76",
+            "source": "node_123",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e124_to_158",
+            "source": "node_124",
+            "target": "node_158",
+            "type": "step"
+        },
+        {
+            "id": "e128_to_4",
+            "source": "node_128",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e129_to_146",
+            "source": "node_129",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_139",
+            "source": "node_134",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e135_to_100",
+            "source": "node_135",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_100",
+            "source": "node_143",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e144_to_100",
+            "source": "node_144",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_100",
+            "source": "node_145",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_17",
+            "source": "node_146",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e154_to_130",
+            "source": "node_154",
+            "target": "node_130",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_99",
+            "source": "node_156",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_5",
+            "source": "node_157",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_18",
+            "source": "node_158",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e170_to_147",
+            "source": "node_170",
+            "target": "node_147",
+            "type": "step"
+        },
+        {
+            "id": "e171_to_11",
+            "source": "node_171",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_2",
+            "source": "node_172",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

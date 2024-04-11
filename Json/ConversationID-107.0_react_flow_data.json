@@ -1,0 +1,2539 @@
+{
+    "nodes": [
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe waiter approached us and bowed in respect.\n\nAddConversant(Waiter); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"We'll order later, thank you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "Waiter\n\n\"Of course, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'll have Salade Luco.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I won't order now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"No thank you. I'd rather wait for our guest to arrive.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "Waiter\n\n\"Of course. I'll be around.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Let's try not to agitate her when she comes. We won the vote, so she already has pressure on her.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_53",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"Mr. President. Good to see you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe bowed her head slightly."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_Salad = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_Liver = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_LespianZabla = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_Salad == true || BaseGameIsolated.Turn07_A_Ordered_Liver == true || BaseGameIsolated.Turn07_A_Ordered_LespianZabla == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Oh, Good to see you, Mrs. Edmonds.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nNia got up from her chair to shake Isabel's hand."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"Mr. President. I hope you're enjoying your meal.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Isabel_Opinion -= 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_90",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Please, join me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Please, take a seat.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"Oh no, there's nothing wrong. I just don't want to eat up too much of your time.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"I'll have the sauté-Perlase, please. And for Mrs. Edmonds...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Please, take a seat.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSuddenly, the waiter approached us.\n\nAddConversant(Waiter); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"I'll have the sauté-Perlase, please.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "Waiter\n\n\"Perfect, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_121",
+            "type": "customNode",
+            "data": {
+                "label": "Waiter\n\n\"Of course. And you, sir?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'll have the salad too.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_125",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_LespianZabla = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_126",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_LespianZabla = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_Salad = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_129",
+            "type": "customNode",
+            "data": {
+                "label": "Waiter\n\n\"For the entrée, we have the options of sauté-Perlase with Lespian style Zabla, Falenco style liver fricassée, or Salade Luco made with fresh vegetables and herbs from southern Lespia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'll have sauté-Perlase with Lespian Zabla.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_Salad = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Waiter\n\n\"Perfect.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_148",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAt that moment, the waiter came back from downstairs, carrying plates of food. After seeing that we were in the midst of a discussion, he averted his eyes as he approached us.\n\nAddConversant(Waiter); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_150",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_Ordered_Early == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_152",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_Ordered_Early == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_Ordered_Salad == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_162",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe placed the plate of Falenco style liver fricassée in front of me. It looked and smelled like heaven."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_167",
+            "type": "customNode",
+            "data": {
+                "label": "Waiter\n\n\"Bon Appétit.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Thank you. It looks delicious.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_170",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I'll have the same. Thank you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_171",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I am, thank you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe waiter bowed to us and quickly went downstairs.\n\nRemoveConversant(Waiter); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_173",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe wished each other a good meal as Isabel and Nia slowly started to eat."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Law_Judges_Impeachment_Assembly == true || BaseGame.Reform_Law_Judges_Impeachment_President == true )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"You have decided then?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_196",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_Isabel_Opinion >= 3)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I think I can get behind this proposal.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I regret to say I do not see eye to eye with you, Mr. President. I don't think I can support this proposal.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That's very sad to hear. Is there no way to change your mind?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Look, I will be clear. Whatever you think about it, you will vote yes!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_203",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That's great to hear.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_204",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You think?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_206",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"Yes.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_207",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Order_AntiCorruptionPolice == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_211",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I think I can get you the votes you need.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I don't think my conclusion will differ.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_214",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Justice Edmonds...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_218",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I'll do my best to convince my group. But I can only speak for myself.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_221",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Are you sure that you can bring three votes?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"Yes. We always act together. They will listen to me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That's not good enough.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_228",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIsabel took her coat and walked downstairs. Nia and I looked at each other.\n\nRemoveConversant(Isabel Edmonds); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Nothing but your support, Mrs. Edmonds.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"That's great to hear that you will support us. Thank you.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_232",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"And that I will give.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I don't know what you mean. I have already told you my position. And I have another place to be, Mr. President.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Thank you for the meeting, Mrs. Edmonds.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_242",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I see that we're all finished with our meals too. I think it's time to conclude this meeting.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_248",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Thank you for the meeting, Mrs. Edmonds.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"That's not good.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_257",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIsabel took her coat and walked downstairs. Nia and I looked at each other.\n\nRemoveConversant(Isabel Edmonds); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_264",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_267",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"No, thank you. I'll be leaving soon.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_268",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"No thank you. I'll be leaving soon.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Mr. President...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Oh I know that feeling.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe shook our hands and left the room.\n\nRemoveConversant(Nia Morgna); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Have a nice evening, Mr. President. Mrs. Edmonds.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_288",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"Have a nice evening, Mr. President. Mrs. Edmonds.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_293",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"Well...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_294",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_296",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_297",
+            "type": "customNode",
+            "data": {
+                "label": "Nia Morgna\n\n\"But now that you are here, I will take my leave. I have business to take care of.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_298",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_301",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe quickly served Isabel's food and refilled our glasses."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_307",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe wished each other a good meal as Isabel started to eat."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_309",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_311",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_315",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_317",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIsabel took her coat and walked downstairs.\n\nRemoveConversant(Isabel Edmonds); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_322",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_324",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_327",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIt was not a good start. It looked like I had no choice but to work with the Old Guards if I wanted to pass this Constitution.\n\nRemoveConversant(Nia Morgna); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_332",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI got in the presidential Kadilla and Serge started driving me home."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_335",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Faction_OldGuard_Content == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_336",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nOn the way, I received a call on the brand new radio phone that was mounted in our vehicle."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_337",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reform_Heron_SentKesaro == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_339",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Reform_Heron_SentKesaro == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_340",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nOn the way, I received a call from on the brand new radio phone that was mounted in our vehicle."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_348",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"I have urgent news to share. Heron has agreed to meet before the Court Vote.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_355",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Understood, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_356",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Okay, I'll leave it to your judgement.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_359",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Don't make me repeat myself, Lucian.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_360",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Good evening. Leaving the call.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_362",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Arrange a meeting with him immediately.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_367",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You're right. Okay, I'll leave the arrangement to your judgement, Kesaro.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_368",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes, I did. But the meeting has to be on my terms. Is he not willing to meet in Holsord?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_374",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"I'll let you return to your duties now. Good evening.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_375",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"Okay. I'll arrange it soon.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_376",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"I already did. You are asking for too much.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_377",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"Anyway, I'll leave you to your duties. Good evening.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_378",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true || BaseGame.Turn05_SnO_Investigate_OldGuard == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_386",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_OfferBribeToHeron = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_387",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn07_Decision_HeronMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_389",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn07_Decision_HeronMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_391",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reform_Heron_SentKesaro = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_392",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn07_Decision_HeronMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_393",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn07_Isabel_Convinced = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_394",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn07_Isabel_Failed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_395",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_IsabelOrdered_Salad = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_396",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_IsabelOrdered_Salad == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_398",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn07_A_IsabelOrdered_Salad == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_399",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn07_Decision_HeronMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_402",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_HeronMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_403",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_HeronMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_404",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_HeronMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_405",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_407",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_408",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_BludishRights_Amendment_Proposal == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_411",
+            "type": "customNode",
+            "data": {
+                "label": "Isabel Edmonds\n\n\"I'll do my best to get the three votes but I can only speak for myself.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_415",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"So you are not sure if you can bring three votes?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_417",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_418",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e8_to_1",
+            "source": "node_8",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_1",
+            "source": "node_9",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_265",
+            "source": "node_17",
+            "target": "node_265",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_29",
+            "source": "node_18",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_58",
+            "source": "node_22",
+            "target": "node_58",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_57",
+            "source": "node_23",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_269",
+            "source": "node_26",
+            "target": "node_269",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_273",
+            "source": "node_31",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_150",
+            "source": "node_32",
+            "target": "node_150",
+            "type": "step"
+        },
+        {
+            "id": "e53_to_76",
+            "source": "node_53",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e54_to_108",
+            "source": "node_54",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_108",
+            "source": "node_56",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_26",
+            "source": "node_57",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_26",
+            "source": "node_58",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_26",
+            "source": "node_59",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_83",
+            "source": "node_75",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_53",
+            "source": "node_77",
+            "target": "node_53",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_172",
+            "source": "node_81",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_172",
+            "source": "node_82",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e90_to_86",
+            "source": "node_90",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_86",
+            "source": "node_91",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_86",
+            "source": "node_92",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_283",
+            "source": "node_104",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_137",
+            "source": "node_106",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_295",
+            "source": "node_113",
+            "target": "node_295",
+            "type": "step"
+        },
+        {
+            "id": "e115_to_279",
+            "source": "node_115",
+            "target": "node_279",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_396",
+            "source": "node_119",
+            "target": "node_396",
+            "type": "step"
+        },
+        {
+            "id": "e121_to_117",
+            "source": "node_121",
+            "target": "node_117",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_291",
+            "source": "node_122",
+            "target": "node_291",
+            "type": "step"
+        },
+        {
+            "id": "e125_to_138",
+            "source": "node_125",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e126_to_397",
+            "source": "node_126",
+            "target": "node_397",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_125",
+            "source": "node_127",
+            "target": "node_125",
+            "type": "step"
+        },
+        {
+            "id": "e129_to_139",
+            "source": "node_129",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_397",
+            "source": "node_131",
+            "target": "node_397",
+            "type": "step"
+        },
+        {
+            "id": "e135_to_397",
+            "source": "node_135",
+            "target": "node_397",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_171",
+            "source": "node_136",
+            "target": "node_171",
+            "type": "step"
+        },
+        {
+            "id": "e148_to_1",
+            "source": "node_148",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e150_to_31",
+            "source": "node_150",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e152_to_299",
+            "source": "node_152",
+            "target": "node_299",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_164",
+            "source": "node_161",
+            "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e162_to_157",
+            "source": "node_162",
+            "target": "node_157",
+            "type": "step"
+        },
+        {
+            "id": "e167_to_406",
+            "source": "node_167",
+            "target": "node_406",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_406",
+            "source": "node_168",
+            "target": "node_406",
+            "type": "step"
+        },
+        {
+            "id": "e170_to_138",
+            "source": "node_170",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e171_to_138",
+            "source": "node_171",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_86",
+            "source": "node_172",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e173_to_305",
+            "source": "node_173",
+            "target": "node_305",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_179",
+            "source": "node_181",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_1",
+            "source": "node_188",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e196_to_394",
+            "source": "node_196",
+            "target": "node_394",
+            "type": "step"
+        },
+        {
+            "id": "e197_to_395",
+            "source": "node_197",
+            "target": "node_395",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_205",
+            "source": "node_198",
+            "target": "node_205",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_214",
+            "source": "node_200",
+            "target": "node_214",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_213",
+            "source": "node_201",
+            "target": "node_213",
+            "type": "step"
+        },
+        {
+            "id": "e203_to_326",
+            "source": "node_203",
+            "target": "node_326",
+            "type": "step"
+        },
+        {
+            "id": "e204_to_409",
+            "source": "node_204",
+            "target": "node_409",
+            "type": "step"
+        },
+        {
+            "id": "e206_to_409",
+            "source": "node_206",
+            "target": "node_409",
+            "type": "step"
+        },
+        {
+            "id": "e207_to_409",
+            "source": "node_207",
+            "target": "node_409",
+            "type": "step"
+        },
+        {
+            "id": "e211_to_220",
+            "source": "node_211",
+            "target": "node_220",
+            "type": "step"
+        },
+        {
+            "id": "e213_to_326",
+            "source": "node_213",
+            "target": "node_326",
+            "type": "step"
+        },
+        {
+            "id": "e214_to_326",
+            "source": "node_214",
+            "target": "node_326",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_235",
+            "source": "node_218",
+            "target": "node_235",
+            "type": "step"
+        },
+        {
+            "id": "e221_to_231",
+            "source": "node_221",
+            "target": "node_231",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_231",
+            "source": "node_223",
+            "target": "node_231",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_231",
+            "source": "node_224",
+            "target": "node_231",
+            "type": "step"
+        },
+        {
+            "id": "e228_to_313",
+            "source": "node_228",
+            "target": "node_313",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_251",
+            "source": "node_229",
+            "target": "node_251",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_316",
+            "source": "node_231",
+            "target": "node_316",
+            "type": "step"
+        },
+        {
+            "id": "e232_to_243",
+            "source": "node_232",
+            "target": "node_243",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_319",
+            "source": "node_238",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_319",
+            "source": "node_240",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e242_to_229",
+            "source": "node_242",
+            "target": "node_229",
+            "type": "step"
+        },
+        {
+            "id": "e248_to_323",
+            "source": "node_248",
+            "target": "node_323",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_258",
+            "source": "node_250",
+            "target": "node_258",
+            "type": "step"
+        },
+        {
+            "id": "e257_to_329",
+            "source": "node_257",
+            "target": "node_329",
+            "type": "step"
+        },
+        {
+            "id": "e264_to_330",
+            "source": "node_264",
+            "target": "node_330",
+            "type": "step"
+        },
+        {
+            "id": "e267_to_18",
+            "source": "node_267",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e268_to_29",
+            "source": "node_268",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_27",
+            "source": "node_271",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_32",
+            "source": "node_272",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_1",
+            "source": "node_275",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_60",
+            "source": "node_278",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e280_to_102",
+            "source": "node_280",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_116",
+            "source": "node_281",
+            "target": "node_116",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_298",
+            "source": "node_282",
+            "target": "node_298",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_103",
+            "source": "node_285",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_114",
+            "source": "node_286",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e288_to_294",
+            "source": "node_288",
+            "target": "node_294",
+            "type": "step"
+        },
+        {
+            "id": "e293_to_124",
+            "source": "node_293",
+            "target": "node_124",
+            "type": "step"
+        },
+        {
+            "id": "e294_to_106",
+            "source": "node_294",
+            "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e296_to_282",
+            "source": "node_296",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_114",
+            "source": "node_297",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e298_to_287",
+            "source": "node_298",
+            "target": "node_287",
+            "type": "step"
+        },
+        {
+            "id": "e301_to_154",
+            "source": "node_301",
+            "target": "node_154",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_406",
+            "source": "node_304",
+            "target": "node_406",
+            "type": "step"
+        },
+        {
+            "id": "e307_to_174",
+            "source": "node_307",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e309_to_188",
+            "source": "node_309",
+            "target": "node_188",
+            "type": "step"
+        },
+        {
+            "id": "e311_to_193",
+            "source": "node_311",
+            "target": "node_193",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_189",
+            "source": "node_312",
+            "target": "node_189",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_231",
+            "source": "node_314",
+            "target": "node_231",
+            "type": "step"
+        },
+        {
+            "id": "e315_to_230",
+            "source": "node_315",
+            "target": "node_230",
+            "type": "step"
+        },
+        {
+            "id": "e317_to_243",
+            "source": "node_317",
+            "target": "node_243",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_232",
+            "source": "node_318",
+            "target": "node_232",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_241",
+            "source": "node_321",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e322_to_331",
+            "source": "node_322",
+            "target": "node_331",
+            "type": "step"
+        },
+        {
+            "id": "e324_to_322",
+            "source": "node_324",
+            "target": "node_322",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_249",
+            "source": "node_325",
+            "target": "node_249",
+            "type": "step"
+        },
+        {
+            "id": "e327_to_216",
+            "source": "node_327",
+            "target": "node_216",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_215",
+            "source": "node_328",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e332_to_418",
+            "source": "node_332",
+            "target": "node_418",
+            "type": "step"
+        },
+        {
+            "id": "e335_to_341",
+            "source": "node_335",
+            "target": "node_341",
+            "type": "step"
+        },
+        {
+            "id": "e336_to_402",
+            "source": "node_336",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e337_to_342",
+            "source": "node_337",
+            "target": "node_342",
+            "type": "step"
+        },
+        {
+            "id": "e339_to_337",
+            "source": "node_339",
+            "target": "node_337",
+            "type": "step"
+        },
+        {
+            "id": "e340_to_334",
+            "source": "node_340",
+            "target": "node_334",
+            "type": "step"
+        },
+        {
+            "id": "e348_to_363",
+            "source": "node_348",
+            "target": "node_363",
+            "type": "step"
+        },
+        {
+            "id": "e355_to_393",
+            "source": "node_355",
+            "target": "node_393",
+            "type": "step"
+        },
+        {
+            "id": "e356_to_388",
+            "source": "node_356",
+            "target": "node_388",
+            "type": "step"
+        },
+        {
+            "id": "e359_to_393",
+            "source": "node_359",
+            "target": "node_393",
+            "type": "step"
+        },
+        {
+            "id": "e360_to_356",
+            "source": "node_360",
+            "target": "node_356",
+            "type": "step"
+        },
+        {
+            "id": "e362_to_384",
+            "source": "node_362",
+            "target": "node_384",
+            "type": "step"
+        },
+        {
+            "id": "e367_to_400",
+            "source": "node_367",
+            "target": "node_400",
+            "type": "step"
+        },
+        {
+            "id": "e368_to_374",
+            "source": "node_368",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e374_to_401",
+            "source": "node_374",
+            "target": "node_401",
+            "type": "step"
+        },
+        {
+            "id": "e375_to_362",
+            "source": "node_375",
+            "target": "node_362",
+            "type": "step"
+        },
+        {
+            "id": "e376_to_400",
+            "source": "node_376",
+            "target": "node_400",
+            "type": "step"
+        },
+        {
+            "id": "e377_to_392",
+            "source": "node_377",
+            "target": "node_392",
+            "type": "step"
+        },
+        {
+            "id": "e378_to_390",
+            "source": "node_378",
+            "target": "node_390",
+            "type": "step"
+        },
+        {
+            "id": "e386_to_332",
+            "source": "node_386",
+            "target": "node_332",
+            "type": "step"
+        },
+        {
+            "id": "e387_to_332",
+            "source": "node_387",
+            "target": "node_332",
+            "type": "step"
+        },
+        {
+            "id": "e389_to_361",
+            "source": "node_389",
+            "target": "node_361",
+            "type": "step"
+        },
+        {
+            "id": "e391_to_362",
+            "source": "node_391",
+            "target": "node_362",
+            "type": "step"
+        },
+        {
+            "id": "e392_to_378",
+            "source": "node_392",
+            "target": "node_378",
+            "type": "step"
+        },
+        {
+            "id": "e393_to_405",
+            "source": "node_393",
+            "target": "node_405",
+            "type": "step"
+        },
+        {
+            "id": "e394_to_198",
+            "source": "node_394",
+            "target": "node_198",
+            "type": "step"
+        },
+        {
+            "id": "e395_to_199",
+            "source": "node_395",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
+            "id": "e396_to_122",
+            "source": "node_396",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e398_to_170",
+            "source": "node_398",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e399_to_138",
+            "source": "node_399",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e402_to_379",
+            "source": "node_402",
+            "target": "node_379",
+            "type": "step"
+        },
+        {
+            "id": "e403_to_375",
+            "source": "node_403",
+            "target": "node_375",
+            "type": "step"
+        },
+        {
+            "id": "e404_to_375",
+            "source": "node_404",
+            "target": "node_375",
+            "type": "step"
+        },
+        {
+            "id": "e405_to_361",
+            "source": "node_405",
+            "target": "node_361",
+            "type": "step"
+        },
+        {
+            "id": "e407_to_173",
+            "source": "node_407",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e408_to_169",
+            "source": "node_408",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e411_to_208",
+            "source": "node_411",
+            "target": "node_208",
+            "type": "step"
+        },
+        {
+            "id": "e415_to_231",
+            "source": "node_415",
+            "target": "node_231",
+            "type": "step"
+        },
+        {
+            "id": "e417_to_228",
+            "source": "node_417",
+            "target": "node_228",
+            "type": "step"
+        },
+        {
+            "id": "e418_to_2",
+            "source": "node_418",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

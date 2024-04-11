@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus_Italic\n\nI decided not to execute anyone.\n\nDo not execute anyone."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_16",
+            "source": "node_1",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_2",
+            "source": "node_12",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

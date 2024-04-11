@@ -1,0 +1,23 @@
+{
+    "nodes": [
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e22_to_14",
+            "source": "node_22",
+            "target": "node_14",
+            "type": "step"
+        }
+    ]
+}

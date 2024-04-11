@@ -1,0 +1,3542 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_Admin_Monica_Barred == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_PetrSelfResigned == true || BaseGame.Turn08_SecondScandal_PetrForcedResign == true || BaseGame.Turn08_SecondScandal_PetrTrialled == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_PetrSelfResigned == true || BaseGame.Turn08_SecondScandal_PetrForcedResign == true || BaseGame.Turn08_SecondScandal_PetrTrialled == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Welfare_EvolutionNotMandatory == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Policy_Welfare_EvolutionNotMandatory == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI was sitting in my office. I looked at the clock.\n\nSetRichPresenceData(Receiving a briefing on the women’s rights situation, Presidential Office, Maroon Palace); PlaySceneMusic(Past); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Welfare_FailedEducationReform == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Situation_Welfare_FailedEducationReform == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThere was a knock at the door. Ciara entered the room with folders in her hand. The door did not close behind her.\n\nAddConversant(Ciara Walda); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica entered the room and stood next to Ciara. I was confused. This was the opposite of what we had agreed after the Benfi Festival.\n\nAddConversant(Monica); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica turned to Ciara."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Explain yourself.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“I know, but...I just thought you would say no again.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Yes. I forgive you.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“All right. Let's discuss this together.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It's simply too dangerous. I don't want you to get hurt.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“I understand the danger, but someone has to do it.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“Right.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Womens Rights Monica Feedback\n\nCiara Womens Rights Monica Feedback"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Womens Rights Discussion]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_72",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“I know I don't understand politics the way you and Ciara do. But my role would be that of a spokeswoman. That's all.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“You know how much I want to help women in Sordland. I had an opportunity, and I couldn't let it pass.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“Ciara approached me about it. I had to accept.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Without asking my permission!?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Why didn't you tell her I forbade it?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“Why should a wife need her husband's permission to do something?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“What are you going to do? Leave me? You wouldn't dare.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“Just watch me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“Then I hope you will understand this.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Divorce = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Ciara Womens Rights Monica Feedback]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica looked down at the floor, then back up at me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Do you trust me?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_109",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Very well. I will allow it.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_110",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI stood there for a few minutes as I contemplated what had just happened. Eventually, Ciara knocked and entered my office again.\n\nAddConversant(Ciara Walda); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI stood in silence for a few minutes, contemplating what had just happened, Eventually, Ciara knocked and entered my office again.\n\nAddConversant(Ciara Walda); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica left the office. A short time later, Ciara knocked on the door.\n\nRemoveConversant(Monica); AddConversant(Ciara Walda); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“I was born ready.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe made her way to the door."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_ConvincedNotToLeadWomensRights = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_129",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Anything to make you happy.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_139",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“Not a particularly auspicious start to this meeting. But let's begin.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_146",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_147",
+            "type": "customNode",
+            "data": {
+                "label": "Womens Rights Discussion\n\nWomens Rights Discussion"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_151",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Policy_Law_Decree_Stronger == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_152",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“And this isn't only a moral issue. I have seen enough revolutions in this world to understand the main driver of any change.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_153",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara sat down on a chair and laid down the folder she was holding."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_154",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe flipped a folder open and started pulling out documents."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Economy > 6)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It feels too much like you're comparing Sordland to other nations. We must choose our own path.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_171",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara handed me one of the documents. It had a list of bullet points on it."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“Or even as their counterparts in Arcasia and United Contana. We've been lagging behind on this for decades, Anton.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_173",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“What are your thoughts so far?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_174",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'm not sure I can risk passing laws like these so close to the election.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_185",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica handed me one of the documents. It had a list of bullet points on it."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_189",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_195",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“The organization's name will be 'Commission on the Status of Women'.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_196",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Why bother with a commission? I can pass the laws you want here and now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“You'll still need to make sure they're effectively implemented.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“Mr. President, I know we've had friction in the past -- whether over the failed education reform, or the teaching of creationism.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“Mr. President, I know we've had friction in the past. But this has nothing to do with the failed education reform.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_206",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“One more thing to consider before making your decision. This could help silence any of the public's lingering questions regarding your former vice president and the Livia Suno affair.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_212",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_215",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThey rose from their seats expectantly."
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_220",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Policy_Law_Decree_Stronger == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_221",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'm on your side. But I want to go through the Assembly. Can't risk a backlash this close to the election.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_222",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Very well. I hereby decree your laws passed and your commission established. Good luck.”\n\n“I hereby declare your laws passed and your commission established. Good luck.\" [Sign Decree. -2 Government Budget]"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I will approve the creation of the commission and support your bill in the Assembly.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“Great. Amazing. You won't regret this, Mr. President.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n“Then all is lost for the future of women in Sordland.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI sagged back in my chair and exhaled. It was a clear day outside, but the perfect view over Holsord provided little comfort."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_236",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn08_A_WomensRightsMeeting = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.PersonalWealth > 0\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_242",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn08_Decision_LeagueOfWomenDonation = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_243",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_248",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What are you doing here?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Ciara, what is she doing here?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No. No! Monica, go home!\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_251",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“See, that's why this meeting is so necessary!\""
+            },
+            "position": {
+                "x": 540,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_252",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Someone has to stay home and look after Deana.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_254",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"This isn't about joining a knitting circle or having a friend for tea. It's about my career!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_256",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Because you'll make me look foolish otherwise -- like you did at the Benfi Festival.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_257",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Prologue_Family_Important == true\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_263",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I gave you a life most woman can only dream of, and this is how you thank me?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_264",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"I'll fetch Ciara so you two can get on with your business.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_265",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"I did ask her to come to the meeting, as I thought her media traction after the Benfi Festival would make her a valuable spokeswoman. But she told me she was, and I quote, 'barred from politics'.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_269",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_Admin_Monica_Barred == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“This is between Monica and myself. Stay out of it.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Monica would only be a liability to your cause.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Be thankful I'm not firing you for approaching her behind my back.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_277",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"First off, Mr. President, I wish to thank you for pushing a decree on establishing gender equality in education. You know this is something I've been trying to accomplish since my appointment as minister. The situation in the public schools was disturbing for me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_279",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"These are the measures I believe are most urgently needed.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI let my eyes wander down the list."
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_284",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Criminalizing domestic violence.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Support for working mothers.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Equal treatment in the workforce.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_287",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Gender equality in public education.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_288",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == false && BaseGameIsolated.Turn08_WomensRights_Listened_Education == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_296",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_WomensRights_Listened_Mothers == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_299",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_WomensRights_Listened_Violence == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_303",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"I shouldn't have to tell you how crucial this is. It is utterly unbelievable that, in this day and age, Sordish men are legally allowed to beat their wives.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara looked at me closely, as if she were scrutinizing my reaction. How much had Monica told her?"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_307",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_308",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I agree. It's a travesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_309",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What families do in their own homes is none of our concern.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_315",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica and Ciara both looked disgusted."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_319",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"Are you sure that's something we ought to focus on? The Bluds are... different. They have their own rules.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bludish_Opinion < 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Bludish_Opinion < 1)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_327",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We should lift up all Sordish women, Bluds included.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_332",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_333",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"We can discuss the particulars once the law has passed.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_334",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"I assure you it is. But I'll give you some time to think about it.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_336",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara nodded."
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_344",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It's true -- having children never hindered my career prospects. It shouldn't hinder a woman either.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_346",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_357",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Slapped == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_360",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"I'm happy you agree. In theory, at least.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_361",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Women's Issues Hub]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_362",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_376",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I don't see a problem with quotas, but tackling the pay gap is much more urgent.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_379",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara smiled."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_383",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica gritted her teeth."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_386",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"We'll see about that.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_397",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara grinned."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_403",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"I wouldn't entirely demean the old system, Ciara. Deana still loves her handicrafts classes.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_408",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes, we've had this conversation. I'm entirely on your side.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_411",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We've had this conversation, Ciara. I'm entirely on your side.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_413",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You've got a point.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_414",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Welfare_EvolutionMandatoryBanCreationism == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_424",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"That covers all subjects.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_426",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Listened to Issues - Next Steps]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_428",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"And convince the public the changes will be beneficial.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_429",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_433",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What do you need a commission for? I'll run your laws past the Assembly.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_434",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara leaned toward me."
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_439",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'll be the judge of that.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_440",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Look who's suddenly off her moral high horse.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_442",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"I know. But even a watered-down version would be better than nothing.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_443",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"If it's for the greater good, I have no problem bypassing the Assembly.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_444",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"Even if that's successful, you'll still need the commission to ensure the laws are successfully implemented.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_448",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"And convince the public the changes will be beneficial.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_449",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_453",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Sorry, but the answer is no. You can try and run your laws by the Assembly, but they'll get no support from me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_454",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Turn08_Decree_WomensRights = true; BaseGame.Policy_Law_WomenLiberation = true; BaseGame.Situation_Law_ExcellentWomenRights = true; BaseGame.Situation_Law_AverageWomenRights = false; BaseGame.Situation_Law_LimitedWomenRights = false;\\nBaseGame.Situation_Welfare_GenderEqualityInEducation = true;\\nBaseGame.Bill_Turn09_StrongWomensRights_Signed = true;\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_455",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica turned to her."
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_458",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.WomensRightCommission = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_459",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"You're making a mistake by not pushing this through right away. But I'm happy for your support.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_460",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_462",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_465",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara started collecting her documents.\n\nSetRichPresenceData(Formed a Commission on Women's Rights, Presidential Office, Maroon Palace);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_467",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_A_WomensRights_MonicaInConversation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_470",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion > 0\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_476",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe headed towards the door, then paused and turned back to me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_482",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"I suggest you think long and hard about how you're going to explain yourself to your wife. We both know how much this means to her.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_484",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI took a long sip from the bottle of whiskey in my office desk drawer, then picked up the phone and called Monica."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_485",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI looked out my window over the city of Holsord. It was a clear day outside."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_486",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn08_WomensRights_Listened_Violence == true && BaseGameIsolated.Turn08_WomensRights_Listened_Mothers == true && BaseGameIsolated.Turn08_WomensRights_Listened_Workplace == true && BaseGameIsolated.Turn08_WomensRights_Listened_Education == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_488",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn08_WomensRights_Listened_Violence == true && BaseGameIsolated.Turn08_WomensRights_Listened_Mothers == true && BaseGameIsolated.Turn08_WomensRights_Listened_Workplace == true && BaseGameIsolated.Turn08_WomensRights_Listened_Education == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_490",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_492",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_493",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_WomensRightsBill_Weak = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_494",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote >= 13\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_496",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Assembly_Vote >= 13)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_497",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Assembly_Vote >= 17\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_500",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_WomensRightsBill_Strong = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_501",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == true \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_503",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == true )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_505",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"We still have a long way to go before Sordish women are able to enjoy the same rights and privileges as men.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_506",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn08_WomensRights_ComissionEstablished = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_507",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn08_WomensRights_MonicaLeads = true;\\nBaseGameSupport.Codex_Characters_Family_Monica_WomensRights = true;\\nBaseGameSupport.Codex_Characters_Family_Monica = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1750
+            }
+        },
+        {
+            "id": "node_508",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion -= 1;\\nBaseGame.Democratic += 2;\\nBaseGame.Malenyevist += 1;\\nBaseGame.Sollist -= 1;\\nBaseGame.GovernmentBudget -= 2;\\nBaseGame.Economy -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_509",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_510",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_511",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion -= 5;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_512",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion += 2;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_513",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_514",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion -= 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_515",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.PersonalWealth >= 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_518",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_Turn08LeagueOfWomenDonationOption_Donate2 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_519",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_WomensRights_ThroughAssembly = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_522",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Policy_Law_Decree_Stronger == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_523",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara let out a lengthy exhale. Her face had started to turn red from holding her breath for so long."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_524",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAs she made eye contact with me, her professional side took hold. She swiftly straightened her posture and put on the icy mask of an experienced politician."
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_525",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_WomensRights_ThroughAssembly == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_528",
+            "type": "customNode",
+            "data": {
+                "label": "Ciara Walda\n\n\"It's not over yet, Monica. The true battle is in the Assembly. We'll celebrate once that's over with.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_530",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Prologue_University_SupportWomensRights == true || BaseGame.Relations_Monica_SupportIntentionAtBall == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_534",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"You never did listen to me about the importance of woman's rights. Maybe you'll take your own minister more seriously.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_535",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica lowered her voice."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_538",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"But despite it all, I look at you and I still see the idealistic, driven man I married.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_541",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Prologue_University_SupportWomensRights == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_542",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Opinion < -5\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_545",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMonica lowered her voice."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_547",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_ExtendEmergency_Extend == true || BaseGame.Democratic < -10\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_549",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_ExtendEmergency_Extend == true || BaseGame.Democratic < -10)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_555",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Prologue_University_SupportWomensRights == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_557",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“I know you would too. Even if you might not admit it.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_558",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n\"I know you would too. Just like you told me all those years ago.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_559",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nCiara was looking studiously at a scratch on my desk. She blinked and turned back to us."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_561",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_562",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_USP_Obstructionist == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_564",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Faction_USP_Obstructionist == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_565",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_18",
+            "source": "node_1",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e7_to_137",
+            "source": "node_7",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e8_to_24",
+            "source": "node_8",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e10_to_207",
+            "source": "node_10",
+            "target": "node_207",
+            "type": "step"
+        },
+        {
+            "id": "e14_to_211",
+            "source": "node_14",
+            "target": "node_211",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_203",
+            "source": "node_16",
+            "target": "node_203",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_9",
+            "source": "node_17",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_268",
+            "source": "node_19",
+            "target": "node_268",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_202",
+            "source": "node_21",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_6",
+            "source": "node_23",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_128",
+            "source": "node_25",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_249",
+            "source": "node_26",
+            "target": "node_249",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_75",
+            "source": "node_32",
+            "target": "node_75",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_74",
+            "source": "node_33",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e54_to_514",
+            "source": "node_54",
+            "target": "node_514",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_107",
+            "source": "node_57",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_116",
+            "source": "node_60",
+            "target": "node_116",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_73",
+            "source": "node_62",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_120",
+            "source": "node_63",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e70_to_146",
+            "source": "node_70",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_19",
+            "source": "node_71",
+            "target": "node_19",
+            "type": "step"
+        },
+        {
+            "id": "e72_to_148",
+            "source": "node_72",
+            "target": "node_148",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_120",
+            "source": "node_73",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_44",
+            "source": "node_74",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_79",
+            "source": "node_75",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_252",
+            "source": "node_76",
+            "target": "node_252",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_55",
+            "source": "node_81",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_255",
+            "source": "node_82",
+            "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_512",
+            "source": "node_83",
+            "target": "node_512",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_513",
+            "source": "node_96",
+            "target": "node_513",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_113",
+            "source": "node_99",
+            "target": "node_113",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_148",
+            "source": "node_104",
+            "target": "node_148",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_71",
+            "source": "node_105",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_515",
+            "source": "node_106",
+            "target": "node_515",
+            "type": "step"
+        },
+        {
+            "id": "e109_to_60",
+            "source": "node_109",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e110_to_65",
+            "source": "node_110",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_71",
+            "source": "node_112",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_144",
+            "source": "node_113",
+            "target": "node_144",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_531",
+            "source": "node_122",
+            "target": "node_531",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_65",
+            "source": "node_123",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e124_to_265",
+            "source": "node_124",
+            "target": "node_265",
+            "type": "step"
+        },
+        {
+            "id": "e129_to_244",
+            "source": "node_129",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e139_to_71",
+            "source": "node_139",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_72",
+            "source": "node_146",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e147_to_115",
+            "source": "node_147",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e151_to_197",
+            "source": "node_151",
+            "target": "node_197",
+            "type": "step"
+        },
+        {
+            "id": "e152_to_433",
+            "source": "node_152",
+            "target": "node_433",
+            "type": "step"
+        },
+        {
+            "id": "e153_to_238",
+            "source": "node_153",
+            "target": "node_238",
+            "type": "step"
+        },
+        {
+            "id": "e154_to_275",
+            "source": "node_154",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_159",
+            "source": "node_161",
+            "target": "node_159",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_186",
+            "source": "node_168",
+            "target": "node_186",
+            "type": "step"
+        },
+        {
+            "id": "e171_to_190",
+            "source": "node_171",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_280",
+            "source": "node_172",
+            "target": "node_280",
+            "type": "step"
+        },
+        {
+            "id": "e173_to_153",
+            "source": "node_173",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_169",
+            "source": "node_174",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_171",
+            "source": "node_181",
+            "target": "node_171",
+            "type": "step"
+        },
+        {
+            "id": "e185_to_153",
+            "source": "node_185",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_172",
+            "source": "node_188",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e189_to_281",
+            "source": "node_189",
+            "target": "node_281",
+            "type": "step"
+        },
+        {
+            "id": "e195_to_428",
+            "source": "node_195",
+            "target": "node_428",
+            "type": "step"
+        },
+        {
+            "id": "e196_to_150",
+            "source": "node_196",
+            "target": "node_150",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_435",
+            "source": "node_198",
+            "target": "node_435",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_430",
+            "source": "node_199",
+            "target": "node_430",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_9",
+            "source": "node_201",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e206_to_20",
+            "source": "node_206",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_543",
+            "source": "node_212",
+            "target": "node_543",
+            "type": "step"
+        },
+        {
+            "id": "e215_to_560",
+            "source": "node_215",
+            "target": "node_560",
+            "type": "step"
+        },
+        {
+            "id": "e220_to_450",
+            "source": "node_220",
+            "target": "node_450",
+            "type": "step"
+        },
+        {
+            "id": "e221_to_454",
+            "source": "node_221",
+            "target": "node_454",
+            "type": "step"
+        },
+        {
+            "id": "e222_to_520",
+            "source": "node_222",
+            "target": "node_520",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_509",
+            "source": "node_223",
+            "target": "node_509",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_520",
+            "source": "node_224",
+            "target": "node_520",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_525",
+            "source": "node_225",
+            "target": "node_525",
+            "type": "step"
+        },
+        {
+            "id": "e235_to_483",
+            "source": "node_235",
+            "target": "node_483",
+            "type": "step"
+        },
+        {
+            "id": "e236_to_516",
+            "source": "node_236",
+            "target": "node_516",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_155",
+            "source": "node_238",
+            "target": "node_155",
+            "type": "step"
+        },
+        {
+            "id": "e242_to_502",
+            "source": "node_242",
+            "target": "node_502",
+            "type": "step"
+        },
+        {
+            "id": "e243_to_502",
+            "source": "node_243",
+            "target": "node_502",
+            "type": "step"
+        },
+        {
+            "id": "e248_to_142",
+            "source": "node_248",
+            "target": "node_142",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_27",
+            "source": "node_249",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_27",
+            "source": "node_250",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e251_to_27",
+            "source": "node_251",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e252_to_82",
+            "source": "node_252",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e254_to_120",
+            "source": "node_254",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e256_to_93",
+            "source": "node_256",
+            "target": "node_93",
+            "type": "step"
+        },
+        {
+            "id": "e257_to_117",
+            "source": "node_257",
+            "target": "node_117",
+            "type": "step"
+        },
+        {
+            "id": "e263_to_83",
+            "source": "node_263",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e264_to_87",
+            "source": "node_264",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e265_to_114",
+            "source": "node_265",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e269_to_266",
+            "source": "node_269",
+            "target": "node_266",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_140",
+            "source": "node_271",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_140",
+            "source": "node_272",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_140",
+            "source": "node_273",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_140",
+            "source": "node_274",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e277_to_506",
+            "source": "node_277",
+            "target": "node_506",
+            "type": "step"
+        },
+        {
+            "id": "e279_to_182",
+            "source": "node_279",
+            "target": "node_182",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_298",
+            "source": "node_283",
+            "target": "node_298",
+            "type": "step"
+        },
+        {
+            "id": "e284_to_491",
+            "source": "node_284",
+            "target": "node_491",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_304",
+            "source": "node_285",
+            "target": "node_304",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_337",
+            "source": "node_286",
+            "target": "node_337",
+            "type": "step"
+        },
+        {
+            "id": "e287_to_363",
+            "source": "node_287",
+            "target": "node_363",
+            "type": "step"
+        },
+        {
+            "id": "e288_to_398",
+            "source": "node_288",
+            "target": "node_398",
+            "type": "step"
+        },
+        {
+            "id": "e296_to_286",
+            "source": "node_296",
+            "target": "node_286",
+            "type": "step"
+        },
+        {
+            "id": "e299_to_285",
+            "source": "node_299",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e303_to_310",
+            "source": "node_303",
+            "target": "node_310",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_301",
+            "source": "node_304",
+            "target": "node_301",
+            "type": "step"
+        },
+        {
+            "id": "e307_to_511",
+            "source": "node_307",
+            "target": "node_511",
+            "type": "step"
+        },
+        {
+            "id": "e308_to_358",
+            "source": "node_308",
+            "target": "node_358",
+            "type": "step"
+        },
+        {
+            "id": "e309_to_306",
+            "source": "node_309",
+            "target": "node_306",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_510",
+            "source": "node_312",
+            "target": "node_510",
+            "type": "step"
+        },
+        {
+            "id": "e315_to_319",
+            "source": "node_315",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e319_to_331",
+            "source": "node_319",
+            "target": "node_331",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_334",
+            "source": "node_323",
+            "target": "node_334",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_323",
+            "source": "node_325",
+            "target": "node_323",
+            "type": "step"
+        },
+        {
+            "id": "e327_to_334",
+            "source": "node_327",
+            "target": "node_334",
+            "type": "step"
+        },
+        {
+            "id": "e332_to_321",
+            "source": "node_332",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e333_to_324",
+            "source": "node_333",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e334_to_357",
+            "source": "node_334",
+            "target": "node_357",
+            "type": "step"
+        },
+        {
+            "id": "e336_to_283",
+            "source": "node_336",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e344_to_353",
+            "source": "node_344",
+            "target": "node_353",
+            "type": "step"
+        },
+        {
+            "id": "e346_to_352",
+            "source": "node_346",
+            "target": "node_352",
+            "type": "step"
+        },
+        {
+            "id": "e357_to_336",
+            "source": "node_357",
+            "target": "node_336",
+            "type": "step"
+        },
+        {
+            "id": "e360_to_315",
+            "source": "node_360",
+            "target": "node_315",
+            "type": "step"
+        },
+        {
+            "id": "e361_to_319",
+            "source": "node_361",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e362_to_283",
+            "source": "node_362",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e376_to_389",
+            "source": "node_376",
+            "target": "node_389",
+            "type": "step"
+        },
+        {
+            "id": "e379_to_387",
+            "source": "node_379",
+            "target": "node_387",
+            "type": "step"
+        },
+        {
+            "id": "e383_to_380",
+            "source": "node_383",
+            "target": "node_380",
+            "type": "step"
+        },
+        {
+            "id": "e386_to_396",
+            "source": "node_386",
+            "target": "node_396",
+            "type": "step"
+        },
+        {
+            "id": "e397_to_283",
+            "source": "node_397",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e403_to_408",
+            "source": "node_403",
+            "target": "node_408",
+            "type": "step"
+        },
+        {
+            "id": "e408_to_415",
+            "source": "node_408",
+            "target": "node_415",
+            "type": "step"
+        },
+        {
+            "id": "e411_to_414",
+            "source": "node_411",
+            "target": "node_414",
+            "type": "step"
+        },
+        {
+            "id": "e413_to_421",
+            "source": "node_413",
+            "target": "node_421",
+            "type": "step"
+        },
+        {
+            "id": "e414_to_420",
+            "source": "node_414",
+            "target": "node_420",
+            "type": "step"
+        },
+        {
+            "id": "e424_to_283",
+            "source": "node_424",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e426_to_174",
+            "source": "node_426",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e428_to_196",
+            "source": "node_428",
+            "target": "node_196",
+            "type": "step"
+        },
+        {
+            "id": "e429_to_436",
+            "source": "node_429",
+            "target": "node_436",
+            "type": "step"
+        },
+        {
+            "id": "e433_to_443",
+            "source": "node_433",
+            "target": "node_443",
+            "type": "step"
+        },
+        {
+            "id": "e434_to_445",
+            "source": "node_434",
+            "target": "node_445",
+            "type": "step"
+        },
+        {
+            "id": "e439_to_204",
+            "source": "node_439",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e440_to_204",
+            "source": "node_440",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e442_to_204",
+            "source": "node_442",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e443_to_204",
+            "source": "node_443",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e444_to_204",
+            "source": "node_444",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e448_to_204",
+            "source": "node_448",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e449_to_204",
+            "source": "node_449",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e453_to_481",
+            "source": "node_453",
+            "target": "node_481",
+            "type": "step"
+        },
+        {
+            "id": "e454_to_226",
+            "source": "node_454",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e455_to_524",
+            "source": "node_455",
+            "target": "node_524",
+            "type": "step"
+        },
+        {
+            "id": "e458_to_465",
+            "source": "node_458",
+            "target": "node_465",
+            "type": "step"
+        },
+        {
+            "id": "e459_to_507",
+            "source": "node_459",
+            "target": "node_507",
+            "type": "step"
+        },
+        {
+            "id": "e460_to_459",
+            "source": "node_460",
+            "target": "node_459",
+            "type": "step"
+        },
+        {
+            "id": "e462_to_456",
+            "source": "node_462",
+            "target": "node_456",
+            "type": "step"
+        },
+        {
+            "id": "e465_to_508",
+            "source": "node_465",
+            "target": "node_508",
+            "type": "step"
+        },
+        {
+            "id": "e467_to_471",
+            "source": "node_467",
+            "target": "node_471",
+            "type": "step"
+        },
+        {
+            "id": "e470_to_477",
+            "source": "node_470",
+            "target": "node_477",
+            "type": "step"
+        },
+        {
+            "id": "e476_to_480",
+            "source": "node_476",
+            "target": "node_480",
+            "type": "step"
+        },
+        {
+            "id": "e482_to_227",
+            "source": "node_482",
+            "target": "node_227",
+            "type": "step"
+        },
+        {
+            "id": "e484_to_236",
+            "source": "node_484",
+            "target": "node_236",
+            "type": "step"
+        },
+        {
+            "id": "e485_to_516",
+            "source": "node_485",
+            "target": "node_516",
+            "type": "step"
+        },
+        {
+            "id": "e486_to_516",
+            "source": "node_486",
+            "target": "node_516",
+            "type": "step"
+        },
+        {
+            "id": "e488_to_425",
+            "source": "node_488",
+            "target": "node_425",
+            "type": "step"
+        },
+        {
+            "id": "e490_to_282",
+            "source": "node_490",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e492_to_490",
+            "source": "node_492",
+            "target": "node_490",
+            "type": "step"
+        },
+        {
+            "id": "e493_to_282",
+            "source": "node_493",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e494_to_562",
+            "source": "node_494",
+            "target": "node_562",
+            "type": "step"
+        },
+        {
+            "id": "e496_to_494",
+            "source": "node_496",
+            "target": "node_494",
+            "type": "step"
+        },
+        {
+            "id": "e497_to_505",
+            "source": "node_497",
+            "target": "node_505",
+            "type": "step"
+        },
+        {
+            "id": "e500_to_495",
+            "source": "node_500",
+            "target": "node_495",
+            "type": "step"
+        },
+        {
+            "id": "e501_to_562",
+            "source": "node_501",
+            "target": "node_562",
+            "type": "step"
+        },
+        {
+            "id": "e503_to_563",
+            "source": "node_503",
+            "target": "node_563",
+            "type": "step"
+        },
+        {
+            "id": "e505_to_562",
+            "source": "node_505",
+            "target": "node_562",
+            "type": "step"
+        },
+        {
+            "id": "e506_to_182",
+            "source": "node_506",
+            "target": "node_182",
+            "type": "step"
+        },
+        {
+            "id": "e507_to_461",
+            "source": "node_507",
+            "target": "node_461",
+            "type": "step"
+        },
+        {
+            "id": "e508_to_526",
+            "source": "node_508",
+            "target": "node_526",
+            "type": "step"
+        },
+        {
+            "id": "e509_to_455",
+            "source": "node_509",
+            "target": "node_455",
+            "type": "step"
+        },
+        {
+            "id": "e510_to_316",
+            "source": "node_510",
+            "target": "node_316",
+            "type": "step"
+        },
+        {
+            "id": "e511_to_314",
+            "source": "node_511",
+            "target": "node_314",
+            "type": "step"
+        },
+        {
+            "id": "e512_to_84",
+            "source": "node_512",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e513_to_101",
+            "source": "node_513",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e514_to_57",
+            "source": "node_514",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e515_to_57",
+            "source": "node_515",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e518_to_237",
+            "source": "node_518",
+            "target": "node_237",
+            "type": "step"
+        },
+        {
+            "id": "e519_to_237",
+            "source": "node_519",
+            "target": "node_237",
+            "type": "step"
+        },
+        {
+            "id": "e522_to_460",
+            "source": "node_522",
+            "target": "node_460",
+            "type": "step"
+        },
+        {
+            "id": "e523_to_459",
+            "source": "node_523",
+            "target": "node_459",
+            "type": "step"
+        },
+        {
+            "id": "e524_to_225",
+            "source": "node_524",
+            "target": "node_225",
+            "type": "step"
+        },
+        {
+            "id": "e525_to_459",
+            "source": "node_525",
+            "target": "node_459",
+            "type": "step"
+        },
+        {
+            "id": "e528_to_464",
+            "source": "node_528",
+            "target": "node_464",
+            "type": "step"
+        },
+        {
+            "id": "e530_to_466",
+            "source": "node_530",
+            "target": "node_466",
+            "type": "step"
+        },
+        {
+            "id": "e534_to_124",
+            "source": "node_534",
+            "target": "node_124",
+            "type": "step"
+        },
+        {
+            "id": "e535_to_124",
+            "source": "node_535",
+            "target": "node_124",
+            "type": "step"
+        },
+        {
+            "id": "e538_to_215",
+            "source": "node_538",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e541_to_538",
+            "source": "node_541",
+            "target": "node_538",
+            "type": "step"
+        },
+        {
+            "id": "e542_to_214",
+            "source": "node_542",
+            "target": "node_214",
+            "type": "step"
+        },
+        {
+            "id": "e545_to_548",
+            "source": "node_545",
+            "target": "node_548",
+            "type": "step"
+        },
+        {
+            "id": "e547_to_551",
+            "source": "node_547",
+            "target": "node_551",
+            "type": "step"
+        },
+        {
+            "id": "e549_to_536",
+            "source": "node_549",
+            "target": "node_536",
+            "type": "step"
+        },
+        {
+            "id": "e555_to_559",
+            "source": "node_555",
+            "target": "node_559",
+            "type": "step"
+        },
+        {
+            "id": "e557_to_554",
+            "source": "node_557",
+            "target": "node_554",
+            "type": "step"
+        },
+        {
+            "id": "e558_to_215",
+            "source": "node_558",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e559_to_215",
+            "source": "node_559",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e561_to_216",
+            "source": "node_561",
+            "target": "node_216",
+            "type": "step"
+        },
+        {
+            "id": "e562_to_2",
+            "source": "node_562",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e564_to_494",
+            "source": "node_564",
+            "target": "node_494",
+            "type": "step"
+        },
+        {
+            "id": "e565_to_498",
+            "source": "node_565",
+            "target": "node_498",
+            "type": "step"
+        }
+    ]
+}

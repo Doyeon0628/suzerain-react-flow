@@ -1,0 +1,40 @@
+{
+    "nodes": [
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_DiplomaticArbitration_WonHalf == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e27_to_2",
+            "source": "node_27",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_2",
+            "source": "node_31",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

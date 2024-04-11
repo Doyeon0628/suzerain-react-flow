@@ -1,0 +1,856 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"I'm glad they released the governor.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"They said they wanted to return the gesture of goodwill.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"But they did release Mr. Bron, didn't they? They said they wanted to return the gesture of goodwill.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"And luckily, the meeting went well. They even released Mr. Bron, saying they wanted to return the gesture of goodwill.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"Yes. They don't want violence. They only want their voices to be heard.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I should have known sending a Blud was a mistake.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"So, I'm to blame for this attack?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"Our people have suffered a lot through the short history of this republic.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe walked up to me and placed the paper in my hands."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"They also want the revocation of the ban on the Workers Party of Bludia and the Bludish Freedom Party...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == false && (BaseGame.Reform_Law_Decrees_Removed == true || BaseGame.Reform_Law_Decrees_Weaker == true) && BaseGame.Reform_Reform_Court_Success == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No. We'll make a counter offer.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_BFF_Deal_Failed = true;\\nBaseGame.Bludish_Opinion -= 2;\\nBaseGame.Economy -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_BFF_Deal_Failed = true;\\nBaseGame.Bludish_Opinion -= 2;\\nBaseGame.Economy -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_109",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"Should I relay the message?\"\n\nSetRichPresenceData(Signed a minority rights expansion bill, Presidential Office, Maroon Palace); UnlockSteamAchievement(Game_BludishRights); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will only accept the amnesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_UnrestStopped = true; BaseGameSupport.Journal_Turn09_Unrest_BFF_Diplomatic_Decree = true;\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn09_Unrest_BFF_Diplomatic_Promise = true;\\nBaseGame.Situation_Order_BludishUprising = false;\\nBaseGame.Situation_Order_BludishQuelled = false;\\nBaseGame.Situation_Order_BludishProtests = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_126",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn09_Unrest_BFF_Diplomatic_Refuse = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_128",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_HP_Unrest_BFF_Diplomatic_BronCounter = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_130",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Media_Censored == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Media_Censored == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn09_Erzaren_Unrest_BFF_Diplomatic = true;\\nBaseGameSupport.News_Turn09_HP_BFF_DecreeSigned = true;\\nBaseGameSupport.News_Turn09_R_BFF_DecreeSigned = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn09_Erzaren_BFF_Diplomatic_PromiseFailed = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_139",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn09_Erzaren_BFF_Diplomatic_PromiseFailed = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_141",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Law_RestrictiononReligious = false;\\nBaseGame.Situation_Law_RestrictionsOnMinorityLanguage = false;\\n\\nBaseGame.Situation_Law_BludishOppression = false;\\nBaseGame.Situation_Law_BludishProblem = false;\\nBaseGame.Situation_Law_BludishReconciliation = true;\\n\\nBaseGame.Situation_Order_BludishUprising = false;\\nBaseGame.Situation_Order_BludishQuelled = true;\\nBaseGame.Situation_Order_BludishProtests = false;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Erzaren\", \"City_WidespreadProtests\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_152",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Bergia_Governor_Bron == true || BaseGame.Bergia_Governor_Krull == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_154",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bergia_Governor_Bron == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_156",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Bergia_Governor_Bron == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"But they did release Mr. Krull, didn't they? They said they wanted to return the gesture of goodwill.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bergia_Governor_Bron == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_163",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Bergia_Governor_Bron == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_167",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"And luckily, the meeting went well. They even released Mr. Krull, saying they wanted to return the gesture of goodwill.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bergia_Governor_Bron == true || BaseGame.Bergia_Governor_Krull == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_170",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Bergia_Governor_Bron == true || BaseGame.Bergia_Governor_Krull == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_173",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Bergia_Governor_Bron == true || BaseGame.Bergia_Governor_Krull == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_178",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"These are their demands. They want the centralization of Bergia to be cancelled and the Interior's control over the region to be taken away.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_179",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bergia_Governor_Bron == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Bergia_Governor_Bron == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_185",
+            "type": "customNode",
+            "data": {
+                "label": "//\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_HP_Unrest_BFF_Diplomatic_KrullAccept = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bergia_Governor_Krull == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_HP_Unrest_BFF_Diplomatic_KrullCounter = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bergia_Governor_Krull == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_HP_Unrest_BFF_Diplomatic_KrullRefuse = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_202",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bergia_Governor_Krull == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_205",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_151",
+            "source": "node_1",
+            "target": "node_151",
+            "type": "step"
+        },
+        {
+            "id": "e2_to_37",
+            "source": "node_2",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_155",
+            "source": "node_9",
+            "target": "node_155",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_172",
+            "source": "node_11",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_162",
+            "source": "node_13",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_35",
+            "source": "node_19",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_65",
+            "source": "node_37",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_53",
+            "source": "node_39",
+            "target": "node_53",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_73",
+            "source": "node_46",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_176",
+            "source": "node_67",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_44",
+            "source": "node_71",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_109",
+            "source": "node_97",
+            "target": "node_109",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_140",
+            "source": "node_104",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_139",
+            "source": "node_105",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_203",
+            "source": "node_106",
+            "target": "node_203",
+            "type": "step"
+        },
+        {
+            "id": "e109_to_180",
+            "source": "node_109",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e115_to_150",
+            "source": "node_115",
+            "target": "node_150",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_2",
+            "source": "node_123",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e124_to_138",
+            "source": "node_124",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e126_to_107",
+            "source": "node_126",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e128_to_137",
+            "source": "node_128",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e130_to_123",
+            "source": "node_130",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_195",
+            "source": "node_132",
+            "target": "node_195",
+            "type": "step"
+        },
+        {
+            "id": "e135_to_199",
+            "source": "node_135",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_113",
+            "source": "node_137",
+            "target": "node_113",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_110",
+            "source": "node_138",
+            "target": "node_110",
+            "type": "step"
+        },
+        {
+            "id": "e139_to_134",
+            "source": "node_139",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e141_to_187",
+            "source": "node_141",
+            "target": "node_187",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_2",
+            "source": "node_149",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e152_to_3",
+            "source": "node_152",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e154_to_6",
+            "source": "node_154",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_12",
+            "source": "node_156",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_11",
+            "source": "node_160",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_11",
+            "source": "node_161",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_14",
+            "source": "node_163",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e167_to_11",
+            "source": "node_167",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_11",
+            "source": "node_168",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e170_to_15",
+            "source": "node_170",
+            "target": "node_15",
+            "type": "step"
+        },
+        {
+            "id": "e173_to_17",
+            "source": "node_173",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_66",
+            "source": "node_178",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e179_to_68",
+            "source": "node_179",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_144",
+            "source": "node_181",
+            "target": "node_144",
+            "type": "step"
+        },
+        {
+            "id": "e185_to_145",
+            "source": "node_185",
+            "target": "node_145",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_142",
+            "source": "node_193",
+            "target": "node_142",
+            "type": "step"
+        },
+        {
+            "id": "e194_to_137",
+            "source": "node_194",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e197_to_128",
+            "source": "node_197",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_126",
+            "source": "node_198",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_129",
+            "source": "node_201",
+            "target": "node_129",
+            "type": "step"
+        },
+        {
+            "id": "e202_to_123",
+            "source": "node_202",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e205_to_130",
+            "source": "node_205",
+            "target": "node_130",
+            "type": "step"
+        }
+    ]
+}

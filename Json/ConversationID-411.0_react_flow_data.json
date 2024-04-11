@@ -1,0 +1,142 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Prison Revolution Hub]\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"Guillotine\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_guillotine\")\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.PersonalValues_FellOffWagon = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\nThe second-to-last of his name."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Prologue_LovedWife == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n...cursed her for giving birth to you."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_87",
+            "source": "node_1",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_84",
+            "source": "node_40",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_44",
+            "source": "node_84",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_30",
+            "source": "node_87",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_71",
+            "source": "node_92",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_76",
+            "source": "node_96",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_56",
+            "source": "node_99",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_50",
+            "source": "node_101",
+            "target": "node_50",
+            "type": "step"
+        }
+    ]
+}

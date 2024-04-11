@@ -1,0 +1,244 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Valgsland_TradeDeal == true && BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "EnableNews(\"G_Sordland_Recognized_Heljiland_Valgsland\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn08_G_Valgsland_Cancelled_Visit = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn04_RegionalInvestment_Agnland == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "// Continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "// continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI returned to Holsord with good news.\n\nSetRichPresenceData(Signed an alliance treaty with a neighbouring country, Royal Palace, Valgsland); UnlockSteamAchievement(Game_ValgslandAlliance); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn04_GruniRuralDev_NoFunding == false && BaseGame.Decision_Turn06_Megaproject_Morna == true && BaseGame.Policy_Economy_RegionalInvestment_Lorren == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Heljiland_Map_Layer == 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "RemovePlayerCountryStatus(\"Country_Sordland_Recognition_HeljilandAgnolia\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_Country_Lespia\", \"Country_Lespia_TradeTariffs\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_86",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_Country_Valgsland\", \"Country_Valgsland_Trade\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_84",
+            "source": "node_1",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_88",
+            "source": "node_25",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_24",
+            "source": "node_33",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_77",
+            "source": "node_34",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_48",
+            "source": "node_42",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_83",
+            "source": "node_59",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_81",
+            "source": "node_64",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e70_to_65",
+            "source": "node_70",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_25",
+            "source": "node_71",
+            "target": "node_25",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_55",
+            "source": "node_75",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_2",
+            "source": "node_76",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e80_to_24",
+            "source": "node_80",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_17",
+            "source": "node_85",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e86_to_61",
+            "source": "node_86",
+            "target": "node_61",
+            "type": "step"
+        }
+    ]
+}

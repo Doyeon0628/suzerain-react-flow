@@ -1,0 +1,3406 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Expansion_Airforce = true;\\nBaseGame.Situation_Military_ExpandedAirForce = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Modernisation_Airforce = true;\\nBaseGame.Situation_Military_ModernisedAirForce = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”You are overstepping and interrupting a personal meeting between me and the President.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Valken has a point. The military needs to be on the same page on any changes.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_Military_IncreaseQuality == true || BaseGame.Turn05_SnO_Military_IncreaseSize == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_SnO_Military_IncreaseQuality == true || BaseGame.Turn05_SnO_Military_IncreaseSize == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIosef checked his folder before looking at me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA strong knock on the door was heard and the Chief of the Armed Forces; Valken Kruger walked in quickly with a frown.\n\nAddConversant(Valken Kruger); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe walked from corridor to corridor to reach the office. On the way, we were met with high ranking officers as well as privates. Every time one of these soldiers saw me, they stopped and saluted me."
+            },
+            "position": {
+                "x": 270,
+                "y": 2000
+            }
+        },
+        {
+            "id": "node_18",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”It is important that you don't get misinformed on this matter. Valken has another agenda.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Conscription_Removed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWhen we finally arrived at Iosef's office, his entourage saluted us and left. He closed the door and took a seat."
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”The situation with Rumburg is getting worse and our lack of funding in the military means that we would fight for survival in a war scenario.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_Military_IncreaseQuality == true || BaseGame.Turn05_SnO_Military_IncreaseSize == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”We are prepared for the worst aren't we, Iosef?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”What are our options in improving the situation?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”You have been doing a fantastic job, Iosef. The military is in good hands.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIosef cleared his throat."
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Whatever is necessary for our survival will be done when the time comes.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Modernisation_Navy = true;\\nBaseGame.Situation_Military_ModernisedNavy = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Expansion_Army = true;\\nBaseGame.Situation_Military_ExpandedArmy= true;\n\nnan"
+            },
+            "position": {
+                "x": 810,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Expansion_Navy = true;\\nBaseGame.Situation_Military_ExpandedNavy= true;\n\nnan"
+            },
+            "position": {
+                "x": 540,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”Why haven't I been invited? What is going on here?“"
+            },
+            "position": {
+                "x": 540,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_51",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We are making all the necessary preparations but any substantial military support from other nations would be a welcome deterrent against Rumburg.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_52",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Throwing bodies at a problem never solved it. Not sure if this is the right approach.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_53",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”This doctrine worked for decades so far, no reason to change it. I think the generals have a point.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”I am doing my best to defend the country. There is nothing I care for more than Sordland.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Let's hope it doesn't come to that.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We have never failed to defend this nation from invaders. We won't start now.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”With no disrespect to him but he thinks that you can outgun the enemy but when fighting a larger force outsmarting them is what matters.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_Military_IncreaseQuality == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”It is the last step remaining to switch to a modern professional armed force.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Are reservists really that damaging to the professional armed forces?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”It will be a bloodbath for both sides.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Keep mandatory conscription. We need every single able body to defend the nation.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Sure. The new changes will be implemented as you wish.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Mr. President, I thought I explained it. Please rethink-.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_69",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We need all of our resources concentrated on our efficient units that will outperform the enemy in our mountainous terrain.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”Well we can't have less troops on the front-line than the enemy. Not with our current structure focused on mass mobilisation.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_72",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”I agree any huge structural change would be too late and too little now.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”The choice is up to you.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”I mean no disrespect but I am leading the ground operations and I must be informed of any strategic changes.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Well. Now that you are here, what is your opinion on conscription?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Our restructuring is hindered by a hundred thousands of cadets extending our logistics, slowing command structure and reducing the combat efficiency of our experienced units.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”The Minister of Defense is your superior and so am I.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”Thank you, Mr. President. We are talking about our national defense which must be consulted among all staff.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nValken left with a hard salute.\n\nRemoveConversant(Valken Kruger); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Expand the Army. We need more soldiers to defend our nation.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Expand the Navy. We need to increase the amount of our ships.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_86",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Modernise the Navy. We need a higher-tech navy.“"
+            },
+            "position": {
+                "x": 540,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Modernise the Army. We need better equipped soldiers.“"
+            },
+            "position": {
+                "x": 810,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Modernise the Air Force. We need a better air force.“"
+            },
+            "position": {
+                "x": 540,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn06_SnO_Removed_Valken = true\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”I could take my leave.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”We don't share the same opinion. This is a modern age and requires a modern army.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”The matter is rather simple from my point of view.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”However, at the end of the day Rumburg has a larger army, air-force and navy. Our conscripts will fill the much needed weaknesses we have.“\n\nSetRichPresenceData(Discussing the mandatory conscription policy, Ministry of Defence, Holsord);"
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_102",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We also have to decide how exactly we spend our additional remaining funds in the military.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Alright. Then we can move on.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”That settles it then.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”I would ask you to consider.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_108",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”I don't think it is wise to change course now.“\n\n"
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Revert the removal of mandatory conscription. That is my final decision.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”No. I am content with the decision.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn06_SnO_Removed_Valken == true\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn06_SnO_Removed_Valken == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_118",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_Military_IncreaseSize == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”In June we decided to expand the military.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We need to decide what branch we would want to expand further.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Strategically speaking the army would be the safest choice. However, the air and naval forces would do well with expansion too.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”Thank you for listening.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 1750
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Each branch would give us an advantage. Our military is larger overall but we can expand the Army, Air Force or Navy even further.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”The Air Force expansion could give us the battlefield advantage.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_141",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Have a good day.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_142",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Thank you for your time.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”Strategically speaking the army would be the safest choice. However, the air and naval forces would do well with expansion too.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_146",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”The Army can be enlarged and match the force size of most neighbours.“\n\n”The Army could be enlarged and match the force size of most neighbours.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_148",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”The Navy expansion could protect us from a possible naval incursion.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_152",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Our nation has a long coast, a naval modernisation would protect our sea zone. This would be important, especially now that the Heljiland situation between Agnolia and Valgsland is likely to escalate.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_153",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”The Air Force would welcome the addition of modern fighters and bombers. The air is the new front.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”The Air Force modernisation could give us the battlefield advantage through higher accuracy.“\n\n”The Air Force modernisation could give us the battlefield advantage.“"
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”The Army could be modernised and match the quality of most neighbours.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Which branch should we modernize?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI left the Ministry of Defense and returned to the Maroon Palace.\n\nRemoveConversant(Valken Kruger); RemoveConversant(Iosef Lancea); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI arrived at the cubic building that housed most of the military command that resided in Holsord. The grey and brutalist structure looked daunting.\n\nPlaySceneMusic(Security); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_163",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Let's begin. What is the matter?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_165",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”I will make sure it won't come to that.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”The recent military partnership we have signed with Agnolia includes a mutual-defense clause.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_178",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Mr. President, we need stronger allies.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Do you really think that is absolutely necessary?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_184",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Sordland stands alone as always, Iosef. We won't rely on help from anyone else.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_186",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”I'd rather prevent a war altogether.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”I'd rather prevent a war altogether.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_190",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Let's wait for Valken before we make a decision. I wanna hear his viewpoint.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_192",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI thought for a moment before making my decision."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”What is the meaning of this?! Iosef?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nValken deliberated the situation."
+            },
+            "position": {
+                "x": 270,
+                "y": 2250
+            }
+        },
+        {
+            "id": "node_196",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”Disappointing. So this is how the administration conducts matters on military affairs.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n”You heard your superior, Iosef.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIosef threw an angry look at Valken before turning to me."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI saluted and Iosef saluted back.\n\nSalute."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_202",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI saluted. Valken and Iosef saluted back.\n\nSalute."
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_203",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Have a good day.“"
+            },
+            "position": {
+                "x": 540,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_204",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Thank you for your time.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_205",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn04_InT_HighwayIssue_Solved == false && BaseGame.Turn04_InT_RailwayIssue_Solved == false\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_208",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn06_InT_Opening = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_209",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Military_CompulsoryMilitaryService = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_212",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Military_LargeReservistPool = true;\\nBaseGame.Situation_Military_LackOfReservists = false;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn05_RumburgBorderReinforcement_Reinforce == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_216",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”The Kruger fortification line in construction should help us in the defense of the mountainous and hilly provinces and at the worst case delay a potential advance.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_217",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Wehlen_DefendBorder == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_219",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Wehlen_DefendBorder == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_222",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Wehlen_JointOperation == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”As a result of the recent deal with Wehlen, we have started reinforcing the border.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We won't, Mr. President.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_232",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We will try, Mr. President.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_233",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”As a result of the recent deal with Wehlen, we have started organising the troops for the joint operation.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Show them the might of the Sordish Armed Forces.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_241",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”We are always ready for any situation, Mr. President.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_242",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”The entire world will see, Mr. President. Don't doubt it.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_243",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”Let's move on to our main topic.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_244",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Conscription_Removed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_245",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Conscription_Mandatory = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_246",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Conscription_Removed = false; BaseGameSupport.Journal_Turn06_Conscription_Mandatory = true;\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_247",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Expand_AirForce = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_248",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Expand_Army = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Expand_Navy = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Modernise_AirForce = true\n\nnan"
+            },
+            "position": {
+                "x": 540,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_251",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Modernise_Army = true\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_252",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Modernise_Navy = true\n\nnan"
+            },
+            "position": {
+                "x": 540,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_253",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Conscription_Removed == false\n\nnan"
+            },
+            "position": {
+                "x": 810,
+                "y": 1500
+            }
+        },
+        {
+            "id": "node_255",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn06_SnO_Conscription_Removed == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_257",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn06_SnO_EarlyConscriptionChoice == true && BaseGame.Turn06_SnO_Conscription_Removed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_259",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn06_SnO_EarlyConscriptionChoice == true && BaseGame.Turn06_SnO_Conscription_Removed == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_262",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn06_SnO_Conscription_Removed = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_266",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_Conscription_Mandatory = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_267",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Wehlen_TradeDeal == true \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_269",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Wehlen_TradeDeal == true )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_270",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy -= 2;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn04_RegionalInvestment_Agnland == true || BaseGame.Decision_Turn04_RegionalInvestment_Bergia == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_277",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "// cONTINUE\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.FactionReport_Turn06_ATO_DeclaresNuclearBreakthrough = true;\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_288",
+            "type": "customNode",
+            "data": {
+                "label": "// Continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_289",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.BlackTuesdayHappened == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_296",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn06_E_MarketsCrash = true;\\nBaseGameSupport.Report_Turn06_Lachaven_MarketsCrash = true;\\nBaseGameSupport.Report_Turn06_Conriat_MarketsCrash = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_297",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn06_G_TradeWar = true;\\nBaseGameSupport.Report_Turn06_Lachaven_TradeWar = true;\\nBaseGameSupport.Report_Turn06_Conriat_TradeWar = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_298",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_305",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn06_R_EmergencyReview_Revoked = true;\\nBaseGameSupport.Report_Turn06_Holsord_EmergencyReview_Revoked = true;\\nBaseGameSupport.Report_Turn06_Erzaren_Emergency_Revoked = true;\\nBaseGameSupport.Report_Turn06_Jen_Emergency_Revoked = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_307",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_311",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_YS == true  \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn06_Holsord_YSJournalistArrested = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_315",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn06_Valgen_RYUnionArrested = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_317",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn06_R_WomensMarch = true;\\nBaseGameSupport.Report_Turn06_Anrica_WomensRally = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Military_Budget_Decrease == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn06_Holsord_GeneralStaff_NoConscription = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_322",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn06_Erlory_DecreasedJustice = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_RY  == true  )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_329",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Wehlen_JointOperation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_334",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_336",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_341",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn06_Conriat_UCBase = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_342",
+            "type": "customNode",
+            "data": {
+                "label": "//Continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_343",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_349",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_YS == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_352",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_356",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Agnolia_TradeDeal == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_358",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Agnolia_TradeDeal == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_360",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”The facts are that the conscription gives us a large reservist pool that can cover a larger frontline but these troops lack the morale and quality to be offensive elements.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_361",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n”My argument would be to remove conscription if our military can stand on it's own two feet without them. If we are going to have strong allies why do we need conscripts?“"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_362",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_365",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn06_R_SaveDemocracy = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_372",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn06_ST_CountryFightsItself = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_373",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn05_AutocratEmergency_Revoke == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_376",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn06_R_ScarNeverHeal = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_381",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscription = true;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_IosefLeads = false;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscriptionIosefLeads = false; BaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces = false;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_383",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscription = true;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_IosefLeads = false;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscriptionIosefLeads = false; BaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces = false;\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 1750
+            }
+        },
+        {
+            "id": "node_384",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”You can stay, Valken.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_385",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Military_Budget_Decrease == true && BaseGame.Decision_Turn05_RumburgBorderReinforcement_DontReinforce == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_388",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Military_UnrulyGeneral = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_389",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n\"Your final decision, Mr. President.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_390",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn06_SnO_EarlyConscriptionChoice == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_392",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn06_SnO_EarlyConscriptionChoice == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_393",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Please leave us to conduct the meeting in private, Valken.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_394",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n”Tell me what you think, General Kruger.“"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_395",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Lachaven\", \"City_ShrinkingBusiness\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_396",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Conriat\", \"City_ShrinkingBusiness\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_397",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Lachaven\", \"City_ShrinkingBusiness\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_401",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_402",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveTokenStatus(\"Sordland_City_Lachaven\", \"City_IncreasedBusinessTrade\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_403",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveTokenStatus(\"Sordland_City_Conriat\", \"City_IncreasedBusinessTrade\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_405",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveTokenStatus(\"Sordland_City_Conriat\", \"City_IncreasedBusinessTrade\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_407",
+            "type": "customNode",
+            "data": {
+                "label": "SetRichPresence(\"Accepted aid from a communist superpower\", \"Maroon Palace\", \"Holsord\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_408",
+            "type": "customNode",
+            "data": {
+                "label": "SetRichPresence(\"Mitigating the economic damages of a massive currency crash\", \"Maroon Palace\", \"Holsord\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_409",
+            "type": "customNode",
+            "data": {
+                "label": "SetRichPresence(\"Surviving the economic fallout a global trade conflict\", \"Maroon Palace\", \"Holsord\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_410",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn04_RegionalInvestment_Lorren == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_413",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_414",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_400",
+            "source": "node_1",
+            "target": "node_400",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_206",
+            "source": "node_5",
+            "target": "node_206",
+            "type": "step"
+        },
+        {
+            "id": "e6_to_248",
+            "source": "node_6",
+            "target": "node_248",
+            "type": "step"
+        },
+        {
+            "id": "e7_to_251",
+            "source": "node_7",
+            "target": "node_251",
+            "type": "step"
+        },
+        {
+            "id": "e8_to_195",
+            "source": "node_8",
+            "target": "node_195",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_79",
+            "source": "node_9",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_103",
+            "source": "node_11",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_104",
+            "source": "node_12",
+            "target": "node_104",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_141",
+            "source": "node_13",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e14_to_194",
+            "source": "node_14",
+            "target": "node_194",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_165",
+            "source": "node_18",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_165",
+            "source": "node_19",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_211",
+            "source": "node_20",
+            "target": "node_211",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_17",
+            "source": "node_21",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_214",
+            "source": "node_22",
+            "target": "node_214",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_169",
+            "source": "node_26",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_51",
+            "source": "node_29",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_189",
+            "source": "node_38",
+            "target": "node_189",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_361",
+            "source": "node_42",
+            "target": "node_361",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_244",
+            "source": "node_43",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_58",
+            "source": "node_45",
+            "target": "node_58",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_253",
+            "source": "node_46",
+            "target": "node_253",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_252",
+            "source": "node_48",
+            "target": "node_252",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_250",
+            "source": "node_49",
+            "target": "node_250",
+            "type": "step"
+        },
+        {
+            "id": "e51_to_170",
+            "source": "node_51",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e52_to_170",
+            "source": "node_52",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e53_to_72",
+            "source": "node_53",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e54_to_73",
+            "source": "node_54",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_170",
+            "source": "node_55",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_170",
+            "source": "node_56",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_170",
+            "source": "node_57",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_170",
+            "source": "node_58",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_362",
+            "source": "node_61",
+            "target": "node_362",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_20",
+            "source": "node_63",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_70",
+            "source": "node_65",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_187",
+            "source": "node_66",
+            "target": "node_187",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_246",
+            "source": "node_67",
+            "target": "node_246",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_384",
+            "source": "node_68",
+            "target": "node_384",
+            "type": "step"
+        },
+        {
+            "id": "e69_to_383",
+            "source": "node_69",
+            "target": "node_383",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_257",
+            "source": "node_71",
+            "target": "node_257",
+            "type": "step"
+        },
+        {
+            "id": "e72_to_108",
+            "source": "node_72",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_390",
+            "source": "node_73",
+            "target": "node_390",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_193",
+            "source": "node_74",
+            "target": "node_193",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_9",
+            "source": "node_75",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_95",
+            "source": "node_76",
+            "target": "node_95",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_65",
+            "source": "node_77",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e78_to_197",
+            "source": "node_78",
+            "target": "node_197",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_391",
+            "source": "node_81",
+            "target": "node_391",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_6",
+            "source": "node_84",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_47",
+            "source": "node_85",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e86_to_49",
+            "source": "node_86",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_46",
+            "source": "node_87",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_48",
+            "source": "node_88",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_7",
+            "source": "node_89",
+            "target": "node_7",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_210",
+            "source": "node_91",
+            "target": "node_210",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_110",
+            "source": "node_93",
+            "target": "node_110",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_106",
+            "source": "node_94",
+            "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_5",
+            "source": "node_101",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e102_to_93",
+            "source": "node_102",
+            "target": "node_93",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_13",
+            "source": "node_104",
+            "target": "node_13",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_283",
+            "source": "node_105",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_199",
+            "source": "node_107",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
+            "id": "e108_to_258",
+            "source": "node_108",
+            "target": "node_258",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_390",
+            "source": "node_113",
+            "target": "node_390",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_91",
+            "source": "node_114",
+            "target": "node_91",
+            "type": "step"
+        },
+        {
+            "id": "e115_to_105",
+            "source": "node_115",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_141",
+            "source": "node_117",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e118_to_135",
+            "source": "node_118",
+            "target": "node_135",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_151",
+            "source": "node_123",
+            "target": "node_151",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_123",
+            "source": "node_127",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_84",
+            "source": "node_132",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_116",
+            "source": "node_134",
+            "target": "node_116",
+            "type": "step"
+        },
+        {
+            "id": "e135_to_204",
+            "source": "node_135",
+            "target": "node_204",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_130",
+            "source": "node_136",
+            "target": "node_130",
+            "type": "step"
+        },
+        {
+            "id": "e141_to_202",
+            "source": "node_141",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_101",
+            "source": "node_142",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_101",
+            "source": "node_143",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_132",
+            "source": "node_146",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e148_to_132",
+            "source": "node_148",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e152_to_159",
+            "source": "node_152",
+            "target": "node_159",
+            "type": "step"
+        },
+        {
+            "id": "e153_to_160",
+            "source": "node_153",
+            "target": "node_160",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_153",
+            "source": "node_157",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_154",
+            "source": "node_158",
+            "target": "node_154",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_156",
+            "source": "node_159",
+            "target": "node_156",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_89",
+            "source": "node_160",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_5",
+            "source": "node_161",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_4",
+            "source": "node_163",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e165_to_23",
+            "source": "node_165",
+            "target": "node_23",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_218",
+            "source": "node_172",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_177",
+            "source": "node_178",
+            "target": "node_177",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_218",
+            "source": "node_181",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
+            "id": "e184_to_218",
+            "source": "node_184",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
+            "id": "e186_to_218",
+            "source": "node_186",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_170",
+            "source": "node_188",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e190_to_170",
+            "source": "node_190",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e192_to_14",
+            "source": "node_192",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_63",
+            "source": "node_193",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e194_to_50",
+            "source": "node_194",
+            "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e196_to_75",
+            "source": "node_196",
+            "target": "node_75",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_92",
+            "source": "node_198",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_283",
+            "source": "node_200",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_200",
+            "source": "node_201",
+            "target": "node_200",
+            "type": "step"
+        },
+        {
+            "id": "e202_to_101",
+            "source": "node_202",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e203_to_161",
+            "source": "node_203",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e204_to_161",
+            "source": "node_204",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e205_to_161",
+            "source": "node_205",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e208_to_284",
+            "source": "node_208",
+            "target": "node_284",
+            "type": "step"
+        },
+        {
+            "id": "e209_to_284",
+            "source": "node_209",
+            "target": "node_284",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_245",
+            "source": "node_212",
+            "target": "node_245",
+            "type": "step"
+        },
+        {
+            "id": "e213_to_247",
+            "source": "node_213",
+            "target": "node_247",
+            "type": "step"
+        },
+        {
+            "id": "e216_to_29",
+            "source": "node_216",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e217_to_30",
+            "source": "node_217",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e219_to_224",
+            "source": "node_219",
+            "target": "node_224",
+            "type": "step"
+        },
+        {
+            "id": "e222_to_234",
+            "source": "node_222",
+            "target": "node_234",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_43",
+            "source": "node_223",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_43",
+            "source": "node_231",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e232_to_43",
+            "source": "node_232",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e233_to_43",
+            "source": "node_233",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_43",
+            "source": "node_238",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e241_to_239",
+            "source": "node_241",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e242_to_43",
+            "source": "node_242",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e243_to_43",
+            "source": "node_243",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e244_to_42",
+            "source": "node_244",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e245_to_68",
+            "source": "node_245",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e246_to_69",
+            "source": "node_246",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e247_to_381",
+            "source": "node_247",
+            "target": "node_381",
+            "type": "step"
+        },
+        {
+            "id": "e248_to_134",
+            "source": "node_248",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_134",
+            "source": "node_249",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_134",
+            "source": "node_250",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e251_to_134",
+            "source": "node_251",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e252_to_134",
+            "source": "node_252",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e253_to_134",
+            "source": "node_253",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e255_to_54",
+            "source": "node_255",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e257_to_74",
+            "source": "node_257",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e259_to_114",
+            "source": "node_259",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e262_to_382",
+            "source": "node_262",
+            "target": "node_382",
+            "type": "step"
+        },
+        {
+            "id": "e266_to_262",
+            "source": "node_266",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e267_to_107",
+            "source": "node_267",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e269_to_360",
+            "source": "node_269",
+            "target": "node_360",
+            "type": "step"
+        },
+        {
+            "id": "e270_to_357",
+            "source": "node_270",
+            "target": "node_357",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_282",
+            "source": "node_271",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e277_to_411",
+            "source": "node_277",
+            "target": "node_411",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_162",
+            "source": "node_282",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_10",
+            "source": "node_283",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e288_to_319",
+            "source": "node_288",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e289_to_323",
+            "source": "node_289",
+            "target": "node_323",
+            "type": "step"
+        },
+        {
+            "id": "e296_to_272",
+            "source": "node_296",
+            "target": "node_272",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_396",
+            "source": "node_297",
+            "target": "node_396",
+            "type": "step"
+        },
+        {
+            "id": "e298_to_398",
+            "source": "node_298",
+            "target": "node_398",
+            "type": "step"
+        },
+        {
+            "id": "e305_to_344",
+            "source": "node_305",
+            "target": "node_344",
+            "type": "step"
+        },
+        {
+            "id": "e307_to_317",
+            "source": "node_307",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e311_to_307",
+            "source": "node_311",
+            "target": "node_307",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_327",
+            "source": "node_314",
+            "target": "node_327",
+            "type": "step"
+        },
+        {
+            "id": "e315_to_327",
+            "source": "node_315",
+            "target": "node_327",
+            "type": "step"
+        },
+        {
+            "id": "e317_to_290",
+            "source": "node_317",
+            "target": "node_290",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_299",
+            "source": "node_318",
+            "target": "node_299",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_289",
+            "source": "node_321",
+            "target": "node_289",
+            "type": "step"
+        },
+        {
+            "id": "e322_to_289",
+            "source": "node_322",
+            "target": "node_289",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_363",
+            "source": "node_325",
+            "target": "node_363",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_316",
+            "source": "node_328",
+            "target": "node_316",
+            "type": "step"
+        },
+        {
+            "id": "e329_to_317",
+            "source": "node_329",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e334_to_318",
+            "source": "node_334",
+            "target": "node_318",
+            "type": "step"
+        },
+        {
+            "id": "e336_to_341",
+            "source": "node_336",
+            "target": "node_341",
+            "type": "step"
+        },
+        {
+            "id": "e341_to_407",
+            "source": "node_341",
+            "target": "node_407",
+            "type": "step"
+        },
+        {
+            "id": "e342_to_408",
+            "source": "node_342",
+            "target": "node_408",
+            "type": "step"
+        },
+        {
+            "id": "e343_to_330",
+            "source": "node_343",
+            "target": "node_330",
+            "type": "step"
+        },
+        {
+            "id": "e349_to_354",
+            "source": "node_349",
+            "target": "node_354",
+            "type": "step"
+        },
+        {
+            "id": "e352_to_355",
+            "source": "node_352",
+            "target": "node_355",
+            "type": "step"
+        },
+        {
+            "id": "e356_to_307",
+            "source": "node_356",
+            "target": "node_307",
+            "type": "step"
+        },
+        {
+            "id": "e358_to_282",
+            "source": "node_358",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e360_to_357",
+            "source": "node_360",
+            "target": "node_357",
+            "type": "step"
+        },
+        {
+            "id": "e361_to_59",
+            "source": "node_361",
+            "target": "node_59",
+            "type": "step"
+        },
+        {
+            "id": "e362_to_14",
+            "source": "node_362",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e365_to_374",
+            "source": "node_365",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e372_to_402",
+            "source": "node_372",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e373_to_402",
+            "source": "node_373",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e376_to_402",
+            "source": "node_376",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e381_to_107",
+            "source": "node_381",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e383_to_14",
+            "source": "node_383",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e384_to_14",
+            "source": "node_384",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e385_to_95",
+            "source": "node_385",
+            "target": "node_95",
+            "type": "step"
+        },
+        {
+            "id": "e388_to_105",
+            "source": "node_388",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e389_to_105",
+            "source": "node_389",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e390_to_258",
+            "source": "node_390",
+            "target": "node_258",
+            "type": "step"
+        },
+        {
+            "id": "e392_to_83",
+            "source": "node_392",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e393_to_385",
+            "source": "node_393",
+            "target": "node_385",
+            "type": "step"
+        },
+        {
+            "id": "e394_to_82",
+            "source": "node_394",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e395_to_95",
+            "source": "node_395",
+            "target": "node_95",
+            "type": "step"
+        },
+        {
+            "id": "e396_to_403",
+            "source": "node_396",
+            "target": "node_403",
+            "type": "step"
+        },
+        {
+            "id": "e397_to_404",
+            "source": "node_397",
+            "target": "node_404",
+            "type": "step"
+        },
+        {
+            "id": "e401_to_335",
+            "source": "node_401",
+            "target": "node_335",
+            "type": "step"
+        },
+        {
+            "id": "e402_to_2",
+            "source": "node_402",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e403_to_397",
+            "source": "node_403",
+            "target": "node_397",
+            "type": "step"
+        },
+        {
+            "id": "e405_to_399",
+            "source": "node_405",
+            "target": "node_399",
+            "type": "step"
+        },
+        {
+            "id": "e407_to_343",
+            "source": "node_407",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e408_to_343",
+            "source": "node_408",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e409_to_296",
+            "source": "node_409",
+            "target": "node_296",
+            "type": "step"
+        },
+        {
+            "id": "e410_to_296",
+            "source": "node_410",
+            "target": "node_296",
+            "type": "step"
+        },
+        {
+            "id": "e413_to_280",
+            "source": "node_413",
+            "target": "node_280",
+            "type": "step"
+        },
+        {
+            "id": "e414_to_281",
+            "source": "node_414",
+            "target": "node_281",
+            "type": "step"
+        }
+    ]
+}

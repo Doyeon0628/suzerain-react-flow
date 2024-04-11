@@ -1,0 +1,652 @@
+{
+    "nodes": [
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...used the space to host fabulous parties."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...stayed silent, but agreed to look after Deana as Monica spent more and more time in Holsord."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAt one of your gatherings, you heard a rumor that your ex-wife was getting back into politics. It turned out to be true.\\n\\nMonica emerged as a valuable ally to the new administration, representing Sordish women as gender equality policies were made and implemented. You...\n\n1962|Erlory"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe ensuing scandal cost Monica her political clout. She and Deana moved to a small cottage on the Benfi coast."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...reconnected with Franc."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...started writing a memoir."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Monica_Divorce == false && BaseGame.Relations_Monica_DivorceAfterElection == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...checked yourself into rehab and began working on your memoir."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, now living on a farm in Bergia with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace in the countryside. Your only regret was that you...\n\n1975|Bergia\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Epilogue_Retirement_Erlory_Party = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Epilogue_Retirement_Erlory_Party == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThough you hadn't meant to get caught up in the party lifestyle, the swinging '60s took their toll on you.\\n\\nBy the end of the decade, you were strung out and losing money fast. You...\n\n1970|Erlory"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Epilogue_Retirement_Erlory_Wine == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Epilogue_Election_LateRetire == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWith your presidency behind you, you set out to begin your new life in Erlory.\\n\\nYour villa in Erlory wasn't quite as grand as Petr's, but it was spacious and calm, the perfect refuge after the chaos of Holsord.\\n\\nYou...\n\nPlaySoundEffect(VineyardEnding); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, now living on a farm in Bergia with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace in the countryside. Your only regret was that you...\n\n1975|Bergia\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nYour book, titled 'Suzerain: The Real Story Of The Anton Rayne Presidency\", was an instant best-seller.\\n\\nYou lived out the rest of your days in wealth and comfort. Your only regret was that you...\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Epilogue_Election_Forcedout == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, by now living on a farm in Bergia with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_94",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_108",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, by now living in the Arcasian suburbs with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, by now living on a commune in United Contana with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_120",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, now living in the Arcasian suburbs with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace. Your only regret was that you...\n\n1975|Arcasia\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_121",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, now living on a commune in United Contana with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace in the countryside. Your only regret was that you...\n\n1975|United Contana\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_129",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFranc, now living on a commune in United Contana with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace in the countryside. Your only regret was that you...\n\n1975|United Contana\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_130",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_party\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_relaxed\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_monicaspeech\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_133",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_drinking\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_blue\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_loss\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e12_to_77",
+            "source": "node_12",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_61",
+            "source": "node_26",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e30_to_27",
+            "source": "node_30",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_17",
+            "source": "node_37",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_53",
+            "source": "node_40",
+            "target": "node_53",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_95",
+            "source": "node_41",
+            "target": "node_95",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_135",
+            "source": "node_44",
+            "target": "node_135",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_137",
+            "source": "node_47",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_138",
+            "source": "node_48",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_132",
+            "source": "node_58",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_134",
+            "source": "node_62",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_136",
+            "source": "node_63",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_39",
+            "source": "node_66",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_43",
+            "source": "node_74",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_13",
+            "source": "node_76",
+            "target": "node_13",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_9",
+            "source": "node_77",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_52",
+            "source": "node_87",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_52",
+            "source": "node_88",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_52",
+            "source": "node_89",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_40",
+            "source": "node_91",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_51",
+            "source": "node_93",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_52",
+            "source": "node_94",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_51",
+            "source": "node_104",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e108_to_52",
+            "source": "node_108",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_51",
+            "source": "node_112",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_52",
+            "source": "node_113",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_51",
+            "source": "node_114",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e120_to_49",
+            "source": "node_120",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
+            "id": "e121_to_52",
+            "source": "node_121",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_52",
+            "source": "node_122",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e129_to_52",
+            "source": "node_129",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e130_to_52",
+            "source": "node_130",
+            "target": "node_52",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_4",
+            "source": "node_131",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_3",
+            "source": "node_132",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e133_to_14",
+            "source": "node_133",
+            "target": "node_14",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_46",
+            "source": "node_134",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e135_to_65",
+            "source": "node_135",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_78",
+            "source": "node_138",
+            "target": "node_78",
+            "type": "step"
+        }
+    ]
+}

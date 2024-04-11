@@ -1,0 +1,686 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_3",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn06_Personal_ReturnOfInvestment2 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“A very enjoyable party turned out to be even more enjoyable with actual results out of it.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe phone rang and I picked it up.\n\nAddConversant(Livia Suno); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n“Mr. Manger is on the line, sir.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Let me know if there are any other opportunities.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_16",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n“Yes, sir.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Have a good evening, Mr. President.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.PersonalWealth += 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Especially after you picked Underhall Construction for the new investment project. Our profits are expected to be doubled by next year!”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“I am sure you will be delighted to hear that as a matter of fact, I do, Mr. President.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA momentary crackling noise indicated the line change.\n\nRemoveConversant(Livia Suno); AddConversant(Gus Manger); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Excellent. Connect him through.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n“As you wish.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn06_2ndCompanyChoice_Underhall == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Mr. Manger. To what do I owe the pleasure?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_36",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Cut to the chase.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.PersonalWealth += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.PersonalWealth += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Mr. President.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“I am very happy to inform you that your investment to buy stocks from Underhall Construction has been accepted by the board members.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Thank you for your time.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_45",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“I am calling about what we discussed at the party.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“I sent the signed contract and we received some really nice merchandise from the team.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_47",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“I am very happy to inform you that your investment to procure the vineyard in Erlory has been accepted by the current resident.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_52",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_P_Underhall == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_P_FCAnrica == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“Now that we have the President of Sordland by our side, I assure you, this motivation will make us the champions this season!”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe sun was setting over Holsord. I was in my office working on the preliminary details that Ciara sent over about the curriculum.\n\nSetRichPresenceData(Getting information about their latest financial investments, Presidential Office, Maroon Palace); PlaySceneMusic(Reflection); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn06_ReturnOfInvestment2 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“The investment happened at the right time for the end of year profit-share too. We were immediately able to reap the massive financial benefits of last year which will be sent to your personal account.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“The investment happened at the right time for the end of year profit-share too. We were immediately able to reap the massive financial benefits of last year which will be sent to your personal account.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_72",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_Lobbying_Spend3 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_Lobbying_Spend2 = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.PersonalWealth > 0 && BaseGame.Reform_Autocrat_Path == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "Gus Manger\n\n“With the new investments coming in to the club, the management is already looking to transfer big names to the squad.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_86",
+            "type": "customNode",
+            "data": {
+                "label": "EnableCollectionItem(\"CollectionItem_AnricaTrophy\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "EnableCollectionItem(\"CollectionItem_UnderhallTrophy\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_90",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_68",
+            "source": "node_1",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e3_to_30",
+            "source": "node_3",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e4_to_69",
+            "source": "node_4",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_37",
+            "source": "node_5",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_88",
+            "source": "node_9",
+            "target": "node_88",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_25",
+            "source": "node_11",
+            "target": "node_25",
+            "type": "step"
+        },
+        {
+            "id": "e16_to_9",
+            "source": "node_16",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_10",
+            "source": "node_17",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e19_to_78",
+            "source": "node_19",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_9",
+            "source": "node_20",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_72",
+            "source": "node_21",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e22_to_8",
+            "source": "node_22",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_35",
+            "source": "node_23",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_18",
+            "source": "node_27",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_64",
+            "source": "node_29",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_71",
+            "source": "node_32",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e36_to_18",
+            "source": "node_36",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_63",
+            "source": "node_37",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_15",
+            "source": "node_40",
+            "target": "node_15",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_89",
+            "source": "node_41",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_66",
+            "source": "node_43",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_3",
+            "source": "node_44",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_12",
+            "source": "node_45",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_8",
+            "source": "node_46",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e47_to_87",
+            "source": "node_47",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e52_to_65",
+            "source": "node_52",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_43",
+            "source": "node_61",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_45",
+            "source": "node_65",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_29",
+            "source": "node_67",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_6",
+            "source": "node_68",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e70_to_38",
+            "source": "node_70",
+            "target": "node_38",
+            "type": "step"
+        },
+        {
+            "id": "e71_to_20",
+            "source": "node_71",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e72_to_16",
+            "source": "node_72",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_4",
+            "source": "node_73",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_4",
+            "source": "node_77",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_75",
+            "source": "node_85",
+            "target": "node_75",
+            "type": "step"
+        },
+        {
+            "id": "e86_to_47",
+            "source": "node_86",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_70",
+            "source": "node_87",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_67",
+            "source": "node_89",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e90_to_2",
+            "source": "node_90",
+            "target": "node_2",
+            "type": "step"
+        }
+    ]
+}

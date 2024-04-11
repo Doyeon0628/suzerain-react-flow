@@ -1,0 +1,244 @@
+{
+    "nodes": [
+        {
+            "id": "node_2",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nRemus responded in a low voice.\n\nAddConversant(Remus Holstron); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm already working on it, but I may require some help with getting rid of Orso Hawker. I don't trust the deep state elements inside the Forces.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_SecretState_AttemptToKillOrsoHawker == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Security in Sordland is still concerning. I require your help with boosting our security forces.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.YoungSords_Kill_OrsoHawker = true;\\nBaseGame.Turn07_SecretState_Kill_OrsoHawker = true;\\nBaseGameSupport.Journal_Turn07_YoungSords_Ordered_OrsoHawkerMurder = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No, thank you. Maybe another time.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.YoungSords_Kill_OrsoHawker == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"Mr. Hawker is proving to be an unreliable partner to us as well. I'm not against the idea of sending a message through him.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Maybe you got me wrong, Mr. Holstron. Let's just cancel this whole thing. This was a misunderstanding.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Come to think of it, maybe this isn't the best idea.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_52",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"We can surely help with that, Mr. Rayne.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Come to think of it, maybe this isn't the best idea.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"Is there anything else you need?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e2_to_86",
+            "source": "node_2",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e4_to_35",
+            "source": "node_4",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_29",
+            "source": "node_5",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e9_to_31",
+            "source": "node_9",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_58",
+            "source": "node_20",
+            "target": "node_58",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_6",
+            "source": "node_24",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_2",
+            "source": "node_34",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_61",
+            "source": "node_40",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_21",
+            "source": "node_44",
+            "target": "node_21",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_19",
+            "source": "node_50",
+            "target": "node_19",
+            "type": "step"
+        },
+        {
+            "id": "e52_to_27",
+            "source": "node_52",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_20",
+            "source": "node_56",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_34",
+            "source": "node_60",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_10",
+            "source": "node_61",
+            "target": "node_10",
+            "type": "step"
+        }
+    ]
+}
