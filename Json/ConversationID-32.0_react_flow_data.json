@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nAfter looking into the changes the team began discussing it amongst themselves. Lucian spoke afterwards.\n\nAddConversant(Lucian Galade); AddConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "!(BaseGame.Reform_Law_Impeachment_Removed == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "!(BaseGame.Reform_Law_Threshold_3 == true || BaseGame.Reform_Law_Threshold_8 == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGame.Reform_Law_Ministers_Default == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "!(BaseGame.Reform_Law_Ministers_Default == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Lucian Galade\n\n\"I think we can end the meeting here.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Lucian Galade\n\n\"But sir, I understand that you're trying to get rid of the impeachment, however I have to say that it may create problems within the party.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Player\n\n\"We'll figure it out.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Player\n\n\"I will make sure they get behind.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Lucian Galade\n\n\"Wish you good luck with the party, sir.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Player\n\n\"We will handle the party.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "Lucian Galade\n\n\"We will all be doing our part, sir.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "Lucian Galade\n\n\"We will all do our best to make it work, sir.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -161,8 +161,8 @@
                 "label": "Petr Vectern\n\n\"I have to say...\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -172,8 +172,8 @@
                 "label": "Petr Vectern\n\n\"The new lower electoral threshold will be really difficult for the party to accept. Our guys are not fond of that idea.\""
             },
             "position": {
-                "x": 270,
-                "y": 750
+                "x": 270.0,
+                "y": 750.0
             }
         },
         {
@@ -183,8 +183,8 @@
                 "label": "Player\n\n\"I will not give in.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +194,8 @@
                 "label": "Petr Vectern\n\n\"But I have to say this too...\""
             },
             "position": {
-                "x": 540,
-                "y": 750
+                "x": 540.0,
+                "y": 750.0
             }
         },
         {
@@ -205,8 +205,19 @@
                 "label": "Player\n\n\"Thanks for the advice.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Thanks for the advice.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -216,8 +227,8 @@
                 "label": "BaseGame.Reform_Law_Ministers_Default == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -227,8 +238,8 @@
                 "label": "Petr Vectern\n\n\"Not reforming the minister laws will also be frowned upon by the party. The Assembly members have insisted on getting involved in the process.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -238,8 +249,30 @@
                 "label": "Player\n\n\"I'm prepared to reconsider if it comes to that.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm prepared to reconsider if it comes to that.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm prepared to reconsider if it comes to that.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -249,8 +282,8 @@
                 "label": "Lucian Galade\n\n\"In the meantime, you must introduce this proposal to our party, sir.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -260,8 +293,30 @@
                 "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -271,8 +326,8 @@
                 "label": "Lucian Galade\n\n\"You'll need to a strong speech to get them behind you. But I advise you to first talk to the leaders of the both conservative and reformist wings of the party.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -282,8 +337,8 @@
                 "label": "Lucian Galade\n\n\"Sir, you are pretty well-versed in speeches. You know the party. Just make sure you get them hyped up about the reforms.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -293,8 +348,30 @@
                 "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Any other comments before we proceed?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -304,8 +381,8 @@
                 "label": "Lucian Galade\n\n\"As Mr. Vectern said, Mrs. Tory will probably be easier to persuade. We need to unite the party under these changes, so her support is vital.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -315,8 +392,8 @@
                 "label": "Petr Vectern\n\n\"As far as I'm aware, Mr. Clavin will be our biggest problem, he may try to paint you as a dictator. Mrs. Tory will also be tough but we'll need to get her first.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -326,8 +403,8 @@
                 "label": "Player\n\n\"I will handle them.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -337,8 +414,8 @@
                 "label": "Petr Vectern\n\n\"I'm good.\""
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -348,8 +425,8 @@
                 "label": "GameCondition.Turn03_A_Constitution = true;\\nBaseGameSupport.Report_Turn03_Holsord_ReformCommittee = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +436,8 @@
                 "label": "BaseGameSupport.Journal_Turn03_ReformPackage_Dictator = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -370,8 +447,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -381,8 +458,8 @@
                 "label": "GameCondition.Turn03_A_AutocratSpeech = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -392,8 +469,8 @@
                 "label": "BaseGame.Prologue_University_Political_Nationalist == true && BaseGame.Decision_Turn03_StabilityOrder_BanRedYouth == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -403,8 +480,8 @@
                 "label": "BaseGame.Reform_Law_Judges_Impeachment_Assembly == true && BaseGame.Reform_Law_Impeachment_Removed == true && BaseGame.Reform_Law_Honorary_Presidents == true\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -414,8 +491,8 @@
                 "label": "!(BaseGame.Reform_Law_Judges_Impeachment_Assembly == true && BaseGame.Reform_Law_Impeachment_Removed == true && BaseGame.Reform_Law_Honorary_Presidents == true\\n)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -425,8 +502,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -546,6 +623,12 @@
             "type": "step"
         },
         {
+            "id": "e33_to_55",
+            "source": "node_33",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
             "id": "e34_to_22",
             "source": "node_34",
             "target": "node_22",
@@ -564,6 +647,18 @@
             "type": "step"
         },
         {
+            "id": "e39_to_28",
+            "source": "node_39",
+            "target": "node_28",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_30",
+            "source": "node_39",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
             "id": "e41_to_39",
             "source": "node_41",
             "target": "node_39",
@@ -573,6 +668,18 @@
             "id": "e43_to_34",
             "source": "node_43",
             "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_28",
+            "source": "node_43",
+            "target": "node_28",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_30",
+            "source": "node_43",
+            "target": "node_30",
             "type": "step"
         },
         {
@@ -591,6 +698,18 @@
             "id": "e48_to_34",
             "source": "node_48",
             "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_28",
+            "source": "node_48",
+            "target": "node_28",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_30",
+            "source": "node_48",
+            "target": "node_30",
             "type": "step"
         },
         {

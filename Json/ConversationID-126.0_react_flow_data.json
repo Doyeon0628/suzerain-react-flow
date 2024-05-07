@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nRemus responded in a low voice.\n\nAddConversant(Remus Holstron); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Player\n\n\"I'm already working on it, but I may require some help with getting rid of Orso Hawker. I don't trust the deep state elements inside the Forces.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "BaseGame.Turn07_SecretState_AttemptToKillOrsoHawker == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Player\n\n\"Security in Sordland is still concerning. I require your help with boosting our security forces.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGame.YoungSords_Kill_OrsoHawker = true;\\nBaseGame.Turn07_SecretState_Kill_OrsoHawker = true;\\nBaseGameSupport.Journal_Turn07_YoungSords_Ordered_OrsoHawkerMurder = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -62,8 +62,30 @@
                 "label": "Player\n\n\"No, thank you. Maybe another time.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No, thank you. Maybe another time.\"\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"No, thank you. Maybe another time.\"\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +95,8 @@
                 "label": "BaseGame.YoungSords_Kill_OrsoHawker == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -84,8 +106,8 @@
                 "label": "Remus Holstron\n\n\"Mr. Hawker is proving to be an unreliable partner to us as well. I'm not against the idea of sending a message through him.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +117,8 @@
                 "label": "Player\n\n\"Maybe you got me wrong, Mr. Holstron. Let's just cancel this whole thing. This was a misunderstanding.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -106,8 +128,8 @@
                 "label": "Player\n\n\"Come to think of it, maybe this isn't the best idea.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +139,8 @@
                 "label": "Remus Holstron\n\n\"We can surely help with that, Mr. Rayne.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -128,8 +150,8 @@
                 "label": "Player\n\n\"Come to think of it, maybe this isn't the best idea.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -139,8 +161,8 @@
                 "label": "Remus Holstron\n\n\"Is there anything else you need?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -150,8 +172,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -190,6 +212,18 @@
             "id": "e24_to_6",
             "source": "node_24",
             "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_10",
+            "source": "node_24",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_18",
+            "source": "node_24",
+            "target": "node_18",
             "type": "step"
         },
         {

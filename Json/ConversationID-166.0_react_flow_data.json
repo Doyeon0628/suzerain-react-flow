@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "(BaseGame.Media_SordlandToday_Bias == true && BaseGame.Accepted_MediaDeal == true) && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false || (BaseGame.HeartOfSordland_Nationalization >3 || BaseGame.Media_Censored == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,30 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +84,19 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_ShareBlame == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SecondScandal_ShareBlame == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -73,8 +106,8 @@
                 "label": "Player\n\n“We remain vigilant against external and internal enemies. We will not tolerate any crimes against the state.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -84,8 +117,8 @@
                 "label": "Narrator\n\nMany camera flashes went off. A reporter raised her hand to speak.\n\nAddConversant(Reporter); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +128,8 @@
                 "label": "Player\n\n\"Yes? What is it?\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -106,8 +139,8 @@
                 "label": "BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +150,8 @@
                 "label": "Player\n\n\"A source within the palace? Who do you think she meant?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -128,8 +161,8 @@
                 "label": "Player\n\n\"That she did can be directly traced to the carelessness of one man: Petr Vectern.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -139,8 +172,8 @@
                 "label": "Player\n\n\"Rest assured the traitor shall be brought to justice.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -150,8 +183,8 @@
                 "label": "Player\n\n\"Rest assured a security breach of this magnitude shall never happen again.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -161,8 +194,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -172,8 +205,8 @@
                 "label": "Petr Vectern\n\n\"Wait just a--\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -183,8 +216,19 @@
                 "label": "Narrator\n\nThe clamor of reporters was growing louder. Petr grabbed me by the collar and yanked me away from the microphones."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe clamor of reporters was growing louder. Petr grabbed me by the collar and yanked me away from the microphones."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +238,8 @@
                 "label": "Player\n\n\"Rest assured the traitor shall be brought to justice.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -205,8 +249,8 @@
                 "label": "Player\n\n\"However, the fact remains that she should never have been allowed to access sensitive government information.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -216,8 +260,8 @@
                 "label": "Player\n\n\"You don't have to do this.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -227,8 +271,8 @@
                 "label": "Player\n\n\"I will be answering all questions on the vice president's behalf.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -238,8 +282,8 @@
                 "label": "Reporter\n\n\"Are you implying that you and the covert agent posing as President Rayne's secretary were engaged in intimate relations?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -249,8 +293,8 @@
                 "label": "Reporter\n\n\"President Rayne, was Mr. Vectern implying that he and the covert agent posing as President Rayne's secretary were engaged in intimate relations?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -260,8 +304,8 @@
                 "label": "Petr Vectern\n\n\"What the hell, Anton? We never discussed this.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -271,8 +315,8 @@
                 "label": "Reporter\n\n\"President Rayne, were you implying that Mr. Vectern and the covert agent posing as your secretary were engaged in intimate relations?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -282,8 +326,8 @@
                 "label": "Player\n\n\"Yes, and it wasn't the only such affair.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -293,8 +337,8 @@
                 "label": "Narrator\n\nLucian interjected."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -304,8 +348,8 @@
                 "label": "Player\n\n\"I will take exactly one question.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -315,8 +359,8 @@
                 "label": "Narrator\n\nThe reporters reluctantly dispersed. Lucian, Petr and I looked at each other for what seemed like an eternity. Finally, Petr lowered his eyes.\n\nRemoveConversant(Reporter); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -326,8 +370,8 @@
                 "label": "Player\n\n\"Too soon.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -337,8 +381,8 @@
                 "label": "Lucian Galade\n\n\"Mr. Vectern certainly made a scene, but it appears that you will make it out of this unscathed.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -348,8 +392,8 @@
                 "label": "Player\n\n\"I have a few candidates in mind.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +403,8 @@
                 "label": "Petr Vectern\n\n\"I guess I'll go to the palace and start packing my things, then.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -370,8 +414,8 @@
                 "label": "Narrator\n\nI watched Petr descend the courthouse stairs to his car, alone.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -381,8 +425,8 @@
                 "label": "Narrator\n\nPetr shook his head. I watched him descend the courthouse steps to his car, alone.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -392,8 +436,8 @@
                 "label": "Reporter\n\n\"Sir, you just had your vice president arraigned in full view of the public--\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -403,8 +447,8 @@
                 "label": "Lucian Galade\n\n\"Very good, sir.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -414,8 +458,8 @@
                 "label": "Narrator\n\nI watched him descend the courthouse steps to his car.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -425,8 +469,8 @@
                 "label": "Narrator\n\nI watched Petr descend the courthouse stairs to his car.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -436,8 +480,8 @@
                 "label": "Player_Italic\n\nI said nothing and watched Petr descend the courthouse steps to his car.\n\nSay nothing.\n\nRemoveConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -447,8 +491,8 @@
                 "label": "Player\n\n\"I'll come with you.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -458,8 +502,8 @@
                 "label": "Petr Vectern\n\n\"I guess I'll go to the palace and start packing my things, then.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -469,8 +513,8 @@
                 "label": "Petr Vectern\n\n\"See you around, Anton.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -480,8 +524,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrSelfResigned = true; BaseGameSupport.Journal_Turn08_SecondScandal_PetrSelfResigned = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -491,8 +535,8 @@
                 "label": "BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -502,8 +546,8 @@
                 "label": "BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -513,8 +557,8 @@
                 "label": "!(BaseGame.Accepted_MediaDeal == true && BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Relations_Marcel_Enemy == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -524,8 +568,8 @@
                 "label": "Player\n\n\"No.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -535,8 +579,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -546,8 +590,19 @@
                 "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -557,8 +612,19 @@
                 "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -568,8 +634,19 @@
                 "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_RumburgBlamed = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -579,8 +656,8 @@
                 "label": "BaseGameSupport.Journal_Turn08_SecondScandal_RumburgBlamed = true;\\nBaseGame.Public_Opinion += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -590,8 +667,8 @@
                 "label": "BaseGameSupport.Journal_Turn08_SecondScandal_PetrTrialled = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -601,8 +678,8 @@
                 "label": "BaseGame.Media_Censored == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -612,8 +689,8 @@
                 "label": "BaseGame.Media_Censored == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -623,8 +700,8 @@
                 "label": "BaseGame.Public_Opinion -= 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -634,8 +711,8 @@
                 "label": "BaseGame.Public_Opinion -= 3;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -645,8 +722,8 @@
                 "label": "BaseGame.Public_Opinion -= 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -656,8 +733,8 @@
                 "label": "BaseGame.Public_Opinion -= 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -667,8 +744,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_LiviaTrialled == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -678,8 +755,8 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_LiviaTrialled == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -689,8 +766,8 @@
                 "label": "BaseGameSupport.News_Turn08_ST_Press_Conference_Blame_Petr_Media = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -700,8 +777,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -711,8 +788,8 @@
                 "label": "BaseGameSupport.News_Turn08_ST_No_Blame_Media = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -722,8 +799,8 @@
                 "label": "BaseGame.Media_Censored == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -733,8 +810,8 @@
                 "label": "BaseGameSupport.News_Turn08_R_Livia_Investigate_Trialled = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -744,8 +821,8 @@
                 "label": "BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -755,8 +832,8 @@
                 "label": "!(BaseGame.Media_Censored == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -766,8 +843,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -777,8 +854,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -788,8 +865,8 @@
                 "label": "BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -799,8 +876,8 @@
                 "label": "BaseGame.Turn08_A_Petr_Protected == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -810,8 +887,8 @@
                 "label": "!(BaseGame.Turn08_A_Petr_Protected == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -821,8 +898,8 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_BlamePetrForLeak == true || BaseGame.Turn08_SecondScandal_PetrForcedResign == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -832,8 +909,8 @@
                 "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_KeptAsVP = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -843,8 +920,8 @@
                 "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Arrested = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -854,8 +931,8 @@
                 "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Dismissed = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -865,8 +942,8 @@
                 "label": "BaseGameSupport.Codex_Characters_Cabinet_PetrVectern_Resigned = true;\\nBaseGameSupport.Codex_Characters_Cabinet_PetrVectern = false\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -876,8 +953,8 @@
                 "label": "BaseGame.Petr_Dead = true;\\nBaseGame.Petr_isVP = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -887,8 +964,8 @@
                 "label": "BaseGameSupport.Codex_Characters_Others_LiviaSuno = false; BaseGameSupport.Codex_Characters_Others_LiviaSuno_ArrestedAsSpy = true; BaseGameSupport.Codex_Characters_Others_LiviaSuno_Dismissed = false; BaseGameSupport.Codex_Characters_Others_LiviaSuno_Missing = false; \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -898,8 +975,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrTrialled == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -909,8 +986,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == false && BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -920,8 +997,8 @@
                 "label": "BaseGameSupport.News_Turn08_ST_Press_Conference_Blame_Petr_NoMedia = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -931,8 +1008,8 @@
                 "label": "BaseGame.Turn08_PressConference_PetrKnowsResigning == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -942,8 +1019,8 @@
                 "label": "Narrator\n\nHow could I forget? I was about to blame my best friend for a scandal that would otherwise shatter my administration. Petr hadn't said a word to me since I broke the news to him in my office."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -953,8 +1030,8 @@
                 "label": "BaseGame.Turn08_PressConference_PetrKnowsResigning == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -964,8 +1041,8 @@
                 "label": "Narrator\n\nThe clamor of reporters was growing louder. Petr seemed to shrink behind the podium, his charisma failing him at last."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -975,8 +1052,8 @@
                 "label": "BaseGame.Turn08_PressConference_PetrKnowsResigning == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -986,8 +1063,8 @@
                 "label": "Lucian Galade\n\n\"A shame about your friend, Mr. President. But it appears you will make it out of this unscathed.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -997,8 +1074,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1008,8 +1085,8 @@
                 "label": "BaseGameSupport.News_Turn08_ST_Livia_Petr_Secretly_Jailed_Killed_NoMedia = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1019,8 +1096,8 @@
                 "label": "(BaseGame.Turn08_SecondScandal_SecretState_ArrestLivia == true && BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true) || (BaseGame.Turn08_SecondScandal_SecretState_Kill_Livia == true && BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1030,8 +1107,8 @@
                 "label": "!((BaseGame.Turn08_SecondScandal_SecretState_ArrestLivia == true && BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true) || (BaseGame.Turn08_SecondScandal_SecretState_Kill_Livia == true && BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true))\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1041,8 +1118,8 @@
                 "label": "BaseGameSupport.News_Turn08_ST_Livia_Petr_Secretly_Jailed_Killed_Media = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1052,8 +1129,8 @@
                 "label": "UpdateCharacterTitle(\"Petr Vectern\", \"Former Vice President\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1063,8 +1140,8 @@
                 "label": "UpdateCharacterTitle(\"Petr Vectern\", \"Former Vice President\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1074,8 +1151,8 @@
                 "label": "PlaySoundEffect(\"PressRelease\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1085,8 +1162,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1096,8 +1173,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -1133,9 +1210,27 @@
             "type": "step"
         },
         {
+            "id": "e24_to_77",
+            "source": "node_24",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e24_to_78",
+            "source": "node_24",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
             "id": "e27_to_101",
             "source": "node_27",
             "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_103",
+            "source": "node_27",
+            "target": "node_103",
             "type": "step"
         },
         {
@@ -1202,6 +1297,12 @@
             "id": "e98_to_176",
             "source": "node_98",
             "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_177",
+            "source": "node_98",
+            "target": "node_177",
             "type": "step"
         },
         {
@@ -1403,15 +1504,33 @@
             "type": "step"
         },
         {
+            "id": "e224_to_36",
+            "source": "node_224",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
             "id": "e225_to_104",
             "source": "node_225",
             "target": "node_104",
             "type": "step"
         },
         {
+            "id": "e225_to_102",
+            "source": "node_225",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
             "id": "e226_to_79",
             "source": "node_226",
             "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_80",
+            "source": "node_226",
+            "target": "node_80",
             "type": "step"
         },
         {

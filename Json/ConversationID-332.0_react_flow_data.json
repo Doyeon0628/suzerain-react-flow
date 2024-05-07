@@ -15,7 +15,7 @@
             "id": "node_4",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Intermerkopum_Efforts == true)\n\nnan"
+                "label": "Hugo Toras\n\n\"Make way. Make way for the Princess of Rizia.\""
             },
             "position": {
                 "x": 0,
@@ -23,10 +23,10 @@
             }
         },
         {
-            "id": "node_5",
+            "id": "node_21",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nEver since Vina and Axel's marriage, they have constantly been travelling between Pales and Porte Drazon, and the Palesian authorities have been working with our government to realize the unity between our lands."
+                "label": "Narrator\n\nThe coffin was placed in the center where it was going to be lowered for the final voyage."
             },
             "position": {
                 "x": 0,
@@ -34,10 +34,10 @@
             }
         },
         {
-            "id": "node_6",
+            "id": "node_54",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Vina_KeepsLastName == true\n\nnan"
+                "label": "Hugo Toras\n\n\"Your Majesty.\""
             },
             "position": {
                 "x": 0,
@@ -45,10 +45,10 @@
             }
         },
         {
-            "id": "node_8",
+            "id": "node_61",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Vina_KeepsLastName == true)\n\nnan"
+                "label": "Player_Romus\n\n\"I am sorry.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -56,21 +56,10 @@
             }
         },
         {
-            "id": "node_12",
+            "id": "node_68",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nWe were on the picturesque beach of Monqiz, sitting in front of a cafe run by my family in a secluded corner of the sandy shores. We watched the Sudis sea with Axel, who was seated next to me."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nWe were on the picturesque beach of Monqiz, sitting in front of a cafe run by my family in a secluded corner that hasn't been invaded by Sordish tourists yet. We watched the Sudis sea with Axel, who was seated next to me."
+                "label": "RiziaDLC.VinaFuneral_CoffinFarewell_JoinedMother = true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -78,10 +67,10 @@
             }
         },
         {
-            "id": "node_31",
+            "id": "node_77",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Keep her close to you.\""
+                "label": "Narrator\n\nI took my place for the final voyage ritual."
             },
             "position": {
                 "x": 0,
@@ -89,10 +78,10 @@
             }
         },
         {
-            "id": "node_32",
+            "id": "node_80",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Good to know, Axel.\""
+                "label": "RemoveConversant(\"Estela Toras\");\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -100,1181 +89,70 @@
             }
         },
         {
-            "id": "node_33",
+            "id": "node_84",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nJust then, the waiter of the cafe approached us to ask what we would like to drink. Axel turned to him and spoke."
+                "label": "PlayLoopedMusic(\"R_Still\", \"R_Still_Loop\");\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"What is the recommendation of the house?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I'll have the same.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I guess they were.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"Let alone all these talks of *unification*. It's making my family quite hostile towards me.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"And how is the new charter working out for Rizia? I see that the new government is already preparing for the elections.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I am more concerned about the Rizian side.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"And how is this new religious rule of law faring for Rizia? I've seen sudden and drastic changes take place in the last couple of months.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_104",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"That was a bold step. Abolishing the power of your council and empowering the parliament just like that...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Times are changing, Axel. The days of kings leading armies on the battlefields are long gone.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_107",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Thank you, Axel. I had to take a lot of risks for this charter.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It was. The question is, do you respect that system yourself?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_114",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It was. The question is, do you have a problem with that?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It's going pretty good. There will be more to come very soon.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"Oh, not at all.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_122",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I see.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_125",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Tell me, Axel. Would you consider yourself a devout Wruhecist?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_126",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Thank you.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"And how are you, Your Majesty? It's been a while since we last had a personal talk.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_131",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Order_NationalDestabilization == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"That we do.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_142",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I suspected that...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_143",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I understand.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_155",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Trait_ReligiousKing == true && RiziaDLC.Trait_SoberKing == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "customNode",
-            "data": {
-                "label": "//\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Theocracy_Full == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_178",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.AxelConcerned += 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.AxelConcerned += 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_180",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.AxelConcerned += 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_182",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.AxelConcerned += 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_183",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"Oh, I must also thank you again for your efforts to bring Southern Merkopa together.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_189",
-            "type": "customNode",
-            "data": {
-                "label": "//\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_190",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"Lespians, though, are very furious about it.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_193",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Policy_Diplomacy_Intermerkopum == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_213",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nOn one of those visits, we decided to take a break and go visit my hometown in Monqiz together with Vina, Axel and Lucita."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_214",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Lucita_Married == true && RiziaDLC.Lucita_RelationshipPublic == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_217",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nMy eyes were on Vina and Lucita strolling along the beach. My wife stood behind my daughter as locals stopped and approached the Princess of Rizia. She seemed to be immensely popular here."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_218",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Lucita_Married == true && RiziaDLC.Lucita_RelationshipPublic == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_221",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"Of course. And congratulations to you as well, Your Majesty. I wish you great happiness together. The timing was questionable bu-\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_222",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Policy_Diplomacy_GRACEMember == false \n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_224",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Policy_Diplomacy_GRACEMember == false )\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_225",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"So...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_226",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe continued without waiting for my response."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_243",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Policy_Diplomacy_Intermerkopum == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_245",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Policy_Diplomacy_Intermerkopum == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_251",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Policy_Diplomacy_Intermerkopum == false && RiziaDLC.Policy_Diplomacy_GRACEMember == false)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_256",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Order_ViolentProtests_Valenqiris == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_277",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I feel like you're looking for an excuse.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I understand, Axel. But that is for Vina to decide, not you.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_292",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"You are not being honest with me or you are not aware of the situation on the ground.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_298",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"Tell me. Can I trust that Rizia will take care of Pales as its own and respect its unique culture?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_299",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I think it's time we strengthen our bonds and achieve this long-awaited unity.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_304",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"One thing that bothers me is the centralization of the regional system in Rizia.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_308",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Yes, Axel. If that's your demand for unification, consider it done.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_310",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No, Axel. We are not playing that game. You married my daughter already and now you're going to agree to the unification.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_319",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"We will see... We will see...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_330",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe looked at me with a huge smile on his face."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_333",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I don't think we are ready yet.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_337",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Don't make us wait any longer, Axel.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_348",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Pales_Rizia_Unification = true;\\nRiziaDLCSupport.Reports_Turn10_Pales_Peace = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_351",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"To our unity!\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_358",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"If you'll excuse me now, I want to join Vina at the beach before the sun sets.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_362",
-            "type": "customNode",
-            "data": {
-                "label": "PlayLoopedMusic(\"R_Toras\", \"R_Toras_Loop\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_363",
-            "type": "customNode",
-            "data": {
-                "label": "EvaluateConditionalInstruction(\"MapChange_Pales\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_364",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.AxelConcerned += 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_365",
-            "type": "customNode",
-            "data": {
-                "label": "START\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         }
     ],
     "edges": [
         {
-            "id": "e1_to_362",
+            "id": "e1_to_85",
             "source": "node_1",
-            "target": "node_362",
+            "target": "node_85",
             "type": "step"
         },
         {
-            "id": "e4_to_184",
+            "id": "e4_to_75",
             "source": "node_4",
-            "target": "node_184",
+            "target": "node_75",
             "type": "step"
         },
         {
-            "id": "e5_to_190",
-            "source": "node_5",
-            "target": "node_190",
+            "id": "e21_to_76",
+            "source": "node_21",
+            "target": "node_76",
             "type": "step"
         },
         {
-            "id": "e6_to_211",
-            "source": "node_6",
-            "target": "node_211",
+            "id": "e54_to_82",
+            "source": "node_54",
+            "target": "node_82",
             "type": "step"
         },
         {
-            "id": "e8_to_69",
-            "source": "node_8",
-            "target": "node_69",
+            "id": "e61_to_52",
+            "source": "node_61",
+            "target": "node_52",
             "type": "step"
         },
         {
-            "id": "e12_to_361",
-            "source": "node_12",
-            "target": "node_361",
-            "type": "step"
-        },
-        {
-            "id": "e14_to_215",
-            "source": "node_14",
-            "target": "node_215",
-            "type": "step"
-        },
-        {
-            "id": "e31_to_219",
-            "source": "node_31",
-            "target": "node_219",
-            "type": "step"
-        },
-        {
-            "id": "e32_to_219",
-            "source": "node_32",
-            "target": "node_219",
-            "type": "step"
-        },
-        {
-            "id": "e33_to_219",
-            "source": "node_33",
-            "target": "node_219",
-            "type": "step"
-        },
-        {
-            "id": "e41_to_54",
-            "source": "node_41",
-            "target": "node_54",
-            "type": "step"
-        },
-        {
-            "id": "e57_to_162",
-            "source": "node_57",
-            "target": "node_162",
-            "type": "step"
-        },
-        {
-            "id": "e74_to_103",
-            "source": "node_74",
-            "target": "node_103",
-            "type": "step"
-        },
-        {
-            "id": "e75_to_103",
-            "source": "node_75",
-            "target": "node_103",
-            "type": "step"
-        },
-        {
-            "id": "e88_to_3",
-            "source": "node_88",
-            "target": "node_3",
-            "type": "step"
-        },
-        {
-            "id": "e98_to_128",
-            "source": "node_98",
-            "target": "node_128",
-            "type": "step"
-        },
-        {
-            "id": "e103_to_90",
-            "source": "node_103",
-            "target": "node_90",
-            "type": "step"
-        },
-        {
-            "id": "e104_to_116",
-            "source": "node_104",
-            "target": "node_116",
-            "type": "step"
-        },
-        {
-            "id": "e106_to_148",
-            "source": "node_106",
-            "target": "node_148",
-            "type": "step"
-        },
-        {
-            "id": "e107_to_149",
-            "source": "node_107",
-            "target": "node_149",
-            "type": "step"
-        },
-        {
-            "id": "e108_to_148",
-            "source": "node_108",
-            "target": "node_148",
-            "type": "step"
-        },
-        {
-            "id": "e114_to_146",
-            "source": "node_114",
-            "target": "node_146",
-            "type": "step"
-        },
-        {
-            "id": "e117_to_182",
-            "source": "node_117",
-            "target": "node_182",
-            "type": "step"
-        },
-        {
-            "id": "e120_to_183",
-            "source": "node_120",
-            "target": "node_183",
-            "type": "step"
-        },
-        {
-            "id": "e122_to_182",
-            "source": "node_122",
-            "target": "node_182",
-            "type": "step"
-        },
-        {
-            "id": "e125_to_152",
-            "source": "node_125",
-            "target": "node_152",
-            "type": "step"
-        },
-        {
-            "id": "e126_to_154",
-            "source": "node_126",
-            "target": "node_154",
-            "type": "step"
-        },
-        {
-            "id": "e127_to_152",
-            "source": "node_127",
-            "target": "node_152",
-            "type": "step"
-        },
-        {
-            "id": "e131_to_144",
-            "source": "node_131",
-            "target": "node_144",
-            "type": "step"
-        },
-        {
-            "id": "e140_to_180",
-            "source": "node_140",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e142_to_161",
-            "source": "node_142",
-            "target": "node_161",
-            "type": "step"
-        },
-        {
-            "id": "e143_to_181",
-            "source": "node_143",
-            "target": "node_181",
-            "type": "step"
-        },
-        {
-            "id": "e155_to_88",
-            "source": "node_155",
-            "target": "node_88",
-            "type": "step"
-        },
-        {
-            "id": "e160_to_64",
-            "source": "node_160",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e161_to_88",
-            "source": "node_161",
-            "target": "node_88",
-            "type": "step"
-        },
-        {
-            "id": "e178_to_64",
-            "source": "node_178",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e179_to_64",
-            "source": "node_179",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e180_to_161",
-            "source": "node_180",
-            "target": "node_161",
-            "type": "step"
-        },
-        {
-            "id": "e182_to_123",
-            "source": "node_182",
-            "target": "node_123",
-            "type": "step"
-        },
-        {
-            "id": "e183_to_121",
-            "source": "node_183",
-            "target": "node_121",
-            "type": "step"
-        },
-        {
-            "id": "e189_to_227",
-            "source": "node_189",
-            "target": "node_227",
-            "type": "step"
-        },
-        {
-            "id": "e190_to_223",
-            "source": "node_190",
-            "target": "node_223",
-            "type": "step"
-        },
-        {
-            "id": "e193_to_208",
-            "source": "node_193",
-            "target": "node_208",
-            "type": "step"
-        },
-        {
-            "id": "e213_to_12",
-            "source": "node_213",
-            "target": "node_12",
-            "type": "step"
-        },
-        {
-            "id": "e214_to_361",
-            "source": "node_214",
-            "target": "node_361",
-            "type": "step"
-        },
-        {
-            "id": "e217_to_19",
-            "source": "node_217",
-            "target": "node_19",
-            "type": "step"
-        },
-        {
-            "id": "e218_to_21",
-            "source": "node_218",
-            "target": "node_21",
-            "type": "step"
-        },
-        {
-            "id": "e221_to_34",
-            "source": "node_221",
+            "id": "e68_to_34",
+            "source": "node_68",
             "target": "node_34",
             "type": "step"
         },
         {
-            "id": "e222_to_365",
-            "source": "node_222",
-            "target": "node_365",
+            "id": "e77_to_23",
+            "source": "node_77",
+            "target": "node_23",
             "type": "step"
         },
         {
-            "id": "e224_to_189",
-            "source": "node_224",
-            "target": "node_189",
+            "id": "e80_to_71",
+            "source": "node_80",
+            "target": "node_71",
             "type": "step"
         },
         {
-            "id": "e225_to_249",
-            "source": "node_225",
-            "target": "node_249",
-            "type": "step"
-        },
-        {
-            "id": "e226_to_254",
-            "source": "node_226",
-            "target": "node_254",
-            "type": "step"
-        },
-        {
-            "id": "e243_to_237",
-            "source": "node_243",
-            "target": "node_237",
-            "type": "step"
-        },
-        {
-            "id": "e245_to_210",
-            "source": "node_245",
-            "target": "node_210",
-            "type": "step"
-        },
-        {
-            "id": "e251_to_240",
-            "source": "node_251",
-            "target": "node_240",
-            "type": "step"
-        },
-        {
-            "id": "e256_to_363",
-            "source": "node_256",
-            "target": "node_363",
-            "type": "step"
-        },
-        {
-            "id": "e277_to_293",
-            "source": "node_277",
-            "target": "node_293",
-            "type": "step"
-        },
-        {
-            "id": "e279_to_293",
-            "source": "node_279",
-            "target": "node_293",
-            "type": "step"
-        },
-        {
-            "id": "e292_to_363",
-            "source": "node_292",
-            "target": "node_363",
-            "type": "step"
-        },
-        {
-            "id": "e298_to_335",
-            "source": "node_298",
-            "target": "node_335",
-            "type": "step"
-        },
-        {
-            "id": "e299_to_314",
-            "source": "node_299",
-            "target": "node_314",
-            "type": "step"
-        },
-        {
-            "id": "e304_to_299",
-            "source": "node_304",
-            "target": "node_299",
-            "type": "step"
-        },
-        {
-            "id": "e308_to_318",
-            "source": "node_308",
-            "target": "node_318",
-            "type": "step"
-        },
-        {
-            "id": "e310_to_317",
-            "source": "node_310",
-            "target": "node_317",
-            "type": "step"
-        },
-        {
-            "id": "e319_to_334",
-            "source": "node_319",
-            "target": "node_334",
-            "type": "step"
-        },
-        {
-            "id": "e330_to_319",
-            "source": "node_330",
-            "target": "node_319",
-            "type": "step"
-        },
-        {
-            "id": "e333_to_349",
-            "source": "node_333",
-            "target": "node_349",
-            "type": "step"
-        },
-        {
-            "id": "e337_to_347",
-            "source": "node_337",
-            "target": "node_347",
-            "type": "step"
-        },
-        {
-            "id": "e348_to_343",
-            "source": "node_348",
-            "target": "node_343",
-            "type": "step"
-        },
-        {
-            "id": "e351_to_333",
-            "source": "node_351",
-            "target": "node_333",
-            "type": "step"
-        },
-        {
-            "id": "e358_to_2",
-            "source": "node_358",
+            "id": "e84_to_2",
+            "source": "node_84",
             "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e362_to_10",
-            "source": "node_362",
-            "target": "node_10",
-            "type": "step"
-        },
-        {
-            "id": "e363_to_263",
-            "source": "node_363",
-            "target": "node_263",
-            "type": "step"
-        },
-        {
-            "id": "e364_to_358",
-            "source": "node_364",
-            "target": "node_358",
-            "type": "step"
-        },
-        {
-            "id": "e365_to_34",
-            "source": "node_365",
-            "target": "node_34",
             "type": "step"
         }
     ]

@@ -1,1178 +1,3184 @@
 {
     "nodes": [
         {
-            "id": "node_69",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"The Derdians don't have to pass through Wehlen to reach Deyr. We could help them find a sea route.\""
+                "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_70",
+            "id": "node_60",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"Yes, I've looked into the possibility. It would go from Yol through the Sudis Sea all the way around to Lachaven.\""
+                "label": "Player_Romus\n\n\"Oil and gas agreements form the backbone of this alliance. I propose we work further towards establishing energy independence.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumOffers_Energy == false && (RiziaDLC.Policy_Economy_PalesPipeline_Completed== true || RiziaDLC.Policy_Economy_MorellaPipeline_Completed == true || RiziaDLC.Policy_Economy_DerdiaPipeline_Completed == true || RiziaDLC.Policy_Economy_WehlenPipeline_Project == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI saw nods of agreement around the table."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Therefore, I pledge to fund our alliance on an ongoing basis.\"\n\n\"Therefore, I pledge that I will fund our alliance on an ongoing basis.\" [-3 Budget Per Turn]"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I shall contribute a generous sum towards the founding of a joint financial reserve.\"\n\n\"I shall contribute a generous sum towards the founding of a joint financial reserve.\" [-5 Budget]"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_89",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Laurento, your corridor solution may not have worked with Morella, but could it work with Wehlen?\""
+                "label": "Player_Romus\n\n\"Rizia itself will not commit any finances, but my councilors are prepared to aid in the across-the-board coordination of our fiscal policies.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_93",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"It has yet to be implemented in Morella. But I have high hopes for it.\""
+                "label": "!(RiziaDLCIsolated.Turn09_IntermerkopumOffers_Financial == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_102",
+            "id": "node_107",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"Prime Minister Saltana did not agree to the idea. I myself was open to it.\""
+                "label": "Jump to: [Intermerkopum Promises]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_109",
+            "id": "node_107",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLCIsolated.Turn09_WehlenDerdia_Corridor == false)\n\nnan"
+                "label": "Jump to: [Intermerkopum Promises]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_120",
+            "id": "node_131",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"We have the military manpower to make sure the route is secure.\""
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_126",
+            "id": "node_131",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"Or we can contract an independent security company.\""
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_127",
+            "id": "node_131",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"But we have the budget to contract an independent security company.\""
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_128",
+            "id": "node_135",
             "type": "customNode",
             "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Well... yes, there is.\""
+                "label": "Axel Reinhart\n\n\"I liked this idea in theory. But the vagueness of it all concerns me greatly.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_165",
+            "id": "node_140",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"Even then, I am not certain Rizia can afford it.\""
+                "label": "RiziaDLC.Diplomacy_Morella_IntermerkopumPotential == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_166",
+            "id": "node_151",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Resources_Budget >= 2\n\nnan"
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_170",
+            "id": "node_156",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"I am not certain Rizia can afford it.\""
+                "label": "RiziaDLC.Diplomacy_Derdia_IntermerkopumPotential == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_171",
+            "id": "node_167",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"Unfortunate. It could've been a pivotal step forward in the South Merkopan alliance we are building.\""
+                "label": "RiziaDLC.Pales_War == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_172",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"Such a deal could be a pivotal step forward in the South Merkopan alliance we are building.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_173",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"Your Majesty, Rizia should consider funding this pipeline. If we can afford it, that is.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_174",
-            "type": "customNode",
-            "data": {
-                "label": "Wiktor Smolak (R)\n\n\"If we were that desperate, Your Majesty, you would have had Zille back five years ago.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_177",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLCIsolated.Turn09_WehlenDerdia_Pipeline == false)\n\nnan"
+                "label": "Laurento Esquibel\n\n\"Your reservations are completely understandable. Which is why we have dedicated a portion of this meeting to go through each of your individual concerns.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn09_WehlenDerdia_Corridor = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_180",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Turn09_WehlenDerdia_SeaRoute = true\n\nnan"
+                "label": "Laurento Esquibel\n\n\"I'm pleased to hear you're all happy with our suggestions.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_181",
+            "id": "node_180",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Here is my solution.\""
+                "label": "Laurento Esquibel\n\n\"I'm pleased to hear you're all happy with our suggestions.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_191",
+            "id": "node_183",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Diplomacy_Derdia_NegotiatingPower >= 3 && RiziaDLC.Resources_Military_Manpower > 250\n\nnan"
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Derdia == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_190",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Morella == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Pales == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_198",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Situation_Diplomacy_Rumburg_HighEnergyExport == true && RiziaDLC.Resources_Budget >= 1\n\nnan"
+                "label": "RiziaDLC.Vina_KeepsLastName == true && RiziaDLC.Vina_MarriageDecision_Axel == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_202",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"We will fund an oil pipeline between Wehlen and Derdia. A secure Derdian pilgrimage route will be a condition for this new energy partnership.\"\n\n\"We will fund an oil pipeline between Wehlen and Derdia. A secure Derdian pilgrimage route will be a condition for this new energy partnership.\" [-2 Budget]"
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Derdia == true && RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Morella == true && RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Pales == true && RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Wehlen == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_203",
+            "id": "node_206",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Your nations must practice trust and cooperation. Remember, we all pray to the same God.\""
+                "label": "RiziaDLC.Diplomacy_Derdia_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_211",
+            "id": "node_208",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nNeither of them looked satisfied."
+                "label": "!(RiziaDLC.Diplomacy_Derdia_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_214",
+            "id": "node_213",
             "type": "customNode",
             "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Wehlen accepts, Your Majesty!\""
+                "label": "RiziaDLC.Diplomacy_Wehlen_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_215",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_Budget -= 1; RiziaDLCSupport.Journal_Turn09_WehlenDerdia_PilgrimCorridor = true; \n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_216",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_Military_Manpower -= 250; RiziaDLCSupport.Journal_Turn09_WehlenDerdia_PilgrimCorridor = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_217",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_Military_Ships -= 1; RiziaDLCSupport.Journal_Turn09_WehlenDerdia_PilgrimSeaRoute = true; RiziaDLCSupport.News_Turn09_G_PrayerSeaRoute = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_219",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_Budget -= 2; RiziaDLC.Policy_Economy_WehlenPipeline_Project = true; RiziaDLCSupport.Journal_Turn09_WehlenDerdia_Pipeline = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_220",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Decision_Turn08_MediateDerdiaWehlen_MinimalEffort == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_224",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"You will shake hands.\""
+                "label": "Wiktor Smolak (R)\n\n\"I was more than satisfied with the outcome of our Zille negotiations. However, I have not yet had the chance to build such a foundation of trust with our neighbors here.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_225",
+            "id": "node_224",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"I thank the Lord for watching over today's talks.\""
+                "label": "Wiktor Smolak (R)\n\n\"I was more than satisfied with the outcome of our Zille negotiations. However, I have not yet had the chance to build such a foundation of trust with our neighbors here.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_226",
+            "id": "node_224",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Situation_Diplomacy_Wehlen_ImportTobacco == true\n\nnan"
+                "label": "Wiktor Smolak (R)\n\n\"I was more than satisfied with the outcome of our Zille negotiations. However, I have not yet had the chance to build such a foundation of trust with our neighbors here.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_230",
-            "type": "customNode",
-            "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Hrm. That's the best you can do?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_240",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_Budget -= 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_252",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_Authority -= 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_253",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Decision_Turn08_MediateDerdiaWehlen_MinimalEffort == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_255",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Decision_Turn08_MediateDerdiaWehlen_MinimalEffort == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_256",
             "type": "customNode",
             "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Hrm. That's the best you can do?\""
+                "label": "Wiktor Smolak (R)\n\n\"We're talking about oil. Not gas.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_267",
+            "id": "node_256",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Decision_Turn08_MediateDerdiaWehlen_MinimalEffort == true\n\nnan"
+                "label": "Wiktor Smolak (R)\n\n\"We're talking about oil. Not gas.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_270",
+            "id": "node_258",
             "type": "customNode",
             "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Hrm. That's the best you can do?\""
+                "label": "RiziaDLC.Policy_Economy_WehlenPipeline_Project == false && RiziaDLC.Diplomacy_Derdia_IntermerkopumPotential == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_271",
+            "id": "node_258",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"It is. Take it or leave it.\"\n\n\"It is. Take it or leave it.\" [-1 Authority]"
+                "label": "RiziaDLC.Policy_Economy_WehlenPipeline_Project == false && RiziaDLC.Diplomacy_Derdia_IntermerkopumPotential == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_280",
+            "id": "node_268",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Resources_Authority -= 1\n\nnan"
+                "label": "!(RiziaDLC.Policy_Economy_WehlenPipeline_Project == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_281",
+            "id": "node_279",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Decision_Turn08_MediateDerdiaWehlen_MinimalEffort == true\n\nnan"
+                "label": "Wiktor Smolak (R)\n\n\"This is my condition, Your Majesty. I believe the others will find it reasonable.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_284",
+            "id": "node_293",
             "type": "customNode",
             "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Hrm. That's the best you can do?\""
+                "label": "RiziaDLC.Policy_Economy_WehlenPipeline_Project == false && RiziaDLC.Diplomacy_Derdia_IntermerkopumPotential == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_285",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It is. Take it or leave it.\"\n\n\"It is. Take it or leave it.\" [-1 Authority]"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_295",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Decision_Turn08_MediateDerdiaWehlen_MinimalEffort == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
             "id": "node_297",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Decision_Turn08_MediateDerdiaWehlen_MinimalEffort == true)\n\nnan"
+                "label": "RiziaDLC.Resources_Budget >= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_298",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThey both shook their heads."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_305",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Turn09_MorellaDerdiaMediation_Failed == true\n\nnan"
+                "label": "RiziaDLC.Resources_EnergyModifiersTotal >= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_312",
+            "id": "node_315",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"Two failed mediations in one day? That is truly not a good omen.\""
+                "label": "RiziaDLC.Resources_EnergyModifiersTotal >= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_313",
+            "id": "node_320",
             "type": "customNode",
             "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Of course, Your Majesty.\""
+                "label": "RiziaDLC.Situation_Diplomacy_Wehlen_OilImport == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_326",
+            "id": "node_328",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"I thank you nonetheless for your help with Morella.\""
+                "label": "Narrator\n\nSmolak and Reinhart both appeared satisfied.\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSmolak and Reinhart both appeared satisfied.\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSmolak and Reinhart both appeared satisfied.\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_329",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Turn09_DerdiaWehlenMediation_Failed = true; RiziaDLCSupport.Journal_Turn09_WehlenDerdia_Failed = true\n\nnan"
+                "label": "Axel Reinhart\n\n\"I can live with that.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_330",
+            "id": "node_356",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"We will see about that.\""
+                "label": "Intermerkopum Failed\n\nIntermerkopum Failed"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_335",
+            "id": "node_358",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"Praise be to He who unites the universe.\""
+                "label": "Player_Romus\n\n\"You're going to regret this, Smolak.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_372",
+            "id": "node_364",
             "type": "customNode",
             "data": {
-                "label": "Wiktor Smolak (R)\n\n\"Sorry to cut this party short, but I really must be going.\""
+                "label": "Jump to: [Individual Negotiations]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_365",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"How is little Wiktor II these days?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_373",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.ZilleReturn_Success == true\n\nnan"
+                "label": "Jorga Azmal\n\n\"I agree to everything. The Lord has truly smiled upon us this day, Your Majesty.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_376",
-            "type": "customNode",
-            "data": {
-                "label": "Wiktor Smolak (R)\n\n\"I'm working hard to conclude our agreed-upon transfer for Zille. There are a few paperwork challenges left but all is going splendidly.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_377",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Turn09_MorellaDerdiaMediation_Success == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_381",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCSupport.News_Turn09_G_PrayerCorridorDerdia = true\n\nnan"
+                "label": "RiziaDLC.Policy_Economy_DerdiaPipeline_Completed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_382",
+            "id": "node_409",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCSupport.News_Turn09_G_DerdiaWehlenOil = true\n\nnan"
+                "label": "Player_Romus\n\n\"The Lord says no. I cannot help you with this.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_383",
+            "id": "node_417",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Intermerkopum_Efforts == true\n\nnan"
+                "label": "Narrator\n\nAzmal hung his head."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_385",
+            "id": "node_430",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Intermerkopum_Efforts == true)\n\nnan"
+                "label": "Laurento Esquibel\n\n\"Perhaps leaving Derdia out of this alliance will be better for our image in the long run.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_388",
+            "id": "node_432",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Intermerkopum_Efforts == true)\n\nnan"
+                "label": "RiziaDLC.Resources_Budget -= 1; RiziaDLCSupport.Journal_Turn09_Derdia_Investment = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_390",
+            "id": "node_444",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"Brokering a connection between Wehlen and Derdia could be beneficial for everyone involved.\""
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Pales = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_391",
+            "id": "node_446",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Derdia = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_447",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true && RiziaDLC.Vina_Escapes == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_452",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_452",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_452",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_457",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLCIsolated.Turn09_IntermerkopumPoints > 0)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_463",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLCIsolated.Turn09_IntermerkopumPoints > 0)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_465",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"But I do have concerns.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_465",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"But I do have concerns.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_465",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"But I do have concerns.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_471",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"But your Intermerkopum plan includes no such conditions.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_484",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.War_Incident_Border == true || RiziaDLC.War_Incident_Naval == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_489",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You trounced us in the 1920s, and now you're begging us for military support? How the tables have turned.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_489",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You trounced us in the 1920s, and now you're begging us for military support? How the tables have turned.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_490",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAxel smiled."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_492",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true && RiziaDLC.Vina_KeepsLastName == true && RiziaDLC.Vina_Escapes == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_495",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"The name's Toras, remember? I gave up my entire heritage for your kingdom.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_496",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"We can commit troops for the purpose of deterring potential aggressors.\"\n\n\"We can commit troops for the purpose of deterring potential aggressors.\" [-500 Manpower]"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_497",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Military_Manpower >= 500\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_503",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumPromises_Equipment == true || RiziaDLCIsolated.Turn09_IntermerkopumPromises_Tanks == true || RiziaDLCIsolated.Turn09_IntermerkopumPromises_Trucks\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_507",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"We will earmark a stockpile of military equipment specifically for the defense of Pales.\"\n\n\"We will earmark a stockpile of military equipment specifically for the defense of Pales.\" [-1000 Equipment]"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_508",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"We can't commit any military resources, but we will earmark treasury funds for the purpose of Palesian defense.\"\n\n\"We can't commit any military resources, but we will earmark treasury funds for the purpose of Palesian defense.\" [-1 Budget]"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_509",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Budget >= 1\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_518",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Mere words, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_525",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Too bad for you. We will not grant you any special favors.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_529",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_MarriageDecision_Axel == true && RiziaDLC.Vina_Escapes == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_531",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Good luck to the rest of you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_538",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLaurento cautiously looked around the chamber."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_541",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I signed up for this union. I'm in it for the long haul, no matter what.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_548",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAxel grinned eagerly."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_552",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Budget -= 1\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_553",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Excellent. I knew you wouldn't let me down.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_559",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumIndividual_Morella = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_560",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Morella_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_569",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe took a long glance around the table."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_569",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe took a long glance around the table."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_572",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You don't have to like the others. This is a practical agreement, pure and simple.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_572",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You don't have to like the others. This is a practical agreement, pure and simple.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_595",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Decision_Turn06_MalenyevistWorkers_DisperseProtest == true || RiziaDLC.Decision_Turn07_RevolutionariesIncite_HeavilyCrush == true || RiziaDLC.Decision_Turn07_WelfareProtestsExpand_SendRiotPolice == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_601",
+            "type": "customNode",
+            "data": {
+                "label": "Alma Saltana\n\n\"I know that the Rizian government responded disproportionately.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_616",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Derdia_IntermerkopumPotential == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_620",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"You know how much damage revolutionaries have done in your country and mine. Surely you won't give in to this request.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_621",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Authority >= 1\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_626",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Decision_Turn06_MalenyevistWorkers_DisperseProtest == true || RiziaDLC.Decision_Turn07_RevolutionariesIncite_HeavilyCrush == true || RiziaDLC.Decision_Turn07_WelfareProtestsExpand_SendRiotPolice == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_628",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Authority >= 1\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_632",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I am sorry, Ms. Saltana, but I cannot do as you ask.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_637",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe stood up and pushed in her chair."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_646",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLaurento waited until she had left to speak."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_649",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Turn09_FreePoliticalPrisoners = true; RiziaDLC.Resources_Authority -= 2; RiziaDLCSupport.Journal_Turn09_Morella_FreeAllPoliticalPrisoners = true;\\nRiziaDLCSupport.News_Turn09_V_ProtestersClemency = true;\\nRiziaDLCSupport.News_Turn09_RH_ProtestersClemency = true;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_650",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Turn09_FreeValerosPoliticalPrisoners = true; RiziaDLC.Resources_Authority -= 1\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_653",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Morella_NegotiatingPower + RiziaDLCIsolated.Turn09_IntermerkopumPoints >= 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_657",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Authority >= 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_661",
+            "type": "customNode",
+            "data": {
+                "label": "Alma Saltana\n\n\"Very good.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_666",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Wehlen_IntermerkopumPotential == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_676",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"It's just you, me and the Lord now, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_676",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"It's just you, me and the Lord now, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_677",
+            "type": "customNode",
+            "data": {
+                "label": "Alma Saltana\n\n\"And then there were two.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_677",
+            "type": "customNode",
+            "data": {
+                "label": "Alma Saltana\n\n\"And then there were two.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_677",
+            "type": "customNode",
+            "data": {
+                "label": "Alma Saltana\n\n\"And then there were two.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_678",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"That's what your grand alliance plans have come to? Two countries that are stuck together anyway?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_678",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"That's what your grand alliance plans have come to? Two countries that are stuck together anyway?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_684",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Thank you for believing in this project. Even if no one else did.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_685",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I'm sorry for wasting your time.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_689",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"No matter what, I am proud to call Derdia an ally.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_693",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Thank you for believing in this project. Even if no one else did.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_694",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I'm sorry for wasting your time.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_695",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"No matter what, I am proud to have Pales on our side after all these years.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_696",
+            "type": "customNode",
+            "data": {
+                "label": "Wiktor Smolak (R)\n\n\"Not at all. I'll take any excuse to visit my favorite neighbor.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_705",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"If we do not have faith, what do we have?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_706",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"Time spent in Rizia is not a waste. I'll make my way to Plavo while I'm here.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_707",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"From now through eternity.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_721",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI hoped that my kingdom would not do the same."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_722",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Derdia_IntermerkopumPotential == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_728",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Pales_IntermerkopumPotential == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_736",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Wehlen_IntermerkopumPotential == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_738",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"That's it, then. We have an alliance.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_740",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I can't wait to rub this in my sister-in-law's face. Regally, of course.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_743",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Intermerkopum_Counter < 3\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_758",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Morella_IntermerkopumPotential == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_760",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Morella_IntermerkopumPotential == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_761",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Wehlen_IntermerkopumApproved = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_762",
+            "type": "customNode",
+            "data": {
+                "label": "Alma Saltana\n\n\"Thank you once more for all of your efforts, {RiziaDLCText.SaltanaToPlayer}.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_765",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"We are uniting the ancestral lands of St. Wruhec. Just as the Lord has prophesied.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_771",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Nice one, Your Majesty. We'll celebrate over dinner soon.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_772",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_IntermerkopumPotential == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_775",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true && RiziaDLC.Vina_Escapes == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_777",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_MarriageDecision_Axel == true && RiziaDLC.Vina_Escapes == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_781",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI slowly walked to the head of the table and picked up the pen."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_791",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nNow all I had to do was tell Queen Beatrice."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_792",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumPromises_Equipment == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_811",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.Journal_Turn09_IntermerkopumAllocation_Energy = true;\\nRiziaDLC.Energy_Modifier_IntermerkopumEnergyExports -= 3;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_812",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_813",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Intermerkopum_Efforts = false; RiziaDLC.Intermerkopum_Failed = true; RiziaDLC.Policy_Diplomacy_Intermerkopum = false; RiziaDLCSupport.Journal_Turn09_Intermerkopum_Failed = true; RiziaDLCSupport.News_Turn09_G_IntermerkopumTalksFailed = true;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_814",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Diplomacy_Intermerkopum = true; RiziaDLC.Authority_Modifier_Intermerkopum += 5; RiziaDLC.Resources_Authority += 10; RiziaDLCSupport.Journal_Turn09_Intermerkopum_Success = true; RiziaDLCSupport.News_Turn09_G_IntermerkopumDeclared = true; \n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_815",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Turn09_FreeValerosPoliticalPrisoners = true; RiziaDLC.Resources_Authority -= 1;\\nRiziaDLCSupport.News_Turn09_V_ProtestersClemency_OnlyDad = true;\\nRiziaDLCSupport.News_Turn09_RH_ProtestersClemency_OnlyDad = true;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_816",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Pales_War == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_819",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMy tablemates looked at me in trepidation."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_821",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumPoints -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_823",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"War is in the air, my friends. It will come to all of us sooner or later.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_824",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Once we defeat Pales, I will be able to pledge vast amounts of military equipment towards a common Intermerkopum stockpile.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_827",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_ImpasseLight\", \"R_ImpasseLight_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_828",
+            "type": "customNode",
+            "data": {
+                "label": "EnableCollectionItem(\"CollectionItem_IntermerkopumPlaque\");\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_829",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_IntermerkopumApproved == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_831",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Pales_IntermerkopumApproved == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_832",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Intermerkopum_Counter == 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_834",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLCIsolated.Intermerkopum_Counter == 2)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_835",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Wehlen_IntermerkopumApproved == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_839",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCText.IntermerkopumCountries = \"Pales and Derdia\";\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_840",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Derdia_IntermerkopumApproved == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_842",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Derdia_IntermerkopumApproved == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_844",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Derdia_IntermerkopumApproved == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_847",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Wehlen_IntermerkopumApproved == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_851",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCText.IntermerkopumCountries = \"Derdia and Morella\";\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_853",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Intermerkopum_Counter == 3\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_856",
+            "type": "customNode",
+            "data": {
+                "label": "//\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_857",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_IntermerkopumApproved == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_860",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Wehlen_IntermerkopumApproved == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_867",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCText.IntermerkopumCountries = \"Pales, Wehlen and Morella\";\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_868",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCText.IntermerkopumCountries = \"Pales, Morella and Derdia\";\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_869",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCText.IntermerkopumCountries = \"Wehlen, Morella and Derdia\";\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_870",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn09_IntermerkopumOffers_Energy = true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_871",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatusImmediately(\"Rizia_Country_Wehlen\", \"Country_IMK\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_871",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatusImmediately(\"Rizia_Country_Wehlen\", \"Country_IMK\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_871",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatusImmediately(\"Rizia_Country_Wehlen\", \"Country_IMK\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_872",
+            "type": "customNode",
+            "data": {
+                "label": "AddPlayerCountryStatus(\"Country_IMK\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_874",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatusImmediately(\"Rizia_Country_Derdia\", \"Country_IMK\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_875",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatusImmediately(\"Rizia_Country_Pales\", \"Country_IMK\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_876",
+            "type": "customNode",
+            "data": {
+                "label": "EnableCodexEntry(\"Organizations_InterGovernmental_Intermerkopum\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_877",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e69_to_108",
-            "source": "node_69",
+            "id": "e1_to_828",
+            "source": "node_1",
+            "target": "node_828",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_79",
+            "source": "node_60",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_871",
+            "source": "node_61",
+            "target": "node_871",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_107",
+            "source": "node_66",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_817",
+            "source": "node_77",
+            "target": "node_817",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_108",
+            "source": "node_84",
             "target": "node_108",
             "type": "step"
         },
         {
-            "id": "e70_to_181",
-            "source": "node_70",
+            "id": "e89_to_108",
+            "source": "node_89",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_60",
+            "source": "node_93",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_72",
+            "source": "node_107",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_62",
+            "source": "node_107",
+            "target": "node_62",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_168",
+            "source": "node_131",
+            "target": "node_168",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_164",
+            "source": "node_131",
+            "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_165",
+            "source": "node_131",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e135_to_163",
+            "source": "node_135",
+            "target": "node_163",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_161",
+            "source": "node_140",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e151_to_181",
+            "source": "node_151",
             "target": "node_181",
             "type": "step"
         },
         {
-            "id": "e89_to_179",
-            "source": "node_89",
-            "target": "node_179",
+            "id": "e156_to_181",
+            "source": "node_156",
+            "target": "node_181",
             "type": "step"
         },
         {
-            "id": "e93_to_180",
-            "source": "node_93",
-            "target": "node_180",
+            "id": "e167_to_107",
+            "source": "node_167",
+            "target": "node_107",
             "type": "step"
         },
         {
-            "id": "e102_to_180",
-            "source": "node_102",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e109_to_83",
-            "source": "node_109",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e120_to_104",
-            "source": "node_120",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e126_to_104",
-            "source": "node_126",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e127_to_104",
-            "source": "node_127",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e128_to_104",
-            "source": "node_128",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e165_to_387",
-            "source": "node_165",
-            "target": "node_387",
-            "type": "step"
-        },
-        {
-            "id": "e166_to_384",
-            "source": "node_166",
-            "target": "node_384",
-            "type": "step"
-        },
-        {
-            "id": "e170_to_387",
-            "source": "node_170",
-            "target": "node_387",
-            "type": "step"
-        },
-        {
-            "id": "e171_to_384",
-            "source": "node_171",
-            "target": "node_384",
-            "type": "step"
-        },
-        {
-            "id": "e172_to_104",
-            "source": "node_172",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e173_to_104",
-            "source": "node_173",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e174_to_387",
-            "source": "node_174",
-            "target": "node_387",
-            "type": "step"
-        },
-        {
-            "id": "e177_to_89",
+            "id": "e177_to_723",
             "source": "node_177",
-            "target": "node_89",
+            "target": "node_723",
             "type": "step"
         },
         {
-            "id": "e179_to_129",
-            "source": "node_179",
-            "target": "node_129",
-            "type": "step"
-        },
-        {
-            "id": "e180_to_114",
+            "id": "e180_to_195",
             "source": "node_180",
-            "target": "node_114",
+            "target": "node_195",
             "type": "step"
         },
         {
-            "id": "e181_to_71",
-            "source": "node_181",
-            "target": "node_71",
+            "id": "e180_to_203",
+            "source": "node_180",
+            "target": "node_203",
             "type": "step"
         },
         {
-            "id": "e191_to_254",
-            "source": "node_191",
-            "target": "node_254",
+            "id": "e183_to_447",
+            "source": "node_183",
+            "target": "node_447",
             "type": "step"
         },
         {
-            "id": "e198_to_268",
+            "id": "e190_to_446",
+            "source": "node_190",
+            "target": "node_446",
+            "type": "step"
+        },
+        {
+            "id": "e194_to_560",
+            "source": "node_194",
+            "target": "node_560",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_445",
             "source": "node_198",
-            "target": "node_268",
+            "target": "node_445",
             "type": "step"
         },
         {
-            "id": "e202_to_282",
+            "id": "e202_to_445",
             "source": "node_202",
-            "target": "node_282",
+            "target": "node_445",
             "type": "step"
         },
         {
-            "id": "e203_to_296",
-            "source": "node_203",
-            "target": "node_296",
+            "id": "e206_to_739",
+            "source": "node_206",
+            "target": "node_739",
             "type": "step"
         },
         {
-            "id": "e211_to_302",
-            "source": "node_211",
-            "target": "node_302",
-            "type": "step"
-        },
-        {
-            "id": "e214_to_302",
-            "source": "node_214",
-            "target": "node_302",
-            "type": "step"
-        },
-        {
-            "id": "e215_to_329",
-            "source": "node_215",
-            "target": "node_329",
-            "type": "step"
-        },
-        {
-            "id": "e216_to_378",
-            "source": "node_216",
-            "target": "node_378",
-            "type": "step"
-        },
-        {
-            "id": "e217_to_378",
-            "source": "node_217",
-            "target": "node_378",
-            "type": "step"
-        },
-        {
-            "id": "e219_to_383",
-            "source": "node_219",
-            "target": "node_383",
-            "type": "step"
-        },
-        {
-            "id": "e220_to_383",
-            "source": "node_220",
-            "target": "node_383",
-            "type": "step"
-        },
-        {
-            "id": "e224_to_337",
-            "source": "node_224",
-            "target": "node_337",
-            "type": "step"
-        },
-        {
-            "id": "e225_to_333",
-            "source": "node_225",
-            "target": "node_333",
-            "type": "step"
-        },
-        {
-            "id": "e226_to_336",
-            "source": "node_226",
-            "target": "node_336",
-            "type": "step"
-        },
-        {
-            "id": "e230_to_334",
-            "source": "node_230",
-            "target": "node_334",
-            "type": "step"
-        },
-        {
-            "id": "e240_to_299",
-            "source": "node_240",
-            "target": "node_299",
-            "type": "step"
-        },
-        {
-            "id": "e252_to_217",
-            "source": "node_252",
-            "target": "node_217",
-            "type": "step"
-        },
-        {
-            "id": "e253_to_217",
-            "source": "node_253",
-            "target": "node_217",
-            "type": "step"
-        },
-        {
-            "id": "e255_to_243",
-            "source": "node_255",
-            "target": "node_243",
-            "type": "step"
-        },
-        {
-            "id": "e256_to_217",
-            "source": "node_256",
-            "target": "node_217",
-            "type": "step"
-        },
-        {
-            "id": "e267_to_218",
-            "source": "node_267",
-            "target": "node_218",
-            "type": "step"
-        },
-        {
-            "id": "e270_to_218",
-            "source": "node_270",
-            "target": "node_218",
-            "type": "step"
-        },
-        {
-            "id": "e271_to_240",
-            "source": "node_271",
-            "target": "node_240",
-            "type": "step"
-        },
-        {
-            "id": "e280_to_219",
-            "source": "node_280",
-            "target": "node_219",
-            "type": "step"
-        },
-        {
-            "id": "e281_to_219",
-            "source": "node_281",
-            "target": "node_219",
-            "type": "step"
-        },
-        {
-            "id": "e284_to_219",
-            "source": "node_284",
-            "target": "node_219",
-            "type": "step"
-        },
-        {
-            "id": "e285_to_240",
-            "source": "node_285",
-            "target": "node_240",
-            "type": "step"
-        },
-        {
-            "id": "e295_to_220",
-            "source": "node_295",
-            "target": "node_220",
-            "type": "step"
-        },
-        {
-            "id": "e297_to_285",
-            "source": "node_297",
-            "target": "node_285",
-            "type": "step"
-        },
-        {
-            "id": "e298_to_220",
-            "source": "node_298",
-            "target": "node_220",
-            "type": "step"
-        },
-        {
-            "id": "e305_to_314",
-            "source": "node_305",
-            "target": "node_314",
-            "type": "step"
-        },
-        {
-            "id": "e312_to_330",
-            "source": "node_312",
-            "target": "node_330",
-            "type": "step"
-        },
-        {
-            "id": "e313_to_330",
-            "source": "node_313",
-            "target": "node_330",
-            "type": "step"
-        },
-        {
-            "id": "e326_to_321",
-            "source": "node_326",
-            "target": "node_321",
-            "type": "step"
-        },
-        {
-            "id": "e329_to_224",
-            "source": "node_329",
-            "target": "node_224",
-            "type": "step"
-        },
-        {
-            "id": "e330_to_373",
-            "source": "node_330",
-            "target": "node_373",
-            "type": "step"
-        },
-        {
-            "id": "e335_to_374",
-            "source": "node_335",
+            "id": "e208_to_374",
+            "source": "node_208",
             "target": "node_374",
             "type": "step"
         },
         {
-            "id": "e372_to_371",
-            "source": "node_372",
-            "target": "node_371",
+            "id": "e213_to_382",
+            "source": "node_213",
+            "target": "node_382",
             "type": "step"
         },
         {
-            "id": "e373_to_366",
-            "source": "node_373",
+            "id": "e224_to_367",
+            "source": "node_224",
+            "target": "node_367",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_366",
+            "source": "node_224",
             "target": "node_366",
             "type": "step"
         },
         {
-            "id": "e376_to_343",
-            "source": "node_376",
+            "id": "e224_to_368",
+            "source": "node_224",
+            "target": "node_368",
+            "type": "step"
+        },
+        {
+            "id": "e256_to_275",
+            "source": "node_256",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e256_to_278",
+            "source": "node_256",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e258_to_275",
+            "source": "node_258",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e258_to_278",
+            "source": "node_258",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e268_to_256",
+            "source": "node_268",
+            "target": "node_256",
+            "type": "step"
+        },
+        {
+            "id": "e279_to_289",
+            "source": "node_279",
+            "target": "node_289",
+            "type": "step"
+        },
+        {
+            "id": "e293_to_324",
+            "source": "node_293",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_330",
+            "source": "node_297",
+            "target": "node_330",
+            "type": "step"
+        },
+        {
+            "id": "e305_to_333",
+            "source": "node_305",
+            "target": "node_333",
+            "type": "step"
+        },
+        {
+            "id": "e315_to_339",
+            "source": "node_315",
+            "target": "node_339",
+            "type": "step"
+        },
+        {
+            "id": "e320_to_345",
+            "source": "node_320",
+            "target": "node_345",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_358",
+            "source": "node_328",
+            "target": "node_358",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_359",
+            "source": "node_328",
+            "target": "node_359",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_360",
+            "source": "node_328",
+            "target": "node_360",
+            "type": "step"
+        },
+        {
+            "id": "e329_to_343",
+            "source": "node_329",
             "target": "node_343",
             "type": "step"
         },
         {
-            "id": "e377_to_346",
-            "source": "node_377",
-            "target": "node_346",
+            "id": "e356_to_667",
+            "source": "node_356",
+            "target": "node_667",
             "type": "step"
         },
         {
-            "id": "e381_to_215",
+            "id": "e358_to_350",
+            "source": "node_358",
+            "target": "node_350",
+            "type": "step"
+        },
+        {
+            "id": "e364_to_180",
+            "source": "node_364",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e365_to_180",
+            "source": "node_365",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e373_to_180",
+            "source": "node_373",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e381_to_180",
             "source": "node_381",
-            "target": "node_215",
+            "target": "node_180",
             "type": "step"
         },
         {
-            "id": "e382_to_215",
-            "source": "node_382",
-            "target": "node_215",
+            "id": "e409_to_402",
+            "source": "node_409",
+            "target": "node_402",
             "type": "step"
         },
         {
-            "id": "e383_to_215",
-            "source": "node_383",
-            "target": "node_215",
+            "id": "e417_to_433",
+            "source": "node_417",
+            "target": "node_433",
             "type": "step"
         },
         {
-            "id": "e385_to_172",
-            "source": "node_385",
-            "target": "node_172",
+            "id": "e430_to_357",
+            "source": "node_430",
+            "target": "node_357",
             "type": "step"
         },
         {
-            "id": "e388_to_173",
-            "source": "node_388",
-            "target": "node_173",
+            "id": "e432_to_180",
+            "source": "node_432",
+            "target": "node_180",
             "type": "step"
         },
         {
-            "id": "e390_to_104",
-            "source": "node_390",
-            "target": "node_104",
+            "id": "e444_to_180",
+            "source": "node_444",
+            "target": "node_180",
             "type": "step"
         },
         {
-            "id": "e391_to_104",
-            "source": "node_391",
-            "target": "node_104",
+            "id": "e446_to_217",
+            "source": "node_446",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
+            "id": "e447_to_210",
+            "source": "node_447",
+            "target": "node_210",
+            "type": "step"
+        },
+        {
+            "id": "e452_to_556",
+            "source": "node_452",
+            "target": "node_556",
+            "type": "step"
+        },
+        {
+            "id": "e452_to_557",
+            "source": "node_452",
+            "target": "node_557",
+            "type": "step"
+        },
+        {
+            "id": "e452_to_554",
+            "source": "node_452",
+            "target": "node_554",
+            "type": "step"
+        },
+        {
+            "id": "e457_to_453",
+            "source": "node_457",
+            "target": "node_453",
+            "type": "step"
+        },
+        {
+            "id": "e463_to_459",
+            "source": "node_463",
+            "target": "node_459",
+            "type": "step"
+        },
+        {
+            "id": "e465_to_555",
+            "source": "node_465",
+            "target": "node_555",
+            "type": "step"
+        },
+        {
+            "id": "e465_to_556",
+            "source": "node_465",
+            "target": "node_556",
+            "type": "step"
+        },
+        {
+            "id": "e465_to_554",
+            "source": "node_465",
+            "target": "node_554",
+            "type": "step"
+        },
+        {
+            "id": "e471_to_467",
+            "source": "node_471",
+            "target": "node_467",
+            "type": "step"
+        },
+        {
+            "id": "e484_to_522",
+            "source": "node_484",
+            "target": "node_522",
+            "type": "step"
+        },
+        {
+            "id": "e489_to_488",
+            "source": "node_489",
+            "target": "node_488",
+            "type": "step"
+        },
+        {
+            "id": "e489_to_485",
+            "source": "node_489",
+            "target": "node_485",
+            "type": "step"
+        },
+        {
+            "id": "e490_to_523",
+            "source": "node_490",
+            "target": "node_523",
+            "type": "step"
+        },
+        {
+            "id": "e492_to_501",
+            "source": "node_492",
+            "target": "node_501",
+            "type": "step"
+        },
+        {
+            "id": "e495_to_521",
+            "source": "node_495",
+            "target": "node_521",
+            "type": "step"
+        },
+        {
+            "id": "e496_to_524",
+            "source": "node_496",
+            "target": "node_524",
+            "type": "step"
+        },
+        {
+            "id": "e497_to_551",
+            "source": "node_497",
+            "target": "node_551",
+            "type": "step"
+        },
+        {
+            "id": "e503_to_510",
+            "source": "node_503",
+            "target": "node_510",
+            "type": "step"
+        },
+        {
+            "id": "e507_to_552",
+            "source": "node_507",
+            "target": "node_552",
+            "type": "step"
+        },
+        {
+            "id": "e508_to_552",
+            "source": "node_508",
+            "target": "node_552",
+            "type": "step"
+        },
+        {
+            "id": "e509_to_553",
+            "source": "node_509",
+            "target": "node_553",
+            "type": "step"
+        },
+        {
+            "id": "e518_to_542",
+            "source": "node_518",
+            "target": "node_542",
+            "type": "step"
+        },
+        {
+            "id": "e525_to_492",
+            "source": "node_525",
+            "target": "node_492",
+            "type": "step"
+        },
+        {
+            "id": "e529_to_518",
+            "source": "node_529",
+            "target": "node_518",
+            "type": "step"
+        },
+        {
+            "id": "e531_to_520",
+            "source": "node_531",
+            "target": "node_520",
+            "type": "step"
+        },
+        {
+            "id": "e538_to_357",
+            "source": "node_538",
+            "target": "node_357",
+            "type": "step"
+        },
+        {
+            "id": "e541_to_180",
+            "source": "node_541",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e548_to_180",
+            "source": "node_548",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e552_to_549",
+            "source": "node_552",
+            "target": "node_549",
+            "type": "step"
+        },
+        {
+            "id": "e553_to_549",
+            "source": "node_553",
+            "target": "node_549",
+            "type": "step"
+        },
+        {
+            "id": "e559_to_180",
+            "source": "node_559",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e560_to_564",
+            "source": "node_560",
+            "target": "node_564",
+            "type": "step"
+        },
+        {
+            "id": "e569_to_573",
+            "source": "node_569",
+            "target": "node_573",
+            "type": "step"
+        },
+        {
+            "id": "e569_to_578",
+            "source": "node_569",
+            "target": "node_578",
+            "type": "step"
+        },
+        {
+            "id": "e572_to_583",
+            "source": "node_572",
+            "target": "node_583",
+            "type": "step"
+        },
+        {
+            "id": "e572_to_588",
+            "source": "node_572",
+            "target": "node_588",
+            "type": "step"
+        },
+        {
+            "id": "e595_to_593",
+            "source": "node_595",
+            "target": "node_593",
+            "type": "step"
+        },
+        {
+            "id": "e601_to_600",
+            "source": "node_601",
+            "target": "node_600",
+            "type": "step"
+        },
+        {
+            "id": "e616_to_633",
+            "source": "node_616",
+            "target": "node_633",
+            "type": "step"
+        },
+        {
+            "id": "e620_to_633",
+            "source": "node_620",
+            "target": "node_633",
+            "type": "step"
+        },
+        {
+            "id": "e621_to_633",
+            "source": "node_621",
+            "target": "node_633",
+            "type": "step"
+        },
+        {
+            "id": "e626_to_622",
+            "source": "node_626",
+            "target": "node_622",
+            "type": "step"
+        },
+        {
+            "id": "e628_to_652",
+            "source": "node_628",
+            "target": "node_652",
+            "type": "step"
+        },
+        {
+            "id": "e632_to_651",
+            "source": "node_632",
+            "target": "node_651",
+            "type": "step"
+        },
+        {
+            "id": "e637_to_650",
+            "source": "node_637",
+            "target": "node_650",
+            "type": "step"
+        },
+        {
+            "id": "e646_to_357",
+            "source": "node_646",
+            "target": "node_357",
+            "type": "step"
+        },
+        {
+            "id": "e649_to_180",
+            "source": "node_649",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e650_to_662",
+            "source": "node_650",
+            "target": "node_662",
+            "type": "step"
+        },
+        {
+            "id": "e653_to_816",
+            "source": "node_653",
+            "target": "node_816",
+            "type": "step"
+        },
+        {
+            "id": "e657_to_633",
+            "source": "node_657",
+            "target": "node_633",
+            "type": "step"
+        },
+        {
+            "id": "e661_to_650",
+            "source": "node_661",
+            "target": "node_650",
+            "type": "step"
+        },
+        {
+            "id": "e666_to_180",
+            "source": "node_666",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e676_to_686",
+            "source": "node_676",
+            "target": "node_686",
+            "type": "step"
+        },
+        {
+            "id": "e676_to_687",
+            "source": "node_676",
+            "target": "node_687",
+            "type": "step"
+        },
+        {
+            "id": "e677_to_688",
+            "source": "node_677",
+            "target": "node_688",
+            "type": "step"
+        },
+        {
+            "id": "e677_to_689",
+            "source": "node_677",
+            "target": "node_689",
+            "type": "step"
+        },
+        {
+            "id": "e677_to_690",
+            "source": "node_677",
+            "target": "node_690",
+            "type": "step"
+        },
+        {
+            "id": "e678_to_691",
+            "source": "node_678",
+            "target": "node_691",
+            "type": "step"
+        },
+        {
+            "id": "e678_to_693",
+            "source": "node_678",
+            "target": "node_693",
+            "type": "step"
+        },
+        {
+            "id": "e684_to_695",
+            "source": "node_684",
+            "target": "node_695",
+            "type": "step"
+        },
+        {
+            "id": "e685_to_698",
+            "source": "node_685",
+            "target": "node_698",
+            "type": "step"
+        },
+        {
+            "id": "e689_to_707",
+            "source": "node_689",
+            "target": "node_707",
+            "type": "step"
+        },
+        {
+            "id": "e693_to_711",
+            "source": "node_693",
+            "target": "node_711",
+            "type": "step"
+        },
+        {
+            "id": "e694_to_712",
+            "source": "node_694",
+            "target": "node_712",
+            "type": "step"
+        },
+        {
+            "id": "e695_to_713",
+            "source": "node_695",
+            "target": "node_713",
+            "type": "step"
+        },
+        {
+            "id": "e696_to_714",
+            "source": "node_696",
+            "target": "node_714",
+            "type": "step"
+        },
+        {
+            "id": "e705_to_717",
+            "source": "node_705",
+            "target": "node_717",
+            "type": "step"
+        },
+        {
+            "id": "e706_to_705",
+            "source": "node_706",
+            "target": "node_705",
+            "type": "step"
+        },
+        {
+            "id": "e707_to_705",
+            "source": "node_707",
+            "target": "node_705",
+            "type": "step"
+        },
+        {
+            "id": "e721_to_814",
+            "source": "node_721",
+            "target": "node_814",
+            "type": "step"
+        },
+        {
+            "id": "e722_to_814",
+            "source": "node_722",
+            "target": "node_814",
+            "type": "step"
+        },
+        {
+            "id": "e728_to_731",
+            "source": "node_728",
+            "target": "node_731",
+            "type": "step"
+        },
+        {
+            "id": "e736_to_180",
+            "source": "node_736",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e738_to_180",
+            "source": "node_738",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e740_to_749",
+            "source": "node_740",
+            "target": "node_749",
+            "type": "step"
+        },
+        {
+            "id": "e743_to_749",
+            "source": "node_743",
+            "target": "node_749",
+            "type": "step"
+        },
+        {
+            "id": "e758_to_762",
+            "source": "node_758",
+            "target": "node_762",
+            "type": "step"
+        },
+        {
+            "id": "e760_to_763",
+            "source": "node_760",
+            "target": "node_763",
+            "type": "step"
+        },
+        {
+            "id": "e761_to_767",
+            "source": "node_761",
+            "target": "node_767",
+            "type": "step"
+        },
+        {
+            "id": "e762_to_872",
+            "source": "node_762",
+            "target": "node_872",
+            "type": "step"
+        },
+        {
+            "id": "e765_to_874",
+            "source": "node_765",
+            "target": "node_874",
+            "type": "step"
+        },
+        {
+            "id": "e771_to_875",
+            "source": "node_771",
+            "target": "node_875",
+            "type": "step"
+        },
+        {
+            "id": "e772_to_780",
+            "source": "node_772",
+            "target": "node_780",
+            "type": "step"
+        },
+        {
+            "id": "e775_to_782",
+            "source": "node_775",
+            "target": "node_782",
+            "type": "step"
+        },
+        {
+            "id": "e777_to_772",
+            "source": "node_777",
+            "target": "node_772",
+            "type": "step"
+        },
+        {
+            "id": "e781_to_876",
+            "source": "node_781",
+            "target": "node_876",
+            "type": "step"
+        },
+        {
+            "id": "e791_to_833",
+            "source": "node_791",
+            "target": "node_833",
+            "type": "step"
+        },
+        {
+            "id": "e792_to_833",
+            "source": "node_792",
+            "target": "node_833",
+            "type": "step"
+        },
+        {
+            "id": "e811_to_787",
+            "source": "node_811",
+            "target": "node_787",
+            "type": "step"
+        },
+        {
+            "id": "e812_to_787",
+            "source": "node_812",
+            "target": "node_787",
+            "type": "step"
+        },
+        {
+            "id": "e813_to_2",
+            "source": "node_813",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e814_to_813",
+            "source": "node_814",
+            "target": "node_813",
+            "type": "step"
+        },
+        {
+            "id": "e815_to_829",
+            "source": "node_815",
+            "target": "node_829",
+            "type": "step"
+        },
+        {
+            "id": "e816_to_664",
+            "source": "node_816",
+            "target": "node_664",
+            "type": "step"
+        },
+        {
+            "id": "e819_to_67",
+            "source": "node_819",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e821_to_69",
+            "source": "node_821",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e823_to_69",
+            "source": "node_823",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e824_to_69",
+            "source": "node_824",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e827_to_108",
+            "source": "node_827",
+            "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e828_to_9",
+            "source": "node_828",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e829_to_873",
+            "source": "node_829",
+            "target": "node_873",
+            "type": "step"
+        },
+        {
+            "id": "e831_to_836",
+            "source": "node_831",
+            "target": "node_836",
+            "type": "step"
+        },
+        {
+            "id": "e832_to_845",
+            "source": "node_832",
+            "target": "node_845",
+            "type": "step"
+        },
+        {
+            "id": "e834_to_830",
+            "source": "node_834",
+            "target": "node_830",
+            "type": "step"
+        },
+        {
+            "id": "e835_to_854",
+            "source": "node_835",
+            "target": "node_854",
+            "type": "step"
+        },
+        {
+            "id": "e839_to_857",
+            "source": "node_839",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e840_to_857",
+            "source": "node_840",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e842_to_840",
+            "source": "node_842",
+            "target": "node_840",
+            "type": "step"
+        },
+        {
+            "id": "e844_to_857",
+            "source": "node_844",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e847_to_853",
+            "source": "node_847",
+            "target": "node_853",
+            "type": "step"
+        },
+        {
+            "id": "e851_to_857",
+            "source": "node_851",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e853_to_857",
+            "source": "node_853",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e856_to_815",
+            "source": "node_856",
+            "target": "node_815",
+            "type": "step"
+        },
+        {
+            "id": "e857_to_815",
+            "source": "node_857",
+            "target": "node_815",
+            "type": "step"
+        },
+        {
+            "id": "e860_to_870",
+            "source": "node_860",
+            "target": "node_870",
+            "type": "step"
+        },
+        {
+            "id": "e867_to_857",
+            "source": "node_867",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e868_to_857",
+            "source": "node_868",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e869_to_857",
+            "source": "node_869",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e870_to_857",
+            "source": "node_870",
+            "target": "node_857",
+            "type": "step"
+        },
+        {
+            "id": "e871_to_96",
+            "source": "node_871",
+            "target": "node_96",
+            "type": "step"
+        },
+        {
+            "id": "e871_to_100",
+            "source": "node_871",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e871_to_105",
+            "source": "node_871",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e872_to_759",
+            "source": "node_872",
+            "target": "node_759",
+            "type": "step"
+        },
+        {
+            "id": "e874_to_767",
+            "source": "node_874",
+            "target": "node_767",
+            "type": "step"
+        },
+        {
+            "id": "e875_to_773",
+            "source": "node_875",
+            "target": "node_773",
+            "type": "step"
+        },
+        {
+            "id": "e876_to_782",
+            "source": "node_876",
+            "target": "node_782",
+            "type": "step"
+        },
+        {
+            "id": "e877_to_813",
+            "source": "node_877",
+            "target": "node_813",
             "type": "step"
         }
     ]

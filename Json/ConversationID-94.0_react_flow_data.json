@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "!(BaseGame.Reform_Reform_AssemblyVote_Success == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Lucian Galade\n\n\"I think it's time to conclude our little meeting, sir.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "!(BaseGame.Reform_Reform_NFP_Convinced == true || BaseGame.Reform_Reform_PFJP_Convinced == true || BaseGame.Amendment_PFJP_Frens_Convinced == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,19 @@
                 "label": "Player\n\n\"I need a drink.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I need a drink.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +73,8 @@
                 "label": "Player\n\n\"Perfect timing. Tell him I'll be right there.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +84,8 @@
                 "label": "GameCondition.Turn07_A_AssemblyVote_ResultsMeeting = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -84,8 +95,8 @@
                 "label": "BaseGame.Reform_Reform_AssemblyVote_Success == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +106,8 @@
                 "label": "BaseGame.Reform_Reform_NFP_Convinced == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -106,8 +117,8 @@
                 "label": "BaseGameSupport.Report_Turn07_Holsord_VoteWon_RicterCongratulates = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +128,8 @@
                 "label": "BaseGame.Bill_Turn07_LanguageBill_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -128,8 +139,8 @@
                 "label": "SetRichPresence(\"Signed a bill which restricts teaching in other languages\", \"Maroon Palace\", \"Holsord\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -162,6 +173,12 @@
             "id": "e13_to_25",
             "source": "node_13",
             "target": "node_25",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_27",
+            "source": "node_13",
+            "target": "node_27",
             "type": "step"
         },
         {

@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Deivid Wisci\n\n“They are trying to economically weaken us.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -29,8 +29,19 @@
                 "label": "Deivid Wisci\n\n“Mr. President.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "Deivid Wisci\n\n“Mr. President.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +51,8 @@
                 "label": "Deivid Wisci\n\n“That's not all, Mr. President.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +62,19 @@
                 "label": "Player\n\n“Is something wrong?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Is something wrong?”"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -76,6 +98,12 @@
             "type": "step"
         },
         {
+            "id": "e24_to_7",
+            "source": "node_24",
+            "target": "node_7",
+            "type": "step"
+        },
+        {
             "id": "e25_to_35",
             "source": "node_25",
             "target": "node_35",
@@ -85,6 +113,12 @@
             "id": "e33_to_7",
             "source": "node_33",
             "target": "node_7",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_9",
+            "source": "node_33",
+            "target": "node_9",
             "type": "step"
         }
     ]

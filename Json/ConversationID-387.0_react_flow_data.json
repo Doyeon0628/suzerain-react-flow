@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_1",
+            "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "output\n\nnan"
+                "label": "Narrator\n\nShe approached me, her demeanor friendly yet cautious."
             },
             "position": {
                 "x": 0,
@@ -12,142 +12,10 @@
             }
         },
         {
-            "id": "node_4",
+            "id": "node_42",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nThoughts were running through my mind as I paced back and forth in my chambers."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_13",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Grand Vizier. Thank you for coming.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"What amends do you seek? Tell me.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Absolutely not. I am definitely not going to trust Rico with the security of our capital.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "customNode",
-            "data": {
-                "label": "Hugo Toras\n\n\"What about assigning him to serve under Captain Gordion? As the Chief of Security of Porte Drazon?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHugo leaned forward slightly, his hands clasped together. His voice trembled with emotion when he spoke."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Your feelings are justified, Hugo. But you are being emotional. Rico is now an enemy of the state. I offer my regret. But that's all I can offer.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "customNode",
-            "data": {
-                "label": "Hugo Toras\n\n\"Thank you, Romus. For hearing my plea.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_156",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Iza_PowerTransfer_Angelica == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Council_Security_Lucita == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Council_Security_Lucita == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe Sazons had sent it as a token of gratitude for reinstating their Duchess."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_170",
-            "type": "customNode",
-            "data": {
-                "label": "PlayLoopedMusic(\"R_Negotiations\", \"R_Negotiations_Loop\");\n\nnan"
+                "label": "Angelica Sazon\n\n\"I won't pretend his words never swayed me. But when I became pregnant I realized some things are more important than revolution.\""
             },
             "position": {
                 "x": 0,
@@ -157,87 +25,15 @@
     ],
     "edges": [
         {
-            "id": "e1_to_153",
-            "source": "node_1",
-            "target": "node_153",
+            "id": "e2_to_1312",
+            "source": "node_2",
+            "target": "node_1312",
             "type": "step"
         },
         {
-            "id": "e4_to_166",
-            "source": "node_4",
-            "target": "node_166",
-            "type": "step"
-        },
-        {
-            "id": "e13_to_97",
-            "source": "node_13",
-            "target": "node_97",
-            "type": "step"
-        },
-        {
-            "id": "e59_to_128",
-            "source": "node_59",
-            "target": "node_128",
-            "type": "step"
-        },
-        {
-            "id": "e69_to_161",
-            "source": "node_69",
-            "target": "node_161",
-            "type": "step"
-        },
-        {
-            "id": "e79_to_71",
-            "source": "node_79",
-            "target": "node_71",
-            "type": "step"
-        },
-        {
-            "id": "e96_to_164",
-            "source": "node_96",
-            "target": "node_164",
-            "type": "step"
-        },
-        {
-            "id": "e128_to_65",
-            "source": "node_128",
-            "target": "node_65",
-            "type": "step"
-        },
-        {
-            "id": "e151_to_95",
-            "source": "node_151",
-            "target": "node_95",
-            "type": "step"
-        },
-        {
-            "id": "e156_to_5",
-            "source": "node_156",
-            "target": "node_5",
-            "type": "step"
-        },
-        {
-            "id": "e160_to_31",
-            "source": "node_160",
-            "target": "node_31",
-            "type": "step"
-        },
-        {
-            "id": "e162_to_72",
-            "source": "node_162",
-            "target": "node_72",
-            "type": "step"
-        },
-        {
-            "id": "e168_to_6",
-            "source": "node_168",
-            "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e170_to_6",
-            "source": "node_170",
-            "target": "node_6",
+            "id": "e42_to_28",
+            "source": "node_42",
+            "target": "node_28",
             "type": "step"
         }
     ]

@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "BaseGameSupport.FactionReport_Turn05_ATO_LegalizesPMCs = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Narrator\n\nThe meeting concluded as the sun set over the concrete jungle that was Holsord.\n\nRemoveConversant(Iosef Lancea); RemoveConversant(Valken Kruger); RemoveConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Petr Vectern\n\n“We knew that keeping the same budget for the military would cause for some concern from you.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Player\n\n“It is a pleasure to work with you Iosef and Valken. You are true sons of Sordland who have served and continue to serve well.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "!(BaseGame.Turn03_EnT_Military_Budget_Maintain == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "!(BaseGame.Promise_TermFocus_Military == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Player\n\n“The military is a top priority for our administration and the Sordish people who hold it in high esteem.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Narrator\n\nHe cleared his throat."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "BaseGame.Turn05_SnO_Military_IncreaseSize = true; BaseGameSupport.Journal_Turn05_Military_Increased = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "BaseGame.Turn05_SnO_Military_MaintainSize = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "BaseGame.Promise_TermFocus_Military == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "!(BaseGame.Promise_TermFocus_Military == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "Valken Kruger\n\n“Once war or conflict comes knocking, that is when you will realize.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -161,8 +161,8 @@
                 "label": "Valken Kruger\n\n“We expected more.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -172,8 +172,8 @@
                 "label": "Iosef Lancea\n\n“To say that the Ministry of Defense is furious about the reduction of the military budget would be an understatement.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -183,8 +183,8 @@
                 "label": "Valken Kruger\n\n“Rightfully so.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +194,8 @@
                 "label": "Petr Vectern\n\n“Hopefully the allocated money helps our defense needs.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -205,8 +205,30 @@
                 "label": "Iosef Lancea\n\n“The Ministry of Defense is content with the additional funds.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n“The Ministry of Defense is content with the additional funds.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n“The Ministry of Defense is content with the additional funds.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -216,8 +238,8 @@
                 "label": "Player\n\n“Resources were more needed elsewhere. The military has always been well funded.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -227,8 +249,8 @@
                 "label": "Player\n\n“It is unfortunate that we weren't able to allocate resources. But, the decision is already made.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -238,8 +260,8 @@
                 "label": "Player\n\n“This is a new age where the military is not top priority. We are going to transform to a new Sordland.”"
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -249,8 +271,8 @@
                 "label": "Player\n\n“The increase of the military budget is for national security which is threatened by Rumburg and other nations.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -260,8 +282,8 @@
                 "label": "Valken Kruger\n\n“The Sordish Armed Forces is a symbol of unity and strength.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -271,8 +293,8 @@
                 "label": "Valken Kruger\n\n“Likewise, Mr. President.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -282,8 +304,8 @@
                 "label": "Iosef Lancea\n\n“We will do all that is necessary to protect this soil.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -293,8 +315,8 @@
                 "label": "Petr Vectern\n\n“The increase of the military budget leaves us with big questions about how to utilize it.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -304,8 +326,8 @@
                 "label": "Player\n\n“What is the argument for increasing the size?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -315,8 +337,8 @@
                 "label": "Valken Kruger\n\n“No matter how many advanced weapons and systems we buy, our enemies can overcome them.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -326,8 +348,8 @@
                 "label": "Iosef Lancea\n\n“Theoretically numbers alone don't determine the strength balance.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -337,8 +359,8 @@
                 "label": "Increase Spending Hub\n\nIncrease Spending Hub"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -348,8 +370,8 @@
                 "label": "Narrator\n\nValken had a serious tone."
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +381,8 @@
                 "label": "BaseGameIsolated.Turn06_SnO_Listened_IncreaseSize == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -370,8 +392,8 @@
                 "label": "!(BaseGameIsolated.Turn06_SnO_Listened_IncreaseSize == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -381,8 +403,8 @@
                 "label": "!(BaseGameIsolated.Turn06_SnO_Listened_IncreaseQuality == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -392,8 +414,8 @@
                 "label": "Player\n\n“Purchase better equipment and begin a modernisation programme.”\n\nSetRichPresenceData(Started a modernization of the Armed Forces, White Room, Maroon Palace);"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -403,8 +425,8 @@
                 "label": "Player\n\n“Enlarge the Armed Forces with an expansion programme.”\n\nSetRichPresenceData(Began an expansion of the Armed Forces, White Room, Maroon Palace);"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -414,8 +436,8 @@
                 "label": "Valken Kruger\n\n“Thank you for the right choice. The expansion will begin right away.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -425,8 +447,8 @@
                 "label": "BaseGameIsolated.Turn06_SnO_Listened_IncreaseQuality = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -436,8 +458,8 @@
                 "label": "BaseGame.Turn05_SnO_Military_Reformed = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -447,8 +469,8 @@
                 "label": "Petr Vectern\n\n“That sounds bleak.”"
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -458,8 +480,8 @@
                 "label": "Player\n\n“I don't think investing in better equipment is the way. It won't matter if the enemy outnumbers us.”\n\n“I don't think investing in better equipment is the way.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -469,8 +491,8 @@
                 "label": "Valken Kruger\n\n“Sir, I will be frank. Rumburg fields three times our force.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -480,8 +502,8 @@
                 "label": "Valken Kruger\n\n“I think we can agree on that.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -491,8 +513,8 @@
                 "label": "Iosef Lancea\n\n“Me neither.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -502,8 +524,8 @@
                 "label": "Iosef Lancea\n\n“The Sordish Armed Forces are already large enough.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -513,8 +535,8 @@
                 "label": "Valken Kruger\n\n“We cannot beat an overwhelmingly large enemy like Rumburg without numbers.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -524,8 +546,8 @@
                 "label": "Iosef Lancea\n\n“We are heading to an era of modern combat which requires modern tools to adapt.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -535,8 +557,8 @@
                 "label": "Petr Vectern\n\n“I hope the decision is in the interest of all.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -546,8 +568,19 @@
                 "label": "Petr Vectern\n\n“I'd like to extend my thanks for your attendance.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_90",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n“I'd like to extend my thanks for your attendance.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -557,8 +590,8 @@
                 "label": "Player\n\n“Good work everyone.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -568,8 +601,8 @@
                 "label": "Iosef Lancea\n\n“We live in a geostrategic region with potential volatility.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -579,8 +612,8 @@
                 "label": "Iosef Lancea\n\n“How come a matter of defense has not been prioritised as more important?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -590,8 +623,8 @@
                 "label": "Valken Kruger\n\n“This is disastrous and will destroy the Armed Forces as we know it.”"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -601,8 +634,19 @@
                 "label": "Iosef Lancea\n\n“This is the age of Rumburg expansionism and here we are cutting funding for the military.”"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n“This is the age of Rumburg expansionism and here we are cutting funding for the military.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -612,8 +656,8 @@
                 "label": "Iosef Lancea\n\n“We need money and materials, Mr. President , not excuses.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -623,8 +667,8 @@
                 "label": "Iosef Lancea\n\n“I have been planning to improve the quality of the armed forces by buying better military equipment.”"
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -634,8 +678,8 @@
                 "label": "Iosef Lancea\n\n“If we relieve half the forces that could create enough of a surplus then we could invest in new equipment.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -645,8 +689,8 @@
                 "label": "Player\n\n“Relieving half the armed forces sounds risky at best and destructive at worst.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -656,8 +700,8 @@
                 "label": "Iosef Lancea\n\n“We are two decades behind in gear and training due to the size and sluggishness of the forces.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -667,8 +711,8 @@
                 "label": "Player\n\n“Leave the military untouched. There is no reason to break a working structure and risk defense weakness.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -678,8 +722,8 @@
                 "label": "Player\n\n“Reduce size and buy better equipment with surplus. Let's reform the army and create a smaller better equipped force.”"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -689,8 +733,8 @@
                 "label": "Valken Kruger\n\n“The Sordish Armed Forces will stand strong. We'll maintain our structure.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -700,8 +744,8 @@
                 "label": "Narrator\n\nIosef and Valken looked at each other."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 1250.0
             }
         },
         {
@@ -711,8 +755,8 @@
                 "label": "Player\n\n“The military makes do. I'm sure you talented gentlemen will find ways to circumvent the cuts efficiently.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -722,8 +766,8 @@
                 "label": "Player\n\n“We don't need a powerful military in this day and age.”"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -733,8 +777,8 @@
                 "label": "Player\n\n“There is not much to be done. The sooner you accept the fact the better.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -744,8 +788,8 @@
                 "label": "Iosef Lancea\n\n“You have broken promises but I did not expect you to betray the military.”"
             },
             "position": {
-                "x": 270,
-                "y": 1250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -755,8 +799,8 @@
                 "label": "Petr Vectern\n\n“Gentlemen. Please. Let's calm down. No need to cause a ruckus.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -766,8 +810,8 @@
                 "label": "Valken Kruger\n\n“You don't mean it but it has been done.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -777,8 +821,8 @@
                 "label": "Narrator\n\nIosef and Valken were angry, but there was not much that could be done about it."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -788,8 +832,8 @@
                 "label": "Iosef Lancea\n\n“Thank you for keeping your promises.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -799,8 +843,8 @@
                 "label": "Valken Kruger\n\n“We are surrounded by jackals as our intelligence and General Staff indicates.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -810,8 +854,8 @@
                 "label": "Valken Kruger\n\n“All spending topics will be addressed so the people can be proud of something that is theirs.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -821,8 +865,8 @@
                 "label": "Iosef Lancea\n\n“The President has always been supportive of our agenda because he has a strategic mind.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -832,8 +876,8 @@
                 "label": "Iosef Lancea\n\n“I knew I could trust you.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -843,8 +887,8 @@
                 "label": "Iosef Lancea\n\n“I have some suggestions already.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -854,8 +898,8 @@
                 "label": "Valken Kruger\n\n“Using funds to boost our size would minimize their advantage.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -865,8 +909,8 @@
                 "label": "Iosef Lancea\n\n“We need a fundamental modernisation programme.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -876,8 +920,8 @@
                 "label": "Valken Kruger\n\n“It is clear that the only real disadvantage is the one we have in numbers not equipment.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -887,8 +931,8 @@
                 "label": "Iosef Lancea\n\n“Reports show that we lack equipment not men for military efficiency.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -898,8 +942,8 @@
                 "label": "Iosef Lancea\n\n“The era of large assaults and human wave tactics are over.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -909,8 +953,8 @@
                 "label": "Valken Kruger\n\n“The military circle has been moody after they heard the decision.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -920,8 +964,8 @@
                 "label": "Valken Kruger\n\n“We are stuck between a rock and a hard place without money. The military suffers from budget overextension in order to keep up with other countries.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -931,8 +975,8 @@
                 "label": "Iosef Lancea\n\n“There is one way.”"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -942,8 +986,8 @@
                 "label": "Iosef Lancea\n\n“Having a large force doesn't necessitate superiority.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -953,8 +997,8 @@
                 "label": "Iosef Lancea\n\n“This was a betrayal in our eyes.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -964,8 +1008,8 @@
                 "label": "Valken Kruger\n\n“We will need to cut training time, let soldiers go and stop purchasing equipment.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1750.0
             }
         },
         {
@@ -975,8 +1019,8 @@
                 "label": "Iosef Lancea\n\n“Let's hope that our enemies won't realize our weaknesses.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -986,8 +1030,8 @@
                 "label": "BaseGame.Situation_Military_LackOfEquipment = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -997,8 +1041,8 @@
                 "label": "BaseGame.Situation_Military_AdequatelyEquippedMilitary = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1008,8 +1052,8 @@
                 "label": "BaseGame.Situation_Military_AdequatelyEquippedMilitary = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1019,8 +1063,8 @@
                 "label": "BaseGame.Situation_Military_OutdatedMilitaryEquipment = false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1030,8 +1074,8 @@
                 "label": "Jump to: [Army Branch]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1041,8 +1085,8 @@
                 "label": "Player\n\n“Where exactly is our army deployed at right now?”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1052,8 +1096,8 @@
                 "label": "Valken Kruger\n\n“This is low compared to 1000 to 1500 hours in other countries like Arcasia, United Contana, Lespia and even Valgsland.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -1063,8 +1107,8 @@
                 "label": "Iosef Lancea\n\n“Which branch would you like to know about?”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1074,8 +1118,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Army_NeighbourSize = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1085,8 +1129,8 @@
                 "label": "Armed Forces Branches\n\nArmed Forces Branches"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1096,8 +1140,41 @@
                 "label": "Valken Kruger\n\n“Our navy is dwarfed by the size of the Valgslandian Navy which has 194 ships and the Agnolian Navy that has 81 ships.”"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n“Our navy is dwarfed by the size of the Valgslandian Navy which has 194 ships and the Agnolian Navy that has 81 ships.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n“Our navy is dwarfed by the size of the Valgslandian Navy which has 194 ships and the Agnolian Navy that has 81 ships.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "Valken Kruger\n\n“Our navy is dwarfed by the size of the Valgslandian Navy which has 194 ships and the Agnolian Navy that has 81 ships.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1107,8 +1184,8 @@
                 "label": "Valken Kruger\n\n“The truth is, we are limited to our near region due to the size and technological level of our naval ships.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1118,8 +1195,8 @@
                 "label": "Player\n\n“How does our Navy compare to others?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1129,8 +1206,8 @@
                 "label": "Player\n\n“How are our capabilities in power projection?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1140,8 +1217,8 @@
                 "label": "Player\n\n“What is the situation of our army?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1151,8 +1228,8 @@
                 "label": "Player\n\n“Let's talk about our navy.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1162,8 +1239,8 @@
                 "label": "Valken Kruger\n\n“Our pilots have average experience. They have a total of 450 hours flight time with their craft before they are qualified. This gives them more than enough time to get used to it.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1173,8 +1250,8 @@
                 "label": "Valken Kruger\n\n“Our planes can bomb targets within 400 km radius of their airfield. They have medium range and semi-effective night-time bombing capabilities.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1184,8 +1261,8 @@
                 "label": "Player\n\n“What are our operational capabilities?”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1195,8 +1272,8 @@
                 "label": "Player\n\n“How experienced are our pilots?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1206,8 +1283,8 @@
                 "label": "Player\n\n“Can you provide the details on our air force?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1217,8 +1294,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce_Operation == true || BaseGameIsolated.Turn02_SnO_Listened_AirForce_Pilots == true ||\\nBaseGameIsolated.Turn02_SnO_Listened_AirForce_Support == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1228,8 +1305,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_AirForce_Operation == true || BaseGameIsolated.Turn02_SnO_Listened_AirForce_Pilots == true ||\\nBaseGameIsolated.Turn02_SnO_Listened_AirForce_Support == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1239,8 +1316,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_AirForce_Operation == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1250,8 +1327,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Army_ModernQuest == true || BaseGameIsolated.Turn02_SnO_Listened_Army_AreaOperation == true ||\\nBaseGameIsolated.Turn02_SnO_Listened_Army_NeighbourSize == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1261,8 +1338,8 @@
                 "label": "Iosef Lancea\n\n“According to the latest reports from Camp Strongarm, currently, we field six armies totalling up to approximately 400.000 active troops.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1272,8 +1349,8 @@
                 "label": "Player\n\n“Which seas does our Navy currently patrol?”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1283,8 +1360,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Navy_Comparison == true || BaseGameIsolated.Turn02_SnO_Listened_Navy_SeaPatrol == true ||\\nBaseGameIsolated.Turn02_SnO_Listened_Navy_PowerProjection == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1294,8 +1371,8 @@
                 "label": "Valken Kruger\n\n“The Air Force is trained as an independent tactical support branch which means it assists other branches but doesn't collaborate.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -1305,8 +1382,8 @@
                 "label": "Player\n\n“How does our air force work together with other military branches?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1316,8 +1393,8 @@
                 "label": "Iosef Lancea\n\n“To make up for our lack of modern military equipment, we resort to a large number of soldiers which is not really a long term solution.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1327,8 +1404,8 @@
                 "label": "Jump to: [Armed Forces Branches]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1338,8 +1415,8 @@
                 "label": "Valken Kruger\n\n“I have been trying hard to reduce the negative effects of this problem. We don't need a modernisation program. A standardized purchase of lacking equipment would do.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1349,8 +1426,8 @@
                 "label": "Valken Kruger\n\n“We need more funding towards expanding the military size. Otherwise, our army will be seen as weak.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1360,8 +1437,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1371,8 +1448,8 @@
                 "label": "Valken Kruger\n\n“The 3rd Army is near the Agnolian border and the coastal areas facing Valgsland.”"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -1382,8 +1459,8 @@
                 "label": "Valken Kruger\n\n“Due to our bitter past our coastal defense force is always on alert. The decimation of our fleet still is not forgotten.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1393,8 +1470,8 @@
                 "label": "Valken Kruger\n\n“Normally the hours per pilot should be higher but due to the lack of funding we can't increase the training times. Fuel costs are rather high.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1404,8 +1481,8 @@
                 "label": "Valken Kruger\n\n“The 2nd Army has a large mountain commando force and it is the most adequately equipped army to face Rumburg.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1415,8 +1492,8 @@
                 "label": "Valken Kruger\n\n“Wehlen field an army amounting to 100.000 soldiers and Agnolia fields two armies with a total of 200.000 soldiers.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1426,8 +1503,8 @@
                 "label": "Jump to: [Air Force Branch]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1437,8 +1514,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce_Pilots = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1448,8 +1525,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Army_AreaOperation == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1459,8 +1536,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Army_AreaOperation == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1470,8 +1547,8 @@
                 "label": "Iosef Lancea\n\n“Which one?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1481,8 +1558,8 @@
                 "label": "Valken Kruger\n\n“At any-time we can field seven air wings composing a total of 130 aircraft that can operate in combat duty. This is enough to subdue most targets.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1492,8 +1569,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Army_AreaOperation = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1503,8 +1580,8 @@
                 "label": "Iosef Lancea\n\n“Any specific one you want to know about?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1514,8 +1591,8 @@
                 "label": "Army Branch\n\nArmy Branch"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1525,8 +1602,30 @@
                 "label": "Iosef Lancea\n\n“As you know, these ships are commanded from our main naval base in Conriat where our flagship, SN Renan is docked.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n“As you know, these ships are commanded from our main naval base in Conriat where our flagship, SN Renan is docked.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "Iosef Lancea\n\n“As you know, these ships are commanded from our main naval base in Conriat where our flagship, SN Renan is docked.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1536,8 +1635,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Army_ModernQuest == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1547,8 +1646,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Army_ModernQuest == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1558,8 +1657,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Army_NeighbourSize == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1569,8 +1668,8 @@
                 "label": "Iosef Lancea\n\n“Let's.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1580,8 +1679,8 @@
                 "label": "Iosef Lancea\n\n“The sheer size of Rumburg's army is because of their forced conscription laws. They are able to afford such a large force due to their massive gold reserves, which significantly came from Rizia over the past decades.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1591,8 +1690,8 @@
                 "label": "Player\n\n“I am not interested in the details.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -1602,8 +1701,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce_Support == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1613,8 +1712,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_AirForce_Support == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1624,8 +1723,8 @@
                 "label": "Iosef Lancea\n\n“Another thing to note is; after the takeover of Heljiland where our navy has led incursion operations to protect Agnolia, we also take part in some joint navy drills as well.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1635,8 +1734,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Navy_PowerProjection = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1646,8 +1745,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Navy_Comparison == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1657,8 +1756,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Navy_Comparison == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1668,8 +1767,8 @@
                 "label": "Valken Kruger\n\n“To make a truly better navy we need to equip our ships with modern radar and sonar systems. More outdated ships wouldn't mean much.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -1679,8 +1778,8 @@
                 "label": "Navy Branch\n\nNavy Branch"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -1690,8 +1789,30 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_264",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_264",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1701,8 +1822,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_AirForce == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1712,8 +1833,8 @@
                 "label": "Player\n\n“I would like to know about the other branches.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1723,8 +1844,8 @@
                 "label": "Jump to: [Armed Forces Branches]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1734,8 +1855,8 @@
                 "label": "Jump to: [Navy Branch]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1745,8 +1866,8 @@
                 "label": "Valken Kruger\n\n“We often patrol the routes that are close to the shipping lanes. Especially Markian Sea and Grey Strait. The amount of cargo that goes through that area is eye opening.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1756,8 +1877,8 @@
                 "label": "Valken Kruger\n\n“Our navy protects all our coastal regions however, to make sure we are not thinning out our defense, we prioritise certain regions over others. Like Greater Holsord.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1767,8 +1888,41 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce_Operation = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce_Operation = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce_Operation = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce_Operation = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1778,8 +1932,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Navy_SeaPatrol = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1789,8 +1943,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_Navy_SeaPatrol == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1800,8 +1954,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Navy_SeaPatrol == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1750.0
             }
         },
         {
@@ -1811,8 +1965,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Army == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1822,8 +1976,8 @@
                 "label": "!(BaseGameIsolated.Turn02_SnO_Listened_Navy_PowerProjection == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1833,8 +1987,8 @@
                 "label": "Valken Kruger\n\n“We have prepared a briefing to convey further details about the current situation of our military.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1844,8 +1998,8 @@
                 "label": "Petr Vectern\n\n“General Valken. Mr. Lancea. Let's start with the briefing.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -1855,8 +2009,8 @@
                 "label": "Valken Kruger\n\n“Very well, Mr. Vice President.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1866,8 +2020,8 @@
                 "label": "BaseGameIsolated.Turn02_SnO_Listened_AirForce == true ||BaseGameIsolated.Turn02_SnO_Listened_Army == true ||BaseGameIsolated.Turn02_SnO_Listened_Navy == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1877,8 +2031,8 @@
                 "label": "Player\n\n“Actually, let's move on.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1888,8 +2042,8 @@
                 "label": "Valken Kruger\n\n“The 2nd Army, our largest force, has been situated by the Rumburg border.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1899,8 +2053,8 @@
                 "label": "Valken Kruger\n\n“As you see, the situation is dire. But the solution is not just more ships.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1910,8 +2064,8 @@
                 "label": "Valken Kruger\n\n“That's right. We still hold *some* power though. If needed be, we could block the trade at the Markian Sea.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1921,8 +2075,8 @@
                 "label": "BaseGameIsolated.Turn06_SnO_Listened_IncreaseQuality == true || BaseGameIsolated.Turn06_SnO_Listened_IncreaseSize == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1932,8 +2086,8 @@
                 "label": "!(BaseGameIsolated.Turn06_SnO_Listened_IncreaseQuality == true || BaseGameIsolated.Turn06_SnO_Listened_IncreaseSize == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1943,8 +2097,8 @@
                 "label": "Iosef Lancea\n\n“No use complaining now, Valken. Let's look at what we can do with what we have.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1954,8 +2108,8 @@
                 "label": "Player\n\n“Quality over quantity. I like it.”"
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1965,8 +2119,8 @@
                 "label": "Petr Vectern\n\n“What do you think, Mr. President?”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1976,8 +2130,19 @@
                 "label": "Player\n\n“Dismissed.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_310",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Dismissed.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1987,8 +2152,8 @@
                 "label": "Narrator\n\nIosef let out a long sigh."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1998,8 +2163,8 @@
                 "label": "Petr Vectern\n\n“That will be all for today then.”"
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2009,8 +2174,19 @@
                 "label": "BaseGame.Turn04_PSnW_Education_Progressive == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_313",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn04_PSnW_Education_Progressive == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2020,8 +2196,8 @@
                 "label": "!(BaseGame.Turn04_PSnW_Education_Progressive == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2031,8 +2207,8 @@
                 "label": "BaseGame.Turn03_EnT_Education_Budget_Increase == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2042,8 +2218,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Holsord_EducationReform_NoFunds = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2053,8 +2229,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_YS == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2064,8 +2240,8 @@
                 "label": "BaseGame.Turn05_Personal_Festival_Force == true && BaseGame.Turn05_Admin_Monica_Barred == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2075,8 +2251,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Anrica_YSRaided = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -2086,8 +2262,8 @@
                 "label": "BaseGame.Turn04_SnO_LE_Justice_Decreased == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2097,8 +2273,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_SuspendedProtests == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2108,8 +2284,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Erlory_JudgesStrike = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2119,8 +2295,8 @@
                 "label": "BaseGame.Turn01_EnT_Economy_Market == true && BaseGame.Turn02_InT_Corporation_SordishState == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2130,8 +2306,8 @@
                 "label": "BaseGameSupport.News_Turn05_E_ConfusedMarket = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2141,8 +2317,8 @@
                 "label": "BaseGame.Turn05_Admin_Monica_Barred == false && (BaseGame.Turn05_Personal_Festival_Force == true || BaseGame.Turn05_Personal_Festival_LesteKicked == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2152,8 +2328,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Anrica_LesteResign = true;\\nBaseGameSupport.News_Turn05_HP_CurtanResigns = true;\\nBaseGameSupport.Codex_Characters_StateFigures_CurtanLeste_NFP = true;\\nBaseGameSupport.Codex_Characters_StateFigures_CurtanLeste = false;\\n\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2163,8 +2339,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2174,8 +2350,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2185,8 +2361,8 @@
                 "label": "BaseGameSupport.News_Turn05_ST_CurtanAskedToResign_NoDeal = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2196,8 +2372,8 @@
                 "label": "BaseGame.Turn05_SnO_Military_IncreaseQuality == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2207,8 +2383,8 @@
                 "label": "BaseGame.Turn05_SnO_Military_IncreaseSize == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2218,8 +2394,8 @@
                 "label": "BaseGame.Turn05_SnO_Military_ReduceSize == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2229,8 +2405,8 @@
                 "label": "BaseGameSupport.News_Turn05_HP_MilitarySmaller = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2240,8 +2416,8 @@
                 "label": "GameCondition.Turn05_SnO_MilitaryBudget = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2251,8 +2427,8 @@
                 "label": "BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -2262,8 +2438,8 @@
                 "label": "!(BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2273,8 +2449,8 @@
                 "label": "!(BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2284,8 +2460,8 @@
                 "label": "Iosef Lancea\n\n“First off, we have received an updated communication from the Arcasian military command.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2295,8 +2471,8 @@
                 "label": "Player\n\n“Do your best to make them feel at home.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2306,8 +2482,8 @@
                 "label": "Valken Kruger\n\n“We will try our best.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2317,8 +2493,8 @@
                 "label": "Narrator\n\nIosef and Valken looked at each other."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2328,8 +2504,8 @@
                 "label": "Iosef Lancea\n\n“First off, we have received an updated communication from the United Contanan military command.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2339,8 +2515,8 @@
                 "label": "Iosef Lancea\n\n“We are keeping them under close surveillance.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2350,8 +2526,8 @@
                 "label": "Player\n\n“Ensure that they do not forget which country's soil they are on.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2361,8 +2537,8 @@
                 "label": "Player\n\n“Good. Make sure you keep an eye on them.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2372,8 +2548,8 @@
                 "label": "Valken Kruger\n\n“We will try our best.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2383,8 +2559,8 @@
                 "label": "Player\n\n“Do your best to make them feel at home.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2394,8 +2570,8 @@
                 "label": "Valken Kruger\n\n“A single wrong move and we will-”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2405,8 +2581,8 @@
                 "label": "Iosef Lancea\n\n“We will keep you updated.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2416,8 +2592,30 @@
                 "label": "Player\n\n“Do not cause any trouble. Do you understand?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_393",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Do not cause any trouble. Do you understand?”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_393",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Do not cause any trouble. Do you understand?”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2427,8 +2625,8 @@
                 "label": "BaseGame.Turn02_InT_Corporation_UnderhallConstruction == true && BaseGame.Turn01_InT_Investment_Highway == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2438,8 +2636,8 @@
                 "label": "BaseGame.Turn02_InT_Corporation_UnderhallConstruction == true && BaseGame.Turn01_InT_Investment_Railway == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2449,8 +2647,8 @@
                 "label": "BaseGame.Turn04_InT_HighwayIssue_Solved == true && BaseGame.Turn02_InT_Corporation_TaurusHolding == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2460,8 +2658,8 @@
                 "label": "!(BaseGame.Turn04_InT_RailwayIssue_Solved == true && BaseGame.Turn02_InT_Corporation_TaurusHolding == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2471,8 +2669,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Lachaven_H3CloseOpenTaurus = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2482,8 +2680,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Holsord_L1CloseOpenTaurus = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2493,8 +2691,8 @@
                 "label": "BaseGame.Decision_Turn05_RumburgBorderReinforcement_DontReinforce == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2504,8 +2702,8 @@
                 "label": "Iosef Lancea\n\n“As if the reduction was not enough, you also decided against reinforcing our border.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2515,8 +2713,8 @@
                 "label": "Narrator\n\nIosef narrowed his eyes."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2526,8 +2724,8 @@
                 "label": "Player\n\n“We are sorry but this had to be done.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2537,8 +2735,19 @@
                 "label": "Narrator\n\nIosef's voice was getting louder and louder."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_426",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIosef's voice was getting louder and louder."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2548,8 +2757,8 @@
                 "label": "Valken Kruger\n\n“If Rumburg were to attack we would need to sacrifice many soldiers to hold the line now.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2559,8 +2768,8 @@
                 "label": "Valken Kruger\n\n“This will help our defensive situation to some degree. Units have already built dozens of pillboxes and trenches with tank traps. But it is not enough.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2570,8 +2779,8 @@
                 "label": "Iosef Lancea\n\n“At the very least you decided to fund our new border fortifications against Rumburg.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2581,8 +2790,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Laren\", \"City_NationalSecurityThreat\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2592,8 +2801,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Anrica\", \"City_Political_NFP\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2603,8 +2812,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Anrica\", \"City_Political_USP\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2614,8 +2823,8 @@
                 "label": "BaseGame.Economy += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2625,8 +2834,8 @@
                 "label": "BaseGame.Policy_Economy_EnergyProtectionAct_Default == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2636,8 +2845,8 @@
                 "label": "BaseGame.Policy_Economy_EnergyProtectionAct_Removed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2647,8 +2856,8 @@
                 "label": "!(BaseGame.Policy_Economy_EnergyProtectionAct_49Percent == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2658,8 +2867,8 @@
                 "label": "BaseGame.Economy += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2669,8 +2878,8 @@
                 "label": "BaseGame.BlackTuesdayHappened == true || BaseGame.SuperpowerTradeWarHappened == true || BaseGame.Policy_Diplomacy_EmbargoingUnitedContana == true || BaseGame.Policy_Diplomacy_EmbargoingRumburg == true || BaseGame.Policy_Diplomacy_EmbargoingArcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2680,8 +2889,8 @@
                 "label": "!(BaseGame.BlackTuesdayHappened == true || BaseGame.SuperpowerTradeWarHappened == true || BaseGame.Policy_Diplomacy_EmbargoingUnitedContana == true || BaseGame.Policy_Diplomacy_EmbargoingRumburg == true || BaseGame.Policy_Diplomacy_EmbargoingArcasia == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2691,8 +2900,8 @@
                 "label": "BaseGame.Economy -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2702,8 +2911,8 @@
                 "label": "!(BaseGame.Economy_Consistent == true || BaseGame.Situation_Diplomacy_Energy_PriceSurge == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2713,8 +2922,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2724,8 +2933,8 @@
                 "label": "BaseGame.Economy -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2735,8 +2944,8 @@
                 "label": "BaseGame.Policy_Diplomacy_TightenedImmigration == true || BaseGame.Situation_Diplomacy_Energy_PriceBalanced == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2746,8 +2955,8 @@
                 "label": "!(BaseGame.Policy_Diplomacy_TightenedImmigration == true || BaseGame.Situation_Diplomacy_Energy_PriceBalanced == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2757,8 +2966,8 @@
                 "label": "BaseGame.BlackTuesdayHappened == true || BaseGame.SuperpowerTradeWarHappened == true || BaseGame.Policy_Diplomacy_EmbargoingUnitedContana == true || BaseGame.Policy_Diplomacy_EmbargoingRumburg == true || BaseGame.Policy_Diplomacy_EmbargoingArcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2768,8 +2977,8 @@
                 "label": "!(BaseGame.BlackTuesdayHappened == true || BaseGame.SuperpowerTradeWarHappened == true || BaseGame.Policy_Diplomacy_EmbargoingUnitedContana == true || BaseGame.Policy_Diplomacy_EmbargoingRumburg == true || BaseGame.Policy_Diplomacy_EmbargoingArcasia == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2779,8 +2988,8 @@
                 "label": "BaseGame.BlackTuesdayHappened == true || BaseGame.SuperpowerTradeWarHappened == true || BaseGame.Policy_Diplomacy_EmbargoingUnitedContana == true || BaseGame.Policy_Diplomacy_EmbargoingRumburg == true || BaseGame.Policy_Diplomacy_EmbargoingArcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2790,8 +2999,8 @@
                 "label": "BaseGame.BlackTuesdayHappened == true || BaseGame.SuperpowerTradeWarHappened == true || BaseGame.Policy_Diplomacy_EmbargoingUnitedContana == true || BaseGame.Policy_Diplomacy_EmbargoingRumburg == true || BaseGame.Policy_Diplomacy_EmbargoingArcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2801,8 +3010,8 @@
                 "label": "!(BaseGame.BlackTuesdayHappened == true || BaseGame.SuperpowerTradeWarHappened == true || BaseGame.Policy_Diplomacy_EmbargoingUnitedContana == true || BaseGame.Policy_Diplomacy_EmbargoingRumburg == true || BaseGame.Policy_Diplomacy_EmbargoingArcasia == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2812,8 +3021,8 @@
                 "label": "BaseGame.Policy_Diplomacy_RelaxedImmigration == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2823,8 +3032,8 @@
                 "label": "!(BaseGame.Policy_Diplomacy_RelaxedImmigration == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2834,8 +3043,8 @@
                 "label": "// Continues\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2845,8 +3054,8 @@
                 "label": "!(BaseGame.Economy_Gruni >= 2)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2856,8 +3065,8 @@
                 "label": "BaseGame.Situation_Economy_Gruni_LightTowerRegion = true;\\nBaseGame.Situation_Economy_Gruni_MaintainingGrowth = false;\\nBaseGame.Situation_Economy_Gruni_LaggingBehind = false;\\nBaseGameSupport.Report_Turn05_Valgen_RegionalGrowth = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2867,8 +3076,8 @@
                 "label": "BaseGame.Policy_Economy_EnergyProtectionAct_10Percent == false && BaseGame.Policy_Economy_Gasom_LargeStateInvestment == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2878,8 +3087,8 @@
                 "label": "(BaseGame.Policy_Economy_EnergyProtectionAct_10Percent == false && BaseGame.Policy_Economy_EnergyProtectionAct_Default == false) && (BaseGame.Policy_Economy_Gasom_StateRiziaCoInvestment == true || BaseGame.Turn03_EnT_Gasom_OnlyRiziaInvestment == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2889,8 +3098,8 @@
                 "label": "!((BaseGame.Policy_Economy_EnergyProtectionAct_10Percent == false && BaseGame.Policy_Economy_EnergyProtectionAct_Default == false) && (BaseGame.Policy_Economy_Gasom_StateRiziaCoInvestment == true || BaseGame.Turn03_EnT_Gasom_OnlyRiziaInvestment == true))\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2900,8 +3109,8 @@
                 "label": "!(BaseGame.Policy_Economy_EnergyProtectionAct_10Percent == true && BaseGame.Turn03_EnT_Gasom_OnlyRiziaInvestment == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2911,8 +3120,8 @@
                 "label": "BaseGameSupport.News_Turn05_G_Gasom_RiziaAndRumburgBuy = true;\\nBaseGameSupport.News_Turn05_HP_Gasom_RumburgDisgrace = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2922,8 +3131,8 @@
                 "label": "BaseGameSupport.News_Turn05_G_Gasom_RiziaPullsOut = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2933,8 +3142,8 @@
                 "label": "BaseGame.Policy_Economy_EnergyProtectionAct_10Percent == true && (BaseGame.Policy_Economy_Gasom_LargeStateInvestment == true || BaseGame.Policy_Economy_Gasom_StateRiziaCoInvestment == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2944,8 +3153,8 @@
                 "label": "!(BaseGame.Decision_Turn04_GruniRuralDev_NoFunding == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2955,8 +3164,8 @@
                 "label": "BaseGameSupport.News_Turn05_LT_GruniRuralDev_InvestmentPositive = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2966,8 +3175,8 @@
                 "label": "BaseGame.Policy_Diplomacy_Wehlen_Trade == false && BaseGame.Decision_Turn04_RegionalInvestment_Bergia == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2977,8 +3186,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Deyr_RegionalGrowthStagnates = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2988,8 +3197,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Estord_FormerBBBrigadierDead = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -2999,8 +3208,8 @@
                 "label": "BaseGame.Gasom_Booming == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -3010,8 +3219,8 @@
                 "label": "!(BaseGame.Gasom_Booming == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -3021,8 +3230,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Narbel_GasomBranchExpands = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -3032,8 +3241,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Estord_ForeignEnergyInvestments = true;\\nBaseGameSupport.Report_Turn05_Lachaven_ForeignEnergyInvestments = true;\\nBaseGameSupport.Report_Turn05_Ribel_ForeignEnergyInvestments = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -3043,8 +3252,8 @@
                 "label": "EnableNews(\"G_UCSatellite\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -3054,8 +3263,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -3172,6 +3381,18 @@
             "id": "e32_to_17",
             "source": "node_32",
             "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_7",
+            "source": "node_32",
+            "target": "node_7",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_45",
+            "source": "node_32",
+            "target": "node_45",
             "type": "step"
         },
         {
@@ -3361,6 +3582,12 @@
             "type": "step"
         },
         {
+            "id": "e90_to_67",
+            "source": "node_90",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
             "id": "e91_to_5",
             "source": "node_91",
             "target": "node_5",
@@ -3388,6 +3615,12 @@
             "id": "e100_to_124",
             "source": "node_100",
             "target": "node_124",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_126",
+            "source": "node_100",
+            "target": "node_126",
             "type": "step"
         },
         {
@@ -3661,6 +3894,24 @@
             "type": "step"
         },
         {
+            "id": "e176_to_278",
+            "source": "node_176",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_265",
+            "source": "node_176",
+            "target": "node_265",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_296",
+            "source": "node_176",
+            "target": "node_296",
+            "type": "step"
+        },
+        {
             "id": "e177_to_254",
             "source": "node_177",
             "target": "node_254",
@@ -3895,6 +4146,18 @@
             "type": "step"
         },
         {
+            "id": "e238_to_243",
+            "source": "node_238",
+            "target": "node_243",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_199",
+            "source": "node_238",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
             "id": "e239_to_225",
             "source": "node_239",
             "target": "node_225",
@@ -3985,6 +4248,18 @@
             "type": "step"
         },
         {
+            "id": "e264_to_282",
+            "source": "node_264",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e264_to_205",
+            "source": "node_264",
+            "target": "node_205",
+            "type": "step"
+        },
+        {
             "id": "e266_to_188",
             "source": "node_266",
             "target": "node_188",
@@ -4024,6 +4299,24 @@
             "id": "e275_to_195",
             "source": "node_275",
             "target": "node_195",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_192",
+            "source": "node_275",
+            "target": "node_192",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_189",
+            "source": "node_275",
+            "target": "node_189",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_251",
+            "source": "node_275",
+            "target": "node_251",
             "type": "step"
         },
         {
@@ -4141,6 +4434,12 @@
             "type": "step"
         },
         {
+            "id": "e310_to_118",
+            "source": "node_310",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
             "id": "e311_to_91",
             "source": "node_311",
             "target": "node_91",
@@ -4156,6 +4455,12 @@
             "id": "e313_to_92",
             "source": "node_313",
             "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e313_to_93",
+            "source": "node_313",
+            "target": "node_93",
             "type": "step"
         },
         {
@@ -4381,6 +4686,18 @@
             "type": "step"
         },
         {
+            "id": "e393_to_386",
+            "source": "node_393",
+            "target": "node_386",
+            "type": "step"
+        },
+        {
+            "id": "e393_to_384",
+            "source": "node_393",
+            "target": "node_384",
+            "type": "step"
+        },
+        {
             "id": "e396_to_172",
             "source": "node_396",
             "target": "node_172",
@@ -4444,6 +4761,12 @@
             "id": "e426_to_37",
             "source": "node_426",
             "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e426_to_36",
+            "source": "node_426",
+            "target": "node_36",
             "type": "step"
         },
         {

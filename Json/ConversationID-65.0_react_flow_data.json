@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nI started regretting my decisions. Regardless, it was too late now. The damage was done."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "BaseGame.Turn04_P_Monica_Benfi_Speech == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "!(BaseGame.Turn05_Admin_Media_Influenced == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "!(BaseGame.Turn05_Personal_Festival_Force == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGame.Turn05_Admin_Monica_Barred == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "!(BaseGame.Turn05_Admin_Monica_Barred == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Narrator\n\nIn any event, I was relieved that the incident hadn't reflected too badly on me."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Narrator\n\nI was putting the last newspaper down as Monica joined me on the balcony.\n\nAddConversant(Monica); AddReport(Lenkurg, Wruhecist Gathering); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Narrator\n\nI was putting the last newspaper down as Monica joined me on the balcony.\n\nAddConversant(Monica); AddReport(Lenkurg, Wruhecist Gathering); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Monica\n\n“Listen. Can we talk for a bit?\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Monica\n\n“So, you've seen the news?”\n\nWaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -128,8 +128,19 @@
                 "label": "Player\n\n“If this is about the news, I know what you are going to say.”"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“If this is about the news, I know what you are going to say.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -139,8 +150,8 @@
                 "label": "Player\n\n“Of course. What is it?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 540.0,
+                "y": 250.0
             }
         },
         {
@@ -150,8 +161,8 @@
                 "label": "Player_Italic\n\nI gestured towards the chair next to me.\n\nGesture for her to sit down."
             },
             "position": {
-                "x": 540,
-                "y": 250
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -161,8 +172,8 @@
                 "label": "Monica\n\n“I just wanted to thank you for supporting me, and apologize for creating such a spectacle.”"
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -172,8 +183,8 @@
                 "label": "Monica\n\n\"All I wanted was to bring the people of Sordland together, the way you're able to. But not like this.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -183,8 +194,19 @@
                 "label": "Player_Italic\n\nI leaned forward and wiped her tears from her eyes. She clasped my hand to her face.\n\nWipe her tears away."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_36",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI leaned forward and wiped her tears from her eyes. She clasped my hand to her face.\n\nWipe her tears away."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +216,8 @@
                 "label": "Monica\n\n“I know. I'm sorry. But you are right.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -205,8 +227,8 @@
                 "label": "Monica\n\n“Thank you.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -216,8 +238,8 @@
                 "label": "Monica Supported Hub\n\nMonica Supported Hub"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -227,8 +249,8 @@
                 "label": "Player\n\n\"Monica, I know. We can talk about this--”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -238,8 +260,19 @@
                 "label": "Monica\n\n“Here, I have it memorized: First Lady disgraced. No support from her husband.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_51",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“Here, I have it memorized: First Lady disgraced. No support from her husband.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -249,8 +282,8 @@
                 "label": "Monica Angry Hub\n\nMonica Angry Hub"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -260,8 +293,8 @@
                 "label": "Narrator\n\nShe grabbed one of the newspapers from the top of the stack and started reading out what a columnist wrote."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -271,8 +304,8 @@
                 "label": "Monica\n\n“With her shameful outburst at Anrica mayor Curtan Leste, First Lady Monica Rayne once again proved that politics is an area best left to gentlemen.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -282,8 +315,8 @@
                 "label": "Monica\n\n“The President provided no support.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -293,8 +326,8 @@
                 "label": "Player\n\n“Darling, believe me. My hands were tied.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -304,8 +337,8 @@
                 "label": "Player_Italic\n\nI did not reply.\n\nDo not reply."
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -315,8 +348,8 @@
                 "label": "Player\n\n“I'm so sorry. I understand if you never forgive me.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -326,8 +359,8 @@
                 "label": "Player\n\n“I thought you were capable of defending yourself. Clearly not.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -337,8 +370,8 @@
                 "label": "Monica\n\n“Just...tell me why. Couldn't you have said something?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -348,8 +381,8 @@
                 "label": "Player\n\n“I didn't want to lose Curtan's support.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -359,8 +392,8 @@
                 "label": "Monica\n\n“I am what?!”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -370,8 +403,8 @@
                 "label": "Monica Told Barred\n\nMonica Told Barred"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -381,8 +414,8 @@
                 "label": "Jump to: [Monica Supported Hub]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -392,8 +425,8 @@
                 "label": "Jump to: [Monica Angry Hub]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -403,8 +436,8 @@
                 "label": "BaseGame.Turn05_Admin_Monica_Barred == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -414,8 +447,8 @@
                 "label": "Jump to: [Monica Told Barred]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -425,8 +458,8 @@
                 "label": "Monica\n\n“But why did the sacrifice have to be me? Never mind. You had your reasons.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -436,8 +469,8 @@
                 "label": "Player\n\n“I'll give you one more chance. But this time I won't tolerate it if it meddles with how I run the country.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -447,8 +480,8 @@
                 "label": "Player\n\n“You always have my support. I failed you this time -- it won't happen again.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -458,8 +491,8 @@
                 "label": "Monica\n\n“I-- I can live with that, I suppose.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -469,8 +502,8 @@
                 "label": "Monica\n\n“I-- Thank you.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -480,8 +513,8 @@
                 "label": "Narrator\n\nMonica turned pale with anger. I had never seen her like this."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -491,8 +524,8 @@
                 "label": "Player\n\n“I was afraid I'd make you look weak by stepping in.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -502,8 +535,8 @@
                 "label": "Monica\n\n“I-- I suppose I can appreciate that.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -513,8 +546,8 @@
                 "label": "Monica\n\n“Perhaps the festival wasn't the proper forum to air my views on women's rights. But I still need to do this, Anton.”"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -524,8 +557,8 @@
                 "label": "Jump to: [Monica Asks For Support Again]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -535,8 +568,8 @@
                 "label": "Jump to: [Monica Asks For Support Again]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -546,8 +579,8 @@
                 "label": "BaseGame.Turn05_Admin_Monica_Barred == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -557,8 +590,8 @@
                 "label": "Player\n\n“I don't think so. You left me no choice but to make a deal with Curtan.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -568,8 +601,8 @@
                 "label": "Player_Italic\n\nI handed her my written agreement with Curtan barring Monica from politics.\n\nHand her your written agreement barring Monica from politics."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -579,8 +612,8 @@
                 "label": "Narrator\n\nShe looked at the page, her eyes wide with disbelief."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -590,8 +623,8 @@
                 "label": "Player\n\n“I'm sorry, but no. Leave politics to the politicians. I promise I'll pass the reforms you want.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -601,8 +634,8 @@
                 "label": "Narrator\n\nMonica turned pale with anger. I had never seen her like this."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -612,8 +645,8 @@
                 "label": "Monica\n\n“Thank you.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -623,8 +656,8 @@
                 "label": "Monica\n\n“I want to officially adopt this cause as First Lady. To actually get involved in politics, not just give impromptu speeches. I could even help your education minister with those reforms she's working on...\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -634,8 +667,8 @@
                 "label": "Narrator\n\nTears were rolling down from her cheeks."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -645,8 +678,8 @@
                 "label": "Monica\n\n\"You did no such thing! You used your own wife as a bargaining chip!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -656,8 +689,8 @@
                 "label": "Narrator\n\nWhat seemed like an eternity passed. She did not move."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -667,8 +700,8 @@
                 "label": "Player\n\n“This is what happens when you insult the president.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -678,8 +711,8 @@
                 "label": "Monica\n\n“You've changed, Anton.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -689,8 +722,8 @@
                 "label": "Monica\n\n“Stop yelling at her! Deana, let's go to the kitchen.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -700,8 +733,8 @@
                 "label": "Narrator\n\nHer words repeated in my head again and again."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -711,8 +744,8 @@
                 "label": "Monica\n\n“It's nothing. Your papa and I were just having a little disagreement. Come on, Deana. Lets go to the kitchen.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -722,8 +755,8 @@
                 "label": "Narrator\n\nA noise came from the balcony door. We both turned our heads to see Deana standing there, a confused look in her eyes.\n\nAddConversant(Deana); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -733,8 +766,8 @@
                 "label": "Narrator\n\n\"I will never forget how you let me down. Never!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -744,8 +777,8 @@
                 "label": "Monica\n\n“Yes, it's nothing. Your papa and I were just having a little disagreement. Come on, Deana. Lets go to the kitchen.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -755,8 +788,8 @@
                 "label": "Monica\n\n“I'm not sure I can forgive you for this, Anton.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -766,8 +799,19 @@
                 "label": "BaseGame.Relations_Monica_Slapped = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Slapped = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -777,8 +821,8 @@
                 "label": "Narrator\n\nThere was a noise from the balcony door. We both turned our heads to see Deana standing there, a confused look in her eyes.\n\nAddConversant(Deana); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -788,8 +832,8 @@
                 "label": "Player\n\n“It's nothing. We were just... talking about work.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -799,8 +843,8 @@
                 "label": "Player_Italic\n\nI did not reply.\n\nStay silent."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -810,8 +854,8 @@
                 "label": "Narrator\n\n“I will never forget about what you did. Never!”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -821,8 +865,8 @@
                 "label": "BaseGame.Turn06_P_SupportedMonicaAtConfrontation = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -832,8 +876,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -843,8 +887,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -854,8 +898,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -865,8 +909,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -876,8 +920,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -887,8 +931,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -898,8 +942,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -909,8 +953,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -920,8 +964,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -931,8 +975,8 @@
                 "label": "BaseGame.Turn05_SnO_LE_Policy_SecretStateService == false && BaseGame.Turn05_SnO_LE_Policy_CommunityPolice == false && BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == false \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -942,8 +986,8 @@
                 "label": "GameCondition.Turn05_SnO_FoundedPolice = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -953,8 +997,8 @@
                 "label": "BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -964,8 +1008,8 @@
                 "label": "!(BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -975,8 +1019,8 @@
                 "label": "BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -986,8 +1030,8 @@
                 "label": "!(BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -997,8 +1041,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Conriat_UCBase = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1008,8 +1052,8 @@
                 "label": "BaseGame.Economy >= 6 && BaseGame.GovernmentBudget >= -5\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1019,8 +1063,8 @@
                 "label": "!(BaseGame.Reform_Autocrat_Path == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1030,8 +1074,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Lachaven_EconomyGood = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1041,8 +1085,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Lachaven_EconomyOkay = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1052,8 +1096,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Lachaven_EconomyAutocrat = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1063,8 +1107,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Lachaven_EconomyBad = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1074,8 +1118,8 @@
                 "label": "BaseGame.Turn04_P_Monica_Benfi_Speech == true && BaseGame.Relations_Monica_SupportedAtFestival == true && BaseGame.Turn05_Personal_Festival_Force == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1085,8 +1129,8 @@
                 "label": "!(BaseGame.Turn04_P_Monica_Benfi_Speech == true && BaseGame.Relations_Monica_SupportedAtFestival == true && BaseGame.Turn05_Personal_Festival_Force == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1096,8 +1140,8 @@
                 "label": "BaseGame.Turn04_P_Monica_Benfi_Speech == false && BaseGame.Relations_Monica_SupportedAtFestival == true \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1107,8 +1151,8 @@
                 "label": "BaseGameSupport.News_Turn05_LT_Benfi_Curtan_MonicaSupported = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1118,8 +1162,8 @@
                 "label": "BaseGameSupport.News_Turn05_LT_Benfi_Curtan_MonicaShutDown = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1129,8 +1173,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1140,8 +1184,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1151,8 +1195,8 @@
                 "label": "BaseGame.Relations_Monica_SupportedAtFestival == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1162,8 +1206,8 @@
                 "label": "BaseGame.Turn05_Personal_Festival_LesteKicked == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1173,8 +1217,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1184,8 +1228,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1195,8 +1239,8 @@
                 "label": "BaseGame.Turn05_Admin_Media_Influenced == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1206,8 +1250,8 @@
                 "label": "BaseGameSupport.News_Turn05_LT_Benfi_Monica_CurtanLeftorKicked_Media = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1217,8 +1261,8 @@
                 "label": "BaseGameSupport.News_Turn05_LT_Benfi_Monica_CurtanKicked_NoMedia = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1228,8 +1272,8 @@
                 "label": "BaseGameSupport.News_Turn05_ST_Benfi_Monica_CurtanLeftorKicked_Deal = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1239,8 +1283,8 @@
                 "label": "BaseGameSupport.News_Turn05_LT_Benfi_Monica_CurtanLeft_NoMedia = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1250,8 +1294,8 @@
                 "label": "BaseGameSupport.News_Turn05_ST_Benfi_Monica_CurtanKicked_NoDeal = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1261,8 +1305,8 @@
                 "label": "BaseGameSupport.News_Turn05_ST_Benfi_Monica_CurtanLeft_NoDeal = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1272,8 +1316,8 @@
                 "label": "BaseGameSupport.News_Turn05_HP_CurtanApologizes = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1283,8 +1327,8 @@
                 "label": "Player\n\n“What's that supposed to mean?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1294,8 +1338,8 @@
                 "label": "BaseGame.Relations_Monica_SupportedAtFestival == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1305,8 +1349,8 @@
                 "label": "!(BaseGame.Relations_Monica_SupportedAtFestival == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1316,8 +1360,8 @@
                 "label": "BaseGame.Relations_Monica_SupportedAtFestival == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1327,8 +1371,8 @@
                 "label": "!(BaseGame.Relations_Monica_SupportedAtFestival == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1338,8 +1382,8 @@
                 "label": "Narrator\n\nNearly all of them agreed that the First Lady had acquitted herself very well following the interruption."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1349,8 +1393,8 @@
                 "label": "BaseGame.Turn04_P_Monica_Benfi_Speech == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1360,8 +1404,8 @@
                 "label": "Monica\n\n\"Anton, how could you? First you deny me the opportunity to speak at the festival, then you let that dinosaur Leste make a mockery of me and my cause!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1371,8 +1415,8 @@
                 "label": "Monica\n\n“What began as an unexpectedly impassioned plea for ladies' rights at the opening of the Benfi Festival turned into a circus sideshow as First Lady Monica Rayne failed to counter the rightful objections of the Mayor of Anrica, Curtan Leste.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1382,8 +1426,8 @@
                 "label": "BaseGame.Turn04_P_Monica_Benfi_Speech == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1393,8 +1437,8 @@
                 "label": "Player\n\n“No. I was wrong to have let you speak at the festival. I won't make the same mistake again.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1404,8 +1448,8 @@
                 "label": "BaseGame.Turn04_P_Monica_Benfi_Speech\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1415,8 +1459,8 @@
                 "label": "!(BaseGame.Turn04_P_Monica_Benfi_Speech)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1426,8 +1470,8 @@
                 "label": "BaseGame.Turn04_P_Monica_Benfi_Speech\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1437,8 +1481,8 @@
                 "label": "BaseGame.Turn05_Personal_Festival_Force\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1448,8 +1492,8 @@
                 "label": "BaseGame.Relations_Monica_SupportedAtFestival\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1459,8 +1503,8 @@
                 "label": "Monica\n\n\"When I gave that speech, I saw hope in the eyes of all the women in the audience. This is the right path for me, Anton.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1470,8 +1514,8 @@
                 "label": "BaseGame.Prologue_University_SupportWomensRights\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1481,8 +1525,8 @@
                 "label": "Monica\n\n\"I know this is something you're passionate about as well. Can I count on you?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1492,8 +1536,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion <0\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1503,8 +1547,8 @@
                 "label": "Narrator\n\nMonica gave me a quick hug."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1514,8 +1558,8 @@
                 "label": "BaseGame.Turn05_Admin_Media_Influenced\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -1525,8 +1569,19 @@
                 "label": "!(BaseGame.Turn05_Admin_Media_Influenced)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_335",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_Admin_Media_Influenced)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1536,8 +1591,30 @@
                 "label": "Player\n\n“I'm rather busy, but all right.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_336",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'm rather busy, but all right.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_336",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I'm rather busy, but all right.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1547,8 +1624,8 @@
                 "label": "Player\n\n“Of course. What is it?”\n\n“Of course. what is it?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1558,8 +1635,8 @@
                 "label": "Player_Italic\n\nI gestured towards the chair next to me. She sat down.\n\nGesture for her to sit down."
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1569,8 +1646,8 @@
                 "label": "BaseGame.Turn05_Admin_News_Contained\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1580,8 +1657,8 @@
                 "label": "Narrator\n\nMonica sat and picked up the nearest newspaper. She flipped it open to the article about Curtan's apology."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1591,8 +1668,8 @@
                 "label": "Monica\n\n“I'm glad that beast admitted he was in the wrong. But it could very easily have gone another way.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1602,8 +1679,8 @@
                 "label": "Monica\n\n“I never in a million years would have wished for this, Anton.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1613,8 +1690,8 @@
                 "label": "Player\n\n“It's okay. I've had Curtan fired. That's the last of our troubles with him.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1624,8 +1701,8 @@
                 "label": "BaseGame.Relations_Lileas_GendermariePromise == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1635,8 +1712,8 @@
                 "label": "Narrator\n\nMonica stood up."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1646,8 +1723,8 @@
                 "label": "BaseGame.Turn03_EnT_Military_Budget_Decrease == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1657,8 +1734,8 @@
                 "label": "GameCondition.Turn05_Decision_RumburgBorderReinforcement = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1668,8 +1745,8 @@
                 "label": "BaseGame.Turn05_Admin_News_Contained == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1679,8 +1756,8 @@
                 "label": "!(BaseGame.Turn05_Admin_News_Contained == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1690,8 +1767,8 @@
                 "label": "BaseGame.Turn05_Personal_Festival_LesteKicked == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1701,8 +1778,8 @@
                 "label": "!(BaseGame.Turn05_Personal_Festival_LesteKicked == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1712,8 +1789,8 @@
                 "label": "BaseGame.Public_Opinion -= 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1723,8 +1800,8 @@
                 "label": "BaseGame.Public_Opinion -= 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1734,8 +1811,8 @@
                 "label": "BaseGame.Public_Opinion += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1745,8 +1822,8 @@
                 "label": "BaseGame.Public_Opinion -= 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1756,8 +1833,8 @@
                 "label": "BaseGame.Turn05_Personal_Festival_LesteLeft == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -1767,8 +1844,8 @@
                 "label": "BaseGame.Public_Opinion -= 5;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1778,8 +1855,8 @@
                 "label": "BaseGame.Turn05_Personal_Festival_LesteKicked == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1789,8 +1866,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1800,8 +1877,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1811,8 +1888,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1822,8 +1899,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1833,8 +1910,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1844,8 +1921,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion -= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1855,8 +1932,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1866,8 +1943,8 @@
                 "label": "BaseGame.Public_Opinion >= 10\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1877,8 +1954,8 @@
                 "label": "BaseGame.Public_Opinion <= -5\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1888,8 +1965,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Holsord_NegativeApproval = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1899,8 +1976,8 @@
                 "label": "BaseGame.Turn04_A_Monica_Benfi_Speech_Cancelled == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1910,8 +1987,8 @@
                 "label": "Monica\n\n\"You were right. Gloria was right. I made myself look like an idiot and damaged the very cause I was fighting for.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1921,8 +1998,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Erlory\", \"City_ArcasiaAccess\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1932,8 +2009,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Conriat\", \"City_UCAccess\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1943,8 +2020,8 @@
                 "label": "Monica\n\n“With the President providing no support, her challenge to Leste was quickly defeated.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1954,8 +2031,8 @@
                 "label": "Monica\n\n“Powerless to defend herself from this challenge, she turned to the President, who provided no support.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1965,8 +2042,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1976,8 +2053,8 @@
                 "label": "BaseGame.Policy_Diplomacy_RelaxedImmigration == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1987,8 +2064,8 @@
                 "label": "BaseGame.Policy_Diplomacy_TightenedImmigration == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1998,8 +2075,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -2077,6 +2154,12 @@
             "type": "step"
         },
         {
+            "id": "e30_to_49",
+            "source": "node_30",
+            "target": "node_49",
+            "type": "step"
+        },
+        {
             "id": "e31_to_340",
             "source": "node_31",
             "target": "node_340",
@@ -2107,6 +2190,12 @@
             "type": "step"
         },
         {
+            "id": "e36_to_349",
+            "source": "node_36",
+            "target": "node_349",
+            "type": "step"
+        },
+        {
             "id": "e41_to_200",
             "source": "node_41",
             "target": "node_200",
@@ -2134,6 +2223,12 @@
             "id": "e51_to_63",
             "source": "node_51",
             "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e51_to_62",
+            "source": "node_51",
+            "target": "node_62",
             "type": "step"
         },
         {
@@ -2422,6 +2517,12 @@
             "id": "e188_to_308",
             "source": "node_188",
             "target": "node_308",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_87",
+            "source": "node_188",
+            "target": "node_87",
             "type": "step"
         },
         {
@@ -2839,9 +2940,27 @@
             "type": "step"
         },
         {
+            "id": "e335_to_338",
+            "source": "node_335",
+            "target": "node_338",
+            "type": "step"
+        },
+        {
             "id": "e336_to_31",
             "source": "node_336",
             "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e336_to_33",
+            "source": "node_336",
+            "target": "node_33",
+            "type": "step"
+        },
+        {
+            "id": "e336_to_32",
+            "source": "node_336",
+            "target": "node_32",
             "type": "step"
         },
         {

@@ -4,937 +4,648 @@
             "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Policy_Economy_EnergyProtectionAct_Removed == true && BaseGame.Turn03_EnT_Gasom_LargeSordlandInvestmentAlone == true\n\nnan"
+                "label": "Narrator\n\nIn a few seconds, the convoy came to a graceful stop in front of the steps of the House. Titus held the door for me as I stepped out."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_4",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI stepped onto my the podium as the applause echoed around me, the faces of the delegates alight with the promise of the future."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWhen the hall fell silent, I took a deep breath."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
             "id": "node_8",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Policy_Economy_EnergyProtectionAct_Removed == true && (BaseGame.Turn03_EnT_Gasom_CoInvestmentRizia == true || BaseGame.Turn03_EnT_Gasom_OnlyRiziaInvestment == true))\n\nnan"
+                "label": "Player_Romus\n\n\"My fellow citizens...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_11",
+            "id": "node_24",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Policy_Economy_EnergyProtectionAct_10Percent == true || BaseGame.Confrontation_USP_EnergyAct_RevertedTo10\n\nnan"
+                "label": "Player_Romus_Italic\n\nI signed the ridiculously large papers.\n\nSign the constitution without saying anything."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_13",
+            "id": "node_26",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Policy_Economy_EnergyProtectionAct_10Percent == true || BaseGame.Confrontation_USP_EnergyAct_RevertedTo10)\n\nnan"
+                "label": "Player_Romus\n\n\"Today, we entrust our future to the hands of those elected to represent Rizia. It's a bold step, but one I believe is right.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_15",
+            "id": "node_54",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"I was in Rizia a few days ago to meet with our energy partners.\""
+                "label": "Manus Sazon\n\n\"When did you decide on that, Your Majesty?\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_16",
+            "id": "node_68",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"You know...\""
+                "label": "//\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_31",
+            "id": "node_71",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Gentlemen, please. Neither of you can judge me.\""
+                "label": "Player_Romus_Italic\n\nI stood there for a whole minute as the delegates applauded vigorously.\n\nWait for the applause to stop."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_34",
+            "id": "node_72",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Mr. President, the state's investment in Gasom helped the company get back on its feet. I'll always appreciate that.\""
+                "label": "Player_Romus\n\n\"It is with a heart full of hope and a mind conscious of the demands of the democratic movement that I address you on this momentous occasion.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_36",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Let me guess. You live on one of them.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Don't try to blame me for your own selfishness.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_48",
-            "type": "customNode",
-            "data": {
-                "label": "Ewald Alphonso\n\n\"I do, actually.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn09_RumburgPeaceSummit_StartTalks == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Decision_Turn09_RumburgPeaceSummit_StartTalks == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I must remind you that you sold those shares before any diplomatic talks were being discussed. You handed our largest rival the keys to our energy grid.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "customNode",
-            "data": {
-                "label": "Ewald Alphonso\n\n\"I thought you'd be glad, Mr. Rayne. If your goal is to avoid conflict with Rumburg, a stake in Gasom is one hell of a peace offering.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
             "id": "node_89",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Gentlemen, please. Neither of you can judge me.\""
+                "label": "Player_Romus\n\n\"The world around us is changing. Nations are awakening to the clarion call of freedom and representation, recognizing that the true strength of a country lies in the collective will of its citizens.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_90",
+            "id": "node_111",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn05_P_FCAnrica == true\n\nnan"
+                "label": "//\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_118",
+            "id": "node_113",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Don't make me laugh. You always knew that Rumburg posed a threat. But you cared more about your precious free market than national security.\""
+                "label": "Player_Romus\n\n\"I hereby announce that the new constitution was signed and is currently in place.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_128",
+            "id": "node_114",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Thank you for your understanding.\""
+                "label": "Narrator\n\nAmong massive applause, I grabbed the silk sash."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_144",
+            "id": "node_121",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"I can't believe you would attempt to follow in Soll's footsteps.\""
+                "label": "Player_Romus\n\n\"I appoint Daria de Rava as the Head of Government.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_147",
+            "id": "node_122",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGameIsolated.Turn09_SollTrial_Guilty_Prison == true || BaseGameIsolated.Turn09_SollTrial_Guilty_Death == true)\n\nnan"
+                "label": "Narrator\n\nA murmur of disapproval rippled through the chamber as he made his way to the podium."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_152",
+            "id": "node_126",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"I was only trying to follow in your footsteps, Colonel.\""
+                "label": "RiziaDLC.HouseElections_RNCWinsSeats == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_153",
+            "id": "node_130",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nEwald's upper lip curled."
+                "label": "RiziaDLCIsolated.Reform_Intention_PM_Daria == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
-            "id": "node_166",
+            "id": "node_134",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Okay, gentlemen. Let's not ponder over this any longer. My intention was not to start an argument.\""
+                "label": "Narrator\n\nDaria rose from her seat among the delegates, her expression one of confidence."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_193",
+            "id": "node_139",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"It's good to see that the strategy we came up is paying off.\""
+                "label": "!(RiziaDLC.HouseElections_RPPWinsSeats == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_205",
+            "id": "node_143",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Gentlemen, please. Let's not go that far.\""
+                "label": "Player_Romus\n\n\"God bless Rizia, and long live the Kingdom.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_206",
+            "id": "node_145",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn03_EnT_Gasom_CoInvestmentRizia == true\n\nnan"
+                "label": "Player_Romus\n\n\"Glovurius axa Rizia!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_216",
+            "id": "node_146",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"You are right to have your reservations but they are reliable business partners.\""
+                "label": "Narrator\n\nI put the sash and the pin on him."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_217",
+            "id": "node_149",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Of course, Mr. Rayne.\""
+                "label": "Manus Sazon\n\n\"Thank you, Your Majesty.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_219",
+            "id": "node_150",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Truth be told, it was an incredible help.\""
+                "label": "Narrator\n\nAnother round of applause broke out -- this time for much longer."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_220",
+            "id": "node_163",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"I'm getting old, gentlemen. Surely I've earned the right to a comfortable retirement.\""
+                "label": "RiziaDLC.Reform_PrimeMinister_Daria = true;\\nRiziaDLCSupport.News_Turn10_RH_NewConstitution_DariaPM = true;\\nRiziaDLCSupport.News_Turn10_V_NewConstitution_DariaPM = true;\\nRiziaDLCSupport.Journal_Turn10_ConstitutionSigned_Daria = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_225",
+            "id": "node_175",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Gasom_Booming == true)\n\nnan"
+                "label": "AddConversant(\"Manus Sazon\");\\nAddConversant(\"Daria de Rava\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_227",
+            "id": "node_176",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"This isn't the fault of the free market. It's Mr. Alphonso's own selfishness.\""
+                "label": "RemoveConversant(\"Manus Sazon\");\\nRemoveConversant(\"Daria de Rava\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
-            "id": "node_233",
+            "id": "node_177",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"His laws as written would have choked the life out of Gasom. But I did see the wisdom in putting a cap on foreign ownership. You're the one who wanted to do away with it entirely.\""
+                "label": "AddConversant(\"Daria de Rava\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_234",
+            "id": "node_178",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"Indeed. The value of Sordland's investment has only gone up since the Anraka purchase.\""
+                "label": "AddConversant(\"Manus Sazon\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_236",
+            "id": "node_182",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Policy_Economy_Gasom_StateRiziaCoInvestment == true\n\nnan"
+                "label": "Daria de Rava\n\n\"What you're doing is nepotism. Pure and simple.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_240",
+            "id": "node_182",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"And surely you knew this might happen when you removed the Energy Protection Act.\""
+                "label": "Daria de Rava\n\n\"What you're doing is nepotism. Pure and simple.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_252",
+            "id": "node_183",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"I didn't count on Rumburg ending up with the largest stake in Gasom, no.\""
+                "label": "RiziaDLC.DLCAcronymMentioned == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_255",
+            "id": "node_183",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"It doesn't make a difference to me. Just pointing out that we both could have struck it rich.\""
+                "label": "RiziaDLC.DLCAcronymMentioned == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_256",
+            "id": "node_183",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"As long as Rizia, Rumburg and Sordland all remain on friendly terms, it'll be smooth sailing.\""
+                "label": "RiziaDLC.DLCAcronymMentioned == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_257",
+            "id": "node_185",
             "type": "customNode",
             "data": {
-                "label": "Ewald Alphonso\n\n\"My legacy is my company, Mr. Rayne. My shares are meaningless if the company stagnates.\""
+                "label": "!(RiziaDLC.DLCAcronymMentioned == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
-            "id": "node_265",
+            "id": "node_189",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Don't blame me for your own selfishness.\""
+                "label": "PlaySoundEffect(\"SignAndApplause\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
-            "id": "node_266",
+            "id": "node_191",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Let's not play the blame game. We have to focus on the here and now.\""
+                "label": "PlaySoundEffect(\"SignAndApplause\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_267",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I removed the EPA as a favor to Gasom. And you returned that favor by selling your shares to our enemy.\""
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_269",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"This is my fault, Colonel. I never should have removed the Energy Protection Act.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_270",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Relations_Ewald_PromiseNotHarsherEPA == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_272",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Relations_Ewald_PromiseNotHarsherEPA == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "Ewald Alphonso\n\n\"But I hope you see now how much damage you've done to our country's energy industry.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_282",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Turn09_SollTrial_Guilty_Prison == true || BaseGameIsolated.Turn09_SollTrial_Guilty_Death == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_291",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"It was never my intention to bankrupt Gasom. I made my decisions with the company's interests at heart.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_298",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Gasom_Default == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_305",
-            "type": "customNode",
-            "data": {
-                "label": "Tarquin Soll\n\n\"Then that is your fault. Not the Sordish state's.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_306",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn03_EnT_Gasom_OnlyRiziaInvestment == true || BaseGame.Turn03_EnT_Gasom_CoInvestmentRizia == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_308",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn03_EnT_Gasom_OnlyRiziaInvestment == true || BaseGame.Turn03_EnT_Gasom_CoInvestmentRizia == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_310",
-            "type": "customNode",
-            "data": {
-                "label": "START\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_120",
+            "id": "e2_to_380",
             "source": "node_2",
-            "target": "node_120",
+            "target": "node_380",
             "type": "step"
         },
         {
-            "id": "e8_to_63",
+            "id": "e4_to_176",
+            "source": "node_4",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_72",
+            "source": "node_5",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e8_to_69",
             "source": "node_8",
-            "target": "node_63",
+            "target": "node_69",
             "type": "step"
         },
         {
-            "id": "e11_to_66",
-            "source": "node_11",
-            "target": "node_66",
+            "id": "e24_to_184",
+            "source": "node_24",
+            "target": "node_184",
             "type": "step"
         },
         {
-            "id": "e13_to_271",
-            "source": "node_13",
-            "target": "node_271",
+            "id": "e26_to_190",
+            "source": "node_26",
+            "target": "node_190",
             "type": "step"
         },
         {
-            "id": "e15_to_275",
-            "source": "node_15",
-            "target": "node_275",
+            "id": "e54_to_180",
+            "source": "node_54",
+            "target": "node_180",
             "type": "step"
         },
         {
-            "id": "e16_to_181",
-            "source": "node_16",
-            "target": "node_181",
+            "id": "e68_to_177",
+            "source": "node_68",
+            "target": "node_177",
             "type": "step"
         },
         {
-            "id": "e31_to_48",
-            "source": "node_31",
-            "target": "node_48",
+            "id": "e71_to_6",
+            "source": "node_71",
+            "target": "node_6",
             "type": "step"
         },
         {
-            "id": "e34_to_231",
-            "source": "node_34",
-            "target": "node_231",
+            "id": "e72_to_6",
+            "source": "node_72",
+            "target": "node_6",
             "type": "step"
         },
         {
-            "id": "e36_to_221",
-            "source": "node_36",
-            "target": "node_221",
+            "id": "e89_to_84",
+            "source": "node_89",
+            "target": "node_84",
             "type": "step"
         },
         {
-            "id": "e46_to_224",
-            "source": "node_46",
-            "target": "node_224",
+            "id": "e111_to_142",
+            "source": "node_111",
+            "target": "node_142",
             "type": "step"
         },
         {
-            "id": "e48_to_231",
-            "source": "node_48",
-            "target": "node_231",
+            "id": "e113_to_142",
+            "source": "node_113",
+            "target": "node_142",
             "type": "step"
         },
         {
-            "id": "e62_to_2",
-            "source": "node_62",
-            "target": "node_2",
+            "id": "e114_to_142",
+            "source": "node_114",
+            "target": "node_142",
             "type": "step"
         },
         {
-            "id": "e64_to_11",
-            "source": "node_64",
+            "id": "e121_to_163",
+            "source": "node_121",
+            "target": "node_163",
+            "type": "step"
+        },
+        {
+            "id": "e122_to_164",
+            "source": "node_122",
+            "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e126_to_141",
+            "source": "node_126",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e130_to_179",
+            "source": "node_130",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_178",
+            "source": "node_134",
+            "target": "node_178",
+            "type": "step"
+        },
+        {
+            "id": "e139_to_123",
+            "source": "node_139",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_115",
+            "source": "node_143",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_115",
+            "source": "node_145",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_115",
+            "source": "node_146",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_188",
+            "source": "node_149",
+            "target": "node_188",
+            "type": "step"
+        },
+        {
+            "id": "e150_to_189",
+            "source": "node_150",
+            "target": "node_189",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_130",
+            "source": "node_163",
+            "target": "node_130",
+            "type": "step"
+        },
+        {
+            "id": "e175_to_4",
+            "source": "node_175",
+            "target": "node_4",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_11",
+            "source": "node_176",
             "target": "node_11",
             "type": "step"
         },
         {
-            "id": "e83_to_243",
-            "source": "node_83",
-            "target": "node_243",
+            "id": "e177_to_5",
+            "source": "node_177",
+            "target": "node_5",
             "type": "step"
         },
         {
-            "id": "e88_to_107",
-            "source": "node_88",
-            "target": "node_107",
+            "id": "e178_to_124",
+            "source": "node_178",
+            "target": "node_124",
             "type": "step"
         },
         {
-            "id": "e89_to_237",
-            "source": "node_89",
-            "target": "node_237",
+            "id": "e182_to_63",
+            "source": "node_182",
+            "target": "node_63",
             "type": "step"
         },
         {
-            "id": "e90_to_259",
-            "source": "node_90",
-            "target": "node_259",
+            "id": "e182_to_66",
+            "source": "node_182",
+            "target": "node_66",
             "type": "step"
         },
         {
-            "id": "e118_to_133",
-            "source": "node_118",
-            "target": "node_133",
+            "id": "e183_to_63",
+            "source": "node_183",
+            "target": "node_63",
             "type": "step"
         },
         {
-            "id": "e128_to_266",
-            "source": "node_128",
-            "target": "node_266",
+            "id": "e183_to_64",
+            "source": "node_183",
+            "target": "node_64",
             "type": "step"
         },
         {
-            "id": "e144_to_128",
-            "source": "node_144",
-            "target": "node_128",
+            "id": "e183_to_65",
+            "source": "node_183",
+            "target": "node_65",
             "type": "step"
         },
         {
-            "id": "e147_to_293",
-            "source": "node_147",
-            "target": "node_293",
+            "id": "e185_to_26",
+            "source": "node_185",
+            "target": "node_26",
             "type": "step"
         },
         {
-            "id": "e152_to_284",
-            "source": "node_152",
-            "target": "node_284",
+            "id": "e189_to_151",
+            "source": "node_189",
+            "target": "node_151",
             "type": "step"
         },
         {
-            "id": "e153_to_287",
-            "source": "node_153",
-            "target": "node_287",
-            "type": "step"
-        },
-        {
-            "id": "e166_to_2",
-            "source": "node_166",
-            "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e193_to_218",
-            "source": "node_193",
-            "target": "node_218",
-            "type": "step"
-        },
-        {
-            "id": "e205_to_180",
-            "source": "node_205",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e206_to_180",
-            "source": "node_206",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e216_to_180",
-            "source": "node_216",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e217_to_180",
-            "source": "node_217",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e219_to_180",
-            "source": "node_219",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e220_to_180",
-            "source": "node_220",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e225_to_60",
-            "source": "node_225",
-            "target": "node_60",
-            "type": "step"
-        },
-        {
-            "id": "e227_to_62",
-            "source": "node_227",
-            "target": "node_62",
-            "type": "step"
-        },
-        {
-            "id": "e233_to_62",
-            "source": "node_233",
-            "target": "node_62",
-            "type": "step"
-        },
-        {
-            "id": "e234_to_62",
-            "source": "node_234",
-            "target": "node_62",
-            "type": "step"
-        },
-        {
-            "id": "e236_to_223",
-            "source": "node_236",
-            "target": "node_223",
-            "type": "step"
-        },
-        {
-            "id": "e240_to_251",
-            "source": "node_240",
-            "target": "node_251",
-            "type": "step"
-        },
-        {
-            "id": "e252_to_105",
-            "source": "node_252",
-            "target": "node_105",
-            "type": "step"
-        },
-        {
-            "id": "e255_to_105",
-            "source": "node_255",
-            "target": "node_105",
-            "type": "step"
-        },
-        {
-            "id": "e256_to_105",
-            "source": "node_256",
-            "target": "node_105",
-            "type": "step"
-        },
-        {
-            "id": "e257_to_105",
-            "source": "node_257",
-            "target": "node_105",
-            "type": "step"
-        },
-        {
-            "id": "e265_to_103",
-            "source": "node_265",
-            "target": "node_103",
-            "type": "step"
-        },
-        {
-            "id": "e266_to_136",
-            "source": "node_266",
-            "target": "node_136",
-            "type": "step"
-        },
-        {
-            "id": "e267_to_136",
-            "source": "node_267",
-            "target": "node_136",
-            "type": "step"
-        },
-        {
-            "id": "e269_to_136",
-            "source": "node_269",
-            "target": "node_136",
-            "type": "step"
-        },
-        {
-            "id": "e270_to_138",
-            "source": "node_270",
-            "target": "node_138",
-            "type": "step"
-        },
-        {
-            "id": "e272_to_15",
-            "source": "node_272",
-            "target": "node_15",
-            "type": "step"
-        },
-        {
-            "id": "e279_to_146",
-            "source": "node_279",
-            "target": "node_146",
-            "type": "step"
-        },
-        {
-            "id": "e282_to_145",
-            "source": "node_282",
-            "target": "node_145",
-            "type": "step"
-        },
-        {
-            "id": "e291_to_166",
-            "source": "node_291",
-            "target": "node_166",
-            "type": "step"
-        },
-        {
-            "id": "e298_to_166",
-            "source": "node_298",
-            "target": "node_166",
-            "type": "step"
-        },
-        {
-            "id": "e305_to_154",
-            "source": "node_305",
-            "target": "node_154",
-            "type": "step"
-        },
-        {
-            "id": "e306_to_154",
-            "source": "node_306",
-            "target": "node_154",
-            "type": "step"
-        },
-        {
-            "id": "e308_to_16",
-            "source": "node_308",
-            "target": "node_16",
-            "type": "step"
-        },
-        {
-            "id": "e310_to_120",
-            "source": "node_310",
-            "target": "node_120",
+            "id": "e191_to_30",
+            "source": "node_191",
+            "target": "node_30",
             "type": "step"
         }
     ]

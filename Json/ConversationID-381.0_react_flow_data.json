@@ -1,90 +1,3779 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "Beatrice Livingston (R)\n\n\"I suggest that you take advantage of Rumburg's contacts within the Bludish Freedom Front.\""
+                "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_36",
+            "id": "node_9",
             "type": "customNode",
             "data": {
-                "label": "Beatrice Livingston (R)\n\n\"Exactly.\""
+                "label": "Player_Romus\n\n\"I was just thinking how much territory we've lost throughout the last centuries.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_66",
+            "id": "node_20",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nLaurento grew indignant."
+                "label": "Player_Romus\n\n\"You have a point, actually. Why did nobody notice this? Where the hell is Mr. Esquibel?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_104",
+            "id": "node_34",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"At any rate, Your Excellency, thank you for offering us the opportunity. And for entrusting us with such sensitive information.\""
+                "label": "Pabel Adria\n\n\"I will leave you to it, Your Majesty. I hope it's a very productive meeting.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_106",
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Thank you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDuke Reinhart strode into the hall, glancing around at the paintings and tapestries on the walls."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Welcome to Rizia, Your Grace.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I'm hoping to see its direct results on the economy.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"That's great news. Rizia looks forward to receiving Palesian gas.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.War_Incident_Border == true || RiziaDLC.War_Incident_Naval == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_128",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Pales_NegotiatingPower >= 1 || RiziaDLC.Situation_Economy_AureusField_HighExtraction == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I'm not hinting at anything yet. I just want to hear what the King of Rizia thinks.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_141",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I like how you think.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_144",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Rumburg_NegotiatingPower >= 0 && RiziaDLCIsolated.Turn07_Duke_AskedGRACE == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_146",
+            "type": "customNode",
+            "data": {
+                "label": "Duke_SellGas\n\nDuke_SellGas"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_148",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Marriage = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I'd like to believe the resolution we reached, and the crises we've shepherded through together were more than just handshakes or numbers.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_156",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Of course. We share the same intentions.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I am ready to go further with Pales, Your Grace.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Great. I like how you think.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_162",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I understand.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_163",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Economy_AureusField_Extractions == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_169",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Then perhaps it's time we talk about that.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"If everything goes to plan, it will be ready at the end of the year.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You'd better offer us the best discount you can give.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_178",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThere was a brief silence, his expression thoughtful. He smiled."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Situation_Economy_AureusField_HighExtraction == false && RiziaDLC.Diplomacy_Lespia_GasField_25PercentDeal == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_183",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Look, Your Majesty...\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_184",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Alliance == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_186",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLCIsolated.Turn07_Duke_Alliance == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_186",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLCIsolated.Turn07_Duke_Alliance == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Pales_NegotiatingPower >= 1 || RiziaDLC.Situation_Economy_AureusField_HighExtraction == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Quite amazing and going pretty fast, really.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_215",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"...I believe I gave you all the news I've had for you already for the time being.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_220",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"...Perhaps it's time to talk about our energy deal.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_222",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I do. I have an offer for you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I don't really see a need to discuss anything. We've cooperated enough already.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "Duke_PlayerHub\n\nDuke_PlayerHub"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Economy_AureusField_HighExtraction == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Economy_AureusField_HighExtraction == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Economy_AureusField_HighExtraction == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Economy_AureusField_HighExtraction == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Duke_Fallback]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_230",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I'm excited to hear that.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I still believe there's a lot more we can do together.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_232",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I thought it was Lespia who's really in control.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_236",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I was expecting a discount not a damn scam.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_237",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"12 Arcasian Liras? That's more expensive than every other source around the region.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Budget >= 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_244",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_BudgetModifiersTotal >= 2 || RiziaDLC.Resources_Budget >= 8\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_252",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Fine. It's a deal.\"\n\n\"Fine. It's a deal.\" [-2 Budget per Turn for +1 Energy per Turn]"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_253",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Budget >= 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_257",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_BudgetModifiersTotal >= 2 || RiziaDLC.Resources_Budget >= 8\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_259",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Resources_BudgetModifiersTotal >= 2 || RiziaDLC.Resources_Budget >= 8)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"It is a discussion we must have.\"\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe sighed."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"And now that Rizia has gained our trust, it might be a possibility to reconsider certain agreements with Lespia -- provided that there is an alternative offer from our new partners.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_284",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"What of GRACE, Your Majesty?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I see.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_291",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I'd like to believe so. Apart from the incident we shall not speak of, your kingdom's actions have been more than reconciliatory.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_292",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"However, I also believe Rizia and Pales are natural partners. Our countries are politically and culturally the closest in Southern Merkopa -- maybe even the whole world.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_293",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe paused and gave me an intense stare, as if he was expecting me to cut in with an offer."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_297",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus_Italic\n\nI waited for him to speak.\n\nLet him continue."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_303",
+            "type": "customNode",
+            "data": {
+                "label": "(RiziaDLC.Diplomacy_Pales_NegotiatingPower >= 0 || RiziaDLC.Situation_Economy_AureusField_HighExtraction == true) && RiziaDLCIsolated.Turn07_Duke_AskedGRACE == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_308",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe sighed."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I've already told you before about what I think of them. But Lespia provides us with protection, technology and the know-how about kickstarting our own energy industries.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Then please let me offer you an alternative.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_327",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Unfortunately for the time being, you have to directly deal with Lespia for the energy prices.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_327",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Unfortunately for the time being, you have to directly deal with Lespia for the energy prices.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_330",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"What? Do you want me to censor history just because our guest finds it offensive?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_332",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Mr. Alvarez sent you to do his bidding and you agreed, did you not?\"\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_338",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You can still let go of your deal with them. You don't need to rely on Lespia any longer.\"\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_339",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHis face soured."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_343",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower >= 1 || RiziaDLC.Situation_Economy_AureusField_HighExtraction == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_347",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Well... Before I get there, I have to relay you some news.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_348",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe looked like he was going to say something but then stopped himself."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_352",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I've already told you before about what I think of them. But Lespia provides us with protection, technology and the know-how about kickstarting our own energy industries.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_352",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I've already told you before about what I think of them. But Lespia provides us with protection, technology and the know-how about kickstarting our own energy industries.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_353",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"What do you have in mind?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_354",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Economy_AureusField_Extractions == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_356",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Policy_Economy_AureusField_Extractions == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_360",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"And now that Rizia gained our trust, it might be a possibility to reconsider certain agreements with Lespia -- provided that there is an alternative offer from our new partners.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_361",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Well... Then let me relay you the news I was here for.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_362",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I am not, Your Grace. I believe we've cooperated enough already.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_367",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe sighed."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_370",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower >= 1 || RiziaDLC.Situation_Economy_AureusField_HighExtraction == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_372",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Pales_NegotiatingPower >= 1 || RiziaDLC.Situation_Economy_AureusField_HighExtraction == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_377",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Duke_PlayerHub]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_378",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Axel Reinhart: \"\"What of GRACE, Your Majesty?\"\"]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_379",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe stood up and shook my hand."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_381",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Rizia is a key member. Have you considered extending an invitation our way?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_383",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I do not support the membership of Pales into GRACE.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_386",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_AskedQueen_Pales_Grace == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_391",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Really? That's incredible news!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_395",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Interesting perspective.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_395",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Interesting perspective.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_398",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I don't think Pales belongs in GRACE.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_398",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I don't think Pales belongs in GRACE.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_406",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Oh, please, Your Majesty. You're saying that because you don't want us to be part of it.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_407",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Yes. We will bring it up to the members and initiate your application.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_409",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Yes. But I expect you to stop all of your partnerships with Lespia.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_410",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Thank you, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_411",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Alliance = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_412",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"It's time we stand together. I'm offering you a military alliance. Rizia can give you the protection you require, you don't need Lespia anymore.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_415",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"It's time we stand together. I'm offering you a military alliance. Rizia can give you the protection you require. You won't need Lespia anymore.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_416",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I envision a grander alliance that encompasses our neighbors in Southern Merkopa. We have to protect this region from encroaching world powers. If you and I work together, we can achieve this.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_419",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"What would this new alliance look like?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_420",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I thought you wanted to sway us away from Lespia. This could have been a way to offer us protection.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_420",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I thought you wanted to sway us away from Lespia. This could have been a way to offer us protection.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_420",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I thought you wanted to sway us away from Lespia. This could have been a way to offer us protection.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_421",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Which GRACE nation is going to help Pales if not Rizia? Do you think Beatrice gives a damn about what happens in your country?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_423",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I don't. It no longer is in the best interest of the nation.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_424",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"A military alliance, you say?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_425",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"This is a serious offer.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_426",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Diplomacy_PowerProjection_Average == true ||\\nRiziaDLC.Situation_Diplomacy_PowerProjection_Strong == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_431",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"That is a serious proposal, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_431",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"That is a serious proposal, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1250.0
+            }
+        },
+        {
+            "id": "node_431",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"That is a serious proposal, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_434",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Axel Reinhart: \"\"So, can I expect you to extend thi...\"]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_435",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Economy_AureusField_HighExtraction == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_437",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Situation_Economy_AureusField_HighExtraction == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_438",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Axel Reinhart: \"\"A military alliance, you say?\"\"]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_440",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I will be honest, Your Grace. I still wish to see Rizia and Pales reunited. And I believe it is possible with a bond of marriage.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_441",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Marriage == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_445",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"The thought of a Rizia-Pales reunion has certainly crossed my mind. And of course, a marriage between myself and Princess Vina would be the natural way to accomplish that.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_446",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe looked down and stroked his chin."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_447",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"So you have a better suggestion?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_448",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I'm afraid not. You brought this upon yourself.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_455",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Alliance = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_455",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Alliance = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_455",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Alliance = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_467",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Thank you, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_469",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"One that I would gladly accept!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_472",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"That's not all. I envision a grander alliance that encompasses our neighbors in Southern Merkopa. We have to protect this region from the encroaching world powers. Now as allies, we can build this together.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_477",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"We will, Your Majesty, but we cannot cut everything in an instant. We have to respect our current agreements.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_482",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Pales_NegotiatingPower >= 1 && RiziaDLCIsolated.Turn07_Duke_Marriage == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_485",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE == true && (RiziaDLCIsolated.Turn07_Duke_Alliance == false || RiziaDLCIsolated.Turn07_Duke_Marriage == false) \n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_485",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE == true && (RiziaDLCIsolated.Turn07_Duke_Alliance == false || RiziaDLCIsolated.Turn07_Duke_Marriage == false) \n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_491",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I think we've already discussed everything we possibly can.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_494",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"There's one more thing. Don't you think Rizia and Pales deserve a more... intimate connection?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_495",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Of course not! Relax, Axel. I will send your application.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_495",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Of course not! Relax, Axel. I will send your application.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_503",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Fine, Your Majesty. But I can only offer you money.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_504",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"You're still not seeing Pales as an equal partner, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_507",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Right.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_511",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Axel Reinhart: \"\"What of GRACE, Your Majesty?\"\"]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1500.0
+            }
+        },
+        {
+            "id": "node_512",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Until next time.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_513",
+            "type": "customNode",
+            "data": {
+                "label": "DukeJump_MadeADeal\n\nDukeJump_MadeADeal"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_514",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [DukeJump_MadeADeal]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_518",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"So, was there anything else you'd like to discuss?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_519",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE == true && (RiziaDLCIsolated.Turn07_Duke_Alliance == false || RiziaDLCIsolated.Turn07_Duke_Marriage == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_525",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Great. Then we can call it for today.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_529",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Homosexuality is a crime in this kingdom.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_535",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Absolutely not.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_536",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe laughed."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1250.0
+            }
+        },
+        {
+            "id": "node_537",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe laughed."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_541",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I have admired Princess Vina for some time now.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_541",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I have admired Princess Vina for some time now.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_546",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_548",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Out of the question.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_552",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Marrying the heir to the throne? That's quite a leap from energy agreements.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_555",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"This union would not only be a powerful symbol of reconciliation between our families, but a merging of our countries' destinies.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_556",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Rizia's destiny does not involve being ruled by the Reinharts.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_560",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I'm sure we can find solutions to any problem you had in mind. Just think about it.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_563",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I will not give the Rizian throne to a Valgish family.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_565",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"And what name will that be? Torhart? I'm open to compromise.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_570",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Of course, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_575",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"What is there to think about? You and my daughter shall be wed, and our kingdoms shall unite as one.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_576",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Forget about it, Duke Reinhart. I can already tell you my daughter isn't interested.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_578",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_Marriage = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_579",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Axel Reinhart: \"\"This union would not only be a pow...\"]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_580",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Axel Reinhart: \"\"Was there anything else you'd like...\"]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_581",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Thank you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_590",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"This is precisely why we have to work with them. They are not part of the CSP yet and we need them with us.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_592",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Leave that to me.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_593",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Budget -= 2;\\nRiziaDLC.Resources_Energy += 1\\n\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_602",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_607",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Diplomacy_Pales_MilitaryAlliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_612",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Diplomacy_PowerProjection_Strong == true ||\\nRiziaDLC.Situation_Diplomacy_PowerProjection_Overwhelming == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_612",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Diplomacy_PowerProjection_Strong == true ||\\nRiziaDLC.Situation_Diplomacy_PowerProjection_Overwhelming == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_612",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Diplomacy_PowerProjection_Strong == true ||\\nRiziaDLC.Situation_Diplomacy_PowerProjection_Overwhelming == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_618",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"As long as it's not a clear no, that's enough.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_618",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"As long as it's not a clear no, that's enough.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_619",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I understand.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_620",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE == false || RiziaDLCIsolated.Turn07_Duke_Alliance == false || RiziaDLCIsolated.Turn07_Duke_Marriage == false \n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_625",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I'm all ears.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_627",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I'm not willing to take that risk right now.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_631",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Amazing!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_634",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Fine. Fair enough.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_636",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Good to know.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_642",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Axel Reinhart: \"\"So, was there anything else you'd...\"]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_643",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I understand. Thank you, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_645",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I am open to re-discussing our agricultural imports from Rizia. If you can provide us our demands, we'll let go of our other partners and I'll agree to the Rizian prices.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_649",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Budget += 1\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_650",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_RD_Welfare_DecriminalizeHomosexuality == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_652",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Policy_RD_Welfare_DecriminalizeHomosexuality == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_654",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Relations_Pabel_Together == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_654",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Relations_Pabel_Together == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_654",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Relations_Pabel_Together == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_658",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"See you soon.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_659",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Axel Reinhart\");\\nRemoveConversant(\"Pabel Adria\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_663",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe grinned devilishly."
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_664",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I know such things are now condoned in your kingdom, Your Majesty, but you're not really my type.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_667",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Flattering, Your Majesty. But you're not really my type.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_669",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Don't worry, Your Majesty. I wasn't referring to you.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_670",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Relations_VinaManus_Approve == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_673",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"My daughter is already spoken for, Your Grace.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_678",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"Interesting. I don't see a ring on her finger.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_679",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"I've made a lot of proposals, Your Majesty. But never serious ones. Until now.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_680",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_681",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_UpInTheAir\", \"R_UpInTheAir_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_682",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE = true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_683",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I do not wish to discuss this further without my daughter's full consent. This is her decision to make, not mine.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_687",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Relations_VinaAxel_ProposedMarriage = true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_688",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_694",
+            "type": "customNode",
+            "data": {
+                "label": "Axel Reinhart\n\n\"That goes without saying.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_695",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe shrugged."
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_696",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Let's not go down this path, Your Grace. There are more modern ways of allying our nations.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_699",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duke_AskedGRACE == false && RiziaDLC.Diplomacy_Rumburg_NegotiatingPower > 0\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_703",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Diplomacy_Rumburg_NegotiatingPower >= 0 && RiziaDLCIsolated.Turn07_Duke_AskedGRACE == false\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_707",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_1334",
-            "source": "node_2",
-            "target": "node_1334",
+            "id": "e1_to_682",
+            "source": "node_1",
+            "target": "node_682",
             "type": "step"
         },
         {
-            "id": "e36_to_105",
-            "source": "node_36",
-            "target": "node_105",
+            "id": "e9_to_669",
+            "source": "node_9",
+            "target": "node_669",
             "type": "step"
         },
         {
-            "id": "e66_to_102",
-            "source": "node_66",
-            "target": "node_102",
+            "id": "e20_to_331",
+            "source": "node_20",
+            "target": "node_331",
             "type": "step"
         },
         {
-            "id": "e104_to_2",
-            "source": "node_104",
+            "id": "e34_to_651",
+            "source": "node_34",
+            "target": "node_651",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_655",
+            "source": "node_35",
+            "target": "node_655",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_660",
+            "source": "node_39",
+            "target": "node_660",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_205",
+            "source": "node_41",
+            "target": "node_205",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_121",
+            "source": "node_101",
+            "target": "node_121",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_180",
+            "source": "node_107",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_126",
+            "source": "node_112",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e128_to_184",
+            "source": "node_128",
+            "target": "node_184",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_164",
+            "source": "node_140",
+            "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e141_to_157",
+            "source": "node_141",
+            "target": "node_157",
+            "type": "step"
+        },
+        {
+            "id": "e144_to_418",
+            "source": "node_144",
+            "target": "node_418",
+            "type": "step"
+        },
+        {
+            "id": "e146_to_188",
+            "source": "node_146",
+            "target": "node_188",
+            "type": "step"
+        },
+        {
+            "id": "e148_to_171",
+            "source": "node_148",
+            "target": "node_171",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_495",
+            "source": "node_149",
+            "target": "node_495",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_218",
+            "source": "node_156",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_289",
+            "source": "node_158",
+            "target": "node_289",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_227",
+            "source": "node_160",
+            "target": "node_227",
+            "type": "step"
+        },
+        {
+            "id": "e162_to_293",
+            "source": "node_162",
+            "target": "node_293",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_355",
+            "source": "node_163",
+            "target": "node_355",
+            "type": "step"
+        },
+        {
+            "id": "e169_to_147",
+            "source": "node_169",
+            "target": "node_147",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_233",
+            "source": "node_172",
+            "target": "node_233",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_235",
+            "source": "node_176",
+            "target": "node_235",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_235",
+            "source": "node_178",
+            "target": "node_235",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_119",
+            "source": "node_181",
+            "target": "node_119",
+            "type": "step"
+        },
+        {
+            "id": "e183_to_126",
+            "source": "node_183",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e184_to_132",
+            "source": "node_184",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e186_to_416",
+            "source": "node_186",
+            "target": "node_416",
+            "type": "step"
+        },
+        {
+            "id": "e186_to_417",
+            "source": "node_186",
+            "target": "node_417",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_5",
+            "source": "node_193",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e213_to_60",
+            "source": "node_213",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e215_to_60",
+            "source": "node_215",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e220_to_216",
+            "source": "node_220",
+            "target": "node_216",
+            "type": "step"
+        },
+        {
+            "id": "e222_to_147",
+            "source": "node_222",
+            "target": "node_147",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_301",
+            "source": "node_224",
+            "target": "node_301",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_304",
+            "source": "node_225",
+            "target": "node_304",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_143",
+            "source": "node_226",
+            "target": "node_143",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_185",
+            "source": "node_226",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_442",
+            "source": "node_226",
+            "target": "node_442",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_445",
+            "source": "node_226",
+            "target": "node_445",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_163",
+            "source": "node_229",
+            "target": "node_163",
+            "type": "step"
+        },
+        {
+            "id": "e230_to_156",
+            "source": "node_230",
+            "target": "node_156",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_162",
+            "source": "node_231",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e232_to_162",
+            "source": "node_232",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e236_to_310",
+            "source": "node_236",
+            "target": "node_310",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_318",
+            "source": "node_237",
+            "target": "node_318",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_595",
+            "source": "node_240",
+            "target": "node_595",
+            "type": "step"
+        },
+        {
+            "id": "e244_to_594",
+            "source": "node_244",
+            "target": "node_594",
+            "type": "step"
+        },
+        {
+            "id": "e252_to_333",
+            "source": "node_252",
+            "target": "node_333",
+            "type": "step"
+        },
+        {
+            "id": "e253_to_595",
+            "source": "node_253",
+            "target": "node_595",
+            "type": "step"
+        },
+        {
+            "id": "e257_to_594",
+            "source": "node_257",
+            "target": "node_594",
+            "type": "step"
+        },
+        {
+            "id": "e259_to_253",
+            "source": "node_259",
+            "target": "node_253",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_321",
+            "source": "node_274",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_319",
+            "source": "node_278",
+            "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_358",
+            "source": "node_283",
+            "target": "node_358",
+            "type": "step"
+        },
+        {
+            "id": "e284_to_349",
+            "source": "node_284",
+            "target": "node_349",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_300",
+            "source": "node_285",
+            "target": "node_300",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_382",
+            "source": "node_286",
+            "target": "node_382",
+            "type": "step"
+        },
+        {
+            "id": "e291_to_161",
+            "source": "node_291",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e292_to_162",
+            "source": "node_292",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e293_to_281",
+            "source": "node_293",
+            "target": "node_281",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_226",
+            "source": "node_297",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e303_to_287",
+            "source": "node_303",
+            "target": "node_287",
+            "type": "step"
+        },
+        {
+            "id": "e308_to_285",
+            "source": "node_308",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_249",
+            "source": "node_318",
+            "target": "node_249",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_374",
+            "source": "node_325",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e327_to_371",
+            "source": "node_327",
+            "target": "node_371",
+            "type": "step"
+        },
+        {
+            "id": "e327_to_375",
+            "source": "node_327",
+            "target": "node_375",
+            "type": "step"
+        },
+        {
+            "id": "e330_to_378",
+            "source": "node_330",
+            "target": "node_378",
+            "type": "step"
+        },
+        {
+            "id": "e332_to_34",
+            "source": "node_332",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e338_to_266",
+            "source": "node_338",
+            "target": "node_266",
+            "type": "step"
+        },
+        {
+            "id": "e339_to_273",
+            "source": "node_339",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e343_to_266",
+            "source": "node_343",
+            "target": "node_266",
+            "type": "step"
+        },
+        {
+            "id": "e347_to_370",
+            "source": "node_347",
+            "target": "node_370",
+            "type": "step"
+        },
+        {
+            "id": "e348_to_169",
+            "source": "node_348",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e352_to_364",
+            "source": "node_352",
+            "target": "node_364",
+            "type": "step"
+        },
+        {
+            "id": "e352_to_365",
+            "source": "node_352",
+            "target": "node_365",
+            "type": "step"
+        },
+        {
+            "id": "e353_to_322",
+            "source": "node_353",
+            "target": "node_322",
+            "type": "step"
+        },
+        {
+            "id": "e354_to_379",
+            "source": "node_354",
+            "target": "node_379",
+            "type": "step"
+        },
+        {
+            "id": "e356_to_230",
+            "source": "node_356",
+            "target": "node_230",
+            "type": "step"
+        },
+        {
+            "id": "e360_to_284",
+            "source": "node_360",
+            "target": "node_284",
+            "type": "step"
+        },
+        {
+            "id": "e361_to_294",
+            "source": "node_361",
+            "target": "node_294",
+            "type": "step"
+        },
+        {
+            "id": "e362_to_169",
+            "source": "node_362",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e367_to_285",
+            "source": "node_367",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e370_to_380",
+            "source": "node_370",
+            "target": "node_380",
+            "type": "step"
+        },
+        {
+            "id": "e372_to_354",
+            "source": "node_372",
+            "target": "node_354",
+            "type": "step"
+        },
+        {
+            "id": "e377_to_370",
+            "source": "node_377",
+            "target": "node_370",
+            "type": "step"
+        },
+        {
+            "id": "e378_to_226",
+            "source": "node_378",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e379_to_285",
+            "source": "node_379",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e381_to_513",
+            "source": "node_381",
+            "target": "node_513",
+            "type": "step"
+        },
+        {
+            "id": "e383_to_393",
+            "source": "node_383",
+            "target": "node_393",
+            "type": "step"
+        },
+        {
+            "id": "e386_to_394",
+            "source": "node_386",
+            "target": "node_394",
+            "type": "step"
+        },
+        {
+            "id": "e391_to_385",
+            "source": "node_391",
+            "target": "node_385",
+            "type": "step"
+        },
+        {
+            "id": "e395_to_408",
+            "source": "node_395",
+            "target": "node_408",
+            "type": "step"
+        },
+        {
+            "id": "e395_to_409",
+            "source": "node_395",
+            "target": "node_409",
+            "type": "step"
+        },
+        {
+            "id": "e398_to_414",
+            "source": "node_398",
+            "target": "node_414",
+            "type": "step"
+        },
+        {
+            "id": "e398_to_415",
+            "source": "node_398",
+            "target": "node_415",
+            "type": "step"
+        },
+        {
+            "id": "e406_to_421",
+            "source": "node_406",
+            "target": "node_421",
+            "type": "step"
+        },
+        {
+            "id": "e407_to_424",
+            "source": "node_407",
+            "target": "node_424",
+            "type": "step"
+        },
+        {
+            "id": "e409_to_455",
+            "source": "node_409",
+            "target": "node_455",
+            "type": "step"
+        },
+        {
+            "id": "e410_to_478",
+            "source": "node_410",
+            "target": "node_478",
+            "type": "step"
+        },
+        {
+            "id": "e411_to_479",
+            "source": "node_411",
+            "target": "node_479",
+            "type": "step"
+        },
+        {
+            "id": "e412_to_427",
+            "source": "node_412",
+            "target": "node_427",
+            "type": "step"
+        },
+        {
+            "id": "e415_to_447",
+            "source": "node_415",
+            "target": "node_447",
+            "type": "step"
+        },
+        {
+            "id": "e416_to_439",
+            "source": "node_416",
+            "target": "node_439",
+            "type": "step"
+        },
+        {
+            "id": "e419_to_456",
+            "source": "node_419",
+            "target": "node_456",
+            "type": "step"
+        },
+        {
+            "id": "e420_to_583",
+            "source": "node_420",
+            "target": "node_583",
+            "type": "step"
+        },
+        {
+            "id": "e420_to_584",
+            "source": "node_420",
+            "target": "node_584",
+            "type": "step"
+        },
+        {
+            "id": "e420_to_585",
+            "source": "node_420",
+            "target": "node_585",
+            "type": "step"
+        },
+        {
+            "id": "e421_to_454",
+            "source": "node_421",
+            "target": "node_454",
+            "type": "step"
+        },
+        {
+            "id": "e423_to_402",
+            "source": "node_423",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e424_to_451",
+            "source": "node_424",
+            "target": "node_451",
+            "type": "step"
+        },
+        {
+            "id": "e425_to_412",
+            "source": "node_425",
+            "target": "node_412",
+            "type": "step"
+        },
+        {
+            "id": "e426_to_470",
+            "source": "node_426",
+            "target": "node_470",
+            "type": "step"
+        },
+        {
+            "id": "e431_to_516",
+            "source": "node_431",
+            "target": "node_516",
+            "type": "step"
+        },
+        {
+            "id": "e431_to_517",
+            "source": "node_431",
+            "target": "node_517",
+            "type": "step"
+        },
+        {
+            "id": "e431_to_518",
+            "source": "node_431",
+            "target": "node_518",
+            "type": "step"
+        },
+        {
+            "id": "e434_to_683",
+            "source": "node_434",
+            "target": "node_683",
+            "type": "step"
+        },
+        {
+            "id": "e435_to_395",
+            "source": "node_435",
+            "target": "node_395",
+            "type": "step"
+        },
+        {
+            "id": "e437_to_499",
+            "source": "node_437",
+            "target": "node_499",
+            "type": "step"
+        },
+        {
+            "id": "e438_to_498",
+            "source": "node_438",
+            "target": "node_498",
+            "type": "step"
+        },
+        {
+            "id": "e440_to_419",
+            "source": "node_440",
+            "target": "node_419",
+            "type": "step"
+        },
+        {
+            "id": "e441_to_664",
+            "source": "node_441",
+            "target": "node_664",
+            "type": "step"
+        },
+        {
+            "id": "e445_to_508",
+            "source": "node_445",
+            "target": "node_508",
+            "type": "step"
+        },
+        {
+            "id": "e446_to_580",
+            "source": "node_446",
+            "target": "node_580",
+            "type": "step"
+        },
+        {
+            "id": "e447_to_579",
+            "source": "node_447",
+            "target": "node_579",
+            "type": "step"
+        },
+        {
+            "id": "e448_to_454",
+            "source": "node_448",
+            "target": "node_454",
+            "type": "step"
+        },
+        {
+            "id": "e455_to_497",
+            "source": "node_455",
+            "target": "node_497",
+            "type": "step"
+        },
+        {
+            "id": "e455_to_436",
+            "source": "node_455",
+            "target": "node_436",
+            "type": "step"
+        },
+        {
+            "id": "e455_to_496",
+            "source": "node_455",
+            "target": "node_496",
+            "type": "step"
+        },
+        {
+            "id": "e467_to_226",
+            "source": "node_467",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e469_to_380",
+            "source": "node_469",
+            "target": "node_380",
+            "type": "step"
+        },
+        {
+            "id": "e472_to_471",
+            "source": "node_472",
+            "target": "node_471",
+            "type": "step"
+        },
+        {
+            "id": "e477_to_515",
+            "source": "node_477",
+            "target": "node_515",
+            "type": "step"
+        },
+        {
+            "id": "e482_to_149",
+            "source": "node_482",
+            "target": "node_149",
+            "type": "step"
+        },
+        {
+            "id": "e485_to_700",
+            "source": "node_485",
+            "target": "node_700",
+            "type": "step"
+        },
+        {
+            "id": "e485_to_493",
+            "source": "node_485",
+            "target": "node_493",
+            "type": "step"
+        },
+        {
+            "id": "e491_to_226",
+            "source": "node_491",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e494_to_469",
+            "source": "node_494",
+            "target": "node_469",
+            "type": "step"
+        },
+        {
+            "id": "e495_to_534",
+            "source": "node_495",
+            "target": "node_534",
+            "type": "step"
+        },
+        {
+            "id": "e495_to_531",
+            "source": "node_495",
+            "target": "node_531",
+            "type": "step"
+        },
+        {
+            "id": "e503_to_411",
+            "source": "node_503",
+            "target": "node_411",
+            "type": "step"
+        },
+        {
+            "id": "e504_to_646",
+            "source": "node_504",
+            "target": "node_646",
+            "type": "step"
+        },
+        {
+            "id": "e507_to_485",
+            "source": "node_507",
+            "target": "node_485",
+            "type": "step"
+        },
+        {
+            "id": "e511_to_309",
+            "source": "node_511",
+            "target": "node_309",
+            "type": "step"
+        },
+        {
+            "id": "e512_to_285",
+            "source": "node_512",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e513_to_681",
+            "source": "node_513",
+            "target": "node_681",
+            "type": "step"
+        },
+        {
+            "id": "e514_to_481",
+            "source": "node_514",
+            "target": "node_481",
+            "type": "step"
+        },
+        {
+            "id": "e518_to_419",
+            "source": "node_518",
+            "target": "node_419",
+            "type": "step"
+        },
+        {
+            "id": "e519_to_704",
+            "source": "node_519",
+            "target": "node_704",
+            "type": "step"
+        },
+        {
+            "id": "e525_to_226",
+            "source": "node_525",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e529_to_380",
+            "source": "node_529",
+            "target": "node_380",
+            "type": "step"
+        },
+        {
+            "id": "e535_to_542",
+            "source": "node_535",
+            "target": "node_542",
+            "type": "step"
+        },
+        {
+            "id": "e536_to_550",
+            "source": "node_536",
+            "target": "node_550",
+            "type": "step"
+        },
+        {
+            "id": "e537_to_670",
+            "source": "node_537",
+            "target": "node_670",
+            "type": "step"
+        },
+        {
+            "id": "e541_to_671",
+            "source": "node_541",
+            "target": "node_671",
+            "type": "step"
+        },
+        {
+            "id": "e541_to_553",
+            "source": "node_541",
+            "target": "node_553",
+            "type": "step"
+        },
+        {
+            "id": "e546_to_544",
+            "source": "node_546",
+            "target": "node_544",
+            "type": "step"
+        },
+        {
+            "id": "e548_to_541",
+            "source": "node_548",
+            "target": "node_541",
+            "type": "step"
+        },
+        {
+            "id": "e552_to_519",
+            "source": "node_552",
+            "target": "node_519",
+            "type": "step"
+        },
+        {
+            "id": "e555_to_680",
+            "source": "node_555",
+            "target": "node_680",
+            "type": "step"
+        },
+        {
+            "id": "e556_to_684",
+            "source": "node_556",
+            "target": "node_684",
+            "type": "step"
+        },
+        {
+            "id": "e560_to_695",
+            "source": "node_560",
+            "target": "node_695",
+            "type": "step"
+        },
+        {
+            "id": "e563_to_572",
+            "source": "node_563",
+            "target": "node_572",
+            "type": "step"
+        },
+        {
+            "id": "e565_to_570",
+            "source": "node_565",
+            "target": "node_570",
+            "type": "step"
+        },
+        {
+            "id": "e570_to_574",
+            "source": "node_570",
+            "target": "node_574",
+            "type": "step"
+        },
+        {
+            "id": "e575_to_697",
+            "source": "node_575",
+            "target": "node_697",
+            "type": "step"
+        },
+        {
+            "id": "e576_to_693",
+            "source": "node_576",
+            "target": "node_693",
+            "type": "step"
+        },
+        {
+            "id": "e578_to_696",
+            "source": "node_578",
+            "target": "node_696",
+            "type": "step"
+        },
+        {
+            "id": "e579_to_446",
+            "source": "node_579",
+            "target": "node_446",
+            "type": "step"
+        },
+        {
+            "id": "e580_to_556",
+            "source": "node_580",
+            "target": "node_556",
+            "type": "step"
+        },
+        {
+            "id": "e581_to_485",
+            "source": "node_581",
+            "target": "node_485",
+            "type": "step"
+        },
+        {
+            "id": "e590_to_608",
+            "source": "node_590",
+            "target": "node_608",
+            "type": "step"
+        },
+        {
+            "id": "e592_to_608",
+            "source": "node_592",
+            "target": "node_608",
+            "type": "step"
+        },
+        {
+            "id": "e593_to_608",
+            "source": "node_593",
+            "target": "node_608",
+            "type": "step"
+        },
+        {
+            "id": "e602_to_519",
+            "source": "node_602",
+            "target": "node_519",
+            "type": "step"
+        },
+        {
+            "id": "e607_to_285",
+            "source": "node_607",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e612_to_631",
+            "source": "node_612",
+            "target": "node_631",
+            "type": "step"
+        },
+        {
+            "id": "e612_to_628",
+            "source": "node_612",
+            "target": "node_628",
+            "type": "step"
+        },
+        {
+            "id": "e612_to_629",
+            "source": "node_612",
+            "target": "node_629",
+            "type": "step"
+        },
+        {
+            "id": "e618_to_638",
+            "source": "node_618",
+            "target": "node_638",
+            "type": "step"
+        },
+        {
+            "id": "e618_to_637",
+            "source": "node_618",
+            "target": "node_637",
+            "type": "step"
+        },
+        {
+            "id": "e619_to_643",
+            "source": "node_619",
+            "target": "node_643",
+            "type": "step"
+        },
+        {
+            "id": "e620_to_643",
+            "source": "node_620",
+            "target": "node_643",
+            "type": "step"
+        },
+        {
+            "id": "e625_to_644",
+            "source": "node_625",
+            "target": "node_644",
+            "type": "step"
+        },
+        {
+            "id": "e627_to_226",
+            "source": "node_627",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e631_to_630",
+            "source": "node_631",
+            "target": "node_630",
+            "type": "step"
+        },
+        {
+            "id": "e634_to_476",
+            "source": "node_634",
+            "target": "node_476",
+            "type": "step"
+        },
+        {
+            "id": "e636_to_519",
+            "source": "node_636",
+            "target": "node_519",
+            "type": "step"
+        },
+        {
+            "id": "e642_to_519",
+            "source": "node_642",
+            "target": "node_519",
+            "type": "step"
+        },
+        {
+            "id": "e643_to_519",
+            "source": "node_643",
+            "target": "node_519",
+            "type": "step"
+        },
+        {
+            "id": "e645_to_380",
+            "source": "node_645",
+            "target": "node_380",
+            "type": "step"
+        },
+        {
+            "id": "e649_to_505",
+            "source": "node_649",
+            "target": "node_505",
+            "type": "step"
+        },
+        {
+            "id": "e650_to_411",
+            "source": "node_650",
+            "target": "node_411",
+            "type": "step"
+        },
+        {
+            "id": "e652_to_35",
+            "source": "node_652",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e654_to_36",
+            "source": "node_654",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e654_to_37",
+            "source": "node_654",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e654_to_38",
+            "source": "node_654",
+            "target": "node_38",
+            "type": "step"
+        },
+        {
+            "id": "e658_to_39",
+            "source": "node_658",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e659_to_39",
+            "source": "node_659",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e663_to_668",
+            "source": "node_663",
+            "target": "node_668",
+            "type": "step"
+        },
+        {
+            "id": "e664_to_661",
+            "source": "node_664",
+            "target": "node_661",
+            "type": "step"
+        },
+        {
+            "id": "e667_to_579",
+            "source": "node_667",
+            "target": "node_579",
+            "type": "step"
+        },
+        {
+            "id": "e669_to_7",
+            "source": "node_669",
+            "target": "node_7",
+            "type": "step"
+        },
+        {
+            "id": "e670_to_543",
+            "source": "node_670",
+            "target": "node_543",
+            "type": "step"
+        },
+        {
+            "id": "e673_to_555",
+            "source": "node_673",
+            "target": "node_555",
+            "type": "step"
+        },
+        {
+            "id": "e678_to_556",
+            "source": "node_678",
+            "target": "node_556",
+            "type": "step"
+        },
+        {
+            "id": "e679_to_556",
+            "source": "node_679",
+            "target": "node_556",
+            "type": "step"
+        },
+        {
+            "id": "e680_to_556",
+            "source": "node_680",
+            "target": "node_556",
+            "type": "step"
+        },
+        {
+            "id": "e681_to_2",
+            "source": "node_681",
             "target": "node_2",
             "type": "step"
         },
         {
-            "id": "e106_to_2",
-            "source": "node_106",
-            "target": "node_2",
+            "id": "e682_to_3",
+            "source": "node_682",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e683_to_435",
+            "source": "node_683",
+            "target": "node_435",
+            "type": "step"
+        },
+        {
+            "id": "e687_to_570",
+            "source": "node_687",
+            "target": "node_570",
+            "type": "step"
+        },
+        {
+            "id": "e688_to_582",
+            "source": "node_688",
+            "target": "node_582",
+            "type": "step"
+        },
+        {
+            "id": "e694_to_688",
+            "source": "node_694",
+            "target": "node_688",
+            "type": "step"
+        },
+        {
+            "id": "e695_to_688",
+            "source": "node_695",
+            "target": "node_688",
+            "type": "step"
+        },
+        {
+            "id": "e696_to_582",
+            "source": "node_696",
+            "target": "node_582",
+            "type": "step"
+        },
+        {
+            "id": "e699_to_696",
+            "source": "node_699",
+            "target": "node_696",
+            "type": "step"
+        },
+        {
+            "id": "e703_to_490",
+            "source": "node_703",
+            "target": "node_490",
+            "type": "step"
+        },
+        {
+            "id": "e707_to_524",
+            "source": "node_707",
+            "target": "node_524",
             "type": "step"
         }
     ]

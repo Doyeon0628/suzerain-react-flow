@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_12",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...started writing a memoir.\n\n"
+                "label": "output\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -12,10 +12,10 @@
             }
         },
         {
-            "id": "node_49",
+            "id": "node_9",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Epilogue_Retirement_Partying == true\n\nnan"
+                "label": "Narrator\n\n<b><size=26>2,2 million</size></b> people found a job."
             },
             "position": {
                 "x": 0,
@@ -23,10 +23,10 @@
             }
         },
         {
-            "id": "node_54",
+            "id": "node_18",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Relations_Monica_Divorce == false && BaseGame.Relations_Monica_DivorceAfterElection == false)\n\nnan"
+                "label": "Narrator\n\n<b><size=26>9,822</size></b> people died due to complications related to Polio."
             },
             "position": {
                 "x": 0,
@@ -34,10 +34,87 @@
             }
         },
         {
-            "id": "node_55",
+            "id": "node_31",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nYour hard-partying lifestyle began to take its toll. Strung out and losing money fast, you...\n\n1970|Benfi"
+                "label": "Narrator\n\nDuring street clashes <b><size=26>52</size></b> police officers and <b><size=26>228</size></b> protesters were killed, <b><size=26>8,821</size></b> protesters were arrested."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDuring street clashes <b><size=26>39</size></b> police officers and <b><size=26>109</size></b> protesters were killed, <b><size=26>11,823</size></b> protesters were arrested."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_36",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>304,754</size></b> people lost their jobs."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Welfare_QualityRuralHealthServices == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Situation_Welfare_QualityRuralHealthServices == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Unrest_Peaceful_Happened == true && BaseGame.Turn09_UnrestStopped == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_53",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Unrest_Peaceful_Happened == true && BaseGame.Turn09_UnrestStopped == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_DetentionWithoutTrial == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -48,7 +125,7 @@
             "id": "node_59",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Epilogue_Retirement_Memoir == true\n\nnan"
+                "label": "!(BaseGame.Reform_EmergencyDecree_SuspendedProtests == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -56,10 +133,10 @@
             }
         },
         {
-            "id": "node_61",
+            "id": "node_65",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGameIsolated.Epilogue_Retirement_Memoir == true)\n\nnan"
+                "label": "!(BaseGame.Reform_Autocrat_Path == true && BaseGame.Decision_Turn08_ExtendEmergency_Extend == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -67,10 +144,10 @@
             }
         },
         {
-            "id": "node_62",
+            "id": "node_69",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nAfter years of publication delays, your memoir, titled \"Suzerain\", was finally out. \\n\\nLauded for its unflinching honesty, it became an instant best-seller.\\n\\nUpon reading it, Franc, by now living on a farm in Bergia with his wife and son, reached out to you for reconciliation.\n\n1970|Benfi"
+                "label": "BaseGame.Situation_Order_CrimeWave == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -78,10 +155,10 @@
             }
         },
         {
-            "id": "node_63",
+            "id": "node_79",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nYour teaching career, though unglamorous, offered you a welcome anonymity. \\n\\nYou luxuriated in your new life as a civilian as your presidency became a footnote in Sordish history.\\n\\nDuring the school holidays you would visit Franc, by now living on a farm in Bergia with his wife and son.\\n\\nYour only regret was that you...\n\n1970|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+                "label": "Narrator\n\nDuring protests, <b><size=26>2 billion SR</size></b> worth public property damage was done and <b><size=26>821</size></b> arrests were made."
             },
             "position": {
                 "x": 0,
@@ -89,318 +166,10 @@
             }
         },
         {
-            "id": "node_64",
+            "id": "node_128",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Relations_Franc_Opinion > 2\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Relations_Franc_Opinion < -2)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Relations_Franc_Opinion < -2)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYou and Monica spent the swinging '60s as one of Sordland's premier power couples, hobnobbing with the elite as you advanced her cause together.\\n\\nFranc, by now living on a farm in Bergia with his wife and son, occasionally came for visits.\n\n1970|Benfi"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...never got back into politics."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...never accomplished your presidential goals."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...actually, you had no regrets."
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYou lived out the rest of your days in wealth and comfort by the seaside. Your only regret was that you...\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter receiving multiple lifetime achievement awards for her women's rights work, Monica decided to finally take a break. The two of you spent the rest of your days in leisure by the seaside.\\n\\nYour only regret was that you...\n\n1980|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...never accomplished your presidential goals."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...actually, you had no regrets."
-            },
-            "position": {
-                "x": 270,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour book, titled \"Raynespotting: How I Quit Both The Presidency And Drugs\", was an instant best-seller, lauded for its unflinching honesty.\\n\\nYour fame catapulted you back into Sordland's elite circles, though you were careful not to overdo it with the parties this time around.\\n\\nYou spent the rest of your days by the seaside, surrounded by sycophants and a few true friends. Your only regret was that you...\n\n1975|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 540,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...never got back into politics."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_92",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...actually, you had no regrets."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_DivorceAfterElection == true\n\nnan"
-            },
-            "position": {
-                "x": 270,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Epilogue_Election_LateRetire == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Epilogue_Election_Forcedout == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nFranc, now living on a farm in Bergia with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace in the countryside. Your only regret was that you...\n\n1975|Bergia\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_105",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Epilogue_Election_Forcedout == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Epilogue_Election_Forcedout == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Epilogue_Election_Forcedout == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_118",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_122",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour teaching career, though unglamorous, offered you a welcome anonymity. \\n\\nYou luxuriated in your new life as a civilian as your presidency became a footnote in Sordish history.\\n\\nDuring the school holidays you would visit Franc, by now living on a farm in Bergia with his wife and son.\\n\\nYour only regret was that you...\n\n1970|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_123",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYou and Monica spent the swinging '60s as one of Sordland's premier power couples, hobnobbing with the elite as you advanced her cause together.\\n\\nEventually you managed to reconcile with Franc, by now living in the Arcasian suburbs with his wife and son.\n\n1970|Benfi"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_130",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYou and Monica spent the swinging '60s as one of Sordland's premier power couples, hobnobbing with the elite as you advanced her cause together.\\n\\nEventually you managed to reconcile with Franc, by now living on a commune in United Contana with his wife and son.\n\n1970|Benfi"
+                "label": "!(BaseGame.Policy_Order_SecretStatePolice == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -411,7 +180,7 @@
             "id": "node_131",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
+                "label": "!(BaseGame.Turn09_A_Investigation_OldGuard_GovernmentOfficialsPurge == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -419,142 +188,10 @@
             }
         },
         {
-            "id": "node_137",
+            "id": "node_167",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nYou and Monica spent the swinging '60s as one of Sordland's premier power couples, hobnobbing with the elite as you advanced her cause together.\\n\\nFranc, by now living in the Arcasian suburbs with his wife and son, occasionally came for visits.\n\n1970|Benfi"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_145",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter years of publication delays, your memoir, titled \"Suzerain\", was finally out. \\n\\nLauded for its unflinching honesty, it became an instant best-seller.\\n\\nUpon reading it, Franc, by now living in the Arcasian suburbs with his wife and son, reached out to you for reconciliation.\n\n1970|Benfi"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_146",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter years of publication delays, your memoir, titled \"Suzerain\", was finally out. \\n\\nLauded for its unflinching honesty, it became an instant best-seller.\\n\\nUpon reading it, Franc, by now living on a commune in United Contana with his wife and son, reached out to you for reconciliation.\n\n1970|Benfi"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_147",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_153",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour teaching career, though unglamorous, offered you a welcome anonymity. \\n\\nYou luxuriated in your new life as a civilian as your presidency became a footnote in Sordish history.\\n\\nDuring the school holidays you would visit Franc, by now living in the Arcasian suburbs with his wife and son.\\n\\nYour only regret was that you...\n\n1970|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_154",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour teaching career, though unglamorous, offered you a welcome anonymity. \\n\\nYou luxuriated in your new life as a civilian as your presidency became a footnote in Sordish history.\\n\\nDuring the school holidays you would visit Franc, by now living on a commune in United Contana with his wife and son.\\n\\nYour only regret was that you...\n\n1970|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_155",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour teaching career, though unglamorous, offered you a welcome anonymity. \\n\\nYou luxuriated in your new life as a civilian as your presidency became a footnote in Sordish history.\\n\\nDuring the school holidays you would visit Franc, by now living in the Arcasian suburbs with his wife and son.\\n\\nYour only regret was that you...\n\n1970|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour teaching career, though unglamorous, offered you a welcome anonymity. \\n\\nYou luxuriated in your new life as a civilian as your presidency became a footnote in Sordish history.\\n\\nDuring the school holidays you would visit Franc, by now living on a commune in United Contana with his wife and son.\\n\\nYour only regret was that you...\n\n1970|Benfi\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_163",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_169",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nFranc, now living in the Arcasian suburbs with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace. Your only regret was that you...\n\n1975|Arcasia\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_170",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nFranc, now living on a commune in United Contana with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace in the countryside. Your only regret was that you...\n\n1975|United Contana\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
+                "label": "Narrator\n\n<b><size=26>13,142</size></b> businesses were founded."
             },
             "position": {
                 "x": 0,
@@ -565,7 +202,7 @@
             "id": "node_171",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
+                "label": "Narrator\n\n<b><size=26>1,340</size></b> women won a domestic violence case at the courts."
             },
             "position": {
                 "x": 0,
@@ -573,87 +210,153 @@
             }
         },
         {
-            "id": "node_177",
+            "id": "node_173",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nFranc, now living in the Arcasian suburbs with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace. Your only regret was that you...\n\n1975|Arcasia\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
+                "label": "BaseGame.Turn06_PSnW_Healthcare_Privatization == true\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_178",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nFranc, now living on commune in United Contana with his wife and son, put aside whatever ill feelings he might have had about you and welcomed you with open arms.\\n\\nYou became a doting grandfather.\\n\\nYou spent the rest of your days in peace in the countryside. Your only regret was that you...\n\n1975|United Contana\n\nUnlockSteamAchievement(Epilogue_ElectionRetirement); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_monicaspeech\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_180",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_sordishgoat\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         },
         {
             "id": "node_181",
             "type": "customNode",
             "data": {
-                "label": "PrologueImage(\"pe_blue\");\n\nnan"
+                "label": "!(BaseGame.Turn06_PSnW_Healthcare_Privatization == true && BaseGame.Turn04_PSnW_Education_Privatization == true)\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_182",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_183",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_blue\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
             "id": "node_184",
             "type": "customNode",
             "data": {
-                "label": "PrologueImage(\"\");\n\nnan"
+                "label": "!(BaseGame.SordishStateCorporation_Privatization + BaseGame.NedamMiningGroup_Privatization >= 1)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_185",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.SordishStateCorporation_Privatization + BaseGame.NedamMiningGroup_Privatization >= 3\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.SordishStateCorporation_Privatization + BaseGame.NedamMiningGroup_Privatization >= 6\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_195",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.SordlandArmySize == 1 && BaseGame.Ending_RumburgWarLost == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_203",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.SordlandArmySize == 2 && BaseGame.Ending_RumburgWarLost == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_207",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_Military_ReduceSize == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_212",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Situation_Military_GreenGenerals == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_217",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>99,332</size></b> soldiers died during the Rumburg Invasion."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_218",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>156,332</size></b> soldiers died during the Rumburg Invasion."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_219",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>189,229</size></b> soldiers died during the Rumburg Invasion."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_220",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>433,165</size></b> soldiers died during the Rumburg Invasion."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_221",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>86,450</size></b> soldiers became unemployed."
             },
             "position": {
                 "x": 0,
@@ -661,381 +364,661 @@
             }
         },
         {
-            "id": "node_185",
+            "id": "node_222",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>6,894</size></b> military personnel were forcibly retired."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>102,345</size></b> conscripts joined the work force."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>1,314</size></b> conscripts died in training."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Economy_LargeBusiness_CreateJobs == true && BaseGame.Turn09_EnT_SordishRecovery == true && BaseGame.Reform_PresiPower_Weak_FairTradeCommission == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_227",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Situation_Economy_LargeBusiness_CreateJobs == true && BaseGame.Turn09_EnT_SordishRecovery == true && BaseGame.Reform_PresiPower_Weak_FairTradeCommission == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_237",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>81,340</size></b> companies declared bankruptcy."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_239",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nForeign investors have pulled out around <b><size=26>3 billion</size></b> SR from the Sordish market."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.HeartOfSordland_Nationalization + BaseGame.BergiaSteel_Nationalization >= 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>5,200</size></b> state employees lost their jobs while 3 oligarchs obtained 20% of the Sordish economy."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_260",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>5,143</size></b> news articles were censored."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_261",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>1,143</size></b> news articles were altered."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_262",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_EnT_SordishDepression == true && (BaseGame.EconomyAction_PrintMoney == true || BaseGame.Turn09_EnT_HyperInflation == true || BaseGame.Situation_Economy_DebtCrisis == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_268",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Bill_Turn04_WorkersRights_Signed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>2,5 million</size></b> workers benefitted from minimum wage."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>110,467</size></b> people benefitted from state housing."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nPrice of bread increased from 0,5 SR to <b><size=26>4 SR.</size></b>"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_RumburgWarWin == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>2,2 million</size></b> civilians have died in the war."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_WorldWar == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>63 million</size></b> people died during the world war."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true && BaseGame.Turn09_EnT_SordishRecovery == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_289",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDuring the coup <b><size=26>33</size></b> soldiers and <b><size=26>1,430</size></b> protesters were killed, <b><size=26>146,399</size></b> protesters were detained."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_290",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Joined_ATO == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_295",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Joined_CSP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>998</size></b> CSP officers arrived in Sordland."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>86,391</size></b> government welfare payments bounced."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 750
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e12_to_97",
-            "source": "node_12",
-            "target": "node_97",
+            "id": "e1_to_283",
+            "source": "node_1",
+            "target": "node_283",
             "type": "step"
         },
         {
-            "id": "e49_to_97",
-            "source": "node_49",
-            "target": "node_97",
+            "id": "e9_to_263",
+            "source": "node_9",
+            "target": "node_263",
             "type": "step"
         },
         {
-            "id": "e54_to_184",
-            "source": "node_54",
-            "target": "node_184",
+            "id": "e18_to_38",
+            "source": "node_18",
+            "target": "node_38",
             "type": "step"
         },
         {
-            "id": "e55_to_183",
-            "source": "node_55",
-            "target": "node_183",
-            "type": "step"
-        },
-        {
-            "id": "e59_to_104",
-            "source": "node_59",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e61_to_181",
-            "source": "node_61",
-            "target": "node_181",
-            "type": "step"
-        },
-        {
-            "id": "e62_to_182",
-            "source": "node_62",
-            "target": "node_182",
-            "type": "step"
-        },
-        {
-            "id": "e63_to_79",
-            "source": "node_63",
-            "target": "node_79",
-            "type": "step"
-        },
-        {
-            "id": "e64_to_83",
-            "source": "node_64",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e70_to_140",
-            "source": "node_70",
-            "target": "node_140",
-            "type": "step"
-        },
-        {
-            "id": "e75_to_124",
-            "source": "node_75",
-            "target": "node_124",
-            "type": "step"
-        },
-        {
-            "id": "e76_to_132",
-            "source": "node_76",
-            "target": "node_132",
-            "type": "step"
-        },
-        {
-            "id": "e80_to_112",
-            "source": "node_80",
-            "target": "node_112",
-            "type": "step"
-        },
-        {
-            "id": "e81_to_185",
-            "source": "node_81",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e82_to_185",
-            "source": "node_82",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e83_to_185",
-            "source": "node_83",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e85_to_108",
-            "source": "node_85",
-            "target": "node_108",
-            "type": "step"
-        },
-        {
-            "id": "e87_to_185",
-            "source": "node_87",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e88_to_185",
-            "source": "node_88",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e89_to_185",
-            "source": "node_89",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e91_to_185",
-            "source": "node_91",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e92_to_185",
-            "source": "node_92",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e93_to_185",
-            "source": "node_93",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e98_to_50",
-            "source": "node_98",
-            "target": "node_50",
-            "type": "step"
-        },
-        {
-            "id": "e99_to_180",
-            "source": "node_99",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e101_to_164",
-            "source": "node_101",
-            "target": "node_164",
-            "type": "step"
-        },
-        {
-            "id": "e102_to_172",
-            "source": "node_102",
-            "target": "node_172",
-            "type": "step"
-        },
-        {
-            "id": "e105_to_90",
-            "source": "node_105",
+            "id": "e31_to_90",
+            "source": "node_31",
             "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e111_to_87",
-            "source": "node_111",
-            "target": "node_87",
+            "id": "e32_to_90",
+            "source": "node_32",
+            "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e113_to_84",
-            "source": "node_113",
+            "id": "e36_to_269",
+            "source": "node_36",
+            "target": "node_269",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_12",
+            "source": "node_37",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_20",
+            "source": "node_39",
+            "target": "node_20",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_79",
+            "source": "node_50",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e53_to_80",
+            "source": "node_53",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_83",
+            "source": "node_56",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_84",
+            "source": "node_59",
             "target": "node_84",
             "type": "step"
         },
         {
-            "id": "e115_to_81",
-            "source": "node_115",
+            "id": "e65_to_81",
+            "source": "node_65",
             "target": "node_81",
             "type": "step"
         },
         {
-            "id": "e117_to_148",
-            "source": "node_117",
-            "target": "node_148",
+            "id": "e69_to_55",
+            "source": "node_69",
+            "target": "node_55",
             "type": "step"
         },
         {
-            "id": "e118_to_156",
-            "source": "node_118",
-            "target": "node_156",
+            "id": "e79_to_90",
+            "source": "node_79",
+            "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e122_to_81",
-            "source": "node_122",
-            "target": "node_81",
+            "id": "e128_to_145",
+            "source": "node_128",
+            "target": "node_145",
             "type": "step"
         },
         {
-            "id": "e123_to_81",
-            "source": "node_123",
-            "target": "node_81",
-            "type": "step"
-        },
-        {
-            "id": "e129_to_48",
-            "source": "node_129",
-            "target": "node_48",
-            "type": "step"
-        },
-        {
-            "id": "e130_to_85",
-            "source": "node_130",
-            "target": "node_85",
-            "type": "step"
-        },
-        {
-            "id": "e131_to_85",
+            "id": "e131_to_146",
             "source": "node_131",
-            "target": "node_85",
+            "target": "node_146",
             "type": "step"
         },
         {
-            "id": "e137_to_77",
-            "source": "node_137",
-            "target": "node_77",
+            "id": "e167_to_226",
+            "source": "node_167",
+            "target": "node_226",
             "type": "step"
         },
         {
-            "id": "e139_to_85",
-            "source": "node_139",
-            "target": "node_85",
-            "type": "step"
-        },
-        {
-            "id": "e145_to_63",
-            "source": "node_145",
-            "target": "node_63",
-            "type": "step"
-        },
-        {
-            "id": "e146_to_78",
-            "source": "node_146",
-            "target": "node_78",
-            "type": "step"
-        },
-        {
-            "id": "e147_to_78",
-            "source": "node_147",
-            "target": "node_78",
-            "type": "step"
-        },
-        {
-            "id": "e153_to_64",
-            "source": "node_153",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e154_to_81",
-            "source": "node_154",
-            "target": "node_81",
-            "type": "step"
-        },
-        {
-            "id": "e155_to_82",
-            "source": "node_155",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e161_to_123",
-            "source": "node_161",
-            "target": "node_123",
-            "type": "step"
-        },
-        {
-            "id": "e162_to_81",
-            "source": "node_162",
-            "target": "node_81",
-            "type": "step"
-        },
-        {
-            "id": "e163_to_81",
-            "source": "node_163",
-            "target": "node_81",
-            "type": "step"
-        },
-        {
-            "id": "e169_to_73",
-            "source": "node_169",
-            "target": "node_73",
-            "type": "step"
-        },
-        {
-            "id": "e170_to_92",
-            "source": "node_170",
-            "target": "node_92",
-            "type": "step"
-        },
-        {
-            "id": "e171_to_92",
+            "id": "e171_to_162",
             "source": "node_171",
-            "target": "node_92",
+            "target": "node_162",
             "type": "step"
         },
         {
-            "id": "e177_to_103",
-            "source": "node_177",
-            "target": "node_103",
+            "id": "e173_to_162",
+            "source": "node_173",
+            "target": "node_162",
             "type": "step"
         },
         {
-            "id": "e178_to_92",
-            "source": "node_178",
-            "target": "node_92",
-            "type": "step"
-        },
-        {
-            "id": "e179_to_92",
-            "source": "node_179",
-            "target": "node_92",
-            "type": "step"
-        },
-        {
-            "id": "e180_to_24",
-            "source": "node_180",
-            "target": "node_24",
-            "type": "step"
-        },
-        {
-            "id": "e181_to_69",
+            "id": "e181_to_194",
             "source": "node_181",
-            "target": "node_69",
+            "target": "node_194",
             "type": "step"
         },
         {
-            "id": "e182_to_65",
-            "source": "node_182",
-            "target": "node_65",
-            "type": "step"
-        },
-        {
-            "id": "e183_to_56",
-            "source": "node_183",
-            "target": "node_56",
-            "type": "step"
-        },
-        {
-            "id": "e184_to_74",
+            "id": "e184_to_251",
             "source": "node_184",
-            "target": "node_74",
+            "target": "node_251",
             "type": "step"
         },
         {
-            "id": "e185_to_2",
+            "id": "e185_to_247",
             "source": "node_185",
+            "target": "node_247",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_183",
+            "source": "node_188",
+            "target": "node_183",
+            "type": "step"
+        },
+        {
+            "id": "e195_to_255",
+            "source": "node_195",
+            "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e203_to_221",
+            "source": "node_203",
+            "target": "node_221",
+            "type": "step"
+        },
+        {
+            "id": "e207_to_202",
+            "source": "node_207",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_223",
+            "source": "node_212",
+            "target": "node_223",
+            "type": "step"
+        },
+        {
+            "id": "e217_to_111",
+            "source": "node_217",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_111",
+            "source": "node_218",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e219_to_111",
+            "source": "node_219",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e220_to_111",
+            "source": "node_220",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e221_to_111",
+            "source": "node_221",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e222_to_111",
+            "source": "node_222",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_111",
+            "source": "node_223",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_111",
+            "source": "node_224",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_111",
+            "source": "node_225",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e227_to_170",
+            "source": "node_227",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_174",
+            "source": "node_237",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e239_to_174",
+            "source": "node_239",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_174",
+            "source": "node_240",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_244",
+            "source": "node_249",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e260_to_291",
+            "source": "node_260",
+            "target": "node_291",
+            "type": "step"
+        },
+        {
+            "id": "e261_to_2",
+            "source": "node_261",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e262_to_2",
+            "source": "node_262",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e268_to_34",
+            "source": "node_268",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_37",
+            "source": "node_271",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_12",
+            "source": "node_272",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_12",
+            "source": "node_273",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_12",
+            "source": "node_274",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_12",
+            "source": "node_281",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_12",
+            "source": "node_282",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_275",
+            "source": "node_285",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_12",
+            "source": "node_286",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e289_to_3",
+            "source": "node_289",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e290_to_12",
+            "source": "node_290",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e295_to_301",
+            "source": "node_295",
+            "target": "node_301",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_2",
+            "source": "node_300",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_2",
+            "source": "node_312",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_2",
+            "source": "node_314",
             "target": "node_2",
             "type": "step"
         }

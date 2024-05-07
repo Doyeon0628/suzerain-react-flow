@@ -1,141 +1,328 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Peace between Morella, Rizia and Derdia could be lucrative for all of us. Don't you realize that?\""
+                "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_23",
+            "id": "node_6",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nHe sat back on his cushion for a moment."
+                "label": "Player_Romus\n\n\"We are at risk of losing the territory of Zille to Wehlen. I would humbly call upon your great warrior culture for assistance.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_42",
+            "id": "node_7",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"We are not allies, Your Majesty. This is purely a matter of convenience.\""
+                "label": "Narrator\n\nHe smiled slightly."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_50",
+            "id": "node_36",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"His pen was but a conduit for the Divine.\""
+                "label": "Jorga Azmal\n\n\"If the rest of your Golden Guard is as skilled as Captain Gordion, that may be true.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_68",
+            "id": "node_40",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Policy_Economy_MorellaPipeline_Project == false)\n\nnan"
+                "label": "Jorga Azmal\n\n\"It will scare your enemies more.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_74",
+            "id": "node_44",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"I can't do that. Too much could go wrong.\""
+                "label": "!(RiziaDLC.Resources_Budget >= 3)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_84",
+            "id": "node_52",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Policy_Law_GolcondistBlasphemy == true\n\nnan"
+                "label": "RiziaDLC.Resources_Military_DerdianMissiles = true;\\nRiziaDLC.Resources_Budget -= 3;\\nRiziaDLC.Resources_Military_AirStrikeRefillPerFragment += 1;\\nRiziaDLCSupport.Journal_Turn07_Derdia_Missiles = true;\\nRiziaDLCSupport.Reports_Turn07_Derdia_MissilesShipped = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_88",
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"We will help you fight with honor, Your Majesty.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"I respect your decision, Your Majesty. I wish you strength for the battles ahead.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_Duel_Success == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"We have a long war ahead of us. We will purchase both your missiles and the service of your mercenaries.\"\n\n\"We have a long war ahead of us. We will purchase both your missiles and the service of your mercenaries.\" [-3 Budget]"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_102",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp == false)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Budget >= 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_111",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_111",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_111",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_537",
-            "source": "node_2",
-            "target": "node_537",
+            "id": "e1_to_104",
+            "source": "node_1",
+            "target": "node_104",
             "type": "step"
         },
         {
-            "id": "e23_to_67",
-            "source": "node_23",
-            "target": "node_67",
+            "id": "e6_to_102",
+            "source": "node_6",
+            "target": "node_102",
             "type": "step"
         },
         {
-            "id": "e42_to_81",
-            "source": "node_42",
-            "target": "node_81",
+            "id": "e7_to_103",
+            "source": "node_7",
+            "target": "node_103",
             "type": "step"
         },
         {
-            "id": "e50_to_80",
-            "source": "node_50",
-            "target": "node_80",
+            "id": "e36_to_111",
+            "source": "node_36",
+            "target": "node_111",
             "type": "step"
         },
         {
-            "id": "e68_to_30",
-            "source": "node_68",
-            "target": "node_30",
+            "id": "e40_to_111",
+            "source": "node_40",
+            "target": "node_111",
             "type": "step"
         },
         {
-            "id": "e74_to_42",
-            "source": "node_74",
-            "target": "node_42",
+            "id": "e44_to_101",
+            "source": "node_44",
+            "target": "node_101",
             "type": "step"
         },
         {
-            "id": "e84_to_40",
-            "source": "node_84",
-            "target": "node_40",
+            "id": "e52_to_107",
+            "source": "node_52",
+            "target": "node_107",
             "type": "step"
         },
         {
-            "id": "e88_to_25",
-            "source": "node_88",
-            "target": "node_25",
+            "id": "e54_to_2",
+            "source": "node_54",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_22",
+            "source": "node_58",
+            "target": "node_22",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_2",
+            "source": "node_59",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_2",
+            "source": "node_100",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_53",
+            "source": "node_101",
+            "target": "node_53",
+            "type": "step"
+        },
+        {
+            "id": "e102_to_9",
+            "source": "node_102",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_60",
+            "source": "node_103",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_3",
+            "source": "node_105",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_50",
+            "source": "node_107",
+            "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_43",
+            "source": "node_111",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_47",
+            "source": "node_111",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_51",
+            "source": "node_111",
+            "target": "node_51",
             "type": "step"
         }
     ]

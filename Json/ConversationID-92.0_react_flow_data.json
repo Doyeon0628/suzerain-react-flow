@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nThat was Lucian's idea. As he saw it, granting the people a rare glimpse of the Grand Ceremony, and showing them how seriously their President took this holy event, would ease any tensions that lingered in the region."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Player\n\n“Yeah, sure.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Player\n\n“Thank you. It is nice to be here in Deyr again.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Player\n\n“Archpriest.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Player_Italic\n\nI bowed my head before the Archpriest, which triggered a few murmurs of approval from the crowd.\n\nBow your head before the Archpriest."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Archpriest\n\n“Shall we move inside for your confession?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Player\n\n“Sure. Let's get this over with.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Narrator\n\nThe Archpriest gave me an infectious smile as he straightened back up. Tall and handsome, in his mid-50s, he was one of the youngest and most popular Archpriests in history. Some of his more avid followers even likened him to Saint Dast.\n\nAddConversant(Archpriest); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Archpriest\n\n“I am indescribably happy to be sharing this moment with you as well as every Blud and Sord, old and young, tuning in to their television to watch this holy commemoration!”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Narrator\n\nHe smiled beatifically as the crowd burst into rapturous applause. After it subsided, he turned to me."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Narrator\n\nWe made our way downstairs where the ceremony was already in progress. The choir sang angelically as the Archpriest took his position beside the altar. When they finished their hymn, an expectant silence fell over the room. It was time for my part."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Player_Italic\n\nI grabbed the sceptre with my right hand then touched the altar with left.\n\nGrab the sceptre with your right hand, then touch the altar with your left."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "Player_Italic\n\nSceptre in hand, I kissed the ring of the Archpriest.\n\nKiss the ring of the Archpriest."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "Player_Italic\n\nI touched the sword with my right hand.\n\nTouch the sword with your right hand."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -161,8 +161,19 @@
                 "label": "Narrator\n\nI got up and proceeded to my designated spot next to Lucian. He leaned over and whispered in my ear.\n\nRemoveConversant(Archpriest); AddConversant(Lucian Galade); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI got up and proceeded to my designated spot next to Lucian. He leaned over and whispered in my ear.\n\nRemoveConversant(Archpriest); AddConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -172,8 +183,8 @@
                 "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual2 = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -183,8 +194,8 @@
                 "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual3 = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +205,19 @@
                 "label": "Lucian Galade\n\n“Compared to last year, that went surprisingly well, sir.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“Compared to last year, that went surprisingly well, sir.”\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -205,8 +227,8 @@
                 "label": "Lucian Galade\n\n“Unfortunately that was not quite correct, sir.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -216,8 +238,8 @@
                 "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual1 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual2 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual3 == true &&\\nBaseGameIsolated.Turn07_A_SuccessfulRitual4 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual5 == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -227,8 +249,8 @@
                 "label": "Narrator\n\nWe entered our cars and drove back to our suites in Deyr.\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -238,8 +260,8 @@
                 "label": "Narrator\n\nWe left the cathedral to greet the waiting crowd.\n\nSetRichPresenceData(Sent an escaped whistleblower agent back to their country, Presidential Office, Maroon Palace);"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -249,8 +271,8 @@
                 "label": "!(BaseGameIsolated.Turn07_A_SuccessfulRitual1 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual2 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual3 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual4 == true && BaseGameIsolated.Turn07_A_SuccessfulRitual5 == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -260,8 +282,8 @@
                 "label": "Narrator\n\nAs I walked outside, I heard scattered boos. A man in a Worker's Party of Bludia shirt shouted that I was only here for show, that I couldn't even bother to get the ceremony right. Others yelled in agreement."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -271,8 +293,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -282,8 +304,8 @@
                 "label": "Narrator\n\nAs I walked outside, I heard scattered boos. A man in a shirt bearing the colors of the Bludish flag shouted that I'd only done the ceremony for show. Lucian hadn't been exactly right about my presence easing tensions, it seemed.\n\nAddReport(President Mends Ties?); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -293,8 +315,8 @@
                 "label": "Lucian Galade\n\n“We should go before things get heated.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -304,8 +326,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -315,8 +337,8 @@
                 "label": "Narrator\n\nThat was Lucian's idea. As he saw it, granting the people a rare glimpse of the Grand Ceremony, and showing them how seriously their President took this holy event, would ease the tensions that lingered following my decree to ban the Workers' Party of Bludia."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -326,8 +348,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -337,8 +359,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -348,8 +370,8 @@
                 "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +381,8 @@
                 "label": "Archpriest\n\n“Oh, great people of Sordland! Once again we are gathered here to honor the Day of Descension!”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -370,8 +392,8 @@
                 "label": "Narrator\n\nThe crowd was still booing angrily. The Archpriest turned and raised both of his hands, and everyone immediately fell silent."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -381,8 +403,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -392,8 +414,8 @@
                 "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -403,8 +425,8 @@
                 "label": "Player_Italic\n\nI exited the car and was greeted by a chorus of boos. Some people in the crowd began raising signs and chanting in protest of my ban. I ducked my head as the guards quickly ushered me to the grand gates.\n\nExit the car."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -414,8 +436,8 @@
                 "label": "GameCondition.Turn07_A_DayOfDescension = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -425,8 +447,8 @@
                 "label": "Lucian Galade\n\n“Then touch the sword with the hand you touched the altar with. Hand the sceptre over to the Archpriest and receive the sword before passing it on to a disciple.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -436,8 +458,8 @@
                 "label": "Player\n\n“My confession?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -447,8 +469,8 @@
                 "label": "Narrator\n\nHe gestured towards a chair in the dark room. The room smelled of old mahogany and scented candles. The Archpriest proceeded to light each and every one of the candles. One for each virtue and vice."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -458,8 +480,8 @@
                 "label": "Archpriest\n\n“I will be right with you.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -469,8 +491,8 @@
                 "label": "Player\n\n“I confess that I have been a bad husband.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -480,8 +502,8 @@
                 "label": "Player\n\n“I confess that I was involved in shady dealings.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -491,8 +513,41 @@
                 "label": "Player\n\n“Walter Tusk.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Walter Tusk.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Walter Tusk.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Walter Tusk.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -502,8 +557,8 @@
                 "label": "Archpriest\n\n“Hmm I see. This must've been done out of necessity for the greater good.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -513,8 +568,8 @@
                 "label": "Archpriest\n\n“Family is the cornerstone of society. Under the watchful eyes of the God, men are required to protect their wives and family.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -524,8 +579,19 @@
                 "label": "Player\n\n“I've been neglecting my family due to the stress of my position.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_121",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I've been neglecting my family due to the stress of my position.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -535,8 +601,8 @@
                 "label": "Player\n\n“Against the wishes of my wife, I banned her from involvement in politics.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -546,8 +612,8 @@
                 "label": "BaseGame.Turn05_Admin_Monica_Barred == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -557,8 +623,8 @@
                 "label": "Archpriest\n\n“Anything else you would like to confess?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -568,8 +634,8 @@
                 "label": "Archpriest\n\n“Absolute certainty only belongs to God. All else feels uncertainty many times in their lives. This is especially true for men of power.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -579,8 +645,41 @@
                 "label": "Player\n\n“I am trying to reform the country, but I don't know if the country is ready for that yet.”\n\n“I am trying to reform the country, but I don't know if the country is ready for it yet.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I am trying to reform the country, but I don't know if the country is ready for that yet.”\n\n“I am trying to reform the country, but I don't know if the country is ready for it yet.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I am trying to reform the country, but I don't know if the country is ready for that yet.”\n\n“I am trying to reform the country, but I don't know if the country is ready for it yet.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I am trying to reform the country, but I don't know if the country is ready for that yet.”\n\n“I am trying to reform the country, but I don't know if the country is ready for it yet.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -590,8 +689,8 @@
                 "label": "BaseGame.Reform_Reformist_Path == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -601,8 +700,8 @@
                 "label": "!(BaseGame.Reform_Reformist_Path == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -612,8 +711,8 @@
                 "label": "Player\n\n“That's all for today.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -623,8 +722,8 @@
                 "label": "Jump to: [Confession Hub]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -634,8 +733,8 @@
                 "label": "Jump to: [Confession Hub]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -645,8 +744,8 @@
                 "label": "BaseGameIsolated.Turn07_A_Confessed_Bribery == true || BaseGameIsolated.Turn07_A_Confessed_BadHusband == true || BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -656,8 +755,8 @@
                 "label": "BaseGameIsolated.Turn07_A_Confessed_SelfDoubt = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -667,8 +766,8 @@
                 "label": "BaseGameIsolated.Turn07_A_Confessed_BadHusband = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -678,8 +777,8 @@
                 "label": "BaseGameIsolated.Turn07_A_Confessed_Bribery = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -689,8 +788,19 @@
                 "label": "Player\n\n“Fine. I will confess.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_174",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Fine. I will confess.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -700,8 +810,8 @@
                 "label": "Archpriest\n\n“Pride is the most dangerous vice of all. Perhaps you will come to this realization at one point in your life.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -711,8 +821,8 @@
                 "label": "Archpriest\n\n“Are you ready for the ceremony?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -722,8 +832,8 @@
                 "label": "Player\n\n“Yes. Let's get on with it.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -733,8 +843,8 @@
                 "label": "Narrator\n\nHe leaned back in his chair comfortably."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -744,8 +854,8 @@
                 "label": "BaseGame.Policy_Welfare_EvolutionMandatoryBanCreationism == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -755,8 +865,8 @@
                 "label": "Archpriest\n\n“I realize it has been months since the Benfi Festival, but this is my first chance to bring it up with you. It's about the actions of the First Lady.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -766,8 +876,8 @@
                 "label": "Archpriest\n\n“As you know, the festival is a holy event. Letting a woman make the opening speech did not sit well with us. We share the same concerns as Mr. Leste.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -777,8 +887,8 @@
                 "label": "Player\n\n“I agree. It was my fault. Won't happen again.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -788,8 +898,8 @@
                 "label": "Archpriest\n\n“I also heard you decided on the new curriculum...”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -799,8 +909,8 @@
                 "label": "Archpriest\n\n“I heard you decided on the new school curriculum...”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -810,8 +920,8 @@
                 "label": "Narrator\n\nHe pulled out a large rectangular box from his desk drawer. The box was lined with gold and expensive gemstones."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -821,8 +931,8 @@
                 "label": "BaseGame.Relations_Frens_Bribed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -832,8 +942,8 @@
                 "label": "!(BaseGame.Relations_Frens_Bribed == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -843,8 +953,8 @@
                 "label": "!(BaseGame.Relations_Walter_Promise_BailBusinessFulfilled == true || BaseGame.Relations_Walter_Promise_CompanyFulfilled == true || BaseGame.Relations_Walter_Promise_PrivatizationFulfilled == true || BaseGame.Relations_Walter_Promise_TaxFulfilled == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -854,8 +964,8 @@
                 "label": "Player\n\n“I couldn't control myself and hit my wife.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -865,8 +975,8 @@
                 "label": "BaseGameIsolated.Turn07_A_Confessed_BadHusband == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -876,8 +986,8 @@
                 "label": "!(BaseGameIsolated.Turn07_A_Confessed_BadHusband == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -887,8 +997,8 @@
                 "label": "!(BaseGameIsolated.Turn07_A_Confessed_Bribery == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -898,8 +1008,8 @@
                 "label": "!(BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -909,8 +1019,8 @@
                 "label": "Narrator\n\nIt was a man holding a picket sign that said: 'Stop The Religious Disharmony Bill'."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -920,8 +1030,8 @@
                 "label": "Archpriest\n\n“But of course. I am but a simple man and a mere servant of God.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -931,8 +1041,8 @@
                 "label": "Archpriest\n\n“Very well, Mr. President.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -942,8 +1052,8 @@
                 "label": "BaseGame.Public_Opinion += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -953,8 +1063,8 @@
                 "label": "BaseGame.Public_Opinion -= 3;\\nBaseGame.Bludish_Opinion -= 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -964,8 +1074,8 @@
                 "label": "Narrator\n\nThe Archpriest lay the sword on my shoulder.\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -975,8 +1085,19 @@
                 "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual4 = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_276",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn07_A_SuccessfulRitual4 = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -986,8 +1107,8 @@
                 "label": "Player_Italic\n\nI handed the sceptre to the Archpriest and waited for him to give me the sword.\n\nHand the sceptre to the Archpriest."
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -997,8 +1118,8 @@
                 "label": "Player_Italic\n\nI handed the sceptre to the disciple next to me.\n\nHand the sceptre to the disciples."
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1008,8 +1129,8 @@
                 "label": "Narrator\n\nThe Archpriest handed me the sword.\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1019,8 +1140,8 @@
                 "label": "Player_Italic\n\nI handed the sword back to the Archpriest. He took it and passed it to a disciple.\n\nHand the sword back to the Archpriest."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1030,8 +1151,8 @@
                 "label": "Player_Italic\n\nI placed the sword on the altar. The Archpriest picked it back up and handed it to one of the disciples.\n\nPlace the sword on the altar."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1041,8 +1162,8 @@
                 "label": "BaseGameSupport.News_Turn07_LT_RitualWin = true;\\nBaseGameSupport.CountryReport_Turn07_Derdia_BlessesCongratulatesRitual = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1052,8 +1173,8 @@
                 "label": "BaseGameSupport.News_Turn07_R_RitualFailed = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1063,8 +1184,8 @@
                 "label": "BaseGameSupport.News_Turn07_ST_RitualFailed_NoDeal = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1074,8 +1195,8 @@
                 "label": "BaseGame.Public_Opinion <= 0 && BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1085,8 +1206,8 @@
                 "label": "BaseGameSupport.News_Turn07_HP_ProtestsDespiteEmergency = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1096,8 +1217,8 @@
                 "label": "BaseGame.Turn04_InT_RailwayIssue_Solved == false && BaseGame.Turn01_InT_Investment_Railway == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1107,8 +1228,8 @@
                 "label": "Narrator\n\nThis year, however, for the first time ever, it was going to be televised."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1118,8 +1239,8 @@
                 "label": "Narrator\n\nThis year, however, for the first time ever, it was going to be televised."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1129,8 +1250,8 @@
                 "label": "BaseGame.Decision_Turn01_InfrastructureProject_Invest == true && BaseGameSupport.Journal_Turn06_RailwayOpening == false && BaseGameSupport.Journal_Turn06_HighwayOpening == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1140,8 +1261,8 @@
                 "label": "!(BaseGame.Decision_Turn01_InfrastructureProject_Invest == true && BaseGameSupport.Journal_Turn06_RailwayOpening == false && BaseGameSupport.Journal_Turn06_HighwayOpening == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1151,8 +1272,8 @@
                 "label": "Player\n\n“Albin Clavin.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1162,8 +1283,8 @@
                 "label": "BaseGame.Relations_Albin_Bribed == true || BaseGame.Relations_Albin_PromisedVP == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1173,8 +1294,8 @@
                 "label": "BaseGame.Decision_Turn07_RumburgWhistleblower_GrantAsylum == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1184,8 +1305,8 @@
                 "label": "Narrator\n\nWe left the cathedral to greet the waiting crowd.\n\nSetRichPresenceData(Granted asylum to a whistleblower which escaped from another country, Presidential Office, Maroon Palace);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1195,8 +1316,8 @@
                 "label": "BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == false || BaseGameIsolated.Turn07_A_Confessed_BadHusband == false || BaseGameIsolated.Turn07_A_Confessed_Bribery == false \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1206,8 +1327,8 @@
                 "label": "!(BaseGameIsolated.Turn07_A_Confessed_SelfDoubt == false || BaseGameIsolated.Turn07_A_Confessed_BadHusband == false || BaseGameIsolated.Turn07_A_Confessed_Bribery == false )\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1217,8 +1338,8 @@
                 "label": "UpdateProgress(\"Progress_Highway\", 75);\\n\\n// Updates token effect progress to the given value in PERCENTAGE(eg: 50%)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1228,8 +1349,8 @@
                 "label": "EnableCollectionItem(\"CollectionItem_Dagger\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1239,8 +1360,8 @@
                 "label": "Player\n\n“Do not test my limits. I kindly ask of you.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1250,8 +1371,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1261,8 +1382,8 @@
                 "label": "PlaySoundEffect(\"BooCrowd\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1272,8 +1393,8 @@
                 "label": "PlaySoundEffect(\"CheerCrowdCamera\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1283,8 +1404,8 @@
                 "label": "PlaySoundEffect(\"BooScatter\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1294,8 +1415,8 @@
                 "label": "PlaySoundEffect(\"CheerCrowd\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1305,8 +1426,8 @@
                 "label": "PlaySoundEffect(\"BooScatter\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1316,8 +1437,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -1413,6 +1534,12 @@
             "type": "step"
         },
         {
+            "id": "e44_to_279",
+            "source": "node_44",
+            "target": "node_279",
+            "type": "step"
+        },
+        {
             "id": "e46_to_41",
             "source": "node_46",
             "target": "node_41",
@@ -1428,6 +1555,12 @@
             "id": "e48_to_278",
             "source": "node_48",
             "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_279",
+            "source": "node_48",
+            "target": "node_279",
             "type": "step"
         },
         {
@@ -1593,6 +1726,24 @@
             "type": "step"
         },
         {
+            "id": "e114_to_308",
+            "source": "node_114",
+            "target": "node_308",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_241",
+            "source": "node_114",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e114_to_244",
+            "source": "node_114",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
             "id": "e117_to_136",
             "source": "node_117",
             "target": "node_136",
@@ -1608,6 +1759,12 @@
             "id": "e121_to_247",
             "source": "node_121",
             "target": "node_247",
+            "type": "step"
+        },
+        {
+            "id": "e121_to_132",
+            "source": "node_121",
+            "target": "node_132",
             "type": "step"
         },
         {
@@ -1638,6 +1795,24 @@
             "id": "e140_to_255",
             "source": "node_140",
             "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_252",
+            "source": "node_140",
+            "target": "node_252",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_258",
+            "source": "node_140",
+            "target": "node_258",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_162",
+            "source": "node_140",
+            "target": "node_162",
             "type": "step"
         },
         {
@@ -1698,6 +1873,12 @@
             "id": "e174_to_319",
             "source": "node_174",
             "target": "node_319",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_325",
+            "source": "node_174",
+            "target": "node_325",
             "type": "step"
         },
         {
@@ -1854,6 +2035,12 @@
             "id": "e276_to_44",
             "source": "node_276",
             "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e276_to_43",
+            "source": "node_276",
+            "target": "node_43",
             "type": "step"
         },
         {

@@ -1,515 +1,2827 @@
 {
     "nodes": [
         {
-            "id": "node_1",
-            "type": "customNode",
-            "data": {
-                "label": "output\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThese were my closest advisors. One was my blood relation. The other two had served my father and myself for so long that they felt like family."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
             "id": "node_9",
             "type": "customNode",
             "data": {
-                "label": "AddConversant(\"Elena Werner\");\\nAddConversant(\"Laurento Esquibel\");\n\nnan"
+                "label": "!(RiziaDLC.Vina_Escapes == false && RiziaDLC.Vina_FuneralHappened == false && RiziaDLC.Vina_Hostage == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nGrey clouds hung low on the horizon. A strong wind was picking up, and waves crashed violently on the rocky cliffs below us."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI stood on the back terrace of my palace in Monqiz."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_13",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nI turned towards my councilors."
+                "label": "Vina Toras\n\n\"So I'm to be a half-sister. I suppose congratulations are in order.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_28",
+            "id": "node_39",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Elena, Laurento, it is nothing personal. But the two of you lack the purity of faith to see my vision for a Holy Kingdom through.\""
+                "label": "Vina Toras\n\n\"All while you went about consolidating your power, even getting rid of the House of Delegates to keep yourself and your... son in charge.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"I went to Pales as the heiress to the Rizian throne, and we all know what happened there...\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_44",
             "type": "customNode",
             "data": {
-                "label": "Elena Werner\n\n\"I hope the new government will have more success than I did in building the foundations for a profitable future.\""
+                "label": "RiziaDLC.Policy_Law_Monarchy_Absolute == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"For my part, I am glad to have played a small role in the reunification of Pales and Rizia. Truly a historic feat.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_62",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.CountryRelation_Rumburg_Hostile == true || RiziaDLC.CountryRelation_Rumburg_Unfriendly == true\n\nnan"
+                "label": "RiziaDLC.Vina_PromisedQueen == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_71",
+            "id": "node_66",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Council_GrandVizier_Empty == true)\n\nnan"
+                "label": "Player_Romus\n\n\"Listen. I would love to name you my successor. But it's very complicated.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_77",
+            "id": "node_78",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Theocracy_Full == true\n\nnan"
+                "label": "Vina Toras\n\n\"Circumstances have changed, haven't they?\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_80",
+            "id": "node_84",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"I am a man of God as well, after all.\""
+                "label": "Vina Toras\n\n\"I-- I know.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_81",
+            "id": "node_84",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Prologue_Religious == true\n\nnan"
+                "label": "Vina Toras\n\n\"I-- I know.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_85",
+            "id": "node_84",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Theocracy_Full == true\n\nnan"
+                "label": "Vina Toras\n\n\"I-- I know.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_96",
+            "id": "node_87",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"Now and always.\""
+                "label": "!(RiziaDLC.Vina_Wedding_Happened == true )\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_97",
+            "id": "node_91",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"I do understand. Perfectly well.\""
+                "label": "Player_Romus\n\n\"Yes. Lucita and I are in love and having a child together. Whether that child takes the throne doesn't matter to us.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_98",
+            "id": "node_91",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"I supported your new constitution in our talks before, and I do now.\""
+                "label": "Player_Romus\n\n\"Yes. Lucita and I are in love and having a child together. Whether that child takes the throne doesn't matter to us.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"Not for me. I have nothing else left.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_99",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"You have not seen the future. You don't know the prophecies. Grand Wiseman Ignacius does.\""
+                "label": "Vina Toras\n\n\"But I will say this.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_MarriageDecision_Manus == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
             "id": "node_102",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"Of course I do not question the Grand Wiseman's vision.\""
+                "label": "!(RiziaDLC.Vina_MarriageDecision_Manus == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_103",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"I let you live. Count yourself lucky.\""
+                "label": "Vina Toras\n\n\"My darling husband doesn't give a damn whether he's Crown Prince Consort or not. But his family does.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_108",
+            "id": "node_104",
             "type": "customNode",
             "data": {
-                "label": "Elena Werner\n\n\"You have most decidedly strayed from the path followed by Queen Lyza and King Valero.\""
+                "label": "Vina Toras\n\n\"My darling husband married me with the expectation that his children would inherit the throne of Rizia.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_112",
+            "id": "node_106",
             "type": "customNode",
             "data": {
-                "label": "Elena Werner\n\n\"But I wish you the best of luck in this new direction.\""
+                "label": "Vina Toras\n\n\"You favored them greatly by returning Zille to Brenas. Name me your heir, and you'll have their loyalty forever.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Reform_Success == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_117",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"For my part, I am glad to have played a small role in the return of Zille. Truly a historic feat.\""
+                "label": "Vina Toras\n\n\"I am the Duchess of Valenqiris. The only person House Toras loves more than me is Rico.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_118",
+            "id": "node_127",
             "type": "customNode",
             "data": {
-                "label": "Laurento Esquibel\n\n\"But I hope the change in government brings a fresh start and new possibilities for peace.\""
+                "label": "RiziaDLC.Vina_MarriageDecision_Rico == true \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_119",
+            "id": "node_132",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"No need to grovel. Neither of you work for me anymore.\""
+                "label": "Player_Romus\n\n\"Don't threaten me, young lady.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_137",
+            "id": "node_142",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Reform_Toras_Support > 0\n\nnan"
+                "label": "Player_Romus\n\n\"The Royal Council reshuffle is coming up. What if I gave you a promotion?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_151",
+            "id": "node_142",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"I thank you for your reassurance.\""
+                "label": "Player_Romus\n\n\"The Royal Council reshuffle is coming up. What if I gave you a promotion?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_162",
+            "id": "node_147",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"I wish you all a happy retirement.\""
+                "label": "Narrator\n\nShe paused. I saw a spark in her eyes."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_163",
+            "id": "node_156",
             "type": "customNode",
             "data": {
-                "label": "PlayLoopedMusic(\"R_Continuation\", \"R_Continuation_Loop\");\n\nnan"
+                "label": "Player_Romus\n\n\"I'm still weighing my options. It's complicated.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_164",
+            "id": "node_156",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nNow, I had to say goodbye."
+                "label": "Player_Romus\n\n\"I'm still weighing my options. It's complicated.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_165",
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I know what a good monarch you'll be. You deserve it.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"Yes, Father.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "Lucita Azaro\n\n\"Let's go, then.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe normally spacious sitting room of Palas Toras had been filled with lighting and camera equipment, all pointed at the purple velvet divan against the back wall."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucita and I were seated. An assistant quickly refreshed our makeup."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe camerawoman counted down from five. It was time for my royal address."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_202",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI looked once more at the turbulent ocean."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_202",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI looked once more at the turbulent ocean."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_202",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI looked once more at the turbulent ocean."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAnd would it be worse than the cost of keeping it?"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_215",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveConversant(\"Vina Toras\");\\nRemoveConversant(\"Lucita Azaro\");\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_216",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveConversant(\"Vina Toras\");\\nAddConversant(\"Lucita Azaro\");\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_217",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"My fellow Rizians.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Lucita_RelationshipPublic == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Lucita_RelationshipPublic == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Lucita_RelationshipPublic == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_233",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Allow me to present, for the very first time, Queen Consort Lucita Azaro.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_233",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Allow me to present, for the very first time, Queen Consort Lucita Azaro.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_234",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I hope you have all grown to love my wife Lucita as you have grown to love me.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_234",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I hope you have all grown to love my wife Lucita as you have grown to love me.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You all know Duchess Lucita Azaro as the woman who won us the Pales war. Now you shall get to know her as your new queen.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"You all know Duchess Lucita Azaro as the woman who won us the Pales war. Now you shall get to know her as your new queen.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_236",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"In the wake of our triumph in the Pales war, we have yet another achievement to announce.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_236",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"In the wake of our triumph in the Pales war, we have yet another achievement to announce.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1250.0
+            }
+        },
+        {
+            "id": "node_237",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.War_Pales_Won == true\n\nnan"
+            },
+            "position": {
+                "x": 270.0,
+                "y": 1250.0
+            }
+        },
+        {
+            "id": "node_241",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.War_Pales_Won == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"We are having a child. A baby boy.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 2000.0
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"We are having a child. A baby boy.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1750.0
+            }
+        },
+        {
+            "id": "node_251",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Trait_ReligiousKing == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_255",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Sal_Arrested == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_262",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"There is more good news. We are having a child. A baby boy.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_264",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"She will shortly be leaving the council to pursue a new role. That of mother.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_265",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Trait_ReligiousKing == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_269",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Furthermore, I am pleased to announce that your new Queen Consort is already pregnant with a son.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_270",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"His name shall be Prince Romus the Second.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"His name shall be Prince Taddeus the Second.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"His name shall be Prince Valero the Second.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Trait_ReligiousKing == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_277",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI paused for dramatic effect."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucita's smile grew taut."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"According to the traditions of this great kingdom, a monarch shall be succeeded by his or her eldest son. A woman can inherit the throne only if she has no brothers.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Reform_Success == true \n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Reform_Success == true \n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"My daughter left us before her time. Since then, the question of who will be your ruler after I am gone has been unclear.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"My daughter left us before her time. Since then, the question of who will be your ruler after I am gone has been unclear.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"My daughter left us before her time. Since then, the question of who will be your ruler after I am gone has been unclear.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true || RiziaDLC.Vina_Hostage == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true || RiziaDLC.Vina_Hostage == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true || RiziaDLC.Vina_Hostage == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_288",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_Escapes == true || RiziaDLC.Vina_Hostage == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_290",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_FuneralHappened == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_294",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Though I am overjoyed at becoming a father for the second time, I cannot neglect the inspiration my daughter Vina has been to this country and to me.\""
+            },
+            "position": {
+                "x": 270.0,
+                "y": 1500.0
+            }
+        },
+        {
+            "id": "node_294",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Though I am overjoyed at becoming a father for the second time, I cannot neglect the inspiration my daughter Vina has been to this country and to me.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1500.0
+            }
+        },
+        {
+            "id": "node_295",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I hereby declare an exception to our kingdom's laws. Princess Vina Toras will remain my successor.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_299",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Authority > 4 && RiziaDLC.Vina_FuneralHappened == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_305",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Law_Succession_FemalePrefMatrilineal = true; RiziaDLC.Resources_Authority -= 5; RiziaDLCSupport.Journal_Turn10_ChangedSuccessionLaw = true;\\nRiziaDLCSupport.News_Turn10_RH_ChangingSuccessionLaw = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_305",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Law_Succession_FemalePrefMatrilineal = true; RiziaDLC.Resources_Authority -= 5; RiziaDLCSupport.Journal_Turn10_ChangedSuccessionLaw = true;\\nRiziaDLCSupport.News_Turn10_RH_ChangingSuccessionLaw = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_305",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Law_Succession_FemalePrefMatrilineal = true; RiziaDLC.Resources_Authority -= 5; RiziaDLCSupport.Journal_Turn10_ChangedSuccessionLaw = true;\\nRiziaDLCSupport.News_Turn10_RH_ChangingSuccessionLaw = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_308",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_UpInTheAir\", \"R_UpInTheAir_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_309",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_FallingIntoPlace\", \"R_FallingIntoPlace_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_310",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"With that in mind, choosing an official successor was not an easy decision for me.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I hereby declare an exception to our kingdom's laws. Princess Vina Toras will remain my successor, even in exile.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_319",
+            "type": "customNode",
+            "data": {
+                "label": "//\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_320",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucita squeezed my shoulder. Her eyes were shining with gratitude."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_320",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucita squeezed my shoulder. Her eyes were shining with gratitude."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_320",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucita squeezed my shoulder. Her eyes were shining with gratitude."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"When your new prince ascends the throne, you shall love, honor and respect him as you have me.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_322",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Having said that, with my daughter no longer eligible for the throne, my son will be the one to succeed me in this particular case.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Law_Succession_FemalePrefMatrilineal == true && (RiziaDLC.Vina_Escapes == true || RiziaDLC.Vina_Hostage == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_330",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"House Toras shall hold the throne. Continuity shall prevail.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_347",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Successor_Son = true; RiziaDLC.Successor_Vina = false;\\nRiziaDLC.Successor_Hugo = false;\\nRiziaDLC.Diplomacy_Rumburg_NegotiatingPower -= 3; RiziaDLC.Relations_Vina -= 3; RiziaDLCSupport.Journal_Turn10_Lucita_SonSuccessor = true;\\nRiziaDLCSupport.News_Turn10_RH_SonSuccessor = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_365",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe camerawoman signaled for me to wrap things up."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_365",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe camerawoman signaled for me to wrap things up."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_366",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Son_Ardos = true; RiziaDLC.Country_WruhecistOpinion += 1;\\nRiziaDLCText.KingsSon = \"Ardos\"\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_366",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Son_Ardos = true; RiziaDLC.Country_WruhecistOpinion += 1;\\nRiziaDLCText.KingsSon = \"Ardos\"\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_366",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Son_Ardos = true; RiziaDLC.Country_WruhecistOpinion += 1;\\nRiziaDLCText.KingsSon = \"Ardos\"\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_366",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Son_Ardos = true; RiziaDLC.Country_WruhecistOpinion += 1;\\nRiziaDLCText.KingsSon = \"Ardos\"\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_367",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Son_Valero = true; RiziaDLC.Country_HouseToras -= 1;\\nRiziaDLCText.KingsSon = \"Valero the Second\"\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_368",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Son_Taddeus = true;\\nRiziaDLC.Country_HouseAzaro += 1;\\nRiziaDLCText.KingsSon = \"Taddeus the Second\"\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_369",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Son_Romus = true; RiziaDLCText.KingsSon = \"Romus the Second\"\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_370",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Your queen and I are so excited to begin this new chapter.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_371",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"To my loyal allies in House Azaro, I know this announcement will come as a disappointment. Please know that it was not meant as a slight against you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_374",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Law_Succession_FemalePrefMatrilineal == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_379",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Rest assured this will not affect our reunification with Pales. If need be, I shall marry my son to a Palesian noblewoman.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_380",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"Your son and his heirs will bear the Toras name. My children won't. It makes sense for our family.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_381",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_385",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Your queen and I are so excited to begin this new chapter.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_386",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Pales_Rizia_Unification == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_398",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_KeepsLastName == false && (RiziaDLC.Vina_MarriageDecision_Axel == true || RiziaDLC.Vina_MarriageDecision_Manus == true))\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_401",
+            "type": "customNode",
+            "data": {
+                "label": "//\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_413",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_KeepsLastName == false && (RiziaDLC.Vina_MarriageDecision_Axel == true || RiziaDLC.Vina_MarriageDecision_Manus == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_417",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Country_HouseToras += 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_418",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe same kind of storm had almost killed my daughter all those years ago. I had come so close to losing her."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_424",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA television crew was waiting in the front sitting room. They were awaiting my official statement announcing my marriage and my soon-to-be-born son."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_425",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe same kind of storm had almost killed my daughter all those years ago. I had come so close to losing her then."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_427",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true || RiziaDLC.Vina_Hostage == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_429",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_Escapes == true || RiziaDLC.Vina_Hostage == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_437",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nVina was missing. For all anyone knew, she was dead. My son was very likely my only possible successor."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_441",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nVina was dead. My son was my only possible successor."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_453",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nVina was watching intensely from an armchair in the corner."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_454",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == false && RiziaDLC.Vina_FuneralHappened == false && RiziaDLC.Vina_Hostage == false\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_457",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Announcement]\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_458",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nWe stared out at the ocean together for a couple of minutes. When I was ready, we headed inside."
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_461",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.ZilleOwnership_Brenas == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_463",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_463",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_463",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Escapes == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_466",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nVina was still a captive of the Palesians. For all anyone knew, she was dead. My son was very likely my only possible successor."
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_467",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.News_Turn10_RH_Gossip_KingsNewWifeAndSon = true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_468",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.News_Turn10_RH_Gossip_KingsNewSon = true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_469",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I hereby declare an exception to our kingdom's laws. When she is rescued from Pales, Princess Vina will be my successor.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_470",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Hostage == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_473",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_FuneralHappened == false\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_475",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_FuneralHappened == false)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_475",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_FuneralHappened == false)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_475",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_FuneralHappened == false)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_480",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_FuneralHappened == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_482",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_FuneralHappened == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_483",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"With my daughter still missing, my son has every right to claim the title of Crown Prince.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_484",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.AxelVina_Married_Official == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_484",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.AxelVina_Married_Official == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_484",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.AxelVina_Married_Official == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_486",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.AxelVina_Married_Official == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_487",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_MarriageDecision_Axel == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_489",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_MarriageDecision_Axel == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_492",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_MarriageDecision_Manus == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_493",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_FuneralHappened == false\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_495",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_FuneralHappened == false)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_499",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"All while you went about on your holy crusade, even getting rid of the Royal Council to keep yourself and your... son in charge.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_500",
+            "type": "customNode",
+            "data": {
+                "label": "Vina Toras\n\n\"My darling fiance doesn't give a damn whether he's Crown Prince Consort or not. But his family does.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_501",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Rescue_Success == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_504",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_KeepsLastName == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_506",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Vina_KeepsLastName == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_507",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e1_to_164",
-            "source": "node_1",
-            "target": "node_164",
-            "type": "step"
-        },
-        {
-            "id": "e8_to_165",
-            "source": "node_8",
-            "target": "node_165",
-            "type": "step"
-        },
-        {
-            "id": "e9_to_165",
+            "id": "e9_to_308",
             "source": "node_9",
-            "target": "node_165",
+            "target": "node_308",
             "type": "step"
         },
         {
-            "id": "e13_to_156",
+            "id": "e10_to_309",
+            "source": "node_10",
+            "target": "node_309",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_419",
+            "source": "node_11",
+            "target": "node_419",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_426",
             "source": "node_13",
-            "target": "node_156",
+            "target": "node_426",
             "type": "step"
         },
         {
-            "id": "e28_to_77",
-            "source": "node_28",
-            "target": "node_77",
+            "id": "e39_to_497",
+            "source": "node_39",
+            "target": "node_497",
             "type": "step"
         },
         {
-            "id": "e44_to_109",
+            "id": "e43_to_497",
+            "source": "node_43",
+            "target": "node_497",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_497",
             "source": "node_44",
-            "target": "node_109",
+            "target": "node_497",
             "type": "step"
         },
         {
-            "id": "e57_to_115",
-            "source": "node_57",
-            "target": "node_115",
-            "type": "step"
-        },
-        {
-            "id": "e62_to_119",
+            "id": "e62_to_83",
             "source": "node_62",
-            "target": "node_119",
+            "target": "node_83",
             "type": "step"
         },
         {
-            "id": "e71_to_120",
-            "source": "node_71",
-            "target": "node_120",
+            "id": "e66_to_90",
+            "source": "node_66",
+            "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e77_to_36",
-            "source": "node_77",
-            "target": "node_36",
+            "id": "e78_to_114",
+            "source": "node_78",
+            "target": "node_114",
             "type": "step"
         },
         {
-            "id": "e80_to_98",
-            "source": "node_80",
-            "target": "node_98",
+            "id": "e84_to_157",
+            "source": "node_84",
+            "target": "node_157",
             "type": "step"
         },
         {
-            "id": "e81_to_105",
-            "source": "node_81",
-            "target": "node_105",
+            "id": "e84_to_158",
+            "source": "node_84",
+            "target": "node_158",
             "type": "step"
         },
         {
-            "id": "e85_to_94",
-            "source": "node_85",
+            "id": "e84_to_161",
+            "source": "node_84",
+            "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_505",
+            "source": "node_87",
+            "target": "node_505",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_157",
+            "source": "node_91",
+            "target": "node_157",
+            "type": "step"
+        },
+        {
+            "id": "e91_to_158",
+            "source": "node_91",
+            "target": "node_158",
+            "type": "step"
+        },
+        {
+            "id": "e92_to_152",
+            "source": "node_92",
+            "target": "node_152",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_86",
+            "source": "node_99",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_212",
+            "source": "node_100",
+            "target": "node_212",
+            "type": "step"
+        },
+        {
+            "id": "e102_to_502",
+            "source": "node_102",
+            "target": "node_502",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_485",
+            "source": "node_103",
+            "target": "node_485",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_460",
+            "source": "node_104",
+            "target": "node_460",
+            "type": "step"
+        },
+        {
+            "id": "e106_to_133",
+            "source": "node_106",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_135",
+            "source": "node_107",
+            "target": "node_135",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_137",
+            "source": "node_117",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_112",
+            "source": "node_127",
+            "target": "node_112",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_168",
+            "source": "node_132",
+            "target": "node_168",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_112",
+            "source": "node_142",
+            "target": "node_112",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_131",
+            "source": "node_142",
+            "target": "node_131",
+            "type": "step"
+        },
+        {
+            "id": "e147_to_168",
+            "source": "node_147",
+            "target": "node_168",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_169",
+            "source": "node_156",
+            "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_170",
+            "source": "node_156",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_94",
+            "source": "node_157",
             "target": "node_94",
             "type": "step"
         },
         {
-            "id": "e96_to_138",
-            "source": "node_96",
-            "target": "node_138",
+            "id": "e194_to_453",
+            "source": "node_194",
+            "target": "node_453",
             "type": "step"
         },
         {
-            "id": "e97_to_138",
-            "source": "node_97",
-            "target": "node_138",
+            "id": "e197_to_216",
+            "source": "node_197",
+            "target": "node_216",
             "type": "step"
         },
         {
-            "id": "e98_to_138",
-            "source": "node_98",
-            "target": "node_138",
+            "id": "e198_to_453",
+            "source": "node_198",
+            "target": "node_453",
             "type": "step"
         },
         {
-            "id": "e99_to_142",
-            "source": "node_99",
-            "target": "node_142",
+            "id": "e200_to_217",
+            "source": "node_200",
+            "target": "node_217",
             "type": "step"
         },
         {
-            "id": "e102_to_162",
-            "source": "node_102",
-            "target": "node_162",
+            "id": "e201_to_455",
+            "source": "node_201",
+            "target": "node_455",
             "type": "step"
         },
         {
-            "id": "e103_to_162",
-            "source": "node_103",
-            "target": "node_162",
+            "id": "e202_to_228",
+            "source": "node_202",
+            "target": "node_228",
             "type": "step"
         },
         {
-            "id": "e108_to_162",
-            "source": "node_108",
-            "target": "node_162",
+            "id": "e202_to_224",
+            "source": "node_202",
+            "target": "node_224",
             "type": "step"
         },
         {
-            "id": "e112_to_69",
-            "source": "node_112",
-            "target": "node_69",
+            "id": "e202_to_220",
+            "source": "node_202",
+            "target": "node_220",
             "type": "step"
         },
         {
-            "id": "e117_to_47",
-            "source": "node_117",
-            "target": "node_47",
+            "id": "e213_to_101",
+            "source": "node_213",
+            "target": "node_101",
             "type": "step"
         },
         {
-            "id": "e118_to_47",
-            "source": "node_118",
-            "target": "node_47",
+            "id": "e215_to_453",
+            "source": "node_215",
+            "target": "node_453",
             "type": "step"
         },
         {
-            "id": "e119_to_70",
-            "source": "node_119",
-            "target": "node_70",
+            "id": "e216_to_203",
+            "source": "node_216",
+            "target": "node_203",
             "type": "step"
         },
         {
-            "id": "e137_to_2",
-            "source": "node_137",
+            "id": "e217_to_201",
+            "source": "node_217",
+            "target": "node_201",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_260",
+            "source": "node_229",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_262",
+            "source": "node_229",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_242",
+            "source": "node_231",
+            "target": "node_242",
+            "type": "step"
+        },
+        {
+            "id": "e233_to_251",
+            "source": "node_233",
+            "target": "node_251",
+            "type": "step"
+        },
+        {
+            "id": "e233_to_252",
+            "source": "node_233",
+            "target": "node_252",
+            "type": "step"
+        },
+        {
+            "id": "e234_to_260",
+            "source": "node_234",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e234_to_262",
+            "source": "node_234",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e235_to_264",
+            "source": "node_235",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e235_to_252",
+            "source": "node_235",
+            "target": "node_252",
+            "type": "step"
+        },
+        {
+            "id": "e236_to_260",
+            "source": "node_236",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e236_to_262",
+            "source": "node_236",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_264",
+            "source": "node_237",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e241_to_262",
+            "source": "node_241",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_272",
+            "source": "node_250",
+            "target": "node_272",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_273",
+            "source": "node_250",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e251_to_469",
+            "source": "node_251",
+            "target": "node_469",
+            "type": "step"
+        },
+        {
+            "id": "e255_to_469",
+            "source": "node_255",
+            "target": "node_469",
+            "type": "step"
+        },
+        {
+            "id": "e262_to_270",
+            "source": "node_262",
+            "target": "node_270",
+            "type": "step"
+        },
+        {
+            "id": "e264_to_469",
+            "source": "node_264",
+            "target": "node_469",
+            "type": "step"
+        },
+        {
+            "id": "e265_to_468",
+            "source": "node_265",
+            "target": "node_468",
+            "type": "step"
+        },
+        {
+            "id": "e269_to_468",
+            "source": "node_269",
+            "target": "node_468",
+            "type": "step"
+        },
+        {
+            "id": "e270_to_468",
+            "source": "node_270",
+            "target": "node_468",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_370",
+            "source": "node_271",
+            "target": "node_370",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_369",
+            "source": "node_272",
+            "target": "node_369",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_368",
+            "source": "node_273",
+            "target": "node_368",
+            "type": "step"
+        },
+        {
+            "id": "e277_to_367",
+            "source": "node_277",
+            "target": "node_367",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_481",
+            "source": "node_278",
+            "target": "node_481",
+            "type": "step"
+        },
+        {
+            "id": "e280_to_278",
+            "source": "node_280",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_307",
+            "source": "node_281",
+            "target": "node_307",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_314",
+            "source": "node_281",
+            "target": "node_314",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_307",
+            "source": "node_285",
+            "target": "node_307",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_313",
+            "source": "node_285",
+            "target": "node_313",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_315",
+            "source": "node_285",
+            "target": "node_315",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_312",
+            "source": "node_286",
+            "target": "node_312",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_313",
+            "source": "node_286",
+            "target": "node_313",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_315",
+            "source": "node_286",
+            "target": "node_315",
+            "type": "step"
+        },
+        {
+            "id": "e288_to_484",
+            "source": "node_288",
+            "target": "node_484",
+            "type": "step"
+        },
+        {
+            "id": "e290_to_313",
+            "source": "node_290",
+            "target": "node_313",
+            "type": "step"
+        },
+        {
+            "id": "e294_to_312",
+            "source": "node_294",
+            "target": "node_312",
+            "type": "step"
+        },
+        {
+            "id": "e294_to_313",
+            "source": "node_294",
+            "target": "node_313",
+            "type": "step"
+        },
+        {
+            "id": "e295_to_311",
+            "source": "node_295",
+            "target": "node_311",
+            "type": "step"
+        },
+        {
+            "id": "e299_to_306",
+            "source": "node_299",
+            "target": "node_306",
+            "type": "step"
+        },
+        {
+            "id": "e305_to_327",
+            "source": "node_305",
+            "target": "node_327",
+            "type": "step"
+        },
+        {
+            "id": "e305_to_474",
+            "source": "node_305",
+            "target": "node_474",
+            "type": "step"
+        },
+        {
+            "id": "e305_to_324",
+            "source": "node_305",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e308_to_3",
+            "source": "node_308",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e309_to_12",
+            "source": "node_309",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e310_to_202",
+            "source": "node_310",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_471",
+            "source": "node_318",
+            "target": "node_471",
+            "type": "step"
+        },
+        {
+            "id": "e319_to_305",
+            "source": "node_319",
+            "target": "node_305",
+            "type": "step"
+        },
+        {
+            "id": "e320_to_494",
+            "source": "node_320",
+            "target": "node_494",
+            "type": "step"
+        },
+        {
+            "id": "e320_to_300",
+            "source": "node_320",
+            "target": "node_300",
+            "type": "step"
+        },
+        {
+            "id": "e320_to_477",
+            "source": "node_320",
+            "target": "node_477",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_348",
+            "source": "node_321",
+            "target": "node_348",
+            "type": "step"
+        },
+        {
+            "id": "e322_to_362",
+            "source": "node_322",
+            "target": "node_362",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_344",
+            "source": "node_323",
+            "target": "node_344",
+            "type": "step"
+        },
+        {
+            "id": "e330_to_347",
+            "source": "node_330",
+            "target": "node_347",
+            "type": "step"
+        },
+        {
+            "id": "e347_to_414",
+            "source": "node_347",
+            "target": "node_414",
+            "type": "step"
+        },
+        {
+            "id": "e365_to_372",
+            "source": "node_365",
+            "target": "node_372",
+            "type": "step"
+        },
+        {
+            "id": "e365_to_397",
+            "source": "node_365",
+            "target": "node_397",
+            "type": "step"
+        },
+        {
+            "id": "e366_to_387",
+            "source": "node_366",
+            "target": "node_387",
+            "type": "step"
+        },
+        {
+            "id": "e366_to_382",
+            "source": "node_366",
+            "target": "node_382",
+            "type": "step"
+        },
+        {
+            "id": "e366_to_386",
+            "source": "node_366",
+            "target": "node_386",
+            "type": "step"
+        },
+        {
+            "id": "e366_to_394",
+            "source": "node_366",
+            "target": "node_394",
+            "type": "step"
+        },
+        {
+            "id": "e367_to_278",
+            "source": "node_367",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e368_to_279",
+            "source": "node_368",
+            "target": "node_279",
+            "type": "step"
+        },
+        {
+            "id": "e369_to_280",
+            "source": "node_369",
+            "target": "node_280",
+            "type": "step"
+        },
+        {
+            "id": "e370_to_278",
+            "source": "node_370",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e371_to_402",
+            "source": "node_371",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e374_to_402",
+            "source": "node_374",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e379_to_401",
+            "source": "node_379",
+            "target": "node_401",
+            "type": "step"
+        },
+        {
+            "id": "e380_to_401",
+            "source": "node_380",
+            "target": "node_401",
+            "type": "step"
+        },
+        {
+            "id": "e381_to_100",
+            "source": "node_381",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e385_to_401",
+            "source": "node_385",
+            "target": "node_401",
+            "type": "step"
+        },
+        {
+            "id": "e386_to_401",
+            "source": "node_386",
+            "target": "node_401",
+            "type": "step"
+        },
+        {
+            "id": "e398_to_378",
+            "source": "node_398",
+            "target": "node_378",
+            "type": "step"
+        },
+        {
+            "id": "e401_to_373",
+            "source": "node_401",
+            "target": "node_373",
+            "type": "step"
+        },
+        {
+            "id": "e413_to_2",
+            "source": "node_413",
             "target": "node_2",
             "type": "step"
         },
         {
-            "id": "e151_to_162",
-            "source": "node_151",
-            "target": "node_162",
+            "id": "e417_to_365",
+            "source": "node_417",
+            "target": "node_365",
             "type": "step"
         },
         {
-            "id": "e162_to_128",
-            "source": "node_162",
-            "target": "node_128",
+            "id": "e418_to_365",
+            "source": "node_418",
+            "target": "node_365",
             "type": "step"
         },
         {
-            "id": "e163_to_136",
-            "source": "node_163",
-            "target": "node_136",
+            "id": "e424_to_16",
+            "source": "node_424",
+            "target": "node_16",
             "type": "step"
         },
         {
-            "id": "e164_to_4",
-            "source": "node_164",
-            "target": "node_4",
+            "id": "e425_to_16",
+            "source": "node_425",
+            "target": "node_16",
             "type": "step"
         },
         {
-            "id": "e165_to_14",
-            "source": "node_165",
-            "target": "node_14",
+            "id": "e427_to_434",
+            "source": "node_427",
+            "target": "node_434",
+            "type": "step"
+        },
+        {
+            "id": "e429_to_427",
+            "source": "node_429",
+            "target": "node_427",
+            "type": "step"
+        },
+        {
+            "id": "e437_to_433",
+            "source": "node_437",
+            "target": "node_433",
+            "type": "step"
+        },
+        {
+            "id": "e441_to_464",
+            "source": "node_441",
+            "target": "node_464",
+            "type": "step"
+        },
+        {
+            "id": "e453_to_199",
+            "source": "node_453",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
+            "id": "e454_to_310",
+            "source": "node_454",
+            "target": "node_310",
+            "type": "step"
+        },
+        {
+            "id": "e457_to_310",
+            "source": "node_457",
+            "target": "node_310",
+            "type": "step"
+        },
+        {
+            "id": "e458_to_453",
+            "source": "node_458",
+            "target": "node_453",
+            "type": "step"
+        },
+        {
+            "id": "e461_to_107",
+            "source": "node_461",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e463_to_112",
+            "source": "node_463",
+            "target": "node_112",
+            "type": "step"
+        },
+        {
+            "id": "e463_to_133",
+            "source": "node_463",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e463_to_135",
+            "source": "node_463",
+            "target": "node_135",
+            "type": "step"
+        },
+        {
+            "id": "e466_to_442",
+            "source": "node_466",
+            "target": "node_442",
+            "type": "step"
+        },
+        {
+            "id": "e467_to_443",
+            "source": "node_467",
+            "target": "node_443",
+            "type": "step"
+        },
+        {
+            "id": "e468_to_250",
+            "source": "node_468",
+            "target": "node_250",
+            "type": "step"
+        },
+        {
+            "id": "e469_to_250",
+            "source": "node_469",
+            "target": "node_250",
+            "type": "step"
+        },
+        {
+            "id": "e470_to_305",
+            "source": "node_470",
+            "target": "node_305",
+            "type": "step"
+        },
+        {
+            "id": "e473_to_488",
+            "source": "node_473",
+            "target": "node_488",
+            "type": "step"
+        },
+        {
+            "id": "e475_to_343",
+            "source": "node_475",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e475_to_345",
+            "source": "node_475",
+            "target": "node_345",
+            "type": "step"
+        },
+        {
+            "id": "e475_to_346",
+            "source": "node_475",
+            "target": "node_346",
+            "type": "step"
+        },
+        {
+            "id": "e480_to_321",
+            "source": "node_480",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e482_to_290",
+            "source": "node_482",
+            "target": "node_290",
+            "type": "step"
+        },
+        {
+            "id": "e483_to_287",
+            "source": "node_483",
+            "target": "node_287",
+            "type": "step"
+        },
+        {
+            "id": "e484_to_307",
+            "source": "node_484",
+            "target": "node_307",
+            "type": "step"
+        },
+        {
+            "id": "e484_to_313",
+            "source": "node_484",
+            "target": "node_313",
+            "type": "step"
+        },
+        {
+            "id": "e484_to_314",
+            "source": "node_484",
+            "target": "node_314",
+            "type": "step"
+        },
+        {
+            "id": "e486_to_105",
+            "source": "node_486",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e487_to_115",
+            "source": "node_487",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e489_to_298",
+            "source": "node_489",
+            "target": "node_298",
+            "type": "step"
+        },
+        {
+            "id": "e492_to_297",
+            "source": "node_492",
+            "target": "node_297",
+            "type": "step"
+        },
+        {
+            "id": "e493_to_296",
+            "source": "node_493",
+            "target": "node_296",
+            "type": "step"
+        },
+        {
+            "id": "e495_to_316",
+            "source": "node_495",
+            "target": "node_316",
+            "type": "step"
+        },
+        {
+            "id": "e499_to_45",
+            "source": "node_499",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e500_to_56",
+            "source": "node_500",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e501_to_460",
+            "source": "node_501",
+            "target": "node_460",
+            "type": "step"
+        },
+        {
+            "id": "e504_to_104",
+            "source": "node_504",
+            "target": "node_104",
+            "type": "step"
+        },
+        {
+            "id": "e506_to_89",
+            "source": "node_506",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e507_to_381",
+            "source": "node_507",
+            "target": "node_381",
             "type": "step"
         }
     ]

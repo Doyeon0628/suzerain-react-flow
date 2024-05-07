@@ -1,56 +1,260 @@
 {
     "nodes": [
         {
-            "id": "node_40",
+            "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nHe looked at me with fury in his eyes."
+                "label": "Narrator\n\nI entered the palace's residential wing and began making my way to my quarters."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_55",
+            "id": "node_8",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nHe walked up to my desk and placed his pin on it."
+                "label": "RiziaDLC.Vina_Engaged == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_83",
+            "id": "node_58",
             "type": "customNode",
             "data": {
-                "label": "RemoveConversant(\"Hugo Toras\");\n\nnan"
+                "label": "Pabel Adria\n\n\"Very well. I've gotten all your clothes ready for tomorrow.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "Pabel Adria\n\n\"She's been in her room this entire time.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Vina_Engaged == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "Estela Toras\n\n\"Your real problem is explaining to the international press that the Kingdom of Rizia can't hold on to its princesses.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "Estela Toras\n\n\"Your real problem is explaining to the international press that the Kingdom of Rizia can't hold on to its princesses.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "Estela Toras\n\n\"Your real problem is explaining to the international press that the Kingdom of Rizia can't hold on to its princesses.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "Estela Toras\n\n\"Your real problem is explaining to the international press that the Kingdom of Rizia can't hold on to its princesses.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThere was pain in his eyes as he looked at me."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"This is just cold feet. She'll come back eventually.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Trait_TyrantKing == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_142",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"This is just a tantrum. I'm sure she'll come back eventually.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_156",
+            "type": "customNode",
+            "data": {
+                "label": "Estela Toras\n\n\"Not to mention our family's line of succession.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_175",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e40_to_27",
-            "source": "node_40",
-            "target": "node_27",
+            "id": "e2_to_784",
+            "source": "node_2",
+            "target": "node_784",
             "type": "step"
         },
         {
-            "id": "e55_to_46",
-            "source": "node_55",
-            "target": "node_46",
+            "id": "e8_to_77",
+            "source": "node_8",
+            "target": "node_77",
             "type": "step"
         },
         {
-            "id": "e83_to_4",
-            "source": "node_83",
-            "target": "node_4",
+            "id": "e58_to_133",
+            "source": "node_58",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_133",
+            "source": "node_59",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_89",
+            "source": "node_73",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_144",
+            "source": "node_127",
+            "target": "node_144",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_148",
+            "source": "node_127",
+            "target": "node_148",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_152",
+            "source": "node_127",
+            "target": "node_152",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_139",
+            "source": "node_127",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_157",
+            "source": "node_131",
+            "target": "node_157",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_123",
+            "source": "node_136",
+            "target": "node_123",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_160",
+            "source": "node_138",
+            "target": "node_160",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_165",
+            "source": "node_142",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_168",
+            "source": "node_156",
+            "target": "node_168",
+            "type": "step"
+        },
+        {
+            "id": "e175_to_109",
+            "source": "node_175",
+            "target": "node_109",
             "type": "step"
         }
     ]

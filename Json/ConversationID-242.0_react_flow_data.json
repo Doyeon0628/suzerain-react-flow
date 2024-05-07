@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Player_Italic\n\nI pointed the gun towards the soldier.\n\nPoint the gun towards the soldier."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Iosef Lancea\n\n“Well, that's my cue.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Narrator\n\nIosef turned to me."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Player\n\n“Vectern sis da!”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Narrator\n\nGunshots rang out, then an ear-splitting explosion, followed by silence.\n\nRemoveConversant(Iosef Lancea); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "GameCondition.Turn11_SnO_RumburgWarLost = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "BaseGameIsolated.Turn11_SnO_PointGunToSoldier = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Narrator\n\n“If there is anyone listening right now... please. The world needs to know what is going on. This is no longer a war. This is a massacre! Squad 2 out.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Narrator\n\nI looked at Monica and Deana. Deana's face was streaked with tears.\n\nAddConversant(Monica); AddConversant(Deana); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +117,19 @@
                 "label": "Narrator\n\nI breathed a sigh of relief that Monica and Deana were safely on their way to Arcasia, where they would meet up with Franc. My family wouldn't be paying for my mistakes."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI breathed a sigh of relief that Monica and Deana were safely on their way to Arcasia, where they would meet up with Franc. My family wouldn't be paying for my mistakes."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -128,8 +139,8 @@
                 "label": "!(BaseGame.Turn07_Personal_University_Home_Public == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -139,8 +150,8 @@
                 "label": "!(BaseGame.Turn10_SnO_FrancPulledToHolsord == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -150,8 +161,8 @@
                 "label": "Narrator\n\nI looked at Monica, Deana and Franc. Deana started running to me, crying. I wiped her tears away.\n\nAddConversant(Monica); AddConversant(Deana); AddConversant(Franc); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -161,8 +172,19 @@
                 "label": "Narrator\n\nI breathed a sigh of relief that Monica, Deana and Franc were on their way to Benfi, where they'd be safe from the bloodshed. I had sent them there under the protection of Franc's army squad."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI breathed a sigh of relief that Monica, Deana and Franc were on their way to Benfi, where they'd be safe from the bloodshed. I had sent them there under the protection of Franc's army squad."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -172,8 +194,8 @@
                 "label": "Iosef Lancea\n\n“The military convoy carrying your children and ex-wife was ambushed by Rumburg troops on its way out of Holsord. Franc sacrificed his life in order to grant safe passage to Monica, your daughter, and the rest of his squad.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -183,8 +205,8 @@
                 "label": "Iosef Lancea\n\n“Monica and Deana are unharmed and will be arriving in Benfi soon.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -194,8 +216,8 @@
                 "label": "Player\n\n“Death is never the end, my dear daughter. It comes to all of us at one point in our lives.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -205,8 +227,8 @@
                 "label": "Player\n\n“No. We will not die, Deana. As long as I am here, don't worry.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -216,8 +238,8 @@
                 "label": "Player\n\n“Are we safe here, Iosef?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -227,8 +249,8 @@
                 "label": "Player\n\n“What do you make of the situation?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -238,8 +260,8 @@
                 "label": "Iosef Lancea\n\n“Don't worry, sir. Unless they somehow got their hands on the Palace schematics, they don't know about the secret tunnel that leads here from the Situation Room.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -249,8 +271,8 @@
                 "label": "Player\n\n“So is this the end?”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -260,8 +282,8 @@
                 "label": "Player\n\n“We will barricade ourselves in and hope for the best.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -271,8 +293,8 @@
                 "label": "Iosef Lancea\n\n“It's one last battle for me, then.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -282,8 +304,8 @@
                 "label": "BaseGame.RumburgWarLost_Alone == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -293,8 +315,8 @@
                 "label": "Monica\n\n“Anton, don't you fucking dare.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -304,8 +326,19 @@
                 "label": "Monica\n\n“You don't get to decide that.\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_142",
+            "type": "customNode",
+            "data": {
+                "label": "Monica\n\n“You don't get to decide that.\"\n\n"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -315,8 +348,19 @@
                 "label": "Narrator\n\nIosef punched a code into the panel on the door, and it slid open. As we left the bunker, it closed behind us with a final-sounding thud.\n\nRemoveConversant(Monica); RemoveConversant(Deana); RemoveConversant(Franc); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIosef punched a code into the panel on the door, and it slid open. As we left the bunker, it closed behind us with a final-sounding thud.\n\nRemoveConversant(Monica); RemoveConversant(Deana); RemoveConversant(Franc); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -326,8 +370,8 @@
                 "label": "Narrator\n\nEverything was the same as I had left it."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -337,8 +381,8 @@
                 "label": "Player_Italic\n\nI sat down in my chair.\n\nSit in your chair for one last time."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -348,8 +392,8 @@
                 "label": "BaseGameIsolated.Turn11_SnO_Curtain == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +403,8 @@
                 "label": "!(BaseGameIsolated.Turn11_SnO_Curtain == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -370,8 +414,8 @@
                 "label": "!(BaseGameIsolated.Turn11_SnO_Photo == true && BaseGameIsolated.Turn11_SnO_Chair == true && BaseGameIsolated.Turn11_SnO_Curtain == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -381,8 +425,8 @@
                 "label": "Narrator\n\nThe taste was as exquisite as ever."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -392,8 +436,8 @@
                 "label": "Narrator\n\nBlack smoke was rising from downtown Holsord. Buildings shook, groaned and collapsed as bombs went off."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -403,8 +447,8 @@
                 "label": "Jump to: [Office Hub]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -414,8 +458,8 @@
                 "label": "Player\n\n“They only want *me*. I'm going to the Palace.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -425,8 +469,8 @@
                 "label": "Narrator\n\nWe sat and waited. A grim silence descended."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -436,8 +480,8 @@
                 "label": "Narrator\n\nA half an hour passed, then an hour, then an hour and a half."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -447,8 +491,8 @@
                 "label": "Narrator\n\nThey were drilling their way through to us."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -458,8 +502,8 @@
                 "label": "Player\n\n“Vectern sis da.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -469,8 +513,8 @@
                 "label": "Iosef Lancea\n\n“Mr. President. Take this.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -480,8 +524,8 @@
                 "label": "Iosef Lancea\n\n“Roger that, sir.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -491,8 +535,8 @@
                 "label": "!(BaseGame.RumburgWarLost_Alone == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -502,8 +546,8 @@
                 "label": "Iosef Lancea\n\n“All ready, sir?”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -513,8 +557,8 @@
                 "label": "Iosef Lancea\n\n“I will be in the other room.”\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -524,8 +568,8 @@
                 "label": "Narrator\n\nHe turned to me and gave me a handgun."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -535,8 +579,8 @@
                 "label": "Narrator\n\nA minute later, I heard a solitary gunshot.\n\nRemoveConversant(Iosef Lancea); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -546,8 +590,8 @@
                 "label": "Player_Italic\n\nI pointed the gun towards my own head.\n\nPoint the gun towards your head."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -557,8 +601,8 @@
                 "label": "Narrator\n\nThe door swung open and a Rumburgian soldier entered. He trained his rifle on me."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -568,8 +612,8 @@
                 "label": "Narrator\n\nI stood up, and one of the men turned his rifle on me."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -579,8 +623,8 @@
                 "label": "BaseGameIsolated.Turn11_SnO_PointGunToHead = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -590,8 +634,8 @@
                 "label": "Player\n\n“I surrender! Please don't hurt my family! I beg you! Please!”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -601,8 +645,8 @@
                 "label": "Player\n\n“I surrender! Please don't hurt me! I beg you! Please!”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -612,8 +656,8 @@
                 "label": "!(BaseGame.RumburgWarLost_Alone == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -623,8 +667,8 @@
                 "label": "BaseGameIsolated.Turn11_SnO_Surrender = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -634,8 +678,8 @@
                 "label": "Narrator\n\nI thanked Iosef and turned to my family."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -645,8 +689,8 @@
                 "label": "Narrator\n\nIosef punched a code into the panel on the door, and it slid open. As we left the bunker, it closed behind us with a final-sounding thud."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -656,8 +700,8 @@
                 "label": "BaseGameIsolated.Turn11_SnO_Curtain = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -667,8 +711,8 @@
                 "label": "BaseGameIsolated.Turn11_SnO_Chair = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -678,8 +722,8 @@
                 "label": "BaseGameIsolated.Turn11_SnO_Photo = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -689,8 +733,8 @@
                 "label": "Narrator\n\nI breathed a sigh of relief that Deana and her mother were on their way to safety in Benfi, under the protection of Franc and his army squad. Monica had angrily protested my order at first, but relented when I told her the children's lives were on the line."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -700,8 +744,8 @@
                 "label": "Narrator\n\nThey were supposed to have gotten there right about now."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -711,8 +755,8 @@
                 "label": "BaseGame.Relations_Monica_DivorceAfterElection == true || BaseGame.Relations_Monica_Divorce == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -722,8 +766,8 @@
                 "label": "!(BaseGame.Relations_Monica_DivorceAfterElection == true || BaseGame.Relations_Monica_Divorce == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -733,8 +777,8 @@
                 "label": "Player\n\n“Give 'em hell!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -744,8 +788,8 @@
                 "label": "Player\n\n\"I love you.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -755,8 +799,8 @@
                 "label": "Player\n\n\"Don't open this door after I leave. No matter what you hear.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -766,8 +810,8 @@
                 "label": "Player\n\n“For Sordland!\""
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -777,8 +821,8 @@
                 "label": "Narrator\n\nIosef walked away. He returned after just a few short minutes."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -788,8 +832,8 @@
                 "label": "Player\n\n“For Sordland!\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -799,8 +843,8 @@
                 "label": "Player\n\n“Goodbye, Iosef.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -810,8 +854,8 @@
                 "label": "Iosef Lancea\n\n“That depends, sir. If your ex-secretary handed Rumburg the Palace schematics, they might know about the tunnel that leads here from the Situation Room.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -821,8 +865,8 @@
                 "label": "Narrator\n\nMy Minister of Defense had sprung into action the moment Rumburg began strafing Holsord, smuggling me out of the Palace into this remote bunker."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -832,8 +876,8 @@
                 "label": "Narrator\n\nHe'd managed to get my family here as well. What was left of it, anyway."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -843,8 +887,8 @@
                 "label": "BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_DivorceAfterElection == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -854,8 +898,8 @@
                 "label": "Narrator\n\nMiraculously, he'd managed to get my family here as well."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -865,8 +909,8 @@
                 "label": "BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_DivorceAfterElection == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -876,8 +920,8 @@
                 "label": "Narrator\n\nI breathed a sigh of relief that the children were out of the country with their mother, staying with a distant relative of Monica's in Arcasia. My ex-wife had the good sense to flee long before the invasion started."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -887,8 +931,8 @@
                 "label": "BaseGame.Relations_Monica_DivorceAfterElection == true || BaseGame.Relations_Monica_Divorce == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -898,8 +942,8 @@
                 "label": "Narrator\n\nI breathed a sigh of relief that Deana was safely out of the country with her mother. Monica had taken our daughter and fled to a distant relative's house in Arcasia, shortly after Franc..."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -909,8 +953,8 @@
                 "label": "Narrator\n\nIosef flung open the door and, in a flurry of gunfire, easily dispatched the small group of soldiers outside."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -920,8 +964,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true || BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -931,8 +975,8 @@
                 "label": "!(BaseGame.Turn07_Personal_University_Abroad_Arcasia == true || BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -942,8 +986,8 @@
                 "label": "!(BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_DivorceAfterElection == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -953,8 +997,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Home_Public == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -964,8 +1008,8 @@
                 "label": "!(BaseGame.Turn07_Personal_University_Home_Public == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -975,8 +1019,8 @@
                 "label": "!(BaseGame.Turn10_SnO_FrancPulledToHolsord == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -986,8 +1030,8 @@
                 "label": "BaseGame.RumburgWarLost_WholeFamilyWithYou = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -997,8 +1041,8 @@
                 "label": "BaseGame.RumburgWarLost_Alone = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1008,8 +1052,8 @@
                 "label": "Iosef Lancea\n\n\"Our failure at Tzarsbourgh triggered a string of events that we could not imagine...\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1019,8 +1063,8 @@
                 "label": "Narrator\n\nIosef tightened his grip on his handgun."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1030,8 +1074,8 @@
                 "label": "Iosef Lancea\n\n\"We thought we had them trapped at Estord... \"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1041,8 +1085,30 @@
                 "label": "Narrator\n\nI was interrupted by the sudden loud noise of gunfire in the hall outside."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_369",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI was interrupted by the sudden loud noise of gunfire in the hall outside."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_369",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI was interrupted by the sudden loud noise of gunfire in the hall outside."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1052,8 +1118,8 @@
                 "label": "BaseGame.Turn10_SnO_Phase1_AssaultTzarsbourgh == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1063,8 +1129,8 @@
                 "label": "!(BaseGame.Turn10_SnO_Phase1_AssaultTzarsbourgh == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1074,8 +1140,8 @@
                 "label": "BaseGame.Turn10_SnO_Phase1_DigDown == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1085,8 +1151,8 @@
                 "label": "Iosef Lancea\n\n\"Feels like just yesterday that we were raising Sordland's banner over Tzarsbourgh...\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1096,8 +1162,8 @@
                 "label": "Iosef Lancea\n\n\"But then our attempt to capture Thornbourgh ended in failure...\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1107,8 +1173,8 @@
                 "label": "Iosef Lancea\n\n\"Mr. President, I just wanted to say...\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1118,8 +1184,8 @@
                 "label": "BaseGame.Turn10_SnO_Phase1_Success == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1129,8 +1195,8 @@
                 "label": "!(BaseGame.Turn10_SnO_Phase1_Success == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1140,8 +1206,8 @@
                 "label": "Iosef Lancea\n\n\"We thought we had them trapped at Estord...\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -1151,8 +1217,8 @@
                 "label": "Iosef Lancea\n\n\"Our failure at Tzarsbourgh triggered a string of events that we could not have imagined...\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1162,8 +1228,8 @@
                 "label": "BaseGame.Franc_Died = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1173,8 +1239,8 @@
                 "label": "Deana\n\n\"But I'm not even a grown-up yet! I'm not ready...\"\n\n"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1184,8 +1250,8 @@
                 "label": "Player\n\n\"It's my fault, General. I got us into--\"\n\n\"It's my fault, General. I got us into an unwinnable war.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1195,8 +1261,8 @@
                 "label": "Player\n\n\"We can't do anything about that now. All we can do is make our last--\"\n\n\"We can't do anything about that now. All we can do is make our last stand.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1206,8 +1272,8 @@
                 "label": "Player\n\n\"You're right. This mess we're in--\"\n\n\"You're right. This mess we're in is entirely your fault.\""
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1217,8 +1283,8 @@
                 "label": "Player\n\n\"It's my fault, General. I got us into an unwinnable war.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1228,8 +1294,8 @@
                 "label": "Player_Italic\n\nI didn't reply. We sat down in opposite corners of the room.\n\nDon't say anything."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1239,8 +1305,8 @@
                 "label": "Player_Italic\n\nI kept silent, listening to the sounds of the battle below us.\n\nDon't say anything."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1250,8 +1316,8 @@
                 "label": "PlaySoundEffect(\"GunshotExplosion\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1261,8 +1327,8 @@
                 "label": "PlaySoundEffect(\"Drill\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1272,8 +1338,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1283,8 +1349,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -1356,6 +1422,12 @@
             "type": "step"
         },
         {
+            "id": "e42_to_76",
+            "source": "node_42",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
             "id": "e49_to_318",
             "source": "node_49",
             "target": "node_318",
@@ -1377,6 +1449,12 @@
             "id": "e58_to_83",
             "source": "node_58",
             "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_84",
+            "source": "node_58",
+            "target": "node_84",
             "type": "step"
         },
         {
@@ -1458,9 +1536,21 @@
             "type": "step"
         },
         {
+            "id": "e142_to_295",
+            "source": "node_142",
+            "target": "node_295",
+            "type": "step"
+        },
+        {
             "id": "e143_to_294",
             "source": "node_143",
             "target": "node_294",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_295",
+            "source": "node_143",
+            "target": "node_295",
             "type": "step"
         },
         {
@@ -1857,6 +1947,18 @@
             "id": "e369_to_395",
             "source": "node_369",
             "target": "node_395",
+            "type": "step"
+        },
+        {
+            "id": "e369_to_396",
+            "source": "node_369",
+            "target": "node_396",
+            "type": "step"
+        },
+        {
+            "id": "e369_to_403",
+            "source": "node_369",
+            "target": "node_403",
             "type": "step"
         },
         {

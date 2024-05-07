@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nShe approached me, her demeanor friendly yet cautious."
+                "label": "output\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -12,10 +12,10 @@
             }
         },
         {
-            "id": "node_42",
+            "id": "node_32",
             "type": "customNode",
             "data": {
-                "label": "Angelica Sazon\n\n\"I won't pretend his words never swayed me. But when I became pregnant I realized some things are more important than revolution.\""
+                "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -25,15 +25,15 @@
     ],
     "edges": [
         {
-            "id": "e2_to_1312",
-            "source": "node_2",
-            "target": "node_1312",
+            "id": "e1_to_21",
+            "source": "node_1",
+            "target": "node_21",
             "type": "step"
         },
         {
-            "id": "e42_to_28",
-            "source": "node_42",
-            "target": "node_28",
+            "id": "e32_to_6",
+            "source": "node_32",
+            "target": "node_6",
             "type": "step"
         }
     ]

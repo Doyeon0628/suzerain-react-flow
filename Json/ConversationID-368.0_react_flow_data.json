@@ -1,277 +1,277 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"Tell me. What has Saltana done to deserve my goodwill?\""
+                "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_3",
+            "id": "node_6",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"This isn't about 'goodwill'. It's about a murderous incursion of Derdian insurgents.\""
+                "label": "Jorga Azmal\n\n\"Our great warrior culture. I see...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_11",
+            "id": "node_40",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"As St. Wruhec has said, 'Generosity is the heart's river, but let its waters flow with discernment'.\""
+                "label": "Jorga Azmal\n\n\"And perhaps, lay the foundation for Golcondist acceptance in Rizia.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_16",
+            "id": "node_41",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"I will meet with you and Saltana. That is all I can promise.\""
+                "label": "Player_Romus\n\n\"We are at risk of losing the territory of Zille to Wehlen. I would humbly call upon your great warrior culture for assistance.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_17",
+            "id": "node_47",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Silence, both of you. I did not come here to trade aphorisms.\""
+                "label": "RiziaDLC.Resources_Budget > 0\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_31",
+            "id": "node_49",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"We will talk to Saltana. I will respect her borders if she respects my pilgrims' rights.\""
+                "label": "!(RiziaDLC.Resources_Budget > 0)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_36",
+            "id": "node_49",
             "type": "customNode",
             "data": {
-                "label": "Jorga Azmal\n\n\"In that case...\""
+                "label": "!(RiziaDLC.Resources_Budget > 0)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_48",
+            "id": "node_53",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"I hope you are ready to compromise. Derdians are not automatically entitled to enter Morella, after all.\""
+                "label": "Jorga Azmal\n\n\"That depends, Your Majesty. What else do you want?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_65",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nHe sat back on his cushion, looking defiant."
+                "label": "Player_Romus\n\n\"Sounds like a plan. Your men are hired.\"\n\n\"Sounds like a plan. Your men are hired.\" [-1 Budget]"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_70",
+            "id": "node_95",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Turn07_Diplomacy_Derdia_EnableSaltanaMeeting = true; RiziaDLCSupport.Journal_Turn07_Derdia_MorellaDispute = true;\n\nnan"
+                "label": "Jorga Azmal\n\n\"But very well.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_73",
+            "id": "node_95",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Policy_Economy_MorellaPipeline_Project == false)\n\nnan"
+                "label": "Jorga Azmal\n\n\"But very well.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_79",
+            "id": "node_100",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Respectfully, Supreme Wiseman, we barely have enough energy to sell to Morella, let alone Derdia.\""
+                "label": "Narrator\n\nHe paused."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
-            "id": "node_82",
+            "id": "node_102",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"I can't do that. Too much could go wrong.\""
+                "label": "RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_85",
+            "id": "node_106",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"He wrote a lot, didn't he?\""
+                "label": "RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_99",
+            "id": "node_107",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Resources_Budget > 0)\n\nnan"
+                "label": "Jump to: [Derdia Requests]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
-            "id": "node_101",
+            "id": "node_108",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_576",
-            "source": "node_2",
-            "target": "node_576",
+            "id": "e1_to_103",
+            "source": "node_1",
+            "target": "node_103",
             "type": "step"
         },
         {
-            "id": "e3_to_27",
-            "source": "node_3",
-            "target": "node_27",
+            "id": "e6_to_106",
+            "source": "node_6",
+            "target": "node_106",
             "type": "step"
         },
         {
-            "id": "e11_to_65",
-            "source": "node_11",
-            "target": "node_65",
+            "id": "e40_to_88",
+            "source": "node_40",
+            "target": "node_88",
             "type": "step"
         },
         {
-            "id": "e16_to_71",
-            "source": "node_16",
-            "target": "node_71",
+            "id": "e41_to_70",
+            "source": "node_41",
+            "target": "node_70",
             "type": "step"
         },
         {
-            "id": "e17_to_71",
-            "source": "node_17",
-            "target": "node_71",
+            "id": "e47_to_23",
+            "source": "node_47",
+            "target": "node_23",
             "type": "step"
         },
         {
-            "id": "e31_to_15",
-            "source": "node_31",
-            "target": "node_15",
+            "id": "e49_to_38",
+            "source": "node_49",
+            "target": "node_38",
             "type": "step"
         },
         {
-            "id": "e36_to_22",
-            "source": "node_36",
-            "target": "node_22",
+            "id": "e49_to_94",
+            "source": "node_49",
+            "target": "node_94",
             "type": "step"
         },
         {
-            "id": "e48_to_68",
-            "source": "node_48",
+            "id": "e53_to_67",
+            "source": "node_53",
+            "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_48",
+            "source": "node_65",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_66",
+            "source": "node_95",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_70",
+            "source": "node_95",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_68",
+            "source": "node_100",
             "target": "node_68",
             "type": "step"
         },
         {
-            "id": "e65_to_13",
-            "source": "node_65",
-            "target": "node_13",
+            "id": "e102_to_57",
+            "source": "node_102",
+            "target": "node_57",
             "type": "step"
         },
         {
-            "id": "e70_to_18",
-            "source": "node_70",
-            "target": "node_18",
+            "id": "e106_to_7",
+            "source": "node_106",
+            "target": "node_7",
             "type": "step"
         },
         {
-            "id": "e73_to_47",
-            "source": "node_73",
-            "target": "node_47",
-            "type": "step"
-        },
-        {
-            "id": "e79_to_43",
-            "source": "node_79",
+            "id": "e107_to_43",
+            "source": "node_107",
             "target": "node_43",
             "type": "step"
         },
         {
-            "id": "e82_to_37",
-            "source": "node_82",
-            "target": "node_37",
-            "type": "step"
-        },
-        {
-            "id": "e85_to_43",
-            "source": "node_85",
-            "target": "node_43",
-            "type": "step"
-        },
-        {
-            "id": "e99_to_44",
-            "source": "node_99",
-            "target": "node_44",
-            "type": "step"
-        },
-        {
-            "id": "e101_to_37",
-            "source": "node_101",
-            "target": "node_37",
+            "id": "e108_to_501",
+            "source": "node_108",
+            "target": "node_501",
             "type": "step"
         }
     ]

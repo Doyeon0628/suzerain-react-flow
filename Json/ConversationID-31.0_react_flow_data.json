@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 3500
+                "x": 0.0,
+                "y": 3500.0
             }
         },
         {
@@ -18,8 +18,19 @@
                 "label": "Narrator\n\nNot long after, Petr and Lucian arrived.\n\nAddConversant(Lucian Galade); AddConversant(Petr Vectern); RemoveConversant(Livia Suno); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nNot long after, Petr and Lucian arrived.\n\nAddConversant(Lucian Galade); AddConversant(Petr Vectern); RemoveConversant(Livia Suno); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 2500.0
             }
         },
         {
@@ -29,8 +40,8 @@
                 "label": "Player\n\n“Greetings.”"
             },
             "position": {
-                "x": 0,
-                "y": 2500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +51,8 @@
                 "label": "Player\n\n“Finally!”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 3750.0
             }
         },
         {
@@ -51,8 +62,8 @@
                 "label": "Narrator\n\nThe reform committee finally bore tangible results and the draft of the changes were about to be presented."
             },
             "position": {
-                "x": 0,
-                "y": 3750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +73,8 @@
                 "label": "Player\n\n“Good morning everybody.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2750.0
             }
         },
         {
@@ -73,8 +84,8 @@
                 "label": "Narrator\n\nAfter placing the committee's report and my own notes in front of me, I buried myself in the papers.\n\nOpenDictatorConstitutionalChangesPanel(); WaitforMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 2750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -84,8 +95,8 @@
                 "label": "Player\n\n\"Maybe we shouldn't mess with the Court much to keep them on our side.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -95,8 +106,8 @@
                 "label": "Petr Vectern\n\n\"...They will be looking for anything they can declare unconstitutional to tackle you. All they need is the Supreme Court to impeach you.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -106,8 +117,41 @@
                 "label": "Petr Vectern\n\n\"We could try to balance it with the reformists and make it dependent on an enabling act from the Assembly. Sure, it would make the whole process longer but as long as we have a majority, nothing really changes.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1750.0
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"We could try to balance it with the reformists and make it dependent on an enabling act from the Assembly. Sure, it would make the whole process longer but as long as we have a majority, nothing really changes.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"We could try to balance it with the reformists and make it dependent on an enabling act from the Assembly. Sure, it would make the whole process longer but as long as we have a majority, nothing really changes.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_20",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"We could try to balance it with the reformists and make it dependent on an enabling act from the Assembly. Sure, it would make the whole process longer but as long as we have a majority, nothing really changes.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +161,30 @@
                 "label": "Lucian Galade\n\n\"And the last one is the question about Soll's legacy. Basically his *Member of Honor* law. It gave him absolute immunity even when he's retired. He is a permanent member of the Assembly as well, but luckily he doesn't really attend anymore.\""
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"And the last one is the question about Soll's legacy. Basically his *Member of Honor* law. It gave him absolute immunity even when he's retired. He is a permanent member of the Assembly as well, but luckily he doesn't really attend anymore.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"And the last one is the question about Soll's legacy. Basically his *Member of Honor* law. It gave him absolute immunity even when he's retired. He is a permanent member of the Assembly as well, but luckily he doesn't really attend anymore.\""
+            },
+            "position": {
+                "x": 270.0,
+                "y": 2500.0
             }
         },
         {
@@ -128,8 +194,8 @@
                 "label": "Lucian Galade\n\n\"We will leave it to the President to decide.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -139,8 +205,8 @@
                 "label": "Player\n\n\"No, I think we should respect this law.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -150,8 +216,8 @@
                 "label": "Lucian Galade\n\n\"This is regarding the appointment of ministers. Currently, the President is free to appoint anyone from the members of the Assembly. Nobody else is involved with the process.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -161,8 +227,8 @@
                 "label": "Lucian Galade\n\n\"But of course, I don't.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -172,8 +238,8 @@
                 "label": "Lucian Galade\n\n\"It's the question about the immunity of the Judges. While the Anti-Old Guard sentiment is increasing, there are talks that taking away their immunity would give us authority over judiciary.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -183,8 +249,8 @@
                 "label": "Player\n\n\"I don't aim to leave any time soon. We keep the unlimited terms.\""
             },
             "position": {
-                "x": 270,
-                "y": 2500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +260,8 @@
                 "label": "Petr Vectern\n\n\"If we can remove their immunity or define an impeachment process, we could clean the Court from Orso and his gang.\""
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -205,8 +271,30 @@
                 "label": "Lucian Galade\n\n\"Yes, they are already trying to hit you since they are expecting reforms. But we aim to cooperate with some of the judges to make sure that doesn't happen.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Yes, they are already trying to hit you since they are expecting reforms. But we aim to cooperate with some of the judges to make sure that doesn't happen.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 3000.0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Yes, they are already trying to hit you since they are expecting reforms. But we aim to cooperate with some of the judges to make sure that doesn't happen.\""
+            },
+            "position": {
+                "x": 270.0,
+                "y": 1500.0
             }
         },
         {
@@ -216,8 +304,8 @@
                 "label": "Lucian Galade\n\n\"I agree, we could keep that in.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2750.0
             }
         },
         {
@@ -227,8 +315,8 @@
                 "label": "Petr Vectern\n\n\"Yes, but this is a delicate matter. The party, and I mean, not even Albin wants us to change the threshold. They think that... this would destroy our party in the long term.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -238,8 +326,8 @@
                 "label": "Petr Vectern\n\n\"I'm sure some of the reformists may support that.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -249,8 +337,8 @@
                 "label": "Lucian Galade\n\n\"Some reformists suggested that the Assembly should nominate the ministers before the President approves them.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -260,8 +348,30 @@
                 "label": "Lucian Galade\n\n\"The fifth section is about our infamous electoral threshold. Most reformists want to lower the threshold as much as possible. We could try working with them but it is simpler to keep the law.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 270.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_51",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"The fifth section is about our infamous electoral threshold. Most reformists want to lower the threshold as much as possible. We could try working with them but it is simpler to keep the law.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_51",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"The fifth section is about our infamous electoral threshold. Most reformists want to lower the threshold as much as possible. We could try working with them but it is simpler to keep the law.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -271,8 +381,8 @@
                 "label": "Lucian Galade\n\n\"Yes. Tarquin Soll governed for twenty years. It seems his magic is slowly vanishing from the minds of the people, for they believe term limits are necessary.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 540.0,
+                "y": 2250.0
             }
         },
         {
@@ -282,8 +392,8 @@
                 "label": "Petr Vectern\n\n\"Two major left parties; the Communist Party of Sordland and the Workers Party of Bludia both had close to ten percent vote in the last election.\""
             },
             "position": {
-                "x": 0,
-                "y": 3000
+                "x": 270.0,
+                "y": 2250.0
             }
         },
         {
@@ -293,8 +403,8 @@
                 "label": "Player\n\n\"Term Limits?\""
             },
             "position": {
-                "x": 270,
-                "y": 1500
+                "x": 0.0,
+                "y": 2000.0
             }
         },
         {
@@ -304,8 +414,8 @@
                 "label": "Narrator\n\nLucian continued with the next section."
             },
             "position": {
-                "x": 0,
-                "y": 2750
+                "x": 270.0,
+                "y": 2250.0
             }
         },
         {
@@ -315,8 +425,8 @@
                 "label": "Player\n\n\"Because we could use it too.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 270.0,
+                "y": 750.0
             }
         },
         {
@@ -326,8 +436,8 @@
                 "label": "Player\n\n\"We should definitely work to decrease the threshold to some degree.\""
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 540.0,
+                "y": 2250.0
             }
         },
         {
@@ -337,8 +447,8 @@
                 "label": "Player\n\n\"Do you think it would really hurt the party?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -348,8 +458,8 @@
                 "label": "Player\n\n\"Regardless of him, I see no problem with having a special title for great heroes.\""
             },
             "position": {
-                "x": 270,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +469,8 @@
                 "label": "Player\n\n\"Yes, he is a hero for Sordland.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -370,8 +480,8 @@
                 "label": "Player\n\n\"It's not unfair that former Presidents get some special treatment.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -381,8 +491,8 @@
                 "label": "Player\n\n\"After pushing aggressive changes, I may need the same immunity.\""
             },
             "position": {
-                "x": 540,
-                "y": 2250
+                "x": 270.0,
+                "y": 1250.0
             }
         },
         {
@@ -392,8 +502,8 @@
                 "label": "Petr Vectern\n\n\"The reformists would like that.\""
             },
             "position": {
-                "x": 270,
-                "y": 2250
+                "x": 270.0,
+                "y": 2000.0
             }
         },
         {
@@ -403,8 +513,8 @@
                 "label": "Lucian Galade\n\n\"That is pretty powerful, indeed. That may scare some of our ministers too if you decide to *rule by decree.*\""
             },
             "position": {
-                "x": 0,
-                "y": 2000
+                "x": 270.0,
+                "y": 1750.0
             }
         },
         {
@@ -414,8 +524,8 @@
                 "label": "Petr Vectern\n\n\"But it would be tougher to persuade the judges with this. Mrs. Edmonds and Mr. Garaci may not want to cooperate with you if they believe you're going to get rid of them afterwards.\""
             },
             "position": {
-                "x": 270,
-                "y": 2250
+                "x": 540.0,
+                "y": 1000.0
             }
         },
         {
@@ -425,8 +535,8 @@
                 "label": "Petr Vectern\n\n\"Sure. You'll have some time before we start writing the final proposal together.\""
             },
             "position": {
-                "x": 270,
-                "y": 750
+                "x": 0.0,
+                "y": 1750.0
             }
         },
         {
@@ -436,8 +546,8 @@
                 "label": "Lucian Galade\n\n\"A decrease would definitely hurt our position in the future. If another party is elected to the Assembly, our projected vote would be closer to the real vote, which is significantly lesser.\""
             },
             "position": {
-                "x": 540,
-                "y": 2250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -447,8 +557,8 @@
                 "label": "Petr Vectern\n\n\"But if we keep the same voter base, say a 15% threshold, it would keep NFP out of the Assembly, leaving only two parties. Unless, Frens also falls back behind. But I doubt that.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -458,8 +568,8 @@
                 "label": "Petr Vectern\n\n\"I agree. This really has no importance for the new Constitution. Also, Soll was a hero for many Sords, whether we like it or not.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -469,8 +579,8 @@
                 "label": "Petr Vectern\n\n\"That would be enough to hold him accountable for his actions but why would you want to keep such the title then?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2500.0
             }
         },
         {
@@ -480,8 +590,19 @@
                 "label": "Petr Vectern\n\n\"Yeah, it should be.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"Yeah, it should be.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -491,8 +612,8 @@
                 "label": "Petr Vectern\n\n\"Oh, so you want to use the same privilege after all.\""
             },
             "position": {
-                "x": 270,
-                "y": 1250
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -502,8 +623,19 @@
                 "label": "Player\n\n\"Every President should gain that title after their term.\""
             },
             "position": {
-                "x": 270,
-                "y": 2000
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Every President should gain that title after their term.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -513,8 +645,8 @@
                 "label": "Player\n\n\"We could keep the title but take away the immunity clause.\""
             },
             "position": {
-                "x": 270,
-                "y": 1750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -524,8 +656,8 @@
                 "label": "Petr Vectern\n\n\"But don't forget that the Communist Party of Sordland and the Worker's Party of Bludia both had close to ten percent vote in the last election.\""
             },
             "position": {
-                "x": 540,
-                "y": 1000
+                "x": 0.0,
+                "y": 2250.0
             }
         },
         {
@@ -535,8 +667,8 @@
                 "label": "Player\n\n\"We should respect their immunity.\""
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -546,8 +678,8 @@
                 "label": "Player\n\n\"I will instead give the President the ability to replace Judges as necessary.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 540.0,
+                "y": 2000.0
             }
         },
         {
@@ -557,8 +689,8 @@
                 "label": "Lucian Galade\n\n\"We are at the 6th. This is about the presidential decrees. You already know that the reformists want them to be removed or limited. But I'm guessing you do not want any changes to your already powerful decrees, sir.\""
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -568,8 +700,8 @@
                 "label": "Lucian Galade\n\n\"For now I'll move onto the next one: Term Limits."
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 540.0,
+                "y": 250.0
             }
         },
         {
@@ -579,8 +711,19 @@
                 "label": "Petr Vectern\n\n\"Decreasing the threshold might mean opening their way into the Assembly.\""
             },
             "position": {
-                "x": 0,
-                "y": 2500
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"Decreasing the threshold might mean opening their way into the Assembly.\""
+            },
+            "position": {
+                "x": 270.0,
+                "y": 2000.0
             }
         },
         {
@@ -590,8 +733,41 @@
                 "label": "Petr Vectern\n\n\"An increase on the other hand is more complex. NFP could be out of the Assembly but that would mean PFJP's seats would get higher too, if we're left with only two parties in the Assembly.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"An increase on the other hand is more complex. NFP could be out of the Assembly but that would mean PFJP's seats would get higher too, if we're left with only two parties in the Assembly.\""
+            },
+            "position": {
+                "x": 270.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"An increase on the other hand is more complex. NFP could be out of the Assembly but that would mean PFJP's seats would get higher too, if we're left with only two parties in the Assembly.\""
+            },
+            "position": {
+                "x": 540.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"An increase on the other hand is more complex. NFP could be out of the Assembly but that would mean PFJP's seats would get higher too, if we're left with only two parties in the Assembly.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -601,8 +777,30 @@
                 "label": "Petr Vectern\n\n\"I think some of the reformists really want to try him for his crimes during his terms. Especially against the Bludish. This law really has symbolic importance for both them and the Sollists.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"I think some of the reformists really want to try him for his crimes during his terms. Especially against the Bludish. This law really has symbolic importance for both them and the Sollists.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_88",
+            "type": "customNode",
+            "data": {
+                "label": "Petr Vectern\n\n\"I think some of the reformists really want to try him for his crimes during his terms. Especially against the Bludish. This law really has symbolic importance for both them and the Sollists.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 2000.0
             }
         },
         {
@@ -612,8 +810,41 @@
                 "label": "Lucian Galade\n\n\"Me neither. I think it's important that the President can act quickly on matters of national importance.\""
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 540.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Me neither. I think it's important that the President can act quickly on matters of national importance.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Me neither. I think it's important that the President can act quickly on matters of national importance.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Me neither. I think it's important that the President can act quickly on matters of national importance.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -623,8 +854,8 @@
                 "label": "Petr Vectern\n\n\"That's why only Tarquin Soll has it. He gave it to himself right after his military coup. This law is basically made to save the Colonel.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -634,8 +865,8 @@
                 "label": "Player\n\n\"Uh-oh.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -645,8 +876,8 @@
                 "label": "Lucian Galade\n\n\"Mr. Ricter will probably demand that we remove them completely. I doubt that this would be enough to get him to sit down with us.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -656,8 +887,8 @@
                 "label": "Lucian Galade\n\n\"According to the Constitution, the Member of Honor not only has legal immunity but the state also covers most of their expenses as well as providing security at all times. It can only be given to someone by an absolute majority vote in the Assembly and the approval of the President.\""
             },
             "position": {
-                "x": 0,
-                "y": 2250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -667,8 +898,8 @@
                 "label": "Player\n\n\"I may need to think a bit longer about this.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -678,8 +909,8 @@
                 "label": "Player\n\n\"We should crush the Old Guards to clear ways for further reforms in Sordland.\"\n\n\"We should crush the Old Guards to clear ways for further reforms.\""
             },
             "position": {
-                "x": 540,
-                "y": 2000
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -689,8 +920,8 @@
                 "label": "Player\n\n\"Maybe we shouldn't make the Supreme Court our enemies just yet. Let's keep the reforms light.\"\n\n\"Maybe we shouldn't make the Supreme Court our enemies just yet.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -700,8 +931,8 @@
                 "label": "Petr Vectern\n\n\"That might be the best thing to do for now. If we agitate the Court further, we might lose our chances with Mrs. Edmonds as well.\""
             },
             "position": {
-                "x": 540,
-                "y": 250
+                "x": 0.0,
+                "y": 2500.0
             }
         },
         {
@@ -711,8 +942,8 @@
                 "label": "Player\n\n\"We should strengthen the decrees further, so they have priority over statute law.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 2250.0
             }
         },
         {
@@ -722,8 +953,8 @@
                 "label": "Player\n\n\"Don't worry. With these reforms, we will be even more popular.\""
             },
             "position": {
-                "x": 270,
-                "y": 2000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -733,8 +964,8 @@
                 "label": "Player\n\n\"We can't allow communists to enter the Assembly.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 3000.0
             }
         },
         {
@@ -744,8 +975,8 @@
                 "label": "Player\n\n\"We should open their way and unite the left.\""
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 4000.0
             }
         },
         {
@@ -755,8 +986,8 @@
                 "label": "Lucian Galade\n\n\"I agree, sir.\""
             },
             "position": {
-                "x": 540,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -766,8 +997,8 @@
                 "label": "Lucian Galade\n\n\"I guess so.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -777,8 +1008,8 @@
                 "label": "Player\n\n\"I don't think presidential decrees need any reforms.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -788,8 +1019,8 @@
                 "label": "Player\n\n\"Yes, we can make it dependent on enabling acts.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -799,8 +1030,8 @@
                 "label": "Narrator\n\nLucian couldn't hide the surprised look on his face."
             },
             "position": {
-                "x": 0,
-                "y": 2000
+                "x": 0.0,
+                "y": 2250.0
             }
         },
         {
@@ -810,8 +1041,8 @@
                 "label": "Player\n\n\"We should keep using the threshold to our advantage.\""
             },
             "position": {
-                "x": 540,
-                "y": 750
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -821,8 +1052,8 @@
                 "label": "Player\n\n\"It's fine as it is.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -832,8 +1063,8 @@
                 "label": "Petr Vectern\n\n\"Of course not.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -843,8 +1074,8 @@
                 "label": "Lucian Galade\n\n\"Yes, it could be destabilizing.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -854,8 +1085,8 @@
                 "label": "Player\n\n\"We could simply increase it.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 2000.0
             }
         },
         {
@@ -865,8 +1096,8 @@
                 "label": "Lucian Galade\n\n\"Well, we can't know these for sure. In the last elections, the Communist Party of Sordland and the Workers Party of Bludia both had close to ten percent. One of them may very well increase their votes in the next years.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -876,8 +1107,41 @@
                 "label": "Lucian Galade\n\n\"You'll have some time to think about your decision, sir.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"You'll have some time to think about your decision, sir.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"You'll have some time to think about your decision, sir.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1750.0
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"You'll have some time to think about your decision, sir.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -887,8 +1151,8 @@
                 "label": "Lucian Galade\n\n\"That's very bold, sir. But I like it.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -898,8 +1162,8 @@
                 "label": "Lucian Galade\n\n\"That is a fair concern. We'll need to sway some of their members to succeed after all.\""
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -909,8 +1173,8 @@
                 "label": "Player\n\n“Can we go over each of the points that are in discussion for the draft?”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -920,8 +1184,8 @@
                 "label": "Player\n\n“I thank you all for your input.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -931,8 +1195,8 @@
                 "label": "Petr Vectern\n\n\"Well, regardless of what you decide, we will need to work together to push this agenda.\""
             },
             "position": {
-                "x": 0,
-                "y": 2500
+                "x": 0.0,
+                "y": 2750.0
             }
         },
         {
@@ -942,8 +1206,8 @@
                 "label": "Player\n\n“Let's start working on the draft.”"
             },
             "position": {
-                "x": 0,
-                "y": 2250
+                "x": 0.0,
+                "y": 3250.0
             }
         },
         {
@@ -953,8 +1217,8 @@
                 "label": "Narrator\n\nAfter placing the committee's report and my own notes in front of me, I buried myself in the papers.\n\nOpenDictatorConstitutionalChangesPanel(); WaitforMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -964,8 +1228,8 @@
                 "label": "BaseGameSupport.News_Turn03_LT_BenfiFestival = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 3000
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -975,8 +1239,8 @@
                 "label": "Livia Suno\n\n\"Good morning, Mr. President.\""
             },
             "position": {
-                "x": 0,
-                "y": 4000
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -986,8 +1250,8 @@
                 "label": "Player\n\n\"How are you today?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -997,8 +1261,8 @@
                 "label": "Livia Suno\n\n\"Sorry to hear.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1008,8 +1272,8 @@
                 "label": "Player\n\n“I'm perfectly fine.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1019,8 +1283,8 @@
                 "label": "Livia Suno\n\n\"Fine, thank you.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1030,8 +1294,8 @@
                 "label": "Livia Suno\n\n\"Mr. Rayne -- can you give me a hint about your reform plans? If you ask me, taking away the judges' immunity is long overdue, but it might anger a lot of people in these halls...\""
             },
             "position": {
-                "x": 0,
-                "y": 2250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1041,8 +1305,19 @@
                 "label": "Livia Suno\n\n\"More importantly, how are you, sir?\""
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Livia Suno\n\n\"More importantly, how are you, sir?\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1052,8 +1327,19 @@
                 "label": "Player\n\n\"Nothing's been decided yet.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Nothing's been decided yet.\""
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1063,8 +1349,8 @@
                 "label": "Livia Suno\n\n\"I hope you'll keep me informed. I'll take your coat now.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1074,8 +1360,8 @@
                 "label": "Livia Suno\n\n\"Understood. I'll take your coat now.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1085,8 +1371,8 @@
                 "label": "Narrator\n\nShe paused before taking my coat. It looked like she had something on her mind."
             },
             "position": {
-                "x": 0,
-                "y": 2000
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1096,8 +1382,8 @@
                 "label": "Player\n\n“I'll take that into consideration.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1107,8 +1393,8 @@
                 "label": "Player\n\n“I'm about to make stressful decisions. So, not feeling that great.”"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1118,8 +1404,8 @@
                 "label": "Player\n\n“It's none of your business, Livia.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1129,8 +1415,8 @@
                 "label": "Player\n\n“I feel better now that I've seen you, Livia.\""
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1140,8 +1426,8 @@
                 "label": "Livia Suno\n\n\"Thank you, Mr. President.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1151,8 +1437,8 @@
                 "label": "Livia Suno\n\n\"Good to hear.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1162,8 +1448,8 @@
                 "label": "Player\n\n“You'll find out along with the rest of Sordland, sweetheart.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1173,8 +1459,8 @@
                 "label": "GameCondition.Turn03_A_Pre_Constitution = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1184,8 +1470,8 @@
                 "label": "GameCondition.Turn03_A_Pre_Constitution = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1195,8 +1481,8 @@
                 "label": "ShowPagedDecisionsPanel(\"Panel_DictatorConstitution\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 2750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1206,8 +1492,8 @@
                 "label": "BaseGame.ReformProposal_Open = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 3250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1217,8 +1503,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -1233,6 +1519,12 @@
             "id": "e5_to_121",
             "source": "node_5",
             "target": "node_121",
+            "type": "step"
+        },
+        {
+            "id": "e5_to_122",
+            "source": "node_5",
+            "target": "node_122",
             "type": "step"
         },
         {
@@ -1284,9 +1576,39 @@
             "type": "step"
         },
         {
+            "id": "e20_to_40",
+            "source": "node_20",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_19",
+            "source": "node_20",
+            "target": "node_19",
+            "type": "step"
+        },
+        {
+            "id": "e20_to_15",
+            "source": "node_20",
+            "target": "node_15",
+            "type": "step"
+        },
+        {
             "id": "e21_to_108",
             "source": "node_21",
             "target": "node_108",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_99",
+            "source": "node_21",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_95",
+            "source": "node_21",
+            "target": "node_95",
             "type": "step"
         },
         {
@@ -1338,6 +1660,18 @@
             "type": "step"
         },
         {
+            "id": "e37_to_83",
+            "source": "node_37",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_97",
+            "source": "node_37",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
             "id": "e41_to_32",
             "source": "node_41",
             "target": "node_32",
@@ -1365,6 +1699,18 @@
             "id": "e51_to_116",
             "source": "node_51",
             "target": "node_116",
+            "type": "step"
+        },
+        {
+            "id": "e51_to_59",
+            "source": "node_51",
+            "target": "node_59",
+            "type": "step"
+        },
+        {
+            "id": "e51_to_60",
+            "source": "node_51",
+            "target": "node_60",
             "type": "step"
         },
         {
@@ -1488,6 +1834,12 @@
             "type": "step"
         },
         {
+            "id": "e73_to_57",
+            "source": "node_73",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
             "id": "e74_to_54",
             "source": "node_74",
             "target": "node_54",
@@ -1497,6 +1849,12 @@
             "id": "e75_to_64",
             "source": "node_75",
             "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_63",
+            "source": "node_75",
+            "target": "node_63",
             "type": "step"
         },
         {
@@ -1542,9 +1900,33 @@
             "type": "step"
         },
         {
+            "id": "e85_to_35",
+            "source": "node_85",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
             "id": "e87_to_100",
             "source": "node_87",
             "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_101",
+            "source": "node_87",
+            "target": "node_101",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_102",
+            "source": "node_87",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_103",
+            "source": "node_87",
+            "target": "node_103",
             "type": "step"
         },
         {
@@ -1554,9 +1936,39 @@
             "type": "step"
         },
         {
+            "id": "e88_to_102",
+            "source": "node_88",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_103",
+            "source": "node_88",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
             "id": "e89_to_81",
             "source": "node_89",
             "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_26",
+            "source": "node_89",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_77",
+            "source": "node_89",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_76",
+            "source": "node_89",
+            "target": "node_76",
             "type": "step"
         },
         {
@@ -1704,6 +2116,24 @@
             "type": "step"
         },
         {
+            "id": "e117_to_100",
+            "source": "node_117",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_102",
+            "source": "node_117",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_103",
+            "source": "node_117",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
             "id": "e118_to_56",
             "source": "node_118",
             "target": "node_56",
@@ -1794,9 +2224,21 @@
             "type": "step"
         },
         {
+            "id": "e136_to_146",
+            "source": "node_136",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
             "id": "e137_to_145",
             "source": "node_137",
             "target": "node_145",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_147",
+            "source": "node_137",
+            "target": "node_147",
             "type": "step"
         },
         {

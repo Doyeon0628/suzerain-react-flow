@@ -1,10 +1,21 @@
 {
     "nodes": [
         {
-            "id": "node_34",
+            "id": "node_16",
             "type": "customNode",
             "data": {
-                "label": "Titus Gordion\n\n“I assure you, this threat is very real. We’re seeing a turning point that we can no longer ignore.”"
+                "label": "Hugo Toras\n\n\"And quite distressingly, the Rizian People's Party seems to be getting popular among the electorate.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_22",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"The House has recently sent me their report on public opinion.\""
             },
             "position": {
                 "x": 0,
@@ -15,7 +26,7 @@
             "id": "node_35",
             "type": "customNode",
             "data": {
-                "label": "Titus Gordion\n\nVery well. But before I go, I would be remiss if I didn't inform you that I've already made arrangements for myself in case this worst-case scenario comes to pass, and would advise you to do the same.\""
+                "label": "Hugo Toras\n\n\"It paints a worrying picture. It seems to have decreased quite a bit.\""
             },
             "position": {
                 "x": 0,
@@ -23,34 +34,74 @@
             }
         },
         {
-            "id": "node_36",
+            "id": "node_38",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Thanks for the weather report, Titus. I'll make sure to pack an umbrella.\""
+                "label": "Hugo Toras\n\n\"However, one difference of this election is that a huge number of new voters have been registered - Wehzeks, Qinalis, Derdians and more...\""
             },
             "position": {
                 "x": 0,
                 "y": 0
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"However, there's still a long way to go and we'll have to wait and see the results first.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Thank you, Uncle. Keep following the House and the elections, I'd like to know about every important move.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
             }
         }
     ],
     "edges": [
         {
-            "id": "e34_to_11",
-            "source": "node_34",
-            "target": "node_11",
+            "id": "e16_to_56",
+            "source": "node_16",
+            "target": "node_56",
             "type": "step"
         },
         {
-            "id": "e35_to_10",
+            "id": "e22_to_44",
+            "source": "node_22",
+            "target": "node_44",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_9",
             "source": "node_35",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_10",
+            "source": "node_38",
             "target": "node_10",
             "type": "step"
         },
         {
-            "id": "e36_to_11",
-            "source": "node_36",
-            "target": "node_11",
+            "id": "e43_to_6",
+            "source": "node_43",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_16",
+            "source": "node_44",
+            "target": "node_16",
             "type": "step"
         }
     ]

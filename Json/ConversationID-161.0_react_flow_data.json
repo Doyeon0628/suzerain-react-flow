@@ -7,8 +7,8 @@
                 "label": "Deivid Wisci\n\n“It's chilly out here. I must go and try to get some sleep. I'm an old man, after all.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,19 @@
                 "label": "Player\n\n“Good idea.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Good idea.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -29,8 +40,8 @@
                 "label": "Deivid Wisci\n\n“Have a good night.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -40,8 +51,8 @@
                 "label": "Narrator\n\nI watched the sea for some more time before going back to my compartment to sleep.\n\nRemoveConversant(Deivid Wisci); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +62,8 @@
                 "label": "Player\n\n“I could say the same thing about you.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -62,8 +73,8 @@
                 "label": "Narrator\n\nOur delegation met with various members of the Valgslandian cabinet before taking our cars to the Royal Palace. The flags of Valgsland and the CSP were waving next to the entrance."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +84,8 @@
                 "label": "Narrator\n\nAssistants took my belongings and led me to the museum wing. It was there that I saw Chancellor Hegel. He was inspecting a very large painting on the wall."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -84,8 +95,8 @@
                 "label": "Deivid Wisci\n\n“Do you mind if I ask why you can't sleep?”"
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -95,8 +106,19 @@
                 "label": "Player\n\n“I like taking night walks.”"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_35",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I like taking night walks.”"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -106,8 +128,8 @@
                 "label": "BaseGame.Archetype_ComradeRayne == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +139,8 @@
                 "label": "Deivid Wisci\n\n“That includes the choices we *could've* made, and their results which will never come to pass.”"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -128,8 +150,8 @@
                 "label": "Player\n\n“Thank you for your wisdom, Deivid.”"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -139,8 +161,8 @@
                 "label": "PlaySoundEffect(\"BoatPort\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -150,8 +172,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -166,6 +188,12 @@
             "id": "e8_to_26",
             "source": "node_8",
             "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e8_to_34",
+            "source": "node_8",
+            "target": "node_34",
             "type": "step"
         },
         {
@@ -208,6 +236,12 @@
             "id": "e35_to_53",
             "source": "node_35",
             "target": "node_53",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_54",
+            "source": "node_35",
+            "target": "node_54",
             "type": "step"
         },
         {

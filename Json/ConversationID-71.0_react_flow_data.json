@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nWhen I entered the hall, the Assembly was in complete chaos, with shouting and cursing between the parties. There was a heavy argument about a proposal made by an MP from NFP."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nI took my seat inside the special area reserved for the ministers. Gloria was shouting from her seat at the centre of the hall as she hit the gavel three times, with each strike heavier than the one before.\n\nAddConversant(Gloria Tory); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -29,8 +29,19 @@
                 "label": "Narrator\n\nDespite her efforts, the argument continued for a couple of minutes before everybody took back to their seats and finally went quiet."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDespite her efforts, the argument continued for a couple of minutes before everybody took back to their seats and finally went quiet."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -40,8 +51,41 @@
                 "label": "Narrator\n\nSome MP's from the NFP side shouted back at her in protest."
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSome MP's from the NFP side shouted back at her in protest."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSome MP's from the NFP side shouted back at her in protest."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_12",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSome MP's from the NFP side shouted back at her in protest."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +95,8 @@
                 "label": "Gloria Tory\n\n\"Honorable ladies and gentlemen, if you allow me to continue...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +106,8 @@
                 "label": "Narrator\n\nI looked at him."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2750.0
             }
         },
         {
@@ -73,8 +117,8 @@
                 "label": "Gloria Tory\n\n\"We have the President here with us today. He has asked to give an important announcement.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -84,8 +128,8 @@
                 "label": "Narrator\n\nI saw Kesaro Kibener standing up from his seat and shouting towards the members of the PFJP."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +139,8 @@
                 "label": "Gloria Tory\n\n\"Mr. Kibener! Calm yourself! Show respect to the procedures of this Assembly!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -106,8 +150,8 @@
                 "label": "Player\n\n\"I respect your opinion.\""
             },
             "position": {
-                "x": 0,
-                "y": 2750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +161,8 @@
                 "label": "Narrator\n\nShe pointed at me."
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -128,8 +172,8 @@
                 "label": "Player\n\n\"Do not stand against change! Be a part of it, Mr. Ricter! We can do much more together.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -139,8 +183,8 @@
                 "label": "Gloria Tory\n\n\"You have the floor, Mr. President.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -150,8 +194,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Reformist_ResponseHub_B == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -161,8 +205,8 @@
                 "label": "Narrator\n\nI walked to the stand as loud clapping started in the USP's side.\n\nRemoveConversant(Gloria Tory); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -172,8 +216,19 @@
                 "label": "Player\n\n\"Don't you dare stand against us! Otherwise, know that the PFJP is guaranteed to be history.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Don't you dare stand against us! Otherwise, know that the PFJP is guaranteed to be history.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -183,8 +238,30 @@
                 "label": "Player\n\n\"It is you, who shouldn't use the word 'democratic' when you want your way to succeed but disregard our opinion.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It is you, who shouldn't use the word 'democratic' when you want your way to succeed but disregard our opinion.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_34",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It is you, who shouldn't use the word 'democratic' when you want your way to succeed but disregard our opinion.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +271,8 @@
                 "label": "Player\n\n\"The Supreme Court holds too much power over our elected branches! They have been obstructing the law making process and has long plagued the democracy in Sordland. Tarquin Soll gave this power to the Court for the sole reason to protect the Constitution of the 20's, which leads us to fail in adapting to the new world...\"\n\n\"The Supreme Court holds too much power...\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -205,8 +282,8 @@
                 "label": "Player\n\n\"Our election threshold has harmed our democracy more than anything since the formation of our republic. As USP, we have governed for a long time and I can acknowledge that this success was partly the result of our current 10% percent threshold.\"\n\n\"Our election threshold has harmed our democracy more than anything...\""
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 270.0,
+                "y": 1500.0
             }
         },
         {
@@ -216,8 +293,8 @@
                 "label": "Player\n\n\"It is time to strengthen the executive to enact faster and more powerful reforms!\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -227,8 +304,8 @@
                 "label": "Narrator\n\nI continued."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -238,8 +315,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Reformist_ResponseHub_A == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -249,8 +326,8 @@
                 "label": "Player\n\n\"...Therefore, we propose changes to the Constitution to prepare Sordland for a fast changing new world!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2000.0
             }
         },
         {
@@ -260,8 +337,8 @@
                 "label": "Player\n\n\"We will break the Supreme Court's authority over constitutional changes.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -271,8 +348,8 @@
                 "label": "Player\n\n\"I will break down the obstacles before me!\""
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -282,8 +359,8 @@
                 "label": "Player\n\n\"We will rebalance the branches of government to ensure a more democratic process.\""
             },
             "position": {
-                "x": 270,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -293,8 +370,8 @@
                 "label": "BaseGame.Reform_Gloria_Convinced == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 3000.0
             }
         },
         {
@@ -304,8 +381,8 @@
                 "label": "!(BaseGame.Reform_Gloria_Convinced == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -315,8 +392,8 @@
                 "label": "Player\n\n\"It is more important than ever that we stand united as a nation in these changing times. I call everybody to be part of the change our people has been calling for. We all want to make Sordland better, don't we? Let's embrace democracy and unite under the banner of our people, and surely Sordland will be great again!\"\n\nUnity."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2500.0
             }
         },
         {
@@ -326,8 +403,41 @@
                 "label": "Narrator\n\nLoud noises came from USP and NFP seats."
             },
             "position": {
-                "x": 0,
-                "y": 2000
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLoud noises came from USP and NFP seats."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLoud noises came from USP and NFP seats."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLoud noises came from USP and NFP seats."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -337,8 +447,19 @@
                 "label": "Player\n\n\"Please don't interrupt me.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_52",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Please don't interrupt me.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -348,8 +469,8 @@
                 "label": "Player\n\n\"I'm not finished yet, Mrs. Tory.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +480,8 @@
                 "label": "Player\n\n\"Ladies and gentlemen of the Assembly! We must set aside our differences.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -370,8 +491,8 @@
                 "label": "Player\n\n\"It is time to make a new Constitution together!\""
             },
             "position": {
-                "x": 0,
-                "y": 3000
+                "x": 540.0,
+                "y": 1500.0
             }
         },
         {
@@ -381,8 +502,8 @@
                 "label": "Narrator\n\nGloria looked at me to see if I'd finished my response."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -392,8 +513,8 @@
                 "label": "Player\n\n\"Ladies and Gentlemen, I demand your votes!\""
             },
             "position": {
-                "x": 0,
-                "y": 2500
+                "x": 270.0,
+                "y": 1500.0
             }
         },
         {
@@ -403,8 +524,8 @@
                 "label": "Player\n\n\"Let's write the future together!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -414,8 +535,19 @@
                 "label": "Player\n\n\"I ask everyone to support us in the upcoming vote.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I ask everyone to support us in the upcoming vote.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -425,8 +557,19 @@
                 "label": "Player\n\n\"Be part of a new era for Sordland. Join us and vote for our proposal.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Be part of a new era for Sordland. Join us and vote for our proposal.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -436,8 +579,8 @@
                 "label": "Player\n\n\"I will address all the problems of the past in my proposal!\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -447,8 +590,19 @@
                 "label": "Player\n\n\"USP will change and lead Sordland into the future!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"USP will change and lead Sordland into the future!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -458,8 +612,8 @@
                 "label": "Player\n\n\"For justice in Sordland!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -469,8 +623,8 @@
                 "label": "Player\n\n\"For a strong Sordland!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -480,8 +634,8 @@
                 "label": "Player\n\n\"For a free Sordland!\""
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -491,8 +645,8 @@
                 "label": "Narrator\n\nThe Assembly roared with all kinds of different reactions."
             },
             "position": {
-                "x": 540,
-                "y": 1500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -502,8 +656,8 @@
                 "label": "Player\n\n\"Thank you.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -513,8 +667,8 @@
                 "label": "Frens Ricter\n\n\"Thank you, Mrs. Speaker.\""
             },
             "position": {
-                "x": 270,
-                "y": 1500
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -524,8 +678,8 @@
                 "label": "Gloria Tory\n\n\"Thank you for the speech, Mr. President.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -535,8 +689,8 @@
                 "label": "Player\n\n\"Honorable Members of the Grand National Assembly of Sordland! I am here today to raise important questions regarding our outdated Constitution.\"\n\n\"Honorable Members of Assembly...\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -546,8 +700,19 @@
                 "label": "Player\n\n\"I expect your support in the upcoming vote, Mr. Ricter.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I expect your support in the upcoming vote, Mr. Ricter.\""
+            },
+            "position": {
+                "x": 270.0,
+                "y": 1250.0
             }
         },
         {
@@ -557,8 +722,19 @@
                 "label": "Kesaro Kibener\n\n\"We will stand together with any attempt to protect and strengthen our established political culture and national values. Thank you.\""
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 1750.0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"We will stand together with any attempt to protect and strengthen our established political culture and national values. Thank you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -568,8 +744,8 @@
                 "label": "Frens Ricter\n\n\"Thank you, Mrs. Speaker.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -579,8 +755,8 @@
                 "label": "BaseGame.Reform_Law_Threshold_8 == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -590,8 +766,8 @@
                 "label": "!(BaseGame.Reform_Law_Threshold_8 == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -601,8 +777,8 @@
                 "label": "!(BaseGame.Reform_Law_Decrees_Stronger == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 2000.0
             }
         },
         {
@@ -612,8 +788,8 @@
                 "label": "Gloria Tory\n\n\"Order! Order! This topic has finished. We are moving unto our next topic...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -623,8 +799,8 @@
                 "label": "Player\n\n\"We have always been overshadowed by the Old Guard and the judiciary branch in Sordland. The Grand National Assembly and the President must be able to exercise their job properly and without obstruction. However, our current Constitution fails to guarantee this.\"\n\n\"We have always been overshadowed by the Old Guard...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -634,8 +810,8 @@
                 "label": "Frens Ricter\n\n\"I ask Mr. President to reevaluate his decision and not ignore the demands of our people! Otherwise you should never use the word 'democratic' again!\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -645,8 +821,8 @@
                 "label": "Narrator\n\nI slowly left the hall. The shouting could be heard from every corridor of the Grand National Assembly."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -656,8 +832,8 @@
                 "label": "Player\n\n\"I call everyone to stand by us to make historic changes to our Constitution and bring it to the standards of today's world!\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -667,8 +843,30 @@
                 "label": "Frens Ricter\n\n\"As long as Mr. President continues to follow the footsteps of his party's founder, we will be doing our best to stop this proposal. We do not welcome this attempt to break our system further.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 1000.0
+            }
+        },
+        {
+            "id": "node_95",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"As long as Mr. President continues to follow the footsteps of his party's founder, we will be doing our best to stop this proposal. We do not welcome this attempt to break our system further.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_95",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"As long as Mr. President continues to follow the footsteps of his party's founder, we will be doing our best to stop this proposal. We do not welcome this attempt to break our system further.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -678,8 +876,8 @@
                 "label": "Narrator\n\nI looked at him."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 2250.0
             }
         },
         {
@@ -689,8 +887,30 @@
                 "label": "Narrator\n\nI got up from my seat and started my walk towards the exit."
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI got up from my seat and started my walk towards the exit."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI got up from my seat and started my walk towards the exit."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -700,8 +920,8 @@
                 "label": "Player\n\n\"I just wanted to thank everybody for their comments.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -711,8 +931,8 @@
                 "label": "Narrator\n\nI focused on..."
             },
             "position": {
-                "x": 270,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -722,8 +942,30 @@
                 "label": "Frens Ricter\n\n\"However, our demands seemed to be ignored by the government. Even though we made the reform committee's work possible, it was us, who were pushed back from the process.\""
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 2250.0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"However, our demands seemed to be ignored by the government. Even though we made the reform committee's work possible, it was us, who were pushed back from the process.\""
+            },
+            "position": {
+                "x": 270.0,
+                "y": 2250.0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"However, our demands seemed to be ignored by the government. Even though we made the reform committee's work possible, it was us, who were pushed back from the process.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -733,8 +975,8 @@
                 "label": "Player\n\n\"Mr. Ricter...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -744,8 +986,8 @@
                 "label": "BaseGame.Sollist -= 10\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -755,8 +997,8 @@
                 "label": "Player\n\n\"We must not be afraid of change. The world is changing, and Sordland needs the change it has earned after years of Sollism in the last decades. We will rewrite the old and make a constitution that would reflect the will of the people, and open the way for a democratic Sordland!\"\n\nChange."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -766,8 +1008,30 @@
                 "label": "Player\n\n\"The '29 Constitution was the product of a time of war. Now is a time for peace. As we must make peace between each other, we must strive for peace in the world. We need a more democratic constitution that would reflect the will of the people, and flourish in the upcoming times of peace and prosper!\"\n\nPeace."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The '29 Constitution was the product of a time of war. Now is a time for peace. As we must make peace between each other, we must strive for peace in the world. We need a more democratic constitution that would reflect the will of the people, and flourish in the upcoming times of peace and prosper!\"\n\nPeace."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The '29 Constitution was the product of a time of war. Now is a time for peace. As we must make peace between each other, we must strive for peace in the world. We need a more democratic constitution that would reflect the will of the people, and flourish in the upcoming times of peace and prosper!\"\n\nPeace."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -777,8 +1041,41 @@
                 "label": "Player\n\n\"Mr. Kibener...\""
             },
             "position": {
-                "x": 270,
-                "y": 2000
+                "x": 270.0,
+                "y": 1500.0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Mr. Kibener...\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Mr. Kibener...\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Mr. Kibener...\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -788,8 +1085,8 @@
                 "label": "Frens Ricter\n\n\"I would like to thank Mr. President for his speech. We, the People's Freedom and Justice Party, stands in agreement with the need for a new Constitution.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -799,8 +1096,19 @@
                 "label": "Narrator\n\nJust as I was about to continue speaking, Gloria Tory interrupted me."
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_108",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nJust as I was about to continue speaking, Gloria Tory interrupted me."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -810,8 +1118,8 @@
                 "label": "Narrator\n\nI got up from my seat and started my walk towards the exit."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -821,8 +1129,8 @@
                 "label": "Kesaro Kibener\n\n<shout>\"You and PFJP are nothing but puppets of western interests!\"</shout>"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -832,8 +1140,8 @@
                 "label": "Narrator\n\nI walked back to my seat as many MP's asked to speak. Frens Ricter was among them."
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 540.0,
+                "y": 2000.0
             }
         },
         {
@@ -843,8 +1151,8 @@
                 "label": "Gloria Tory\n\n\"Yes, Mr. Ricter.\""
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -854,8 +1162,8 @@
                 "label": "Player_Italic\n\nI asked to speak.\n\nAsk to speak."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -865,8 +1173,8 @@
                 "label": "Player_Italic\n\nI decided to leave the Assembly and its chaos behind.\n\nLeave the Assembly."
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -876,8 +1184,8 @@
                 "label": "Narrator\n\nKesaro went back to his seat but the chaos in the Assembly continued."
             },
             "position": {
-                "x": 0,
-                "y": 2250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -887,8 +1195,8 @@
                 "label": "BaseGame.Speech_PromisedToTrySoll = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 270.0,
+                "y": 2000.0
             }
         },
         {
@@ -898,8 +1206,8 @@
                 "label": "Kesaro Kibener\n\n\"Mr. President!\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 2000.0
             }
         },
         {
@@ -909,8 +1217,8 @@
                 "label": "Narrator\n\nGloria gave him a stare. She looked annoyed."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1750.0
             }
         },
         {
@@ -920,8 +1228,8 @@
                 "label": "BaseGame.Reform_Law_Decrees_Stronger == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -931,8 +1239,8 @@
                 "label": "Narrator\n\nHe looked directly at me."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -942,8 +1250,8 @@
                 "label": "Player\n\n\"Let's embrace the future.\""
             },
             "position": {
-                "x": 0,
-                "y": 2250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -953,8 +1261,8 @@
                 "label": "Narrator\n\nSome applauses came from the NFP and USP seats. Most of the others started to make loud noises again."
             },
             "position": {
-                "x": 270,
-                "y": 2250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -964,8 +1272,8 @@
                 "label": "Kesaro Kibener\n\n\"Let it be known that the NFP will do its best to aid with the draft of the new constitution, and to reach an agreement with the USP. If our concerns are listened to, NFP has the power to make this proposal pass.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -975,8 +1283,8 @@
                 "label": "Kesaro Kibener\n\n<shout>\"You must have lost your mind to claim you were the reason for the reform talks, Mr. Ricter!\"</shout>"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -986,8 +1294,8 @@
                 "label": "Kesaro Kibener\n\n\"The nationalist movement wants to thank Mr. Rayne for his priorities. The National Front Party will not stand in your way.\""
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -997,8 +1305,8 @@
                 "label": "Gloria Tory\n\n\"Tarquin Soll and his efforts cannot be ignored. We must keep following the path he defined for Sordish people.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1008,8 +1316,8 @@
                 "label": "Narrator\n\nI slowly left the hall. The shouting could be heard from every corridor of the Grand National Assembly."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1019,8 +1327,8 @@
                 "label": "Gloria Tory\n\n\"...Very well, Mr. Kibener... Go ahead.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1030,8 +1338,8 @@
                 "label": "Gloria Tory\n\n\"I'm sure the Honorable Members of USP will see that the President is acting rash by allying with the opposition to destroy the culture of Sollism that established Sordland.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1041,8 +1349,8 @@
                 "label": "Gloria Tory\n\n\"That was the extent of my quick note. Thank you. The President has the floor.\""
             },
             "position": {
-                "x": 270,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1052,8 +1360,8 @@
                 "label": "Player\n\n\"That was disrespectful Mrs. Speaker. Please don't try to sabotage my speech.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 750.0
             }
         },
         {
@@ -1063,8 +1371,8 @@
                 "label": "!(BaseGame.Reform_Gloria_Convinced == true && BaseGame.Reform_Albin_Convinced == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1074,8 +1382,8 @@
                 "label": "Gloria Tory\n\n<shout>\"ORDER!\"</shout>"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1085,8 +1393,8 @@
                 "label": "BaseGame.Speech_PromisedToTrySoll == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1096,8 +1404,8 @@
                 "label": "!(BaseGame.Speech_PromisedToTrySoll == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1107,8 +1415,8 @@
                 "label": "Player\n\n\"I'll act as if that didn't happen.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1118,8 +1426,8 @@
                 "label": "Gloria Tory\n\n\"Please continue your speech, Mr. President.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1129,8 +1437,8 @@
                 "label": "Player\n\n\"It is a time of conflict and war. The superpowers of the world are in a race to control the world. Terrorists and rebels around our borders continue to operate. We must be ready for what this new world will throw at us. We must be vigilant! More importantly, Rumburg is threatening our country more than ever. We need a stronger constitution that would strengthen our nation and prepare it for the upcoming times of conflict. And we will prevail!\"\n\nWar."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1140,8 +1448,41 @@
                 "label": "Player\n\n\"Give me the power to make Sordland great again!\""
             },
             "position": {
-                "x": 540,
-                "y": 2000
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Give me the power to make Sordland great again!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Give me the power to make Sordland great again!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Give me the power to make Sordland great again!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1151,8 +1492,8 @@
                 "label": "BaseGame.Reform_Law_Decrees_Stronger == true && BaseGame.Reform_Law_Impeachment_Removed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1162,8 +1503,8 @@
                 "label": "!(BaseGame.Reform_Law_Decrees_Stronger == true && BaseGame.Reform_Law_Impeachment_Removed == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1173,8 +1514,41 @@
                 "label": "Player_Italic\n\nI decided to read a poem before I ended my speech.\n\nFinish with a poem."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI decided to read a poem before I ended my speech.\n\nFinish with a poem."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI decided to read a poem before I ended my speech.\n\nFinish with a poem."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI decided to read a poem before I ended my speech.\n\nFinish with a poem."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1184,8 +1558,8 @@
                 "label": "Player\n\n\"There are songs to be sung in affectation of our battles...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1195,8 +1569,8 @@
                 "label": "Player\n\n\"Thank you for your support. We are looking forward to work with the NFP.\""
             },
             "position": {
-                "x": 270,
-                "y": 2000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1206,8 +1580,8 @@
                 "label": "Player\n\n\"Thank you for the nice words.\""
             },
             "position": {
-                "x": 0,
-                "y": 2000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1217,8 +1591,19 @@
                 "label": "Player\n\n\"I expect your support, Mr. Kibener! We can do much more together.\""
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_182",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I expect your support, Mr. Kibener! We can do much more together.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1228,8 +1613,8 @@
                 "label": "Jump to: [Response]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1239,8 +1624,8 @@
                 "label": "BaseGame.Reform_Albin_Convinced == true || BaseGame.Reform_Gloria_Convinced == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1250,8 +1635,8 @@
                 "label": "!(BaseGame.Reform_Albin_Convinced == true || BaseGame.Reform_Gloria_Convinced == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1261,8 +1646,8 @@
                 "label": "!(BaseGame.Reform_Albin_Convinced == true && BaseGame.Reform_Gloria_Convinced == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1272,8 +1657,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Holsord_ReformStatus_None = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1283,8 +1668,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Holsord_ReformStatus_Both = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1294,8 +1679,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Holsord_ReformStatus_GloriaAlbin = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1305,8 +1690,8 @@
                 "label": "BaseGame.Wehlen_TradeDeal == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1316,8 +1701,8 @@
                 "label": "BaseGameSupport.Report_Turn05_Uziren_BorderReport = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1327,8 +1712,8 @@
                 "label": "BaseGameSupport.News_Turn05_G_AgnoliaRamsNavy = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1338,8 +1723,8 @@
                 "label": "BaseGame.Agnolia_HeljilandRecognised == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1349,8 +1734,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_SupremeCourtPower = true; \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1360,8 +1745,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_SupremeCourtPower = true;\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1371,8 +1756,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_StrengthenExecutive = true; \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1382,8 +1767,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_SeparationofPowers = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1393,8 +1778,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_OvershadowedGuard = true; \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1404,8 +1789,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_StrongerDecrees = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1415,8 +1800,8 @@
                 "label": "GameCondition.Turn05_A_Speech = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1426,8 +1811,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_StrongerDecrees == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1437,8 +1822,8 @@
                 "label": "BaseGame.Public_Opinion -= 3;\\nBaseGame.Bludish_Opinion += 5;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1448,8 +1833,8 @@
                 "label": "BaseGame.Speech_PromisedToTrySoll == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1459,8 +1844,8 @@
                 "label": "BaseGameIsolated.Turn05_A_Speech_StrengthenExecutive == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1470,8 +1855,8 @@
                 "label": "!(BaseGameIsolated.Turn05_A_Speech_StrengthenExecutive == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1481,8 +1866,8 @@
                 "label": "Gloria Tory\n\n\"You've just promised to try Soll, Mr. President! You are talking about the founder of this party. He is the true founder of this republic.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1492,8 +1877,8 @@
                 "label": "Narrator\n\nLoud noises came from USP and NFP seats."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1503,8 +1888,8 @@
                 "label": "Player\n\n\"Everyone! Please! Let me finish.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1514,8 +1899,8 @@
                 "label": "Player\n\n\"Let me explain.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1525,8 +1910,8 @@
                 "label": "BaseGame.Speech_PromisedToTrySoll == true \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1536,8 +1921,8 @@
                 "label": "!(BaseGame.Speech_PromisedToTrySoll == true )\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1547,8 +1932,8 @@
                 "label": "Narrator\n\nThe whole United Sordland Party stood up and started shouting at me."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1558,8 +1943,8 @@
                 "label": "BaseGame.Speech_PromisedToTrySoll == true \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1569,8 +1954,8 @@
                 "label": "Frens Ricter\n\n\"Despite Mr. President here claiming to serve justice by going against his party's founder, we know this to be some hogwash! Know that we will be doing our best to stop this proposal. We do not welcome this attempt to break our system further.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1580,8 +1965,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1591,8 +1976,8 @@
                 "label": "PlaySoundEffect(\"AssemblyLoud\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1602,8 +1987,8 @@
                 "label": "PlaySoundEffect(\"AssemblyLoud\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1613,8 +1998,8 @@
                 "label": "PlaySoundEffect(\"VoteRoar\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1624,8 +2009,8 @@
                 "label": "PlaySoundEffect(\"AssemblyApplause\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1635,8 +2020,8 @@
                 "label": "PlaySoundEffect(\"AssemblyApplauseShouting\");\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -1646,8 +2031,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -1671,9 +2056,33 @@
             "type": "step"
         },
         {
+            "id": "e9_to_246",
+            "source": "node_9",
+            "target": "node_246",
+            "type": "step"
+        },
+        {
             "id": "e12_to_79",
             "source": "node_12",
             "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_71",
+            "source": "node_12",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_75",
+            "source": "node_12",
+            "target": "node_75",
+            "type": "step"
+        },
+        {
+            "id": "e12_to_73",
+            "source": "node_12",
+            "target": "node_73",
             "type": "step"
         },
         {
@@ -1749,9 +2158,27 @@
             "type": "step"
         },
         {
+            "id": "e32_to_80",
+            "source": "node_32",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
             "id": "e34_to_83",
             "source": "node_34",
             "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_86",
+            "source": "node_34",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_92",
+            "source": "node_34",
+            "target": "node_92",
             "type": "step"
         },
         {
@@ -1833,9 +2260,33 @@
             "type": "step"
         },
         {
+            "id": "e50_to_126",
+            "source": "node_50",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_131",
+            "source": "node_50",
+            "target": "node_131",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_132",
+            "source": "node_50",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
             "id": "e52_to_6",
             "source": "node_52",
             "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e52_to_137",
+            "source": "node_52",
+            "target": "node_137",
             "type": "step"
         },
         {
@@ -1881,9 +2332,21 @@
             "type": "step"
         },
         {
+            "id": "e62_to_165",
+            "source": "node_62",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
             "id": "e63_to_161",
             "source": "node_63",
             "target": "node_161",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_62",
+            "source": "node_63",
+            "target": "node_62",
             "type": "step"
         },
         {
@@ -1896,6 +2359,12 @@
             "id": "e65_to_164",
             "source": "node_65",
             "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_165",
+            "source": "node_65",
+            "target": "node_165",
             "type": "step"
         },
         {
@@ -1953,9 +2422,21 @@
             "type": "step"
         },
         {
+            "id": "e78_to_92",
+            "source": "node_78",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
             "id": "e80_to_36",
             "source": "node_80",
             "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e80_to_92",
+            "source": "node_80",
+            "target": "node_92",
             "type": "step"
         },
         {
@@ -2019,6 +2500,18 @@
             "type": "step"
         },
         {
+            "id": "e95_to_45",
+            "source": "node_95",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_246",
+            "source": "node_95",
+            "target": "node_246",
+            "type": "step"
+        },
+        {
             "id": "e96_to_93",
             "source": "node_96",
             "target": "node_93",
@@ -2028,6 +2521,18 @@
             "id": "e97_to_182",
             "source": "node_97",
             "target": "node_182",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_179",
+            "source": "node_97",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_178",
+            "source": "node_97",
+            "target": "node_178",
             "type": "step"
         },
         {
@@ -2046,6 +2551,18 @@
             "id": "e100_to_50",
             "source": "node_100",
             "target": "node_50",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_105",
+            "source": "node_100",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_159",
+            "source": "node_100",
+            "target": "node_159",
             "type": "step"
         },
         {
@@ -2073,9 +2590,39 @@
             "type": "step"
         },
         {
+            "id": "e104_to_131",
+            "source": "node_104",
+            "target": "node_131",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_132",
+            "source": "node_104",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
             "id": "e105_to_121",
             "source": "node_105",
             "target": "node_121",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_126",
+            "source": "node_105",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_131",
+            "source": "node_105",
+            "target": "node_131",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_132",
+            "source": "node_105",
+            "target": "node_132",
             "type": "step"
         },
         {
@@ -2088,6 +2635,12 @@
             "id": "e108_to_106",
             "source": "node_108",
             "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e108_to_99",
+            "source": "node_108",
+            "target": "node_99",
             "type": "step"
         },
         {
@@ -2277,6 +2830,24 @@
             "type": "step"
         },
         {
+            "id": "e159_to_126",
+            "source": "node_159",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_131",
+            "source": "node_159",
+            "target": "node_131",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_132",
+            "source": "node_159",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
             "id": "e160_to_165",
             "source": "node_160",
             "target": "node_165",
@@ -2292,6 +2863,24 @@
             "id": "e164_to_67",
             "source": "node_164",
             "target": "node_67",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_69",
+            "source": "node_164",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_70",
+            "source": "node_164",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_72",
+            "source": "node_164",
+            "target": "node_72",
             "type": "step"
         },
         {
@@ -2316,6 +2905,12 @@
             "id": "e182_to_181",
             "source": "node_182",
             "target": "node_181",
+            "type": "step"
+        },
+        {
+            "id": "e182_to_180",
+            "source": "node_182",
+            "target": "node_180",
             "type": "step"
         },
         {

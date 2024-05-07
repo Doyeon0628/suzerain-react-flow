@@ -1,107 +1,719 @@
 {
     "nodes": [
         {
-            "id": "node_16",
+            "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"And quite distressingly, the Rizian People's Party seems to be getting popular among the electorate.\""
+                "label": "RiziaDLC.Pales_War == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
-            "id": "node_22",
+            "id": "node_11",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"The House has recently sent me their report on public opinion.\""
+                "label": "Lucita Azaro\n\n\"Yes, Your Majesty.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_35",
+            "id": "node_13",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"It paints a worrying picture. It seems to have decreased quite a bit.\""
+                "label": "Taddeus Azaro\n\n\"Of course.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_24",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.War_Control_Skipped == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"Rizian Armed Forces stands ready and strong. However, we still lack behind considerably in comparison to some of our neighbors.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
             "id": "node_38",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"However, one difference of this election is that a huge number of new voters have been registered - Wehzeks, Qinalis, Derdians and more...\""
+                "label": "Taddeus Azaro\n\n\"Rizian Armed Forces is in a sad state, Your Majesty. In comparison to our neighbors, we are completely behind in terms of our military capabilities.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_43",
+            "id": "node_39",
             "type": "customNode",
             "data": {
-                "label": "Hugo Toras\n\n\"However, there's still a long way to go and we'll have to wait and see the results first.\""
+                "label": "RiziaDLC.Country_Military_PowerProjection >= 5\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
-            "id": "node_44",
+            "id": "node_47",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Thank you, Uncle. Keep following the House and the elections, I'd like to know about every important move.\""
+                "label": "Titus Gordion\n\n\"The general staff is very disappointed about the state of the Rizian Armed Forces. In comparison to our neighbors, we are completely behind in terms of our military capabilities.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Country_Military_PowerProjection >= 5\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "Lucita Azaro\n\n\"And lastly, our navy is led by our flagship RRN Valero -- the most expensive asset of the whole Rizian military.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Submarine_Total >= 4\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Infantry_Total >= 10\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Infantry_Total >= 10\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_177",
+            "type": "customNode",
+            "data": {
+                "label": "Titus Gordion\n\n\"And lastly, our navy is led by our flagship RRN Valero -- the most expensive asset of the whole Rizian military.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Submarine_Total >= 4\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"We can currently field five fully equipped infantry divisions. We should look for ways to expand this number as soon as possible.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"We can currently field five fully equipped infantry divisions. We should look for ways to expand this number as soon as possible.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_198",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"Unfortunately, we can only field three mechanized support divisions that are specifically trained to support the assaults of our infantry and armored divisions.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_204",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Support_Total > 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_220",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"And lastly, our navy is led by our flagship RRN Valero -- the most expensive asset of the whole Rizian military.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"Our submarines can also provide the much needed support when necessary. We have a good number of them to be able to defend our main trade routes.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Infantry_Total >= 10\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Infantry_Total >= 10\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"We can currently field a large number of infantry divisions.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_247",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"Thankfully, we have a huge number of mechanized support divisions that are specifically trained to support the assaults of our infantry and armored divisions.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_248",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"Thankfully, we also have quite a good number of mechanized support divisions that are specifically trained to support the assaults of our infantry and armored divisions.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"On the other hand, we also have a modest amount of mechanized support divisions that are specifically trained to support the assaults of our infantry and armored divisions.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Support_Total >= 4\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_252",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Army_Unit_Support_Total >= 4)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_253",
+            "type": "customNode",
+            "data": {
+                "label": "Taddeus Azaro\n\n\"It is also important to highlight that despite investing greatly in our navy, we still don't have access to superior Valgish technology.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_265",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Army_Unit_Submarine_Total >= 4)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_269",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\nLet's move on to another topic.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_270",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Thank you for the report, Titus.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Thank you for the report, General Azaro.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Thank you for the report, Duchess Azaro.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_276",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Incident_Naval_RescueBoth == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_277",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Incident_Naval_RescueBoth == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_279",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Incident_Naval_RescueBoth == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Incident_Naval_RescueBoth == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Incident_Naval_RescueBoth == true)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Lucita_Arrested == false)\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
     "edges": [
         {
-            "id": "e16_to_56",
-            "source": "node_16",
-            "target": "node_56",
+            "id": "e2_to_319",
+            "source": "node_2",
+            "target": "node_319",
             "type": "step"
         },
         {
-            "id": "e22_to_44",
-            "source": "node_22",
-            "target": "node_44",
+            "id": "e11_to_284",
+            "source": "node_11",
+            "target": "node_284",
             "type": "step"
         },
         {
-            "id": "e35_to_9",
-            "source": "node_35",
-            "target": "node_9",
+            "id": "e13_to_40",
+            "source": "node_13",
+            "target": "node_40",
             "type": "step"
         },
         {
-            "id": "e38_to_10",
+            "id": "e24_to_17",
+            "source": "node_24",
+            "target": "node_17",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_227",
+            "source": "node_37",
+            "target": "node_227",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_227",
             "source": "node_38",
-            "target": "node_10",
+            "target": "node_227",
             "type": "step"
         },
         {
-            "id": "e43_to_6",
-            "source": "node_43",
-            "target": "node_6",
+            "id": "e39_to_227",
+            "source": "node_39",
+            "target": "node_227",
             "type": "step"
         },
         {
-            "id": "e44_to_16",
-            "source": "node_44",
-            "target": "node_16",
+            "id": "e47_to_128",
+            "source": "node_47",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e48_to_128",
+            "source": "node_48",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_281",
+            "source": "node_107",
+            "target": "node_281",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_273",
+            "source": "node_123",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_274",
+            "source": "node_127",
+            "target": "node_274",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_273",
+            "source": "node_127",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e177_to_278",
+            "source": "node_177",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_274",
+            "source": "node_193",
+            "target": "node_274",
+            "type": "step"
+        },
+        {
+            "id": "e197_to_274",
+            "source": "node_197",
+            "target": "node_274",
+            "type": "step"
+        },
+        {
+            "id": "e197_to_271",
+            "source": "node_197",
+            "target": "node_271",
+            "type": "step"
+        },
+        {
+            "id": "e198_to_239",
+            "source": "node_198",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e204_to_251",
+            "source": "node_204",
+            "target": "node_251",
+            "type": "step"
+        },
+        {
+            "id": "e220_to_275",
+            "source": "node_220",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_255",
+            "source": "node_225",
+            "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_274",
+            "source": "node_226",
+            "target": "node_274",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_272",
+            "source": "node_226",
+            "target": "node_272",
+            "type": "step"
+        },
+        {
+            "id": "e235_to_198",
+            "source": "node_235",
+            "target": "node_198",
+            "type": "step"
+        },
+        {
+            "id": "e247_to_199",
+            "source": "node_247",
+            "target": "node_199",
+            "type": "step"
+        },
+        {
+            "id": "e248_to_201",
+            "source": "node_248",
+            "target": "node_201",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_201",
+            "source": "node_249",
+            "target": "node_201",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_200",
+            "source": "node_250",
+            "target": "node_200",
+            "type": "step"
+        },
+        {
+            "id": "e252_to_209",
+            "source": "node_252",
+            "target": "node_209",
+            "type": "step"
+        },
+        {
+            "id": "e253_to_205",
+            "source": "node_253",
+            "target": "node_205",
+            "type": "step"
+        },
+        {
+            "id": "e265_to_226",
+            "source": "node_265",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e269_to_2",
+            "source": "node_269",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e270_to_2",
+            "source": "node_270",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_2",
+            "source": "node_271",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_2",
+            "source": "node_272",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e276_to_222",
+            "source": "node_276",
+            "target": "node_222",
+            "type": "step"
+        },
+        {
+            "id": "e277_to_223",
+            "source": "node_277",
+            "target": "node_223",
+            "type": "step"
+        },
+        {
+            "id": "e279_to_179",
+            "source": "node_279",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e280_to_181",
+            "source": "node_280",
+            "target": "node_181",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_109",
+            "source": "node_282",
+            "target": "node_109",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_12",
+            "source": "node_285",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_31",
+            "source": "node_286",
+            "target": "node_31",
             "type": "step"
         }
     ]

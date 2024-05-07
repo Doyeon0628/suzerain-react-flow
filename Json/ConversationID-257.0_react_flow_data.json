@@ -1,10 +1,65 @@
 {
     "nodes": [
         {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Epilogue_Election_Win == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
             "id": "node_4",
             "type": "customNode",
             "data": {
-                "label": "Iosef Lancea\n\n“Good morning, Mr. President.”\n\n"
+                "label": "!(BaseGame.Epilogue_Election_Win == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_7",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Epilogue_Election_Lose == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_10",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Epilogue_Election_Death == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_13",
+            "type": "customNode",
+            "data": {
+                "label": "!(GameCondition.Turn11_A_ImpeachmentTrial == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "PlayMusic(\"Downfall\");\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -12,10 +67,10 @@
             }
         },
         {
-            "id": "node_12",
+            "id": "node_35",
             "type": "customNode",
             "data": {
-                "label": "Player_Italic\n\nI picked up the newspaper on top of the stack.\n\nRead the newspaper."
+                "label": "PlayMusic(\"Downfall\");\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -23,337 +78,7 @@
             }
         },
         {
-            "id": "node_26",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\n\"I just have one request: When Rumburg surrenders and you meet Queen Beatrice, give her a big fat middle finger from me.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn07_Personal_University_Home_Public == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\n\"...After a string of triumphant victories, Rumburg's defeat seems to be imminent. We eagerly await the day when we can welcome our soldiers back home. Celebrations of Rumburg's defeat have already begun...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn07_Personal_University_Abroad_Arcasia == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\n\"Experts anticipate that the siege of Thornbourgh will be the last push that will drive Rumburg into a full and unconditional surrender...\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_54",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe gestured towards two generals from ATO. Our alliance had been critical to our successes in the field. We saluted each other."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "customNode",
-            "data": {
-                "label": "Iosef Lancea\n\n“We may be at the Thornbourgh's doorstep, but the ATO's involvement could lose us this war.\"\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "customNode",
-            "data": {
-                "label": "Iosef Lancea\n\n“But I'm afraid that we may be past the point where we can finish the war quickly.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“The... intel... confirmed....”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_118",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Hello?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Hello. Can you hear me?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "customNode",
-            "data": {
-                "label": "Leon Malenyev\n\n“The... intel... confirmed....”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "customNode",
-            "data": {
-                "label": "Leon Malenyev\n\n“...can't...”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_130",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Hello?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\n\"Everyone at Camp Strongarm is talking about the war, obviously. And they're talking about me. Not in a good way.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_141",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Joined_ATO == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_154",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\n\"Still... I wonder if you and the other bigwigs back in Holsord know the real cost of this war. It's not just that I could've died. It's that some of the things I've done make me wish I had.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_156",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Relations_Monica_Divorce == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_158",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Relations_Monica_Divorce == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_159",
-            "type": "customNode",
-            "data": {
-                "label": "Iosef Lancea\n\n“And I'm afraid that we may be past the point where we can finish the war quickly.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI heard the crackling of static. President Walker's words were becoming harder to distinguish."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Mr. Walker! What's going on?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_163",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Comrade Malenyev! Is everything all right?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_164",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“I didn't quite catch that.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI heard the crackling of static. Malenyev's words were becoming harder to distinguish."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_166",
-            "type": "customNode",
-            "data": {
-                "label": "PlaySoundEffect(\"LineDropDead\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_167",
-            "type": "customNode",
-            "data": {
-                "label": "PlaySoundEffect(\"LineDropDead\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "customNode",
-            "data": {
-                "label": "End();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_169",
+            "id": "node_37",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -366,201 +91,51 @@
     ],
     "edges": [
         {
-            "id": "e4_to_76",
-            "source": "node_4",
-            "target": "node_76",
-            "type": "step"
-        },
-        {
-            "id": "e12_to_50",
-            "source": "node_12",
-            "target": "node_50",
-            "type": "step"
-        },
-        {
-            "id": "e26_to_51",
-            "source": "node_26",
-            "target": "node_51",
-            "type": "step"
-        },
-        {
-            "id": "e29_to_150",
-            "source": "node_29",
-            "target": "node_150",
-            "type": "step"
-        },
-        {
-            "id": "e32_to_8",
-            "source": "node_32",
-            "target": "node_8",
-            "type": "step"
-        },
-        {
-            "id": "e44_to_157",
-            "source": "node_44",
-            "target": "node_157",
-            "type": "step"
-        },
-        {
-            "id": "e46_to_142",
-            "source": "node_46",
-            "target": "node_142",
-            "type": "step"
-        },
-        {
-            "id": "e49_to_31",
-            "source": "node_49",
-            "target": "node_31",
-            "type": "step"
-        },
-        {
-            "id": "e54_to_151",
-            "source": "node_54",
-            "target": "node_151",
-            "type": "step"
-        },
-        {
-            "id": "e55_to_28",
-            "source": "node_55",
-            "target": "node_28",
-            "type": "step"
-        },
-        {
-            "id": "e71_to_4",
-            "source": "node_71",
-            "target": "node_4",
-            "type": "step"
-        },
-        {
-            "id": "e79_to_160",
-            "source": "node_79",
-            "target": "node_160",
-            "type": "step"
-        },
-        {
-            "id": "e116_to_161",
-            "source": "node_116",
-            "target": "node_161",
-            "type": "step"
-        },
-        {
-            "id": "e118_to_162",
-            "source": "node_118",
-            "target": "node_162",
-            "type": "step"
-        },
-        {
-            "id": "e120_to_163",
-            "source": "node_120",
-            "target": "node_163",
-            "type": "step"
-        },
-        {
-            "id": "e127_to_166",
-            "source": "node_127",
-            "target": "node_166",
-            "type": "step"
-        },
-        {
-            "id": "e129_to_168",
-            "source": "node_129",
-            "target": "node_168",
-            "type": "step"
-        },
-        {
-            "id": "e130_to_165",
-            "source": "node_130",
-            "target": "node_165",
-            "type": "step"
-        },
-        {
-            "id": "e139_to_155",
-            "source": "node_139",
-            "target": "node_155",
-            "type": "step"
-        },
-        {
-            "id": "e141_to_27",
-            "source": "node_141",
+            "id": "e1_to_27",
+            "source": "node_1",
             "target": "node_27",
             "type": "step"
         },
         {
-            "id": "e154_to_141",
-            "source": "node_154",
-            "target": "node_141",
+            "id": "e4_to_28",
+            "source": "node_4",
+            "target": "node_28",
             "type": "step"
         },
         {
-            "id": "e156_to_141",
-            "source": "node_156",
-            "target": "node_141",
+            "id": "e7_to_29",
+            "source": "node_7",
+            "target": "node_29",
             "type": "step"
         },
         {
-            "id": "e158_to_24",
-            "source": "node_158",
-            "target": "node_24",
+            "id": "e10_to_30",
+            "source": "node_10",
+            "target": "node_30",
             "type": "step"
         },
         {
-            "id": "e159_to_22",
-            "source": "node_159",
-            "target": "node_22",
+            "id": "e13_to_31",
+            "source": "node_13",
+            "target": "node_31",
             "type": "step"
         },
         {
-            "id": "e160_to_83",
-            "source": "node_160",
-            "target": "node_83",
+            "id": "e30_to_1",
+            "source": "node_30",
+            "target": "node_1",
             "type": "step"
         },
         {
-            "id": "e162_to_120",
-            "source": "node_162",
-            "target": "node_120",
+            "id": "e35_to_1",
+            "source": "node_35",
+            "target": "node_1",
             "type": "step"
         },
         {
-            "id": "e163_to_122",
-            "source": "node_163",
-            "target": "node_122",
-            "type": "step"
-        },
-        {
-            "id": "e164_to_129",
-            "source": "node_164",
-            "target": "node_129",
-            "type": "step"
-        },
-        {
-            "id": "e165_to_134",
-            "source": "node_165",
-            "target": "node_134",
-            "type": "step"
-        },
-        {
-            "id": "e166_to_128",
-            "source": "node_166",
-            "target": "node_128",
-            "type": "step"
-        },
-        {
-            "id": "e167_to_123",
-            "source": "node_167",
-            "target": "node_123",
-            "type": "step"
-        },
-        {
-            "id": "e168_to_133",
-            "source": "node_168",
-            "target": "node_133",
-            "type": "step"
-        },
-        {
-            "id": "e169_to_2",
-            "source": "node_169",
-            "target": "node_2",
+            "id": "e37_to_3",
+            "source": "node_37",
+            "target": "node_3",
             "type": "step"
         }
     ]

@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nIt was raining as Serge dropped me off at home after yet another gruelling day of work.\n\nPlaySceneMusic(Mountains); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Narrator\n\nI flipped on the light in the kitchen to find a note from Monica."
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Narrator\n\nWhile it was heating up, I went to the living room to fix myself a drink."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Player\n\n\"Your mother works harder than I do these days.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "!(BaseGame.Relations_Monica_LeadsWomensRights == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Franc\n\n\"I didn't mean it that way! I just figured you'd be working.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "BaseGame.Turn07_P_TookRecord == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Franc\n\n\"Have you heard anything from Uncle Petr?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -106,8 +106,19 @@
                 "label": "BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true ||BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true || BaseGame.Turn08_SecondScandal_Detained_Petr == true \n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true ||BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true || BaseGame.Turn08_SecondScandal_Detained_Petr == true \n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -117,8 +128,8 @@
                 "label": "Player\n\n\"That's still too painful to talk about.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -128,8 +139,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == true || BaseGame.Turn08_SecondScandal_PetrTrialled == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -139,8 +150,8 @@
                 "label": "Player\n\n\"You take that back.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -150,8 +161,8 @@
                 "label": "Player\n\n\"Glad you liked it.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -161,8 +172,8 @@
                 "label": "Player\n\n\"Petr thought you might like it.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -172,8 +183,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrSelfResigned == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -183,8 +194,8 @@
                 "label": "Franc\n\n\"Wow. Did I just see a pig fly?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -194,8 +205,8 @@
                 "label": "BaseGame.Turn07_Personal_FrancConscripted == true || BaseGame.Turn07_Personal_FrancMilitarySchool == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -205,8 +216,8 @@
                 "label": "Franc\n\n\"Some of the profs here were hoping you'd hire a new VP who'd push you closer to Malenyevism.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -216,8 +227,19 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia== true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_91",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia== true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -227,8 +249,19 @@
                 "label": "Franc\n\n\"Uh, okay. It's so messed up what he did.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_95",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Uh, okay. It's so messed up what he did.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -238,8 +271,8 @@
                 "label": "Player\n\n\"I'll see what I can do to alleviate tensions. The last thing I want is my son going into battle.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -249,8 +282,8 @@
                 "label": "Franc\n\n\"I know, Dad. I'm ready to fight if I have to.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -260,8 +293,19 @@
                 "label": "Franc\n\n\"I'm ready to fight if I have to.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_102",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"I'm ready to fight if I have to.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -271,8 +315,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion < 0\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -282,8 +326,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion < 0\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -293,8 +337,19 @@
                 "label": "BaseGame.Turn07_Personal_FrancConscripted == true || BaseGame.Turn07_Personal_FrancMilitarySchool == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_111",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_FrancConscripted == true || BaseGame.Turn07_Personal_FrancMilitarySchool == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -304,8 +359,8 @@
                 "label": "!(BaseGame.Turn07_Personal_FrancConscripted == true || BaseGame.Turn07_Personal_FrancMilitarySchool == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -315,8 +370,8 @@
                 "label": "Franc\n\n\"That whole scandal hasn't exactly helped with the protests here.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -326,8 +381,8 @@
                 "label": "Player\n\n\"So, got a girlfriend yet?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -337,8 +392,8 @@
                 "label": "Player\n\n\"So, made any new friends yet?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -348,8 +403,8 @@
                 "label": "Franc\n\n\"I have, actually. But some of the older guys are getting transferred up by Mougwer. In case things escalate with Rumburg.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -359,8 +414,8 @@
                 "label": "Player\n\n\"Absence makes the heart grow fonder.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -370,8 +425,8 @@
                 "label": "Player\n\n\"That's my boy.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -381,8 +436,8 @@
                 "label": "BaseGame.Decision_Turn07_RumburgWhistleblower_GrantAsylum == true || BaseGame.Decision_Turn05_RumburgBorderReinforcement_Reinforce == true || BaseGame.Reform_EmergencyDecree_Embargo_Rumburg == true\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -392,8 +447,8 @@
                 "label": "Franc\n\n\"It's all right. They keep talking about how things might escalate with Rumburg.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -403,8 +458,8 @@
                 "label": "Rumburg Army Talk\n\nRumburg Army Talk"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -414,8 +469,19 @@
                 "label": "Jump to: [Rumburg Army Talk]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Rumburg Army Talk]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -425,8 +491,8 @@
                 "label": "Franc\n\n\"Not that it's any of your business, but I might be seeing someone. She's no fan of yours, though. You know... With all the protests here.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 250.0
             }
         },
         {
@@ -436,8 +502,8 @@
                 "label": "Franc\n\n\"It's still mostly just the same guys from high school. I have to say, they're no fans of yours these days. A lot of student protests are happening here, you know...\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -447,8 +513,41 @@
                 "label": "Jump to: [Holsord State Protests]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Holsord State Protests]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Holsord State Protests]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [Holsord State Protests]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -458,8 +557,8 @@
                 "label": "Franc\n\n\"It's fine, in between all the demonstrations.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -469,8 +568,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Home_Public == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -480,8 +579,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Home_Public == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -491,8 +590,8 @@
                 "label": "Player\n\n\"Well, I hope you're putting in a good word for me.\""
             },
             "position": {
-                "x": 540,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -502,8 +601,8 @@
                 "label": "Player\n\n\"Are you joining the revolution, son?\""
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -513,8 +612,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -524,8 +623,19 @@
                 "label": "!(BaseGame.Turn07_Personal_University_Abroad_Arcasia == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_171",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn07_Personal_University_Abroad_Arcasia == true)\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -535,8 +645,19 @@
                 "label": "Player\n\n\"Have the freedom lunatics gotten to your head already?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Have the freedom lunatics gotten to your head already?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -546,8 +667,8 @@
                 "label": "Franc\n\n\"But I guess you don't feel the same way, since you made that deal with Valgsland.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -557,8 +678,8 @@
                 "label": "Player\n\n\"That had nothing to do with my personal politics. It was simply the most convenient option.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -568,8 +689,8 @@
                 "label": "Player\n\n\"You never paid attention to my politics back at home.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -579,8 +700,8 @@
                 "label": "Player\n\n\"I sent you over there to get a quality education, not fill your head with Arcasian propaganda.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -590,8 +711,8 @@
                 "label": "Player\n\n\"You never paid attention to my politics back at home.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -601,8 +722,8 @@
                 "label": "Franc\n\n\"Well, it was the wrong move. Aligning with us is the only way forward.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -612,8 +733,30 @@
                 "label": "Franc\n\n\"Well, it was the right move. Aligning with us is the only way forward.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Well, it was the right move. Aligning with us is the only way forward.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Well, it was the right move. Aligning with us is the only way forward.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -623,8 +766,30 @@
                 "label": "Franc\n\n\"I mean, they're obviously doing something right.\"\n\nSetRichPresenceData(Learning that their son has become a communist at university, Presidential Residence, Holsord);"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"I mean, they're obviously doing something right.\"\n\nSetRichPresenceData(Learning that their son has become a communist at university, Presidential Residence, Holsord);"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"I mean, they're obviously doing something right.\"\n\nSetRichPresenceData(Learning that their son has become a communist at university, Presidential Residence, Holsord);"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -634,8 +799,30 @@
                 "label": "BaseGame.Lespia_TradeDeal == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_TradeDeal == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_TradeDeal == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -645,8 +832,8 @@
                 "label": "Franc\n\n\"You must think so too, or you wouldn't have made that deal with Valgsland.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -656,8 +843,30 @@
                 "label": "Player\n\n\"I sent you over there to get a free education, not fill your head with Contanan propaganda.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_203",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I sent you over there to get a free education, not fill your head with Contanan propaganda.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1250.0
+            }
+        },
+        {
+            "id": "node_203",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I sent you over there to get a free education, not fill your head with Contanan propaganda.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -667,8 +876,8 @@
                 "label": "Player\n\n\"Franc. I'd never put you on the front lines.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -678,8 +887,30 @@
                 "label": "Franc\n\n\"If it came to it? I'd blow my own brains out before I died for you.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_207",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"If it came to it? I'd blow my own brains out before I died for you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_207",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"If it came to it? I'd blow my own brains out before I died for you.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -689,8 +920,19 @@
                 "label": "Franc\n\n\"I'm graduating from basic training soon. The commander says I could be the next Iosef Lancea.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_208",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"I'm graduating from basic training soon. The commander says I could be the next Iosef Lancea.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -700,8 +942,30 @@
                 "label": "BaseGameIsolated.Turn09_FrancCalls_Pizza = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_209",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_FrancCalls_Pizza = true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_209",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_FrancCalls_Pizza = true\n\nnan"
+            },
+            "position": {
+                "x": 270.0,
+                "y": 1500.0
             }
         },
         {
@@ -711,8 +975,8 @@
                 "label": "Franc\n\n\"Actually, Dad...\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -722,8 +986,30 @@
                 "label": "Player\n\n\"What?! You'll make me look like an idiot!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_212",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What?! You'll make me look like an idiot!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_212",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What?! You'll make me look like an idiot!\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -733,8 +1019,8 @@
                 "label": "Player\n\n\"Good for you. Exercise your right to freedom of speech.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -744,8 +1030,8 @@
                 "label": "Player\n\n\"What?! You could get hurt!\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -755,8 +1041,8 @@
                 "label": "Franc\n\n\"You-- you're not mad at me?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -766,8 +1052,8 @@
                 "label": "Player\n\n\"No. I was a student once too, you know.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -777,8 +1063,8 @@
                 "label": "Player\n\n\"No. Just disappointed you wouldn't talk to me beforehand.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -788,8 +1074,8 @@
                 "label": "Franc\n\n\"Not everyone can get a personal audience with the President of Sordland, Dad. It sends a more powerful message if I'm there with my fellow citizens.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -799,8 +1085,19 @@
                 "label": "Player\n\n\"Well, message received.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_221",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Well, message received.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -810,8 +1107,8 @@
                 "label": "Franc\n\n\"Too chicken to do it yourself? Typical.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -821,8 +1118,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion < 0\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 250.0
             }
         },
         {
@@ -832,8 +1129,8 @@
                 "label": "Player\n\n\"You were born with privilege. Take advantage of it.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -843,8 +1140,8 @@
                 "label": "Franc\n\n\"My head's been stuffed with Sordish propaganda since the day I was born. Right now I feel like I'm thinking clearly for the first time.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -854,8 +1151,30 @@
                 "label": "BaseGame.Malenyevist > 7\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_230",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Malenyevist > 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_230",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Malenyevist > 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -865,8 +1184,8 @@
                 "label": "Franc\n\n\"But I'm aware that you disagree.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -876,8 +1195,8 @@
                 "label": "BaseGame.Capitalist > 7\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -887,8 +1206,8 @@
                 "label": "!(BaseGame.Capitalist > 7)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -898,8 +1217,8 @@
                 "label": "Franc\n\n\"Oh, I am.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -909,8 +1228,8 @@
                 "label": "Player\n\n\"I think you're forgetting where you came from...\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -920,8 +1239,8 @@
                 "label": "Player\n\n\"If you like it over there so much, don't bother ever coming home.\""
             },
             "position": {
-                "x": 270,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -931,8 +1250,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -942,8 +1261,8 @@
                 "label": "Player\n\n\"Don't come crying to me if you get shot by some Arcasian gun nut.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 750.0
             }
         },
         {
@@ -953,8 +1272,8 @@
                 "label": "Player\n\n\"I'm happy you're opening your mind. Just stay away from reefer.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -964,8 +1283,8 @@
                 "label": "BaseGameIsolated.Turn09_FrancCalls_Pizza == true\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 1500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -975,8 +1294,19 @@
                 "label": "Narrator\n\nI suddenly became aware of a smoky smell coming from the kitchen. My dinner was burning."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_252",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI suddenly became aware of a smoky smell coming from the kitchen. My dinner was burning."
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -986,8 +1316,8 @@
                 "label": "Player_Italic\n\nI hung up the phone without saying goodbye to Franc.\n\nHang up without saying anything."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -997,8 +1327,8 @@
                 "label": "Player\n\n\"I have to go. Try calling your mother tomorrow.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1008,8 +1338,8 @@
                 "label": "Narrator\n\nWe both hung up."
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1019,8 +1349,8 @@
                 "label": "BaseGameIsolated.Turn09_FrancCalls_Pizza == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1030,8 +1360,8 @@
                 "label": "Narrator\n\nI brought the pizza into the living room and opened two beers. Serge and I sat down and ate together by the flickering light of the television."
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1041,8 +1371,8 @@
                 "label": "Franc\n\n\"Maybe I won't!\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1052,8 +1382,8 @@
                 "label": "Player\n\n\"Not until you put on a few hundred pounds.\""
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1063,8 +1393,8 @@
                 "label": "Jump to: [End Convo]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1074,8 +1404,8 @@
                 "label": "Franc\n\n\"I'll try.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1085,8 +1415,8 @@
                 "label": "Franc\n\n\"Honestly, I was so ticked off at you for sending me here, but I'm really starting to like it. Thank God for failure, right?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1096,8 +1426,19 @@
                 "label": "Franc\n\n\"Ooh, don't say that if you ever visit. Assuming you want to leave with your legs intact.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Ooh, don't say that if you ever visit. Assuming you want to leave with your legs intact.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1107,8 +1448,8 @@
                 "label": "Player\n\n\"Watch your mouth, or I'll personally transfer you to the border myself.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1118,8 +1459,8 @@
                 "label": "Player\n\n\"Luckily, there are thousands of Sordish troops who don't think the same way.\""
             },
             "position": {
-                "x": 540,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1129,8 +1470,8 @@
                 "label": "Jump to: [End Convo]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1140,8 +1481,8 @@
                 "label": "!(BaseGame.Reform_Autocrat_Path == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1151,8 +1492,8 @@
                 "label": "Player\n\n\"Are you kidding me? You WILL stop it from now on!\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1162,8 +1503,8 @@
                 "label": "Franc\n\n\"Not if you call off your dogs. Police violence in this country has gone too far.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1173,8 +1514,30 @@
                 "label": "BaseGame.Decision_Turn08_ExtendEmergency_Extend == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_293",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_ExtendEmergency_Extend == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
+            }
+        },
+        {
+            "id": "node_293",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_ExtendEmergency_Extend == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1184,8 +1547,8 @@
                 "label": "Franc\n\n\"And not if you stop detaining people without just cause.\"\n\nSetRichPresenceData(Extended the state of Emergency in the country, Presidential Office, Maroon Palace);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1195,8 +1558,19 @@
                 "label": "Franc\n\n\"The way things are going now, you don't need my help to look like an idiot.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_298",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"The way things are going now, you don't need my help to look like an idiot.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1206,8 +1580,30 @@
                 "label": "Franc\n\n\"You can't make me. This is still a democracy, right?\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_299",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"You can't make me. This is still a democracy, right?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_299",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"You can't make me. This is still a democracy, right?\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1217,8 +1613,30 @@
                 "label": "BaseGame.Reform_Autocrat_Path == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1228,8 +1646,8 @@
                 "label": "Franc\n\n\"See, that's the sort of attitude we're protesting against.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 810.0,
+                "y": 250.0
             }
         },
         {
@@ -1239,8 +1657,30 @@
                 "label": "Jump to: [End Convo]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [End Convo]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [End Convo]\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1250,8 +1690,8 @@
                 "label": "Player\n\n\"You want a powerful message? How about I send Karl to beat the shit out of every last one of you?\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1261,8 +1701,8 @@
                 "label": "Franc\n\n\"Just think about what we have to say. That's all I ask.\""
             },
             "position": {
-                "x": 270,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1272,8 +1712,8 @@
                 "label": "Player\n\n\"I did my share of marching and placard-waving. Didn't get us anywhere, but it felt good.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 270.0,
+                "y": 250.0
             }
         },
         {
@@ -1283,8 +1723,8 @@
                 "label": "Franc\n\n\"It's still mostly just the same guys from high school. Although there's this girl I've been seeing sometimes.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 540.0,
+                "y": 750.0
             }
         },
         {
@@ -1294,8 +1734,8 @@
                 "label": "BaseGame.Bludish_Opinion <= 0 || BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 1500.0
             }
         },
         {
@@ -1305,8 +1745,8 @@
                 "label": "!(BaseGame.Bludish_Opinion <= 0 || BaseGame.Reform_EmergencyDecree_Banned_Bluds == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1316,8 +1756,8 @@
                 "label": "BaseGame.Bludish_Opinion <= 0 || BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1327,8 +1767,8 @@
                 "label": "Franc\n\n\"Are you sure you'd want to? She's Bludish.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1338,8 +1778,8 @@
                 "label": "Franc\n\n\"She's beautiful.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1349,8 +1789,8 @@
                 "label": "Player\n\n\"I'm surprised she'd be interested in the president's son, then.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1360,8 +1800,8 @@
                 "label": "Player\n\n\"I'm sure she's a lovely girl. But her people still pose a danger to us.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1371,8 +1811,8 @@
                 "label": "Player\n\n\"She's got you henpecked already, I see.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1382,8 +1822,8 @@
                 "label": "Player\n\n\"I'll make sure her family is protected.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1393,8 +1833,8 @@
                 "label": "Franc\n\n\"You really don't get it, do you?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1404,8 +1844,8 @@
                 "label": "Franc\n\n\"She's gorgeous. Bludish, actually. Her parents are big supporters of yours.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1415,8 +1855,8 @@
                 "label": "Franc\n\n\"Probably soon, if she gets her way. She's Bludish, actually. Her parents are big supporters of yours.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1426,8 +1866,8 @@
                 "label": "Franc\n\n\"Maybe I'll bring her for dinner next week.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1437,8 +1877,8 @@
                 "label": "!(BaseGame.Relations_Franc_Opinion >= 0)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1448,8 +1888,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion >= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1459,8 +1899,8 @@
                 "label": "Franc\n\n\"So, uh, I've been seeing this new girl at school.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1470,8 +1910,8 @@
                 "label": "Franc\n\n\"I'm graduating from basic training soon. The commander says I could be the next Iosef Lancea.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1481,8 +1921,19 @@
                 "label": "Player\n\n\"Not until you put on a few hundred pounds.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_369",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Not until you put on a few hundred pounds.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1492,8 +1943,8 @@
                 "label": "Jump to: [End Convo]\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1503,8 +1954,8 @@
                 "label": "Player\n\n\"Sorry, you can't. You've got too much hair.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1514,8 +1965,8 @@
                 "label": "Franc\n\n\"Ooh, don't say that if you ever visit. Assuming you want to leave with your legs intact.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1525,8 +1976,8 @@
                 "label": "Franc\n\n\"I'll try.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1536,8 +1987,8 @@
                 "label": "Franc\n\n\"A few, yeah.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1547,8 +1998,8 @@
                 "label": "BaseGame.Decision_Turn07_RumburgWhistleblower_DontGrantAsylum == true && BaseGame.Reform_EmergencyDecree_Embargo_Rumburg == false && BaseGame.Turn08_SecondScandal_RumburgBlamed == false && BaseGame.Gasom_BetrayedRumburgRizia == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1558,8 +2009,8 @@
                 "label": "BaseGame.Enable_RumburgPeaceSummit = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1569,8 +2020,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == false || BaseGame.Turn08_SecondScandal_PetrTrialled == false || BaseGame.Turn08_SecondScandal_PetrSelfResigned == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1580,8 +2031,8 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_PetrForcedResign == false || BaseGame.Turn08_SecondScandal_PetrTrialled == false || BaseGame.Turn08_SecondScandal_PetrSelfResigned == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1591,8 +2042,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == true || BaseGame.Turn08_SecondScandal_PetrTrialled == true || BaseGame.Turn08_SecondScandal_PetrSelfResigned == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1602,8 +2053,8 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_PetrForcedResign == true || BaseGame.Turn08_SecondScandal_PetrTrialled == true || BaseGame.Turn08_SecondScandal_PetrSelfResigned == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1613,8 +2064,8 @@
                 "label": "BaseGame.Malenyevist > 8\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1624,8 +2075,8 @@
                 "label": "Player\n\n\"The cabinet chooses the candidates, Franc. I didn't have many choices.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1635,8 +2086,8 @@
                 "label": "Player\n\n\"Be careful, Franc. These protests are getting dangerous.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1646,8 +2097,8 @@
                 "label": "Franc\n\n\"Emergency? Uh, that's the point.\""
             },
             "position": {
-                "x": 810,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1657,8 +2108,8 @@
                 "label": "Player\n\n\"Something can happen to you, son. And I may not be able to help you.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1668,8 +2119,30 @@
                 "label": "Player\n\n\"Don't be a smartass, Franc.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_406",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Don't be a smartass, Franc.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_406",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Don't be a smartass, Franc.\""
+            },
+            "position": {
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1679,8 +2152,8 @@
                 "label": "Player\n\n\"Just be careful. Alright?\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1690,8 +2163,8 @@
                 "label": "Player\n\n\"So, how do you find the land of capitalism?\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1701,8 +2174,8 @@
                 "label": "Player\n\n\"So, how do you find the land of socialism?\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1712,8 +2185,8 @@
                 "label": "Player\n\n\"You're going too far, Franc.\""
             },
             "position": {
-                "x": 270,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1723,8 +2196,8 @@
                 "label": "Player\n\n\"Just be careful, Franc. I don't want you to get brainwashed there.\""
             },
             "position": {
-                "x": 540,
-                "y": 750
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1734,8 +2207,8 @@
                 "label": "BaseGame.Turn05_P_FCAnrica == true\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 1500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1745,8 +2218,8 @@
                 "label": "!(BaseGame.Turn05_P_FCAnrica == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -1756,8 +2229,8 @@
                 "label": "Player\n\n\"Serge, would you like to join me for dinner? There's an FC Anrica game today.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1767,8 +2240,8 @@
                 "label": "!(BaseGame.Relations_Serge_Friend == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1778,8 +2251,8 @@
                 "label": "Serge Wolkner\n\n\"It would be an honor to watch your team together, sir. \""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -1789,8 +2262,8 @@
                 "label": "Player\n\n\"Bludish? Maybe you should stop seeing her.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1800,8 +2273,8 @@
                 "label": "Player\n\n\"I'm doing my best, son. But the militants there are making it hard for us.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -1811,8 +2284,8 @@
                 "label": "BaseGame.Decision_Turn06_Megaproject_Benfi == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1822,8 +2295,8 @@
                 "label": "!(BaseGame.Decision_Turn06_Megaproject_Benfi == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 1750.0
             }
         },
         {
@@ -1833,8 +2306,8 @@
                 "label": "!(BaseGame.Decision_Turn06_Megaproject_Morna == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1844,8 +2317,8 @@
                 "label": "Narrator\n\nIt was raining as Serge dropped me off at home after yet another gruelling day of work.\n\nPlaySceneMusic(Mountains); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1855,8 +2328,8 @@
                 "label": "Narrator\n\nIt was raining as Serge dropped me off at home after yet another gruelling day of work.\n\nPlaySceneMusic(Mountains); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1866,8 +2339,8 @@
                 "label": "BaseGame.Decision_Turn06_Megaproject_Sarna == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1877,8 +2350,8 @@
                 "label": "Narrator\n\nIt was raining as Serge dropped me off at home after yet another gruelling day of work.\n\nPlaySceneMusic(Mountains); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1888,8 +2361,8 @@
                 "label": "Narrator\n\nIt was raining as Serge dropped me off at home after yet another gruelling day of work.\n\nPlaySceneMusic(Mountains); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -1899,8 +2372,8 @@
                 "label": "BaseGame.Decision_Turn06_Megaproject_Sarna == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1910,8 +2383,8 @@
                 "label": "!(BaseGame.Decision_Turn06_Megaproject_Sarna == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1921,8 +2394,8 @@
                 "label": "BaseGame.Decision_Turn06_Megaproject_Morna == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1932,8 +2405,8 @@
                 "label": "!(BaseGame.Decision_Turn06_Megaproject_Morna == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1943,8 +2416,8 @@
                 "label": "!(BaseGame.Decision_Turn06_Megaproject_Conriat == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -1954,8 +2427,8 @@
                 "label": "BaseGame.Decision_Turn06_Megaproject_Benfi == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1965,8 +2438,8 @@
                 "label": "!(BaseGame.Decision_Turn06_Megaproject_Benfi == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1976,8 +2449,8 @@
                 "label": "BaseGame.Turn01_InT_Investment_Railway == true && GameCondition.Turn06_InT_Opening == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -1987,8 +2460,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -1998,8 +2471,8 @@
                 "label": "// Continue\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2009,8 +2482,8 @@
                 "label": "BaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2020,8 +2493,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2031,8 +2504,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2042,8 +2515,8 @@
                 "label": "// Continue\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2053,8 +2526,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2064,8 +2537,8 @@
                 "label": "// Continue\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2075,8 +2548,8 @@
                 "label": "BaseGame.Policy_Diplomacy_TradeZone_Lespia == true || BaseGame.Policy_Diplomacy_Lespia_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2086,8 +2559,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2097,8 +2570,8 @@
                 "label": "// Continue\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2108,8 +2581,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2119,8 +2592,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2130,8 +2603,8 @@
                 "label": "// Continue\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2141,8 +2614,8 @@
                 "label": "BaseGame.Faction_Oligarchs_Enemy == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2152,8 +2625,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true || BaseGame.Media_Censored == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2163,8 +2636,8 @@
                 "label": "BaseGame.Public_Opinion -= 3;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2174,8 +2647,8 @@
                 "label": "BaseGame.Economy -= 4;\\nBaseGame.GovernmentBudget -= 2;\\nBaseGame.Public_Opinion -= 3;\\nBaseGame.Situation_Economy_CapitalWithdrawals = true;\\nBaseGame.LateGameCrisis += 1;\\nBaseGameSupport.News_Turn09_HP_Withdraw_Oligarchs = true;\\nBaseGameSupport.Report_Turn09_Lachaven_CapitalFlight = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2185,8 +2658,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2196,8 +2669,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2207,8 +2680,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2218,8 +2691,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 1;\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2229,8 +2702,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2240,8 +2713,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2251,8 +2724,41 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_499",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Franc_Opinion -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_499",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Franc_Opinion -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_499",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Franc_Opinion -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2262,8 +2768,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2273,8 +2779,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2284,8 +2790,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2295,8 +2801,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 1750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2306,8 +2812,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2317,8 +2823,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2328,8 +2834,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2339,8 +2845,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2350,8 +2856,19 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_508",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Franc_Opinion -= 3\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2361,8 +2878,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2372,8 +2889,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2383,8 +2900,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2394,8 +2911,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2405,8 +2922,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2416,8 +2933,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion += 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2427,8 +2944,8 @@
                 "label": "BaseGame.ChiefJustice_HeronGaraci == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2438,8 +2955,8 @@
                 "label": "!(BaseGame.ChiefJustice_HeronGaraci == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2449,8 +2966,8 @@
                 "label": "Narrator\n\nI flipped on the light in the kitchen to find a note from Monica."
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2460,8 +2977,8 @@
                 "label": "BaseGame.Decision_Turn08_ExtendEmergency_DontExtend == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2471,8 +2988,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_DetentionWithoutTrial = false;\\nBaseGame.Reform_EmergencyDecree_PoliceAuthority = false;\\nBaseGame.Reform_EmergencyDecree_SuspendedProtests = false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2482,8 +2999,8 @@
                 "label": "BaseGame.Faction_Oligarchs_Ally == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2493,8 +3010,8 @@
                 "label": "(GameCondition.Turn06_InT_Opening == true ||\\nGameCondition.Turn09_InT_Opening == true ||\\nGameCondition.Turn08_InT_LateOpening == true) &&\\n(BaseGame.Decision_Turn06_Megaproject_Morna == true ||\\nBaseGame.Decision_Turn06_Megaproject_Benfi == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2504,8 +3021,8 @@
                 "label": "BaseGame.Situation_Economy_ImprovedTransportation = true; BaseGame.Situation_Economy_AverageTransportation = false; BaseGame.Situation_Economy_WeakTransportation = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2515,8 +3032,8 @@
                 "label": "!(((BaseGame.Decision_Turn06_Megaproject_Morna == true ||\\nBaseGame.Decision_Turn06_Megaproject_Benfi == true ||\\nBaseGame.Decision_Turn06_Megaproject_Conriat == true) \\n||\\n(BaseGame.Decision_Turn08_IndustrialExpansion_Agricultural == true ||\\nBaseGame.Decision_Turn08_IndustrialExpansion_Automative == true ||\\nBaseGame.Decision_Turn08_IndustrialExpansion_Electronics == true ||\\nBaseGame.Decision_Turn08_IndustrialExpansion_Military == true))\\n&& \\nBaseGame.Economy > 9\\n)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2526,8 +3043,8 @@
                 "label": "BaseGame.Decision_Turn08_ExtendEmergency_Extend == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2537,8 +3054,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2548,8 +3065,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_Emergency_Extended_Again_Media = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2559,8 +3076,8 @@
                 "label": "BaseGame.Decision_Turn08_ExtendEmergency_DontExtend == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2570,8 +3087,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2581,8 +3098,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_Emergency_Revoked_NoMedia = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2592,8 +3109,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Holsord_Emergency_Revoked = true; BaseGameSupport.Report_Turn09_Erzaren_Emergency_Revoked = true; BaseGameSupport.Report_Turn09_Jen_Emergency_Revoked = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2603,8 +3120,8 @@
                 "label": "BaseGame.Bill_Turn08_HarsherSecurity_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2614,8 +3131,8 @@
                 "label": "!(BaseGame.Bill_Turn08_HarsherSecurity_Signed == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2625,8 +3142,8 @@
                 "label": "!(BaseGame.Bill_Turn08_HarsherSecurity_Vetoed == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2636,8 +3153,8 @@
                 "label": "BaseGameSupport.News_Turn09_R_Security_Vetoed = true; BaseGameSupport.News_Turn09_HP_Security_Vetoed = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -2647,8 +3164,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -2658,8 +3175,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2669,8 +3186,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_Security_Signed_NoMedia = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2680,8 +3197,8 @@
                 "label": "BaseGameSupport.News_Turn09_LT_Petr_Recovering = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2691,8 +3208,8 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_PetrSelfResigned == true && BaseGame.Media_Censored == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -2702,8 +3219,8 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true || BaseGame.Turn08_SecondScandal_Detained_Petr == true || BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2713,8 +3230,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_Petr_NoPublicLife_Media = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2724,8 +3241,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_Petr_NoPublicLife_NoMedia = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2735,8 +3252,8 @@
                 "label": "BaseGame.Security_Unrest_Military == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2746,8 +3263,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2757,8 +3274,8 @@
                 "label": "BaseGame.Reform_PresiPower_Default_AmnestyForPoliticalPrisoners == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2768,8 +3285,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Default_AmnestyForPoliticalPrisoners == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -2779,8 +3296,8 @@
                 "label": "BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1750.0
             }
         },
         {
@@ -2790,8 +3307,8 @@
                 "label": "BaseGame.Reform_PresiPower_Default_PrivatePrisons == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2801,8 +3318,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Default_PrivatePrisons == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2812,8 +3329,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_CapitalPunishment == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2823,8 +3340,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_PurgeGeneralStaff == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2834,8 +3351,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RelocationToRural == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2845,8 +3362,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Strong_RelocationToRural == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -2856,8 +3373,8 @@
                 "label": "BaseGame.Reform_PresiPower_Default_DeSollinisation == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2867,8 +3384,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Default_DeSollinisation == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2878,8 +3395,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_Franc_Protest_NoMedia = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2889,8 +3406,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == false && BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -2900,8 +3417,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == false && BaseGame.Media_Censored == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -2911,8 +3428,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == false && BaseGame.Media_Censored == false && BaseGame.Turn07_Personal_University_Home_Public == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -2922,8 +3439,8 @@
                 "label": "BaseGame.Archetype_CapitalistRayne == true && BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -2933,8 +3450,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Lachaven_MediaCensored_SCRT = true;\\nBaseGameSupport.CountryReport_Turn09_Kyrute_CondemnsMediaCensorship = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -2944,8 +3461,8 @@
                 "label": "BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -2955,8 +3472,8 @@
                 "label": "!(BaseGame.Media_Censored == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -2966,8 +3483,8 @@
                 "label": "BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2977,8 +3494,8 @@
                 "label": "!(BaseGame.Media_Censored == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2988,8 +3505,8 @@
                 "label": "BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -2999,8 +3516,8 @@
                 "label": "BaseGameSupport.News_Turn09_LT_Security_Signed = true; BaseGameSupport.News_Turn09_E_Security_Signed = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3010,8 +3527,8 @@
                 "label": "BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3021,8 +3538,8 @@
                 "label": "!(BaseGame.Media_Censored == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3032,8 +3549,8 @@
                 "label": "BaseGame.Media_Censored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3043,8 +3560,8 @@
                 "label": "!(BaseGame.Media_Censored == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -3054,8 +3571,8 @@
                 "label": "BaseGame.Media_Censored == false || BaseGame.Media_SordlandToday_Bias == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3065,8 +3582,8 @@
                 "label": "!(BaseGame.Media_Censored == false || BaseGame.Media_SordlandToday_Bias == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3076,8 +3593,8 @@
                 "label": "BaseGame.Media_Censored == false || BaseGame.Media_SordlandToday_Bias == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -3087,8 +3604,8 @@
                 "label": "!(BaseGame.Media_Censored == false || BaseGame.Media_SordlandToday_Bias == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3098,8 +3615,8 @@
                 "label": "BaseGame.Unrest_Peaceful_Happened == true && BaseGame.Security_Unrest_Diplomatic == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3109,8 +3626,8 @@
                 "label": "BaseGame.Unrest_Peaceful_Happened == true && BaseGame.Security_Unrest_Police == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3120,8 +3637,8 @@
                 "label": "BaseGame.Unrest_Peaceful_Happened == true && BaseGame.Security_Unrest_Police == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3131,8 +3648,8 @@
                 "label": "!(BaseGame.Unrest_Violent_Happened == true && BaseGame.Security_Unrest_Police == true && (BaseGame.Turn05_SnO_LE_Policy_SecretStateService == true || BaseGame.Turn05_SnO_LE_Policy_CommunityPolice == true || BaseGame.Turn04_SnO_LE_Interior_Increased == true))\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3142,8 +3659,8 @@
                 "label": "!(BaseGame.Unrest_BFF_Happened == true && BaseGame.Security_Unrest_Diplomatic == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3153,8 +3670,19 @@
                 "label": "BaseGame.Unrest_BFF_Happened == true && BaseGame.Security_Unrest_Police == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_711",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_BFF_Happened == true && BaseGame.Security_Unrest_Police == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3164,8 +3692,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Erzaren_Unrest_BFF_Police = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3175,8 +3703,8 @@
                 "label": "BaseGameSupport.FactionReport_Turn09_CSP_MorellaCandidacy = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -3186,8 +3714,8 @@
                 "label": "BaseGame.Situation_Order_CorruptionTackled = false;\\nBaseGame.Situation_Order_AntiCorruptionTrials = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 1000.0
             }
         },
         {
@@ -3197,8 +3725,8 @@
                 "label": "// end\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 1250.0
             }
         },
         {
@@ -3208,8 +3736,8 @@
                 "label": "((BaseGame.Policy_Law_Ban_WPB == true ||\\nBaseGame.Policy_Law_Ban_RedYouth == true ||\\nBaseGame.Policy_Law_Ban_YoungSords == true)\\n&&\\nBaseGame.Policy_Order_SecurityAct == true)\\n||\\nBaseGame.Policy_Law_EmergencyDecree == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 540.0,
+                "y": 1250.0
             }
         },
         {
@@ -3219,8 +3747,8 @@
                 "label": "// end\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 1000.0
             }
         },
         {
@@ -3230,8 +3758,8 @@
                 "label": "(BaseGame.Turn07_Detained_MarcelKoronti == true && BaseGame.Turn07_Detained_WalterTusk == true) || BaseGame.Turn07_Investigate_Oligarchs == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 270.0,
+                "y": 1500.0
             }
         },
         {
@@ -3241,8 +3769,8 @@
                 "label": "!((BaseGame.Turn07_Detained_MarcelKoronti == true && BaseGame.Turn07_Detained_WalterTusk == true) || BaseGame.Turn07_Investigate_Oligarchs == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 1500.0
             }
         },
         {
@@ -3252,8 +3780,8 @@
                 "label": "BaseGame.Turn08_SecondScandal_PetrForcedResign == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -3263,8 +3791,8 @@
                 "label": "!(BaseGame.Turn08_SecondScandal_PetrForcedResign == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 750.0
             }
         },
         {
@@ -3274,8 +3802,8 @@
                 "label": "BaseGame.Policy_Economy_PortProject = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3285,8 +3813,8 @@
                 "label": "BaseGame.Relations_Franc_Opinion -= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3296,8 +3824,8 @@
                 "label": "BaseGame.Archetype_ComradeRayne == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3307,8 +3835,8 @@
                 "label": "BaseGame.Archetype_ComradeRayne == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3318,8 +3846,8 @@
                 "label": "!(BaseGame.Archetype_ComradeRayne == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3329,8 +3857,8 @@
                 "label": "!(BaseGame.Archetype_CapitalistRayne == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3340,8 +3868,8 @@
                 "label": "!(BaseGame.GovernmentBudget <= -7)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3351,8 +3879,8 @@
                 "label": "BaseGame.Economy -= 4;\\nBaseGame.GovernmentBudget -= 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 750.0
             }
         },
         {
@@ -3362,8 +3890,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 270.0,
+                "y": 1000.0
             }
         },
         {
@@ -3373,8 +3901,8 @@
                 "label": "!(BaseGame.Turn07_Personal_University_Abroad_Arcasia == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 1000.0
             }
         },
         {
@@ -3384,8 +3912,8 @@
                 "label": "BaseGameSupport.News_Turn09_LT_BenfiAirport_Opens = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 1250.0
             }
         },
         {
@@ -3395,8 +3923,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Conriat_IndustrialZoneOpens = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3406,8 +3934,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_ConriatIndustrial_Opens = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 540.0,
+                "y": 1500.0
             }
         },
         {
@@ -3417,8 +3945,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Morna_SeaPortOpens = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3428,8 +3956,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_MornaPort_Opens = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3439,8 +3967,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Sarna_AgriculturalZoneOpens = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3450,8 +3978,8 @@
                 "label": "BaseGameSupport.News_Turn09_R_SarnaAgricultural_Opens = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3461,8 +3989,8 @@
                 "label": "BaseGame.Situation_Economy_DebtCrisis = true;\\nBaseGameSupport.News_Turn09_E_DebtCrashDowngrade = true;\\nBaseGameSupport.Report_Turn09_Lachaven_DebtCrisis = true;\\nBaseGame.LateGameCrisis += 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3472,8 +4000,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true ||  BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3483,8 +4011,8 @@
                 "label": "BaseGame.Economy -= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3494,8 +4022,8 @@
                 "label": "BaseGame.LateGameCrisis <= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 1750.0
             }
         },
         {
@@ -3505,8 +4033,8 @@
                 "label": "!(BaseGame.LateGameCrisis <= 3)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 2000.0
             }
         },
         {
@@ -3516,8 +4044,8 @@
                 "label": "BaseGame.Bill_Turn08_TobaccoTax_Vetoed == true && BaseGame.Policy_Law_Veto_Limited == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3527,8 +4055,8 @@
                 "label": "BaseGame.Bill_Turn08_TobaccoTax_Vetoed == true && BaseGame.Policy_Law_Veto_Limited == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3538,8 +4066,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_SmokeBill_LimitedVeto = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3549,8 +4077,8 @@
                 "label": "BaseGame.Policy_Economy_TobaccoTax = true; BaseGame.Situation_Welfare_TobaccoConsumptionReduced = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3560,8 +4088,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3571,8 +4099,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_SmokeBill_LimitedVeto = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3582,8 +4110,8 @@
                 "label": "BaseGame.GovernmentBudget += 1;\\nBaseGame.Economy -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3593,8 +4121,8 @@
                 "label": "BaseGame.Situation_Law_MediaCensored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3604,8 +4132,8 @@
                 "label": "BaseGame.Situation_Law_MediaCensored == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3615,8 +4143,8 @@
                 "label": "BaseGameSupport.News_Turn09_R_SmokeBill_LimitedVeto = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3626,8 +4154,8 @@
                 "label": "BaseGame.Decision_Turn08_VPSelection_Albin == false && (BaseGame.Relations_Albin_PromisedVP == true || BaseGame.Reform_Albin_Convinced == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3637,8 +4165,8 @@
                 "label": "!(BaseGame.Decision_Turn08_VPSelection_Albin == false && (BaseGame.Relations_Albin_PromisedVP == true || BaseGame.Reform_Albin_Convinced == false))\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3648,8 +4176,8 @@
                 "label": "BaseGame.Turn08_Action_Court_GloriaJustice == false &&(BaseGame.Relations_Gloria_Promise_Justice == true ||  BaseGame.Reform_Gloria_Convinced == false)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3659,8 +4187,8 @@
                 "label": "!(BaseGame.Turn08_Action_Court_GloriaJustice == false &&(BaseGame.Relations_Gloria_Promise_Justice == true ||  BaseGame.Reform_Gloria_Convinced == false))\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 270.0,
+                "y": 500.0
             }
         },
         {
@@ -3670,8 +4198,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_GloriaObstructs = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3681,8 +4209,8 @@
                 "label": "Player\n\n\"It's dinnertime for me.\""
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3692,8 +4220,8 @@
                 "label": "Player\n\n\"Bye, son.\""
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3703,8 +4231,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Home_Public == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -3714,8 +4242,19 @@
                 "label": "BaseGame.Turn07_Personal_University_Home_Public == true\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_787",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Personal_University_Home_Public == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3725,8 +4264,8 @@
                 "label": "!(BaseGame.Turn07_Personal_University_Home_Public == true)\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 1250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3736,8 +4275,8 @@
                 "label": "Player\n\n\"Talk to you soon.\""
             },
             "position": {
-                "x": 540,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3747,8 +4286,8 @@
                 "label": "Player\n\n\"See you for dinner soon.\""
             },
             "position": {
-                "x": 540,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3758,8 +4297,8 @@
                 "label": "Player\n\n\"Stay safe over there.\""
             },
             "position": {
-                "x": 270,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3769,8 +4308,8 @@
                 "label": "Player\n\n\"You were never a failure.\""
             },
             "position": {
-                "x": 540,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3780,8 +4319,8 @@
                 "label": "Player\n\n\"I'm glad you came to see it my way.\""
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3791,8 +4330,8 @@
                 "label": "BaseGame.Reform_Reformist_Path == true || BaseGame.Reform_Dictator_Path == true\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3802,8 +4341,8 @@
                 "label": "!(BaseGame.Reform_Reformist_Path == true || BaseGame.Reform_Dictator_Path == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3813,8 +4352,8 @@
                 "label": "BaseGame.Policy_Economy_AgriculturalZone = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -3824,8 +4363,8 @@
                 "label": "BaseGame.Policy_Economy_AirportProject = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3835,8 +4374,8 @@
                 "label": "BaseGame.Policy_Economy_IndustrialZone = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3846,8 +4385,8 @@
                 "label": "BaseGame.Decision_Turn08_ExtendEmergency_DontExtend == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3857,8 +4396,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_DetentionWithoutTrial = false; BaseGame.Reform_EmergencyDecree_PoliceAuthority = false; BaseGame.Reform_EmergencyDecree_SuspendedProtests = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3868,8 +4407,8 @@
                 "label": "BaseGame.Economy >= 7\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3879,8 +4418,19 @@
                 "label": "BaseGame.Economy >= 7\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_806",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy >= 7\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3890,8 +4440,8 @@
                 "label": "!(BaseGame.Economy >= 7)\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3901,8 +4451,8 @@
                 "label": "BaseGame.Economy >= 4\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 1000
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3912,8 +4462,8 @@
                 "label": "BaseGame.Economy >= 4\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 1250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3923,8 +4473,8 @@
                 "label": "!(BaseGame.Economy >= 4)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3934,8 +4484,8 @@
                 "label": "BaseGame.Economy -= 3;\\nBaseGame.GovernmentBudget -= 1;\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 1500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3945,8 +4495,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3956,8 +4506,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3967,8 +4517,8 @@
                 "label": "BaseGame.Economy -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -3978,8 +4528,8 @@
                 "label": "BaseGame.GovernmentBudget <= -5\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -3989,8 +4539,8 @@
                 "label": "BaseGame.GovernmentBudget <= -5\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4000,8 +4550,8 @@
                 "label": "!(BaseGame.GovernmentBudget <= -5)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 540.0,
+                "y": 2250.0
             }
         },
         {
@@ -4011,8 +4561,8 @@
                 "label": "BaseGame.GovernmentBudget <= -2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 540.0,
+                "y": 2500.0
             }
         },
         {
@@ -4022,8 +4572,8 @@
                 "label": "BaseGame.GovernmentBudget <= -2\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 1750
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4033,8 +4583,8 @@
                 "label": "!(BaseGame.GovernmentBudget <= -2)\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 2000
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4044,8 +4594,8 @@
                 "label": "BaseGame.Situation_Welfare_RuralEducationInstitutes == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4055,8 +4605,8 @@
                 "label": "BaseGame.Situation_Welfare_RuralEducationInstitutes == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4066,8 +4616,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4077,8 +4627,8 @@
                 "label": "BaseGame.Decision_Turn02_EconomicRelief_BailedBusinesses == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4088,8 +4638,8 @@
                 "label": "BaseGame.Decision_Turn02_EconomicRelief_BailedBusinesses == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4099,8 +4649,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4110,8 +4660,8 @@
                 "label": "BaseGame.Reform_PresiPower_Weak_FairTradeCommission == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4121,8 +4671,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Weak_FairTradeCommission == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4132,8 +4682,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4143,8 +4693,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4154,8 +4704,8 @@
                 "label": "BaseGame.GovernmentBudget <= -10\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4165,8 +4715,19 @@
                 "label": "BaseGame.GovernmentBudget <= -10\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_836",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.GovernmentBudget <= -10\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4176,8 +4737,8 @@
                 "label": "!(BaseGame.GovernmentBudget <= -10)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -4187,8 +4748,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true || BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4198,8 +4759,19 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true || BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_839",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true || BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4209,8 +4781,8 @@
                 "label": "BaseGame.Economy -= 3;\\nBaseGame.Public_Opinion -= 2;\\nBaseGame.Situation_Economy_CapitalWithdrawals = true;\\nBaseGame.LateGameCrisis += 1;\\nBaseGameSupport.News_Turn09_HP_Withdraw_Oligarchs = true;\\nBaseGameSupport.Report_Turn09_Lachaven_CapitalFlight = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -4220,8 +4792,8 @@
                 "label": "BaseGame.Economy -= 5;\\nBaseGame.GovernmentBudget -= 3;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4231,8 +4803,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Benfi\", \"Progress_InternationalAirport\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -4242,8 +4814,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Conriat\", \"Progress_IndustrialZone\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4253,8 +4825,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Conriat\", \"City_IndustrialCenter\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1500.0
             }
         },
         {
@@ -4264,8 +4836,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Conriat\", \"City_IncreasedBusinessTrade\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1750.0
             }
         },
         {
@@ -4275,8 +4847,8 @@
                 "label": "BaseGame.Turn01_InT_Investment_Railway == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2000.0
             }
         },
         {
@@ -4286,8 +4858,8 @@
                 "label": "!(BaseGame.Turn01_InT_Investment_Railway == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4297,8 +4869,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Morna\", \"Progress_SeaPort\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4308,8 +4880,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Morbel\", \"City_IncreasedBusinessTrade\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 2250.0
             }
         },
         {
@@ -4319,8 +4891,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Morna\", \"City_DecreasingJobOpenings\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 2500.0
             }
         },
         {
@@ -4330,8 +4902,8 @@
                 "label": "!(BaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4341,8 +4913,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Morna\", \"City_RapidGrowth\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4352,8 +4924,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Sarna\", \"Progress_AgriculturalZone\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -4363,8 +4935,8 @@
                 "label": "!(BaseGame.Situation_Economy_Bergia_MajorAgriculturalZone == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4374,8 +4946,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Sarna\", \"City_AgriculturalGrowth\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4385,8 +4957,8 @@
                 "label": "AddTokenStatus(\"Sordland_City_Sarna\", \"City_RapidGrowth\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4396,8 +4968,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Morna\", \"City_DecreasingUnemployment\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4407,8 +4979,8 @@
                 "label": "UpdateCharacterTitle(\"Heron Garaci\", \"Chief Justice\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -4418,8 +4990,8 @@
                 "label": "BaseGame.Situation_Economy_DebtCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -4429,8 +5001,8 @@
                 "label": "BaseGameSupport.News_Turn09_G_DebtCrash = true;\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -4440,8 +5012,8 @@
                 "label": "BaseGame.Situation_Law_MediaCensored == true || BaseGame.Situation_Law_MediaBias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4451,8 +5023,8 @@
                 "label": "BaseGame.Situation_Law_MediaCensored == true || BaseGame.Situation_Law_MediaBias == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -4462,8 +5034,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_DebtCrash = true;\\nBaseGameSupport.News_Turn09_R_DebtCrash = true;\\n\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -4473,8 +5045,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4484,8 +5056,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4495,8 +5067,8 @@
                 "label": "BaseGame.Economy -= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4506,8 +5078,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -4517,8 +5089,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -4528,8 +5100,8 @@
                 "label": "BaseGame.Economy -= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 270.0,
+                "y": 1000.0
             }
         },
         {
@@ -4539,8 +5111,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4550,8 +5122,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 2250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4561,8 +5133,8 @@
                 "label": "!(BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true)\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 2500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4572,8 +5144,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4583,8 +5155,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4594,8 +5166,8 @@
                 "label": "BaseGame.Economy -= 2;\\nBaseGame.Public_Opinion -= 1;\\nBaseGame.Situation_Economy_CapitalWithdrawals = true;\\nBaseGame.LateGameCrisis += 1;\\nBaseGameSupport.News_Turn09_HP_Withdraw_Oligarchs = true;\\nBaseGameSupport.Report_Turn09_Lachaven_CapitalFlight = true;\\nBaseGameSupport.Report_Turn09_Lachaven_CentralBankSoftensBlow = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4605,8 +5177,8 @@
                 "label": "BaseGame.Economy_Agnland >= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4616,8 +5188,8 @@
                 "label": "!(BaseGame.Economy_Agnland >= 3)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4627,8 +5199,8 @@
                 "label": "BaseGame.Situation_Economy_Agnland_LackInvestment = false;\\nBaseGame.Situation_Economy_Agnland_EconomicStabilisation = false;\\nBaseGame.Situation_Economy_Agnland_MajorFishExport = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4638,8 +5210,8 @@
                 "label": "BaseGame.Economy_Agnland >= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4649,8 +5221,19 @@
                 "label": "BaseGame.Economy_Agnland >= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
+            }
+        },
+        {
+            "id": "node_901",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy_Agnland >= 1\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4660,8 +5243,8 @@
                 "label": "!(BaseGame.Economy_Agnland >= 1)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4671,8 +5254,8 @@
                 "label": "BaseGame.Economy_Bergia >= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4682,8 +5265,8 @@
                 "label": "!(BaseGame.Economy_Bergia >= 3)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4693,8 +5276,8 @@
                 "label": "BaseGame.Economy_Bergia >= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4704,8 +5287,8 @@
                 "label": "BaseGame.Economy_Bergia >= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4715,8 +5298,8 @@
                 "label": "BaseGame.Situation_Economy_Bergia_MajorAgriculturalZone = false;\\nBaseGame.Situation_Economy_Bergia_EconomicStabilisation = true;\\nBaseGame.Situation_Economy_Bergia_EconomicDownturn = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 1250.0
             }
         },
         {
@@ -4726,8 +5309,8 @@
                 "label": "BaseGame.Economy_Lorren >= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 750.0
             }
         },
         {
@@ -4737,8 +5320,8 @@
                 "label": "!(BaseGame.Economy_Lorren >= 3)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 1000.0
             }
         },
         {
@@ -4748,8 +5331,8 @@
                 "label": "BaseGame.Economy_Lorren >= 1\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4759,8 +5342,8 @@
                 "label": "!(BaseGame.Economy_Lorren >= 1)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4770,8 +5353,8 @@
                 "label": "BaseGame.Situation_Economy_Lorren_EconomicStabilisation = false;\\nBaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter = true;\\nBaseGame.Situation_Economy_Lorren_RustBelt = false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4781,8 +5364,8 @@
                 "label": "BaseGame.Situation_Economy_Lorren_EconomicStabilisation = true;\\nBaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter = false;\\nBaseGame.Situation_Economy_Lorren_RustBelt = false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4792,8 +5375,8 @@
                 "label": "BaseGame.Economy_Gruni >= 4\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4803,8 +5386,8 @@
                 "label": "BaseGame.Economy_Gruni >= 4\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4814,8 +5397,8 @@
                 "label": "!(BaseGame.Economy_Gruni >= 4)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4825,8 +5408,8 @@
                 "label": "BaseGame.Economy_Gruni >= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1500
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4836,8 +5419,8 @@
                 "label": "BaseGame.Economy_Gruni >= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1750
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4847,8 +5430,8 @@
                 "label": "!(BaseGame.Economy_Gruni >= 2)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 2000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4858,8 +5441,8 @@
                 "label": "BaseGame.Situation_Economy_Gruni_LightTowerRegion = true;\\nBaseGame.Situation_Economy_Gruni_MaintainingGrowth = false;\\nBaseGame.Situation_Economy_Gruni_LaggingBehind = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4869,8 +5452,8 @@
                 "label": "BaseGame.Situation_Economy_Gruni_MaintainingGrowth = true;\\nBaseGame.Situation_Economy_Gruni_LightTowerRegion = false;\\nBaseGame.Situation_Economy_Gruni_LaggingBehind = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4880,8 +5463,8 @@
                 "label": "BaseGame.Situation_Economy_Gruni_LaggingBehind = true;\\nBaseGame.Situation_Economy_Gruni_MaintainingGrowth = false;\\nBaseGame.Situation_Economy_Gruni_LightTowerRegion = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 2250
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -4891,8 +5474,8 @@
                 "label": "// Continues\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 2500
+                "x": 0.0,
+                "y": 2750.0
             }
         },
         {
@@ -4902,8 +5485,8 @@
                 "label": "BaseGame.Situation_Diplomacy_LespiaTradeTariffs == true || BaseGame.Situation_Diplomacy_ValgslandTradeTariffs == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 3000.0
             }
         },
         {
@@ -4913,8 +5496,19 @@
                 "label": "BaseGame.Situation_Diplomacy_LespiaTradeTariffs == true || BaseGame.Situation_Diplomacy_ValgslandTradeTariffs == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_935",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Diplomacy_LespiaTradeTariffs == true || BaseGame.Situation_Diplomacy_ValgslandTradeTariffs == true\n\nnan"
+            },
+            "position": {
+                "x": 540.0,
+                "y": 2750.0
             }
         },
         {
@@ -4924,8 +5518,8 @@
                 "label": "BaseGame.GovernmentBudget -= 1;\\nBaseGame.Economy -= 1;\\nBaseGameSupport.Report_Turn09_Lachaven_TradeTariffsHurt = true;\\nBaseGame.Situation_Economy_TradeTariffs = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4935,8 +5529,8 @@
                 "label": "BaseGame.Decision_Turn08_SecondArcasiaAid_Accepted == true || BaseGame.Decision_Turn08_SecondUCAid_Accepted == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4946,8 +5540,8 @@
                 "label": "BaseGame.Decision_Turn08_SecondArcasiaAid_Accepted == true || BaseGame.Decision_Turn08_SecondUCAid_Accepted == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4957,8 +5551,8 @@
                 "label": "!(BaseGame.Decision_Turn08_SecondArcasiaAid_Accepted == true || BaseGame.Decision_Turn08_SecondUCAid_Accepted == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4968,8 +5562,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -4979,8 +5573,8 @@
                 "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -4990,8 +5584,8 @@
                 "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -5001,8 +5595,8 @@
                 "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -5012,8 +5606,8 @@
                 "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -5023,8 +5617,8 @@
                 "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -5034,8 +5628,8 @@
                 "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 500.0
             }
         },
         {
@@ -5045,8 +5639,8 @@
                 "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -5056,8 +5650,8 @@
                 "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -5067,8 +5661,8 @@
                 "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -5078,8 +5672,19 @@
                 "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": 0.0,
+                "y": 0.0
+            }
+        },
+        {
+            "id": "node_952",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -5089,8 +5694,8 @@
                 "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": 0.0,
+                "y": 0.0
             }
         },
         {
@@ -5100,8 +5705,8 @@
                 "label": "BaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter == true && BaseGame.Situation_Economy_Gruni_LightTowerRegion == true\n\nnan"
             },
             "position": {
-                "x": 270,
-                "y": 1000
+                "x": 0.0,
+                "y": 250.0
             }
         },
         {
@@ -5111,8 +5716,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5122,8 +5727,8 @@
                 "label": "BaseGame.Situation_Economy_Gruni_LightTowerRegion == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5133,8 +5738,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5144,8 +5749,8 @@
                 "label": "BaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter == true && (BaseGame.Situation_Military_ExpandedNavy == true || BaseGame.Situation_Military_ModernisedNavy == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5155,8 +5760,8 @@
                 "label": "BaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter == true && (BaseGame.Situation_Military_ExpandedNavy == true || BaseGame.Situation_Military_ModernisedNavy == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5166,8 +5771,8 @@
                 "label": "BaseGame.Economy += 1;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5177,8 +5782,8 @@
                 "label": "BaseGame.Situation_Order_Nationwide_Revolt == true || BaseGame.Policy_Law_EmergencyDecree == true || BaseGame.Situation_Order_BFF_ThreatAlarming == true || BaseGame.LateGameCrisis >= 3\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5188,8 +5793,8 @@
                 "label": "!(BaseGame.Situation_Order_Nationwide_Revolt == true || BaseGame.Policy_Law_EmergencyDecree == true || BaseGame.Situation_Order_BFF_ThreatAlarming == true || BaseGame.LateGameCrisis >= 3)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5199,8 +5804,8 @@
                 "label": "BaseGame.Situation_Economy_Tourism_Booming = false;\\nBaseGame.Situation_Economy_Tourism_Average = false;\\nBaseGame.Situation_Economy_Tourism_Declining = true;\\nBaseGameSupport.Report_Turn09_Lachaven_TourismHitByInstability = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5210,8 +5815,8 @@
                 "label": "BaseGame.Situation_Economy_Tourism_Booming = false;\\nBaseGame.Situation_Economy_Tourism_Average = true;\\nBaseGame.Situation_Economy_Tourism_Declining = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5221,8 +5826,8 @@
                 "label": "BaseGame.Situation_Economy_Tourism_Booming = true;\\nBaseGame.Situation_Economy_Tourism_Average = false;\\nBaseGame.Situation_Economy_Tourism_Declining = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5232,8 +5837,8 @@
                 "label": "BaseGame.Bill_Turn02_TourismCulturalPreservation_Signed == true && BaseGame.LateGameCrisis <= 2 && BaseGame.Public_Opinion >= -10 && BaseGame.Policy_Diplomacy_RelaxedImmigration == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5243,8 +5848,8 @@
                 "label": "!(BaseGame.Bill_Turn02_TourismCulturalPreservation_Signed == true && BaseGame.LateGameCrisis <= 2 && BaseGame.Public_Opinion >= -10 && BaseGame.Policy_Diplomacy_RelaxedImmigration == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5254,8 +5859,8 @@
                 "label": "BaseGame.Relations_Serge_Acquaintance== true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5265,8 +5870,8 @@
                 "label": "BaseGame.Relations_Serge_Acquaintance== true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5276,8 +5881,8 @@
                 "label": "Serge Wolkner\n\n\"I'd love to, sir. But I promised Suzan I would watch the children tonight.\""
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5287,8 +5892,8 @@
                 "label": "AddTokenStatus(\"Sordland_Country_Lespia\", \"Country_Lespia_TradeTariffs\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5298,8 +5903,8 @@
                 "label": "BaseGame.Decision_Turn08_SecondUCAid_Accepted == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5309,8 +5914,19 @@
                 "label": "BaseGame.Decision_Turn08_SecondUCAid_Accepted == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 750
+                "x": NaN,
+                "y": NaN
+            }
+        },
+        {
+            "id": "node_981",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_SecondUCAid_Accepted == true\n\nnan"
+            },
+            "position": {
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5320,8 +5936,8 @@
                 "label": "!(BaseGame.Decision_Turn08_SecondUCAid_Accepted == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 1000
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5331,8 +5947,8 @@
                 "label": "UpdateCountryRelationship(\"Sordland_Country_Rumburg\", \"Unfriendly\");\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5342,8 +5958,8 @@
                 "label": "BaseGameSupport.News_Turn09_E_CBRAndCBCentralization = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5353,8 +5969,8 @@
                 "label": "BaseGame.Policy_Economy_CentralBankAct == true && BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5364,8 +5980,8 @@
                 "label": "!(BaseGame.Policy_Economy_CentralBankAct == true && BaseGame.Reform_PresiPower_Strong_RemoveBankIndependence == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5375,8 +5991,8 @@
                 "label": "BaseGame.Gasom_AnrakaOwnsMajority == true && BaseGame.Gasom_Bankrupt == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5386,8 +6002,8 @@
                 "label": "BaseGame.Gasom_AnrakaOwnsMajority == true && BaseGame.Gasom_Bankrupt == false\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5397,8 +6013,8 @@
                 "label": "BaseGame.Situation_Diplomacy_LespiaTradeTariffs == true ||BaseGame.Situation_Diplomacy_ValgslandTradeTariffs == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5408,8 +6024,8 @@
                 "label": "BaseGame.Situation_Diplomacy_LespiaTradeTariffs == true ||BaseGame.Situation_Diplomacy_ValgslandTradeTariffs == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5419,8 +6035,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_FactionsTakeIndependence = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5430,8 +6046,8 @@
                 "label": "BaseGame.Faction_USP_Obstructionist == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5441,8 +6057,8 @@
                 "label": "BaseGame.Faction_USP_Obstructionist == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5452,8 +6068,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_Obstruction_MoreBlockedBills = true;\\nBaseGameSupport.Report_Turn09_Holsord_USPMechanismSlows = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5463,8 +6079,8 @@
                 "label": "BaseGame.Situation_Economy_Gruni_LightTowerRegion == true && BaseGame.Policy_Economy_TourismAct == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5474,8 +6090,8 @@
                 "label": "BaseGame.Situation_Economy_Gruni_LightTowerRegion == true && BaseGame.Policy_Economy_TourismAct == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 2750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5485,8 +6101,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Borin_ExportsIncrease = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 3000
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5496,8 +6112,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Holsord_CBRCBReducesDamage = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5507,8 +6123,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Holsord_CBRReducesDamage = true;\n\nnan"
             },
             "position": {
-                "x": 540,
-                "y": 2750
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5518,8 +6134,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyHigh = false;\\nBaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyMedium = false;\\nBaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyLow = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5529,8 +6145,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyHigh = true;\\nBaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyMedium = false;\\nBaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyLow = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5540,8 +6156,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyHigh = false;\\nBaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyMedium = true;\\nBaseGameSupport.Report_Turn09_Conriat_InvestmentSynergyLow = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5551,8 +6167,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Morna_InvestmentSynergyHigh = false;\\nBaseGameSupport.Report_Turn09_Morna_InvestmentSynergyMedium = false;\\nBaseGameSupport.Report_Turn09_Morna_InvestmentSynergyLow = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5562,8 +6178,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Morna_InvestmentSynergyHigh = true;\\nBaseGameSupport.Report_Turn09_Morna_InvestmentSynergyMedium = false;\\nBaseGameSupport.Report_Turn09_Morna_InvestmentSynergyLow = false;\\nBaseGameSupport.Report_Turn09_Borin_GruniLorrenSynergy = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5573,8 +6189,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Morna_InvestmentSynergyHigh = false;\\nBaseGameSupport.Report_Turn09_Morna_InvestmentSynergyMedium = true;\\nBaseGameSupport.Report_Turn09_Morna_InvestmentSynergyLow = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5584,8 +6200,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyHigh = false;\\nBaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyMedium = false;\\nBaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyLow = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5595,8 +6211,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyHigh = true;\\nBaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyMedium = false;\\nBaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyLow = false;\\nBaseGameSupport.Report_Turn09_Borin_GruniLorrenSynergy = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5606,8 +6222,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyHigh = false;\\nBaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyMedium = true;\\nBaseGameSupport.Report_Turn09_Benfi_InvestmentSynergyLow = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5617,8 +6233,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Sarna_InvestmentSynergHigh = false;\\nBaseGameSupport.Report_Turn09_Sarna_InvestmentSynergyMedium = false;\\nBaseGameSupport.Report_Turn09_Sarna_InvestmentSynergyLow = true;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5628,8 +6244,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Sarna_InvestmentSynergHigh = false;\\nBaseGameSupport.Report_Turn09_Sarna_InvestmentSynergyMedium = true;\\nBaseGameSupport.Report_Turn09_Sarna_InvestmentSynergyLow = false;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 500
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5639,8 +6255,8 @@
                 "label": "BaseGame.Situation_Economy_Bergia_MajorAgriculturalZone == true && BaseGame.Policy_Economy_IndustrialExpansion_Agricultural == true && BaseGame.Policy_Economy_RegionalInvestment_Gruni == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5650,8 +6266,8 @@
                 "label": "!(BaseGame.Situation_Economy_Bergia_MajorAgriculturalZone == true && BaseGame.Policy_Economy_IndustrialExpansion_Agricultural == true && BaseGame.Policy_Economy_RegionalInvestment_Gruni == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5661,8 +6277,8 @@
                 "label": "BaseGame.Economy += 2;\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5672,8 +6288,8 @@
                 "label": "BaseGame.Bergia_Governor_Bron == true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5683,8 +6299,8 @@
                 "label": "!(BaseGame.Bergia_Governor_Bron == true)\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5694,8 +6310,8 @@
                 "label": "BaseGameSupport.Report_Turn09_Holsord_Unrest_BFF_KrullDiplomatic = true\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 0
+                "x": NaN,
+                "y": NaN
             }
         },
         {
@@ -5705,8 +6321,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0,
-                "y": 250
+                "x": NaN,
+                "y": NaN
             }
         }
     ],
@@ -5772,6 +6388,12 @@
             "type": "step"
         },
         {
+            "id": "e58_to_386",
+            "source": "node_58",
+            "target": "node_386",
+            "type": "step"
+        },
+        {
             "id": "e62_to_85",
             "source": "node_62",
             "target": "node_85",
@@ -5832,9 +6454,21 @@
             "type": "step"
         },
         {
+            "id": "e91_to_402",
+            "source": "node_91",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
             "id": "e95_to_402",
             "source": "node_95",
             "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_394",
+            "source": "node_95",
+            "target": "node_394",
             "type": "step"
         },
         {
@@ -5856,6 +6490,12 @@
             "type": "step"
         },
         {
+            "id": "e102_to_126",
+            "source": "node_102",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
             "id": "e103_to_126",
             "source": "node_103",
             "target": "node_126",
@@ -5871,6 +6511,12 @@
             "id": "e111_to_205",
             "source": "node_111",
             "target": "node_205",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_206",
+            "source": "node_111",
+            "target": "node_206",
             "type": "step"
         },
         {
@@ -5940,6 +6586,12 @@
             "type": "step"
         },
         {
+            "id": "e134_to_99",
+            "source": "node_134",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
             "id": "e139_to_319",
             "source": "node_139",
             "target": "node_319",
@@ -5955,6 +6607,24 @@
             "id": "e145_to_169",
             "source": "node_145",
             "target": "node_169",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_168",
+            "source": "node_145",
+            "target": "node_168",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_167",
+            "source": "node_145",
+            "target": "node_167",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_403",
+            "source": "node_145",
+            "target": "node_403",
             "type": "step"
         },
         {
@@ -6000,9 +6670,21 @@
             "type": "step"
         },
         {
+            "id": "e171_to_410",
+            "source": "node_171",
+            "target": "node_410",
+            "type": "step"
+        },
+        {
             "id": "e172_to_734",
             "source": "node_172",
             "target": "node_734",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_411",
+            "source": "node_172",
+            "target": "node_411",
             "type": "step"
         },
         {
@@ -6048,15 +6730,51 @@
             "type": "step"
         },
         {
+            "id": "e193_to_241",
+            "source": "node_193",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_412",
+            "source": "node_193",
+            "target": "node_412",
+            "type": "step"
+        },
+        {
             "id": "e194_to_240",
             "source": "node_194",
             "target": "node_240",
             "type": "step"
         },
         {
+            "id": "e194_to_241",
+            "source": "node_194",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e194_to_412",
+            "source": "node_194",
+            "target": "node_412",
+            "type": "step"
+        },
+        {
             "id": "e199_to_191",
             "source": "node_199",
             "target": "node_191",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_186",
+            "source": "node_199",
+            "target": "node_186",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_744",
+            "source": "node_199",
+            "target": "node_744",
             "type": "step"
         },
         {
@@ -6072,6 +6790,18 @@
             "type": "step"
         },
         {
+            "id": "e203_to_188",
+            "source": "node_203",
+            "target": "node_188",
+            "type": "step"
+        },
+        {
+            "id": "e203_to_189",
+            "source": "node_203",
+            "target": "node_189",
+            "type": "step"
+        },
+        {
             "id": "e204_to_230",
             "source": "node_204",
             "target": "node_230",
@@ -6084,15 +6814,45 @@
             "type": "step"
         },
         {
+            "id": "e207_to_272",
+            "source": "node_207",
+            "target": "node_272",
+            "type": "step"
+        },
+        {
+            "id": "e207_to_284",
+            "source": "node_207",
+            "target": "node_284",
+            "type": "step"
+        },
+        {
             "id": "e208_to_272",
             "source": "node_208",
             "target": "node_272",
             "type": "step"
         },
         {
+            "id": "e208_to_285",
+            "source": "node_208",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
             "id": "e209_to_275",
             "source": "node_209",
             "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e209_to_273",
+            "source": "node_209",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e209_to_276",
+            "source": "node_209",
+            "target": "node_276",
             "type": "step"
         },
         {
@@ -6105,6 +6865,18 @@
             "id": "e212_to_288",
             "source": "node_212",
             "target": "node_288",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_294",
+            "source": "node_212",
+            "target": "node_294",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_292",
+            "source": "node_212",
+            "target": "node_292",
             "type": "step"
         },
         {
@@ -6150,6 +6922,12 @@
             "type": "step"
         },
         {
+            "id": "e221_to_306",
+            "source": "node_221",
+            "target": "node_306",
+            "type": "step"
+        },
+        {
             "id": "e222_to_307",
             "source": "node_222",
             "target": "node_307",
@@ -6177,6 +6955,18 @@
             "id": "e230_to_242",
             "source": "node_230",
             "target": "node_242",
+            "type": "step"
+        },
+        {
+            "id": "e230_to_248",
+            "source": "node_230",
+            "target": "node_248",
+            "type": "step"
+        },
+        {
+            "id": "e230_to_413",
+            "source": "node_230",
+            "target": "node_413",
             "type": "step"
         },
         {
@@ -6246,6 +7036,12 @@
             "type": "step"
         },
         {
+            "id": "e252_to_785",
+            "source": "node_252",
+            "target": "node_785",
+            "type": "step"
+        },
+        {
             "id": "e253_to_785",
             "source": "node_253",
             "target": "node_785",
@@ -6312,6 +7108,12 @@
             "type": "step"
         },
         {
+            "id": "e282_to_794",
+            "source": "node_282",
+            "target": "node_794",
+            "type": "step"
+        },
+        {
             "id": "e283_to_497",
             "source": "node_283",
             "target": "node_497",
@@ -6354,6 +7156,18 @@
             "type": "step"
         },
         {
+            "id": "e293_to_217",
+            "source": "node_293",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
+            "id": "e293_to_218",
+            "source": "node_293",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
             "id": "e297_to_504",
             "source": "node_297",
             "target": "node_504",
@@ -6366,15 +7180,45 @@
             "type": "step"
         },
         {
+            "id": "e298_to_217",
+            "source": "node_298",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
             "id": "e299_to_405",
             "source": "node_299",
             "target": "node_405",
             "type": "step"
         },
         {
+            "id": "e299_to_217",
+            "source": "node_299",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
+            "id": "e299_to_218",
+            "source": "node_299",
+            "target": "node_218",
+            "type": "step"
+        },
+        {
             "id": "e300_to_405",
             "source": "node_300",
             "target": "node_405",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_217",
+            "source": "node_300",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_218",
+            "source": "node_300",
+            "target": "node_218",
             "type": "step"
         },
         {
@@ -6387,6 +7231,18 @@
             "id": "e304_to_405",
             "source": "node_304",
             "target": "node_405",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_217",
+            "source": "node_304",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_218",
+            "source": "node_304",
+            "target": "node_218",
             "type": "step"
         },
         {
@@ -6522,6 +7378,12 @@
             "type": "step"
         },
         {
+            "id": "e369_to_376",
+            "source": "node_369",
+            "target": "node_376",
+            "type": "step"
+        },
+        {
             "id": "e370_to_378",
             "source": "node_370",
             "target": "node_378",
@@ -6621,6 +7483,18 @@
             "id": "e406_to_228",
             "source": "node_406",
             "target": "node_228",
+            "type": "step"
+        },
+        {
+            "id": "e406_to_222",
+            "source": "node_406",
+            "target": "node_222",
+            "type": "step"
+        },
+        {
+            "id": "e406_to_306",
+            "source": "node_406",
+            "target": "node_306",
             "type": "step"
         },
         {
@@ -6942,6 +7816,24 @@
             "type": "step"
         },
         {
+            "id": "e499_to_258",
+            "source": "node_499",
+            "target": "node_258",
+            "type": "step"
+        },
+        {
+            "id": "e499_to_787",
+            "source": "node_499",
+            "target": "node_787",
+            "type": "step"
+        },
+        {
+            "id": "e499_to_790",
+            "source": "node_499",
+            "target": "node_790",
+            "type": "step"
+        },
+        {
             "id": "e500_to_260",
             "source": "node_500",
             "target": "node_260",
@@ -6993,6 +7885,12 @@
             "id": "e508_to_310",
             "source": "node_508",
             "target": "node_310",
+            "type": "step"
+        },
+        {
+            "id": "e508_to_408",
+            "source": "node_508",
+            "target": "node_408",
             "type": "step"
         },
         {
@@ -7434,6 +8332,12 @@
             "type": "step"
         },
         {
+            "id": "e711_to_713",
+            "source": "node_711",
+            "target": "node_713",
+            "type": "step"
+        },
+        {
             "id": "e713_to_872",
             "source": "node_713",
             "target": "node_872",
@@ -7740,6 +8644,12 @@
             "type": "step"
         },
         {
+            "id": "e787_to_789",
+            "source": "node_787",
+            "target": "node_789",
+            "type": "step"
+        },
+        {
             "id": "e788_to_791",
             "source": "node_788",
             "target": "node_791",
@@ -7827,6 +8737,12 @@
             "id": "e806_to_807",
             "source": "node_806",
             "target": "node_807",
+            "type": "step"
+        },
+        {
+            "id": "e806_to_808",
+            "source": "node_806",
+            "target": "node_808",
             "type": "step"
         },
         {
@@ -7986,6 +8902,12 @@
             "type": "step"
         },
         {
+            "id": "e836_to_838",
+            "source": "node_836",
+            "target": "node_838",
+            "type": "step"
+        },
+        {
             "id": "e837_to_843",
             "source": "node_837",
             "target": "node_843",
@@ -8001,6 +8923,12 @@
             "id": "e839_to_840",
             "source": "node_839",
             "target": "node_840",
+            "type": "step"
+        },
+        {
+            "id": "e839_to_841",
+            "source": "node_839",
+            "target": "node_841",
             "type": "step"
         },
         {
@@ -8250,6 +9178,12 @@
             "type": "step"
         },
         {
+            "id": "e901_to_903",
+            "source": "node_901",
+            "target": "node_903",
+            "type": "step"
+        },
+        {
             "id": "e902_to_904",
             "source": "node_902",
             "target": "node_904",
@@ -8394,6 +9328,12 @@
             "type": "step"
         },
         {
+            "id": "e935_to_937",
+            "source": "node_935",
+            "target": "node_937",
+            "type": "step"
+        },
+        {
             "id": "e937_to_801",
             "source": "node_937",
             "target": "node_801",
@@ -8481,6 +9421,12 @@
             "id": "e952_to_953",
             "source": "node_952",
             "target": "node_953",
+            "type": "step"
+        },
+        {
+            "id": "e952_to_954",
+            "source": "node_952",
+            "target": "node_954",
             "type": "step"
         },
         {
@@ -8607,6 +9553,12 @@
             "id": "e981_to_982",
             "source": "node_981",
             "target": "node_982",
+            "type": "step"
+        },
+        {
+            "id": "e981_to_983",
+            "source": "node_981",
+            "target": "node_983",
             "type": "step"
         },
         {
