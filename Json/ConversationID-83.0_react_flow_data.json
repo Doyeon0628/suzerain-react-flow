@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Livia Suno\n\n\"Sorry to interrupt, Mr. President, but Justice Garaci is here to see you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Narrator\n\nI called Chief Justice Hawker's office to demand an explanation, but he wasn't in. I sat by the phone, waiting for him to call back."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Narrator\n\nShe opened the door for Heron Garaci and closed the door behind her.\n\nAddConversant(Heron Garaci); RemoveConversant(Livia Suno); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Player\n\n\"You're right. I am disappointed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Heron Garaci\n\n\"Of course you are, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "(BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true || BaseGame.Turn03_EnT_LawEnforcement_Budget_Maintain == true) && (BaseGame.Turn03_EnT_Military_Budget_Decrease == true || BaseGame.Turn03_EnT_Military_Budget_Maintain == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "BaseGame.Turn03_EnT_LawEnforcement_Budget_Increase == true && BaseGame.Turn03_EnT_Military_Budget_Increase == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Heron Garaci\n\n\"...Even though the arguments filed by Ricter are noteworthy and do give us the right to deem your actions as unconstitutional.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Heron Garaci\n\n\"Although, of course, none of us want the act revoked.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,19 +117,8 @@
                 "label": "Player\n\n\"The Court has promised not to act about this clause.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"The Court has promised not to act about this clause.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -139,8 +128,8 @@
                 "label": "Player\n\n\"Don't you dare stab me in the back.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -150,8 +139,8 @@
                 "label": "Player\n\n\"Okay, I get it. You have demands.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -161,8 +150,8 @@
                 "label": "Player\n\n\"The Court promised not to act on this clause.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +161,8 @@
                 "label": "Heron Garaci\n\n\"Of course not.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +172,8 @@
                 "label": "Heron Garaci\n\n\"We are simply a little disappointed about the lack of proper budget for our police and military forces. This Emergency Act has taken a heavy toll on them.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +183,8 @@
                 "label": "Heron Garaci\n\n\"There have been countless cases of foreigners joining the fight against our state. We require better border security and a tighter immigration policy.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +194,8 @@
                 "label": "!(BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true ||BaseGame.Turn03_EnT_Military_Budget_Decrease == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +205,8 @@
                 "label": "BaseGame.Policy_Diplomacy_RelaxedImmigration == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +216,8 @@
                 "label": "!(BaseGame.Policy_Diplomacy_RelaxedImmigration == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +227,8 @@
                 "label": "Heron Garaci\n\n\"Our biggest concern, however, regards the Oligarchs. Walter Tusk and Marcel Koronti.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +238,8 @@
                 "label": "Heron Garaci\n\n\"Then we are on the same page.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,8 +249,8 @@
                 "label": "Heron Garaci\n\n\"We are already in an emergency, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +260,8 @@
                 "label": "Player\n\n\"I can't disagree with that.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +271,8 @@
                 "label": "Player\n\n\"We are already working on market economy reforms. Your little proposal doesn't align with my plans.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -293,8 +282,8 @@
                 "label": "Heron Garaci\n\n\"In the meantime, the Court will be doing its best. As long as you listen to our concerns, Chief Justice Hawker will be motivated to help you further...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +293,8 @@
                 "label": "Heron Garaci\n\n\"With that said, they might be persuaded to rule in your favor if certain other judicial concerns were addressed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +304,8 @@
                 "label": "Player\n\n\"I'm on to your shenanigans, Mr. Garaci.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +315,8 @@
                 "label": "Player\n\n\"No. As we already agreed, you will fix this as soon as possible. I won't cave to your demands.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +326,8 @@
                 "label": "Heron Garaci\n\n\"There have been countless cases of foreigners joining the fight against our state. We require better border security and a tighter immigration policy.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,8 +337,8 @@
                 "label": "Player\n\n\"You're right. We'll definitely tighten immigration.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -359,8 +348,8 @@
                 "label": "Heron Garaci\n\n\"We are already in an emergency, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +359,8 @@
                 "label": "Heron Garaci\n\n\"Our biggest concern, however, regards the Oligarchs. Marcel Koronti and Walter Tusk.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -381,8 +370,8 @@
                 "label": "Player_Italic\n\nI did not reply.\n\nStay silent."
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -392,8 +381,8 @@
                 "label": "BaseGame.Policy_Diplomacy_RelaxedImmigration == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -403,8 +392,8 @@
                 "label": "!(BaseGame.Policy_Diplomacy_RelaxedImmigration == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -414,8 +403,8 @@
                 "label": "Player\n\n\"I can't do that.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -425,8 +414,8 @@
                 "label": "Heron Garaci\n\n\"That's relieving.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +425,8 @@
                 "label": "Player\n\n\"What are you suggesting here?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -447,8 +436,8 @@
                 "label": "Heron Garaci\n\n\"They are in close cooperation with Arcasia and have ties to almost every other country on this continent. And as we all know, they only care about money.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -458,8 +447,8 @@
                 "label": "Heron Garaci\n\n\"For example, something has to be done about the Oligarchs. Walter Tusk and Marcel Koronti.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -469,8 +458,8 @@
                 "label": "Heron Garaci\n\n\"Anyway, I am not here to argue with you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -480,8 +469,8 @@
                 "label": "Player\n\n\"You promised the Court would side with me.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -491,8 +480,8 @@
                 "label": "Player\n\n\"What is the meaning of this!?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -502,8 +491,8 @@
                 "label": "Heron Garaci\n\n\"You promised to manage this emergency period as best as you can. Yet our police and military forces took a heavy toll with their lack of proper budget.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +502,8 @@
                 "label": "Player\n\n\"You have balls coming to me like that.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -524,8 +513,8 @@
                 "label": "Heron Garaci\n\n\"Where are your manners, Mr. President?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -535,8 +524,8 @@
                 "label": "Heron Garaci\n\n\"You will implement a nationalization plan and seize the assets of the Oligarchs.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -546,8 +535,8 @@
                 "label": "Player\n\n\"You will regret this. Get out of my sight!\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -557,8 +546,8 @@
                 "label": "Heron Garaci\n\n\"Then it might just be too hard for us to ignore your crimes against the Constitution.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -568,8 +557,8 @@
                 "label": "Heron Garaci\n\n\"Whatever you say.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -579,8 +568,8 @@
                 "label": "Heron Garaci\n\n\"I have to say... You are not so different from President Alphonso.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -590,19 +579,8 @@
                 "label": "Narrator\n\nHe went out and closed the door behind him.\n\nRemoveConversant(Heron Garaci); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_198",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe went out and closed the door behind him.\n\nRemoveConversant(Heron Garaci); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -612,8 +590,8 @@
                 "label": "Player_Italic\n\nI decided to comply with Heron's suggestion and started to work on a decree to implement tighter immigration laws.\n\nStart working on a decree to tighten immigration."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -623,8 +601,8 @@
                 "label": "Player_Italic\n\nI decided to ignore their demands on immigration.\n\nIgnore their demand."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -634,8 +612,8 @@
                 "label": "Narrator\n\nI leaned back in my chair."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -645,8 +623,8 @@
                 "label": "BaseGame.Policy_Diplomacy_TightenedImmigration = true;\\nBaseGame.Policy_Diplomacy_RelaxedImmigration = false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -656,8 +634,8 @@
                 "label": "BaseGame.Turn01_EnT_Economy_Market == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -667,8 +645,8 @@
                 "label": "!(BaseGame.Turn01_EnT_Economy_Market == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -678,8 +656,8 @@
                 "label": "!(BaseGame.Faction_Oligarchs_Content == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -689,8 +667,8 @@
                 "label": "GameCondition.Turn06_A_AutocratDemands = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +678,8 @@
                 "label": "Heron Garaci\n\n\"We are concerned about Walter Tusk and Marcel Koronti.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -711,8 +689,8 @@
                 "label": "Player\n\n\"What are you suggesting here?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -722,8 +700,8 @@
                 "label": "Heron Garaci\n\n\"What evidence do you need when they are the only people who are not affected by these crises? They influence politics in Sordland for their own gains as well as those of foreign interests.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -733,8 +711,8 @@
                 "label": "Player\n\n\"There is no evidence of this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -744,8 +722,8 @@
                 "label": "Player\n\n\"I share the same concerns.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -755,8 +733,8 @@
                 "label": "Heron Garaci\n\n\"We are already in an emergency, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -766,8 +744,8 @@
                 "label": "Heron Garaci\n\n\"Then we are on the same page.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -777,8 +755,8 @@
                 "label": "Heron Garaci\n\n\"So here is the deal.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -788,8 +766,8 @@
                 "label": "Heron Garaci\n\n\"Now you listen to me...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -799,8 +777,8 @@
                 "label": "Heron Garaci\n\n\"We hope you follow through on this in the next economy meeting. For your own good.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -810,8 +788,8 @@
                 "label": "Heron Garaci\n\n\"I have one final request.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -821,8 +799,8 @@
                 "label": "!(BaseGame.Policy_Diplomacy_RelaxedImmigration == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -832,8 +810,8 @@
                 "label": "Heron Garaci\n\n\"We are concerned about Sordland's current immigration laws. We fear too many troublemakers are crossing the border to lend support to militant organizations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,8 +821,8 @@
                 "label": "Player\n\n\"You're right. We'll definitely tighten immigration.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -854,8 +832,8 @@
                 "label": "Heron Garaci\n\n\"That's a relief.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +843,8 @@
                 "label": "Heron Garaci\n\n\"There have been countless cases of foreigners joining the fight against our state. We require better border security and a tighter immigration policy.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -876,8 +854,8 @@
                 "label": "Heron Garaci\n\n\"We are in an emergency, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -887,19 +865,8 @@
                 "label": "Narrator\n\nEven if I was wrong, would I be able to get out of this if I wanted?"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_241",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nEven if I was wrong, would I be able to get out of this if I wanted?"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -909,8 +876,8 @@
                 "label": "Narrator\n\nWas my decision to work with the Old Guard right?"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -920,8 +887,8 @@
                 "label": "Heron Garaci\n\n\"We also know that you've been *working* with them.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -931,8 +898,8 @@
                 "label": "!(BaseGame.Faction_Oligarchs_Content == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -942,8 +909,8 @@
                 "label": "Heron Garaci\n\n\"Remember, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -953,8 +920,8 @@
                 "label": "Heron Garaci\n\n\"We also know that you've been *working* with them.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -964,8 +931,8 @@
                 "label": "!(BaseGame.Faction_Oligarchs_Content == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -975,8 +942,8 @@
                 "label": "Heron Garaci\n\n\"Remember, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -986,8 +953,8 @@
                 "label": "BaseGame.Promise_Immigration_Relaxed == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -997,19 +964,8 @@
                 "label": "Narrator\n\nI had promised the people of Sordland that I would open our borders, and I had followed through. Turning back now would mean betraying all that work. On the other hand, so would losing the court case."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_261",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI had promised the people of Sordland that I would open our borders, and I had followed through. Turning back now would mean betraying all that work. On the other hand, so would losing the court case."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1019,19 +975,8 @@
                 "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_262",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1041,8 +986,8 @@
                 "label": "!(BaseGame.Decision_Turn05_AutocratEmergency_Extend == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1052,8 +997,8 @@
                 "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1063,8 +1008,8 @@
                 "label": "!(BaseGame.Decision_Turn05_AutocratEmergency_Extend == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1074,8 +1019,8 @@
                 "label": "Heron Garaci\n\n\"Of course, there are some Justices who believe you were to blame from the beginning. Going against the Constitution was an impeachable offence, after all.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1085,8 +1030,8 @@
                 "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1096,8 +1041,8 @@
                 "label": "!(BaseGame.Decision_Turn05_AutocratEmergency_Extend == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1107,8 +1052,8 @@
                 "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1118,8 +1063,8 @@
                 "label": "!(BaseGame.Decision_Turn05_AutocratEmergency_Extend == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1129,8 +1074,8 @@
                 "label": "BaseGame.Situation_Order_StreamlinedImmigration = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1140,8 +1085,8 @@
                 "label": "Heron Garaci\n\n\"But it isn't up to me. Unless... a majority of the court could somehow be convinced to take your side.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1151,41 +1096,8 @@
                 "label": "Heron Garaci\n\n\"In these difficult times when unity is so sorely needed, they pose a great threat to all of Sordland.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_291",
-            "type": "customNode",
-            "data": {
-                "label": "Heron Garaci\n\n\"In these difficult times when unity is so sorely needed, they pose a great threat to all of Sordland.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_291",
-            "type": "customNode",
-            "data": {
-                "label": "Heron Garaci\n\n\"In these difficult times when unity is so sorely needed, they pose a great threat to all of Sordland.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_291",
-            "type": "customNode",
-            "data": {
-                "label": "Heron Garaci\n\n\"In these difficult times when unity is so sorely needed, they pose a great threat to all of Sordland.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1195,30 +1107,8 @@
                 "label": "Heron Garaci\n\n\"Namely Walter Tusk's Bergia Steel and Marcel Koronti's Heart of Sordland.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_294",
-            "type": "customNode",
-            "data": {
-                "label": "Heron Garaci\n\n\"Namely Walter Tusk's Bergia Steel and Marcel Koronti's Heart of Sordland.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_294",
-            "type": "customNode",
-            "data": {
-                "label": "Heron Garaci\n\n\"Namely Walter Tusk's Bergia Steel and Marcel Koronti's Heart of Sordland.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1228,8 +1118,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_AutocratDemand_FullNationalise = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1239,8 +1129,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_ImmigrationDemand_Tighten = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1250,8 +1140,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_ImmigrationDemand_Ignore = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1261,8 +1151,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_YS == true && BaseGame.Promise_Diplomacy_East == true && BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1272,8 +1162,8 @@
                 "label": "Heron Garaci\n\n\"You played your cards wrong, Mr. President. Look at you. You have done virtually *everything* that is possible to oppose us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1283,8 +1173,8 @@
                 "label": "Heron Garaci\n\n\"They already control much of our economy. They can't be allowed to have that much power.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1294,8 +1184,8 @@
                 "label": "Player\n\n\"That would be too extreme, Mr. Garaci.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1305,8 +1195,8 @@
                 "label": "Player\n\n\"That was my plan anyway.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1316,8 +1206,8 @@
                 "label": "BaseGame.Reform_Autocrat_Demanded_TightenedImmigration = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1327,8 +1217,8 @@
                 "label": "Heron Garaci\n\n\"Firstly, we are concerned about Sordland's current immigration laws. We fear too many troublemakers are crossing the border to lend support to militant organizations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1338,8 +1228,8 @@
                 "label": "BaseGame.Turn06_SnO_Conscription_Removed == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1349,8 +1239,8 @@
                 "label": "Heron Garaci\n\n\"You must reverse your ridiculous decision to end mandatory conscription. A large, strong military is the only way to ensure stability in this country.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1360,8 +1250,8 @@
                 "label": "BaseGameIsolated.turn06_AutocratDemands_Conscription = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1371,8 +1261,8 @@
                 "label": "BaseGameIsolated.Turn06_AutocratDemands_Immigration = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1382,8 +1272,8 @@
                 "label": "Heron Garaci\n\n\"Personally, I of course believe the emergency was fully justified. It would be a shame if the rest of the Court failed to agree.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1393,8 +1283,8 @@
                 "label": "BaseGame.Reform_Autocrat_Demanded_FullNationalization = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1404,8 +1294,8 @@
                 "label": "BaseGame.Turn06_SnO_Conscription_Removed = false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1415,8 +1305,8 @@
                 "label": "BaseGameIsolated.turn06_AutocratDemands_Conscription == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1426,8 +1316,8 @@
                 "label": "Narrator\n\nAnd then there was the conscription issue..."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1437,8 +1327,8 @@
                 "label": "Player_Italic\n\nI decided to comply with Heron's suggestion and bring conscription back.\n\nStart working on a decree to reinstate conscription."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1448,8 +1338,8 @@
                 "label": "Player_Italic\n\nI decided to ignore Heron's demands on conscription.\n\nLeave the law as it is."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1459,8 +1349,8 @@
                 "label": "BaseGame.Turn06_SnO_Conscription_Removed = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1470,8 +1360,8 @@
                 "label": "GameCondition.Turn06_A_Reform = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1481,8 +1371,8 @@
                 "label": "BaseGameIsolated.Turn06_AutocratDemands_NationalizeOligarchs == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1492,8 +1382,8 @@
                 "label": "!(BaseGameIsolated.Turn06_AutocratDemands_NationalizeOligarchs == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1503,8 +1393,8 @@
                 "label": "Heron Garaci\n\n\"There is more.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1514,8 +1404,8 @@
                 "label": "BaseGame.Turn06_SnO_Conscription_Removed == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1525,8 +1415,8 @@
                 "label": "Heron Garaci\n\n\"You must reverse your ridiculous decision to end mandatory conscription. A large, strong military is the only way to ensure stability in this country.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1536,8 +1426,8 @@
                 "label": "Heron Garaci\n\n\"Do that and we will see about the rest.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1547,8 +1437,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscription = true;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_IosefLeads = false;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscriptionIosefLeads = false; BaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces = false;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1558,8 +1448,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces = true;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscription = false;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_IosefLeads = false;\\nBaseGameSupport.Codex_Organisations_Governmental_SordishArmedForces_NoConscriptionIosefLeads = false; \n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1569,8 +1459,8 @@
                 "label": "BaseGame.Policy_Military_IncreasedFunding == false && BaseGame.Policy_Order_IncreasedInteriorFunding == false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1580,8 +1470,8 @@
                 "label": "!(BaseGame.Policy_Military_IncreasedFunding == false && BaseGame.Policy_Order_IncreasedInteriorFunding == false)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1591,8 +1481,8 @@
                 "label": "BaseGameSupport.News_Turn06_ST_VictoryDay_Emergency = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1602,8 +1492,8 @@
                 "label": "BaseGameSupport.News_Turn06_ST_VictoryDay = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1613,8 +1503,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1624,8 +1514,8 @@
                 "label": "(BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true || BaseGame.Turn03_EnT_LawEnforcement_Budget_Maintain == true) && (BaseGame.Turn03_EnT_Military_Budget_Decrease == true || BaseGame.Turn03_EnT_Military_Budget_Maintain == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1635,8 +1525,8 @@
                 "label": "!((BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true || BaseGame.Turn03_EnT_LawEnforcement_Budget_Maintain == true) && (BaseGame.Turn03_EnT_Military_Budget_Decrease == true || BaseGame.Turn03_EnT_Military_Budget_Maintain == true))\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1646,8 +1536,8 @@
                 "label": "BaseGame.Policy_Military_CompulsoryMilitaryService == false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1657,8 +1547,8 @@
                 "label": "!(BaseGame.Policy_Military_CompulsoryMilitaryService == false)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -1727,12 +1617,6 @@
             "id": "e51_to_67",
             "source": "node_51",
             "target": "node_67",
-            "type": "step"
-        },
-        {
-            "id": "e51_to_66",
-            "source": "node_51",
-            "target": "node_66",
             "type": "step"
         },
         {
@@ -1988,12 +1872,6 @@
             "type": "step"
         },
         {
-            "id": "e198_to_194",
-            "source": "node_198",
-            "target": "node_194",
-            "type": "step"
-        },
-        {
             "id": "e201_to_259",
             "source": "node_201",
             "target": "node_259",
@@ -2150,12 +2028,6 @@
             "type": "step"
         },
         {
-            "id": "e241_to_236",
-            "source": "node_241",
-            "target": "node_236",
-            "type": "step"
-        },
-        {
             "id": "e242_to_346",
             "source": "node_242",
             "target": "node_346",
@@ -2210,21 +2082,9 @@
             "type": "step"
         },
         {
-            "id": "e261_to_206",
-            "source": "node_261",
-            "target": "node_206",
-            "type": "step"
-        },
-        {
             "id": "e262_to_202",
             "source": "node_262",
             "target": "node_202",
-            "type": "step"
-        },
-        {
-            "id": "e262_to_206",
-            "source": "node_262",
-            "target": "node_206",
             "type": "step"
         },
         {
@@ -2294,39 +2154,9 @@
             "type": "step"
         },
         {
-            "id": "e291_to_53",
-            "source": "node_291",
-            "target": "node_53",
-            "type": "step"
-        },
-        {
-            "id": "e291_to_54",
-            "source": "node_291",
-            "target": "node_54",
-            "type": "step"
-        },
-        {
-            "id": "e291_to_55",
-            "source": "node_291",
-            "target": "node_55",
-            "type": "step"
-        },
-        {
             "id": "e294_to_110",
             "source": "node_294",
             "target": "node_110",
-            "type": "step"
-        },
-        {
-            "id": "e294_to_111",
-            "source": "node_294",
-            "target": "node_111",
-            "type": "step"
-        },
-        {
-            "id": "e294_to_113",
-            "source": "node_294",
-            "target": "node_113",
             "type": "step"
         },
         {

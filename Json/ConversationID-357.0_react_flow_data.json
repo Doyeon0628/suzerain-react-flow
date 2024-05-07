@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nI placed the phone to my ear. I took a deep breath as Duke Reinhart picked it up."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Player_Romus\n\n\"Duke Reinhart. How pleasing it is to get a chance to speak with you again.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Player_Romus\n\n\"This is the King speaking.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Axel Reinhart\n\n\"I'm afraid I don't see it that way, Your Majesty. Especially after what happened.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Player_Romus\n\n\"Well... It doesn't really matter, Your Grace.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Player_Romus\n\n\"Me too, Your Grace. And now, you're going to hear me out.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Axel Reinhart\n\n\"I'm listening.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Axel Reinhart\n\n\"I'm listening.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "//\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Player_Romus\n\n\"You're not complying with my demands, then?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "!((RiziaDLC.Pales_War == true && RiziaDLC.PostIncident_Border_JointInvestigation == true))\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "RiziaDLC.War_Incident_Border == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "Axel Reinhart\n\n\"The world knows it was Rizia who was behind the incident at our border, Your Majesty.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,19 +161,8 @@
                 "label": "AddConversant(\"Axel Reinhart\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "customNode",
-            "data": {
-                "label": "AddConversant(\"Axel Reinhart\");\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +172,8 @@
                 "label": "RemoveConversant(\"Axel Reinhart\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -194,8 +183,8 @@
                 "label": "RiziaDLC.Pales_War = true;\\nRiziaDLC.Diplomacy_Pales_NegotiatingPower = -100;\\nRiziaDLC.Policy_Diplomacy_TradeDeal_Pales = false;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         }
     ],
@@ -288,12 +277,6 @@
             "id": "e86_to_36",
             "source": "node_86",
             "target": "node_36",
-            "type": "step"
-        },
-        {
-            "id": "e86_to_37",
-            "source": "node_86",
-            "target": "node_37",
             "type": "step"
         },
         {

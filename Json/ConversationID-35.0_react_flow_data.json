@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nThe reform committee had intensified work after the negotiations with the Old Guard broke down. Options regarding the new Constitution were already laid out.\n\nSetRichPresenceData(Discussing the results from the Reform Committee, White Room, Maroon Palace); PlaySceneMusic(Choices); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nA few minutes later, Lucian and Petr arrived.\n\nAddConversant(Lucian Galade); AddConversant(Petr Vectern); AddConversant(Nia Morgna); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Lucian Galade\n\n\"There are some people in USP who would support a new Constitution with more executive powers. Getting the support of the nationalists is our best bet.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Lucian Galade\n\n\"Now we have a better picture of your intentions, sir. I will start reaching out to my contacts to make a draft that works for you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -51,41 +51,8 @@
                 "label": "Lucian Galade\n\n\"But now we have a better picture of your intentions, sir. I will start reaching out to my contacts to make a draft that works for you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"But now we have a better picture of your intentions, sir. I will start reaching out to my contacts to make a draft that works for you.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"But now we have a better picture of your intentions, sir. I will start reaching out to my contacts to make a draft that works for you.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"But now we have a better picture of your intentions, sir. I will start reaching out to my contacts to make a draft that works for you.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +62,8 @@
                 "label": "Player\n\n\"Your service is appreciated.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +73,8 @@
                 "label": "Lucian Galade\n\n\"I'm sure you will lead us to greatness, sir. Thanks for your time.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +84,8 @@
                 "label": "Player\n\n\"Together we will democratize Sordland.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -128,8 +95,8 @@
                 "label": "Player\n\n\"Thanks for the meeting, everybody.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -139,8 +106,8 @@
                 "label": "Lucian Galade\n\n\"Thank you for your time, sir.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +117,8 @@
                 "label": "Lucian Galade\n\n\"Since we have arrived at the same page with Ms. Morgna again I will reach out to her to for guidance on the draft constitution work. She has principles and wouldn't go against her own code out of previous disagreements.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -161,8 +128,8 @@
                 "label": "Lucian Galade\n\n\"I think this is where we'll call it, sir. Have a good day.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +139,8 @@
                 "label": "Narrator\n\n0x01000000000A0148\n\nRemoveConversant(Nia Morgna); RemoveConversant(Lucian Galade); RemoveConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +150,8 @@
                 "label": "BaseGame.Reform_Dictator_Path = true;\\nBaseGame.Reform_Dictator_Intention = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -194,8 +161,8 @@
                 "label": "Petr Vectern\n\n\"After what they pulled off I say let's screw them over. We can go all the way with the reforms and shatter the power of the Old Guard.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +172,8 @@
                 "label": "Player\n\n\"The future lies in a true reform of the constitution. The people elected us for that, let us embrace our purpose.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +183,8 @@
                 "label": "BaseGame.Reform_Reformist_Path = true;\\nBaseGame.Reform_Reformist_Intention = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +194,8 @@
                 "label": "Petr Vectern\n\n\"True, sorry I got a little hotheaded.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -238,8 +205,8 @@
                 "label": "!(BaseGame.Prologue_Speech_Democracy_Liberal == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +216,8 @@
                 "label": "Player\n\n\"We should not be blinded by hatred of foes. Our true purpose will be real reform for the future of this nation.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -260,8 +227,8 @@
                 "label": "Lucian Galade\n\n\"The reform committee has presented two options. It's either we take more power to ourselves to beat the Old Guard or we opt for a true reformist agenda to democratise Sordland.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +238,8 @@
                 "label": "Petr Vectern\n\n\"Very well if that is your decision. We will need to engage further with the progressive wing.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -282,8 +249,8 @@
                 "label": "BaseGame.Reform_Autocrat_Intention = false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -293,8 +260,8 @@
                 "label": "Petr Vectern\n\n\"I will fully support you, Anton.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -304,8 +271,8 @@
                 "label": "GameCondition.Turn03_LateBrief_ReformistBranch = true; BaseGameSupport.Journal_Turn03_LateReform_Reformist = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +282,8 @@
                 "label": "GameCondition.Turn03_LateBrief_DictatorBranch = true; BaseGameSupport.Journal_Turn03_LateReform_Dictator = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -326,8 +293,8 @@
                 "label": "GameCondition.Turn03_LateBrief_ReformistBranch == false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -337,8 +304,8 @@
                 "label": "!(GameCondition.Turn03_LateBrief_ReformistBranch == false)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,8 +315,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         }
     ],
@@ -382,24 +349,6 @@
             "id": "e9_to_24",
             "source": "node_9",
             "target": "node_24",
-            "type": "step"
-        },
-        {
-            "id": "e9_to_25",
-            "source": "node_9",
-            "target": "node_25",
-            "type": "step"
-        },
-        {
-            "id": "e9_to_26",
-            "source": "node_9",
-            "target": "node_26",
-            "type": "step"
-        },
-        {
-            "id": "e9_to_27",
-            "source": "node_9",
-            "target": "node_27",
             "type": "step"
         },
         {

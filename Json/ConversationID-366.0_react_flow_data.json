@@ -7,8 +7,8 @@
                 "label": "Jorga Azmal\n\n\"Tell me. What has Saltana done to deserve my goodwill?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Player_Romus\n\n\"This isn't about 'goodwill'. It's about a murderous incursion of Derdian insurgents.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Jorga Azmal\n\n\"As St. Wruhec has said, 'Generosity is the heart's river, but let its waters flow with discernment'.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Jorga Azmal\n\n\"I will meet with you and Saltana. That is all I can promise.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Player_Romus\n\n\"Silence, both of you. I did not come here to trade aphorisms.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Jorga Azmal\n\n\"We will talk to Saltana. I will respect her borders if she respects my pilgrims' rights.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Jorga Azmal\n\n\"In that case...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Player_Romus\n\n\"A pipeline is out of the question. Isn't there anything else you want?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Player_Romus\n\n\"I hope you are ready to compromise. Derdians are not automatically entitled to enter Morella, after all.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Narrator\n\nHe sat back on his cushion, looking defiant."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -117,19 +117,8 @@
                 "label": "RiziaDLC.Turn07_Diplomacy_Derdia_EnableSaltanaMeeting = true; RiziaDLCSupport.Journal_Turn07_Derdia_MorellaDispute = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Turn07_Diplomacy_Derdia_EnableSaltanaMeeting = true; RiziaDLCSupport.Journal_Turn07_Derdia_MorellaDispute = true;\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +128,8 @@
                 "label": "!(RiziaDLC.Policy_Economy_MorellaPipeline_Project == false)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +139,8 @@
                 "label": "Player_Romus\n\n\"Respectfully, Supreme Wiseman, we barely have enough energy to sell to Morella, let alone Derdia.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,8 +150,8 @@
                 "label": "Player_Romus\n\n\"I can't do that. Too much could go wrong.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +161,8 @@
                 "label": "Player_Romus\n\n\"He wrote a lot, didn't he?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +172,8 @@
                 "label": "!(RiziaDLC.Resources_Budget > 0)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +183,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -264,12 +253,6 @@
             "id": "e70_to_18",
             "source": "node_70",
             "target": "node_18",
-            "type": "step"
-        },
-        {
-            "id": "e70_to_35",
-            "source": "node_70",
-            "target": "node_35",
             "type": "step"
         },
         {

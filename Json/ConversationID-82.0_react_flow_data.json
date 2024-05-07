@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nThe final preparations for Sordland's new Constitution were nearly complete. Soon, it would be presented in the Grand National Assembly; after that, it would be up to the Supreme Court to approve the changes. Including the ones that diminished the Justices' own power.\n\nPlaySceneMusic(Master); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "BaseGame.Reform_Law_Judges_Impeachment_President == true && BaseGame.Reform_Law_Impeachment_Removed == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Narrator\n\nThe final preparations for Sordland's new Constitution were nearly complete. Soon, it would be presented in the Grand National Assembly; a huge step for our administration. Then it would be on to the Supreme Court.\n\nPlaySceneMusic(Master); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Kesaro Kibener\n\n\"I hope you don't mind the slight delay. I was stopped by the police on my way here. I seem to be subject to more and more such 'random' checks these days.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Kesaro Kibener\n\n\"Some key figures in my party are also reporting obstructions from the state. It seems that your reforms aren't sitting well with certain members of the Old Guard.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Player\n\n\"You didn't even ask me if you could smoke in my office.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "!(BaseGame.Wehlen_JointOperation == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Kesaro Kibener\n\n\"Now, Rumburg will have a harder time trying to influence us from within. Let's not forget their caches of KA-74s in our country. You've done the right thing.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Kesaro Kibener\n\n\"That's right. They don't even know whom they are dealing with.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Kesaro Kibener\n\n\"Wehlen continues to be plagued by the BFF. They use their secret bases in the mountains to launch infiltrations into Sordland.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Player\n\n\"Thanks for the compliment.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "Player\n\n\"Wehlen could be a valuable ally in the future, now that we have established a closer relationship.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "Player\n\n\"Wehlen can take care of their own problems, and we will take care of ours.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -161,8 +161,8 @@
                 "label": "!(BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == false)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +172,8 @@
                 "label": "!(BaseGame.Turn03_EnT_Military_Budget_Increase == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,19 +183,8 @@
                 "label": "BaseGame.Bill_Turn05_ReligiousHarmony_Signed == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Bill_Turn05_ReligiousHarmony_Signed == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -205,8 +194,8 @@
                 "label": "!(BaseGame.Bill_Turn05_ReligiousHarmony_Signed == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +205,8 @@
                 "label": "Kesaro Kibener\n\n\"If anything, we are not restrictive enough. But I will not dive into this further.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +216,8 @@
                 "label": "Kesaro Kibener\n\n\"In this case, doing nothing is far worse. The BFF is actively using priests in majority-Bludish areas. But let's not get off track.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +227,8 @@
                 "label": "Player\n\n\"The bill was practically a recruitment flyer for the BFF. The more of these we pass, the more followers they get.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +238,8 @@
                 "label": "Player\n\n\"It was too restrictive on the Bludish people. I couldn't let it pass.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -260,8 +249,8 @@
                 "label": "Player\n\n\"We need to find a way where we can coexist without violence.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +260,8 @@
                 "label": "Player\n\n\"It was a well-written and strong bill. It would have been wrong to veto it.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +271,8 @@
                 "label": "Kesaro Kibener\n\n\"Our party and many members of parliament worked extremely hard on the proposal.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -293,8 +282,8 @@
                 "label": "Kesaro Kibener\n\n\"Look. I went over your proposed constitutional changes...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -304,8 +293,8 @@
                 "label": "!(BaseGame.Reform_Law_Threshold_15 == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +304,8 @@
                 "label": "!(BaseGame.Reform_Law_Threshold_3 == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +315,8 @@
                 "label": "!(BaseGame.Reform_Law_Threshold_8 == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +326,8 @@
                 "label": "Player\n\n\"To find a middle ground. Scratch my back and I will scratch yours.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,8 +337,8 @@
                 "label": "Player\n\n\"Just to have a chat.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -359,8 +348,8 @@
                 "label": "Kesaro Kibener\n\n\"If you want me to even consider supporting you, you will change the draft and you will change it now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +359,8 @@
                 "label": "Player\n\n\"What do you have in mind?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -381,8 +370,8 @@
                 "label": "Kesaro Kibener\n\n\"Good luck, Mr. President. You're bound to need it.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -392,8 +381,8 @@
                 "label": "Player\n\n\"Very well. You will get what you want. The election threshold will remain the same.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -403,8 +392,8 @@
                 "label": "Kesaro Kibener\n\n\"Anything other than that, and you can kiss our support goodbye. In fact, the NFP will fight very hard to prevent this bill from passing.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -414,19 +403,8 @@
                 "label": "Player\n\n\"Then try your best to fight the bill, Kesaro. You won't get far.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Then try your best to fight the bill, Kesaro. You won't get far.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +414,8 @@
                 "label": "Kesaro Kibener\n\n\"We are done here.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -447,8 +425,8 @@
                 "label": "Kesaro Kibener\n\n\"An election threshold decrease to 3%? Exactly whom do you think you're dealing with here?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -458,8 +436,8 @@
                 "label": "Narrator\n\nKesaro stood up and looked down at me."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -469,8 +447,8 @@
                 "label": "Player\n\n\"Just to have a chat.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -480,8 +458,8 @@
                 "label": "Player\n\n\"To find a middle ground. Scratch my back and I will scratch yours.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -491,19 +469,8 @@
                 "label": "Kesaro Kibener\n\n\"Very good. Now we are getting somewhere.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "customNode",
-            "data": {
-                "label": "Kesaro Kibener\n\n\"Very good. Now we are getting somewhere.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +480,8 @@
                 "label": "Player\n\n\"I can go up to 8% and that is my final offer. Take it or get out of my office.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -524,8 +491,8 @@
                 "label": "Kesaro Kibener\n\n\"An election threshold decrease to 8%? Exactly whom do you think you're dealing with here?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -535,8 +502,8 @@
                 "label": "Kesaro Kibener\n\n\"Then let's have a chat.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -546,8 +513,8 @@
                 "label": "Kesaro Kibener\n\n\"I've heard that enough in my life to know that it doesn't work that way.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -557,8 +524,8 @@
                 "label": "Kesaro Kibener\n\n\"I've heard that enough in my life to know that it doesn't work that way.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -568,8 +535,8 @@
                 "label": "Kesaro Kibener\n\n\"From the looks of it, you want to do a lot more good for yourself.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -579,8 +546,8 @@
                 "label": "Kesaro Kibener\n\n\"Then let's have a chat.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -590,8 +557,8 @@
                 "label": "Kesaro Kibener\n\n\"But fine. It's only 2%.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -601,8 +568,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Threshold_10 = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -612,8 +579,8 @@
                 "label": "Kesaro Kibener\n\n\"I am not that worried about the rest of the contents in the constitutional changes in principle.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -623,8 +590,8 @@
                 "label": "Player\n\n\"Would a loaded check in your name change your mind perhaps? [BRIBE]\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -634,30 +601,8 @@
                 "label": "BaseGame.PersonalWealth > 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.PersonalWealth > 0\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.PersonalWealth > 0\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -667,8 +612,8 @@
                 "label": "!(BaseGame.PersonalWealth > 0)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -678,19 +623,8 @@
                 "label": "Kesaro Kibener\n\n\"I don't see many problems with the draft, honestly.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_175",
-            "type": "customNode",
-            "data": {
-                "label": "Kesaro Kibener\n\n\"I don't see many problems with the draft, honestly.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +634,8 @@
                 "label": "Kesaro Kibener\n\n\"As I mentioned, there are more pressing situations in Sordland right now. The BFF isn't even the half of it.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -711,8 +645,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Threshold_8 = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -722,8 +656,8 @@
                 "label": "Kesaro Kibener\n\n\"Your outrageous decision to ban the Young Sords, for example.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -733,8 +667,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Threshold_10 = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -744,8 +678,8 @@
                 "label": "Kesaro Kibener\n\n\"But let me put it simply. If you want my help, you will reverse the ban on the Young Sords immediately. Otherwise, we are done.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -755,30 +689,8 @@
                 "label": "BaseGame.Decision_Turn03_StabilityOrder_BanBoth == true\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_186",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn03_StabilityOrder_BanBoth == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_186",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn03_StabilityOrder_BanBoth == true\n\nnan"
-            },
-            "position": {
-                "x": 540.0,
-                "y": 750.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -788,8 +700,8 @@
                 "label": "Kesaro Kibener\n\n\"I don't know who put it in your mind that this would resolve the political violence. You ought to pick your advisors more carefully.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -799,8 +711,8 @@
                 "label": "Kesaro Kibener\n\n\"There's the matter of the communists. Those damn rats are everywhere I look, trying to sneak into Sordish society from the crevices.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -810,8 +722,8 @@
                 "label": "Kesaro Kibener\n\n\"In the face of the political violence engulfing this country, your refusal to take action speaks multitudes.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -821,8 +733,8 @@
                 "label": "Kesaro Kibener\n\n\"The damn communist rats are everywhere I look, trying to sneak into Sordish society from the crevices.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -832,30 +744,8 @@
                 "label": "Player\n\n\"Absolutely not. I made that decision for a reason. I can't risk violence on the streets again.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_205",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Absolutely not. I made that decision for a reason. I can't risk violence on the streets again.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_205",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Absolutely not. I made that decision for a reason. I can't risk violence on the streets again.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +755,8 @@
                 "label": "Player\n\n\"If that is what it takes, then consider the Young Sords un-banned.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -876,8 +766,8 @@
                 "label": "Player\n\n\"Please, be reasonable. Is there anything else I can offer you? What else do you want?\n\n\"Please, be reasonable. Is there anything else I can offer you? What else do you want?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -887,8 +777,8 @@
                 "label": "Kesaro Kibener\n\n\"But I assure you, the rest of the Assembly will be worried. Very worried.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 540,
+                "y": 750
             }
         },
         {
@@ -898,8 +788,8 @@
                 "label": "BaseGame.Prologue_University_Political_Nationalist == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -909,8 +799,8 @@
                 "label": "Kesaro Kibener\n\n\"What I am most surprised about is how an ex-Young Sords member can make a decision like this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -920,8 +810,8 @@
                 "label": "Player\n\n\"He has gotten wiser.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -931,8 +821,8 @@
                 "label": "Player\n\n\"I see the truth now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -942,8 +832,8 @@
                 "label": "Kesaro Kibener\n\n\"Where is the man who once stood with us?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -953,8 +843,8 @@
                 "label": "Kesaro Kibener\n\n\"So you decided to actively undermine your own nation in favor of Malenyevism and other dangerous foreign exports.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -964,8 +854,8 @@
                 "label": "Player\n\n\"Careful, Kesaro. Watch your words.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -975,8 +865,8 @@
                 "label": "Player\n\n\"I am not the man I once was. I know better now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -986,8 +876,8 @@
                 "label": "Player\n\n\"We are not here to talk about our personal beliefs.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -997,8 +887,8 @@
                 "label": "Narrator\n\nKesaro clenched his fist."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1008,8 +898,8 @@
                 "label": "Kesaro Kibener\n\n\"We will continue this conversation later.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1019,8 +909,8 @@
                 "label": "Player\n\n\"We are not here to talk about our personal beliefs.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1030,8 +920,8 @@
                 "label": "BaseGame.Prologue_University_Political_Nationalist == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -1041,8 +931,8 @@
                 "label": "Kesaro Kibener\n\n\"You would sell out your own movement for your own good, wouldn't you?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1052,19 +942,8 @@
                 "label": "Kesaro Kibener\n\n\"But it's no wonder a decision like this came from an ex-Red Youth member. You are all the same.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_238",
-            "type": "customNode",
-            "data": {
-                "label": "Kesaro Kibener\n\n\"But it's no wonder a decision like this came from an ex-Red Youth member. You are all the same.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1074,8 +953,8 @@
                 "label": "Player\n\n\"Careful, Kesaro. Watch your words.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1085,8 +964,8 @@
                 "label": "Kesaro Kibener\n\n\"What I am most surprised about is how an ex-Young Sords member can make a decision like this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1096,8 +975,8 @@
                 "label": "Player\n\n\"I see the truth now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1107,8 +986,8 @@
                 "label": "Narrator\n\nKesaro clenched his fist."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1118,8 +997,8 @@
                 "label": "Player\n\n\"His beliefs have not changed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1129,8 +1008,8 @@
                 "label": "Player\n\n\"I am not the man I once was. I know better now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1140,8 +1019,8 @@
                 "label": "Kesaro Kibener\n\n\"We will continue this conversation later.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1151,8 +1030,8 @@
                 "label": "Player\n\n\"I am not the man I once was. I know better now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1162,8 +1041,8 @@
                 "label": "Player\n\n\"We are not here to talk about our personal beliefs.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1173,8 +1052,8 @@
                 "label": "BaseGame.Prologue_University_Political_Nationalist == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -1184,8 +1063,8 @@
                 "label": "!(BaseGame.Prologue_University_Political_Nationalist == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1195,8 +1074,8 @@
                 "label": "!(BaseGame.Prologue_University_Political_Socialist == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1206,19 +1085,8 @@
                 "label": "Kesaro Kibener\n\n\"The decision was quite a pleasant surprise for me, really. Knowing you used to support the reds.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_258",
-            "type": "customNode",
-            "data": {
-                "label": "Kesaro Kibener\n\n\"The decision was quite a pleasant surprise for me, really. Knowing you used to support the reds.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1228,8 +1096,8 @@
                 "label": "Player\n\n\"Careful, Kesaro. Watch your words.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1239,8 +1107,8 @@
                 "label": "Kesaro Kibener\n\n\"It is no surprise, really. This sort of proactive move is exactly what I'd expect from a fellow former Young Sord.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1250,8 +1118,8 @@
                 "label": "Player\n\n\"Thank you, Kesaro.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1261,8 +1129,8 @@
                 "label": "Kesaro Kibener\n\n\"But we will continue this conversation later.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1272,8 +1140,8 @@
                 "label": "Kesaro Kibener\n\n\"I don't know who put it in your mind that this would resolve the political violence, but you sure ought to pick your advisors more carefully.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1283,8 +1151,8 @@
                 "label": "Kesaro Kibener\n\n\"But I must give you credit. You have done well to curb the violence by banning the Red Youth.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1294,8 +1162,8 @@
                 "label": "Kesaro Kibener\n\n\"We will continue this conversation later.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1305,8 +1173,8 @@
                 "label": "Player\n\n\"We are not here to talk about our personal beliefs.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1316,8 +1184,8 @@
                 "label": "BaseGame.Prologue_University_Political_Nationalist == true\n\nnan"
             },
             "position": {
-                "x": 540.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1327,8 +1195,8 @@
                 "label": "!(BaseGame.Prologue_University_Political_Nationalist == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1338,8 +1206,8 @@
                 "label": "Kesaro Kibener\n\n\"But it's no wonder a former Red Youth member would falter like this. You are all the same.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1349,8 +1217,8 @@
                 "label": "Player\n\n\"Careful, Kesaro. Watch your words.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1360,8 +1228,8 @@
                 "label": "Kesaro Kibener\n\n\"What I am most surprised about is how an ex-Young Sords member can simply sit by like this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1371,8 +1239,8 @@
                 "label": "Player\n\n\"He has gotten wiser.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1382,8 +1250,8 @@
                 "label": "Player\n\n\"His beliefs have not changed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1393,8 +1261,8 @@
                 "label": "Player\n\n\"I am not the man I once was. I know better now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1404,8 +1272,8 @@
                 "label": "Narrator\n\nKesaro clenched his fist."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1415,8 +1283,8 @@
                 "label": "Kesaro Kibener\n\n\"I don't know who put it in your mind that doing nothing would resolve the violence, but you sure ought to pick your advisors more carefully.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1426,8 +1294,8 @@
                 "label": "Kesaro Kibener\n\n\"I told you, Mr. President. This is the least you can offer. If you can't do it, forget about my support.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1437,8 +1305,8 @@
                 "label": "Kesaro Kibener\n\n\"Then there's no point in continuing this conversation, is there?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 540,
+                "y": 1000
             }
         },
         {
@@ -1448,8 +1316,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_RevertBan_YS = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 1250
             }
         },
         {
@@ -1459,8 +1327,8 @@
                 "label": "KesaroLeaves\n\nKesaroLeaves"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1470,8 +1338,8 @@
                 "label": "Jump to: [KesaroLeaves]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1481,8 +1349,8 @@
                 "label": "Jump to: [KesaroLeaves]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1492,8 +1360,8 @@
                 "label": "Player\n\n\"I'm offering an alliance between the USP and NFP. You will not be affected by the threshold.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1503,8 +1371,8 @@
                 "label": "Kesaro Kibener\n\n\"That's what I like to hear. Now...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1514,8 +1382,8 @@
                 "label": "Kesaro Kibener\n\n\"You're welcome.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -1525,8 +1393,8 @@
                 "label": "Kesaro Kibener\n\n\"Good to see that the fire still burns inside you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1536,8 +1404,8 @@
                 "label": "Kesaro Kibener\n\n\"That's exactly what the Young Sords was founded for.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1547,8 +1415,8 @@
                 "label": "Kesaro Kibener\n\n\"I mean no offense, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1558,8 +1426,8 @@
                 "label": "Kesaro Kibener\n\n\"Good. We all must continue learning.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1569,8 +1437,8 @@
                 "label": "Kesaro Kibener\n\n\"I hope you don't mean that politics is separate from personal beliefs.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1580,8 +1448,8 @@
                 "label": "Kesaro Kibener\n\n\"There's the matter of the communists. Those damn rats are everywhere I look, trying to sneak into Sordish society from the crevices.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1591,19 +1459,8 @@
                 "label": "BaseGame.Decision_Turn03_StabilityOrder_BanYoungSords == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_315",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn03_StabilityOrder_BanYoungSords == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1613,8 +1470,8 @@
                 "label": "!(BaseGame.Decision_Turn03_StabilityOrder_BanYoungSords == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1624,8 +1481,8 @@
                 "label": "Kesaro Kibener\n\n\"While you're in such an agreeable mood, I do have another suggestion...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1635,8 +1492,8 @@
                 "label": "Kesaro Kibener\n\n\"If you can't do either one, say goodbye to your reform package.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1646,8 +1503,8 @@
                 "label": "Player\n\n\"I've heard enough. You can't make such demands of the President of Sordland!\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1657,8 +1514,8 @@
                 "label": "Kesaro Kibener\n\n\"I knew we could find some common ground.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1668,8 +1525,8 @@
                 "label": "Player\n\n\"Message received. If that's what it takes, I will ban the Red Youth.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -1679,8 +1536,8 @@
                 "label": "Kesaro Kibener\n\n\"You will either sign my bill or ban the Red Youth.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1690,8 +1547,8 @@
                 "label": "Kesaro Kibener\n\n\"See, that wasn't so hard, was it?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1701,8 +1558,8 @@
                 "label": "Kesaro Kibener\n\n\"It makes sense, doesn't it?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -1712,8 +1569,8 @@
                 "label": "Player\n\n\"I will sign the bill and also ban the Red Youth. You will help me in return.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1723,8 +1580,8 @@
                 "label": "Kesaro Kibener\n\n\"Maybe we can... come to an agreement, then.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1734,8 +1591,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Ban_RY = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1745,8 +1602,8 @@
                 "label": "Kesaro Kibener\n\n\"I was in Bergia some time ago, and I visited one of their village schools.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1756,8 +1613,8 @@
                 "label": "Player\n\n\"I will ban the Red Youth in return for your support.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1767,8 +1624,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Bill = true; BaseGameIsolated.Turn06_A_Kesaro_Ban_RY = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1778,8 +1635,8 @@
                 "label": "Kesaro Kibener\n\n\"I want to be clear.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1789,8 +1646,8 @@
                 "label": "Kesaro Kibener\n\n\"Excellent.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1800,8 +1657,8 @@
                 "label": "Kesaro Kibener\n\n\"Then there is no use in continuing this conversation, is there?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1811,8 +1668,8 @@
                 "label": "Player\n\n\"If they live in Sordland, they need to know how to speak in Sordish.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1822,8 +1679,8 @@
                 "label": "Player\n\n\"You will get your signature. I will sign the bill when I receive it.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1833,8 +1690,8 @@
                 "label": "Kesaro Kibener\n\n\"Before I go, I guarantee you this. That bill will not pass the Assembly. I will make sure of it.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1844,8 +1701,8 @@
                 "label": "Kesaro Kibener\n\n\"This bill, I call it the Unified Education Language Act, will enforce our language as the only one accepted in educational institutions.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1855,8 +1712,8 @@
                 "label": "Player\n\n\"I will decide when I see the bill. Not before.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1866,8 +1723,8 @@
                 "label": "Jump to: [KesaroLeaves]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1877,8 +1734,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Ban_RY == true || (BaseGame.Decision_Turn03_StabilityOrder_BanBoth == true && BaseGameIsolated.Turn06_A_Kesaro_RevertBan_YS == true) || BaseGame.Decision_Turn03_StabilityOrder_BanRedYouth == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1888,8 +1745,8 @@
                 "label": "Kesaro Kibener\n\n\"Will you do the right thing for Sordland? What do you think?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1899,8 +1756,8 @@
                 "label": "Kesaro Kibener\n\n\"But regardless, I think we have achieved much today.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1910,8 +1767,8 @@
                 "label": "Kesaro Kibener\n\n\"Here is what I had in mind.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1921,8 +1778,8 @@
                 "label": "Kesaro Kibener\n\n\"Very well. The NFP and I will support you in your reform package.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -1932,8 +1789,8 @@
                 "label": "!(BaseGameIsolated.Turn06_A_Kesaro_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1943,19 +1800,8 @@
                 "label": "Player\n\n\"We will do great things together.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_381",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"We will do great things together.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1965,8 +1811,8 @@
                 "label": "Player\n\n\"Thank you for coming, Kesaro.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1976,8 +1822,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1987,8 +1833,8 @@
                 "label": "!(BaseGameIsolated.Turn06_A_Kesaro_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1998,8 +1844,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Bill == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2009,8 +1855,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_RevertBan_YS == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2020,8 +1866,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Threshold_10 == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2031,8 +1877,8 @@
                 "label": "!(BaseGameIsolated.Turn06_A_Kesaro_Threshold_10 == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2042,8 +1888,8 @@
                 "label": "BaseGame.Reform_Law_Threshold_15 = false; BaseGame.Reform_Law_Threshold_3 = false; BaseGame.Reform_Law_Threshold_8 = true; BaseGame.Reform_Law_Threshold_Default = false;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2053,8 +1899,8 @@
                 "label": "BaseGame.Reform_Law_Threshold_15 = false; BaseGame.Reform_Law_Threshold_3 = false; BaseGame.Reform_Law_Threshold_8 = false; BaseGame.Reform_Law_Threshold_Default = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2064,8 +1910,8 @@
                 "label": "BaseGameIsolated.Turn06_A_Kesaro_Ban_RY == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2075,8 +1921,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_RY = true; BaseGame.Policy_Law_Ban_RedYouth = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2086,8 +1932,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_Kesaro_Alliance = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2097,8 +1943,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_Kesaro_Bill = true;\\n\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2108,8 +1954,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_Kesaro_RevertYS = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2119,8 +1965,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_Kesaro_BanRY = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2130,8 +1976,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_Kesaro_Threshold8 = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2141,8 +1987,8 @@
                 "label": "Narrator\n\nHe grinned."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2152,8 +1998,8 @@
                 "label": "Kesaro Kibener\n\n\"I think they have.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2163,8 +2009,8 @@
                 "label": "Kesaro Kibener\n\n\"Give me a break.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2174,8 +2020,8 @@
                 "label": "Kesaro Kibener\n\n\"Oh, give me a break.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2185,8 +2031,8 @@
                 "label": "Kesaro Kibener\n\n\"Oh, give me a break.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2196,8 +2042,8 @@
                 "label": "Kesaro Kibener\n\n\"I think they have.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2207,8 +2053,8 @@
                 "label": "Kesaro Kibener\n\n\"Give me a break.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2218,8 +2064,8 @@
                 "label": "Kesaro Kibener\n\n\"Oh, give me a break.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2229,8 +2075,8 @@
                 "label": "Kesaro Kibener\n\n\"I think they have.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2240,8 +2086,8 @@
                 "label": "Kesaro Kibener\n\n\"Give me a break.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2251,8 +2097,8 @@
                 "label": "BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2262,8 +2108,8 @@
                 "label": "Kesaro Kibener\n\n\"I also wanted to talk about the aid you received from United Contana.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2273,8 +2119,8 @@
                 "label": "Kesaro Kibener\n\n\"I fought for my country many times, and I have the scars to prove it. Can you say the same?\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2284,8 +2130,8 @@
                 "label": "BaseGameSupport.News_Turn06_LT_NFPNotConvinced = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2295,8 +2141,8 @@
                 "label": "!(BaseGame.Reform_Autocrat_Path == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2306,8 +2152,8 @@
                 "label": "BaseGame.Relations_Kesaro_Promise_Alliance = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2317,8 +2163,8 @@
                 "label": "Kesaro Kibener\n\n\"In the end, it's only a 2% difference.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2328,8 +2174,8 @@
                 "label": "EnableCollectionItem(\"CollectionItem_KesaroLighter\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2339,8 +2185,8 @@
                 "label": "BaseGameSupport.News_Turn06_ST_VictoryDay = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2350,8 +2196,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2361,8 +2207,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         }
     ],
@@ -2467,12 +2313,6 @@
             "id": "e74_to_86",
             "source": "node_74",
             "target": "node_86",
-            "type": "step"
-        },
-        {
-            "id": "e74_to_88",
-            "source": "node_74",
-            "target": "node_88",
             "type": "step"
         },
         {
@@ -2596,12 +2436,6 @@
             "type": "step"
         },
         {
-            "id": "e117_to_116",
-            "source": "node_117",
-            "target": "node_116",
-            "type": "step"
-        },
-        {
             "id": "e119_to_128",
             "source": "node_119",
             "target": "node_128",
@@ -2635,12 +2469,6 @@
             "id": "e137_to_118",
             "source": "node_137",
             "target": "node_118",
-            "type": "step"
-        },
-        {
-            "id": "e137_to_166",
-            "source": "node_137",
-            "target": "node_166",
             "type": "step"
         },
         {
@@ -2716,18 +2544,6 @@
             "type": "step"
         },
         {
-            "id": "e165_to_139",
-            "source": "node_165",
-            "target": "node_139",
-            "type": "step"
-        },
-        {
-            "id": "e165_to_140",
-            "source": "node_165",
-            "target": "node_140",
-            "type": "step"
-        },
-        {
             "id": "e167_to_162",
             "source": "node_167",
             "target": "node_162",
@@ -2737,12 +2553,6 @@
             "id": "e175_to_118",
             "source": "node_175",
             "target": "node_118",
-            "type": "step"
-        },
-        {
-            "id": "e175_to_116",
-            "source": "node_175",
-            "target": "node_116",
             "type": "step"
         },
         {
@@ -2782,18 +2592,6 @@
             "type": "step"
         },
         {
-            "id": "e186_to_206",
-            "source": "node_186",
-            "target": "node_206",
-            "type": "step"
-        },
-        {
-            "id": "e186_to_208",
-            "source": "node_186",
-            "target": "node_208",
-            "type": "step"
-        },
-        {
             "id": "e196_to_232",
             "source": "node_196",
             "target": "node_232",
@@ -2821,18 +2619,6 @@
             "id": "e205_to_323",
             "source": "node_205",
             "target": "node_323",
-            "type": "step"
-        },
-        {
-            "id": "e205_to_324",
-            "source": "node_205",
-            "target": "node_324",
-            "type": "step"
-        },
-        {
-            "id": "e205_to_325",
-            "source": "node_205",
-            "target": "node_325",
             "type": "step"
         },
         {
@@ -2944,12 +2730,6 @@
             "type": "step"
         },
         {
-            "id": "e238_to_231",
-            "source": "node_238",
-            "target": "node_231",
-            "type": "step"
-        },
-        {
             "id": "e239_to_238",
             "source": "node_239",
             "target": "node_238",
@@ -3025,12 +2805,6 @@
             "id": "e258_to_250",
             "source": "node_258",
             "target": "node_250",
-            "type": "step"
-        },
-        {
-            "id": "e258_to_251",
-            "source": "node_258",
-            "target": "node_251",
             "type": "step"
         },
         {
@@ -3238,12 +3012,6 @@
             "type": "step"
         },
         {
-            "id": "e315_to_325",
-            "source": "node_315",
-            "target": "node_325",
-            "type": "step"
-        },
-        {
             "id": "e317_to_312",
             "source": "node_317",
             "target": "node_312",
@@ -3427,12 +3195,6 @@
             "id": "e381_to_384",
             "source": "node_381",
             "target": "node_384",
-            "type": "step"
-        },
-        {
-            "id": "e381_to_385",
-            "source": "node_381",
-            "target": "node_385",
             "type": "step"
         },
         {

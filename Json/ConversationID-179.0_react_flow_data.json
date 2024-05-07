@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nI was walking down the corridor towards my office on the way back from lunch.\n\nPlaySceneMusic(Reform); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nRight next to the door, Lileas was waiting. She approached me.\n\nAddConversant(Lileas Graf); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Player\n\n“Can we trust this informant?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Karl Greiser\n\n“We have interrogated him thoroughly and confirmed the information he gave us.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Narrator\n\nShe nodded at Karl. Karl leaned forward and spoke into the microphone."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Karl Greiser\n\n“Mr. President.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Lileas Graf\n\n“There has been an update on the Koronti investigation.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "BaseGame.Turn09_A_MarcelArrested = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "BaseGame.Turn07_Detained_MikailAven == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "!(BaseGame.Turn07_Detained_MikailAven == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "BaseGame.Faction_Oligarchs_KorontiLeader == true && BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "BaseGame.Turn07_Detained_WalterTusk == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "BaseGame.Faction_Oligarchs_KorontiLeader = false; \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,8 +161,8 @@
                 "label": "Narrator\n\nRight next to the door, Lileas and Nia were waiting. They approached me.\n\nAddConversant(Lileas Graf); AddConversant(Nia Morgna); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +172,8 @@
                 "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +183,8 @@
                 "label": "Lileas Graf\n\n“We have interrogated him thoroughly and confirmed the information he gave us.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,19 +194,8 @@
                 "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +205,8 @@
                 "label": "Narrator\n\nNia nodded to Lileas, who leaned forward and spoke into the microphone."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +216,8 @@
                 "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +227,8 @@
                 "label": "Narrator\n\nThey left and I made my way back to my office.\n\nRemoveConversant(Lileas Graf); RemoveConversant(Nia Morgna); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +238,8 @@
                 "label": "BaseGameSupport.Journal_Turn09_KorontiLead_NoLeads = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,8 +249,8 @@
                 "label": "BaseGameSupport.Journal_Turn09_KorontiLead_Arrest = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -271,8 +260,8 @@
                 "label": "BaseGame.Turn05_SnO_LE_Policy_SecretStateService == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -282,8 +271,8 @@
                 "label": "!(BaseGame.Turn05_SnO_LE_Policy_SecretStateService == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +282,8 @@
                 "label": "Player\n\n“In time, I am sure it will.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -304,8 +293,8 @@
                 "label": "Narrator\n\nAs soon as she turned her back to leave, I couldn't help but smirk.\n\nRemoveConversant(Lileas Graf); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -315,8 +304,8 @@
                 "label": "Player\n\n“Everyone is innocent until proven guilty, right?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +315,8 @@
                 "label": "Nia Morgna\n\n“No matter how much we probed into HOS, no matter how many employees we tried to get insider information from, their mouths were completely shut.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +326,8 @@
                 "label": "Nia Morgna\n\n“Anyway. I won't take any more of your time.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -348,8 +337,8 @@
                 "label": "!(BaseGame.Faction_Oligarchs_KorontiLeader == true && BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -359,8 +348,8 @@
                 "label": "Nia Morgna\n\n“Yes. Really.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +359,8 @@
                 "label": "Nia Morgna\n\n“No need to exaggerate. We will find something in the future. I am sure.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +370,8 @@
                 "label": "Nia Morgna\n\n“There are many words that describe HOS and Koronti, and I still believe innocent is not one of them.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -392,8 +381,8 @@
                 "label": "Nia Morgna\n\n“I just wanted to let you know that I will keep my eyes open. I will make sure the truth comes out about HOS.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -403,19 +392,8 @@
                 "label": "Nia Morgna\n\n“Thank you, Mr. President.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_157",
-            "type": "customNode",
-            "data": {
-                "label": "Nia Morgna\n\n“Thank you, Mr. President.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -425,8 +403,8 @@
                 "label": "Nia Morgna\n\n“Never.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -436,8 +414,8 @@
                 "label": "BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true && BaseGame.Turn08_SnO_KorontiInvestigationStopped == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -447,8 +425,8 @@
                 "label": "BaseGame.Turn08_SnO_KorontiInvestigationStopped == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -458,8 +436,8 @@
                 "label": "BaseGame.Faction_Oligarchs_Destroyed = false; BaseGame.Faction_Oligarchs_Enemy = true;\\nBaseGame.Faction_Oligarchs_Content = false;\\nBaseGame.Faction_Oligarchs_Ally = false;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -469,8 +447,8 @@
                 "label": "BaseGameSupport.Codex_Characters_Business_MarcelKoronti = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_ArrestedLegally = true; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Detained = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Fled = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FledAndExtradited = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FoundDeadInPrison = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_KonrathDead = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_LostControlOfHOS = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_NedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCShares = false; \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -480,8 +458,8 @@
                 "label": "BaseGame.Turn07_Detained_WalterTusk == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -491,8 +469,8 @@
                 "label": "BaseGame.Leader_Oligarchs_WalterTusk = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -502,8 +480,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -617,12 +595,6 @@
             "type": "step"
         },
         {
-            "id": "e115_to_22",
-            "source": "node_115",
-            "target": "node_22",
-            "type": "step"
-        },
-        {
             "id": "e118_to_40",
             "source": "node_118",
             "target": "node_40",
@@ -728,12 +700,6 @@
             "id": "e157_to_145",
             "source": "node_157",
             "target": "node_145",
-            "type": "step"
-        },
-        {
-            "id": "e157_to_137",
-            "source": "node_157",
-            "target": "node_137",
             "type": "step"
         },
         {

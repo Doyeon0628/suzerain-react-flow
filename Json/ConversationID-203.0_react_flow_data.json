@@ -7,8 +7,8 @@
                 "label": "!(BaseGame.Ending_ImpeachmentTrial == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nI made a cup of finely ground Sordish coffee along with a slice of buttered toast and sat down in front of the TV to watch the morning news."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Reporter\n\n\"We have confirmation about the certainty of these leaks. This is nothing short of a major scandal that could very well lead to the impeachment of President Rayne.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Reporter\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to select Underhall Construction as the contractor for his first megaproject.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGame.LeakedScandals_Severity > 3\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Narrator\n\nI woke up early in the morning, as usual. I put on my clothes and went downstairs.\n\nSetRichPresenceData(Learning about a massive leak from the administration, Presidential Residence, Holsord);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Narrator\n\nThe phone rang. I picked it up."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Narrator\n\nAs I was expecting, the phone rang. I picked it up.\n\nSetRichPresenceData(Learning about a massive leak from the administration, Presidential Residence, Holsord);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -95,30 +95,8 @@
                 "label": "BaseGame.Decision_Turn08_VPSelection_Albin == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn08_VPSelection_Albin == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn08_VPSelection_Albin == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -128,8 +106,8 @@
                 "label": "!(BaseGame.Decision_Turn08_VPSelection_Lucian == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +117,8 @@
                 "label": "Albin Clavin\n\n“Mr. President. Have you seen the news?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +128,8 @@
                 "label": "Narrator\n\nThe operator said that it was Petr Vectern on the line.\n\nAddConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -161,8 +139,8 @@
                 "label": "Player\n\n“Yes. Along with everyone else in the entire northern hemisphere.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "Lucian Galade\n\n“But, for now, I will let you take it all in.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "Albin Clavin\n\n“Talk to you later.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "Narrator\n\nThe operator said that it was Petr Vectern on the line.\n\nAddConversant(Petr Vectern); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "BaseGame.Decision_Turn08_VPSelection_Albin == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "Narrator\n\nThe operator said that it was Gloria Tory on the line.\n\nAddConversant(Gloria Tory); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "BaseGame.Decision_Turn08_VPSelection_Gloria == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +216,8 @@
                 "label": "Gloria Tory\n\n“I just received word that they started the impeachment process.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -249,8 +227,8 @@
                 "label": "Albin Clavin\n\n“To be frank...”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -260,8 +238,8 @@
                 "label": "BaseGame.Decision_Turn08_VPSelection_Albin == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +249,8 @@
                 "label": "Petr Vectern\n\n“To be frank...”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +260,8 @@
                 "label": "Narrator\n\nHe took a deep breath in."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +271,8 @@
                 "label": "Narrator\n\nHe took a deep breath in."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -304,8 +282,8 @@
                 "label": "Petr Vectern\n\n“I took notes from their report. Here is what it says.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +293,8 @@
                 "label": "Lucian Galade\n\n“I received a report and took notes. Here is what it says.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +304,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne bribed Albin Clavin with a check while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +315,8 @@
                 "label": "!(BaseGame.LeakedScandal_AlbinClavin_Bribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,8 +326,8 @@
                 "label": "BaseGame.LeakedScandal_AlbinClavin_BribeSelectedVP == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -359,8 +337,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_MarcelKoronti== true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +348,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainKesaroKibener == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +359,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne bribed Albin Clavin with the Vice Presidency position while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -392,8 +370,8 @@
                 "label": "BaseGame.LeakedScandal_Franc_StateUniversity == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -403,8 +381,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne abused his powers to send his son, Franc Rayne to Holsord State University.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -414,8 +392,8 @@
                 "label": "!(BaseGame.LeakedScandals_Severity > 1)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -425,8 +403,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne orchestrated the detainment of ex-NFP leader Kesaro Kibener using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +414,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne orchestrated the detainment of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -447,8 +425,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne bribed Frens Ricter with a check while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -458,8 +436,8 @@
                 "label": "!(BaseGame.LeakedScandal_WalterTusk_UnderhallBribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -469,8 +447,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne orchestrated the death of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -480,8 +458,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to cut taxes for large corporations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -491,8 +469,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne was involved in collusion along with Gus Manger. Both of them own shares in Underhall Construction, which was subsequently contracted for a megaproject.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -502,8 +480,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_Both == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +491,8 @@
                 "label": "BaseGame.LeakedScandal_WalterTusk_BailOutBusinesses == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -524,8 +502,8 @@
                 "label": "!(BaseGame.LeakedScandal_WalterTusk_TaxCutLargeCorp == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -535,8 +513,8 @@
                 "label": "BaseGame.LeakedScandal_HeronGaraci_Bribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -546,8 +524,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne bribed Heron Garaci during the constitutional change process.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -557,8 +535,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to bail out businesses.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -568,8 +546,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_WalterTusk == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -579,8 +557,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_WalterTusk == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -590,8 +568,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_RedYouth == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -601,8 +579,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne has been secretly funding the Red Youth behind the scenes.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -612,8 +590,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillFrensRicter == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -623,8 +601,8 @@
                 "label": "BaseGame.LeakedScandal_MarcelKoronti_TipOffInvestigation == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -634,8 +612,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_YoungSords == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -645,8 +623,8 @@
                 "label": "!(BaseGame.LeakedScandal_HiddenFunding_YoungSords == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -656,8 +634,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne orchestrated the death of the ex-Chief Justice of the Supreme Court, Orso Hawker, using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -667,8 +645,8 @@
                 "label": "Albin Clavin\n\n\"As part of the privatization process, President Rayne sold shares in a backroom deal to Marcel Koronti.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -678,8 +656,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne has been in cahoots with the media mogul Marcel Koronti. At Mr. Koronti's country club in Conriat, they struck a deal in which Mr. Koronti agreed to sway the media in favour of the President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -689,8 +667,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillKesaroKibener== true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +678,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillOrsoHawker == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -711,8 +689,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne has bribed Albin Clavin with a cheque while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -722,8 +700,8 @@
                 "label": "BaseGame.LeakedScandal_AlbinClavin_BribeSelectedVP == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -733,8 +711,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainKesaroKibener == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -744,8 +722,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne has bribed Albin Clavin with the Vice Presidency position while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -755,8 +733,8 @@
                 "label": "BaseGame.LeakedScandal_Franc_StateUniversity == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -766,8 +744,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne abused his powers to send his son, Franc Rayne to Holsord State University.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -777,8 +755,8 @@
                 "label": "BaseGame.LeakedScandals_Severity > 1\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -788,8 +766,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne orchestrated the detainment of ex-NFP leader Kesaro Kibener using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -799,8 +777,8 @@
                 "label": "BaseGame.LeakedScandal_FrensRicter_Bribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -810,8 +788,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne orchestrated the detainment of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -821,8 +799,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne has bribed Frens Ricter with a cheque while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -832,8 +810,8 @@
                 "label": "BaseGame.LeakedScandal_FrensRicter_TaurusBribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,8 +821,8 @@
                 "label": "!(BaseGame.LeakedScandal_WalterTusk_UnderhallBribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -854,8 +832,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne orchestrated the death of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +843,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to cut taxes for large corporations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -876,8 +854,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_Both == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -887,8 +865,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_Both == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -898,8 +876,8 @@
                 "label": "BaseGame.LeakedScandal_WalterTusk_BailOutBusinesses == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -909,8 +887,8 @@
                 "label": "BaseGame.LeakedScandal_HeronGaraci_Bribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -920,8 +898,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to bail out businesses.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -931,8 +909,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_WalterTusk == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -942,8 +920,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_WalterTusk == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -953,8 +931,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_RedYouth == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -964,8 +942,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne has been secretly funding the Red Youth behind the scenes.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -975,8 +953,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_KillFrensRicter == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -986,8 +964,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillFrensRicter == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -997,8 +975,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne orchestrated the death of ex-NFP leader Kesaro Kibener using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1008,8 +986,8 @@
                 "label": "BaseGame.LeakedScandal_MarcelKoronti_TipOffInvestigation == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1019,8 +997,8 @@
                 "label": "!(BaseGame.LeakedScandal_MarcelKoronti_TipOffInvestigation == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1030,8 +1008,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_YoungSords == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1041,8 +1019,8 @@
                 "label": "!(BaseGame.LeakedScandal_HiddenFunding_YoungSords == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1052,8 +1030,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne orchestrated the death of the ex-Chief Justice of the Supreme Court, Orso Hawker, using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1063,8 +1041,8 @@
                 "label": "Lucian Galade\n\n\"As part of the privatization process, President Rayne sold shares in a backroom deal to Marcel Koronti.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1074,8 +1052,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne has been in cahoots with the media mogul Marcel Koronti. At Mr. Koronti's country club in Conriat, they struck a deal in which Mr. Koronti agreed to sway the media in favour of the President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1085,8 +1063,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_KillKesaroKibener== true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1096,8 +1074,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillOrsoHawker == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1107,8 +1085,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne has bribed Albin Clavin with a cheque while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1118,8 +1096,8 @@
                 "label": "!(BaseGame.LeakedScandal_AlbinClavin_Bribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1129,8 +1107,8 @@
                 "label": "BaseGame.LeakedScandal_AlbinClavin_BribeSelectedVP == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1140,8 +1118,8 @@
                 "label": "!(BaseGame.LeakedScandal_AlbinClavin_BribeSelectedVP == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1151,8 +1129,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_MarcelKoronti== true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1162,8 +1140,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_MarcelKoronti== true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1173,8 +1151,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainKesaroKibener == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1184,8 +1162,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne has bribed Albin Clavin with the Vice Presidency position while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1195,8 +1173,8 @@
                 "label": "BaseGame.LeakedScandal_Franc_StateUniversity == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1206,8 +1184,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne abused his powers to send his son, Franc Rayne to Holsord State University.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1217,8 +1195,8 @@
                 "label": "!(BaseGame.LeakedScandals_Severity > 1)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1228,8 +1206,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne orchestrated the detainment of ex-NFP leader Kesaro Kibener using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1239,8 +1217,8 @@
                 "label": "BaseGame.LeakedScandal_FrensRicter_Bribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1250,8 +1228,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to select Underhall Construction as the contractor for his first megaproject.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1261,8 +1239,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne orchestrated the detainment of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1272,8 +1250,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne has bribed Frens Ricter with a cheque while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1283,8 +1261,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainFrensRicter == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1294,8 +1272,8 @@
                 "label": "!(BaseGame.LeakedScandal_WalterTusk_UnderhallBribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1305,8 +1283,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne orchestrated the death of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1316,8 +1294,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to cut taxes for large corporations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1327,8 +1305,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne was involved in collusion along with Gus Manger. Both of them own shares in Underhall Construction, which was subsequently contracted for a megaproject.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1338,8 +1316,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_Both == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1349,8 +1327,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_Both == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1360,8 +1338,8 @@
                 "label": "BaseGame.LeakedScandal_WalterTusk_BailOutBusinesses == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1371,8 +1349,8 @@
                 "label": "!(BaseGame.LeakedScandal_WalterTusk_BailOutBusinesses == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1382,8 +1360,8 @@
                 "label": "BaseGame.LeakedScandal_HeronGaraci_Bribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1393,8 +1371,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne bribed Heron Garaci during the constitutional change process.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1404,8 +1382,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to bail out businesses.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1415,8 +1393,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_WalterTusk == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1426,8 +1404,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_WalterTusk == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1437,8 +1415,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_RedYouth == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1448,8 +1426,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne has been secretly funding the Red Youth behind the scenes.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1459,8 +1437,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_KillFrensRicter == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1470,8 +1448,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillFrensRicter == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1481,8 +1459,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne orchestrated the death of ex-NFP leader Kesaro Kibener using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1492,8 +1470,8 @@
                 "label": "BaseGame.LeakedScandal_MarcelKoronti_TipOffInvestigation == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1503,8 +1481,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_YoungSords == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1514,8 +1492,8 @@
                 "label": "!(BaseGame.LeakedScandal_HiddenFunding_YoungSords == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1525,8 +1503,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne orchestrated the death of the ex-Chief Justice of the Supreme Court, Orso Hawker, using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1536,8 +1514,8 @@
                 "label": "Petr Vectern\n\n\"As part of the privatization process, President Rayne sold shares in a backroom deal to Marcel Koronti.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1547,8 +1525,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne has been in cahoots with the media mogul Marcel Koronti. At Mr. Koronti's country club in Conriat, they struck a deal in which Mr. Koronti agreed to sway the media in favour of the President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1558,8 +1536,8 @@
                 "label": "BaseGame.LeakedScandal_MarcelKoronti_MediaDeal == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1569,8 +1547,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_KillKesaroKibener== true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1580,8 +1558,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillKesaroKibener== true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1591,8 +1569,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillOrsoHawker == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1602,8 +1580,8 @@
                 "label": "Gloria Tory\n\n\"The list goes on and on.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1613,8 +1591,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainKesaroKibener == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1624,8 +1602,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainKesaroKibener == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1635,8 +1613,8 @@
                 "label": "Gloria Tory\n\n\"As part of the privatization process, President Rayne sold shares in a backroom deal to Walter Tusk.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1646,8 +1624,8 @@
                 "label": "!(BaseGame.LeakedScandals_Severity > 1)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1657,8 +1635,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne orchestrated the detainment of ex-NFP leader Kesaro Kibener using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1668,8 +1646,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to select Underhall Construction as the contractor for his first megaproject.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1679,8 +1657,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne orchestrated the detainment of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1690,8 +1668,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainFrensRicter == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1701,8 +1679,8 @@
                 "label": "BaseGame.LeakedScandal_WalterTusk_UnderhallBribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1712,8 +1690,8 @@
                 "label": "!(BaseGame.LeakedScandal_WalterTusk_UnderhallBribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1723,8 +1701,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne orchestrated the death of ex-PFJP leader Frens Ricter using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1734,8 +1712,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to cut taxes for large corporations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1745,8 +1723,8 @@
                 "label": "BaseGame.LeakedScandal_WalterTusk_BailOutBusinesses == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1756,8 +1734,8 @@
                 "label": "!(BaseGame.LeakedScandal_WalterTusk_TaxCutLargeCorp == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1767,8 +1745,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne accepted a bribe from Walter Tusk as part of his decision to bail out businesses.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1778,8 +1756,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_WalterTusk == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1789,8 +1767,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_KillFrensRicter == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1800,8 +1778,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillFrensRicter == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1811,8 +1789,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne orchestrated the death of ex-NFP leader Kesaro Kibener using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1822,8 +1800,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne orchestrated the death of the ex-Chief Justice of the Supreme Court, Orso Hawker, using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1833,8 +1811,8 @@
                 "label": "Gloria Tory\n\n\"As part of the privatization process, President Rayne sold shares in a backroom deal to Marcel Koronti.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1844,8 +1822,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_KillKesaroKibener== true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1855,8 +1833,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillKesaroKibener== true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1866,8 +1844,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillOrsoHawker == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1877,8 +1855,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne abused his powers to send his son, Franc Rayne to Holsord State University.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1888,8 +1866,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_RedYouth == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1899,8 +1877,8 @@
                 "label": "!(BaseGame.LeakedScandal_AlbinClavin_Bribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1910,8 +1888,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne has been secretly funding the Red Youth behind the scenes.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1921,8 +1899,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne has bribed Albin Clavin with a cheque while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1932,8 +1910,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_MarcelKoronti== true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1943,8 +1921,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_MarcelKoronti== true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1954,8 +1932,8 @@
                 "label": "BaseGame.LeakedScandal_HeronGaraci_Bribe == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1965,8 +1943,8 @@
                 "label": "BaseGame.LeakedScandal_AlbinClavin_BribeSelectedVP == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1976,8 +1954,8 @@
                 "label": "!(BaseGame.LeakedScandal_AlbinClavin_BribeSelectedVP == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1987,8 +1965,8 @@
                 "label": "BaseGame.LeakedScandal_MarcelKoronti_MediaDeal == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1998,8 +1976,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne has been in cahoots with the media mogul Marcel Koronti. At Mr. Koronti's country club in Conriat, they struck a deal in which Mr. Koronti agreed to sway the media in favour of the President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2009,8 +1987,8 @@
                 "label": "BaseGame.LeakedScandal_HiddenFunding_YoungSords == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2020,8 +1998,8 @@
                 "label": "!(BaseGame.LeakedScandal_HiddenFunding_YoungSords == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2031,8 +2009,8 @@
                 "label": "BaseGame.LeakedScandal_MarcelKoronti_TipOffInvestigation == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2042,8 +2020,8 @@
                 "label": "!(BaseGame.LeakedScandal_MarcelKoronti_TipOffInvestigation == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2053,8 +2031,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne has bribed Albin Clavin with the Vice Presidency position while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2064,8 +2042,8 @@
                 "label": "BaseGame.LeakedScandal_Franc_StateUniversity == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2075,8 +2053,8 @@
                 "label": "!(BaseGame.LeakedScandal_Franc_StateUniversity == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2086,8 +2064,8 @@
                 "label": "!(BaseGame.LeakedScandal_FrensRicter_Bribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2097,8 +2075,8 @@
                 "label": "BaseGame.LeakedScandal_PrivatizationShares_Both == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2108,8 +2086,8 @@
                 "label": "!(BaseGame.LeakedScandal_PrivatizationShares_Both == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2119,8 +2097,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne has bribed Frens Ricter with the promise to pick Taurus Holding as the main contractor for his first infrastructure project in his term. Frens Ricter was a major stakeholder at the time of this bribery.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2130,8 +2108,8 @@
                 "label": "!(BaseGame.LeakedScandal_GusManger_UnderhallCollusion == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2141,8 +2119,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne has bribed Frens Ricter with a cheque while the reform committee was in session.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2152,8 +2130,8 @@
                 "label": "!(BaseGame.LeakedScandal_FrensRicter_TaurusBribe == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2163,8 +2141,8 @@
                 "label": "Albin Clavin\n\n\"They know about our goddamn deal.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2174,8 +2152,8 @@
                 "label": "!(BaseGame.LeakedScandal_AlbinClavin_Bribe == true || BaseGame.LeakedScandal_AlbinClavin_BribeSelectedVP == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2185,8 +2163,8 @@
                 "label": "Gloria Tory\n\n“But, for now, I will let you take it all in.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2196,8 +2174,8 @@
                 "label": "Gloria Tory\n\n“We will defend ourselves and present the best case possible of course, but, it will be hard.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2207,8 +2185,8 @@
                 "label": "Lucian Galade\n\n“We will defend ourselves and present the best case possible of course, but, it will be hard.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2218,8 +2196,8 @@
                 "label": "Gloria Tory\n\n“We need to stay optimistic. We may still have a chance.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2229,8 +2207,8 @@
                 "label": "Petr Vectern\n\n“But, for now, I'll give you a moment.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2240,8 +2218,8 @@
                 "label": "Narrator\n\nThe line dropped dead.\n\nPlaySceneMusic(Reflection); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2251,8 +2229,8 @@
                 "label": "Lucian Galade\n\n“But, for now, I will let you take it all in.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2262,8 +2240,8 @@
                 "label": "Albin Clavin\n\n“But, for now, I will let you take it all in.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2273,8 +2251,8 @@
                 "label": "Petr Vectern\n\n“We need to stay optimistic. We may still have a chance.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2284,8 +2262,8 @@
                 "label": "Gloria Tory\n\n“Talk to you later.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2295,8 +2273,8 @@
                 "label": "Albin Clavin\n\n“Talk to you later.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2306,8 +2284,8 @@
                 "label": "Lucian Galade\n\n“Talk to you later.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2317,8 +2295,8 @@
                 "label": "GameCondition.Turn09_A_LeakedScandal = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2328,8 +2306,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -2339,8 +2317,8 @@
                 "label": "Reporter\n\n\"President Rayne ordered the Secret State Police to kill Livia Suno.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2350,8 +2328,8 @@
                 "label": "Reporter\n\n\"President Rayne ordered the detainment of Vice President Petr Vectern using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2361,8 +2339,8 @@
                 "label": "Reporter\n\n\"President Rayne ordered the assassination of Vice President Petr Vectern using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2372,8 +2350,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainPetrVectern == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2383,8 +2361,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainPetrVectern == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2394,8 +2372,8 @@
                 "label": "Reporter\n\n\"Yes. You heard that right.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2405,8 +2383,8 @@
                 "label": "Reporter\n\n\"Yes. You heard that right.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2416,8 +2394,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne ordered the Secret State Police to detain Livia Suno.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2427,8 +2405,8 @@
                 "label": "Albin Clavin\n\n\"Yes. You heard that right. Ridiculous accusations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2438,8 +2416,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne ordered the Secret State Police to kill Livia Suno.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2449,8 +2427,8 @@
                 "label": "Albin Clavin\n\n\"President Rayne ordered the detainment of Vice President Petr Vectern using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2460,8 +2438,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2471,8 +2449,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2482,8 +2460,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2493,8 +2471,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainPetrVectern == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2504,8 +2482,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainPetrVectern == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2515,8 +2493,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillPetrVectern == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2526,8 +2504,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne ordered the Secret State Police to detain Livia Suno.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2537,8 +2515,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne ordered the Secret State Police to kill Livia Suno.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2548,8 +2526,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne ordered the detainment of Vice President Petr Vectern using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2559,8 +2537,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2570,8 +2548,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2581,8 +2559,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2592,8 +2570,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainPetrVectern == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2603,8 +2581,8 @@
                 "label": "Gloria Tory\n\n\"Yes. You heard that right. Ridiculous accusations.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2614,8 +2592,8 @@
                 "label": "Gloria Tory\n\n\"President Rayne ordered the assassination of Vice President Petr Vectern using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2625,8 +2603,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne ordered the Secret State Police to detain Livia Suno.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2636,8 +2614,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne ordered the Secret State Police to kill Livia Suno.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2647,8 +2625,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne ordered the detainment of Vice President Petr Vectern using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2658,8 +2636,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2669,8 +2647,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2680,8 +2658,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2691,8 +2669,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainPetrVectern == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2702,8 +2680,8 @@
                 "label": "Lucian Galade\n\n\"President Rayne ordered the assassination of Vice President Petr Vectern using the Secret State Police.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2713,8 +2691,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne ordered the Secret State Police to detain Livia Suno -- that can't be true, can it? You told me she quit.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2724,8 +2702,8 @@
                 "label": "Petr Vectern\n\n\"President Rayne ordered the Secret State Police to kill Livia Suno -- that can't be true, can it? You told me she quit.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2735,8 +2713,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2746,8 +2724,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2757,8 +2735,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_KillLiviaSuno == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2768,8 +2746,8 @@
                 "label": "Petr Vectern\n\n\"God damn this shit.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2779,8 +2757,8 @@
                 "label": "Petr Vectern\n\n\"God damn this shit.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2790,8 +2768,8 @@
                 "label": "BaseGame.Policy_Law_AntiCorruptionPolice == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2801,8 +2779,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeEveryone == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2812,19 +2790,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeEveryone == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_708",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeEveryone == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2834,8 +2801,8 @@
                 "label": "!(BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeEveryone == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2845,8 +2812,8 @@
                 "label": "!(BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeMainConspirators == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2856,8 +2823,8 @@
                 "label": "!(BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOligarchs == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2867,8 +2834,8 @@
                 "label": "!(BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOppositionParties_NFP == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2878,8 +2845,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeEveryone = false;\\nBaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeEveryone_Impeached = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2889,8 +2856,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeMainConspirators = false;\\nBaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOldGuard_PurgeMainConspirators_Impeached = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2900,8 +2867,8 @@
                 "label": "BaseGame.Policy_Law_Impeachment_Removed == true\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2911,8 +2878,8 @@
                 "label": "Reporter\n\n\"We have confirmation about the certainty of these leaks. This is nothing short of a major scandal that could cause a massive drop in popularity for President Rayne in the upcoming elections.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2922,8 +2889,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_SSP_Leaked_NoImpeachment = true\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2933,8 +2900,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_DetainPetrVectern == true || \\nBaseGame.LeakedScandal_SecretState_KillLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_KillPetrVectern == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -2944,8 +2911,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_DetainPetrVectern == true || \\nBaseGame.LeakedScandal_SecretState_KillLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_KillPetrVectern == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -2955,8 +2922,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_SSP_Leaked_NoImpeachment_HandledScandal = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -2966,8 +2933,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_Scandals_RayneImpeachment = true;\\nBaseGameSupport.News_Turn09_E_Scandals_PresidentEmbarrassed = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2977,8 +2944,8 @@
                 "label": "BaseGame.Ending_ImpeachmentTrial == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2988,8 +2955,8 @@
                 "label": "!(BaseGame.Ending_ImpeachmentTrial == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2999,8 +2966,8 @@
                 "label": "BaseGameSupport.News_Turn09_LT_Scandals_RayneLies = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -3010,8 +2977,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true || BaseGame.Situation_Law_MediaBias == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3021,8 +2988,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == true || BaseGame.Situation_Law_MediaBias == true )\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3032,8 +2999,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainFrensRicter == true ||\\nBaseGame.LeakedScandal_SecretState_DetainKesaroKibener == true ||\\nBaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_DetainPetrVectern == true || \\nBaseGame.LeakedScandal_SecretState_KillFrensRicter == true ||\\nBaseGame.LeakedScandal_SecretState_KillKesaroKibener == true ||\\nBaseGame.LeakedScandal_SecretState_KillLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_KillPetrVectern == true || \\nBaseGame.LeakedScandal_SecretState_KillOrsoHawker == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3043,8 +3010,8 @@
                 "label": "BaseGame.Ending_ImpeachmentTrial == true\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3054,19 +3021,8 @@
                 "label": "BaseGame.Ending_ImpeachmentTrial == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_746",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Ending_ImpeachmentTrial == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3076,8 +3032,8 @@
                 "label": "!(BaseGame.Ending_ImpeachmentTrial == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3087,8 +3043,8 @@
                 "label": "BaseGameSupport.News_Turn09_ST_Scandals_RayneCorruption = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -3098,8 +3054,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_DetainPetrVectern == true || \\nBaseGame.LeakedScandal_SecretState_KillLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_KillPetrVectern == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3109,8 +3065,8 @@
                 "label": "BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_DetainPetrVectern == true || \\nBaseGame.LeakedScandal_SecretState_KillLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_KillPetrVectern == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3120,8 +3076,8 @@
                 "label": "!(BaseGame.LeakedScandal_SecretState_DetainLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_DetainPetrVectern == true || \\nBaseGame.LeakedScandal_SecretState_KillLiviaSuno == true ||\\nBaseGame.LeakedScandal_SecretState_KillPetrVectern == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -3131,8 +3087,8 @@
                 "label": "// continue\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3142,8 +3098,8 @@
                 "label": "BaseGameSupport.Codex_Organisations_Governmental_SSP_Leaked_Impeachment = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -3153,8 +3109,8 @@
                 "label": "BaseGameIsolated.Turn09_LeakedScandal_HeardReporterNews = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3164,8 +3120,8 @@
                 "label": "BaseGameIsolated.Turn09_LeakedScandal_HeardReporterNews == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3175,8 +3131,8 @@
                 "label": "!(BaseGameIsolated.Turn09_LeakedScandal_HeardReporterNews == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3186,8 +3142,8 @@
                 "label": "PlaySoundEffect(\"PhoneRingPickUp\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3197,8 +3153,8 @@
                 "label": "PlaySoundEffect(\"PhoneRingPickUp\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3208,8 +3164,8 @@
                 "label": "PlayCustomMapMusic(\"Map_Music_Tense\");\\n\\n// Plays a custom map music after conversation is done. This works only once for one conversation\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3219,8 +3175,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -3277,18 +3233,6 @@
             "id": "e120_to_137",
             "source": "node_120",
             "target": "node_137",
-            "type": "step"
-        },
-        {
-            "id": "e120_to_138",
-            "source": "node_120",
-            "target": "node_138",
-            "type": "step"
-        },
-        {
-            "id": "e120_to_139",
-            "source": "node_120",
-            "target": "node_139",
             "type": "step"
         },
         {
@@ -4762,12 +4706,6 @@
             "type": "step"
         },
         {
-            "id": "e708_to_710",
-            "source": "node_708",
-            "target": "node_710",
-            "type": "step"
-        },
-        {
             "id": "e709_to_720",
             "source": "node_709",
             "target": "node_720",
@@ -4891,12 +4829,6 @@
             "id": "e746_to_747",
             "source": "node_746",
             "target": "node_747",
-            "type": "step"
-        },
-        {
-            "id": "e746_to_748",
-            "source": "node_746",
-            "target": "node_748",
             "type": "step"
         },
         {

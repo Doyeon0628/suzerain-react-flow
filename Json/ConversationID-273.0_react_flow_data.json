@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nYou were happy not only to live in a country that aligned with your personal values, but to reconnect with Franc."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nYour new role on the board of Armadine Enterprises fit you like a glove.\\n\\nMonica, meanwhile, was thrilled by the new possibilities and viewpoints the Arcasian women's movement had to offer.\\n\\nIn the face of escalating tensions with United Contana, you...\n\n1960|Arcasia"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Narrator\n\nSome time passed. A series of breakthrough inventions made Armadine one of the wealthiest corporations in Arcasia. \\n\\nYou suddenly had more money than you'd ever been able to enjoy in Sordland. You...\n\n1965|Arcasia\n\nPlaySoundEffect(Celebration); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "!(BaseGame.Relations_Monica_Divorce == false && BaseGame.Relations_Monica_DivorceAfterElection == false)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGame.Relations_Monica_Divorce == false && BaseGame.Relations_Monica_DivorceAfterElection == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Player\n\nYou accepted."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "BaseGame.PersonalWealth > 2\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Player\n\n...a city apartment."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Player\n\n...an opulent hillside villa recently vacated by a disgraced government official."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Narrator\n\nYou lived out the rest of your days in comfort, insulated from the global tensions around you. Your only regret was that you...\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,19 +139,8 @@
                 "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_131",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Epilogue_Election_Forcedout == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -161,8 +150,8 @@
                 "label": "Narrator\n\nYou lived out the rest of your days in wealth and comfort, surrounded by admirers, family and a few close friends.\\n\\nYour only regret was that you...\n\n\n\nUnlockSteamAchievement(Epilogue_ElectionForcedOut); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,19 +161,8 @@
                 "label": "PrologueImage(\"pe_city\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_city\");\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "PrologueImage(\"pe_city\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "PrologueImage(\"pe_congress\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "PrologueImage(\"pe_blue\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "PrologueImage(\"pe_relaxed\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -238,8 +216,8 @@
                 "label": "PrologueImage(\"pe_relaxed\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -249,8 +227,8 @@
                 "label": "PrologueImage(\"\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -260,8 +238,8 @@
                 "label": "PrologueImage(\"\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +249,8 @@
                 "label": "PrologueImage(\"\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -282,8 +260,8 @@
                 "label": "PrologueImage(\"\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +271,8 @@
                 "label": "PrologueImage(\"\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +282,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -389,12 +367,6 @@
             "type": "step"
         },
         {
-            "id": "e131_to_99",
-            "source": "node_131",
-            "target": "node_99",
-            "type": "step"
-        },
-        {
             "id": "e138_to_111",
             "source": "node_138",
             "target": "node_111",
@@ -404,12 +376,6 @@
             "id": "e139_to_110",
             "source": "node_139",
             "target": "node_110",
-            "type": "step"
-        },
-        {
-            "id": "e139_to_111",
-            "source": "node_139",
-            "target": "node_111",
             "type": "step"
         },
         {

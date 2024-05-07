@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Jorga Azmal\n\n\"Mr. Adria claims he will be unjustly persecuted if he returns to Rizia. But if you deem his crime worthy of punishment by your laws, you may have him.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Player_Romus\n\n\"I don't understand. Are you saying my butler was a homosexual?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Jorga Azmal\n\n\"And yet RIzia would have him punished for either.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Jorga Azmal\n\n\"Very well. I'll give the orders when I arrive back at the Garrison.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -62,30 +62,8 @@
                 "label": "RiziaDLC.Diplomacy_Derdia_NegotiatingPower -= 1\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Diplomacy_Derdia_NegotiatingPower -= 1\n\nnan"
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Diplomacy_Derdia_NegotiatingPower -= 1\n\nnan"
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -124,18 +102,6 @@
             "id": "e71_to_37",
             "source": "node_71",
             "target": "node_37",
-            "type": "step"
-        },
-        {
-            "id": "e71_to_40",
-            "source": "node_71",
-            "target": "node_40",
-            "type": "step"
-        },
-        {
-            "id": "e71_to_41",
-            "source": "node_71",
-            "target": "node_41",
             "type": "step"
         }
     ]

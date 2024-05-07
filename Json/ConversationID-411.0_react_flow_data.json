@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Jump to: [Prison Revolution Hub]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "PlaySoundEffect(\"Guillotine\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "PrologueImage(\"pe_guillotine\")\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "RiziaDLC.PersonalValues_FellOffWagon = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Player_Romus\n\nThe second-to-last of his name."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "!(RiziaDLC.Prologue_LovedWife == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,19 +84,8 @@
                 "label": "Player_Romus\n\n...cursed her for giving birth to you."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n...cursed her for giving birth to you."
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -147,12 +136,6 @@
             "id": "e101_to_50",
             "source": "node_101",
             "target": "node_50",
-            "type": "step"
-        },
-        {
-            "id": "e101_to_54",
-            "source": "node_101",
-            "target": "node_54",
             "type": "step"
         }
     ]

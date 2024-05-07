@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "GameCondition.Turn06_InT_Opening = true;\\nBaseGame.Public_Opinion += 2;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Narrator\n\nToday was a great victory for the administration.\n\nUnlockSteamAchievement(Game_Railway); RemoveConversant(Lucian Galade); RemoveConversant(Symon Holl); RemoveConversant(Gus Manger); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Narrator\n\nThe railway officially opened to the public as soon as we arrived and thousands began utilising it."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGameIsolated.Turn06_InT_Show == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Narrator\n\nWe moved towards the line where the first electric train was waiting."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Narrator\n\nA red ribbon was hanging by the door of the train."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Gus Manger\n\n“Sounds fantastic. The President arriving to Lachaven on the driver seat would make the headlines for sure.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Narrator\n\nWe arrived in Holsord for the grand opening ceremony of the L-1 High-speed rail. It was a proud moment for all of us.\n\nSetRichPresenceData(Grand opening ceremony of a new railway, Central Station, Holsord); PlaySceneMusic(Optimism); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Symon Holl\n\n“I don't support anything beyond the opening ceremony. Actions speak for themselves anyway.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Gus Manger\n\n“I see your point. But involving the President further could be beneficial for the administration.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Player_Italic\n\nI entered the cab and took a seat with the assistant beside me. The crowd was trying to catch a glimpse of me sitting as driver of the train.\n\nEnter train."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,30 +139,8 @@
                 "label": "Lucian Galade\n\n“It's been a long time since the last successful infrastructure project. There is good reason to capitalise on the occasion.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“It's been a long time since the last successful infrastructure project. There is good reason to capitalise on the occasion.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“It's been a long time since the last successful infrastructure project. There is good reason to capitalise on the occasion.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "Gus Manger\n\n“I'm honored. It will be great to arrive in Lachaven with the President of Sordland.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "Player\n\n“I want to have Symon in the cab.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "Player\n\n“I agree. There is much to gain.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "Lucian Galade\n\n“Sure. We will be in the other carriages. See you in Lachaven.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "Narrator\n\nGus came to the podium with his relaxed casual posture. He then leaned to the microphone."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "Narrator\n\nAs we began driving the train out of the central station, the media took photos of me and Symon who smiled to the cameras.\n\nRemoveConversant(Lucian Galade); RemoveConversant(Gus Manger); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -238,8 +216,8 @@
                 "label": "BaseGameIsolated.Turn06_InT_Show = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +227,8 @@
                 "label": "Narrator\n\nAs we began driving the train out of the central station, the media took photos of me driving by myself with the locomotive assistant next to me.\n\nRemoveConversant(Lucian Galade); RemoveConversant(Symon Holl); RemoveConversant(Gus Manger); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -260,8 +238,8 @@
                 "label": "Lucian Galade\n\n“Very well.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -271,8 +249,8 @@
                 "label": "Player\n\n“I took time off from my duties to personally manage the project to success.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +260,8 @@
                 "label": "Player_Italic\n\nI moved up to the stage to address the crowd. The press was taking dozens of pictures.\n\nMove up to the stage."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,30 +271,8 @@
                 "label": "Narrator\n\nLucian's voice echoed in the central station. Thousands of Sordland and USP flags began to wave as the loud cheers intensified."
             },
             "position": {
-                "x": 0.0,
-                "y": 2000.0
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nLucian's voice echoed in the central station. Thousands of Sordland and USP flags began to wave as the loud cheers intensified."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nLucian's voice echoed in the central station. Thousands of Sordland and USP flags began to wave as the loud cheers intensified."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -326,8 +282,8 @@
                 "label": "Gus Manger\n\n“This railway project is a perfect example of how we can bring prosperity to the under-developed areas in between our major cities.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -337,8 +293,8 @@
                 "label": "Player\n\n“See you at the ceremony.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 2000
             }
         },
         {
@@ -348,8 +304,8 @@
                 "label": "Symon Holl\n\n“The people will be satisfied with the improved transportation service anyway.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -359,30 +315,8 @@
                 "label": "Narrator\n\nAfter the relaxing four hour drive to Lachaven, we were welcomed by celebratory citizens at Lachaven station."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter the relaxing four hour drive to Lachaven, we were welcomed by celebratory citizens at Lachaven station."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_53",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter the relaxing four hour drive to Lachaven, we were welcomed by celebratory citizens at Lachaven station."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -392,8 +326,8 @@
                 "label": "Player_Italic\n\nWe were all ready to begin the ceremony. I gave the green-light and the opening address began.\n\nSignal Lucian to begin the ceremony.\n\nAddConversant(Symon Holl); AddConversant(Lucian Galade); AddConversant(Gus Manger); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -403,8 +337,8 @@
                 "label": "Lucian Galade\n\n“Brothers and sisters of Sordland!”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -414,8 +348,8 @@
                 "label": "Player\n\n“Goodbye for now.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -425,8 +359,8 @@
                 "label": "Narrator\n\nWe began moving towards the stage as the excitement was growing."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -436,8 +370,8 @@
                 "label": "Player\n\n“It will be a good opportunity for exposure.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -447,8 +381,8 @@
                 "label": "Player\n\n“People of Sordland! Welcome to the opening ceremony of the L-1 High-speed railway.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -458,8 +392,8 @@
                 "label": "Player\n\n“The aim with the L-1 Railway was to improve development in rural areas and cities in between Holsord and Lachaven to create economic growth in the Greater Holsord and Gelsland regions.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -469,19 +403,8 @@
                 "label": "Lucian Galade\n\n“Without further ado, I invite the President of Sordland to the stage.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“Without further ado, I invite the President of Sordland to the stage.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -491,8 +414,8 @@
                 "label": "Player\n\n“We have to thank the mind behind the railway project for it all, the esteemed Minister of Economy and Tax, Symon Holl. Please come over here.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -502,8 +425,8 @@
                 "label": "Narrator\n\nThe chanting and excitement from the crowd intensified. A large group began singing the national anthem."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +436,8 @@
                 "label": "Player\n\n“Citizens! Welcome to the opening ceremony of the L-1 High-speed railway!”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -524,8 +447,8 @@
                 "label": "Player\n\n“Like the good old campaign days.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -535,8 +458,8 @@
                 "label": "Narrator\n\nThe chanting from the crowd continued. Some were yelling the motto of Holsord; High above all."
             },
             "position": {
-                "x": 0.0,
-                "y": 2250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -546,19 +469,8 @@
                 "label": "Player\n\n“Trust me, our work is far from over. This project is only the beginning of good tidings.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Trust me, our work is far from over. This project is only the beginning of good tidings.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -568,8 +480,8 @@
                 "label": "Lucian Galade\n\n“Things were certainly easier back then.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -579,8 +491,8 @@
                 "label": "Lucian Galade\n\n“I think all of us do.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -590,8 +502,8 @@
                 "label": "Player\n\n“Symon, you deserve a lot of credit. After all, it was you who came up with the project.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -601,8 +513,8 @@
                 "label": "Symon Holl\n\n“On another note. It goes without mentioning that this was a team effort.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -612,8 +524,8 @@
                 "label": "Narrator\n\nGus continued to explain how this not only helps Holsord but also many areas along the path of the upgraded railway."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -623,8 +535,8 @@
                 "label": "Narrator\n\nThe crowd began cheering my name."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 2250
             }
         },
         {
@@ -634,8 +546,8 @@
                 "label": "Narrator\n\nThe sunny weather created a positive mood in the usually grey Holsord."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -645,8 +557,8 @@
                 "label": "Lucian Galade\n\n“I welcome you Holsordians today as a proud servant of this country.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -656,8 +568,8 @@
                 "label": "Symon Holl\n\n“Our aim with this project is obvious: to improve the speed and efficiency of transportation.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -667,8 +579,8 @@
                 "label": "Gus Manger\n\n“Holsord! It is great to be here in this beautiful capital that does so much good for this country.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -678,8 +590,8 @@
                 "label": "Narrator\n\nSymon gave me a large pair of scissors to commence the opening while the crowd was watching."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 1750
             }
         },
         {
@@ -689,8 +601,8 @@
                 "label": "Lucian Galade\n\n“The journey to Lachaven should take about four hours and the rest of us will be in the carriage with you.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -700,8 +612,8 @@
                 "label": "BaseGame.Situation_Economy_WeakTransportation = false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -711,8 +623,8 @@
                 "label": "Narrator\n\nLucian stood up."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -722,8 +634,8 @@
                 "label": "Lucian Galade\n\n“Congratulations everyone.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -733,8 +645,8 @@
                 "label": "Lucian Galade\n\n“I think so too. Mr. President?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -744,19 +656,8 @@
                 "label": "Player\n\n“I guess we can't help it.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“I guess we can't help it.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -766,8 +667,8 @@
                 "label": "Player\n\n“Thank you.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -777,8 +678,8 @@
                 "label": "Player\n\n“Once again, good work everyone.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -788,8 +689,8 @@
                 "label": "Narrator\n\nLucian took Gus' place after he was done with his speech."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -799,8 +700,8 @@
                 "label": "BaseGame.Prologue_Birthplace_Holsord_Middle\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -810,8 +711,8 @@
                 "label": "Player\n\n“My fellow Holsordians! I welcome you today to our opening ceremony of the L-1 High-speed railway.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -821,8 +722,8 @@
                 "label": "BaseGameSupport.Journal_Turn06_RailwayOpening = true;\\nBaseGame.Policy_Economy_RailwayProject = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -832,8 +733,8 @@
                 "label": "BaseGameSupport.News_Turn06_E_L1_Opening_Underhall_Show = true;\\nBaseGameSupport.News_Turn06_HP_L1_Opening_Underhall_Show = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,8 +744,8 @@
                 "label": "BaseGame.Turn02_InT_Corporation_TaurusHolding == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -854,8 +755,8 @@
                 "label": "BaseGameIsolated.Turn06_InT_Show == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +766,8 @@
                 "label": "BaseGameSupport.News_Turn06_E_L1_Opening_Taurus_Show = true;\\nBaseGameSupport.News_Turn06_HP_L1_Opening_Taurus_Show = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -876,8 +777,8 @@
                 "label": "BaseGame.Turn02_InT_Corporation_UnderhallConstruction == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -887,8 +788,8 @@
                 "label": "BaseGameIsolated.Turn06_InT_Show == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -898,8 +799,8 @@
                 "label": "!(BaseGameIsolated.Turn06_InT_Show == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -909,8 +810,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_City_Holsord\", \"Progress_Railway\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -920,8 +821,8 @@
                 "label": "EnableCollectionItem(\"CollectionItem_CeremonialScissors\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -931,8 +832,8 @@
                 "label": "UpdateCityGdp(\"Sordland_City_Holsord\", \"52.5\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -942,8 +843,8 @@
                 "label": "// \n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -953,8 +854,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -964,8 +865,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         }
     ],
@@ -1049,18 +950,6 @@
             "type": "step"
         },
         {
-            "id": "e23_to_60",
-            "source": "node_23",
-            "target": "node_60",
-            "type": "step"
-        },
-        {
-            "id": "e23_to_118",
-            "source": "node_23",
-            "target": "node_118",
-            "type": "step"
-        },
-        {
             "id": "e27_to_61",
             "source": "node_27",
             "target": "node_61",
@@ -1133,18 +1022,6 @@
             "type": "step"
         },
         {
-            "id": "e47_to_71",
-            "source": "node_47",
-            "target": "node_71",
-            "type": "step"
-        },
-        {
-            "id": "e47_to_64",
-            "source": "node_47",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
             "id": "e49_to_54",
             "source": "node_49",
             "target": "node_54",
@@ -1166,18 +1043,6 @@
             "id": "e53_to_63",
             "source": "node_53",
             "target": "node_63",
-            "type": "step"
-        },
-        {
-            "id": "e53_to_74",
-            "source": "node_53",
-            "target": "node_74",
-            "type": "step"
-        },
-        {
-            "id": "e53_to_116",
-            "source": "node_53",
-            "target": "node_116",
             "type": "step"
         },
         {
@@ -1229,12 +1094,6 @@
             "type": "step"
         },
         {
-            "id": "e66_to_37",
-            "source": "node_66",
-            "target": "node_37",
-            "type": "step"
-        },
-        {
             "id": "e67_to_47",
             "source": "node_67",
             "target": "node_47",
@@ -1268,12 +1127,6 @@
             "id": "e78_to_42",
             "source": "node_78",
             "target": "node_42",
-            "type": "step"
-        },
-        {
-            "id": "e78_to_37",
-            "source": "node_78",
-            "target": "node_37",
             "type": "step"
         },
         {
@@ -1376,12 +1229,6 @@
             "id": "e115_to_34",
             "source": "node_115",
             "target": "node_34",
-            "type": "step"
-        },
-        {
-            "id": "e115_to_35",
-            "source": "node_115",
-            "target": "node_35",
             "type": "step"
         },
         {

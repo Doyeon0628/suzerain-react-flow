@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nAs part of the planned program, we arrived in Leiren to visit a middle school.\n\nSetRichPresenceData(Visiting and inspecting award-winning schools, Toren Hill School, Leiren); PlaySceneMusic(Optimism); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nThe prestigious Toren Hill School was situated close to the suburbs just outside of the city centre. The building was flanked by two hills, each beautifully dotted with shrubs and flowers."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Player\n\n“That won't be necessary. Let him through.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Narrator\n\nAs we entered the students started singing the national anthem."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Narrator\n\nAfter the anthem finished. All of the students immediately snapped to attention and turned to me."
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Player\n\n“Very good.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Principal\n\n“If you wish to follow me, we will take a look at one of our classrooms.“\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Boy\n\n“Thank you, sir!”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Girl\n\n“I-”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Girl\n\n“My math and reading scores are the best in the school. But they won't let me take the classes I want, just because I'm a girl.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Narrator\n\nThe cameras flashed once again."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Lucian Galade\n\n“Thank you for the warm welcome.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "Player\n\n“Very well.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "Principal\n\n“Thank you for visiting our school, sir.“\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -161,19 +161,8 @@
                 "label": "Narrator\n\nAll students in the classroom yelled but the boy whom I met was the loudest."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAll students in the classroom yelled but the boy whom I met was the loudest."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -183,8 +172,8 @@
                 "label": "Narrator\n\nAfter another round of photos we departed.\n\nRemoveConversant(Girl); RemoveConversant(Boy); RemoveConversant(Principal); RemoveConversant(Lucian Galade); RemoveConversant(Ciara Walda); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +183,8 @@
                 "label": "Player\n\n“Take that down.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -205,8 +194,8 @@
                 "label": "Principal\n\n“But, sir. That's a portrait of Colonel Soll. We can't just take it down.“\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +205,8 @@
                 "label": "BaseGame.Sollist -= 1;\\nBaseGame.Public_Opinion -= 1;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +216,8 @@
                 "label": "Player_Italic\n\nI left the classroom.\n\nLeave."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +227,8 @@
                 "label": "Player\n\n“Vectern sis da!”"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -249,8 +238,8 @@
                 "label": "BaseGameSupport.News_Turn04_HP_SchoolVisit = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -260,8 +249,8 @@
                 "label": "BaseGameSupport.News_Turn04_ST_SollPortrait_NoDeal = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +260,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +271,8 @@
                 "label": "BaseGameSupport.News_Turn04_R_DeyrLockdown = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +282,8 @@
                 "label": "BaseGame.Reform_EmergencyDecree_Banned_RY\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +293,8 @@
                 "label": "!(BaseGame.Reform_EmergencyDecree_Banned_YS)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +304,8 @@
                 "label": "BaseGame.Turn03_EnT_LawEnforcement_Budget_Increase == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +315,8 @@
                 "label": "!(BaseGame.Turn03_EnT_LawEnforcement_Budget_Increase == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +326,8 @@
                 "label": "BaseGameSupport.Report_Turn04_Holsord_RumburgEmbargo = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,8 +337,8 @@
                 "label": "Principal\n\n“Education is the premise of progress, in all societies, in all families.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -359,8 +348,8 @@
                 "label": "Narrator\n\nAt the entrance, the school's motto was inscribed on the wall in giant letters. “Instreten sis er Anginicar av Gereigna, int olla Almergwolltene, int olla Mexis.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +359,8 @@
                 "label": "Narrator\n\nShe bent down and gently addressed the young student."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -381,8 +370,8 @@
                 "label": "Narrator\n\nCiara's presence had emboldened the girl. She went on."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -392,8 +381,8 @@
                 "label": "BaseGame.Turn04_SnO_LE_Interior_Increased == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -403,8 +392,8 @@
                 "label": "!(BaseGame.Turn04_SnO_LE_Interior_Increased == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -414,8 +403,8 @@
                 "label": "!(BaseGame.Turn04_SnO_LE_Interior_Decreased == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -425,8 +414,8 @@
                 "label": "BaseGameSupport.Codex_Characters_PartyLeaders_DenisStahler = false; BaseGameSupport.Codex_Characters_PartyLeaders_DenisStahler_BanRY = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +425,8 @@
                 "label": "Narrator\n\nThe principal proudly looked at them."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -447,8 +436,8 @@
                 "label": "Narrator\n\nWe walked through the gates. There were many students lined up in front of the stairs of the main building."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -458,8 +447,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -469,8 +458,8 @@
                 "label": "BaseGame.Situation_Diplomacy_Energy_PriceBalanced == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -480,8 +469,8 @@
                 "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceBalanced == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -491,8 +480,8 @@
                 "label": "BaseGameSupport.News_Turn04_E_Energy_PriceFluctuations = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -502,8 +491,8 @@
                 "label": "BaseGameSupport.News_Turn04_E_Energy_PriceSurge = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +502,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -607,12 +596,6 @@
             "id": "e97_to_115",
             "source": "node_97",
             "target": "node_115",
-            "type": "step"
-        },
-        {
-            "id": "e97_to_116",
-            "source": "node_97",
-            "target": "node_116",
             "type": "step"
         },
         {

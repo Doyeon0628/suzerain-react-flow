@@ -7,8 +7,8 @@
                 "label": "Player_Romus\n\n\"Peace between Morella, Rizia and Derdia could be lucrative for all of us. Don't you realize that?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nHe sat back on his cushion for a moment."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Jorga Azmal\n\n\"We are not allies, Your Majesty. This is purely a matter of convenience.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Jorga Azmal\n\n\"His pen was but a conduit for the Divine.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "!(RiziaDLC.Policy_Economy_MorellaPipeline_Project == false)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Player_Romus\n\n\"I can't do that. Too much could go wrong.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "RiziaDLC.Policy_Law_GolcondistBlasphemy == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,19 +84,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "customNode",
-            "data": {
-                "label": "START\n\nnan"
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -147,12 +136,6 @@
             "id": "e88_to_25",
             "source": "node_88",
             "target": "node_25",
-            "type": "step"
-        },
-        {
-            "id": "e88_to_37",
-            "source": "node_88",
-            "target": "node_37",
             "type": "step"
         }
     ]

@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nThe door of the pitch black sedan opened and flashes went off.\n\nSetRichPresenceData(Hosting a state visit for a communist superpower, Maroon Palace, Holsord); PlaySceneMusic(Diplomacy); AddConversant(Monica); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Narrator\n\nThe famous ideologue and CSP leader, Leon Malenyev, came out of the car, smiling and waving at the enormous crowd that gathered. It was not every day the Chairman of United Contana came to visit Sordland.\n\nAddConversant(Leon Malenyev); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Narrator\n\nBoth sides of the maroon carpet leading up to the palace were lined with soldiers wearing military uniforms from Sordish history. They had swords, shields and spears. Some of them were on horseback."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGame.SuperpowerVisit_MilitaryWelcome == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "!(BaseGame.SuperpowerVisit_MilitaryWelcome == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Player\n\n\"How was your flight?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Player\n\n“I wanted extravagance, not a circus show. What the hell is this?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Player\n\n“It looks good, Lucian. Good job.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Narrator\n\nHe looked at me with an expressionless face."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Lucian Galade\n\n“Thank you.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Iosef Lancea); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "Narrator\n\nFinally, I was within reach of one of the most powerful men in the world."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -150,30 +150,8 @@
                 "label": "Leon Malenyev\n\n\"You are very kind, Mr. Rayne.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "customNode",
-            "data": {
-                "label": "Leon Malenyev\n\n\"You are very kind, Mr. Rayne.\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "customNode",
-            "data": {
-                "label": "Leon Malenyev\n\n\"You are very kind, Mr. Rayne.\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,30 +161,8 @@
                 "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Valken Kruger); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Valken Kruger); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Valken Kruger); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +172,8 @@
                 "label": "BaseGame.Lespia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true || BaseGame.Archetype_CapitalistRayne == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -227,8 +183,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_CSP_Aligned = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +194,8 @@
                 "label": "Player\n\n\"Please, this way. Let's move to the palace.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +205,8 @@
                 "label": "Narrator\n\nHe smiled thinly."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,8 +216,8 @@
                 "label": "Narrator\n\nA maroon carpet stretched from the vehicle to the palace, lined with Sordish troops. War planes flew above our heads, painting the sky with the colors of the Sordish flag."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +227,8 @@
                 "label": "Narrator\n\nMalenyev smiled and saluted Valken and the soldiers. They saluted back."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -282,8 +238,8 @@
                 "label": "Player\n\n“I've wanted to meet with you for the longest time.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +249,8 @@
                 "label": "Player\n\n“It is wonderful to see you, Chairman Malenyev.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -304,8 +260,8 @@
                 "label": "Narrator\n\nSeeing Malenyev approach, Lucian stood back.\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +271,8 @@
                 "label": "Narrator\n\nFinally, I was within reach of one of the most powerful men in the world."
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,19 +282,8 @@
                 "label": "Narrator\n\nMalenyev smiled at the soldiers and saluted them. They saluted back."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nMalenyev smiled at the soldiers and saluted them. They saluted back."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,19 +293,8 @@
                 "label": "Player\n\n“It is really good to see you, Chairman Malenyev.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“It is really good to see you, Chairman Malenyev.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +304,8 @@
                 "label": "Player\n\n“Welcome to Sordland.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +315,8 @@
                 "label": "Narrator\n\nHe smiled."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -392,8 +326,8 @@
                 "label": "Player\n\n“Welcome to Sordland.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -403,8 +337,8 @@
                 "label": "Leon Malenyev\n\n\"It is nice to meet you, Mrs. Rayne.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -414,8 +348,8 @@
                 "label": "Player\n\n\"How was your flight?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -425,8 +359,8 @@
                 "label": "Player\n\n“It is wonderful to see you, Chairman Malenyev.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +370,8 @@
                 "label": "Player\n\n“Don't mind us. We were just passing by.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -447,8 +381,8 @@
                 "label": "Narrator\n\nAt that moment, we came to the end of the corridor and entered the reception hall."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -458,8 +392,8 @@
                 "label": "Narrator\n\nGradually, the music and the sound of the party started to fade away."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -469,8 +403,8 @@
                 "label": "Leon Malenyev\n\n\"I look at the world today and think, it has changed so much since I joined the Rotskis as a young revolutionary...\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -480,8 +414,8 @@
                 "label": "Narrator\n\nHe laughed."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -491,8 +425,8 @@
                 "label": "Leon Malenyev\n\n\"You surprised me. It's usually one or the other, depending on who you're asking. But never together.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -502,8 +436,8 @@
                 "label": "Narrator\n\nHe sneered."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +447,8 @@
                 "label": "Leon Malenyev\n\n\"I thought when Tarquin Soll came to power, he worked towards removing the republic's connection to its feudal past.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -524,8 +458,8 @@
                 "label": "Leon Malenyev\n\n\"You cannot see what the future holds for you if you're not literate in history.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -535,8 +469,8 @@
                 "label": "Leon Malenyev\n\n\"That's what I suspected. If it was not going to be the kingdom he despised so much, it made sense to look further back.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -546,8 +480,8 @@
                 "label": "Leon Malenyev\n\n\"He just left in the parts he liked. Isn't it fascinating how a single person can alter history just like that?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -557,8 +491,8 @@
                 "label": "Leon Malenyev\n\n\"It is perhaps even more divided than ever. There are still wars in every corner of the world. There is still poverty, violence and slavery.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -568,8 +502,8 @@
                 "label": "Leon Malenyev\n\n\"Today, the whole continent is at peace, Mr. Rayne. And now the rest of the world is furious.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -579,8 +513,8 @@
                 "label": "Player\n\n\"In the end, you formed the largest country in the world.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -590,8 +524,8 @@
                 "label": "!(BaseGame.Hegel_PutInAGoodWordWithMalenyev == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -601,8 +535,8 @@
                 "label": "Player\n\n\"There are many countries who look up to United Contana. You are not alone.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -612,8 +546,8 @@
                 "label": "Leon Malenyev\n\n\"We have. And now our responsibility is great. We cannot sit back and let Arcasian imperialism enslave the third world.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -623,8 +557,8 @@
                 "label": "Leon Malenyev\n\n\"I still remember how Contana was a massive war zone. When all the warring states were supplied weapons by the west. Kings and dictators killed each other.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -634,8 +568,8 @@
                 "label": "Narrator\n\nHe took another sip from his glass and stretched his hand to me."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -645,8 +579,8 @@
                 "label": "!(BaseGame.Agnolia_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -656,8 +590,8 @@
                 "label": "Leon Malenyev\n\n\"But before we talk about that...\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -667,8 +601,8 @@
                 "label": "Leon Malenyev\n\n\"Could you help me?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -678,8 +612,8 @@
                 "label": "Player\n\n\"Of course. Please follow me, Chairman Malenyev.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -689,8 +623,8 @@
                 "label": "Leon Malenyev\n\n\"Chancellor Hegel told me a lot about you.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +634,8 @@
                 "label": "Leon Malenyev\n\n\"Are you even aware what goes on there?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -711,8 +645,8 @@
                 "label": "Leon Malenyev\n\n\"You are supporting the foreign Agnolian regime, which is trying to destroy the local culture. The Heljilandian Valgs are being oppressed.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -722,19 +656,8 @@
                 "label": "BaseGame.Agnolia_HeljilandRecognised == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_231",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Agnolia_HeljilandRecognised == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -744,8 +667,8 @@
                 "label": "BaseGame.Agnolia_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -755,8 +678,8 @@
                 "label": "Player\n\n\"I don't want to interfere with the matters between Valgsland and Agnolia.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -766,8 +689,8 @@
                 "label": "Player\n\n\"You are right, Chairman Malenyev. We can't.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -777,8 +700,8 @@
                 "label": "Player\n\n\"Yes. I am behind Valgsland in this conflict.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -788,8 +711,8 @@
                 "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -799,8 +722,8 @@
                 "label": "Leon Malenyev\n\n\"In the end, people are dying. And for no reason other than the political aims of their governments.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -810,8 +733,8 @@
                 "label": "Player\n\n\"I'm sure we can find a diplomatic solution with Agnolia.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -821,8 +744,8 @@
                 "label": "Player\n\n\"I thought this was about people being killed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -832,8 +755,8 @@
                 "label": "BaseGame.Lespia_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,8 +766,8 @@
                 "label": "!(BaseGame.Lespia_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -854,8 +777,8 @@
                 "label": "BaseGame.Agnolia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +788,8 @@
                 "label": "!(BaseGame.Agnolia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true )\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -876,8 +799,8 @@
                 "label": "Leon Malenyev\n\n\"So, you are ready to tear down the agreement...\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -887,8 +810,8 @@
                 "label": "Leon Malenyev\n\n\"...And take away your support from Heljiland?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -898,8 +821,8 @@
                 "label": "Narrator\n\nHe smiled."
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -909,8 +832,8 @@
                 "label": "Leon Malenyev\n\n\"Don't rush your decision.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -920,8 +843,8 @@
                 "label": "Narrator\n\nOne of his bodyguards, dressed in full military uniform, rushed towards us with a bottle of water."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -931,8 +854,8 @@
                 "label": "Leon Malenyev\n\n\"Without us, Arcasia would dominate the world. The Arcasian Lira is already crippling other economies while they reap the benefits. Yet they claim they're the bringers of freedom. Absurd.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -942,8 +865,8 @@
                 "label": "Player\n\n\"What does the CSP offer for Sordland?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -953,8 +876,8 @@
                 "label": "Player\n\n\"Will you stand with us against the threat of Rumburg?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -964,8 +887,8 @@
                 "label": "Player\n\n\"Unfortunately, I have to decline.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -975,8 +898,8 @@
                 "label": "Leon Malenyev\n\n\"Security. First and foremost, CSP is a defense pact. You will have the backing of the entire military power of our members.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -986,8 +909,8 @@
                 "label": "BaseGame.Hegel_PutInAGoodWordWithMalenyev == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -997,8 +920,8 @@
                 "label": "Leon Malenyev\n\n\"Not to mention visa-free access to every country within the CSP as well as other mutual assistance deals.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1008,8 +931,8 @@
                 "label": "Leon Malenyev\n\n\"You must accept our doctrines and work towards the goals of the pact. To further our power against the ATO.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1019,8 +942,8 @@
                 "label": "Leon Malenyev\n\n\"Your military alliance with Lespia must be cancelled immediately.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1030,8 +953,8 @@
                 "label": "BaseGame.Agnolia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1041,8 +964,8 @@
                 "label": "Leon Malenyev\n\n\"Chancellor Hegel told me that I could trust you with the money.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1052,8 +975,8 @@
                 "label": "Leon Malenyev\n\n\"But my agents told me that you might be the one who wants to start a war. Not Rumburg. Is there any truth to that?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1063,8 +986,8 @@
                 "label": "Leon Malenyev\n\n\"I promise you. Their queen will no longer meddle in Sordland nor Eastern Merkopa.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1074,8 +997,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1085,8 +1008,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedC = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1096,8 +1019,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedA == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1107,8 +1030,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1118,8 +1041,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedC == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1129,8 +1052,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedA == true && BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1140,8 +1063,8 @@
                 "label": "!(BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedA == true && BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1151,8 +1074,8 @@
                 "label": "CSPHub\n\nCSPHub"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1162,41 +1085,8 @@
                 "label": "Jump to: [CSPHub]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_376",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [CSPHub]\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_376",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [CSPHub]\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_376",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [CSPHub]\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1206,8 +1096,8 @@
                 "label": "Jump to: [CSPHub]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1217,8 +1107,8 @@
                 "label": "Player\n\n\"Yes. We will bring the war to them, before they are fully prepared.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1228,8 +1118,8 @@
                 "label": "BaseGame.Lespia_Alliance = false; BaseGame.Lespia_Alliance_Cancelled = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1239,8 +1129,8 @@
                 "label": "BaseGame.Agnolia_Alliance = false; BaseGame.Agnolia_Alliance_Cancelled = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1250,8 +1140,8 @@
                 "label": "BaseGame.Lespia_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1261,8 +1151,8 @@
                 "label": "!(BaseGame.Lespia_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1272,8 +1162,8 @@
                 "label": "!(BaseGame.Agnolia_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1283,8 +1173,8 @@
                 "label": "BaseGame.Hegel_PutInAGoodWordWithMalenyev == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1294,8 +1184,8 @@
                 "label": "Narrator\n\nHe smiled."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1305,8 +1195,8 @@
                 "label": "!(BaseGame.Archetype_ComradeRayne == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1316,8 +1206,8 @@
                 "label": "Narrator\n\nHe narrowed his eyes and stared at me as he exhaled smoke right into my face."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1327,8 +1217,8 @@
                 "label": "Narrator\n\nHe slowly stood up from his seat, seemingly struggling."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1338,8 +1228,8 @@
                 "label": "Player\n\n\"Of course, Chairman Malenyev. Please come this way.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1349,8 +1239,8 @@
                 "label": "Player\n\n\"I wanted to make a deal today as well. But your terms were not acceptable.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1360,8 +1250,8 @@
                 "label": "Narrator\n\nHe slowly stood up from his seat, seemingly struggling."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1371,8 +1261,8 @@
                 "label": "GameCondition.Turn09_FPnT_SuperpowerVisit = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1382,8 +1272,8 @@
                 "label": "BaseGame.Joined_CSP == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1393,8 +1283,8 @@
                 "label": "// continue\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1404,8 +1294,8 @@
                 "label": "BaseGame.Joined_CSP == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1415,8 +1305,8 @@
                 "label": "!(BaseGame.Joined_CSP == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1426,8 +1316,8 @@
                 "label": "BaseGame.Lespia_Alliance_Cancelled == true && BaseGame.Agnolia_Alliance_Cancelled == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1437,8 +1327,8 @@
                 "label": "!(BaseGame.Lespia_Alliance_Cancelled == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1448,8 +1338,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_Joined_CSP = true;\\nBaseGameSupport.FactionReport_Turn09_CSP_WelcomesSordland = true;\\nBaseGameSupport.CountryReport_Turn09_Morella_CongratulatesCSPJoin = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1459,8 +1349,8 @@
                 "label": "EnableNews(\"G_Joined_CSP\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -1470,8 +1360,8 @@
                 "label": "BaseGameSupport.News_Turn09_G_Joined_CSP_EndAlliance_Agnolia = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1481,8 +1371,8 @@
                 "label": "BaseGameSupport.News_Turn09_G_Joined_CSP_EndAlliance_Lespia = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1492,8 +1382,8 @@
                 "label": "BaseGame.Policy_Diplomacy_Agnolia_Alliance == false && BaseGame.Policy_Diplomacy_Valgsland_Alliance == false && BaseGame.Policy_Diplomacy_Lespia_Alliance == false && BaseGame.Policy_Diplomacy_Wehlen_JointOperation == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1503,8 +1393,8 @@
                 "label": "Leon Malenyev\n\n\"Just know that standing alone in this world is not as easy as it seems.\"\n\n\n\nSetRichPresenceData(Led their country to total isolation in the international scene, Maroon Palace, Holsord); UnlockSteamAchievement(Game_Isolated); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1514,8 +1404,8 @@
                 "label": "BaseGame.Lespia_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1525,8 +1415,8 @@
                 "label": "!(BaseGame.Lespia_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1536,8 +1426,8 @@
                 "label": "!(BaseGame.Agnolia_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1547,8 +1437,8 @@
                 "label": "BaseGame.Agnolia_Alliance == true && BaseGame.Lespia_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1558,8 +1448,8 @@
                 "label": "Player\n\n\"It's a deal, Chairman Malenyev.\"\n\n\"It's a deal, Chairman Malenyev. [Join CSP, Break Alliance with Lespia and Agnolia, -3 Government Budget]\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1569,8 +1459,8 @@
                 "label": "Player\n\n\"It's a deal, Chairman Malenyev.\"\n\n\"It's a deal, Chairman Malenyev. [Join CSP, Break Alliance with Lespia, -2 Government Budget]\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1580,8 +1470,8 @@
                 "label": "Player\n\n\"It's a deal, Chairman Malenyev.\"\n\n\"It's a deal, Chairman Malenyev. [Join CSP, Break Alliance with Agnolia, -1 Government Budget]\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1591,8 +1481,8 @@
                 "label": "UpdateCountryRelationship(\"Sordland_Country_Valgsland\", \"Allied\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1602,8 +1492,8 @@
                 "label": "Player\n\n“It is wonderful to see you, Mr. Chavatangakwunua.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1613,8 +1503,8 @@
                 "label": "Player\n\n“It is wonderful to see you, Mr. Chavatangakwunua.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -1624,8 +1514,8 @@
                 "label": "Player\n\n“It is wonderful to see you, Mr. Chavatangakwunua.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1635,8 +1525,8 @@
                 "label": "Leon Malenyev\n\n\"You are very kind, Mr. Rayne. Not a lot of people would even try to pronounce my real name.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1646,8 +1536,8 @@
                 "label": "PlaySoundEffect(\"ContanaMusic\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1657,8 +1547,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1668,8 +1558,8 @@
                 "label": "BaseGame.Situation_Diplomacy_Energy_ForeignInfluence = true; BaseGame.Situation_Diplomacy_Energy_ForeignManipulation = false; \\nBaseGame.Situation_Diplomacy_Energy_Independence = false; \n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1679,8 +1569,8 @@
                 "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceSurge == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1690,8 +1580,8 @@
                 "label": "BaseGame.Heljiland_Map_Layer = 1\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1701,8 +1591,8 @@
                 "label": "AddPlayerCountryStatus(\"Country_CSP\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1712,8 +1602,8 @@
                 "label": "RemovePlayerCountryStatus(\"Country_Sordland_Recognition_HeljilandAgnolia\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1723,8 +1613,8 @@
                 "label": "RemoveTokenStatus(\"Sordland_Country_Valgsland\", \"Country_Valgsland_TradeTariffs\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1734,8 +1624,8 @@
                 "label": "UpdateCountryRelationship(\"Sordland_Country_Rizia\", \"Unfriendly\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1745,8 +1635,8 @@
                 "label": "UpdateCountryRelationship(\"Sordland_Country_Valgsland\", \"Allied\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1756,8 +1646,8 @@
                 "label": "BaseGameSupport.News_Turn10_HP_CSPMarketInfluencesEnergy = true;  \n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1767,8 +1657,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -1858,33 +1748,9 @@
             "type": "step"
         },
         {
-            "id": "e37_to_74",
-            "source": "node_37",
-            "target": "node_74",
-            "type": "step"
-        },
-        {
-            "id": "e37_to_486",
-            "source": "node_37",
-            "target": "node_486",
-            "type": "step"
-        },
-        {
             "id": "e43_to_62",
             "source": "node_43",
             "target": "node_62",
-            "type": "step"
-        },
-        {
-            "id": "e43_to_29",
-            "source": "node_43",
-            "target": "node_29",
-            "type": "step"
-        },
-        {
-            "id": "e43_to_485",
-            "source": "node_43",
-            "target": "node_485",
             "type": "step"
         },
         {
@@ -1954,21 +1820,9 @@
             "type": "step"
         },
         {
-            "id": "e67_to_489",
-            "source": "node_67",
-            "target": "node_489",
-            "type": "step"
-        },
-        {
             "id": "e70_to_20",
             "source": "node_70",
             "target": "node_20",
-            "type": "step"
-        },
-        {
-            "id": "e70_to_57",
-            "source": "node_70",
-            "target": "node_57",
             "type": "step"
         },
         {
@@ -2167,12 +2021,6 @@
             "id": "e231_to_246",
             "source": "node_231",
             "target": "node_246",
-            "type": "step"
-        },
-        {
-            "id": "e231_to_248",
-            "source": "node_231",
-            "target": "node_248",
             "type": "step"
         },
         {
@@ -2407,24 +2255,6 @@
             "id": "e376_to_363",
             "source": "node_376",
             "target": "node_363",
-            "type": "step"
-        },
-        {
-            "id": "e376_to_366",
-            "source": "node_376",
-            "target": "node_366",
-            "type": "step"
-        },
-        {
-            "id": "e376_to_369",
-            "source": "node_376",
-            "target": "node_369",
-            "type": "step"
-        },
-        {
-            "id": "e376_to_325",
-            "source": "node_376",
-            "target": "node_325",
             "type": "step"
         },
         {

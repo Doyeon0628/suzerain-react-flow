@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nThe door of the car opened and flashes went off.\n\nSetRichPresenceData(Hosting a state visit for a capitalist superpower, Maroon Palace, Holsord); PlaySceneMusic(Diplomacy); AddConversant(Monica); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -29,30 +29,8 @@
                 "label": "Narrator\n\nDwight Walker, President of Arcasia, Head of the ATO came out of the car, smiling and waving at the enormous crowd that gathered. It was not every day an Arcasian president came to visit Sordland after all.\n\nAddConversant(Dwight Walker); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDwight Walker, President of Arcasia, Head of the ATO came out of the car, smiling and waving at the enormous crowd that gathered. It was not every day an Arcasian president came to visit Sordland after all.\n\nAddConversant(Dwight Walker); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDwight Walker, President of Arcasia, Head of the ATO came out of the car, smiling and waving at the enormous crowd that gathered. It was not every day an Arcasian president came to visit Sordland after all.\n\nAddConversant(Dwight Walker); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +40,8 @@
                 "label": "!(BaseGame.SuperpowerVisit_MilitaryWelcome == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +51,8 @@
                 "label": "Narrator\n\nAs soon as President Walker stepped on the carpet, children appeared and showered the road with roses. He slowly started walking towards us."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +62,8 @@
                 "label": "Dwight Walker\n\n“I'm charmed, Ms. Rayne.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -95,8 +73,8 @@
                 "label": "Narrator\n\nAs soon as President Walker stepped on the carpet, all of the soldiers performed a hard salute. Celebratory gunshots were fired. Trumpets started playing a Sordish march."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +84,8 @@
                 "label": "Narrator\n\nHe looked at Monica first, bowed and kissed her hand for a second longer than I liked."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +95,8 @@
                 "label": "Dwight Walker\n\n“Mr. President. It is so good to finally meet with you.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -128,8 +106,8 @@
                 "label": "Monica\n\n“I hope your wife and the family is well.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +117,8 @@
                 "label": "Player\n\n“I wanted to meet with you for the longest time.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +128,8 @@
                 "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Iosef Lancea); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,8 +139,8 @@
                 "label": "Player_Italic\n\nI didn't laugh at his joke which turned the situation a little bit awkward.\n\nDon't laugh."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "Narrator\n\nPresident Walker stepped on the carpet and started to make his way towards us."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "BaseGame.Valgsland_Alliance == true || BaseGame.Valgsland_HeljilandRecognised == true || BaseGame.Archetype_ComradeRayne == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "BaseGameIsolated.Turn09_FPnT_ATO_Aligned = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "(BaseGame.Reform_EmergencyDecree_Embargo_UC == true && BaseGame.Reform_EmergencyDecree_Embargo_Arcasia == false) || BaseGame.Lespia_Alliance == true || BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "Narrator\n\nHe was simply looking around at the extraordinary interior design of the Maroon Palace. Statues, paintings and various ornaments filled both sides of the corridor."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "Narrator\n\nPeople started clapping."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +216,8 @@
                 "label": "Narrator\n\nPresident Walker and I separated and started mingling with the crowd. The reception was in full swing."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +227,8 @@
                 "label": "Dwight Walker\n\n“Right when we were getting to the good part.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,8 +238,8 @@
                 "label": "Narrator\n\nThe band played on. For a moment, it felt like it was only the two of us in the room. We moved together as one, seamlessly gliding across the dance floor."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +249,8 @@
                 "label": "Narrator\n\nPresident Walker approached, clapping and whistling himself."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +260,8 @@
                 "label": "Player\n\n“We had enough fun. Let's talk about business.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +271,8 @@
                 "label": "Narrator\n\nMonica looked at me and smiled."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +282,8 @@
                 "label": "Narrator\n\nHe pulled out a Rippo lighter and lit his cigar."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +293,8 @@
                 "label": "Narrator\n\nWe clinked our glasses and took a sip."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +304,8 @@
                 "label": "Narrator\n\nHe bursted into a laugh."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +315,8 @@
                 "label": "Dwight Walker\n\n“I want to make you an offer.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -348,8 +326,8 @@
                 "label": "BaseGame.Enable_PressRelease == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -359,8 +337,8 @@
                 "label": "Dwight Walker\n\n“I heard you got into a scandal. Something about a secretary.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +348,8 @@
                 "label": "Player\n\n“Yes. What of it?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +359,8 @@
                 "label": "Dwight Walker\n\n“I just made it out alive of a bad one myself. Oof. It was a rough one too.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -392,8 +370,8 @@
                 "label": "Player\n\n“Let's get it over with.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -403,8 +381,8 @@
                 "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -414,8 +392,8 @@
                 "label": "Dwight Walker\n\n“I know that you are preparing to go to war against Rumburg.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -425,8 +403,8 @@
                 "label": "Dwight Walker\n\n“If you ask me it is a generous price in return for all the privileges you will receive.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +414,8 @@
                 "label": "BaseGame.Lespia_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -447,8 +425,8 @@
                 "label": "Dwight Walker\n\n“Let's make history. Here. Tonight. What do you say?”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -458,41 +436,8 @@
                 "label": "Dwight Walker\n\n“In ATO, we protect each other. We have a mutual defense clause in the case of war.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_250",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“In ATO, we protect each other. We have a mutual defense clause in the case of war.”\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_250",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“In ATO, we protect each other. We have a mutual defense clause in the case of war.”\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_250",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“In ATO, we protect each other. We have a mutual defense clause in the case of war.”\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -502,8 +447,8 @@
                 "label": "Dwight Walker\n\n“Before you answer, let me assure you. If you reject my kind offer, you won't like the results.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +458,8 @@
                 "label": "Player\n\n“Do you dare threaten me here, in my palace?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -524,8 +469,8 @@
                 "label": "Dwight Walker\n\n“You won't be handing over the entire military command. Only a part of it.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -535,8 +480,8 @@
                 "label": "Dwight Walker\n\n“That's what I'd like to hear.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -546,8 +491,8 @@
                 "label": "Player\n\n“Very well. I accept.”\n\n“Very well. I accept. [Join ATO, Break Alliance with Valgsland, -2 Government Budget]”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -557,8 +502,8 @@
                 "label": "Player\n\n“I have to decline, Mr. Walker.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -568,8 +513,8 @@
                 "label": "Dwight Walker\n\n“Cheers to new found partnerships!”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -579,8 +524,8 @@
                 "label": "Dwight Walker\n\n“Now it's starting to taste better!”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -590,8 +535,8 @@
                 "label": "Narrator\n\nHe grabbed his glass and downed the remaining whiskey."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -601,8 +546,8 @@
                 "label": "Player\n\n“Thank you for the offer however, we currently have no plans to enter ATO.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -612,8 +557,8 @@
                 "label": "Dwight Walker\n\n“At least I know that I tried.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -623,8 +568,8 @@
                 "label": "Player\n\n“Very well. I accept.”\n\n“Very well. I accept. [Join ATO, Break Alliance with Valgsland, -2 Government Budget]”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -634,8 +579,8 @@
                 "label": "Dwight Walker\n\n“Regardless, it was good to meet with you. I hope this is the start of something good.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -645,8 +590,8 @@
                 "label": "Dwight Walker\n\n“I have a few more dance moves to show off.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -656,8 +601,8 @@
                 "label": "Dwight Walker\n\n“Besides, I have a few more dance moves to show off.”\n\n\n\nSetRichPresenceData(Joined a capitalist superpower alliance, Maroon Palace, Holsord); UnlockSteamAchievement(Game_JoinedATO); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -667,8 +612,8 @@
                 "label": "Dwight Walker\n\n“Times are changing and so is the balance of the world.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -678,8 +623,8 @@
                 "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -689,8 +634,8 @@
                 "label": "!(BaseGame.RumburgIncident_DeclareWar == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +645,8 @@
                 "label": "BaseGame.Joined_ATO = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -711,8 +656,8 @@
                 "label": "Narrator\n\nNext to the maroon carpet to the palace, Sordish troops were lined up. Sordish war planes flew above our heads, painting the sky with the colors of the Sordish flag."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -722,8 +667,8 @@
                 "label": "BaseGame.Reform_PresiPower_Strong_PurgeGeneralStaff == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -733,8 +678,8 @@
                 "label": "Narrator\n\nOn the way to the entrance we stopped in front of Iosef who was in charge of the troops.\n\nAddConversant(Iosef Lancea); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -744,8 +689,8 @@
                 "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Valken Kruger); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -755,8 +700,8 @@
                 "label": "Dwight Walker\n\n“The Sordish Armed Forces will be a member of the ATO military structure. All branches be it air, navy, army will collaborate with the alliance network. We will provide assistance and training for free.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -766,8 +711,8 @@
                 "label": "Monica\n\n\"At your service, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -777,8 +722,8 @@
                 "label": "Narrator\n\nMonica blinked and abruptly removed her hand from mine."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -788,8 +733,8 @@
                 "label": "Narrator\n\nMonica gave me an extremely strained smile."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -799,8 +744,8 @@
                 "label": "BaseGame.Relations_Monica_Opinion <= 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -810,8 +755,8 @@
                 "label": "Narrator\n\nBehind his back, she gave me a taunting look."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -821,8 +766,8 @@
                 "label": "BaseGame.Turn07_Fled_MarcelKoronti == true || BaseGame.Turn07_Fled_WalterTusk == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -832,8 +777,8 @@
                 "label": "Dwight Walker\n\n“As you know, Arcasia is a country that has freedom at its very foundation. Anyone is welcome.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,8 +788,8 @@
                 "label": "Dwight Walker\n\n“Very well. I will have them deported back to their homeland.”\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -854,8 +799,8 @@
                 "label": "BaseGame.Turn07_Investigate_Oligarchs == true && BaseGame.Turn08_SnO_KorontiInvestigationStopped == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +810,8 @@
                 "label": "Player\n\n\"No, don't do anything. It wouldn't be right.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -876,8 +821,8 @@
                 "label": "BaseGame.Valgsland_Alliance = false; BaseGame.Valgsland_Alliance_Cancelled = true;\\nBaseGameSupport.News_Turn09_G_ATO_ValgslandAlliance_Cancelled = true;\\nBaseGameSupport.News_Turn09_HP_ATO_ValgslandAlliance_Cancelled = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -887,8 +832,8 @@
                 "label": "// Continue\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -898,8 +843,8 @@
                 "label": "BaseGame.Situation_Diplomacy_Arcasia_Military_Influence = false;\\nBaseGame.Situation_Diplomacy_Arcasia_Military_Support = false;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -909,8 +854,8 @@
                 "label": "BaseGame.Joined_ATO == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -920,8 +865,8 @@
                 "label": "!(BaseGame.Joined_ATO == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -931,8 +876,8 @@
                 "label": "BaseGameSupport.News_Turn09_HP_Joined_ATO = true; \\nBaseGameSupport.FactionReport_Turn09_ATO_WelcomesSordland = true;\\nBaseGameSupport.CountryReport_Turn09_Derdia_CursesATOJoin = true;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -942,8 +887,8 @@
                 "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -953,8 +898,8 @@
                 "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -964,8 +909,8 @@
                 "label": "BaseGame.Policy_Diplomacy_Agnolia_Alliance == false && BaseGame.Policy_Diplomacy_Valgsland_Alliance == false && BaseGame.Policy_Diplomacy_Lespia_Alliance == false && BaseGame.Policy_Diplomacy_Wehlen_JointOperation == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -975,8 +920,8 @@
                 "label": "Dwight Walker\n\n“I have a few more dance moves to show off. Unlike Sordland, I don't dance alone.”\n\n\n\nSetRichPresenceData(Led their country to total isolation in the international scene, Maroon Palace, Holsord); UnlockSteamAchievement(Game_Isolated); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -986,8 +931,8 @@
                 "label": "BaseGame.Policy_Diplomacy_Agnolia_Alliance == false && BaseGame.Policy_Diplomacy_Valgsland_Alliance == false && BaseGame.Policy_Diplomacy_Lespia_Alliance == false && BaseGame.Policy_Diplomacy_Wehlen_JointOperation == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -997,8 +942,8 @@
                 "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1008,8 +953,8 @@
                 "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1019,8 +964,8 @@
                 "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1030,8 +975,8 @@
                 "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1041,8 +986,8 @@
                 "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1052,8 +997,8 @@
                 "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1063,8 +1008,8 @@
                 "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1074,8 +1019,8 @@
                 "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1085,8 +1030,8 @@
                 "label": "BaseGame.Capitalist += 5;\\nBaseGame.Sollist -= 2;\\nBaseGame.Malenyevist -= 3;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1096,8 +1041,8 @@
                 "label": "UpdateCountryRelationship(\"Sordland_Country_Lespia\", \"Allied\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1107,8 +1052,8 @@
                 "label": "PlaySoundEffect(\"ArcasiaMusic\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1118,8 +1063,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1129,8 +1074,8 @@
                 "label": "BaseGame.Situation_Diplomacy_Energy_ForeignInfluence = true; BaseGame.Situation_Diplomacy_Energy_ForeignManipulation = false; \\nBaseGame.Situation_Diplomacy_Energy_Independence = false; \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1140,8 +1085,8 @@
                 "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceSurge == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1151,8 +1096,8 @@
                 "label": "BaseGame.Situation_Diplomacy_Energy_ForeignInfluence = true; BaseGame.Situation_Diplomacy_Energy_ForeignManipulation = false; \\nBaseGame.Situation_Diplomacy_Energy_Independence = false; \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1162,8 +1107,8 @@
                 "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceFluctuation == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1173,8 +1118,8 @@
                 "label": "BaseGame.Situation_Diplomacy_Energy_PriceBalanced = false; \\nBaseGame.Situation_Diplomacy_Energy_PriceSurge = false;\\nBaseGame.Situation_Diplomacy_Energy_PriceFluctuation = true;  \n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1184,8 +1129,8 @@
                 "label": "AddPlayerCountryStatus(\"Country_ATO\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1195,8 +1140,8 @@
                 "label": "BaseGameSupport.News_Turn10_HP_ATOMarketInfluencesEnergy = true;  \n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1206,8 +1151,8 @@
                 "label": "EnableNews(\"G_Joined_ATO\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1217,8 +1162,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         }
     ],
@@ -1239,18 +1184,6 @@
             "id": "e5_to_18",
             "source": "node_5",
             "target": "node_18",
-            "type": "step"
-        },
-        {
-            "id": "e5_to_17",
-            "source": "node_5",
-            "target": "node_17",
-            "type": "step"
-        },
-        {
-            "id": "e5_to_19",
-            "source": "node_5",
-            "target": "node_19",
             "type": "step"
         },
         {
@@ -1473,24 +1406,6 @@
             "id": "e250_to_395",
             "source": "node_250",
             "target": "node_395",
-            "type": "step"
-        },
-        {
-            "id": "e250_to_283",
-            "source": "node_250",
-            "target": "node_283",
-            "type": "step"
-        },
-        {
-            "id": "e250_to_306",
-            "source": "node_250",
-            "target": "node_306",
-            "type": "step"
-        },
-        {
-            "id": "e250_to_280",
-            "source": "node_250",
-            "target": "node_280",
             "type": "step"
         },
         {

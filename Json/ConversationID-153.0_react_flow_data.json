@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "BaseGame.Decision_Turn05_AutocratEmergency_Extend == true && BaseGame.Reform_Autocrat_CourtVote_Success == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true || BaseGame.Bludish_Opinion <= -15\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "!(BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true || BaseGame.Bludish_Opinion <= -15)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,19 +51,8 @@
                 "label": "BaseGame.Unrest_BFF_WillHappen = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Unrest_BFF_WillHappen = true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +62,8 @@
                 "label": "!(BaseGame.Bergia_Governor_Ersen == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +73,8 @@
                 "label": "!(BaseGame.ChiefJustice_OvidGrecer == true || BaseGame.Reform_PresiPower_Default_BergiaSpecialZone_Centralization == true )\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +84,8 @@
                 "label": "//\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +95,8 @@
                 "label": "BaseGame.Public_Opinion <= 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -117,30 +106,8 @@
                 "label": "Monica\n\n\"The book's nothing. You wouldn't like it anyway.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_48",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"The book's nothing. You wouldn't like it anyway.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_48",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"The book's nothing. You wouldn't like it anyway.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +117,8 @@
                 "label": "(BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == false) || BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_Opinion < 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,8 +128,8 @@
                 "label": "Monica\n\n\"But yes, between these dusty covers lie worlds of knowledge waiting to be explored.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -172,8 +139,8 @@
                 "label": "Narrator\n\nI could see the anger in her eyes."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -183,8 +150,8 @@
                 "label": "Narrator\n\nShe let out a deep sigh."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +161,8 @@
                 "label": "Monica\n\n\"But anyway...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +172,8 @@
                 "label": "Monica\n\n\"Especially after everything that happened with Petr...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +183,8 @@
                 "label": "!(BaseGame.Petr_isVP == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +194,8 @@
                 "label": "Player\n\n\"I wish it had all gone differently.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,8 +205,8 @@
                 "label": "Monica\n\n\"I do understand...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +216,8 @@
                 "label": "Monica\n\n\"Is that really how you feel, Anton? He was your closest friend since forever...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,19 +227,8 @@
                 "label": "Monica\n\n\"Evelyn said Petr's finally stopped drinking -- or most likely, stopped drinking so very much.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Evelyn said Petr's finally stopped drinking -- or most likely, stopped drinking so very much.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +238,8 @@
                 "label": "Player\n\n\"I'm glad he's actually doing his part for once. It's been a madhouse at the palace lately.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +249,8 @@
                 "label": "Monica\n\n\"I don't know, Anton. All of this seems to have put you under a massive amount of stress.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +260,8 @@
                 "label": "BaseGame.BFF_Threatens_President == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +271,8 @@
                 "label": "!(BaseGame.Unrest_WillHappen == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +282,8 @@
                 "label": "Deana\n\n\"Mama, Papa, look what I found!\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +293,8 @@
                 "label": "Narrator\n\nMonica and I immediately turned our attention to her, our curiosity piqued."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,8 +304,8 @@
                 "label": "Deana\n\n\"We advise all of you to tread carefully, for it was Anton Rayne who grew the darkness over this land and suffocated our people. For what the President did, he and his family shall face re-- Retrbrution.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -359,8 +315,8 @@
                 "label": "Narrator\n\nHer voice started quivering as she continued."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +326,8 @@
                 "label": "Narrator\n\nShe reluctantly approached us with the letter."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +337,8 @@
                 "label": "Player\n\n\"I don't know, sweetie. It's just a bunch of words that don't make sense. It must be a joke.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -392,8 +348,8 @@
                 "label": "Narrator\n\n\"Consider our words, for they hold weight beyond your existence. Your decisions shape the destinies of millions, and their consequences will reverberate through the nation.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -403,8 +359,8 @@
                 "label": "Narrator\n\nShe gave me the letter and I immediately started reading the rest of it."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -414,8 +370,8 @@
                 "label": "Player\n\n\"I'm sure it's nothing to worry about.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -425,8 +381,8 @@
                 "label": "Narrator\n\nDeana, sensing the tension, tiptoed closer to us, her eyes wide."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +392,8 @@
                 "label": "Monica\n\n\"Deana, honey, where did you find this?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -447,19 +403,8 @@
                 "label": "Player\n\n\"Deana, we've received a letter from some people called the BFF. They want to do bad things to us because they don't agree with what we stand for.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_193",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Deana, we've received a letter from some people called the BFF. They want to do bad things to us because they don't agree with what we stand for.\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -469,8 +414,8 @@
                 "label": "!(BaseGame.Bergia_Governor_Bron == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -480,8 +425,8 @@
                 "label": "Narrator\n\n\"With the arrest of Mr. Ejall, we have finally come to terms with reality. The peaceful movement has failed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -491,8 +436,8 @@
                 "label": "Narrator\n\n\"Everyone who has been complicit in this injustice will have to answer for it. We will also visit Governor Bron.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -502,8 +447,8 @@
                 "label": "BaseGame.Bergia_Governor_Krull == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -513,8 +458,8 @@
                 "label": "Player\n\n\"No, darling. I haven't done anything wrong. The people who wrote this do not believe in the authority of our country.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -524,8 +469,8 @@
                 "label": "Deana\n\n\"But daddy, we're good people. And I know you always try to do what's best for everyone. Why would they want to hurt us?\""
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -535,19 +480,8 @@
                 "label": "Player\n\n\"Sometimes, people fear what they don't understand. But we won't let that fear define us.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_212",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Sometimes, people fear what they don't understand. But we won't let that fear define us.\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -557,41 +491,8 @@
                 "label": "Player\n\n\"Yes, darling. Some people think I've done bad things and now they are trying to send me a message.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_214",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Yes, darling. Some people think I've done bad things and now they are trying to send me a message.\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_214",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Yes, darling. Some people think I've done bad things and now they are trying to send me a message.\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_214",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Yes, darling. Some people think I've done bad things and now they are trying to send me a message.\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -601,8 +502,8 @@
                 "label": "Deana\n\n\"But you wouldn't really do anything bad, would you? I know you always try to do what's best for everyone.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -612,8 +513,8 @@
                 "label": "Player\n\n\"Even your papa can make mistakes sometimes, Deana. What's important is to remember that we can learn and grow from them.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -623,8 +524,8 @@
                 "label": "Player\n\n\"You're right. You're growing into such a remarkable young woman. Tell me. What do you want to know?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -634,8 +535,8 @@
                 "label": "Player\n\n\"Trust me, Deana. It's best if you stay out of this.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -645,8 +546,8 @@
                 "label": "Narrator\n\nDeana's lower lip trembled. I saw a hint of disappointment in her eyes."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -656,19 +557,8 @@
                 "label": "Narrator\n\nDeana looked at me with a hint of disappointment in her eyes."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_233",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana looked at me with a hint of disappointment in her eyes."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -678,8 +568,8 @@
                 "label": "Player\n\n\"No, Deana. We will not let them win. We will take every precaution to keep our family safe.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -689,8 +579,8 @@
                 "label": "Narrator\n\nMonica and I immediately turned our attention to her, our curiosity piqued."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +590,8 @@
                 "label": "Player\n\n\"That's incredible, Deana! You've worked hard and it shows.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -711,8 +601,8 @@
                 "label": "Player\n\n\"*Almost* doesn't count, honey. Sounds like you've got to try harder.\"\n\n"
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -722,19 +612,8 @@
                 "label": "Player\n\n\"Oh my. We've got a genius in the house! Watch out, world, Holsord's number-two student is on the loose!\"\n\n"
             },
             "position": {
-                "x": 540.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_254",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Oh my. We've got a genius in the house! Watch out, world, Holsord's number-two student is on the loose!\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -744,8 +623,8 @@
                 "label": "Deana\n\n\"And then there's that stupid blonde boy Markus. He never even studies, but the teachers always give him higher grades than everyone else.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -755,30 +634,8 @@
                 "label": "Player\n\n\"Actually, I may know his father...\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Actually, I may know his father...\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Actually, I may know his father...\"\n\n"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -788,8 +645,8 @@
                 "label": "Player\n\n\"Interesting...\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -799,8 +656,8 @@
                 "label": "Deana\n\n\"Do you know him?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -810,19 +667,8 @@
                 "label": "BaseGame.Situation_Law_ExcellentWomenRights == true ||BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_284",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Law_ExcellentWomenRights == true ||BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -832,8 +678,8 @@
                 "label": "Deana\n\n\"And the teachers don't even care!\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,8 +689,8 @@
                 "label": "Deana\n\n\"His father came to the school a couple of times and shouted at the teachers.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -854,8 +700,8 @@
                 "label": "Player\n\n\"He did, did he? Looks like I have a *lot* of talking to do.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +711,8 @@
                 "label": "Player\n\n\"Some people just have bad manners, darling. You shouldn't pay attention to them.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -876,8 +722,8 @@
                 "label": "Narrator\n\nShe gestured towards the kitchen."
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 540,
+                "y": 250
             }
         },
         {
@@ -887,8 +733,8 @@
                 "label": "Player\n\n\"That's exactly what they want us to do, Monica. We cannot give in to their threats. Don't worry. I will take the necessary security precautions.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -898,8 +744,8 @@
                 "label": "!(BaseGame.Reform_EmergencyDecree_SuspendedProtests == true &&\\nBaseGame.Decision_Turn05_AutocratEmergency_Extend == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -909,8 +755,8 @@
                 "label": "Monica\n\n\"I don't really believe that after all the chaos I've seen in this country, Anton.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -920,19 +766,8 @@
                 "label": "(BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == false) || BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_Opinion < 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_326",
-            "type": "customNode",
-            "data": {
-                "label": "(BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == false) || BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_Opinion < 0\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -942,8 +777,8 @@
                 "label": "Monica\n\n\"Despite everything you've done, you are still the father of our children. And I don't want you to get hurt.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -953,8 +788,8 @@
                 "label": "Narrator\n\nShe sighed."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -964,8 +799,8 @@
                 "label": "Monica\n\n\"Well, I don't trust them, Anton!\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -975,8 +810,8 @@
                 "label": "Player\n\n\"Just let me do my job for once, Monica. I know what to do. You shouldn't keep worrying.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -986,8 +821,8 @@
                 "label": "(BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == false) || BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_Opinion < 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -997,8 +832,8 @@
                 "label": "!((BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == false) || BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_Opinion < 0)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1008,8 +843,8 @@
                 "label": "Deana\n\n\"I already told you!\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1019,8 +854,8 @@
                 "label": "Deana\n\n\"Why wouldn't I be?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1030,8 +865,8 @@
                 "label": "Deana\n\n\"Okay...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1041,8 +876,8 @@
                 "label": "Monica\n\n\"Isn't that your new VP, Anton?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -1052,8 +887,8 @@
                 "label": "Player\n\n\"Well, there's nothing I can do about that. Can I?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1063,8 +898,8 @@
                 "label": "!((BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == false) || BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_Opinion < 0)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1074,8 +909,8 @@
                 "label": "Monica\n\n\"Isn't that the one who challenged you for USP candidacy, Anton?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1085,8 +920,8 @@
                 "label": "!(BaseGame.Decision_Turn08_VPSelection_Albin == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1096,30 +931,8 @@
                 "label": "Monica\n\n\"Why is your party still filled with men like this?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_365",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Why is your party still filled with men like this?\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_365",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Why is your party still filled with men like this?\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1129,30 +942,8 @@
                 "label": "BaseGame.BFF_Destroyed == false && BaseGame.BFF_Damaged == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_366",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.BFF_Destroyed == false && BaseGame.BFF_Damaged == false\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_366",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.BFF_Destroyed == false && BaseGame.BFF_Damaged == false\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1162,8 +953,8 @@
                 "label": "!(BaseGame.BFF_Destroyed == false && BaseGame.BFF_Damaged == false)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1173,8 +964,8 @@
                 "label": "BaseGame.BFF_Damaged == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1184,8 +975,8 @@
                 "label": "Deana\n\n\"You may think that you destroyed us. But the will of the people will live on forever.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1195,8 +986,8 @@
                 "label": "Player\n\n\"What is that supposed to mean?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1206,8 +997,8 @@
                 "label": "Player\n\n\"Just another male Sordish politician, Monica. You know how it is.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1217,8 +1008,8 @@
                 "label": "Monica\n\n\"Are you hungry?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1228,8 +1019,8 @@
                 "label": "Player\n\n\"Alright. See you at dinner, Monica.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1239,8 +1030,8 @@
                 "label": "Player\n\n\"Is there something wrong?\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1250,8 +1041,8 @@
                 "label": "Monica\n\n\"No! I just want to read, Anton.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1261,8 +1052,8 @@
                 "label": "Player\n\n\"Fine.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1272,8 +1063,8 @@
                 "label": "Player\n\n\"Great. I am starving.\"\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1283,8 +1074,8 @@
                 "label": "(BaseGame.Reform_Turn08_Decree_WomensRights == false && BaseGame.WomensRightCommission == false) || BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_Opinion < 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1294,8 +1085,8 @@
                 "label": "Narrator\n\nHow real was the threat to my family? Did I really have the power to guarantee their safety?\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1305,8 +1096,8 @@
                 "label": "Monica\n\n\"Seems like he's following through.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1316,8 +1107,8 @@
                 "label": "Monica\n\n\"I understand. But honestly, maybe it was all for the best in the end.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1327,8 +1118,8 @@
                 "label": "Monica\n\n\"I'm sure you can handle it.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1338,8 +1129,8 @@
                 "label": "Player\n\n\"It's 'retribution', sweetheart.\"\n\n"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1349,8 +1140,8 @@
                 "label": "Monica\n\n\"I suppose you wouldn't.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1360,8 +1151,8 @@
                 "label": "BaseGame.BFF_EliminationOperation_Botched == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1371,8 +1162,8 @@
                 "label": "BaseGame.Unrest_BFF_WillHappen = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1382,8 +1173,8 @@
                 "label": "BaseGame.YoungSords_Aids_Security == true && BaseGame.Policy_Law_Ban_RedYouth == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1393,8 +1184,8 @@
                 "label": "BaseGameSupport.Report_Turn08_Holsord_BFFThreat_PresidentSecurityIncreased = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1404,8 +1195,8 @@
                 "label": "PlayCustomMapMusic(\"Map_Music_Tense\");\\n\\n// Plays a custom map music after conversation is done. This works only once for one conversation\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1415,8 +1206,8 @@
                 "label": "BaseGame.YoungSords_Aids_Security == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1426,8 +1217,8 @@
                 "label": "BaseGame.Public_Opinion <= -5\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1437,8 +1228,8 @@
                 "label": "!(BaseGame.Public_Opinion <= -5)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1448,8 +1239,8 @@
                 "label": "BaseGame.YoungSords_Aids_Security == true && BaseGame.BFF_EliminationOperation == true && BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1459,8 +1250,8 @@
                 "label": "!(BaseGame.YoungSords_Aids_Security == true && BaseGame.BFF_EliminationOperation == true && BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == false)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1470,8 +1261,8 @@
                 "label": "PlayMusic(\"Mountains\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1481,8 +1272,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1492,8 +1283,8 @@
                 "label": "Monica\n\n\"Anton, please. Can you leave me alone so I can read in peace?\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1503,8 +1294,8 @@
                 "label": "Player\n\n\"Even your papa can make mistakes sometimes, Deana. What's important is to remember that we can learn and grow from them.\"\n\n"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1514,8 +1305,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -1525,8 +1316,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         }
     ],
@@ -1562,12 +1353,6 @@
             "type": "step"
         },
         {
-            "id": "e15_to_43",
-            "source": "node_15",
-            "target": "node_43",
-            "type": "step"
-        },
-        {
             "id": "e22_to_426",
             "source": "node_22",
             "target": "node_426",
@@ -1595,18 +1380,6 @@
             "id": "e48_to_71",
             "source": "node_48",
             "target": "node_71",
-            "type": "step"
-        },
-        {
-            "id": "e48_to_72",
-            "source": "node_48",
-            "target": "node_72",
-            "type": "step"
-        },
-        {
-            "id": "e48_to_73",
-            "source": "node_48",
-            "target": "node_73",
             "type": "step"
         },
         {
@@ -1673,12 +1446,6 @@
             "id": "e101_to_111",
             "source": "node_101",
             "target": "node_111",
-            "type": "step"
-        },
-        {
-            "id": "e101_to_115",
-            "source": "node_101",
-            "target": "node_115",
             "type": "step"
         },
         {
@@ -1778,12 +1545,6 @@
             "type": "step"
         },
         {
-            "id": "e193_to_216",
-            "source": "node_193",
-            "target": "node_216",
-            "type": "step"
-        },
-        {
             "id": "e196_to_206",
             "source": "node_196",
             "target": "node_206",
@@ -1826,33 +1587,9 @@
             "type": "step"
         },
         {
-            "id": "e212_to_451",
-            "source": "node_212",
-            "target": "node_451",
-            "type": "step"
-        },
-        {
             "id": "e214_to_235",
             "source": "node_214",
             "target": "node_235",
-            "type": "step"
-        },
-        {
-            "id": "e214_to_236",
-            "source": "node_214",
-            "target": "node_236",
-            "type": "step"
-        },
-        {
-            "id": "e214_to_237",
-            "source": "node_214",
-            "target": "node_237",
-            "type": "step"
-        },
-        {
-            "id": "e214_to_238",
-            "source": "node_214",
-            "target": "node_238",
             "type": "step"
         },
         {
@@ -1892,12 +1629,6 @@
             "type": "step"
         },
         {
-            "id": "e233_to_222",
-            "source": "node_233",
-            "target": "node_222",
-            "type": "step"
-        },
-        {
             "id": "e234_to_232",
             "source": "node_234",
             "target": "node_232",
@@ -1928,12 +1659,6 @@
             "type": "step"
         },
         {
-            "id": "e254_to_267",
-            "source": "node_254",
-            "target": "node_267",
-            "type": "step"
-        },
-        {
             "id": "e270_to_285",
             "source": "node_270",
             "target": "node_285",
@@ -1943,18 +1668,6 @@
             "id": "e279_to_294",
             "source": "node_279",
             "target": "node_294",
-            "type": "step"
-        },
-        {
-            "id": "e279_to_297",
-            "source": "node_279",
-            "target": "node_297",
-            "type": "step"
-        },
-        {
-            "id": "e279_to_298",
-            "source": "node_279",
-            "target": "node_298",
             "type": "step"
         },
         {
@@ -1973,12 +1686,6 @@
             "id": "e284_to_280",
             "source": "node_284",
             "target": "node_280",
-            "type": "step"
-        },
-        {
-            "id": "e284_to_282",
-            "source": "node_284",
-            "target": "node_282",
             "type": "step"
         },
         {
@@ -2033,12 +1740,6 @@
             "id": "e326_to_333",
             "source": "node_326",
             "target": "node_333",
-            "type": "step"
-        },
-        {
-            "id": "e326_to_334",
-            "source": "node_326",
-            "target": "node_334",
             "type": "step"
         },
         {
@@ -2132,33 +1833,9 @@
             "type": "step"
         },
         {
-            "id": "e365_to_375",
-            "source": "node_365",
-            "target": "node_375",
-            "type": "step"
-        },
-        {
-            "id": "e365_to_376",
-            "source": "node_365",
-            "target": "node_376",
-            "type": "step"
-        },
-        {
             "id": "e366_to_381",
             "source": "node_366",
             "target": "node_381",
-            "type": "step"
-        },
-        {
-            "id": "e366_to_379",
-            "source": "node_366",
-            "target": "node_379",
-            "type": "step"
-        },
-        {
-            "id": "e366_to_380",
-            "source": "node_366",
-            "target": "node_380",
             "type": "step"
         },
         {

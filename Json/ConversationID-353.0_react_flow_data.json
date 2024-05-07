@@ -7,30 +7,8 @@
                 "label": "PlayLoopedMusic(\"R_Alliances\", \"R_Alliances_Loop\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_18",
-            "type": "customNode",
-            "data": {
-                "label": "PlayLoopedMusic(\"R_Alliances\", \"R_Alliances_Loop\");\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_18",
-            "type": "customNode",
-            "data": {
-                "label": "PlayLoopedMusic(\"R_Alliances\", \"R_Alliances_Loop\");\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +18,8 @@
                 "label": "AddConversant(\"Laurento Esquibel\");\\nAddConversant(\"Elena Werner\");\\nAddConversant(\"Hugo Toras\");\\nAddConversant(\"Lucita Azaro\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +29,8 @@
                 "label": "RiziaDLC.Arbitration_TotalSupport >= 5\\n\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +40,8 @@
                 "label": "RiziaDLC.Diplomacy_Derdia_NegotiatingPower >= 2 || (RiziaDLC.Diplomacy_Derdia_ANSpeech_MakeHappy == true || RiziaDLC.Decision_Turn05_DerdiaANSupport_Given == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +51,8 @@
                 "label": "RiziaDLC.Situation_Diplomacy_Pales_ANDORArbitration == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +62,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_DiplomaticArbitration_WonHalf == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +73,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_DiplomaticArbitration_WonHalf == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +84,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_GasField_Buy == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +95,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_GasField_Buy == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +106,8 @@
                 "label": "Narrator\n\nVina and I walked into the council chambers. The councilors were already seated and waiting for us."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +117,8 @@
                 "label": "Player_Romus\n\n\"Councilors.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +128,8 @@
                 "label": "Narrator\n\nThe councilors gave me weirdly uncomfortable looks."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,8 +139,8 @@
                 "label": "Narrator\n\nHe gestured at Elena."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "Narrator\n\nHe then turned to Vina and bowed again."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "Hugo Toras\n\n\"We also have some news from Mr. Esquibel regarding Pales and the Aureus Gas Field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "Laurento Esquibel\n\n\"Your Majesty, the result from the AN Arbitration Committee has just come in.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "Laurento Esquibel\n\n\"They ruled that both Pales and Rizia are subject to the same international maritime laws, and that the overlap in maritime borders gives both countries equal rights to the field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "Laurento Esquibel\n\n\"Very fortunately, the Arbitration Committee rejected Pales' argument about Caleqebiz not having the same maritime radius as mainland Rizia -- acknowledging our right to the Aureus Gas Field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -238,8 +216,8 @@
                 "label": "Lucita Azaro\n\n\"He's not aiding us, Your Majesty. The current maritime laws work in Valgsland's favor.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +227,8 @@
                 "label": "RiziaDLC.Turn05_ITZVote_Nationalization == true || RiziaDLC.MITZ_ScrewedOverLespia == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,8 +238,8 @@
                 "label": "Laurento Esquibel\n\n\"That is correct. Agreeing with the Palesian interpretation would have opened the discussion for the re-evaluation of the Valgish maritime borders as well.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +249,8 @@
                 "label": "Laurento Esquibel\n\n\"As a result, they agreed to divide the gas field in half, granting both of our countries an equal share.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +260,8 @@
                 "label": "Lucita Azaro\n\n\"You are correct, Your Majesty. I still don't see this as a positive outcome.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +271,8 @@
                 "label": "Player_Romus\n\n\"Thank you for your hard work, Mr. Esquibel. Your contributions in our diplomatic efforts deserve credit for this result.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +282,8 @@
                 "label": "Player_Romus\n\n\"I'm not going to share that field with the Duke. That's for sure.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +293,8 @@
                 "label": "Laurento Esquibel\n\n\"According to the maritime borders they established, the field falls inside the Palesian EEZ.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -326,8 +304,8 @@
                 "label": "Laurento Esquibel\n\n\"The Committee agreed with the Palesian argument about Caleqebiz not having the same maritime radius as mainland Rizia -- acknowledging their sole ownership of the Aureus Gas Field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -337,8 +315,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -348,8 +326,8 @@
                 "label": "Player_Romus\n\n\"This is what we feared they would do. We should plan our next steps.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -359,8 +337,8 @@
                 "label": "Lucita Azaro\n\n\"Pales is playing a dangerous game against us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -370,8 +348,8 @@
                 "label": "Lucita Azaro\n\n\"He's not supporting us, Your Majesty. The current maritime laws work in Valgsland's favor.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -381,52 +359,8 @@
                 "label": "Laurento Esquibel\n\n\"The AN furthermore ruled that the committee members are obliged to enforce the outcome.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"The AN furthermore ruled that the committee members are obliged to enforce the outcome.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"The AN furthermore ruled that the committee members are obliged to enforce the outcome.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"The AN furthermore ruled that the committee members are obliged to enforce the outcome.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_128",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"The AN furthermore ruled that the committee members are obliged to enforce the outcome.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -436,30 +370,8 @@
                 "label": "Turn6_CouncilMeeting_Jump1\n\nTurn6_CouncilMeeting_Jump1"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "customNode",
-            "data": {
-                "label": "Turn6_CouncilMeeting_Jump1\n\nTurn6_CouncilMeeting_Jump1"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "customNode",
-            "data": {
-                "label": "Turn6_CouncilMeeting_Jump1\n\nTurn6_CouncilMeeting_Jump1"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -469,8 +381,8 @@
                 "label": "Lucita Azaro\n\n\"Yes, but we can't let Pales win this fight.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -480,8 +392,8 @@
                 "label": "Laurento Esquibel\n\n\"I must congratulate you again, Your Majesty, for brokering such a deal and getting the rights to the Aureus Gas Field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -491,19 +403,8 @@
                 "label": "Laurento Esquibel\n\n\"Your Majesty, the date of your meeting with Duke Reinhart to officially cede the Aureus field to Pales is confirmed, and will take place in two months.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "customNode",
-            "data": {
-                "label": "Laurento Esquibel\n\n\"Your Majesty, the date of your meeting with Duke Reinhart to officially cede the Aureus field to Pales is confirmed, and will take place in two months.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -513,8 +414,8 @@
                 "label": "Laurento Esquibel\n\n\"I am hoping this will reflect well for peace in the region.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -524,41 +425,8 @@
                 "label": "Player_Romus\n\n\"Thank you for letting me know.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Thank you for letting me know.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Thank you for letting me know.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Thank you for letting me know.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -568,8 +436,8 @@
                 "label": "!(RiziaDLC.Trait_TyrantKing == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -579,8 +447,8 @@
                 "label": "!(RiziaDLC.Trait_TyrantKing == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -590,8 +458,8 @@
                 "label": "Lucita Azaro\n\n\"With all due respect, Your Majesty, this was hardly a necessary sacrifice.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -601,8 +469,8 @@
                 "label": "Lucita Azaro\n\n\"The law supports our ownership of at least half of Aureus. Possibly even the entire field--"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -612,8 +480,8 @@
                 "label": "Laurento Esquibel\n\n\"Your comments are appreciated but the deal is already settled, Duchess Azaro.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -623,19 +491,8 @@
                 "label": "Player_Romus\n\n\"Thank you for your comments, Duchess, but let's move on with the meeting.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_159",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Thank you for your comments, Duchess, but let's move on with the meeting.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -645,8 +502,8 @@
                 "label": "Player_Romus\n\n\"No. Her comments are not appreciated at all. Are you questioning me, Duchess Azaro?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -656,8 +513,8 @@
                 "label": "Player_Romus_Italic\n\nI did not say anything.\n\nStay silent."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -667,8 +524,8 @@
                 "label": "Player_Romus\n\n\"Thank you for your comments, Duchess, but let's move on with the meeting.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -678,8 +535,8 @@
                 "label": "Player_Romus\n\n\"No. Her comments are not appreciated at all. Are you questioning me, Duchess Azaro?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -689,8 +546,8 @@
                 "label": "Player_Romus_Italic\n\nI did not say anything.\n\nStay silent."
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +557,8 @@
                 "label": "Narrator\n\nThe councilors made an effort to laugh at my comment."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -711,8 +568,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true \n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -722,8 +579,8 @@
                 "label": "!(RiziaDLC.Situation_Economy_EnergyCrisis == true )\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -733,8 +590,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -744,8 +601,8 @@
                 "label": "Vina Toras\n\n\"I don't think he was aiding us, Your Majesty. The current maritime laws work in Valgsland's favor.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -755,8 +612,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -766,8 +623,8 @@
                 "label": "Vina Toras\n\n\"I don't think he was supporting us, Your Majesty. The current maritime laws work in Valgsland's favor.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -777,8 +634,8 @@
                 "label": "Vina Toras\n\n\"I knew the AN would see reason. I'm happy that it worked out in our favor.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -788,8 +645,8 @@
                 "label": "Player_Romus\n\n\"Great. At least Duke Reinhart has now learned his place.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -799,41 +656,8 @@
                 "label": "Hugo Toras\n\n\"Let's hope that Duke Reinhart has now learned his place.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_187",
-            "type": "customNode",
-            "data": {
-                "label": "Hugo Toras\n\n\"Let's hope that Duke Reinhart has now learned his place.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_187",
-            "type": "customNode",
-            "data": {
-                "label": "Hugo Toras\n\n\"Let's hope that Duke Reinhart has now learned his place.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_187",
-            "type": "customNode",
-            "data": {
-                "label": "Hugo Toras\n\n\"Let's hope that Duke Reinhart has now learned his place.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,30 +667,8 @@
                 "label": "Player_Romus\n\n\"I'm afraid that's not going to happen.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_188",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I'm afraid that's not going to happen.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_188",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I'm afraid that's not going to happen.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -876,8 +678,8 @@
                 "label": "Player_Romus\n\n\"Of course, they would.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -887,8 +689,8 @@
                 "label": "Player_Romus\n\n\"You've heard it, Duchess. Time to bring our navy back home.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -898,8 +700,8 @@
                 "label": "Player_Romus\n\n\"No obligation of the AN is binding. None of those countries would risk initiating a direct conflict with us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -909,8 +711,8 @@
                 "label": "Laurento Esquibel\n\n\"Unfortunately, yes, Your Majesty.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -920,8 +722,8 @@
                 "label": "!(RiziaDLC.Trait_TyrantKing == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -931,8 +733,8 @@
                 "label": "Player_Romus\n\n\"No. Her comments are not appreciated at all. Are you questioning me, Duchess Azaro?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -942,8 +744,8 @@
                 "label": "Player_Romus_Italic\n\nI did not say anything.\n\nStay silent."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -953,8 +755,8 @@
                 "label": "Player_Romus\n\n\"No, Mr. Esquibel, nothing is settled yet. I want to hear the Duchess.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -964,8 +766,8 @@
                 "label": "Narrator\n\nLaurento looked worried."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -975,8 +777,8 @@
                 "label": "RiziaDLC.Trait_TyrantKing == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -986,8 +788,8 @@
                 "label": "!(RiziaDLC.Trait_TyrantKing == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -997,8 +799,8 @@
                 "label": "Laurento Esquibel\n\n\"But what are you suggesting, Your Grace?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1008,8 +810,8 @@
                 "label": "Narrator\n\nLucita had concern in her eyes."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1019,8 +821,8 @@
                 "label": "Narrator\n\nLucita nodded in approval."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1030,8 +832,8 @@
                 "label": "Narrator\n\nShe looked at me with surprise and concern."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1041,8 +843,8 @@
                 "label": "RiziaDLC.PersonalValue_Tyrant += 1;\\nRiziaDLC.Relations_Lucita_Romance -= 1;\\nRiziaDLC.Country_HouseAzaro -= 1;\\n\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1052,8 +854,8 @@
                 "label": "Lucita Azaro\n\n\"I agree, Your Majesty. I say we keep our navy in place and assert our sovereignty.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1063,8 +865,8 @@
                 "label": "Laurento Esquibel\n\n\"Such a move will put us in a very precarious situation. There is no way the international community will approve of this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1074,19 +876,8 @@
                 "label": "Player_Romus\n\n\"No. I agree with the Duchess. We will not back off.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_235",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No. I agree with the Duchess. We will not back off.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1096,8 +887,8 @@
                 "label": "Player_Romus\n\n\"You are right. We cannot risk going against the AN. We have to pull back for the time being.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1107,8 +898,8 @@
                 "label": "Narrator\n\nLaurento and Elena looked worried."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1118,8 +909,8 @@
                 "label": "Hugo Toras\n\n\"Of course.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1129,8 +920,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1140,8 +931,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1151,8 +942,8 @@
                 "label": "Laurento Esquibel\n\n\"Needless to say, the resolution also requires us to pull back our navy from blocking the field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1162,8 +953,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1173,8 +964,8 @@
                 "label": "Hugo Toras\n\n\"According to Ms Werner's reports, Rizia seems to be slipping into a serious energy crisis.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1184,8 +975,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1195,8 +986,8 @@
                 "label": "!(RiziaDLC.Situation_Economy_EnergyCrisis == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1206,8 +997,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1217,8 +1008,8 @@
                 "label": "!(RiziaDLC.Situation_Economy_EnergyCrisis == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1228,8 +1019,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1239,19 +1030,8 @@
                 "label": "Elena Werner\n\n\"This is good news for our depleting energy situation. Although it may not be enough for the short term, Aureus is estimated to have enough gas to seriously help us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_256",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"This is good news for our depleting energy situation. Although it may not be enough for the short term, Aureus is estimated to have enough gas to seriously help us.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1261,19 +1041,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_257",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1283,8 +1052,8 @@
                 "label": "Player_Romus\n\n\"With an energy crisis at hand, I'm not going to share that field with the Duke. That's for sure.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1294,8 +1063,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 540.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1305,19 +1074,8 @@
                 "label": "Elena Werner\n\n\"Especially with our depleting resources. Aureus could have brought us much-needed energy.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_264",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"Especially with our depleting resources. Aureus could have brought us much-needed energy.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1327,8 +1085,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1338,8 +1096,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1349,8 +1107,8 @@
                 "label": "Lucita Azaro\n\n\"We are in an energy crisis and we cannot allow them to steal our resources from us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1360,8 +1118,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1371,8 +1129,8 @@
                 "label": "Lucita Azaro\n\n\"Especially in light of a looming energy crisis.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1382,8 +1140,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1393,8 +1151,8 @@
                 "label": "!(RiziaDLC.Situation_Economy_EnergyCrisis == true )\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1404,8 +1162,8 @@
                 "label": "Player_Romus\n\n\"We didn't lose anything yet, Ms. Werner.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1415,8 +1173,8 @@
                 "label": "RiziaDLC.Country_HouseAzaro >= 3 || RiziaDLC.Relations_Lucita_Together == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1426,8 +1184,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1437,8 +1195,8 @@
                 "label": "Elena Werner\n\n\"This is good news for our depleting energy situation. Hopefully, the gas from the field provides us a little relief.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1448,8 +1206,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1459,8 +1217,8 @@
                 "label": "Player_Romus\n\n\"I am hoping this will help us contain the energy situation.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1470,8 +1228,8 @@
                 "label": "Laurento Esquibel\n\n\"If there are no other comments on this topic... That was the extent of the news from my side.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1481,8 +1239,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1492,8 +1250,8 @@
                 "label": "Elena Werner\n\n\"This isn't good situation to be in when we have an energy crisis. The loss of our claim to Aureus could have brought us the much needed energy.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1503,8 +1261,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1514,30 +1272,8 @@
                 "label": "//\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_307",
-            "type": "customNode",
-            "data": {
-                "label": "//\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_307",
-            "type": "customNode",
-            "data": {
-                "label": "//\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1547,8 +1283,8 @@
                 "label": "Hugo Toras\n\n\"That settles it, then. If there are no other comments on this topic, we can move on.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1558,8 +1294,8 @@
                 "label": "Player_Romus\n\n\"If there are no more comments, let's move on with the meeting.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 500
             }
         },
         {
@@ -1569,8 +1305,8 @@
                 "label": "Player_Romus_Italic\n\nI did not say anything.\n\nStay silent."
             },
             "position": {
-                "x": 540.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1580,8 +1316,8 @@
                 "label": "!(RiziaDLC.Situation_Economy_EnergyCrisis == true \\n&&( RiziaDLC.Country_HouseAzaro >= 3 || RiziaDLC.Relations_Lucita_Together == true))\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1591,8 +1327,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1602,8 +1338,8 @@
                 "label": "!(RiziaDLC.Situation_Economy_EnergyCrisis == false)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1613,8 +1349,8 @@
                 "label": "Player_Romus\n\n\"Nothing is set in stone until I sign that paper with the duke.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1624,8 +1360,8 @@
                 "label": "Player_Romus\n\n\"I don't know yet. I will try to bring up our new concerns to the Duke when I meet him.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1635,8 +1371,8 @@
                 "label": "Narrator\n\nShe looked at me with surprise and concern."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1646,8 +1382,8 @@
                 "label": "RiziaDLC.PersonalValue_Tyrant += 1;\\nRiziaDLC.Relations_Lucita_Romance -= 1;\\nRiziaDLC.Country_HouseAzaro -= 1;\\n\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1657,8 +1393,8 @@
                 "label": "Player_Romus\n\n\"Nothing is set in stone until I sign that paper with the duke.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1668,8 +1404,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1679,8 +1415,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1690,8 +1426,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1701,8 +1437,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1712,8 +1448,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1723,8 +1459,8 @@
                 "label": "Lucita Azaro\n\n\"Right away, Your Majesty.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1734,8 +1470,8 @@
                 "label": "Player_Romus\n\n\"Nothing. Let's just wait and see how their meeting will go first.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1745,8 +1481,8 @@
                 "label": "Laurento Esquibel\n\n\"I understand. But I warn against going against a deal we've already agreed upon.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1756,8 +1492,8 @@
                 "label": "RiziaDLCIsolated.Turn06_Intention_Pales_Aggressive = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1767,8 +1503,8 @@
                 "label": "Laurento Esquibel\n\n\"What do you mean, Your Majesty?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -1778,19 +1514,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship_DeployedAfterAN = true;\\nRiziaDLC.Diplomacy_Pales_Military_BlockDrillship = true;\\nRiziaDLCSupport.Reports_Turn06_Aureus_NavyDeployedAfterAN = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesPositiveAN = true;\\nRiziaDLC.Resources_Authority += 2;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_350",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship_DeployedAfterAN = true;\\nRiziaDLC.Diplomacy_Pales_Military_BlockDrillship = true;\\nRiziaDLCSupport.Reports_Turn06_Aureus_NavyDeployedAfterAN = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesPositiveAN = true;\\nRiziaDLC.Resources_Authority += 2;\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -1800,8 +1525,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1811,8 +1536,8 @@
                 "label": "Player_Romus\n\n\"We will send the navy to block Palesian drill-ships from extraction and keep the pressure on Pales.\"\n\n\"We will send the navy to block Palesian drill-ships from extraction and keep the pressure on Pales.\" [+2 Authority]"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1822,8 +1547,8 @@
                 "label": "Player_Romus\n\n\"I was just talking about our long-term goals. For now, we will respect the decision of the AN.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1833,8 +1558,8 @@
                 "label": "Player_Romus\n\n\"Regardless, I'm pleased with the outcome for now.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1844,8 +1569,8 @@
                 "label": "RiziaDLC.Diplomacy_Lespia_GasField_25PercentDeal == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 250
             }
         },
         {
@@ -1855,8 +1580,8 @@
                 "label": "RiziaDLC.Diplomacy_Lespia_GasField_25PercentDeal == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1866,8 +1591,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Lespia_GasField_25PercentDeal == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1877,8 +1602,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship_DeployedAfterAN = true;\\nRiziaDLC.Diplomacy_Pales_Military_BlockDrillship = true;\\nRiziaDLCSupport.Reports_Turn06_Aureus_NavyDeployedAfterAN = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesNegativeAN = true;\\nRiziaDLC.Resources_Authority += 2;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1888,8 +1613,8 @@
                 "label": "Laurento Esquibel\n\n\"Your Majesty, Prime Minister Alvarez will be ratifying his gas deal with Duke Reinhart in two months.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1899,8 +1624,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1910,8 +1635,8 @@
                 "label": "Elena Werner\n\n\"Let's hope he holds up his end of the bargain. Although as we have already determined, we won't be getting a lot of energy out of this deal.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 2250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1921,8 +1646,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1932,8 +1657,8 @@
                 "label": "Laurento Esquibel\n\n\"After Princess Vina's successful talks, the date of your meeting with Duke Reinhart to finalize our deal is confirmed, and will take place in two months.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1943,8 +1668,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1954,8 +1679,8 @@
                 "label": "Player_Romus\n\n\"I'll be honest, I'm not sure if this was the right decision anymore.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1965,8 +1690,8 @@
                 "label": "Lucita Azaro\n\n\"I agree with that, Your Majesty. We must keep the pressure up.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1976,8 +1701,8 @@
                 "label": "Elena Werner\n\n\"I don't see what good that does for us when we have already acquired half of the rights to the field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1987,8 +1712,8 @@
                 "label": "Player_Romus\n\n\"You heard me. I have already decided. Our navy will stay in place.\"\n\n\"You heard me. I have already decided. Our navy will stay in place.\" [+1 Authority]"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1998,8 +1723,8 @@
                 "label": "Player_Romus\n\n\"You are right. We cannot risk going against the AN. We have to pull back for the time being.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2009,8 +1734,8 @@
                 "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true \n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2020,8 +1745,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2031,8 +1756,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2042,8 +1767,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship_DeployedAfterAN = true;\\nRiziaDLC.Diplomacy_Pales_Military_BlockDrillship = true;\\nRiziaDLCSupport.Reports_Turn06_Aureus_NavyDeployedAfterAN = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesPositiveAN = true;\\nRiziaDLC.Resources_Authority += 2;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2053,8 +1778,8 @@
                 "label": "Player_Romus\n\n\"You've heard Ms. Werner, we need that energy. We will deploy our navy immediately.\"\n\n\"You've heard Ms. Werner, we need that energy. We will deploy our navy immediately.\" [+2 Authority]"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2064,8 +1789,8 @@
                 "label": "Player_Romus\n\n\"I trust Mr. Alvarez to deliver. This is what he wanted all along, after all.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2075,8 +1800,8 @@
                 "label": "Lucita Azaro\n\n\"Are we forgetting the ties that were found between Pales and the bombing in Zille? What if Reinhart was trying to weaken us to achieve precisely this result?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2086,8 +1811,8 @@
                 "label": "Narrator\n\nThe councillors went silent. They waited for me to explain what I meant."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2097,30 +1822,8 @@
                 "label": "Lucita Azaro\n\n\"I agree with that, Your Majesty. We must keep the pressure up.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_413",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"I agree with that, Your Majesty. We must keep the pressure up.\""
-            },
-            "position": {
-                "x": 270.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_413",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"I agree with that, Your Majesty. We must keep the pressure up.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -2130,8 +1833,8 @@
                 "label": "Elena Werner\n\n\"As much as the gas in Aureus is incredibly valuable for us, I don't see how we can acquire it after the AN's resolution against us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2141,8 +1844,8 @@
                 "label": "Player_Romus\n\n\"Please don't make me repeat myself.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2152,8 +1855,8 @@
                 "label": "Narrator\n\nHe fell silent and simply nodded."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -2163,8 +1866,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship = false;\\nRiziaDLCSupport.Reports_Turn06_Aureus_NavyFallsBack = true;\\nRiziaDLCSupport.Reports_Turn06_Mermi_SuOminaBoatRally = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyRetreatsNegativeAN = true;\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2174,8 +1877,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship = false;\\n\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2185,8 +1888,8 @@
                 "label": "Player_Romus\n\n\"What did we obtain, really? That whole field is going to be ours. It's time we take Pales back.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2196,8 +1899,8 @@
                 "label": "Narrator\n\nLaurento looked down at the table. Elena raised an eyebrow."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2207,8 +1910,8 @@
                 "label": "Hugo Toras\n\n\"Ms. Werner has some important reports to share about our current energy situation.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 2250
             }
         },
         {
@@ -2218,8 +1921,8 @@
                 "label": "Hugo Toras\n\n\"I believe it's time to wrap this up.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2229,8 +1932,8 @@
                 "label": "Narrator\n\nVina and I stood up and left the chambers."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2240,8 +1943,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2251,8 +1954,8 @@
                 "label": "Vina Toras\n\n\"Father... Are we really going to go against the Alliance of Nations?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2262,30 +1965,8 @@
                 "label": "RiziaDLCIsolated.Turn06_Intention_Pales_Aggressive == true || RiziaDLC.Intention_Pales_DeclareWar == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_437",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn06_Intention_Pales_Aggressive == true || RiziaDLC.Intention_Pales_DeclareWar == true\n\nnan"
-            },
-            "position": {
-                "x": 540.0,
-                "y": 1250.0
-            }
-        },
-        {
-            "id": "node_437",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn06_Intention_Pales_Aggressive == true || RiziaDLC.Intention_Pales_DeclareWar == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2295,8 +1976,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true && RiziaDLC.Situation_Diplomacy_Pales_ANDORArbitration == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2306,8 +1987,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true && RiziaDLC.Situation_Diplomacy_Pales_ANDORArbitration == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2317,8 +1998,8 @@
                 "label": "Vina Toras\n\n\"Father... I want to be honest with you. I'm a little concerned about all this aggression talk against Pales.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2328,52 +2009,8 @@
                 "label": "Player_Romus\n\n\"No, Vina. We only go against injustice.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_445",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No, Vina. We only go against injustice.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_445",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No, Vina. We only go against injustice.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_445",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No, Vina. We only go against injustice.\""
-            },
-            "position": {
-                "x": 270.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_445",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No, Vina. We only go against injustice.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2383,8 +2020,8 @@
                 "label": "Player_Romus\n\n\"Yes. But don't worry. They can't do anything to us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2394,30 +2031,8 @@
                 "label": "Narrator\n\nI left the chambers."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_453",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI left the chambers."
-            },
-            "position": {
-                "x": 270.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_453",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI left the chambers."
-            },
-            "position": {
-                "x": 540.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2427,8 +2042,8 @@
                 "label": "RiziaDLC.Diplomacy_Lespia_GasField_25PercentDeal == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2438,8 +2053,8 @@
                 "label": "Vina Toras\n\n\"Father... Do you believe in proper cooperation with the Palesians?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2449,19 +2064,8 @@
                 "label": "Vina Toras\n\n\"But... Won't the AN retaliate for this?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_459",
-            "type": "customNode",
-            "data": {
-                "label": "Vina Toras\n\n\"But... Won't the AN retaliate for this?\""
-            },
-            "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2471,41 +2075,8 @@
                 "label": "RiziaDLC.Relations_Vina -= 1\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_460",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Relations_Vina -= 1\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_460",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Relations_Vina -= 1\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_460",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Relations_Vina -= 1\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2515,8 +2086,8 @@
                 "label": "Player_Romus\n\n\"I am concerned as well, but if it comes down to it, we'll have to be able to strike.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2526,8 +2097,8 @@
                 "label": "Player_Romus\n\n\"Pales is part of our mainland, Vina, and they will eventually join Rizia. If peace doesn't work, we will consider force.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2537,8 +2108,8 @@
                 "label": "Player_Romus\n\n\"I have to do whatever it takes to reach an outcome that benefits Rizia.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 2000.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -2548,8 +2119,8 @@
                 "label": "Player_Romus\n\n\"I don't like it when you criticize me, Vina.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2559,8 +2130,8 @@
                 "label": "Player_Romus\n\n\"I'd like to believe so, Vina.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2570,8 +2141,8 @@
                 "label": "Player_Romus\n\n\"There are no 'Palesians', Vina. They are Rizian people governed by a Valgish family.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2581,8 +2152,8 @@
                 "label": "Vina Toras\n\n\"I thought I was part of the council, Father.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2592,8 +2163,8 @@
                 "label": "Player_Romus\n\n\"Not if you keep acting like this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -2603,8 +2174,8 @@
                 "label": "Player_Romus\n\n\"I just said I don't like it. I don't want to have any conflict with my daughter.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2614,8 +2185,8 @@
                 "label": "Player_Romus\n\n\"There's nothing *extreme* about this. And I don't like your tone, Vina.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2625,8 +2196,8 @@
                 "label": "//\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2636,8 +2207,8 @@
                 "label": "Vina Toras\n\n\"I understand. But that surely doesn't need to involve more blood.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2647,8 +2218,8 @@
                 "label": "Vina Toras\n\n\"I... I don't know.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2658,8 +2229,8 @@
                 "label": "Player_Romus\n\n\"I'm sure it won't come to that.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2669,8 +2240,8 @@
                 "label": "//\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2680,8 +2251,8 @@
                 "label": "Vina Toras\n\n\"I'm not trying to create conflict. I just told you how I feel.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2691,30 +2262,8 @@
                 "label": "Narrator\n\nI walked to the royal quarters of the palace."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_490",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI walked to the royal quarters of the palace."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_490",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI walked to the royal quarters of the palace."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2724,8 +2273,8 @@
                 "label": "Vina Toras\n\n\"I agree. And I'm willing to do my part in that, if I'm ever needed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 1250
             }
         },
         {
@@ -2735,8 +2284,8 @@
                 "label": "Vina Toras\n\n\"Me too. And I'm willing to do my part in achieving cooperation, if I'm ever needed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2746,8 +2295,8 @@
                 "label": "Vina Toras\n\n\"You might be right. But I really hope we cooperate.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2757,30 +2306,8 @@
                 "label": "Player_Romus\n\n\"I hope so.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_496",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I hope so.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_496",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I hope so.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2790,8 +2317,8 @@
                 "label": "Player_Romus\n\n\"I don't like what you're saying, Vina.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2801,8 +2328,8 @@
                 "label": "Player_Romus\n\n\"I don't think that changes anything.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2812,52 +2339,8 @@
                 "label": "Player_Romus\n\n\"It is. But not favorable enough. I won't accept being equal partners with Pales.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_509",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It is. But not favorable enough. I won't accept being equal partners with Pales.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_509",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It is. But not favorable enough. I won't accept being equal partners with Pales.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_509",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It is. But not favorable enough. I won't accept being equal partners with Pales.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_509",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"It is. But not favorable enough. I won't accept being equal partners with Pales.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2867,8 +2350,8 @@
                 "label": "Player_Romus\n\n\"This is not about the resolution. It is about sending a message to Duke Reinhart.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2878,8 +2361,8 @@
                 "label": "Player_Romus\n\n\"Don't worry, Vina. I'll have everything under control.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -2889,52 +2372,8 @@
                 "label": "Elena Werner\n\n\"This is very bad news for our energy situation.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_520",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"This is very bad news for our energy situation.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_520",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"This is very bad news for our energy situation.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_520",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"This is very bad news for our energy situation.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_520",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"This is very bad news for our energy situation.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2944,8 +2383,8 @@
                 "label": "Elena Werner\n\n\"Although I'm supportive of our cooperation with Pales, claiming at least part of Aureus could have brought us incredible relief.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2955,8 +2394,8 @@
                 "label": "Player_Romus\n\n\"Despite the positive outcome, I don't intend to respect the resolution.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2966,8 +2405,8 @@
                 "label": "Player_Romus\n\n\"This isn't about the gas field anymore. It's time we take Pales back.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 1500.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -2977,8 +2416,8 @@
                 "label": "Player_Romus\n\n\"They condemn all they want. That whole field is going to be ours. It's time we take Pales back.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 540,
+                "y": 1000
             }
         },
         {
@@ -2988,8 +2427,8 @@
                 "label": "Jump_DiplomaticCedeBranch\n\nJump_DiplomaticCedeBranch"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2999,8 +2438,8 @@
                 "label": "Jump to: [Jump_DiplomaticCedeBranch]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3010,8 +2449,8 @@
                 "label": "Player_Romus\n\n\"No. We cannot let Lespia win.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -3021,8 +2460,8 @@
                 "label": "Player_Romus\n\n\"We can't let Lespia take ownership of Aureus. We will back off from ceding our rights and send the navy to exert our claim on the field.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 500.0
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -3032,8 +2471,8 @@
                 "label": "Narrator\n\nThe councillors went silent. They waited for me to explain what I meant."
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -3043,8 +2482,8 @@
                 "label": "//\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3054,8 +2493,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": 540.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3065,8 +2504,8 @@
                 "label": "Player_Romus\n\n\"For the time being, we will keep our Navy at the field and will not let any Palesian ships nearby. If they fire at us, we will declare war.\"\n\n\"For the time being, we will keep our Navy at the field and will not let any Palesian ships nearby. If they fire at us, we will declare war.\" [+1 Authority]"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3076,8 +2515,8 @@
                 "label": "Player_Romus\n\n\"You've heard me. We've long waited to reunite with Pales -- that time has come. We will prepare to invade them.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3087,8 +2526,8 @@
                 "label": "Jump to: [Narrator: \"Laurento looked down at the table....\"]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3098,8 +2537,8 @@
                 "label": "Player_Romus\n\n\"You've heard me. We've long waited to reunite with Pales -- that time has come. We will prepare to invade them.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 2000
             }
         },
         {
@@ -3109,8 +2548,8 @@
                 "label": "Player_Romus\n\n\"We can't let Lespia take ownership of Aureus. We will back off from ceding our rights and send the navy to exert our claim on the field.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1750
             }
         },
         {
@@ -3120,8 +2559,8 @@
                 "label": "Lucita Azaro\n\n\"I agree with that, Your Majesty. We must keep the pressure up.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3131,8 +2570,8 @@
                 "label": "Laurento Esquibel\n\n\"Such a move will put us in a very precarious situation. There is no way the international community will approve of this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 1250
             }
         },
         {
@@ -3142,8 +2581,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship_DeployedAfterAN = true;\\nRiziaDLC.Diplomacy_Pales_Military_BlockDrillship = true;\\nRiziaDLCSupport.Reports_Turn06_Aureus_NavyDeployedAfterAN = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesNegativeAN = true;\\nRiziaDLC.Resources_Authority += 2;\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3153,8 +2592,8 @@
                 "label": "Hugo Toras\n\n\"That settles it, then. A strong response.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3164,8 +2603,8 @@
                 "label": "Lucita Azaro\n\n\"I will organize the Navy immediately.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3175,8 +2614,8 @@
                 "label": "Hugo Toras\n\n\"That settles it, then. A strong response.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3186,8 +2625,8 @@
                 "label": "Hugo Toras\n\n\"I didn't expect to hear this, to say the least.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -3197,8 +2636,8 @@
                 "label": "Lucita Azaro\n\n\"We've all heard the King, Mr. Esquibel.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3208,8 +2647,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3219,8 +2658,8 @@
                 "label": "!(RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3230,8 +2669,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3241,8 +2680,8 @@
                 "label": "Vina Toras\n\n\"I don't really think this is necessary.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3252,8 +2691,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 540.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3263,8 +2702,8 @@
                 "label": "Vina Toras\n\n\"I don't really think this is necessary.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3274,8 +2713,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 540.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3285,8 +2724,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3296,8 +2735,8 @@
                 "label": "Narrator\n\nVina looked at me in shock."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3307,8 +2746,8 @@
                 "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3318,8 +2757,8 @@
                 "label": "Vina Toras\n\n\"This seems hardly necessary...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3329,8 +2768,8 @@
                 "label": "Vina Toras\n\n\"Father? Really?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3340,8 +2779,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship = true;\\nRiziaDLC.Diplomacy_Pales_GasField_CedeCancelled = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3351,8 +2790,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3362,8 +2801,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_PrepareForWar == true)\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3373,8 +2812,8 @@
                 "label": "RiziaDLC.War_Incident_Border = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3384,8 +2823,8 @@
                 "label": "RiziaDLC.Intention_Pales_DeclareWar = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3395,8 +2834,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_GasField_Buy == true && RiziaDLC.Diplomacy_Pales_GasField_BuyCancelled == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3406,8 +2845,8 @@
                 "label": "RiziaDLC.Intention_Pales_DeclareWar == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3417,8 +2856,8 @@
                 "label": "Vina Toras\n\n\"I just don't think shedding more blood would solve anything.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3428,41 +2867,8 @@
                 "label": "Player_Romus\n\n\"I'm sorry but we are going to war, Vina. Sooner you accept that easier it will be.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_608",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I'm sorry but we are going to war, Vina. Sooner you accept that easier it will be.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_608",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I'm sorry but we are going to war, Vina. Sooner you accept that easier it will be.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_608",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I'm sorry but we are going to war, Vina. Sooner you accept that easier it will be.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -3472,8 +2878,8 @@
                 "label": "RiziaDLC.Intention_Pales_DeclareWar == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3483,8 +2889,8 @@
                 "label": "Vina Toras\n\n\"Father... You just told the council you'll declare war if Pales counters our blockade.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3494,41 +2900,8 @@
                 "label": "Jump to: [Vina Toras: \"\"Father... You just told the counci...\"]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1750.0
-            }
-        },
-        {
-            "id": "node_613",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [Vina Toras: \"\"Father... You just told the counci...\"]\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_613",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [Vina Toras: \"\"Father... You just told the counci...\"]\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_613",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [Vina Toras: \"\"Father... You just told the counci...\"]\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3538,8 +2911,8 @@
                 "label": "Vina Toras\n\n\"Alright...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3549,8 +2922,8 @@
                 "label": "Vina Toras\n\n\"It's just...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3560,8 +2933,8 @@
                 "label": "Player_Romus\n\n\"I hope the same, believe me. But sometimes our hands are forced.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3571,8 +2944,8 @@
                 "label": "Player_Romus\n\n\"With or without conflict, it will work out in the end. That much is sure.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3582,41 +2955,8 @@
                 "label": "Narrator\n\nShe stared at me with a serious face."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_628",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe stared at me with a serious face."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_628",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe stared at me with a serious face."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_628",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe stared at me with a serious face."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -3626,8 +2966,8 @@
                 "label": "Player_Romus\n\n\"If it becomes necessary, it will. Now let's go.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 1500
             }
         },
         {
@@ -3637,8 +2977,8 @@
                 "label": "Vina Toras\n\n\"And don't forget. I'm willing to do my part in that, if I'm ever needed.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -3648,30 +2988,8 @@
                 "label": "Vina Toras\n\n\"That's precisely my point, Father. None of this is a necessity.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_631",
-            "type": "customNode",
-            "data": {
-                "label": "Vina Toras\n\n\"That's precisely my point, Father. None of this is a necessity.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_631",
-            "type": "customNode",
-            "data": {
-                "label": "Vina Toras\n\n\"That's precisely my point, Father. None of this is a necessity.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3681,8 +2999,8 @@
                 "label": "Vina Toras\n\n\"That's precisely my point, Father. I don't see us being forced to do anything.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3692,8 +3010,8 @@
                 "label": "Vina Toras\n\n\"You're right.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 540,
+                "y": 1000
             }
         },
         {
@@ -3703,8 +3021,8 @@
                 "label": "Player_Romus\n\n\"I don't like it when you criticize me, Vina.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 500
             }
         },
         {
@@ -3714,8 +3032,8 @@
                 "label": "Player_Romus\n\n\"There's nothing *harsh* about what I said. And I don't like your tone, Vina.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -3725,8 +3043,8 @@
                 "label": "Player_Romus\n\n\"I agree. I'd prefer that we don't discuss this now. Let's just leave this place.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3736,8 +3054,8 @@
                 "label": "Jump to: [Vina Toras: \"\"I thought I was part of the counci...\"]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 540,
+                "y": 250
             }
         },
         {
@@ -3747,8 +3065,8 @@
                 "label": "RiziaDLCIsolated.Turn06_Intention_Pales_Aggressive == true || RiziaDLC.Intention_Pales_DeclareWar == true || RiziaDLC.Prologue_HostileToPales == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -3758,8 +3076,8 @@
                 "label": "Vina Toras\n\n\"Thank you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 540,
+                "y": 750
             }
         },
         {
@@ -3769,8 +3087,8 @@
                 "label": "Vina Toras\n\n\"Anyway, Father. I didn't mean to question you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3780,8 +3098,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_PrepareForWar == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3791,8 +3109,8 @@
                 "label": "Vina Toras\n\n\"Father... I want to be honest with you. I think we're making a big mistake.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3802,19 +3120,8 @@
                 "label": "Player_Romus\n\n\"But what? You already know the decision was final.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_662",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"But what? You already know the decision was final.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3824,8 +3131,8 @@
                 "label": "Player_Romus\n\n\"I don't agree with you there, honey.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3835,8 +3142,8 @@
                 "label": "Player_Romus\n\n\"It's okay. We don't need to agree on everything. But you have to respect my decisions.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3846,8 +3153,8 @@
                 "label": "Player_Romus\n\n\"I am concerned as well, but you know our situation, Vina. This is our opportunity to strike.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -3857,8 +3164,8 @@
                 "label": "Vina Toras\n\n\"I thought I was part of the council, Father.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 1000
             }
         },
         {
@@ -3868,8 +3175,8 @@
                 "label": "Player_Romus\n\n\"Not if you keep acting like this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 750
             }
         },
         {
@@ -3879,8 +3186,8 @@
                 "label": "Player_Romus\n\n\"I have to do whatever it takes to reach an outcome that benefits Rizia, Vina.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3890,8 +3197,8 @@
                 "label": "Vina Toras\n\n\"And I don't agree with how you're fuelling the fires of war.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3901,30 +3208,8 @@
                 "label": "Vina Toras\n\n\"I... I don't know. I was naively hoping for you to reconsider, maybe.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_673",
-            "type": "customNode",
-            "data": {
-                "label": "Vina Toras\n\n\"I... I don't know. I was naively hoping for you to reconsider, maybe.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_673",
-            "type": "customNode",
-            "data": {
-                "label": "Vina Toras\n\n\"I... I don't know. I was naively hoping for you to reconsider, maybe.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3934,8 +3219,8 @@
                 "label": "Vina Toras\n\n\"How does our situation call for an invasion?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -3945,8 +3230,8 @@
                 "label": "RiziaDLCIsolated.Turn06_Vina_ThoughtIWasPartoftheCouncil = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3956,8 +3241,8 @@
                 "label": "RiziaDLCIsolated.Turn06_Vina_ThoughtIWasPartoftheCouncil == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -3967,8 +3252,8 @@
                 "label": "Player_Romus\n\n\"Okay. That's enough.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 540,
+                "y": 500
             }
         },
         {
@@ -3978,8 +3263,8 @@
                 "label": "Player_Romus\n\n\"You're just being too naive, honey.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -3989,8 +3274,8 @@
                 "label": "Vina Toras\n\n\"Forget I said anything. Sorry.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 500
             }
         },
         {
@@ -4000,8 +3285,8 @@
                 "label": "Vina Toras\n\n\"I'm not trying to create conflict. I just told you how I feel.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -4011,8 +3296,8 @@
                 "label": "RiziaDLC.Relations_Vina -= 2\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4022,8 +3307,8 @@
                 "label": "Vina Toras\n\n\"Father. Do you realize you're saying this as the authority who's starting an invasion?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4033,8 +3318,8 @@
                 "label": "Narrator\n\nI noticed a surge of fury in her eyes as soon as I said that."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -4044,8 +3329,8 @@
                 "label": "Vina Toras\n\n\"You're right. I'm still a naive young woman.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -4055,8 +3340,8 @@
                 "label": "//\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4066,8 +3351,8 @@
                 "label": "Player_Romus\n\n\"Look, Vina. I know you're against war, but my intention has been to strike Pales one way or another. I want you to understand this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4077,8 +3362,8 @@
                 "label": "Player_Romus\n\n\"Don't worry, Vina. We don't need to spill a lot of blood if we execute a swift operation. This is not against the people but their government.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 1250
             }
         },
         {
@@ -4088,8 +3373,8 @@
                 "label": "Vina Toras\n\n\"So you believe in a quick victory.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -4099,8 +3384,8 @@
                 "label": "Vina Toras\n\n\"I know...\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4110,8 +3395,8 @@
                 "label": "Player_Romus\n\n\"Only *if* they initiate an attack.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4121,8 +3406,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_PrepareForWar == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -4132,8 +3417,8 @@
                 "label": "Vina Toras\n\n\"Isn't that what you expect and wish for?\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -4143,8 +3428,8 @@
                 "label": "Narrator\n\nShe stopped for a moment."
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4154,8 +3439,8 @@
                 "label": "Vina Toras\n\n\"Anyway... I didn't mean to question you.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -4165,8 +3450,8 @@
                 "label": "Player_Romus\n\n\"Why does that matter?\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4176,8 +3461,8 @@
                 "label": "Player_Romus\n\n\"I'll be honest, Vina. Yes, that's what I'm hoping for -- so that we would have casus belli to invade.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4187,8 +3472,8 @@
                 "label": "Player_Romus\n\n\"Look, Vina. I know you're against war, but my intention has been to strike Pales one way or another. I want you to understand this.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4198,8 +3483,8 @@
                 "label": "Player_Romus\n\n\"I know what you're trying to get at and I don't like it.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4209,8 +3494,8 @@
                 "label": "Player_Romus\n\n\"No, Vina. Unlike my father, I will succeed.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 1750
             }
         },
         {
@@ -4220,8 +3505,8 @@
                 "label": "Vina Toras\n\n\"You are really adamant about this, Father, aren't you?\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4231,8 +3516,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4242,8 +3527,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4253,8 +3538,8 @@
                 "label": "Player_Romus\n\n\"Really, Ms. Werner? I wasn't expecting that from you.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4264,8 +3549,8 @@
                 "label": "Laurento Esquibel\n\n\"What about Princess Vina, Your Majesty? She's still in Pales, discussing the final details of our deal.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4275,8 +3560,8 @@
                 "label": "Player_Romus\n\n\"Did you not hear me? The deal is off. She's coming back to Rizia.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4286,8 +3571,8 @@
                 "label": "Player_Romus\n\n\"What final details? I just told you we're preparing for war. Cancel the deal and tell her to take the first plane home.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4297,8 +3582,8 @@
                 "label": "Laurento Esquibel\n\n\"Of course, Your Majesty.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4308,8 +3593,8 @@
                 "label": "Laurento Esquibel\n\n\"Is this not reckless, Your Majesty?\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -4319,8 +3604,8 @@
                 "label": "Elena Werner\n\n\"But in this instance, I cannot ignore the potential economic boom the Aureus field represents.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4330,30 +3615,8 @@
                 "label": "Lucita Azaro\n\n\"We've all heard the King, ladies and gentlemen.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_750",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"We've all heard the King, ladies and gentlemen.\""
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_750",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"We've all heard the King, ladies and gentlemen.\""
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4363,8 +3626,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower -= 3\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4374,8 +3637,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower -= 1;\\nRiziaDLCSupport.Reports_Turn06_Aureus_NavyStays = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesNegativeAN = true;\\nRiziaDLC.Resources_Authority += 1;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -4385,8 +3648,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower -= 1\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -4396,8 +3659,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_NegotiatingPower -= 4\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -4407,8 +3670,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_PrepareForWar = true;\\n\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4418,8 +3681,8 @@
                 "label": "Elena Werner\n\n\"I'm afraid I don't see another choice. Not if we want to recapture the days of the Golden Kingdom.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4429,8 +3692,8 @@
                 "label": "Elena Werner\n\n\"Your Majesty, this could be a very civil conflict if we don't let past grudges get in the way.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4440,8 +3703,8 @@
                 "label": "UpdateProgress(\"Progress_Construction_PalesPipeline\", 75);\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4451,8 +3714,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_G_ANFavoursPalesNoNavy = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4462,8 +3725,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_G_ANFavoursPalesNavy = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4473,8 +3736,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_G_ANFavoursRiziaNoNavy = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4484,8 +3747,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_G_ANFavoursRiziaNavy = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4495,8 +3758,8 @@
                 "label": "RiziaDLCSupport.Reports_Turn06_Aureus_NavyStays = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesPositiveAN = true;\\nRiziaDLC.Resources_Authority += 1;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4506,8 +3769,8 @@
                 "label": "RiziaDLCSupport.Reports_Turn06_Aureus_NavyFallsBack = true;\\nRiziaDLCSupport.Reports_Turn06_Mermi_SuOminaBoatRally = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyRetreatsPositiveAN = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -4517,8 +3780,8 @@
                 "label": "RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4528,8 +3791,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4539,8 +3802,8 @@
                 "label": "RiziaDLCSupport.Reports_Turn06_Aureus_NavyStays = true;\\nRiziaDLCSupport.Reports_Turn06_Pales_NavyPutOnHighAlert = true;\\nRiziaDLCSupport.News_Turn06_RH_NavyBlockadesNegativeAN = true;\\nRiziaDLC.Resources_Authority += 1;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4550,8 +3813,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_V_ANRulingPositive = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4561,8 +3824,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_V_ANRulingNegative = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4572,8 +3835,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_RH_NoNavyNegativeAN = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4583,8 +3846,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_RH_NoNavyPositiveAN = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4594,8 +3857,8 @@
                 "label": "RiziaDLC.Policy_RD_Order_BuildMermiLogisticsHub_Completed == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4605,8 +3868,8 @@
                 "label": "RiziaDLCSupport.Reports_Turn06_Mermi_TroopMovements = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4616,8 +3879,8 @@
                 "label": "RiziaDLCSupport.Reports_Turn06_Jales_CoastGuardIncreasesPresence = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4627,8 +3890,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_RH_RecruitementDrive = true;\\nRiziaDLCSupport.News_Turn06_G_RiziaMilitaryBuildup = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4638,8 +3901,8 @@
                 "label": "RiziaDLC.Situation_Order_SuOmina_AlliedToCrown == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -4649,8 +3912,8 @@
                 "label": "!(RiziaDLC.Situation_Order_SuOmina_AlliedToCrown == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4660,8 +3923,8 @@
                 "label": "RiziaDLCSupport.Reports_Turn06_Iza_SuOminaMarchesToFront = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4671,8 +3934,8 @@
                 "label": "RiziaDLCSupport.Reports_Turn06_FolceDator_MilitaryIndustryOutputIncrease = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4682,8 +3945,8 @@
                 "label": "RiziaDLCSupport.News_Turn06_RH_RecruitementDrive = true;\\nRiziaDLCSupport.Reports_Turn06_PorteDrazon_CommunicationsBlackout = true;\\nRiziaDLCSupport.Reports_Turn06_Montaklar_AzaroRalliesForWar = true;\\nRiziaDLCSupport.Reports_Turn06_FortAles_CityOnHighAlert = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4693,8 +3956,8 @@
                 "label": "RemoveConversant(\"Laurento Esquibel\");\\nRemoveConversant(\"Elena Werner\");\\nRemoveConversant(\"Hugo Toras\");\\nRemoveConversant(\"Lucita Azaro\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4704,8 +3967,8 @@
                 "label": "RiziaDLC.Diplomacy_Rumburg_Arbitration_FullSupport = true; RiziaDLC.Arbitration_TotalSupport += 1\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4715,8 +3978,8 @@
                 "label": "RiziaDLC.Arbitration_TotalSupport -= 1\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4726,8 +3989,8 @@
                 "label": "RiziaDLC.Turn05_ITZVote_Nationalization == false && RiziaDLC.MITZ_ScrewedOverLespia == false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4737,8 +4000,8 @@
                 "label": "Laurento Esquibel\n\n\"Reinhart sends word that Princess Vina has been a great help during this process.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4748,8 +4011,8 @@
                 "label": "RiziaDLC.Security_GoldenGuard_InvestigateSO == true || RiziaDLC.Policy_Order_RizianForeignIntelligence_Expanded == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4759,8 +4022,8 @@
                 "label": "!(RiziaDLC.Security_GoldenGuard_InvestigateSO == true || RiziaDLC.Policy_Order_RizianForeignIntelligence_Expanded == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4770,8 +4033,8 @@
                 "label": "RiziaDLCIsolated.Turn06_Council_AskedAboutHegelSupport = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4781,8 +4044,8 @@
                 "label": "RiziaDLCIsolated.Turn06_Council_AskedAboutHegelSupport == false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -4792,8 +4055,8 @@
                 "label": "!(RiziaDLCIsolated.Turn06_Council_AskedAboutHegelSupport == false)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4803,8 +4066,8 @@
                 "label": "!(RiziaDLC.Diplomacy_Pales_Military_BlockDrillship == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -4814,8 +4077,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -4824,18 +4087,6 @@
             "id": "e18_to_57",
             "source": "node_18",
             "target": "node_57",
-            "type": "step"
-        },
-        {
-            "id": "e18_to_59",
-            "source": "node_18",
-            "target": "node_59",
-            "type": "step"
-        },
-        {
-            "id": "e18_to_60",
-            "source": "node_18",
-            "target": "node_60",
             "type": "step"
         },
         {
@@ -5031,45 +4282,9 @@
             "type": "step"
         },
         {
-            "id": "e128_to_191",
-            "source": "node_128",
-            "target": "node_191",
-            "type": "step"
-        },
-        {
-            "id": "e128_to_189",
-            "source": "node_128",
-            "target": "node_189",
-            "type": "step"
-        },
-        {
-            "id": "e128_to_190",
-            "source": "node_128",
-            "target": "node_190",
-            "type": "step"
-        },
-        {
-            "id": "e128_to_192",
-            "source": "node_128",
-            "target": "node_192",
-            "type": "step"
-        },
-        {
             "id": "e129_to_195",
             "source": "node_129",
             "target": "node_195",
-            "type": "step"
-        },
-        {
-            "id": "e129_to_196",
-            "source": "node_129",
-            "target": "node_196",
-            "type": "step"
-        },
-        {
-            "id": "e129_to_525",
-            "source": "node_129",
-            "target": "node_525",
             "type": "step"
         },
         {
@@ -5091,12 +4306,6 @@
             "type": "step"
         },
         {
-            "id": "e137_to_291",
-            "source": "node_137",
-            "target": "node_291",
-            "type": "step"
-        },
-        {
             "id": "e138_to_297",
             "source": "node_138",
             "target": "node_297",
@@ -5106,24 +4315,6 @@
             "id": "e139_to_530",
             "source": "node_139",
             "target": "node_530",
-            "type": "step"
-        },
-        {
-            "id": "e139_to_531",
-            "source": "node_139",
-            "target": "node_531",
-            "type": "step"
-        },
-        {
-            "id": "e139_to_385",
-            "source": "node_139",
-            "target": "node_385",
-            "type": "step"
-        },
-        {
-            "id": "e139_to_363",
-            "source": "node_139",
-            "target": "node_363",
             "type": "step"
         },
         {
@@ -5160,12 +4351,6 @@
             "id": "e159_to_527",
             "source": "node_159",
             "target": "node_527",
-            "type": "step"
-        },
-        {
-            "id": "e159_to_251",
-            "source": "node_159",
-            "target": "node_251",
             "type": "step"
         },
         {
@@ -5259,39 +4444,9 @@
             "type": "step"
         },
         {
-            "id": "e187_to_310",
-            "source": "node_187",
-            "target": "node_310",
-            "type": "step"
-        },
-        {
-            "id": "e187_to_523",
-            "source": "node_187",
-            "target": "node_523",
-            "type": "step"
-        },
-        {
-            "id": "e187_to_359",
-            "source": "node_187",
-            "target": "node_359",
-            "type": "step"
-        },
-        {
             "id": "e188_to_311",
             "source": "node_188",
             "target": "node_311",
-            "type": "step"
-        },
-        {
-            "id": "e188_to_310",
-            "source": "node_188",
-            "target": "node_310",
-            "type": "step"
-        },
-        {
-            "id": "e188_to_359",
-            "source": "node_188",
-            "target": "node_359",
             "type": "step"
         },
         {
@@ -5409,12 +4564,6 @@
             "type": "step"
         },
         {
-            "id": "e235_to_340",
-            "source": "node_235",
-            "target": "node_340",
-            "type": "step"
-        },
-        {
             "id": "e236_to_760",
             "source": "node_236",
             "target": "node_760",
@@ -5499,21 +4648,9 @@
             "type": "step"
         },
         {
-            "id": "e256_to_96",
-            "source": "node_256",
-            "target": "node_96",
-            "type": "step"
-        },
-        {
             "id": "e257_to_85",
             "source": "node_257",
             "target": "node_85",
-            "type": "step"
-        },
-        {
-            "id": "e257_to_96",
-            "source": "node_257",
-            "target": "node_96",
             "type": "step"
         },
         {
@@ -5532,12 +4669,6 @@
             "id": "e264_to_114",
             "source": "node_264",
             "target": "node_114",
-            "type": "step"
-        },
-        {
-            "id": "e264_to_116",
-            "source": "node_264",
-            "target": "node_116",
             "type": "step"
         },
         {
@@ -5646,18 +4777,6 @@
             "id": "e307_to_412",
             "source": "node_307",
             "target": "node_412",
-            "type": "step"
-        },
-        {
-            "id": "e307_to_532",
-            "source": "node_307",
-            "target": "node_532",
-            "type": "step"
-        },
-        {
-            "id": "e307_to_346",
-            "source": "node_307",
-            "target": "node_346",
             "type": "step"
         },
         {
@@ -5790,12 +4909,6 @@
             "id": "e350_to_357",
             "source": "node_350",
             "target": "node_357",
-            "type": "step"
-        },
-        {
-            "id": "e350_to_524",
-            "source": "node_350",
-            "target": "node_524",
             "type": "step"
         },
         {
@@ -5967,18 +5080,6 @@
             "type": "step"
         },
         {
-            "id": "e413_to_547",
-            "source": "node_413",
-            "target": "node_547",
-            "type": "step"
-        },
-        {
-            "id": "e413_to_548",
-            "source": "node_413",
-            "target": "node_548",
-            "type": "step"
-        },
-        {
             "id": "e415_to_778",
             "source": "node_415",
             "target": "node_778",
@@ -6057,18 +5158,6 @@
             "type": "step"
         },
         {
-            "id": "e437_to_447",
-            "source": "node_437",
-            "target": "node_447",
-            "type": "step"
-        },
-        {
-            "id": "e437_to_448",
-            "source": "node_437",
-            "target": "node_448",
-            "type": "step"
-        },
-        {
             "id": "e440_to_455",
             "source": "node_440",
             "target": "node_455",
@@ -6093,30 +5182,6 @@
             "type": "step"
         },
         {
-            "id": "e445_to_463",
-            "source": "node_445",
-            "target": "node_463",
-            "type": "step"
-        },
-        {
-            "id": "e445_to_465",
-            "source": "node_445",
-            "target": "node_465",
-            "type": "step"
-        },
-        {
-            "id": "e445_to_466",
-            "source": "node_445",
-            "target": "node_466",
-            "type": "step"
-        },
-        {
-            "id": "e445_to_464",
-            "source": "node_445",
-            "target": "node_464",
-            "type": "step"
-        },
-        {
             "id": "e446_to_450",
             "source": "node_446",
             "target": "node_450",
@@ -6126,18 +5191,6 @@
             "id": "e453_to_510",
             "source": "node_453",
             "target": "node_510",
-            "type": "step"
-        },
-        {
-            "id": "e453_to_511",
-            "source": "node_453",
-            "target": "node_511",
-            "type": "step"
-        },
-        {
-            "id": "e453_to_512",
-            "source": "node_453",
-            "target": "node_512",
             "type": "step"
         },
         {
@@ -6159,33 +5212,9 @@
             "type": "step"
         },
         {
-            "id": "e459_to_470",
-            "source": "node_459",
-            "target": "node_470",
-            "type": "step"
-        },
-        {
             "id": "e460_to_512",
             "source": "node_460",
             "target": "node_512",
-            "type": "step"
-        },
-        {
-            "id": "e460_to_514",
-            "source": "node_460",
-            "target": "node_514",
-            "type": "step"
-        },
-        {
-            "id": "e460_to_515",
-            "source": "node_460",
-            "target": "node_515",
-            "type": "step"
-        },
-        {
-            "id": "e460_to_516",
-            "source": "node_460",
-            "target": "node_516",
             "type": "step"
         },
         {
@@ -6291,18 +5320,6 @@
             "type": "step"
         },
         {
-            "id": "e490_to_617",
-            "source": "node_490",
-            "target": "node_617",
-            "type": "step"
-        },
-        {
-            "id": "e490_to_618",
-            "source": "node_490",
-            "target": "node_618",
-            "type": "step"
-        },
-        {
             "id": "e492_to_2",
             "source": "node_492",
             "target": "node_2",
@@ -6327,18 +5344,6 @@
             "type": "step"
         },
         {
-            "id": "e496_to_504",
-            "source": "node_496",
-            "target": "node_504",
-            "type": "step"
-        },
-        {
-            "id": "e496_to_506",
-            "source": "node_496",
-            "target": "node_506",
-            "type": "step"
-        },
-        {
             "id": "e502_to_615",
             "source": "node_502",
             "target": "node_615",
@@ -6357,30 +5362,6 @@
             "type": "step"
         },
         {
-            "id": "e509_to_640",
-            "source": "node_509",
-            "target": "node_640",
-            "type": "step"
-        },
-        {
-            "id": "e509_to_638",
-            "source": "node_509",
-            "target": "node_638",
-            "type": "step"
-        },
-        {
-            "id": "e509_to_639",
-            "source": "node_509",
-            "target": "node_639",
-            "type": "step"
-        },
-        {
-            "id": "e509_to_643",
-            "source": "node_509",
-            "target": "node_643",
-            "type": "step"
-        },
-        {
             "id": "e510_to_460",
             "source": "node_510",
             "target": "node_460",
@@ -6396,30 +5377,6 @@
             "id": "e520_to_624",
             "source": "node_520",
             "target": "node_624",
-            "type": "step"
-        },
-        {
-            "id": "e520_to_621",
-            "source": "node_520",
-            "target": "node_621",
-            "type": "step"
-        },
-        {
-            "id": "e520_to_622",
-            "source": "node_520",
-            "target": "node_622",
-            "type": "step"
-        },
-        {
-            "id": "e520_to_623",
-            "source": "node_520",
-            "target": "node_623",
-            "type": "step"
-        },
-        {
-            "id": "e520_to_630",
-            "source": "node_520",
-            "target": "node_630",
             "type": "step"
         },
         {
@@ -6693,24 +5650,6 @@
             "type": "step"
         },
         {
-            "id": "e608_to_704",
-            "source": "node_608",
-            "target": "node_704",
-            "type": "step"
-        },
-        {
-            "id": "e608_to_705",
-            "source": "node_608",
-            "target": "node_705",
-            "type": "step"
-        },
-        {
-            "id": "e608_to_703",
-            "source": "node_608",
-            "target": "node_703",
-            "type": "step"
-        },
-        {
             "id": "e609_to_708",
             "source": "node_609",
             "target": "node_708",
@@ -6726,24 +5665,6 @@
             "id": "e613_to_712",
             "source": "node_613",
             "target": "node_712",
-            "type": "step"
-        },
-        {
-            "id": "e613_to_717",
-            "source": "node_613",
-            "target": "node_717",
-            "type": "step"
-        },
-        {
-            "id": "e613_to_711",
-            "source": "node_613",
-            "target": "node_711",
-            "type": "step"
-        },
-        {
-            "id": "e613_to_683",
-            "source": "node_613",
-            "target": "node_683",
             "type": "step"
         },
         {
@@ -6777,24 +5698,6 @@
             "type": "step"
         },
         {
-            "id": "e628_to_728",
-            "source": "node_628",
-            "target": "node_728",
-            "type": "step"
-        },
-        {
-            "id": "e628_to_729",
-            "source": "node_628",
-            "target": "node_729",
-            "type": "step"
-        },
-        {
-            "id": "e628_to_730",
-            "source": "node_628",
-            "target": "node_730",
-            "type": "step"
-        },
-        {
             "id": "e629_to_628",
             "source": "node_629",
             "target": "node_628",
@@ -6810,18 +5713,6 @@
             "id": "e631_to_499",
             "source": "node_631",
             "target": "node_499",
-            "type": "step"
-        },
-        {
-            "id": "e631_to_500",
-            "source": "node_631",
-            "target": "node_500",
-            "type": "step"
-        },
-        {
-            "id": "e631_to_501",
-            "source": "node_631",
-            "target": "node_501",
             "type": "step"
         },
         {
@@ -6897,12 +5788,6 @@
             "type": "step"
         },
         {
-            "id": "e662_to_607",
-            "source": "node_662",
-            "target": "node_607",
-            "type": "step"
-        },
-        {
             "id": "e663_to_674",
             "source": "node_663",
             "target": "node_674",
@@ -6948,18 +5833,6 @@
             "id": "e673_to_665",
             "source": "node_673",
             "target": "node_665",
-            "type": "step"
-        },
-        {
-            "id": "e673_to_685",
-            "source": "node_673",
-            "target": "node_685",
-            "type": "step"
-        },
-        {
-            "id": "e673_to_686",
-            "source": "node_673",
-            "target": "node_686",
             "type": "step"
         },
         {
@@ -7182,18 +6055,6 @@
             "id": "e750_to_741",
             "source": "node_750",
             "target": "node_741",
-            "type": "step"
-        },
-        {
-            "id": "e750_to_765",
-            "source": "node_750",
-            "target": "node_765",
-            "type": "step"
-        },
-        {
-            "id": "e750_to_769",
-            "source": "node_750",
-            "target": "node_769",
             "type": "step"
         },
         {

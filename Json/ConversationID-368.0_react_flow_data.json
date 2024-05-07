@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Jorga Azmal\n\n\"Our great warrior culture. I see...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Jorga Azmal\n\n\"And perhaps, lay the foundation for Golcondist acceptance in Rizia.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Player_Romus\n\n\"We are at risk of losing the territory of Zille to Wehlen. I would humbly call upon your great warrior culture for assistance.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "RiziaDLC.Resources_Budget > 0\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,19 +62,8 @@
                 "label": "!(RiziaDLC.Resources_Budget > 0)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Resources_Budget > 0)\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +73,8 @@
                 "label": "Jorga Azmal\n\n\"That depends, Your Majesty. What else do you want?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +84,8 @@
                 "label": "Player_Romus\n\n\"Sounds like a plan. Your men are hired.\"\n\n\"Sounds like a plan. Your men are hired.\" [-1 Budget]"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,19 +95,8 @@
                 "label": "Jorga Azmal\n\n\"But very well.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "customNode",
-            "data": {
-                "label": "Jorga Azmal\n\n\"But very well.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +106,8 @@
                 "label": "Narrator\n\nHe paused."
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +117,8 @@
                 "label": "RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp == false\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +128,8 @@
                 "label": "RiziaDLCIsolated.Turn07_DerdianRequests_FightingHelp = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -161,8 +139,8 @@
                 "label": "Jump to: [Derdia Requests]\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -215,12 +193,6 @@
             "type": "step"
         },
         {
-            "id": "e49_to_94",
-            "source": "node_49",
-            "target": "node_94",
-            "type": "step"
-        },
-        {
             "id": "e53_to_67",
             "source": "node_53",
             "target": "node_67",
@@ -236,12 +208,6 @@
             "id": "e95_to_66",
             "source": "node_95",
             "target": "node_66",
-            "type": "step"
-        },
-        {
-            "id": "e95_to_70",
-            "source": "node_95",
-            "target": "node_70",
             "type": "step"
         },
         {

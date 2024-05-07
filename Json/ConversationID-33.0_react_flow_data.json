@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nThey placed the draft for the Emergency act in front of me."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Lucian Galade\n\n\"It's because Mr. Ricter made it known that our administration is blocking the reforms. Many are protesting against that now too.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Narrator\n\nNot long after, Orso and Lucian arrived.\n\nAddConversant(Lucian Galade); AddConversant(Orso Hawker); RemoveConversant(Livia Suno); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Player\n\n“Greetings.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Narrator\n\nI was walking to my office. Today was the day to finally write the Emergency Act and order the execution of the decree.\n\nSetRichPresenceData(Preparing the emergency decree, Center Hall, Maroon Palace); PlaySceneMusic(Master); AddReport(Morna, Mayor request port construction); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Livia Suno\n\n\"Fine, thank you.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Narrator\n\nTalks with the leading figures of the Old Guards were fruitful and the preparation for the emergency was already underway."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Narrator\n\nLivia left to hang up my coat. I walked into my office and sat down."
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Narrator\n\nMy secretary greeted me at the entrance to my presidential office.\n\nAddConversant(Livia Suno); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Livia Suno\n\n\"Good morning, Mr. President.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Player\n\n“I'm about to make stressful decisions. So, not feeling that great.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Player\n\n\"You may be right. But I just don't see any other way out of this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "Livia Suno\n\n\"That's good to hear.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -150,8 +150,8 @@
                 "label": "Narrator\n\nShe averted her eyes away from me and smiled."
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -161,19 +161,8 @@
                 "label": "Livia Suno\n\n\"How are you today, sir?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "customNode",
-            "data": {
-                "label": "Livia Suno\n\n\"How are you today, sir?\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -183,30 +172,8 @@
                 "label": "Narrator\n\nAfter carefully examining the draft and my own notes, I buried myself in the papers.\n\nOpenAutocratEmergencyActPanel(); WaitforMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter carefully examining the draft and my own notes, I buried myself in the papers.\n\nOpenAutocratEmergencyActPanel(); WaitforMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 1250.0
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter carefully examining the draft and my own notes, I buried myself in the papers.\n\nOpenAutocratEmergencyActPanel(); WaitforMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +183,8 @@
                 "label": "Orso Hawker\n\n\"Regardless of who they are or what they support, the situation is clear. Let's see how we'll proceed with the President's decree.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -227,8 +194,8 @@
                 "label": "BaseGameSupport.News_Turn03_LT_BenfiFestival = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -238,8 +205,8 @@
                 "label": "Narrator\n\nShe paused before taking my coat. It looked like she had something on her mind."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -249,19 +216,8 @@
                 "label": "GameCondition.Turn03_A_Pre_Constitution = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_38",
-            "type": "customNode",
-            "data": {
-                "label": "GameCondition.Turn03_A_Pre_Constitution = true\n\nnan"
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,8 +227,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +238,8 @@
                 "label": "BaseGameSupport.News_Turn03_E_EPA_PotentialsAnalysis = true;\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -379,27 +335,9 @@
             "type": "step"
         },
         {
-            "id": "e31_to_13",
-            "source": "node_31",
-            "target": "node_13",
-            "type": "step"
-        },
-        {
             "id": "e32_to_20",
             "source": "node_32",
             "target": "node_20",
-            "type": "step"
-        },
-        {
-            "id": "e32_to_21",
-            "source": "node_32",
-            "target": "node_21",
-            "type": "step"
-        },
-        {
-            "id": "e32_to_13",
-            "source": "node_32",
-            "target": "node_13",
             "type": "step"
         },
         {
@@ -424,12 +362,6 @@
             "id": "e38_to_26",
             "source": "node_38",
             "target": "node_26",
-            "type": "step"
-        },
-        {
-            "id": "e38_to_28",
-            "source": "node_38",
-            "target": "node_28",
             "type": "step"
         },
         {

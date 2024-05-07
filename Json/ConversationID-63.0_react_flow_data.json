@@ -7,8 +7,8 @@
                 "label": "Narrator\n\nKarl Greiser arrived for a meeting to discuss the new police force. After Livia informed us of his arrival, Lucian opened the door and let him in.\n\nSetRichPresenceData(Discussing the formation of a new police force, Presidential Office, Maroon Palace); PlaySceneMusic(Security); AddConversant(Karl Greiser); AddConversant(Lucian Galade); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nKarl and Lucian left the room.\n\nRemoveConversant(Karl Greiser); RemoveConversant(Lucian Galade); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Player\n\n“I guess Minister Morgna is on our side on this. She really wants to tackle corruption inside.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 2250.0
+                "x": 0,
+                "y": 2250
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Player\n\n“Keep pursuing this Karl. If you encounter any obstacles, my full authority will protect you.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Narrator\n\nKarl sighed."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Lucian Galade\n\n“We have been informed of the establishment of the Anti-Corruption Police under the Ministry of Justice.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Player\n\n“Focus Anti-Corruption investigations on Hawker and the Old Guard.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Lucian Galade\n\n“We have been informed of the establishment of the Community Police under the Ministry of Interior.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Lucian Galade\n\n“We have been informed of the establishment of the Secret State Police under the Ministry of Interior.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Karl Greiser\n\n“Our current efforts have been successful at containing these gangs. This force will ensure the reduction of crime in neighbourhoods.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +128,8 @@
                 "label": "Karl Greiser\n\n“I want to make it absolutely clear. My belief in you as a leader is unquestionable. Consider me as your inside man.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -139,8 +139,8 @@
                 "label": "Karl Greiser\n\n“I have been used to being uncomfortable my whole life. I too came from a poor family, Mr. President.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -150,30 +150,8 @@
                 "label": "Narrator\n\nHe took a seat and corrected his posture."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe took a seat and corrected his posture."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe took a seat and corrected his posture."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "Player\n\n“The economy must be controlled by the state. Lotherberg has too much influence.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "Player\n\n“Good to see you, Karl. How have you been?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "!(BaseGame.Turn04_SnO_LE_Interior_Increased == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "Karl Greiser\n\n“My position bears more responsibility now.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "BaseGame.Prologue_Birthplace_Deyr_Poor == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -238,8 +216,8 @@
                 "label": "!(BaseGame.Prologue_Birthplace_Deyr_Poor == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -249,8 +227,8 @@
                 "label": "Player\n\n“People like us know the additional steps that need to be climbed to get anywhere in life.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,8 +238,8 @@
                 "label": "Karl Greiser\n\n“I used to work 15 hours a day to bring food back to my sisters. My entire life was been a struggle until I signed up to be a volunteer in the Arvory police force.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -271,8 +249,8 @@
                 "label": "Player\n\n“So, are you very close with Mrs. Graf?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -282,8 +260,8 @@
                 "label": "Player\n\n“So, she's the one who got you this far, eh?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +271,8 @@
                 "label": "Karl Greiser\n\n“I did my job. But beyond that I would easily risk my life to save the President of Sordland.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +282,8 @@
                 "label": "Player\n\n“We can rise even higher if we dare to dream big.”\n\n“We can rise even higher if we dare to dream.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -315,8 +293,8 @@
                 "label": "Player\n\n“Hard-working and loyal people are hard to come by. I need people like you.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -326,8 +304,8 @@
                 "label": "Karl Greiser\n\n“I'd like to think that it was my own skills and experience, sir. But of course, I cannot deny that she had a huge impact on my career.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -337,8 +315,8 @@
                 "label": "Karl Greiser\n\n“My loyalties lie with you, Mr. President. No one else.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -348,8 +326,8 @@
                 "label": "Karl Greiser\n\n“Minister Morgna —though not as inspiring as you are— has also shown great capability. The more I work with her, the more I am convinced that she is a very motivated and efficient administrator.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -359,8 +337,8 @@
                 "label": "Player\n\n“So the Anti-Corruption Police is separated from the Interior?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -370,8 +348,8 @@
                 "label": "Player\n\n“You are our best man for the job and I am sure you will excel at it.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +359,8 @@
                 "label": "Karl Greiser\n\n“Minister Graf —though not as inspiring as you are— has also shown great capability. But the more I work with her, the more I am convinced that she herself might pose a threat to you.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -392,19 +370,8 @@
                 "label": "Karl Greiser\n\n“The Nargis, Agnland and Bergia regions are suffering from most of the crime issues. Out of all Estord seems to be the hot spot.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“The Nargis, Agnland and Bergia regions are suffering from most of the crime issues. Out of all Estord seems to be the hot spot.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -414,8 +381,8 @@
                 "label": "Player\n\n“Why would she?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -425,8 +392,8 @@
                 "label": "Player\n\n“The only thing that matters is that you only take orders from me, and not anyone else.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -436,8 +403,8 @@
                 "label": "Player\n\n“Minister Graf is our close ally in the cabinet. I don't want similar words uttered again.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -447,8 +414,8 @@
                 "label": "Player\n\n“The gangs are concentrated in that city aren't they?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -458,8 +425,8 @@
                 "label": "Player\n\n“Lileas Graf has a good security history. You will handle them with her.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -469,8 +436,8 @@
                 "label": "Player\n\n“If you are successful, a better future awaits you in the administration.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -480,8 +447,8 @@
                 "label": "Karl Greiser\n\n“Her drive certainly is, but there are real obstacles nonetheless. This new force can help in removing those.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -491,8 +458,8 @@
                 "label": "Karl Greiser\n\n“Therefore, having the new police force separated from the Interior helps its independence and objectivity.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 2000.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -502,8 +469,8 @@
                 "label": "Karl Greiser\n\n“Yes. It is for a good reason. We have found some irregularities in our police forces. Some of our top officers are involved with corruption.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -513,8 +480,8 @@
                 "label": "Lucian Galade\n\n“The Old Guard must have pushed this forward. We shouldn't even consider moving on the reformist leader in our position.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -524,41 +491,8 @@
                 "label": "Lucian Galade\n\n“Hawker, Heron and their cronies in the Supreme Court won't be able to be prosecuted unless the Assembly agrees to in our new constitution.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“Hawker, Heron and their cronies in the Supreme Court won't be able to be prosecuted unless the Assembly agrees to in our new constitution.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“Hawker, Heron and their cronies in the Supreme Court won't be able to be prosecuted unless the Assembly agrees to in our new constitution.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“Hawker, Heron and their cronies in the Supreme Court won't be able to be prosecuted unless the Assembly agrees to in our new constitution.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 2000
             }
         },
         {
@@ -568,8 +502,8 @@
                 "label": "Lucian Galade\n\n“The Community Police is driven by local enforcement and will aid us in our internal security efforts.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -579,8 +513,8 @@
                 "label": "Karl Greiser\n\n“There are elements within our state that have ulterior motives.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -590,8 +524,8 @@
                 "label": "Player\n\n“What do you mean?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -601,8 +535,8 @@
                 "label": "BaseGame.Turn04_SnO_LE_Justice_Increased == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -612,8 +546,8 @@
                 "label": "Karl Greiser\n\n“Thanks to the resource diversion to her ministry, those objectives can now be met. Justice will indeed be served.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -623,8 +557,8 @@
                 "label": "BaseGame.Reform_Reformist_Path == true || BaseGame.Reform_Dictator_Path == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -634,8 +568,8 @@
                 "label": "Karl Greiser\n\n“May I speak frankly, sir?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -645,8 +579,8 @@
                 "label": "Lucian Galade\n\n“We always suspected the existence of such a deep state. The real question here is, who in the government and cabinet is on Mr. Hawker's side?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -656,41 +590,8 @@
                 "label": "Karl Greiser\n\n“Mr. Hawker has financial and other ties to certain figures. He is a dangerous man. Currently, we are are collecting evidence to find out exactly what his network comprises.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“Mr. Hawker has financial and other ties to certain figures. He is a dangerous man. Currently, we are are collecting evidence to find out exactly what his network comprises.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“Mr. Hawker has financial and other ties to certain figures. He is a dangerous man. Currently, we are are collecting evidence to find out exactly what his network comprises.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“Mr. Hawker has financial and other ties to certain figures. He is a dangerous man. Currently, we are are collecting evidence to find out exactly what his network comprises.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -700,8 +601,8 @@
                 "label": "Karl Greiser\n\n“Thank you, sir. I will be relentless. The adversaries of this country will be found.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -711,8 +612,8 @@
                 "label": "Karl Greiser\n\n“Yes, she does, despite constantly encountering resistance in the Ministry and other institutions. Morgna is poking around where she isn't wanted.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -722,8 +623,8 @@
                 "label": "Lucian Galade\n\n“Once enough evidence is gathered, we should be able to begin the corruption trials if we want to.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -733,8 +634,8 @@
                 "label": "Karl Greiser\n\n“Besides them, there are other elements we are aware of. The Oligarchs seem to have some people in the inside as well. We have received some unconfirmed reports about Mr. Tusk having bought people in the administration.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -744,8 +645,8 @@
                 "label": "Player\n\n“We could look further into Tusk and the Lotherberg group.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -755,8 +656,8 @@
                 "label": "Karl Greiser\n\n“And they seem to be evading taxes through bribery and exploiting the grey areas in our laws. Our investigators in Estord and Narbel have also found some suspicious financial activity from some of their corporations. If their tax returns were to be made public, it would help us track irregularities in the filings.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -766,30 +667,8 @@
                 "label": "BaseGame.Reform_Law_Judges_Impeachment_Assembly == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Reform_Law_Judges_Impeachment_Assembly == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Reform_Law_Judges_Impeachment_Assembly == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -799,8 +678,8 @@
                 "label": "Lucian Galade\n\n“Hawker, Heron and the rest of the Guard in the Supreme Court won't be able to be prosecuted at all.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -810,8 +689,8 @@
                 "label": "Lucian Galade\n\n“It won't be possible to get them if we fail to pass the reforms or we have low political support in the Assembly. But it is too early to tell.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -821,8 +700,8 @@
                 "label": "Lucian Galade\n\n“This means we can't cut the head off the snake, but we will be able to strangle everyone around them.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -832,8 +711,8 @@
                 "label": "Lucian Galade\n\n“However, it won't be possible to get them if we fail to pass the reforms. It all depends on whether we can gather support.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -843,8 +722,8 @@
                 "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -854,8 +733,8 @@
                 "label": "Player\n\n“I don't always see eye to eye with her, but we might be allies on this topic.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -865,8 +744,8 @@
                 "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -876,8 +755,8 @@
                 "label": "Player\n\n“I'm not sure if Morgna can be fully trusted. What if she turns this force against us?”"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -887,8 +766,8 @@
                 "label": "BaseGame.Relations_Walter_Promise_CompanyFulfilled == true || BaseGame.Media_SordlandToday_Bias == true || BaseGame.Relations_Walter_Promise_TaxFulfilled == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -898,8 +777,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -909,8 +788,8 @@
                 "label": "Karl Greiser\n\n“If that is your desire, we can certainly inquire further about their operations.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -920,8 +799,8 @@
                 "label": "Player\n\n\"Who cares about him anyway...\"\n\n\"Who cares about him, anyway...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -931,8 +810,8 @@
                 "label": "Player\n\n“Mr. Koronti has been very supportive of my administration. He is a close friend.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -942,8 +821,8 @@
                 "label": "Player\n\n“Marcel offered me a deal before, and needs to be investigated.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -953,8 +832,8 @@
                 "label": "Player\n\n“Focus Anti-Corruption investigations on Tusk and the Oligarchs.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -964,8 +843,8 @@
                 "label": "Karl Greiser\n\n“Yes. Minister Graf has given me full authority to lead the new force in order to combat organised crime, drug trade and trafficking in our poorer cities and their neighbourhoods. Their role is of a supportive nature.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -975,8 +854,8 @@
                 "label": "Player\n\n“We need to protect and keep our communities safe. This is another step towards that.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -986,8 +865,8 @@
                 "label": "Player\n\n“How did we ever come to this low point?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -997,8 +876,8 @@
                 "label": "Karl Greiser\n\n“Correct. Minister Graf has given me full authority to lead the new force in order to combat subversives and other threats to the state from the inside. The agents we have recruited are the most loyal and experienced.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -1008,19 +887,8 @@
                 "label": "Karl Greiser\n\n“Indeed so. Minister Morgna has given me full authority to lead the new force in order to fight corruption from within.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“Indeed so. Minister Morgna has given me full authority to lead the new force in order to fight corruption from within.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1030,8 +898,8 @@
                 "label": "Player\n\n“The important question for us is where your loyalties lie.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1041,8 +909,8 @@
                 "label": "Player\n\n“Congratulations. I hope we'll be close partners in the fight against corruption.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1052,8 +920,8 @@
                 "label": "Player\n\n“There are too many enemies inside Sordland. They need to be found and imprisoned.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1063,8 +931,8 @@
                 "label": "Karl Greiser\n\n“Our established forces has begun gathering intelligence on the suspected enemies of the state.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1074,8 +942,8 @@
                 "label": "Karl Greiser\n\n“I serve my country and its leader President Anton Rayne.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1085,8 +953,8 @@
                 "label": "Karl Greiser\n\n“Yes. We have great powers regarding our operations, thanks to the Security Package and your authority.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 2000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1096,8 +964,8 @@
                 "label": "Karl Greiser\n\n“The enhanced local security and cooperation these new local forces provide will help us improve the dangerous situation in these neighbourhoods.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1107,8 +975,8 @@
                 "label": "Karl Greiser\n\n“Harsher police action does not necessarily helps us win the battle against organised crime. We need to work with the locals.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1118,8 +986,8 @@
                 "label": "Karl Greiser\n\n“The recession has allowed these criminal gangs to take control in poverty-stricken areas. Desperate people will do a lot for money.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1129,8 +997,8 @@
                 "label": "Karl Greiser\n\n“The structure being separated from the Interior helps maintain perspective and independence from previous hierarchies.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -1140,8 +1008,8 @@
                 "label": "Karl Greiser\n\n“I serve my country and its leader President Anton Rayne.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1151,8 +1019,8 @@
                 "label": "Karl Greiser\n\n“Sir, we have a tough and long fight ahead of us. It will take years, but we will win. You can believe that.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1162,8 +1030,8 @@
                 "label": "BaseGame.Reform_Autocrat_Path == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1173,8 +1041,8 @@
                 "label": "Karl Greiser\n\n“However, I couldn't help but notice that certain high-ranking officers in the Sordish Police Force have been acting autonomously. This is a grave concern for us.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1184,8 +1052,8 @@
                 "label": "Player\n\n“We need to find out about their weaknesses, just in case.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1195,8 +1063,8 @@
                 "label": "Player\n\n“Don't worry about Hawker. He is aiding our administration.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1206,8 +1074,8 @@
                 "label": "Karl Greiser\n\n“Good day, sir.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1217,8 +1085,8 @@
                 "label": "Player\n\n“Good day and good luck, Mr. Greiser.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 2000
             }
         },
         {
@@ -1228,8 +1096,8 @@
                 "label": "Player\n\n“Thank you for your time, Karl.”\n\n“Thank you for your time Karl.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1750
             }
         },
         {
@@ -1239,8 +1107,8 @@
                 "label": "Narrator\n\nLucian glanced at me with his eyebrow raised."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1250,8 +1118,8 @@
                 "label": "Karl Greiser\n\n“Very well, sir.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1261,8 +1129,8 @@
                 "label": "Karl Greiser\n\n“In that case, the department will keep an eye on any leads.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1272,8 +1140,8 @@
                 "label": "BaseGame.Turn04_SnO_LE_Interior_Increased == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1283,8 +1151,8 @@
                 "label": "!(BaseGame.Turn04_SnO_LE_Interior_Increased == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1294,8 +1162,8 @@
                 "label": "Narrator\n\nKarl leaned closer and lowered his voice ever so slightly."
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1305,8 +1173,8 @@
                 "label": "!(BaseGame.Reform_Reformist_Path == true || BaseGame.Reform_Dictator_Path == true)\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1316,8 +1184,8 @@
                 "label": "Karl Greiser\n\n“There are elements within our state that have ulterior motives.”"
             },
             "position": {
-                "x": 540.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1327,8 +1195,8 @@
                 "label": "Player\n\n“Yes. You are among confidants.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1338,8 +1206,8 @@
                 "label": "Karl Greiser\n\n“May I speak frankly, sir?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1349,19 +1217,8 @@
                 "label": "Player\n\n“Of course.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_213",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Of course.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1371,8 +1228,8 @@
                 "label": "Player\n\n“Elaborate please.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1382,8 +1239,8 @@
                 "label": "Player\n\n“What do you mean?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1393,8 +1250,8 @@
                 "label": "Karl Greiser\n\n“The initial analysis by our agents has uncovered some troubling facts.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1404,8 +1261,8 @@
                 "label": "Lucian Galade\n\n“Let's discuss this further later.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1415,8 +1272,8 @@
                 "label": "Lucian Galade\n\n“We surely can to be on the safe side, even though we are working with them.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1426,8 +1283,8 @@
                 "label": "BaseGame.Turn05_SnO_Investigate_OldGuard = true; BaseGameSupport.Journal_Turn05_Investigations_OldGuard = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1437,8 +1294,8 @@
                 "label": "BaseGame.Turn05_SnO_Investigate_Oligarchs = true; BaseGameSupport.Journal_Turn05_Investigations_Oligarchs = true\n\nnan"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1448,8 +1305,8 @@
                 "label": "BaseGame.Turn05_SnO_Investigate_Opposition = true; BaseGameSupport.Journal_Turn05_Investigations_Reformists = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -1459,8 +1316,8 @@
                 "label": "Karl Greiser\n\n“Minister Morgna is very concerned about the Supreme Court and Old Guards. She sees them as the primary threat.”"
             },
             "position": {
-                "x": 540.0,
-                "y": 500.0
+                "x": 540,
+                "y": 750
             }
         },
         {
@@ -1470,19 +1327,8 @@
                 "label": "BaseGame.Turn01_EnT_Economy_Planned == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_223",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn01_EnT_Economy_Planned == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1492,8 +1338,8 @@
                 "label": "!(BaseGame.Turn01_EnT_Economy_Planned == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 1750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1503,30 +1349,8 @@
                 "label": "Karl Greiser\n\n“We are fighting them already, and the community police force will cut their connections further.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_227",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“We are fighting them already, and the community police force will cut their connections further.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 2250.0
-            }
-        },
-        {
-            "id": "node_227",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“We are fighting them already, and the community police force will cut their connections further.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1536,8 +1360,8 @@
                 "label": "Player\n\n“The crime families need to be taken down. We can't let them do what they want with impunity.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1547,8 +1371,8 @@
                 "label": "Karl Greiser\n\n“Of course, sir. We are working in close collaboration with Mrs. Graf. Things are much better already.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1558,8 +1382,8 @@
                 "label": "Karl Greiser\n\n“Yes, they have a lot of presence there. Our efforts are increasingly pushing them to act in the shadows.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1569,8 +1393,8 @@
                 "label": "Karl Greiser\n\n“I won't disappoint you, sir.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1580,8 +1404,8 @@
                 "label": "Karl Greiser\n\n“He might not be innocent, but if you think he isn't an issue then we can move on.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1591,8 +1415,8 @@
                 "label": "Karl Greiser\n\n“They do have reach, but the President has much more influence and authority.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1602,8 +1426,8 @@
                 "label": "Karl Greiser\n\n“We certainly can. I wish we had proof of the incident. It would help in a case against him.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1613,8 +1437,8 @@
                 "label": "Karl Greiser\n\n“Last but not least is the opposition leader Frens Ricter. We have received intelligence that he has connections to Arcasia.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -1624,8 +1448,8 @@
                 "label": "Player\n\n“Focus Anti-Corruption investigations on the opposition parties.\"\n\n“Focus Anti-Corruption investigations on the opposition.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -1635,8 +1459,8 @@
                 "label": "Karl Greiser\n\n“It really seems like they have a powerful influence in the majority of the so-called independent news organisations. They might not be so independent after all.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 540,
+                "y": 500
             }
         },
         {
@@ -1646,30 +1470,8 @@
                 "label": "Lucian Galade\n\n“It's not good to underestimate such critical public opinion tools.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_238",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“It's not good to underestimate such critical public opinion tools.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_238",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n“It's not good to underestimate such critical public opinion tools.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1679,8 +1481,8 @@
                 "label": "Karl Greiser\n\n“Upon further inquiries, we can't see anything illegal here besides a mismatch of information.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1690,8 +1492,8 @@
                 "label": "Player\n\n“Frens Ricter is our ally and we shouldn't move against him.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 1750
             }
         },
         {
@@ -1701,8 +1503,8 @@
                 "label": "Player\n\n“There is nothing illegal, so why even talk about this?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1712,8 +1514,8 @@
                 "label": "Player\n\n“Ricter is a loyal servant of Sordland. The Old Guard is trying to pressure him.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 0,
+                "y": 2250
             }
         },
         {
@@ -1723,8 +1525,8 @@
                 "label": "!(BaseGame.Reform_Reformist_Path == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1734,8 +1536,8 @@
                 "label": "Lucian Galade\n\n“There are so many potential corruption cases here.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1745,8 +1547,8 @@
                 "label": "Karl Greiser\n\n“Where should we concentrate our anti-corruption efforts?”\n\nSetRichPresenceData(Forming the Anti-Corruption Police, Presidential Office, Maroon Palace); UnlockSteamAchievement(Game_ACP); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1756,30 +1558,8 @@
                 "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the Old Guard.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_254",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the Old Guard.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
-            }
-        },
-        {
-            "id": "node_254",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the Old Guard.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1789,8 +1569,8 @@
                 "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the Oligarchs.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -1800,8 +1580,8 @@
                 "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the PFJP as well as the NFP.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 1250
             }
         },
         {
@@ -1811,8 +1591,8 @@
                 "label": "!(BaseGame.Reform_Reformist_Path == true || BaseGame.Reform_Dictator_Path == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1822,8 +1602,8 @@
                 "label": "Lucian Galade\n\n“The Old Guard has us exactly where they want us. If we unleash the ACP on them, we might have a backup in case things don't go well.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1833,8 +1613,8 @@
                 "label": "Lucian Galade\n\n“The most logical step would be to use the ACP to pressure either the Oligarchs or the Old Guard.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1844,19 +1624,8 @@
                 "label": "Karl Greiser\n\n“I am very glad you have taken such a step, Mr. President. Well... I will continue my work if there is nothing else.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_266",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“I am very glad you have taken such a step, Mr. President. Well... I will continue my work if there is nothing else.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1500
             }
         },
         {
@@ -1866,19 +1635,8 @@
                 "label": "BaseGame.Turn04_SnO_LE_Interior_Increased == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_267",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn04_SnO_LE_Interior_Increased == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -1888,8 +1646,8 @@
                 "label": "Karl Greiser\n\n“You should receive further reports on our progress and actions in the upcoming months, President Rayne.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1899,8 +1657,8 @@
                 "label": "Player\n\n“Make sure the force represents the diverse makeup of the neighborhoods in which it is active.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -1910,8 +1668,8 @@
                 "label": "Player\n\n“Make sure to pick the right people for the job and have solid background checks.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -1921,8 +1679,8 @@
                 "label": "Player\n\n“Don't arm the Community Police. We shouldn't trust them yet.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 250
             }
         },
         {
@@ -1932,8 +1690,8 @@
                 "label": "Karl Greiser\n\n“We are ensuring that people take charge of their own districts. By giving them responsibility and oversight, we will have them as our allies on the ground.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -1943,30 +1701,8 @@
                 "label": "Karl Greiser\n\n“I have personally picked the initial recruits. My officers are evaluating all of them with thorough checks.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“I have personally picked the initial recruits. My officers are evaluating all of them with thorough checks.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“I have personally picked the initial recruits. My officers are evaluating all of them with thorough checks.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1976,8 +1712,8 @@
                 "label": "Karl Greiser\n\n“I understand your perspective. I will remove the right to carry a weapon for the CP.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -1987,8 +1723,8 @@
                 "label": "Karl Greiser\n\n“Yes sir. If you think he is an enemy, we will look deeper.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -1998,8 +1734,8 @@
                 "label": "Player\n\n“He must have some dirt on him. We might need to look deeper.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2009,8 +1745,8 @@
                 "label": "Lucian Galade\n\n“The Old Guard must have pushed this forward. We should consider investigating Mr. Ricter further. The PFJP poses a threat for the next election. It's better to know more.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -2020,19 +1756,8 @@
                 "label": "Karl Greiser\n\n“Upon further inquiries, we see a mismatch of information between the border guard and the intelligence units.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
-            }
-        },
-        {
-            "id": "node_284",
-            "type": "customNode",
-            "data": {
-                "label": "Karl Greiser\n\n“Upon further inquiries, we see a mismatch of information between the border guard and the intelligence units.”"
-            },
-            "position": {
-                "x": 540.0,
-                "y": 500.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2042,8 +1767,8 @@
                 "label": "Karl Greiser\n\n“The way we received this intelligence was unusual to say the least. It totally went through the back-channels.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2053,8 +1778,8 @@
                 "label": "Player\n\n“Frens Ricter should be investigated in full.”"
             },
             "position": {
-                "x": 540.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2064,8 +1789,8 @@
                 "label": "Player\n\n“There is nothing illegal, so why even talk about this?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2075,8 +1800,8 @@
                 "label": "Player\n\n“Ricter is a loyal servant of Sordland. Old Guards are trying to pressure him.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2086,8 +1811,8 @@
                 "label": "Karl Greiser\n\n“Everyone has something, usually. The PFJP and the other opposition members can't be fully clean.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2097,8 +1822,8 @@
                 "label": "Karl Greiser\n\n“Not only that you also diverted the funding to her ministry. You are the only President to have done so in the history of the Republic.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2108,8 +1833,8 @@
                 "label": "BaseGame.Relations_Nia_Opposition == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2119,8 +1844,8 @@
                 "label": "!(BaseGame.Relations_Nia_Opposition == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2130,8 +1855,8 @@
                 "label": "BaseGame.Relations_Walter_Promise_CompanyFulfilled == true || BaseGame.Media_SordlandToday_Bias == true || BaseGame.Relations_Walter_Promise_TaxFulfilled == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2141,8 +1866,8 @@
                 "label": "!(BaseGame.Relations_Walter_Promise_CompanyFulfilled == true || BaseGame.Media_SordlandToday_Bias == true || BaseGame.Relations_Walter_Promise_TaxFulfilled == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2152,8 +1877,8 @@
                 "label": "Narrator\n\nLucian wrote a couple of notes down."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2163,8 +1888,8 @@
                 "label": "BaseGame.Turn04_SnO_LE_Interior_Increased == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2174,8 +1899,8 @@
                 "label": "!(BaseGame.Turn04_SnO_LE_Interior_Increased == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2185,8 +1910,8 @@
                 "label": "Lucian Galade\n\n“Hawker, Heron and the rest of the Guard in the Supreme Court will be able to be prosecuted with our new constitution.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2196,8 +1921,8 @@
                 "label": "Lucian Galade\n\n“We always suspected that they were dangerously close but the real question here is who in the government and cabinet is on their side?”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2207,19 +1932,8 @@
                 "label": "Player\n\n“I guess Minister Morgna is on our side on this. She really wants to tackle corruption inside.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_309",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“I guess Minister Morgna is on our side on this. She really wants to tackle corruption inside.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2229,8 +1943,8 @@
                 "label": "Player\n\n“Don't poke the bear when we are not ready to fight it. Maintain low-key operations.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2240,8 +1954,8 @@
                 "label": "Player\n\n“Not sure if Graf can be fully trusted. What if she turns this force against us?”"
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2251,8 +1965,8 @@
                 "label": "Karl Greiser\n\n“There are some very powerful deep state forces inside the administration. Our investigations have just begun but certain links we have discovered are troubling.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2262,8 +1976,8 @@
                 "label": "Karl Greiser\n\n“Thank you sir, I will be relentless; the adversaries of this country will be found.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2273,8 +1987,8 @@
                 "label": "Player\n\n“Keep pursuing this Karl. If you encounter any obstacles, my full authority will protect you.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2284,8 +1998,8 @@
                 "label": "Player\n\n“Focus Secret State Police investigations on Hawker and the Old Guard.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2295,8 +2009,8 @@
                 "label": "Player\n\n“Focus Secret State Police investigations on Tusk and the Oligarchs.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2306,8 +2020,8 @@
                 "label": "Player\n\n“Focus Secret State Police investigations on the opposition parties.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -2317,8 +2031,8 @@
                 "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the Oligarchs.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 540,
+                "y": 500
             }
         },
         {
@@ -2328,8 +2042,8 @@
                 "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the PFJP and the NFP.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -2339,8 +2053,8 @@
                 "label": "Karl Greiser\n\n“Yes, sir. We will focus our research and investigation on the Old Guard.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 540,
+                "y": 1000
             }
         },
         {
@@ -2350,8 +2064,8 @@
                 "label": "Karl Greiser\n\n“He might not be innocent, sir. But if you think he isn't an issue, then we can move on.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2361,8 +2075,8 @@
                 "label": "Karl Greiser\n\n“Very well, sir. If he isn't a big concern for you, we can talk about other figures.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2372,8 +2086,8 @@
                 "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2383,8 +2097,8 @@
                 "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2394,8 +2108,8 @@
                 "label": "Karl Greiser\n\n“We certainly can do so. I wish we had proof of the incident... It would help in a case against him.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2405,8 +2119,8 @@
                 "label": "Karl Greiser\n\n“And it is suspected that they are evading taxes through bribery and exploiting grey areas in our laws. Our investigators in Estord and Narbel have also found some suspicious financial activity from some of their corporations. If tax returns were to be made public, it would help us track irregularities in the filings.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2416,30 +2130,8 @@
                 "label": "BaseGame.Turn01_EnT_Economy_Planned == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_339",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn01_EnT_Economy_Planned == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_339",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn01_EnT_Economy_Planned == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2449,8 +2141,8 @@
                 "label": "!(BaseGame.Turn01_EnT_Economy_Planned == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2460,8 +2152,8 @@
                 "label": "Player\n\n“Who cares about him, anyway...”"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2471,8 +2163,8 @@
                 "label": "Player\n\n“Marcel offered me a deal before. He needs to be investigated in full.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2482,8 +2174,8 @@
                 "label": "Karl Greiser\n\n“They do have reach, but the President has much more influence and authority.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2493,8 +2185,8 @@
                 "label": "Player\n\n“Tusk is an issue, but he shouldn't be our primary target. There are bigger fish to fry.”"
             },
             "position": {
-                "x": 270.0,
-                "y": 750.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2504,8 +2196,8 @@
                 "label": "Karl Greiser\n\n“It really seems like they have a powerful influence in the majority of the so-called independent news organisations. They might not be so independent after all.”"
             },
             "position": {
-                "x": 540.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2515,30 +2207,8 @@
                 "label": "Player\n\n“The Oligarchs pose a larger threat to our administration. We need to curb them immediately.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_350",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“The Oligarchs pose a larger threat to our administration. We need to curb them immediately.”"
-            },
-            "position": {
-                "x": 270.0,
-                "y": 1000.0
-            }
-        },
-        {
-            "id": "node_350",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“The Oligarchs pose a larger threat to our administration. We need to curb them immediately.”"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2548,8 +2218,8 @@
                 "label": "Player\n\n“The economy must be controlled by the state. Lotherberg has too much influence.”"
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2559,8 +2229,8 @@
                 "label": "Player\n\n“Bribery should be eradicated from the system.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2570,8 +2240,8 @@
                 "label": "Lucian Galade\n\n“It's not good to underestimate such critical public opinion tools.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -2581,8 +2251,8 @@
                 "label": "BaseGame.Faction_Oligarchs_Content == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2592,8 +2262,8 @@
                 "label": "Player\n\n“We need to find out about their weaknesses, just in case.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2603,8 +2273,8 @@
                 "label": "Karl Greiser\n\n“In that case, the department will keep an eye on any leads.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2614,8 +2284,8 @@
                 "label": "Lucian Galade\n\n“We surely can do that to be on the safe side, even though we are working with them.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -2625,8 +2295,8 @@
                 "label": "Karl Greiser\n\n“Minister Morgna is very concerned about the Supreme Court and Old Guard. She sees them as the primary threat.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2636,19 +2306,8 @@
                 "label": "Narrator\n\nLucian glanced at me with his eyebrow raised."
             },
             "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_365",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nLucian glanced at me with his eyebrow raised."
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2658,8 +2317,8 @@
                 "label": "Karl Greiser\n\n“I am a supporter of the Emergency Act and the expanded powers given to our police to stabilise the country. We have achieved our goals.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -2669,8 +2328,8 @@
                 "label": "Karl Greiser\n\n“After further research, we found that there are some very powerful deep state forces inside the administration influencing our security. Our investigations have just begun, but certain links we have discovered are troubling.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2680,8 +2339,8 @@
                 "label": "Lucian Galade\n\n“The chain of command is jeopardized?”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2691,8 +2350,8 @@
                 "label": "Karl Greiser\n\n“However, I couldn't help but notice that certain high-ranking officers in the Sordish Police Force have been acting autonomously. This is a grave concern for us.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2702,30 +2361,8 @@
                 "label": "BaseGame.Reform_Autocrat_Path == true && BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_372",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Reform_Autocrat_Path == true && BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true\n\nnan"
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_372",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Reform_Autocrat_Path == true && BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true\n\nnan"
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2735,8 +2372,8 @@
                 "label": "Lucian Galade\n\n“The most logical step would be to use the SSP to pressure either the Oligarchs or the Old Guard.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2746,8 +2383,8 @@
                 "label": "Karl Greiser\n\n“The Reformists are a threat to the next election, sir. The people could rally behind them and endanger your administration. With the SSP, we can resort to harsh but necessary actions to remove these threats.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2757,8 +2394,8 @@
                 "label": "Player\n\n“That's exactly what I want you to do.”"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2768,8 +2405,8 @@
                 "label": "BaseGame.Reform_Law_Judges_Impeachment_Default == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -2779,8 +2416,8 @@
                 "label": "!(BaseGame.Reform_Law_Judges_Impeachment_Default == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2790,8 +2427,8 @@
                 "label": "BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2801,8 +2438,8 @@
                 "label": "!(BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2812,8 +2449,8 @@
                 "label": "!(BaseGame.Turn05_SnO_LE_Policy_CommunityPolice == true)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2823,8 +2460,8 @@
                 "label": "BaseGameSupport.News_Turn05_HP_ACPFormed = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2834,8 +2471,8 @@
                 "label": "BaseGameSupport.News_Turn05_HP_CPFormed = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2845,8 +2482,8 @@
                 "label": "BaseGame.Turn05_SnO_Investigate_OldGuard = true; BaseGameSupport.Journal_Turn05_Investigations_OldGuard = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -2856,8 +2493,8 @@
                 "label": "BaseGame.Turn05_SnO_Investigate_Opposition = true; BaseGameSupport.Journal_Turn05_Investigations_Reformists = true\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 270,
+                "y": 750
             }
         },
         {
@@ -2867,8 +2504,8 @@
                 "label": "BaseGame.Faction_OldGuard_Content = false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 540,
+                "y": 750
             }
         },
         {
@@ -2878,8 +2515,8 @@
                 "label": "BaseGame.Faction_Oligarchs_Content = false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -2889,8 +2526,8 @@
                 "label": "BaseGame.Faction_OldGuard_Content = false\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -2900,8 +2537,8 @@
                 "label": "End();\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -2911,8 +2548,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 750
             }
         }
     ],
@@ -2999,18 +2636,6 @@
             "id": "e23_to_45",
             "source": "node_23",
             "target": "node_45",
-            "type": "step"
-        },
-        {
-            "id": "e23_to_46",
-            "source": "node_23",
-            "target": "node_46",
-            "type": "step"
-        },
-        {
-            "id": "e23_to_47",
-            "source": "node_23",
-            "target": "node_47",
             "type": "step"
         },
         {
@@ -3134,12 +2759,6 @@
             "type": "step"
         },
         {
-            "id": "e69_to_199",
-            "source": "node_69",
-            "target": "node_199",
-            "type": "step"
-        },
-        {
             "id": "e70_to_268",
             "source": "node_70",
             "target": "node_268",
@@ -3206,24 +2825,6 @@
             "type": "step"
         },
         {
-            "id": "e81_to_242",
-            "source": "node_81",
-            "target": "node_242",
-            "type": "step"
-        },
-        {
-            "id": "e81_to_243",
-            "source": "node_81",
-            "target": "node_243",
-            "type": "step"
-        },
-        {
-            "id": "e81_to_247",
-            "source": "node_81",
-            "target": "node_247",
-            "type": "step"
-        },
-        {
             "id": "e82_to_122",
             "source": "node_82",
             "target": "node_122",
@@ -3278,24 +2879,6 @@
             "type": "step"
         },
         {
-            "id": "e100_to_130",
-            "source": "node_100",
-            "target": "node_130",
-            "type": "step"
-        },
-        {
-            "id": "e100_to_3",
-            "source": "node_100",
-            "target": "node_3",
-            "type": "step"
-        },
-        {
-            "id": "e100_to_8",
-            "source": "node_100",
-            "target": "node_8",
-            "type": "step"
-        },
-        {
             "id": "e103_to_145",
             "source": "node_103",
             "target": "node_145",
@@ -3335,18 +2918,6 @@
             "id": "e110_to_149",
             "source": "node_110",
             "target": "node_149",
-            "type": "step"
-        },
-        {
-            "id": "e110_to_108",
-            "source": "node_110",
-            "target": "node_108",
-            "type": "step"
-        },
-        {
-            "id": "e110_to_224",
-            "source": "node_110",
-            "target": "node_224",
             "type": "step"
         },
         {
@@ -3467,12 +3038,6 @@
             "id": "e165_to_170",
             "source": "node_165",
             "target": "node_170",
-            "type": "step"
-        },
-        {
-            "id": "e165_to_172",
-            "source": "node_165",
-            "target": "node_172",
             "type": "step"
         },
         {
@@ -3656,12 +3221,6 @@
             "type": "step"
         },
         {
-            "id": "e213_to_379",
-            "source": "node_213",
-            "target": "node_379",
-            "type": "step"
-        },
-        {
             "id": "e214_to_208",
             "source": "node_214",
             "target": "node_208",
@@ -3722,12 +3281,6 @@
             "type": "step"
         },
         {
-            "id": "e223_to_188",
-            "source": "node_223",
-            "target": "node_188",
-            "type": "step"
-        },
-        {
             "id": "e225_to_25",
             "source": "node_225",
             "target": "node_25",
@@ -3737,18 +3290,6 @@
             "id": "e227_to_162",
             "source": "node_227",
             "target": "node_162",
-            "type": "step"
-        },
-        {
-            "id": "e227_to_163",
-            "source": "node_227",
-            "target": "node_163",
-            "type": "step"
-        },
-        {
-            "id": "e227_to_164",
-            "source": "node_227",
-            "target": "node_164",
             "type": "step"
         },
         {
@@ -3818,18 +3359,6 @@
             "type": "step"
         },
         {
-            "id": "e238_to_157",
-            "source": "node_238",
-            "target": "node_157",
-            "type": "step"
-        },
-        {
-            "id": "e238_to_159",
-            "source": "node_238",
-            "target": "node_159",
-            "type": "step"
-        },
-        {
             "id": "e239_to_234",
             "source": "node_239",
             "target": "node_234",
@@ -3878,18 +3407,6 @@
             "type": "step"
         },
         {
-            "id": "e254_to_160",
-            "source": "node_254",
-            "target": "node_160",
-            "type": "step"
-        },
-        {
-            "id": "e254_to_237",
-            "source": "node_254",
-            "target": "node_237",
-            "type": "step"
-        },
-        {
             "id": "e255_to_266",
             "source": "node_255",
             "target": "node_266",
@@ -3926,21 +3443,9 @@
             "type": "step"
         },
         {
-            "id": "e266_to_193",
-            "source": "node_266",
-            "target": "node_193",
-            "type": "step"
-        },
-        {
             "id": "e267_to_194",
             "source": "node_267",
             "target": "node_194",
-            "type": "step"
-        },
-        {
-            "id": "e267_to_193",
-            "source": "node_267",
-            "target": "node_193",
             "type": "step"
         },
         {
@@ -3980,18 +3485,6 @@
             "type": "step"
         },
         {
-            "id": "e279_to_275",
-            "source": "node_279",
-            "target": "node_275",
-            "type": "step"
-        },
-        {
-            "id": "e279_to_276",
-            "source": "node_279",
-            "target": "node_276",
-            "type": "step"
-        },
-        {
             "id": "e280_to_273",
             "source": "node_280",
             "target": "node_273",
@@ -4019,12 +3512,6 @@
             "id": "e284_to_289",
             "source": "node_284",
             "target": "node_289",
-            "type": "step"
-        },
-        {
-            "id": "e284_to_283",
-            "source": "node_284",
-            "target": "node_283",
             "type": "step"
         },
         {
@@ -4121,12 +3608,6 @@
             "id": "e309_to_297",
             "source": "node_309",
             "target": "node_297",
-            "type": "step"
-        },
-        {
-            "id": "e309_to_321",
-            "source": "node_309",
-            "target": "node_321",
             "type": "step"
         },
         {
@@ -4238,18 +3719,6 @@
             "type": "step"
         },
         {
-            "id": "e339_to_351",
-            "source": "node_339",
-            "target": "node_351",
-            "type": "step"
-        },
-        {
-            "id": "e339_to_353",
-            "source": "node_339",
-            "target": "node_353",
-            "type": "step"
-        },
-        {
             "id": "e341_to_352",
             "source": "node_341",
             "target": "node_352",
@@ -4289,18 +3758,6 @@
             "id": "e350_to_332",
             "source": "node_350",
             "target": "node_332",
-            "type": "step"
-        },
-        {
-            "id": "e350_to_344",
-            "source": "node_350",
-            "target": "node_344",
-            "type": "step"
-        },
-        {
-            "id": "e350_to_346",
-            "source": "node_350",
-            "target": "node_346",
             "type": "step"
         },
         {
@@ -4358,12 +3815,6 @@
             "type": "step"
         },
         {
-            "id": "e365_to_359",
-            "source": "node_365",
-            "target": "node_359",
-            "type": "step"
-        },
-        {
             "id": "e366_to_365",
             "source": "node_366",
             "target": "node_365",
@@ -4391,18 +3842,6 @@
             "id": "e372_to_324",
             "source": "node_372",
             "target": "node_324",
-            "type": "step"
-        },
-        {
-            "id": "e372_to_325",
-            "source": "node_372",
-            "target": "node_325",
-            "type": "step"
-        },
-        {
-            "id": "e372_to_326",
-            "source": "node_372",
-            "target": "node_326",
             "type": "step"
         },
         {

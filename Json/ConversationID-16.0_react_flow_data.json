@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Lucian Galade\n\n\"Let's get back to the topic.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,8 +29,8 @@
                 "label": "Jump to: [Reformist Branch Start]\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -40,8 +40,8 @@
                 "label": "Nia Morgna\n\n\"I can't believe you are supporting this too.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -51,8 +51,8 @@
                 "label": "Lucian Galade\n\n\"While I respect her, I doubt that she's capable of creating major obstacles for us. But we have to keep close eyes on her.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -62,8 +62,8 @@
                 "label": "Petr Vectern\n\n\"That's true. We have bigger fish to catch.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +73,8 @@
                 "label": "Player\n\n\"She's not our main problem here.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +84,8 @@
                 "label": "Player\n\n\"I will make sure she stays in line.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -95,8 +95,8 @@
                 "label": "Player\n\n\"Yes, keep an eye on her. We can't let her sabotage us.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +106,8 @@
                 "label": "Lucian Galade\n\n\"We already know that the Old Guards would block any reforms to the Constitution. So, they would definitely want to work with you to preserve it, if that's still what you want to do.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -117,8 +117,8 @@
                 "label": "Petr Vectern\n\n\"I... Don't get me wrong. I am with you. I was only saying that you could go over the draft. I didn't notice if that came out wrong.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -128,19 +128,8 @@
                 "label": "Petr Vectern\n\n\"Maybe we can first go over the draft of the amendments that the committee prepared for reforms. You do not have to approve it.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 3250.0
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "customNode",
-            "data": {
-                "label": "Petr Vectern\n\n\"Maybe we can first go over the draft of the amendments that the committee prepared for reforms. You do not have to approve it.\""
-            },
-            "position": {
-                "x": 540.0,
-                "y": 2750.0
+                "x": 540,
+                "y": 3250
             }
         },
         {
@@ -150,19 +139,8 @@
                 "label": "Petr Vectern\n\n\"Let's not go that far, Mrs. Morgna. I'm sure we can figure something out. If Mr. President can get Orso Hawker to work with him...\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "customNode",
-            "data": {
-                "label": "Petr Vectern\n\n\"Let's not go that far, Mrs. Morgna. I'm sure we can figure something out. If Mr. President can get Orso Hawker to work with him...\""
-            },
-            "position": {
-                "x": 810.0,
-                "y": 3000.0
+                "x": 540,
+                "y": 2750
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "Petr Vectern\n\n\"That's troublesome.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 1500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "Lucian Galade\n\n\"I just do not trust the Chief Justice in delivering any promises. I'm afraid that ignoring the demands for reform might create some future problems for our administration.\""
             },
             "position": {
-                "x": 1080.0,
-                "y": 2250.0
+                "x": 810,
+                "y": 3000
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "Narrator\n\nShe left the room and slammed the door behind her.\n\nRemoveConversant(Nia Morgna); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 540.0,
-                "y": 1250.0
+                "x": 540,
+                "y": 1500
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "BaseGame.Relations_Nia_Opposition = true\n\nnan"
             },
             "position": {
-                "x": 540.0,
-                "y": 3000.0
+                "x": 1080,
+                "y": 2250
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "Player\n\n\"You too?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 1250.0
+                "x": 540,
+                "y": 1250
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "Nia Morgna\n\n\"I understand, Mr. President.\""
             },
             "position": {
-                "x": 1080.0,
-                "y": 2500.0
+                "x": 540,
+                "y": 3000
             }
         },
         {
@@ -238,8 +216,8 @@
                 "label": "Nia Morgna\n\n\"Work with the reformists on writing a more democratic Constitution for Sordland. Change cannot be stopped.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 1000.0
+                "x": 0,
+                "y": 1250
             }
         },
         {
@@ -249,8 +227,8 @@
                 "label": "Player\n\n\"How about you, Petr?\""
             },
             "position": {
-                "x": 540.0,
-                "y": 2500.0
+                "x": 1080,
+                "y": 2500
             }
         },
         {
@@ -260,8 +238,8 @@
                 "label": "Narrator\n\nShe didn't respond."
             },
             "position": {
-                "x": 270.0,
-                "y": 500.0
+                "x": 540,
+                "y": 1000
             }
         },
         {
@@ -271,8 +249,8 @@
                 "label": "Player\n\n\"Good day to you too, Mrs. Morgna.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 4000.0
+                "x": 540,
+                "y": 2500
             }
         },
         {
@@ -282,8 +260,8 @@
                 "label": "Lucian Galade\n\n\"Of course, sir. Let's proceed to the draft.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 270,
+                "y": 500
             }
         },
         {
@@ -293,8 +271,8 @@
                 "label": "Nia Morgna\n\n\"Have a good day.\""
             },
             "position": {
-                "x": 270.0,
-                "y": 1000.0
+                "x": 540,
+                "y": 4000
             }
         },
         {
@@ -304,30 +282,8 @@
                 "label": "Player\n\n\"Come now, I can't have you all go against me on this.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Come now, I can't have you all go against me on this.\""
-            },
-            "position": {
-                "x": 810.0,
-                "y": 4750.0
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Come now, I can't have you all go against me on this.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -337,8 +293,8 @@
                 "label": "Narrator\n\nShe looked at me in shock. She had no words to say."
             },
             "position": {
-                "x": 0.0,
-                "y": 1000.0
+                "x": 270,
+                "y": 1000
             }
         },
         {
@@ -348,8 +304,8 @@
                 "label": "Player\n\n\"I appreciate your thoughts. Now let's move on.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -359,8 +315,8 @@
                 "label": "Narrator\n\nShe grabbed her notes and went towards the door."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 810,
+                "y": 4750
             }
         },
         {
@@ -370,8 +326,8 @@
                 "label": "Player\n\n\"So you came here to tell me not to do this.\""
             },
             "position": {
-                "x": 810.0,
-                "y": 2500.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +337,8 @@
                 "label": "Lucian Galade\n\n\"I do not. I have already explained Mr. President my position on working with the Old Guards.\""
             },
             "position": {
-                "x": 810.0,
-                "y": 4500.0
+                "x": 0,
+                "y": 1000
             }
         },
         {
@@ -392,41 +348,8 @@
                 "label": "Narrator\n\nNia stood up with rage."
             },
             "position": {
-                "x": 1080.0,
-                "y": 4000.0
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nNia stood up with rage."
-            },
-            "position": {
-                "x": 810.0,
-                "y": 2250.0
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nNia stood up with rage."
-            },
-            "position": {
-                "x": 1350.0,
-                "y": 4000.0
-            }
-        },
-        {
-            "id": "node_46",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nNia stood up with rage."
-            },
-            "position": {
-                "x": 810.0,
-                "y": 4250.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -436,8 +359,8 @@
                 "label": "Nia Morgna\n\n\"I can't believe this!\""
             },
             "position": {
-                "x": 540.0,
-                "y": 2250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -447,8 +370,8 @@
                 "label": "Lucian Galade\n\n\"Blocking the way of the reforms will create many enemies for us. Our best bet would definitely be working with the Old Guards...\""
             },
             "position": {
-                "x": 1080.0,
-                "y": 4250.0
+                "x": 810,
+                "y": 2500
             }
         },
         {
@@ -458,8 +381,8 @@
                 "label": "Player\n\n\"YES. I thought I already explained myself.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 2000.0
+                "x": 810,
+                "y": 4500
             }
         },
         {
@@ -469,8 +392,8 @@
                 "label": "Player\n\n\"I am disappointed in you, Mrs. Morgna.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 1750.0
+                "x": 1080,
+                "y": 4000
             }
         },
         {
@@ -480,8 +403,8 @@
                 "label": "Player\n\n\"No, let's try to work with the reformists on a new Constitution.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 3500.0
+                "x": 810,
+                "y": 2250
             }
         },
         {
@@ -491,8 +414,8 @@
                 "label": "Lucian Galade\n\n\"I see.\""
             },
             "position": {
-                "x": 810.0,
-                "y": 3500.0
+                "x": 1350,
+                "y": 4000
             }
         },
         {
@@ -502,8 +425,8 @@
                 "label": "Player\n\n\"Watch your words, Mrs. Morgna.\""
             },
             "position": {
-                "x": 810.0,
-                "y": 3750.0
+                "x": 810,
+                "y": 4250
             }
         },
         {
@@ -513,8 +436,8 @@
                 "label": "Lucian Galade\n\n\"Of course, sir.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 540,
+                "y": 2250
             }
         },
         {
@@ -524,8 +447,8 @@
                 "label": "Nia Morgna\n\n\"With all due respect, I have to say that I feel disappointed. I thought this administration was going to bring real change. It seems Sollism still lives on.\""
             },
             "position": {
-                "x": 810.0,
-                "y": 4000.0
+                "x": 1080,
+                "y": 4250
             }
         },
         {
@@ -535,30 +458,8 @@
                 "label": "Nia Morgna\n\n\"Excuse me gentlemen. The reforms are not just *some* problem, they are absolutely necessary to democratize this country.\""
             },
             "position": {
-                "x": 540.0,
-                "y": 3750.0
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "customNode",
-            "data": {
-                "label": "Nia Morgna\n\n\"Excuse me gentlemen. The reforms are not just *some* problem, they are absolutely necessary to democratize this country.\""
-            },
-            "position": {
-                "x": 540.0,
-                "y": 4250.0
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "customNode",
-            "data": {
-                "label": "Nia Morgna\n\n\"Excuse me gentlemen. The reforms are not just *some* problem, they are absolutely necessary to democratize this country.\""
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 540,
+                "y": 2000
             }
         },
         {
@@ -568,8 +469,8 @@
                 "label": "Player\n\n\"Okay. Let's see what these suggested reforms are.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 540,
+                "y": 1750
             }
         },
         {
@@ -579,8 +480,8 @@
                 "label": "Player\n\n\"Look, I will not reform the Constitution. We have other problems.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 540,
+                "y": 3500
             }
         },
         {
@@ -590,8 +491,8 @@
                 "label": "Lucian Galade\n\n\"So we're officially against the constitutional reforms?\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 810,
+                "y": 3500
             }
         },
         {
@@ -601,30 +502,8 @@
                 "label": "Player\n\n\"Looks like it.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Looks like it.\""
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Looks like it.\""
-            },
-            "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 810,
+                "y": 3750
             }
         },
         {
@@ -634,8 +513,8 @@
                 "label": "Player\n\n\"Sollism will never die.\""
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -645,8 +524,8 @@
                 "label": "Jump to: [Reformist Branch Start]\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 810,
+                "y": 4000
             }
         },
         {
@@ -656,8 +535,8 @@
                 "label": "Jump to: [Reformist Branch Start]\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 540,
+                "y": 3750
             }
         },
         {
@@ -667,8 +546,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 540,
+                "y": 4250
             }
         }
     ],
@@ -746,21 +625,9 @@
             "type": "step"
         },
         {
-            "id": "e15_to_61",
-            "source": "node_15",
-            "target": "node_61",
-            "type": "step"
-        },
-        {
             "id": "e16_to_26",
             "source": "node_16",
             "target": "node_26",
-            "type": "step"
-        },
-        {
-            "id": "e16_to_20",
-            "source": "node_16",
-            "target": "node_20",
             "type": "step"
         },
         {
@@ -842,18 +709,6 @@
             "type": "step"
         },
         {
-            "id": "e37_to_35",
-            "source": "node_37",
-            "target": "node_35",
-            "type": "step"
-        },
-        {
-            "id": "e37_to_34",
-            "source": "node_37",
-            "target": "node_34",
-            "type": "step"
-        },
-        {
             "id": "e38_to_30",
             "source": "node_38",
             "target": "node_30",
@@ -887,24 +742,6 @@
             "id": "e46_to_45",
             "source": "node_46",
             "target": "node_45",
-            "type": "step"
-        },
-        {
-            "id": "e46_to_40",
-            "source": "node_46",
-            "target": "node_40",
-            "type": "step"
-        },
-        {
-            "id": "e46_to_38",
-            "source": "node_46",
-            "target": "node_38",
-            "type": "step"
-        },
-        {
-            "id": "e46_to_32",
-            "source": "node_46",
-            "target": "node_32",
             "type": "step"
         },
         {
@@ -968,18 +805,6 @@
             "type": "step"
         },
         {
-            "id": "e58_to_53",
-            "source": "node_58",
-            "target": "node_53",
-            "type": "step"
-        },
-        {
-            "id": "e58_to_23",
-            "source": "node_58",
-            "target": "node_23",
-            "type": "step"
-        },
-        {
             "id": "e59_to_58",
             "source": "node_59",
             "target": "node_58",
@@ -1001,18 +826,6 @@
             "id": "e62_to_65",
             "source": "node_62",
             "target": "node_65",
-            "type": "step"
-        },
-        {
-            "id": "e62_to_52",
-            "source": "node_62",
-            "target": "node_52",
-            "type": "step"
-        },
-        {
-            "id": "e62_to_54",
-            "source": "node_62",
-            "target": "node_54",
             "type": "step"
         },
         {

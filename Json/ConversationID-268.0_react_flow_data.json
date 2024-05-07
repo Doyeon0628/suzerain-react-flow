@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Narrator\n\nYour villa became a gathering point for the Sordland elite.\n\n1960|Erlory"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,19 +29,8 @@
                 "label": "Narrator\n\nWith your presidency behind you, you set out to begin your new life in Erlory.\\n\\nYour villa in Erlory wasn't quite as grand as Petr's, but it was spacious and calm, the perfect refuge after the chaos of Holsord.\\n\\nYou and your family...\n\nPlaySoundEffect(VineyardEnding); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nWith your presidency behind you, you set out to begin your new life in Erlory.\\n\\nYour villa in Erlory wasn't quite as grand as Petr's, but it was spacious and calm, the perfect refuge after the chaos of Holsord.\\n\\nYou and your family...\n\nPlaySoundEffect(VineyardEnding); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +40,8 @@
                 "label": "BaseGame.Retirement_FamilyWithYou == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -62,8 +51,8 @@
                 "label": "BaseGame.Retirement_FamilyWithYou == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +62,8 @@
                 "label": "!(BaseGame.Retirement_FamilyWithYou == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -84,8 +73,8 @@
                 "label": "Narrator\n\nYou and Monica began speaking to each other again, although she refused to consider getting back together.\n\n"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -95,8 +84,8 @@
                 "label": "Narrator\n\nThe ensuing scandal cost Monica her political clout. She and Deana moved to a small cottage on the Benfi coast."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,19 +95,8 @@
                 "label": "Player\n\n...reconnected with Franc."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...reconnected with Franc."
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -128,8 +106,8 @@
                 "label": "Player\n\n...started writing a memoir."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -139,8 +117,8 @@
                 "label": "BaseGame.Retirement_FamilyWithYou == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +128,8 @@
                 "label": "Player\n\n...checked yourself into rehab and began working on your memoir."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,8 +139,8 @@
                 "label": "Player\n\nYou happily sampled your own goods."
             },
             "position": {
-                "x": 0.0,
-                "y": 500.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "Player\n\nYou indulged in the party lifestyle."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "BaseGameIsolated.Epilogue_Retirement_Erlory_Party = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 500
             }
         },
         {
@@ -194,8 +172,8 @@
                 "label": "BaseGameIsolated.Epilogue_Retirement_Erlory_Party = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -205,8 +183,8 @@
                 "label": "!(BaseGameIsolated.Epilogue_Retirement_Erlory_Wine == true)\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -216,8 +194,8 @@
                 "label": "Narrator\n\nWith your presidency behind you, you set out to begin your new life in Erlory.\\n\\nYour villa in Erlory wasn't quite as grand as Petr's, but it was spacious and calm, the perfect refuge after the chaos of Holsord.\\n\\nYou...\n\nPlaySoundEffect(VineyardEnding); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -227,8 +205,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -238,19 +216,8 @@
                 "label": "Narrator\n\nFranc, by now living in the Arcasian suburbs with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\n1975|Arcasia\n\nUnlockSteamAchievement(Epilogue_Retirement); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nFranc, by now living in the Arcasian suburbs with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\n1975|Arcasia\n\nUnlockSteamAchievement(Epilogue_Retirement); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -260,8 +227,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -271,19 +238,8 @@
                 "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 750.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -293,8 +249,8 @@
                 "label": "Narrator\n\nFranc, by now living in the Arcasian suburbs with his wife and son, was happy to put whatever differences you'd had aside.\\n\\nYou became a doting grandfather.\\n\\nYou lived out the rest of your days in wealth and comfort, never far from the love of your family. Your only regret was that you...\n\n1975|Arcasia\n\nUnlockSteamAchievement(Epilogue_Retirement); WaitForMessage(Continue);"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -304,8 +260,8 @@
                 "label": "PrologueImage(\"pe_city\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -315,8 +271,8 @@
                 "label": "PrologueImage(\"pe_relaxed\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -326,8 +282,8 @@
                 "label": "PrologueImage(\"pe_party\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 750
             }
         },
         {
@@ -337,8 +293,8 @@
                 "label": "PrologueImage(\"pe_monicaspeech\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -348,8 +304,8 @@
                 "label": "PrologueImage(\"pe_monicaspeech\");\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -359,8 +315,8 @@
                 "label": "PrologueImage(\"pe_drinking\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -370,8 +326,8 @@
                 "label": "PrologueImage(\"pe_loss\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -381,8 +337,8 @@
                 "label": "PrologueImage(\"\");\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -392,8 +348,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -414,12 +370,6 @@
             "id": "e8_to_57",
             "source": "node_8",
             "target": "node_57",
-            "type": "step"
-        },
-        {
-            "id": "e8_to_56",
-            "source": "node_8",
-            "target": "node_56",
             "type": "step"
         },
         {
@@ -456,12 +406,6 @@
             "id": "e41_to_52",
             "source": "node_41",
             "target": "node_52",
-            "type": "step"
-        },
-        {
-            "id": "e41_to_53",
-            "source": "node_41",
-            "target": "node_53",
             "type": "step"
         },
         {
@@ -531,12 +475,6 @@
             "type": "step"
         },
         {
-            "id": "e80_to_53",
-            "source": "node_80",
-            "target": "node_53",
-            "type": "step"
-        },
-        {
             "id": "e82_to_52",
             "source": "node_82",
             "target": "node_52",
@@ -546,12 +484,6 @@
             "id": "e86_to_52",
             "source": "node_86",
             "target": "node_52",
-            "type": "step"
-        },
-        {
-            "id": "e86_to_53",
-            "source": "node_86",
-            "target": "node_53",
             "type": "step"
         },
         {

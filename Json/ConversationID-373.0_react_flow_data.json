@@ -7,8 +7,8 @@
                 "label": "output\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -18,8 +18,8 @@
                 "label": "Daria de Rava\n\n\"Keep in mind that these are the same industries that have been working tirelessly to supply our troops with weapons and equipment. They should be lauded, not penalized.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -29,19 +29,8 @@
                 "label": "Manus Sazon\n\n\"As I was saying. Now that we are engaged in this unfortunate conflict, measures must be taken to mitigate its impact on ordinary citizens.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_37",
-            "type": "customNode",
-            "data": {
-                "label": "Manus Sazon\n\n\"As I was saying. Now that we are engaged in this unfortunate conflict, measures must be taken to mitigate its impact on ordinary citizens.\""
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -51,8 +40,8 @@
                 "label": "Manus Sazon\n\n\"Ms. de Rava, I know you are used to being in charge of these proceedings, but I beg you to remember that is no longer the case.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -62,8 +51,8 @@
                 "label": "Manus Sazon\n\n\"Such as what, Ms. de Rava? Your party issued an official disproval of His Majesty's landowner tax decree. Is your only solution to place the burden on those who can least afford it?\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -73,8 +62,8 @@
                 "label": "Manus Sazon\n\n\"The House of Delegates supports this proposal by a high margin. Therefore, it will be passed on to the King to enact as he sees fit.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -84,8 +73,8 @@
                 "label": "Manus Sazon\n\n\"Ms. de Rava's party issued an official disproval of His Majesty's inheritance tax decree. Her preferred solution, it seems, is to place the burden on those who can least afford it.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -95,8 +84,8 @@
                 "label": "Narrator\n\nShe turned a page in her binder."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -106,8 +95,8 @@
                 "label": "Manus Sazon\n\n\"I had hoped it would go through some sort of legislative process. But good news regardless.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 250.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -117,8 +106,8 @@
                 "label": "Narrator\n\nDaria frowned in consternation."
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 250
             }
         },
         {
@@ -128,19 +117,8 @@
                 "label": "RiziaDLC.HouseElections_RPPWinsSeats == true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.HouseElections_RPPWinsSeats == true\n\nnan"
-            },
-            "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -150,8 +128,8 @@
                 "label": "RiziaDLC.Enable_Policy_RD_Economy_WarProfitsTax = true\n\nnan"
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -161,8 +139,8 @@
                 "label": "Player_Romus\n\n\"I am confident that our victory in Pales will be swift enough that such a measure will not be called for.\""
             },
             "position": {
-                "x": 0.0,
-                "y": 0.0
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -172,8 +150,8 @@
                 "label": "!(RiziaDLC.Resources_Authority >= 3)\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         },
         {
@@ -183,8 +161,8 @@
                 "label": "START\n\nnan"
             },
             "position": {
-                "x": NaN,
-                "y": NaN
+                "x": 0,
+                "y": 0
             }
         }
     ],
@@ -205,12 +183,6 @@
             "id": "e37_to_84",
             "source": "node_37",
             "target": "node_84",
-            "type": "step"
-        },
-        {
-            "id": "e37_to_81",
-            "source": "node_37",
-            "target": "node_81",
             "type": "step"
         },
         {
@@ -259,12 +231,6 @@
             "id": "e149_to_121",
             "source": "node_149",
             "target": "node_121",
-            "type": "step"
-        },
-        {
-            "id": "e149_to_119",
-            "source": "node_149",
-            "target": "node_119",
             "type": "step"
         },
         {
