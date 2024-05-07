@@ -1,54 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_1",
-            "type": "customNode",
-            "data": {
-                "label": "output\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_2",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Anton, you can't do that. Not for my sake.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_3",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"Then I guess good luck, Papa.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI drained my glass and left the table. I had packing to do.\n\nRemoveConversant(Deana); RemoveConversant(Monica); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
             "id": "node_7",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"I'll still call you, Papa.\""
+                "label": "Franc\n\n\"Yeah, yeah. I'm sorry.\""
             },
             "position": {
                 "x": 0,
@@ -56,10 +12,10 @@
             }
         },
         {
-            "id": "node_11",
+            "id": "node_8",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Turn09_MilitaryParade_AssassinationAttempt== true)\n\nnan"
+                "label": "Franc\n\n\"Are some of those guards outside new? I had to convince them I was really your son.\""
             },
             "position": {
                 "x": 0,
@@ -67,142 +23,21 @@
             }
         },
         {
-            "id": "node_14",
+            "id": "node_13",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"Dinner's ready.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Don't worry, we won't make it public until then. I just wanted Deana to know.\""
+                "label": "Player\n\n\"They might be.\""
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I'd rather not tell you. For safety reasons.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_23",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"It's the presidential complex. I'm the President, remember?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.LeakedScandals_Severity > 3)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_31",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe turned to me, her eyes full of regret."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_40",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Please, Anton.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana watched silently as I got up from the table. Finally, she spoke up."
-            },
-            "position": {
-                "x": 270,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Now that we're all here, I wanted to say something.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana came back downstairs and made a beeline for the pencil case on the coffee table."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_45",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe guards formed a cordon to let me through."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         },
         {
             "id": "node_49",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nInstead, I started thinking about how I would announce my decision not to seek re-election."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI didn't know if it was my imagination, but there seemed to be more guards outside my complex than usual."
+                "label": "BaseGame.Turn10_PartyCongress_Lost == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -213,7 +48,7 @@
             "id": "node_53",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Ending_ImpeachmentTrial == true)\n\nnan"
+                "label": "Player\n\n\"Who are you voting for? Now that you're old enough.\""
             },
             "position": {
                 "x": 0,
@@ -221,43 +56,21 @@
             }
         },
         {
-            "id": "node_56",
+            "id": "node_54",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"All right. I'm leaving tomorrow.\""
+                "label": "Franc\n\n\"She won't tell me who she's voting for, but I think she's leaning PFJP.\""
             },
             "position": {
                 "x": 0,
-                "y": 750
+                "y": 0
             }
         },
         {
             "id": "node_57",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Ending_Coup == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I will. I'll see you later, Deana.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nOnce inside, I locked the front door behind me."
+                "label": "Franc\n\n\"Jeez, Dad. Not everything is about you.\""
             },
             "position": {
                 "x": 0,
@@ -268,18 +81,29 @@
             "id": "node_73",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nI hurried past them, went inside and locked the front door behind me. I heard hesitant footsteps coming my way.\n\n"
+                "label": "Franc\n\n\"It's different. I'm older.\""
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What about your mother?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
             }
         },
         {
             "id": "node_75",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"That was the plan before I learned the truth about what you'd done with your time in office. Along with the rest of Sordland.\""
+                "label": "Player\n\n\"Old enough to vote, even.\""
             },
             "position": {
                 "x": 0,
@@ -287,10 +111,10 @@
             }
         },
         {
-            "id": "node_78",
+            "id": "node_79",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"You're not even running anymore. Why should it matter?\""
+                "label": "Franc\n\n\"Does it matter?\""
             },
             "position": {
                 "x": 0,
@@ -298,21 +122,10 @@
             }
         },
         {
-            "id": "node_80",
+            "id": "node_83",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"If you're leaving the country, the election doesn't matter, does it?\""
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I know the past four years have been hard on all of us.\""
+                "label": "Franc\n\n\"Although it doesn't matter, does it?\""
             },
             "position": {
                 "x": 0,
@@ -320,21 +133,32 @@
             }
         },
         {
-            "id": "node_82",
+            "id": "node_84",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"I'll still call you, Papa.\""
+                "label": "Player\n\n\"No, I suppose not.\""
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Retired == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
             }
         },
         {
             "id": "node_88",
             "type": "customNode",
             "data": {
-                "label": "Player_Italic\n\nI opened my arms to embrace my daughter. She reluctantly accepted.\n\nHug her."
+                "label": "Franc\n\n\"Who will you vote for, Dad? Now that you're out of the running.\""
             },
             "position": {
                 "x": 0,
@@ -342,10 +166,10 @@
             }
         },
         {
-            "id": "node_91",
+            "id": "node_95",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.LeakedScandals_Severity > 3)\n\nnan"
+                "label": "Franc\n\n\"Fair enough.\""
             },
             "position": {
                 "x": 0,
@@ -353,43 +177,10 @@
             }
         },
         {
-            "id": "node_100",
+            "id": "node_104",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nMonica refused to meet my gaze. I wondered if this was the last time I would see either of them."
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI still had plenty of work to do."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana was still sitting at the table, looking uncomfortable."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Monica, now is not the time. We've got to get out of here.\""
+                "label": "BaseGame.JoinParty_PFJP == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -400,18 +191,7 @@
             "id": "node_107",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Your mother is right. We're divorcing immediately after the election.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_108",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nMonica refused to meet my gaze. I wondered if this was the last time I would see either of them."
+                "label": "BaseGame.JoinParty_CPS == true || BaseGame.JoinParty_WPB == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -422,7 +202,7 @@
             "id": "node_110",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Situation_Law_ExcellentWomenRights == true ||BaseGame.Reform_PresiPower_Default_GenderEqualityInEducation == true\n\nnan"
+                "label": "Narrator\n\nThe oven timer went off. I took out the ribs and brought them to the dining room."
             },
             "position": {
                 "x": 0,
@@ -430,219 +210,43 @@
             }
         },
         {
-            "id": "node_114",
+            "id": "node_123",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"I won a prize at the handicrafts fair. Mama didn't seem to care that much, though.\""
+                "label": "Franc\n\n\"Dad, have you thought about quitting politics? I don't just mean dropping out of the race -- I mean retiring altogether.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Everything was so much easier before this. I think you were happier, too.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"I'm not talking about you.\""
             },
             "position": {
                 "x": 0,
                 "y": 250
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I will. And I'm still quitting politics, no matter what.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"I won a prize at the science fair. Honestly, I think they were teaching girls different stuff before 'cause they knew we were smarter than boys.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_118",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I've done some unforgivable things. Especially to you, Monica.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_119",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"Good luck.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"She's just jealous because she was always bad at sewing.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_121",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"That's not a surprise, Mama. He hasn't been living at the house in weeks.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_124",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Well, *I* care.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_130",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Deana, your father and I are getting divorced.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_133",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Oh, sweetheart. They were. But it's not that easy.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana was still sitting at the table, looking uncomfortable."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_136",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana was still sitting at the table, looking uncomfortable."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"The military is after me. After what happened at the parade, I'm not safe -- and neither are any of you.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_138",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana ignored my comment and gestured vaguely towards the kitchen."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana was still sitting at the table, looking uncomfortable."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_144",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I hope someday, we'll be able to put this behind us and be a family again.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_146",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I hope I can redeem myself someday.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_150",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nMonica sighed heavily."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
             }
         },
         {
             "id": "node_151",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Smells delicious.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_152",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI hesitantly stepped into the kitchen. Monica was stirring a pot on the stove, her back turned to me."
+                "label": "Player\n\n\"I'd rather leave the country than admit defeat.\""
             },
             "position": {
                 "x": 0,
@@ -650,76 +254,10 @@
             }
         },
         {
-            "id": "node_155",
+            "id": "node_156",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Rumburg_War == false && (BaseGame.Ending_Coup == true || BaseGame.Rumburg_GivenEstordAndNarbel == true || BaseGame.Ending_ImpeachmentTrial == true))\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_158",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"That's not how this works. You don't get to choose.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"That was the plan before I learned the truth about what you'd done with your time in office. Along with the rest of Sordland.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nMonica whirled around in surprise. Her eyes narrowed."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_164",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Italic\n\nI snuck up behind Monica and gave her a hug. She screamed and dropped her ladle.\n\nHug her from behind."
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.LeakedScandals_Severity > 3\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_172",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"No. Not if he's you.\""
+                "label": "Player\n\n\"I'll do better going forward. I won't let you down.\""
             },
             "position": {
                 "x": 0,
@@ -730,29 +268,7 @@
             "id": "node_173",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"No, sweetie. Your father's imagining things.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_174",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn10_PartyCongress_Retired == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_176",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn10_PartyCongress_Retired == true)\n\nnan"
+                "label": "Franc\n\n\"All right. Stay in denial.\""
             },
             "position": {
                 "x": 0,
@@ -760,10 +276,10 @@
             }
         },
         {
-            "id": "node_177",
+            "id": "node_182",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"Oh, sweetheart. They were. But it's not that easy.\""
+                "label": "Player\n\n\"Is it because of... how you got into Holsord State?\""
             },
             "position": {
                 "x": 0,
@@ -771,10 +287,10 @@
             }
         },
         {
-            "id": "node_179",
+            "id": "node_183",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Monica, didn't you hear a word I said? I'm putting politics behind me so we can be a family again.\""
+                "label": "Player\n\n\"What has your mother been telling you about me?\""
             },
             "position": {
                 "x": 0,
@@ -782,32 +298,10 @@
             }
         },
         {
-            "id": "node_181",
+            "id": "node_184",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"I'm sorry. I'll go wait in the living room.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_187",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nI walked back out and sat on the living room sofa."
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_189",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"Are they gonna kill us like they killed Serge?\""
+                "label": "BaseGame.LeakedScandal_Franc_StateUniversity == true && BaseGame.Media_SordlandToday_Bias == false\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -818,106 +312,18 @@
             "id": "node_190",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"Are they gonna try to kill us like they tried to kill Papa?\""
+                "label": "Franc\n\n\"Not to mention the way everyone's been treating me since they found out how I really got into Holsord State.\""
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
             "id": "node_191",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nMonica and Deana turned to look at me in shock."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_192",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"If you're retiring, why does it matter?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_194",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"That's not how this works. You don't get to choose.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_195",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"That was the plan before I learned the truth about what you'd done with your time in office. Along with the rest of Sordland.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_196",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"My retirement from politics is going to be the best thing that ever happened to us.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_199",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I swear to you both, I'll learn from my mistakes as I strive to make Sordland a better place.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_200",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana looked at me in disbelief. Her lower lip trembled slightly."
-            },
-            "position": {
-                "x": 270,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_202",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn09_MilitaryParade_SergeDead\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_204",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn09_MilitaryParade_SergeDead)\n\nnan"
+                "label": "Franc\n\n\"Well, yeah.\""
             },
             "position": {
                 "x": 0,
@@ -928,7 +334,7 @@
             "id": "node_205",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nMonica sighed heavily."
+                "label": "Player\n\n\"Part of being your own man is not caring what other people think.\""
             },
             "position": {
                 "x": 0,
@@ -939,29 +345,7 @@
             "id": "node_206",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.LeakedScandals_Severity > 3\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_208",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.LeakedScandals_Severity > 3)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_210",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"Mama? Is that true?\""
+                "label": "Player\n\n\"Great. So my whole family won't see me now.\""
             },
             "position": {
                 "x": 0,
@@ -972,7 +356,7 @@
             "id": "node_211",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Deana, don't listen to her. Everything's going to work out.\""
+                "label": "Franc\n\n\"Well, Mom and Deana... you kind of brought that on yourself.\""
             },
             "position": {
                 "x": 0,
@@ -983,62 +367,18 @@
             "id": "node_212",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Monica, didn't you hear a word I said? I'm putting politics behind me so we can be a family again.\""
+                "label": "Franc\n\n\"Well...\""
             },
             "position": {
                 "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_215",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDeana scratched her head."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_217",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n\"Deana, your father and I are getting divorced.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
             "id": "node_218",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nMonica and Deana looked at me in shock."
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_219",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Franc never took his studies so seriously.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_229",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"If he sacrifices himself for the sake of the country, that will be his decision.\""
+                "label": "Narrator\n\nFranc winced."
             },
             "position": {
                 "x": 0,
@@ -1046,10 +386,10 @@
             }
         },
         {
-            "id": "node_230",
+            "id": "node_221",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"He does now. I think he's getting really into his army training.\""
+                "label": "BaseGame.Relations_Monica_Slapped == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1057,43 +397,10 @@
             }
         },
         {
-            "id": "node_231",
+            "id": "node_240",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn07_Personal_FrancConscripted == true || BaseGame.Turn07_Personal_FrancMilitarySchool == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_234",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"He doesn't call home so much now that the troops are getting ready for war.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_235",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Rumburg_War == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_238",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_Arcasia == true\n\nnan"
+                "label": "Player\n\n\"Sordland is counting on me. I won't let the country down just because your classmates are calling you names.\""
             },
             "position": {
                 "x": 0,
@@ -1104,7 +411,7 @@
             "id": "node_242",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn07_Personal_University_Abroad_UnitedContana== true\n\nnan"
+                "label": "Franc\n\n\"It doesn't matter what you meant!\""
             },
             "position": {
                 "x": 0,
@@ -1112,76 +419,10 @@
             }
         },
         {
-            "id": "node_245",
+            "id": "node_244",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"He does now.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_247",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"Papa, are we a 'socialist hive mind'?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_252",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Not if I have anything to do with it.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_253",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Franc's been spending too much time in Arcasia, sweetie.\"\n\n\"Franc's just been spending too much time in Arcasia, sweetie.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_254",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Capitalist > 5\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_259",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Franc's been spending too much time in United Contana, sweetie.\"\n\n\"Franc's just been spending too much time in United Contana, sweetie.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_260",
-            "type": "customNode",
-            "data": {
-                "label": "Deana\n\n\"He does now.\""
+                "label": "Player\n\n\"Franc, I know. I've been regretting it every day.\""
             },
             "position": {
                 "x": 0,
@@ -1189,10 +430,65 @@
             }
         },
         {
-            "id": "node_272",
+            "id": "node_246",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"Not much. He writes me letters sometimes.\""
+                "label": "Player\n\n\"Great. So my whole family hates me now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"That's bullshit. Listen, I just need some space.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_251",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"You're not losing me. I just need some space.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_258",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Good luck with retirement.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_264",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAfter showing Franc to the door, I sat and thought for a while.\n\nRemoveConversant(Franc); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_267",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nPetr..."
             },
             "position": {
                 "x": 0,
@@ -1203,29 +499,62 @@
             "id": "node_274",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"I think he's getting really into his army training.\""
+                "label": "Narrator\n\nWhere would it end?"
             },
             "position": {
                 "x": 0,
                 "y": 0
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI went up to my office and began drafting a speech announcing my decision to retire.\n\nDraft a speech announcing your retirement from politics."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_277",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_FinalSupper_Retired = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI went up to my office and spun the globe on my desk.\n\nThink about leaving the country."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
             }
         },
         {
             "id": "node_280",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"It's an outcast, sweetie. But you and I don't need to worry about that. This is your father's problem, not ours.\""
+                "label": "Narrator\n\nI could go to Kyrute. It was the one completely neutral country I knew of, and a little house in the mountains wouldn't cost me much.\n\n"
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 250
             }
         },
         {
-            "id": "node_282",
+            "id": "node_283",
             "type": "customNode",
             "data": {
-                "label": "Deana\n\n\"That's not a surprise, Mama. He hasn't been living at the house in weeks.\""
+                "label": "Player_Italic\n\nI decided to cover up my tracks just in case. There were some documents that needed to be incinerated.\n\nLeave after covering up your tracks just in case."
             },
             "position": {
                 "x": 0,
@@ -1233,10 +562,10 @@
             }
         },
         {
-            "id": "node_283",
+            "id": "node_284",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nDeana took a sip of her water. I could see she was trying to act mature."
+                "label": "Narrator\n\nIt was time for a fresh start."
             },
             "position": {
                 "x": 0,
@@ -1247,73 +576,51 @@
             "id": "node_285",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nDeana took a sip of her water. I could see she was trying to act mature."
+                "label": "BaseGame.Turn10_PartyCongress_Retired == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_286",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Exile_LeaveNow = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1750
-            }
-        },
-        {
-            "id": "node_287",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Ending_Exile = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
+                "y": 750
             }
         },
         {
             "id": "node_288",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn10_FinalSupper_Retired = true\n\nnan"
+                "label": "Player_Italic\n\nI went up to my office and began writing a letter to my ex-wife. Maybe after my retirement, we'd finally be able to work things out.\n\nWrite a letter to Monica."
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
+            }
+        },
+        {
+            "id": "node_289",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI went up to my office and began drafting a speech announcing my retirement from politics.\n\nDraft a speech announcing your retirement from politics."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_291",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nIt was time for a fresh start."
+            },
+            "position": {
+                "x": 0,
+                "y": 750
             }
         },
         {
             "id": "node_292",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"You're not even running anymore. Why does it matter?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_293",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveNow = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_294",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveLater = true\n\nnan"
+                "label": "BaseGame.Rumburg_War == false && (BaseGame.Ending_Coup == true || BaseGame.Rumburg_GivenEstordAndNarbel == true || BaseGame.Ending_ImpeachmentTrial == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1321,21 +628,10 @@
             }
         },
         {
-            "id": "node_295",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_Retire = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
             "id": "node_296",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"I never thought I would be a pariah.\""
+                "label": "Player_Italic\n\nI wasn't going to take my son's advice. He was just a kid. What did he know?\n\nDecide to ignore Franc's advice."
             },
             "position": {
                 "x": 0,
@@ -1346,751 +642,860 @@
             "id": "node_297",
             "type": "customNode",
             "data": {
-                "label": "START\n\nnan"
+                "label": "Narrator\n\nI could go to Kyrute. It was the one completely neutral country I knew of, and a little house in the mountains wouldn't cost me much.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_298",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI decided to cover up my tracks. There were some documents that needed to be incinerated.\n\nLeave after covering up your tracks."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_299",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI went up to my office and spun the globe on my desk.\n\nThink about leaving the country."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMy entire life had built up to this presidency. Now, I couldn't wait for it to be over.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_301",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI started packing my suitcase. I wasn't going to stay in Sordland a second longer.\n\nLeave now."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_303",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI sat down and began drafting a speech announcing my decision to retire from politics.\n\nStay in Sordland and retire from politics."
             },
             "position": {
                 "x": 0,
                 "y": 500
             }
+        },
+        {
+            "id": "node_306",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA little mountain house in the neutral country of Kyrute wouldn't cost me much.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_311",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI decided to cover up my tracks just in case. There were some documents that needed to be incinerated.\n\nLeave after covering up your tracks just in case."
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Exile_LeaveNow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_313",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Retired == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_315",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn10_PartyCongress_Retired == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI went up to my office and began drafting a speech announcing my retirement."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_319",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_MilitaryParade_AssassinationAttempt == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_MilitaryParade_AssassinationAttempt == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_322",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Exile = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Exile = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_324",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_JoinedOtherParty == false && BaseGame.Turn10_PartyCongress_FormNewParty == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"Who would you vote for? I mean, besides the folks you're backing now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_329",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Lost == true && BaseGame.Turn10_PartyCongress_FormNewParty == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_332",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn10_PartyCongress_Lost == true && BaseGame.Turn10_PartyCongress_FormNewParty == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_335",
+            "type": "customNode",
+            "data": {
+                "label": "Franc\n\n\"And my politics professors say your campaigning might actually hurt the candidate you're backing now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_336",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveNow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_337",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveNow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_339",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveNow = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_340",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveLater = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_341",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_Retire = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_343",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn10_FinalSupper_LeaveLater = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_344",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Rumburg_War == false && (BaseGame.Ending_Coup == true || BaseGame.Ending_ImpeachmentTrial == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_346",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Rumburg_War == false && (BaseGame.Ending_Coup == true || BaseGame.Ending_ImpeachmentTrial == true))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_349",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Rumburg_War == false && (BaseGame.Ending_Coup == true || BaseGame.Rumburg_GivenEstordAndNarbel == true || BaseGame.Ending_ImpeachmentTrial == true))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
         }
     ],
     "edges": [
         {
-            "id": "e1_to_36",
-            "source": "node_1",
-            "target": "node_36",
-            "type": "step"
-        },
-        {
-            "id": "e2_to_49",
-            "source": "node_2",
-            "target": "node_49",
-            "type": "step"
-        },
-        {
-            "id": "e3_to_100",
-            "source": "node_3",
-            "target": "node_100",
-            "type": "step"
-        },
-        {
-            "id": "e6_to_173",
-            "source": "node_6",
-            "target": "node_173",
-            "type": "step"
-        },
-        {
-            "id": "e7_to_288",
+            "id": "e7_to_320",
             "source": "node_7",
-            "target": "node_288",
+            "target": "node_320",
             "type": "step"
         },
         {
-            "id": "e11_to_138",
-            "source": "node_11",
-            "target": "node_138",
+            "id": "e8_to_320",
+            "source": "node_8",
+            "target": "node_320",
             "type": "step"
         },
         {
-            "id": "e14_to_232",
-            "source": "node_14",
-            "target": "node_232",
+            "id": "e13_to_38",
+            "source": "node_13",
+            "target": "node_38",
             "type": "step"
         },
         {
-            "id": "e16_to_44",
-            "source": "node_16",
-            "target": "node_44",
-            "type": "step"
-        },
-        {
-            "id": "e21_to_141",
-            "source": "node_21",
-            "target": "node_141",
-            "type": "step"
-        },
-        {
-            "id": "e23_to_14",
-            "source": "node_23",
-            "target": "node_14",
-            "type": "step"
-        },
-        {
-            "id": "e28_to_196",
-            "source": "node_28",
-            "target": "node_196",
-            "type": "step"
-        },
-        {
-            "id": "e31_to_69",
-            "source": "node_31",
-            "target": "node_69",
-            "type": "step"
-        },
-        {
-            "id": "e40_to_80",
-            "source": "node_40",
-            "target": "node_80",
-            "type": "step"
-        },
-        {
-            "id": "e42_to_80",
-            "source": "node_42",
-            "target": "node_80",
-            "type": "step"
-        },
-        {
-            "id": "e43_to_8",
-            "source": "node_43",
-            "target": "node_8",
-            "type": "step"
-        },
-        {
-            "id": "e44_to_82",
-            "source": "node_44",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e45_to_23",
-            "source": "node_45",
-            "target": "node_23",
-            "type": "step"
-        },
-        {
-            "id": "e49_to_24",
+            "id": "e49_to_325",
             "source": "node_49",
-            "target": "node_24",
+            "target": "node_325",
             "type": "step"
         },
         {
-            "id": "e50_to_289",
-            "source": "node_50",
-            "target": "node_289",
-            "type": "step"
-        },
-        {
-            "id": "e53_to_140",
+            "id": "e53_to_86",
             "source": "node_53",
-            "target": "node_140",
+            "target": "node_86",
             "type": "step"
         },
         {
-            "id": "e56_to_295",
-            "source": "node_56",
-            "target": "node_295",
-            "type": "step"
-        },
-        {
-            "id": "e57_to_287",
-            "source": "node_57",
-            "target": "node_287",
-            "type": "step"
-        },
-        {
-            "id": "e68_to_56",
-            "source": "node_68",
-            "target": "node_56",
-            "type": "step"
-        },
-        {
-            "id": "e69_to_141",
-            "source": "node_69",
-            "target": "node_141",
-            "type": "step"
-        },
-        {
-            "id": "e73_to_68",
-            "source": "node_73",
-            "target": "node_68",
-            "type": "step"
-        },
-        {
-            "id": "e75_to_289",
-            "source": "node_75",
-            "target": "node_289",
-            "type": "step"
-        },
-        {
-            "id": "e78_to_123",
-            "source": "node_78",
-            "target": "node_123",
-            "type": "step"
-        },
-        {
-            "id": "e80_to_126",
-            "source": "node_80",
-            "target": "node_126",
-            "type": "step"
-        },
-        {
-            "id": "e81_to_73",
-            "source": "node_81",
-            "target": "node_73",
-            "type": "step"
-        },
-        {
-            "id": "e82_to_126",
-            "source": "node_82",
-            "target": "node_126",
-            "type": "step"
-        },
-        {
-            "id": "e88_to_71",
-            "source": "node_88",
-            "target": "node_71",
-            "type": "step"
-        },
-        {
-            "id": "e91_to_76",
-            "source": "node_91",
-            "target": "node_76",
-            "type": "step"
-        },
-        {
-            "id": "e100_to_151",
-            "source": "node_100",
-            "target": "node_151",
-            "type": "step"
-        },
-        {
-            "id": "e102_to_83",
-            "source": "node_102",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e103_to_2",
-            "source": "node_103",
-            "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e106_to_90",
-            "source": "node_106",
-            "target": "node_90",
-            "type": "step"
-        },
-        {
-            "id": "e107_to_77",
-            "source": "node_107",
+            "id": "e54_to_77",
+            "source": "node_54",
             "target": "node_77",
             "type": "step"
         },
         {
-            "id": "e108_to_90",
-            "source": "node_108",
-            "target": "node_90",
+            "id": "e57_to_111",
+            "source": "node_57",
+            "target": "node_111",
             "type": "step"
         },
         {
-            "id": "e110_to_151",
+            "id": "e73_to_58",
+            "source": "node_73",
+            "target": "node_58",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_120",
+            "source": "node_74",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_47",
+            "source": "node_75",
+            "target": "node_47",
+            "type": "step"
+        },
+        {
+            "id": "e79_to_98",
+            "source": "node_79",
+            "target": "node_98",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_97",
+            "source": "node_83",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_57",
+            "source": "node_84",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_111",
+            "source": "node_85",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_330",
+            "source": "node_88",
+            "target": "node_330",
+            "type": "step"
+        },
+        {
+            "id": "e95_to_111",
+            "source": "node_95",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_93",
+            "source": "node_104",
+            "target": "node_93",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_92",
+            "source": "node_107",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e110_to_101",
             "source": "node_110",
-            "target": "node_151",
+            "target": "node_101",
             "type": "step"
         },
         {
-            "id": "e114_to_285",
-            "source": "node_114",
-            "target": "node_285",
+            "id": "e123_to_181",
+            "source": "node_123",
+            "target": "node_181",
             "type": "step"
         },
         {
-            "id": "e115_to_125",
-            "source": "node_115",
-            "target": "node_125",
-            "type": "step"
-        },
-        {
-            "id": "e117_to_104",
-            "source": "node_117",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e118_to_132",
-            "source": "node_118",
-            "target": "node_132",
-            "type": "step"
-        },
-        {
-            "id": "e119_to_145",
-            "source": "node_119",
-            "target": "node_145",
-            "type": "step"
-        },
-        {
-            "id": "e120_to_109",
-            "source": "node_120",
-            "target": "node_109",
-            "type": "step"
-        },
-        {
-            "id": "e121_to_139",
-            "source": "node_121",
-            "target": "node_139",
-            "type": "step"
-        },
-        {
-            "id": "e124_to_117",
-            "source": "node_124",
-            "target": "node_117",
-            "type": "step"
-        },
-        {
-            "id": "e130_to_214",
-            "source": "node_130",
-            "target": "node_214",
-            "type": "step"
-        },
-        {
-            "id": "e133_to_174",
-            "source": "node_133",
-            "target": "node_174",
-            "type": "step"
-        },
-        {
-            "id": "e135_to_124",
-            "source": "node_135",
-            "target": "node_124",
-            "type": "step"
-        },
-        {
-            "id": "e136_to_127",
-            "source": "node_136",
-            "target": "node_127",
-            "type": "step"
-        },
-        {
-            "id": "e137_to_127",
-            "source": "node_137",
-            "target": "node_127",
-            "type": "step"
-        },
-        {
-            "id": "e138_to_201",
-            "source": "node_138",
-            "target": "node_201",
-            "type": "step"
-        },
-        {
-            "id": "e140_to_216",
-            "source": "node_140",
-            "target": "node_216",
-            "type": "step"
-        },
-        {
-            "id": "e144_to_216",
-            "source": "node_144",
-            "target": "node_216",
-            "type": "step"
-        },
-        {
-            "id": "e146_to_134",
-            "source": "node_146",
-            "target": "node_134",
-            "type": "step"
-        },
-        {
-            "id": "e150_to_137",
-            "source": "node_150",
-            "target": "node_137",
-            "type": "step"
-        },
-        {
-            "id": "e151_to_218",
-            "source": "node_151",
-            "target": "node_218",
-            "type": "step"
-        },
-        {
-            "id": "e152_to_163",
-            "source": "node_152",
-            "target": "node_163",
-            "type": "step"
-        },
-        {
-            "id": "e155_to_183",
-            "source": "node_155",
-            "target": "node_183",
-            "type": "step"
-        },
-        {
-            "id": "e158_to_148",
-            "source": "node_158",
-            "target": "node_148",
-            "type": "step"
-        },
-        {
-            "id": "e160_to_146",
-            "source": "node_160",
-            "target": "node_146",
-            "type": "step"
-        },
-        {
-            "id": "e162_to_158",
-            "source": "node_162",
-            "target": "node_158",
-            "type": "step"
-        },
-        {
-            "id": "e164_to_131",
-            "source": "node_164",
-            "target": "node_131",
-            "type": "step"
-        },
-        {
-            "id": "e168_to_184",
-            "source": "node_168",
-            "target": "node_184",
-            "type": "step"
-        },
-        {
-            "id": "e172_to_182",
-            "source": "node_172",
-            "target": "node_182",
-            "type": "step"
-        },
-        {
-            "id": "e173_to_188",
-            "source": "node_173",
+            "id": "e131_to_188",
+            "source": "node_131",
             "target": "node_188",
             "type": "step"
         },
         {
-            "id": "e174_to_164",
-            "source": "node_174",
-            "target": "node_164",
+            "id": "e132_to_333",
+            "source": "node_132",
+            "target": "node_333",
             "type": "step"
         },
         {
-            "id": "e176_to_197",
-            "source": "node_176",
-            "target": "node_197",
+            "id": "e151_to_241",
+            "source": "node_151",
+            "target": "node_241",
             "type": "step"
         },
         {
-            "id": "e177_to_199",
-            "source": "node_177",
-            "target": "node_199",
+            "id": "e156_to_177",
+            "source": "node_156",
+            "target": "node_177",
             "type": "step"
         },
         {
-            "id": "e179_to_159",
-            "source": "node_179",
-            "target": "node_159",
+            "id": "e173_to_345",
+            "source": "node_173",
+            "target": "node_345",
             "type": "step"
         },
         {
-            "id": "e181_to_169",
-            "source": "node_181",
-            "target": "node_169",
+            "id": "e182_to_213",
+            "source": "node_182",
+            "target": "node_213",
             "type": "step"
         },
         {
-            "id": "e187_to_178",
-            "source": "node_187",
-            "target": "node_178",
+            "id": "e183_to_192",
+            "source": "node_183",
+            "target": "node_192",
             "type": "step"
         },
         {
-            "id": "e189_to_45",
-            "source": "node_189",
-            "target": "node_45",
-            "type": "step"
-        },
-        {
-            "id": "e190_to_133",
-            "source": "node_190",
-            "target": "node_133",
-            "type": "step"
-        },
-        {
-            "id": "e191_to_133",
-            "source": "node_191",
-            "target": "node_133",
-            "type": "step"
-        },
-        {
-            "id": "e192_to_217",
-            "source": "node_192",
-            "target": "node_217",
-            "type": "step"
-        },
-        {
-            "id": "e194_to_187",
-            "source": "node_194",
-            "target": "node_187",
-            "type": "step"
-        },
-        {
-            "id": "e195_to_187",
-            "source": "node_195",
-            "target": "node_187",
-            "type": "step"
-        },
-        {
-            "id": "e196_to_35",
-            "source": "node_196",
-            "target": "node_35",
-            "type": "step"
-        },
-        {
-            "id": "e199_to_219",
-            "source": "node_199",
+            "id": "e184_to_219",
+            "source": "node_184",
             "target": "node_219",
             "type": "step"
         },
         {
-            "id": "e200_to_186",
-            "source": "node_200",
-            "target": "node_186",
+            "id": "e190_to_132",
+            "source": "node_190",
+            "target": "node_132",
             "type": "step"
         },
         {
-            "id": "e202_to_284",
-            "source": "node_202",
-            "target": "node_284",
+            "id": "e191_to_132",
+            "source": "node_191",
+            "target": "node_132",
             "type": "step"
         },
         {
-            "id": "e204_to_190",
-            "source": "node_204",
-            "target": "node_190",
-            "type": "step"
-        },
-        {
-            "id": "e205_to_191",
+            "id": "e205_to_256",
             "source": "node_205",
-            "target": "node_191",
+            "target": "node_256",
             "type": "step"
         },
         {
-            "id": "e206_to_114",
+            "id": "e206_to_257",
             "source": "node_206",
-            "target": "node_114",
+            "target": "node_257",
             "type": "step"
         },
         {
-            "id": "e208_to_194",
-            "source": "node_208",
+            "id": "e211_to_244",
+            "source": "node_211",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_260",
+            "source": "node_212",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_194",
+            "source": "node_218",
             "target": "node_194",
             "type": "step"
         },
         {
-            "id": "e210_to_281",
-            "source": "node_210",
-            "target": "node_281",
+            "id": "e221_to_234",
+            "source": "node_221",
+            "target": "node_234",
             "type": "step"
         },
         {
-            "id": "e211_to_203",
-            "source": "node_211",
-            "target": "node_203",
+            "id": "e240_to_247",
+            "source": "node_240",
+            "target": "node_247",
             "type": "step"
         },
         {
-            "id": "e212_to_195",
-            "source": "node_212",
-            "target": "node_195",
-            "type": "step"
-        },
-        {
-            "id": "e215_to_27",
-            "source": "node_215",
-            "target": "node_27",
-            "type": "step"
-        },
-        {
-            "id": "e217_to_10",
-            "source": "node_217",
-            "target": "node_10",
-            "type": "step"
-        },
-        {
-            "id": "e218_to_286",
-            "source": "node_218",
-            "target": "node_286",
-            "type": "step"
-        },
-        {
-            "id": "e219_to_3",
-            "source": "node_219",
-            "target": "node_3",
-            "type": "step"
-        },
-        {
-            "id": "e229_to_279",
-            "source": "node_229",
-            "target": "node_279",
-            "type": "step"
-        },
-        {
-            "id": "e230_to_279",
-            "source": "node_230",
-            "target": "node_279",
-            "type": "step"
-        },
-        {
-            "id": "e231_to_276",
-            "source": "node_231",
-            "target": "node_276",
-            "type": "step"
-        },
-        {
-            "id": "e234_to_266",
-            "source": "node_234",
-            "target": "node_266",
-            "type": "step"
-        },
-        {
-            "id": "e235_to_227",
-            "source": "node_235",
-            "target": "node_227",
-            "type": "step"
-        },
-        {
-            "id": "e238_to_275",
-            "source": "node_238",
-            "target": "node_275",
-            "type": "step"
-        },
-        {
-            "id": "e242_to_248",
+            "id": "e242_to_176",
             "source": "node_242",
-            "target": "node_248",
+            "target": "node_176",
             "type": "step"
         },
         {
-            "id": "e245_to_261",
-            "source": "node_245",
+            "id": "e244_to_260",
+            "source": "node_244",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e246_to_239",
+            "source": "node_246",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_260",
+            "source": "node_250",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e251_to_261",
+            "source": "node_251",
             "target": "node_261",
             "type": "step"
         },
         {
-            "id": "e247_to_255",
-            "source": "node_247",
-            "target": "node_255",
+            "id": "e258_to_265",
+            "source": "node_258",
+            "target": "node_265",
             "type": "step"
         },
         {
-            "id": "e252_to_280",
-            "source": "node_252",
-            "target": "node_280",
+            "id": "e264_to_290",
+            "source": "node_264",
+            "target": "node_290",
             "type": "step"
         },
         {
-            "id": "e253_to_280",
-            "source": "node_253",
-            "target": "node_280",
+            "id": "e267_to_275",
+            "source": "node_267",
+            "target": "node_275",
             "type": "step"
         },
         {
-            "id": "e254_to_280",
-            "source": "node_254",
-            "target": "node_280",
-            "type": "step"
-        },
-        {
-            "id": "e259_to_280",
-            "source": "node_259",
-            "target": "node_280",
-            "type": "step"
-        },
-        {
-            "id": "e260_to_280",
-            "source": "node_260",
-            "target": "node_280",
-            "type": "step"
-        },
-        {
-            "id": "e272_to_248",
-            "source": "node_272",
-            "target": "node_248",
-            "type": "step"
-        },
-        {
-            "id": "e274_to_262",
+            "id": "e274_to_269",
             "source": "node_274",
-            "target": "node_262",
+            "target": "node_269",
             "type": "step"
         },
         {
-            "id": "e280_to_15",
-            "source": "node_280",
-            "target": "node_15",
+            "id": "e275_to_348",
+            "source": "node_275",
+            "target": "node_348",
             "type": "step"
         },
         {
-            "id": "e282_to_18",
-            "source": "node_282",
-            "target": "node_18",
-            "type": "step"
-        },
-        {
-            "id": "e283_to_215",
-            "source": "node_283",
-            "target": "node_215",
-            "type": "step"
-        },
-        {
-            "id": "e285_to_130",
-            "source": "node_285",
-            "target": "node_130",
-            "type": "step"
-        },
-        {
-            "id": "e286_to_185",
-            "source": "node_286",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e287_to_294",
-            "source": "node_287",
-            "target": "node_294",
-            "type": "step"
-        },
-        {
-            "id": "e288_to_2",
-            "source": "node_288",
+            "id": "e277_to_2",
+            "source": "node_277",
             "target": "node_2",
             "type": "step"
         },
         {
-            "id": "e292_to_160",
-            "source": "node_292",
-            "target": "node_160",
+            "id": "e278_to_342",
+            "source": "node_278",
+            "target": "node_342",
             "type": "step"
         },
         {
-            "id": "e293_to_146",
-            "source": "node_293",
+            "id": "e280_to_340",
+            "source": "node_280",
+            "target": "node_340",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_280",
+            "source": "node_283",
+            "target": "node_280",
+            "type": "step"
+        },
+        {
+            "id": "e284_to_341",
+            "source": "node_284",
+            "target": "node_341",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_324",
+            "source": "node_285",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e288_to_276",
+            "source": "node_288",
+            "target": "node_276",
+            "type": "step"
+        },
+        {
+            "id": "e289_to_278",
+            "source": "node_289",
+            "target": "node_278",
+            "type": "step"
+        },
+        {
+            "id": "e291_to_2",
+            "source": "node_291",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e292_to_323",
+            "source": "node_292",
+            "target": "node_323",
+            "type": "step"
+        },
+        {
+            "id": "e296_to_338",
+            "source": "node_296",
+            "target": "node_338",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_303",
+            "source": "node_297",
+            "target": "node_303",
+            "type": "step"
+        },
+        {
+            "id": "e298_to_304",
+            "source": "node_298",
+            "target": "node_304",
+            "type": "step"
+        },
+        {
+            "id": "e299_to_343",
+            "source": "node_299",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_298",
+            "source": "node_300",
+            "target": "node_298",
+            "type": "step"
+        },
+        {
+            "id": "e301_to_339",
+            "source": "node_301",
+            "target": "node_339",
+            "type": "step"
+        },
+        {
+            "id": "e303_to_2",
+            "source": "node_303",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e306_to_313",
+            "source": "node_306",
+            "target": "node_313",
+            "type": "step"
+        },
+        {
+            "id": "e311_to_2",
+            "source": "node_311",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_344",
+            "source": "node_312",
+            "target": "node_344",
+            "type": "step"
+        },
+        {
+            "id": "e313_to_337",
+            "source": "node_313",
+            "target": "node_337",
+            "type": "step"
+        },
+        {
+            "id": "e315_to_309",
+            "source": "node_315",
+            "target": "node_309",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_310",
+            "source": "node_318",
+            "target": "node_310",
+            "type": "step"
+        },
+        {
+            "id": "e319_to_301",
+            "source": "node_319",
+            "target": "node_301",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_9",
+            "source": "node_321",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e322_to_10",
+            "source": "node_322",
+            "target": "node_10",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_2",
+            "source": "node_323",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e324_to_2",
+            "source": "node_324",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_86",
+            "source": "node_328",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e329_to_102",
+            "source": "node_329",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e332_to_97",
+            "source": "node_332",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e335_to_146",
+            "source": "node_335",
             "target": "node_146",
             "type": "step"
         },
         {
-            "id": "e294_to_47",
-            "source": "node_294",
-            "target": "node_47",
+            "id": "e336_to_147",
+            "source": "node_336",
+            "target": "node_147",
             "type": "step"
         },
         {
-            "id": "e295_to_47",
-            "source": "node_295",
-            "target": "node_47",
+            "id": "e337_to_311",
+            "source": "node_337",
+            "target": "node_311",
             "type": "step"
         },
         {
-            "id": "e296_to_2",
-            "source": "node_296",
-            "target": "node_2",
+            "id": "e339_to_291",
+            "source": "node_339",
+            "target": "node_291",
             "type": "step"
         },
         {
-            "id": "e297_to_216",
-            "source": "node_297",
-            "target": "node_216",
+            "id": "e340_to_285",
+            "source": "node_340",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e341_to_285",
+            "source": "node_341",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e343_to_292",
+            "source": "node_343",
+            "target": "node_292",
+            "type": "step"
+        },
+        {
+            "id": "e344_to_311",
+            "source": "node_344",
+            "target": "node_311",
+            "type": "step"
+        },
+        {
+            "id": "e346_to_308",
+            "source": "node_346",
+            "target": "node_308",
+            "type": "step"
+        },
+        {
+            "id": "e349_to_279",
+            "source": "node_349",
+            "target": "node_279",
             "type": "step"
         }
     ]

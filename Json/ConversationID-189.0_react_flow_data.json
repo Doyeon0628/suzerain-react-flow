@@ -1,21 +1,21 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "Lucian Galade\n\n\"It concerns the Bernard Circas assassination.\""
+                "label": "output\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 1000
             }
         },
         {
-            "id": "node_23",
+            "id": "node_7",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Yes. The sooner the better.\""
+                "label": "Player\n\n\"Morning, Lucian.\""
             },
             "position": {
                 "x": 0,
@@ -23,10 +23,10 @@
             }
         },
         {
-            "id": "node_27",
+            "id": "node_17",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"No, let this be our little secret for now.\""
+                "label": "Lucian Galade\n\n\"It's about your investigation into the Oligarchs.\""
             },
             "position": {
                 "x": 0,
@@ -34,10 +34,76 @@
             }
         },
         {
-            "id": "node_34",
+            "id": "node_18",
             "type": "customNode",
             "data": {
-                "label": "Lucian Galade\n\n\"I assume Mrs. Morgna will want to take action on this immediately. They could go to trial by the end of the month.\""
+                "label": "Lucian Galade\n\n\"I've just received an update regarding the investigation you ordered into the opposition:\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_25",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Alliance_PFJP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Great. What'd they dig up on the NFP?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It had better be juicy after this long.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nLucian left the room. I finished putting on my tie and reread my notes for the morning's speech.\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_30",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_32",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_SnO_EstordRaid_MarcelTippedOff == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -48,7 +114,7 @@
             "id": "node_35",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn09_A_Investigation_NFP_Trialled_RemusAndKesaro = true;\\nBaseGameSupport.Journal_Turn09_Investigations_TrialRemusAndKesaro = true\n\nnan"
+                "label": "!(BaseGame.Turn08_SnO_KorontiInvestigationStopped == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -56,10 +122,10 @@
             }
         },
         {
-            "id": "node_45",
+            "id": "node_36",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.NFPLeader_Remus = false\n\nnan"
+                "label": "Narrator\n\nLucian pulled out a folder and opened it."
             },
             "position": {
                 "x": 0,
@@ -67,58 +133,5024 @@
             }
         },
         {
-            "id": "node_48",
+            "id": "node_37",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_VPSelection_Lucian == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_40",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I told you, Lucian, you're vice president now. You don't need to keep calling me 'sir'.\"\n\n\"I told you, Lucian, you're vice president now. Stop calling me 'sir'.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_42",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"About goddamn time.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_PFJP == true && BaseGameIsolated.Turn09_A_CampaignInvestigations_DiscussedReformists == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_54",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Now that that's settled, I'll let you prepare for your rally.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_55",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_NFP == true && BaseGameIsolated.Turn09_A_CampaignInvestigations_DiscussedNFP == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Alliance_NFP == true && BaseGameIsolated.Turn09_A_CampaignInvestigations_DiscussedNFP == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Before I begin, I have to ask if you're sure you wish to follow through on this investigation. After all, Tusk has been an ally throughout your term.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I don't care. Give me the dirt on Tusk.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Good point. Maybe I don't need to hear the results.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Campaign Rally\n\nCampaign Rally"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"Now that that's settled, I'll let you prepare for your rally.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA few hours later, I was waiting in the wings at the Norsord Auditorium in Anrica. In the audience were several thousand of my conservative supporters."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\n\"Victory Is Close.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_102",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"'I bless the Raynes down in Anrica.'\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I don't want his support.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_109",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAnrica Mayor Curtan Leste gave a short introductory speech. I couldn't look at him without thinking about how I'd let Monica down."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_110",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nEveryone cheered as I walked onstage -- except for a scowling Mayor Curtan Leste. He had tried to escape my shadow by joining the NFP, only to be defeated once more when our parties became allies."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nGloria gave a short speech introducing me. Then, it was my turn."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_133",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_EnT_SordishRecovery == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I have pulled Sordland's economy from the depths of recession.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Unrest_Violent_Happened == true || BaseGame.Unrest_BFF_Happened == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_141",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"As protests threaten to tear us apart, I promise I will uphold law and order.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_142",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"As protests threaten to tear us apart, I promise I will restore harmony.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Under my presidency, we have enjoyed unprecedented harmony.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Investigate_OldGuard == true || BaseGame.Turn07_Investigate_Opposition == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"And I will continue to root out corruption and wrongdoing, even within the institutions we hold dear.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_150",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I remain committed to stamping out the corruption that has plagued Sordish politics for far too long.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_151",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"And I remain committed to stamping out the corruption that has plagued Sordish politics for far too long.\"\n\n\"I remain committed to stamping out the corruption that has plagued Sordish corporations for far too long.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_152",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reform_Court_Success == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_154",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Reform_Court_Success == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Autocrat_Path == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will continue to fight for the constitutional reforms Sordland deserves.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will continue to uphold Tarquin Soll's constitution until Sordland is ready for reform.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_162",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will continue to defend Sordland against threats, whether internal or external.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_166",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_VPSelection_Gloria == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_167",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_VPSelection_Albin == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_169",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_VPSelection_Albin == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_171",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I and Vice President Tory shall lead Sordland into a bright new era!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_VPSelection_Albin == false && BaseGame.Decision_Turn08_VPSelection_Gloria == false && BaseGame.Decision_Turn08_VPSelection_Lucian == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I and Vice President Clavin shall lead Sordland into a bright new era!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_178",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The youth and determination of my new vice president Albin Clavin shall help guide us into a brilliant future!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_179",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I shall run for re-election with Gloria Tory, Sordland's first-ever female vice president!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_180",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The experience and expertise of Vice President Galade will help guide us into a brilliant future!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"A Morgna wes core!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_182",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"So remember: Vote Rayne '57!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_186",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMy re-election campaign had officially begun."
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_187",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_VPSelection_Lucian == false && BaseGame.Decision_Turn08_VPSelection_Albin == false && BaseGame.Decision_Turn08_VPSelection_Gloria == false && BaseGame.Turn09_A_LileasResigned == true && BaseGame.Relations_Lucian_GaladeWonMatch == true && (BaseGame.Turn08_SecondScandal_Detained_Livia == false && BaseGame.Turn08_SecondScandal_LiviaFired == false && BaseGame.Turn08_SecondScandal_LiviaTrialled == false && BaseGame.Turn08_SecondScandal_SecretState_Kill_Livia == false && BaseGame.Turn08_SecondScandal_SecretState_ArrestLivia == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_190",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Lucian_Enemy = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_191",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_ImpeachmentTrial = true;\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_192",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandals_Severity >= 4 && BaseGame.Policy_Law_Impeachment_Default == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_195",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn09_A_CampaignAndInvestigations = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_197",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_P_FCAnrica == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_P_FCAnrica == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_P_FCAnrica == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_205",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true && (BaseGame.Turn07_Investigate_Oligarchs == true || BaseGame.Turn07_Investigate_OldGuard == true || BaseGame.Turn07_Investigate_Opposition== true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_216",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Fired_KarlGreiser == true && BaseGame.Turn09_A_LileasResigned == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_228",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Leaker_WalterTusk = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Leaker_ACP == true || BaseGame.Leaker_HeronGaraci == true || BaseGame.Leaker_KarlGreiser == true || BaseGame.Leaker_LucianGalade == true || BaseGame.Leaker_MarcelKoronti == true || BaseGame.Leaker_WalterTusk == true )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_232",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\n\"For a United Sordland.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_233",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Together, we managed to get the economic crisis under control.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_234",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Together, we will get the economic crisis under control.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_Peaceful_Happened == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_237",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Unrest_Peaceful_Happened == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"As armed militants threaten to tear us apart, I promise I will uphold law and order.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_239",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"As violence on the streets threaten to tear us apart, I promise I will restore harmony.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_BFF_Deal_Signed == true || BaseGame.Security_Unrest_Military == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_243",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"When armed militants threatened to tear us apart, I upheld law and order.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_246",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We brought change to our broken constitution.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_247",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I will continue to fight for the constitutional reforms Sordland deserves.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_248",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nMy re-election campaign had officially begun.\n\nWalk offstage."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_250",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_OldGuard_Trial_Orso == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_257",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_HeronGaraci = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_258",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Monica_Divorce == true || BaseGame.Relations_Monica_DivorceAfterElection == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_267",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I have cleaned such corruption from Sordland's court system to ensure true justice for all.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_268",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_Oligarchs_Destroyed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"For too long, crooked businessmen were able to buy and sell Sordish politicians. Those days are over.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I have purged Sordland of its wealthy elite so that the masses have a chance to thrive.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_Action_Party_Conservative == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_Action_Party_Liberal == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Meanwhile, I dared to envision a brave new direction for our party: towards the liberalism of our western neighbors.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_287",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Meanwhile, I dared to envision a brave new direction for our party: towards the socialism of our eastern neighbors.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_288",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Meanwhile, I renewed our party's commitment to hold on to and defend the values of this nation.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_289",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Results_Focus_Party == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_291",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn07_Results_Focus_Party == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_299",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I have devoted an unprecedented amount of effort towards making the USP as great as it can be. We will not lose!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I have devoted an unprecedented amount of effort towards making Sordland's economy the best in the world. We will not lose!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_301",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I promise you, there is no way we can lose!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_302",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Some have accused me of straying from the values of the USP. To them I say: I *am* the USP.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_303",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Sordland has changed, but the USP remains as strong as ever.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_NFP == true && BaseGame.Turn09_A_Investigation_NFP_Trialled_RemusAndKesaro == false && BaseGame.Turn09_A_Investigation_NFP_Trialled_Remus == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_306",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Alliance_NFP == true && BaseGame.Turn09_A_Investigation_NFP_Trialled_RemusAndKesaro == false && BaseGame.Turn09_A_Investigation_NFP_Trialled_Remus == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Alliance_NFP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_313",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nEveryone cheered as I walked onstage. Though Mayor Curtan Leste was now part of the opposition as a member of the NFP, it seemed most of Anrica was still on my side."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"By our side is Kesaro Kibener! A true patriot! The USP and NFP will campaign side by side to ensure victory!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_315",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"By our side is Frens Ricter! A true reformer! The USP and the PFJP will campaign side by side to ensure victory!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_316",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA roar shook the hall."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_317",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We will form a broad coalition of supporters to make sure morning finally comes!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It is time, my fellow Sords. A new dawn is upon us and it begins right here and right now!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_319",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThunderous applause erupted."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_320",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"There has been tremendous progress made in this term and more is to come!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == false && BaseGame.Reform_EmergencyDecree_Banned_YS == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_YS == false && BaseGame.Turn07_SecretState_Kill_KesaroKibener == false && BaseGame.Turn09_A_Investigation_NFP_Trialled_RemusAndKesaro == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_329",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == false && BaseGame.Reform_EmergencyDecree_Banned_Bluds == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_332",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_LT_NotBanned_RedYouth = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_333",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn09_CampaignAdvertisement_LargeScale == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_358",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn07_Investigate_OldGuard == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_362",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_OldGuard_GovernmentOfficialsPurge == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_366",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_NFP_Trialled_Remus == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_371",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_Oligarchs_ExtendMarcelSentence == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_376",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_E_Investigation_ACP_Oligarchs_Tusk_Extend = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_379",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_Oligarchs_Kill_Tusk == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_382",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn07_Detained_WalterTusk == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_383",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_E_Investigation_SSP_Oligarchs_Tusk_KilledInPrison = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_387",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Killed_MarcelKoronti == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_392",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_ST_Investigation_SSP_Oligarchs_Tusk_Killed_Media = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_393",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == false && BaseGame.HeartOfSordland_Nationalization == 0\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_396",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_ST_Investigation_SSP_Oligarchs_Koronti_Killed_NoMedia  = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_397",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_Oligarchs_TuskTrialAbsentia == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_405",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Oligarchs_Extradited == true && BaseGame.Turn07_Fled_MarcelKoronti == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_407",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Oligarchs_Extradited == true && BaseGame.Turn07_Fled_MarcelKoronti == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_411",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Oligarchs_Extradited == true && BaseGame.Turn07_Fled_WalterTusk == true && BaseGame.Turn09_A_Investigation_Oligarchs_Trial_Tusk == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_412",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_HP_Investigation_SSP_ACP_Oligarchs_Tusk_Deported = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_413",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_LE_Policy_SecretStateService == true && BaseGame.Turn07_Detained_WalterTusk == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_416",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_R_Investigation_SSP_Oligarchs_Tusk_Trial = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_417",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_Oligarchs_MarcelTrialled == true && BaseGame.Turn09_A_Investigation_Oligarchs_Trial_Tusk == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_420",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_E_Investigation_SSP_ACP_Oligarchs_KorontiTusk_Trial = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_421",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_PFJP_RicterFramed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_431",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_NFP_Trialled_RemusAndKesaro == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_432",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_ST_Investigation_SSP_KesaroHolstron = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_433",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"As you know, the police failed to turn up any evidence on Marcel Koronti. But there's been a very interesting update regarding Mr. Tusk.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_438",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Faction_Oligarchs_Ally == true && BaseGame.BergiaSteel_Nationalization < 2 && BaseGame.Turn07_Detained_WalterTusk == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_439",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"He's worn out his usefulness. Time to bring him down.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_441",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n\"As you wish.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_443",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_OldGuard_Trial_Heron == true || BaseGame.Turn09_A_Investigation_OldGuard_Trial_Orso == true || BaseGame.Turn09_A_Investigation_OldGuard_Trial_Lileas == true \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_446",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_ST_Investigation_ACP_OldGuard_Media = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_447",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_OldGuard_Trial_Orso == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_449",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_OldGuard_Trial_Orso == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_450",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_ST_Investigation_ACP_OldGuard_NoMedia = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_451",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_453",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Media_SordlandToday_Bias == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_454",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_SordlandToday_Bias == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_457",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_460",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_R_Investigation_ACP_OldGuard = true; BaseGameSupport.News_Turn09_HP_Investigation_ACP_OldGuard = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_461",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_463",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Media_Censored == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_464",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Unrest_Violent_Happened == true || BaseGame.Unrest_Peaceful_Happened == true) && BaseGame.Reform_EmergencyDecree_Banned_RY == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_484",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_Violent_Happened == true && BaseGame.Security_Unrest_Military == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_486",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Unrest_Violent_Happened == true && BaseGame.Security_Unrest_Military == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_496",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Unrest_Violent_Happened == true || BaseGame.Unrest_Peaceful_Happened == true)  && BaseGame.Turn09_UnrestStopped == false && BaseGame.Reform_PresiPower_Strong_GunRights == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_500",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_Violent_Happened == true && BaseGame.Turn09_UnrestStopped == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_504",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Unrest_Violent_Happened == true || BaseGame.Unrest_Peaceful_Happened == true) && BaseGame.Turn09_UnrestStopped == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_507",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn09_Benfi_Unrest_CulturalTheaterRebelHQ = true; BaseGameSupport.Report_Turn09_Lachaven_Unrest_BlueMansion = true; BaseGameSupport.Report_Turn09_Jen_Unrest_PoliceAmbushed = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_508",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == true && BaseGame.Decision_Turn08_ExtendEmergency_Extend == false && BaseGame.YoungSords_Kill_OrsoHawker == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_511",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_ImpeachmentTrial = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_512",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Assembly_RemusHolstron_Trialled = true; BaseGameSupport.Codex_Characters_Assembly_RemusHolstron = false; BaseGameSupport.Codex_Characters_Assembly_RemusHolstron_PartyLeader = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_515",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_516",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_R_Investigation_ACP_NFP = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_517",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_519",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_520",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_LT_Investigation_NFP_HolstronKibener = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_521",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Business_MarcelKoronti = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_ArrestedLegally = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Detained = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Fled = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FledAndExtradited = true; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FoundDeadInPrison = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_KonrathDead = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_LostControlOfHOS = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_NedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCShares = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_522",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Business_WalterTusk = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_ArrestedLegally = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Detained = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Fled = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_FledAndExtradited = true; BaseGameSupport.Codex_Characters_Business_WalterTusk_FoundDeadInPrison = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_LostBergiaSteel = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_NedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCShares = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_523",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Business_MarcelKoronti = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_ArrestedLegally = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Detained = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_Fled = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FledAndExtradited = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_FoundDeadInPrison = true; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_KonrathDead = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_LostControlOfHOS = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_NedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_MarcelKoronti_SSCShares = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_524",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Business_WalterTusk = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_ArrestedLegally = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Detained = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Fled = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_FledAndExtradited = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_FoundDeadInPrison = true; BaseGameSupport.Codex_Characters_Business_WalterTusk_LostBergiaSteel = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_NedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Killed = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_525",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Business_WalterTusk = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_ArrestedLegally = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Detained = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Fled = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_FledAndExtradited = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_FoundDeadInPrison = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_LostBergiaSteel = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_NedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Killed = true; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_526",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_Oligarchs_Trial_Tusk == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_529",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Characters_Business_WalterTusk = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_ArrestedLegally = true; BaseGameSupport.Codex_Characters_Business_WalterTusk_Detained = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_Fled = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_FledAndExtradited = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_FoundDeadInPrison = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_LostBergiaSteel = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_NedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCAndNedamShares = false; BaseGameSupport.Codex_Characters_Business_WalterTusk_SSCShares = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_530",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Organisations_Misc_LotherbergGroup = false; BaseGameSupport.Codex_Organisations_Misc_LotherbergGroup_TuskGone = true; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_531",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Turn09_A_Investigation_Oligarchs_Trial_Tusk == true ||BaseGame.Turn09_A_Investigation_Oligarchs_Kill_Tusk == true || BaseGame.Turn07_Detained_WalterTusk == true) && (BaseGame.Turn09_A_Investigation_Oligarchs_MarcelTrialled == true || BaseGame.Turn09_A_MarcelArrested == true || BaseGame.Killed_MarcelKoronti == true || BaseGame.Turn07_Detained_MarcelKoronti == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_534",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Faction_Oligarchs_Destroyed = true; BaseGame.Faction_Oligarchs_Content = false;\\nBaseGame.Faction_Oligarchs_Ally = false; BaseGame.Faction_Oligarchs_Enemy = false;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_535",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_536",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Economy_PromoteMarket == true && BaseGame.LateGameCrisis <= 3\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_542",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 2;\\nBaseGame.GovernmentBudget += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_543",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.FactionReport_Turn09_CSP_MinorityRightsConvention = true; BaseGameSupport.FactionReport_Turn09_ATO_LongRangeBombers = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_544",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_545",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 3;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_547",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Joined_CSP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_551",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true || BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == true) || (BaseGame.Decision_Turn05_RumburgBorderReinforcement_Reinforce == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_553",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true || BaseGame.Decision_Turn05_SPAid_AcceptUnitedContana == true) || (BaseGame.Decision_Turn05_RumburgBorderReinforcement_Reinforce == true))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_554",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Education_Budget_Increase == true && BaseGame.Policy_Welfare_EducationReform == true && BaseGame.Policy_Welfare_EvolutionMandatoryBanCreationism == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_556",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn03_EnT_Education_Budget_Increase == true && BaseGame.Policy_Welfare_EducationReform == true && BaseGame.Policy_Welfare_EvolutionMandatoryBanCreationism == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_557",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Diplomacy_Lespia_SordishPetroleum == true || BaseGame.Situation_Diplomacy_Wehlen_FreeTariffs_Oil == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_560",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_561",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Diplomacy_Lespia_Alliance == true || BaseGame.Policy_Diplomacy_TradeZone_Lespia == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_563",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Policy_Diplomacy_Lespia_Alliance == true || BaseGame.Policy_Diplomacy_TradeZone_Lespia == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_564",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_IndustrialExpansion_Agricultural  == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_566",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_IndustrialExpansion_Agricultural  == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_567",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_IndustrialExpansion_Military == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_569",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_IndustrialExpansion_Military == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_570",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_571",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_IndustrialExpansion_Electronics  == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_573",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_IndustrialExpansion_Electronics  == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_574",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_IndustrialExpansion_Automative  == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_576",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_IndustrialExpansion_Automative  == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_577",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_578",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_579",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_580",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_581",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Joined_ATO == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_583",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Joined_ATO == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_584",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_585",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_586",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy -= 2; BaseGame.GovernmentBudget -= 2;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_587",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Valgsland_Alliance_Cancelled == true || BaseGame.Lespia_Alliance_Cancelled == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_590",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_591",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_592",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy -= 1; BaseGame.GovernmentBudget -= 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_593",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Military_Budget_Increase == true && BaseGame.Reform_PresiPower_Strong_GunRights == true && BaseGame.Policy_Economy_RailwayProject == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_595",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn03_EnT_Military_Budget_Increase == true && BaseGame.Reform_PresiPower_Strong_GunRights == true && BaseGame.Policy_Economy_RailwayProject == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_596",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 2;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_597",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Agnolia_Alliance_Cancelled == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_599",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Agnolia_Alliance_Cancelled == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_600",
+            "type": "customNode",
+            "data": {
+                "label": "// Continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_603",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Policy_Economy_RailwayProject == true ||BaseGame.Turn03_EnT_Education_Budget_Increase == true) && BaseGame.Bill_Turn06_CentralBankReinforcement_Signed == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_604",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn06_Megaproject_Conriat == true && BaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_606",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn06_Megaproject_Conriat == true && BaseGame.Situation_Economy_Lorren_ProductionAndTradeCenter == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_607",
+            "type": "customNode",
+            "data": {
+                "label": "// Continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_608",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn06_Megaproject_Sarna == true && BaseGame.Decision_Turn04_RegionalInvestment_Bergia == true && BaseGame.Situation_Economy_Bergia_MajorAgriculturalZone == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_610",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn06_Megaproject_Sarna == true && BaseGame.Decision_Turn04_RegionalInvestment_Bergia == true && BaseGame.Situation_Economy_Bergia_MajorAgriculturalZone == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_611",
+            "type": "customNode",
+            "data": {
+                "label": "// Continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_612",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Codex_Organisations_Governmental_ACP = false;\\nBaseGameSupport.Codex_Organisations_Governmental_ACP_InvestigatedOligarchs = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_613",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.AMorgnaWesCore += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_614",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandals_Severity >= 7 && BaseGame.Policy_Law_Impeachment_Assembly == true && BaseGame.Reform_Assembly_Vote <= 18\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_616",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandals_Severity >= 7 && BaseGame.Policy_Law_Impeachment_Assembly == true && BaseGame.Reform_Assembly_Vote <= 18)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_619",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandals_Severity >= 7 && BaseGame.Policy_Law_Impeachment_Harder == true && BaseGame.Reform_Assembly_Vote <= 19)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_620",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == false && BaseGame.Policy_Law_Honorary_Presidents == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_622",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Autocrat_Path == false && BaseGame.Policy_Law_Honorary_Presidents == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_623",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LateGameCrisis <= 4\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_625",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LateGameCrisis <= 4)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_626",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LateGameCrisis <= 3\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_628",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LateGameCrisis <= 3)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_629",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Default_RuralEducationInstitutes == true && BaseGame.Reform_PresiPower_Strong_RelocationToRural == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_632",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_633",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Education_Budget_Increase == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_636",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_637",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_638",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn04_PSnW_Education_Privatization == true && (BaseGame.Decision_Turn08_ScholarshipProgram_StartProgram == true || BaseGame.Decision_Turn08_HealthcareSpending_MedicalSchool == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_640",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn04_PSnW_Education_Privatization == true && (BaseGame.Decision_Turn08_ScholarshipProgram_StartProgram == true || BaseGame.Decision_Turn08_HealthcareSpending_MedicalSchool == true))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_641",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Economy_IncreasedTrade = true;\\nBaseGame.Situation_Economy_RecoveredTrade = false;\\nBaseGame.Situation_Economy_DecreasedTrade = false;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_642",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_Detained_MarcelKoronti == false && BaseGame.Turn07_Detained_WalterTusk == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_645",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_ST_Investigation_SSP_ACP_Oligarchs_Tusk_Trial = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_646",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Economy += 1;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_648",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Lespia_Alliance == true ||BaseGame.Valgsland_Alliance == true) && BaseGame.Lespia_Alliance_Cancelled == false && BaseGame.Valgsland_Alliance_Cancelled == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_650",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Lespia_Alliance == true ||BaseGame.Valgsland_Alliance == true) && BaseGame.Lespia_Alliance_Cancelled == false && BaseGame.Valgsland_Alliance_Cancelled == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_651",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Enable_LeakedScandals = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_652",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Situation_Law_MediaCensored == true || BaseGame.Situation_Law_MediaBias == true) && BaseGame.Ending_ImpeachmentTrial == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_654",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Situation_Law_MediaCensored == true || BaseGame.Situation_Law_MediaBias == true) && BaseGame.Ending_ImpeachmentTrial == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_655",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Public_Opinion -= BaseGame.LeakedScandals_Severity;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_656",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn09_A_LeakedScandal = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_657",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandals_Severity > 0 \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_658",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandals_Severity > 0 \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_659",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandals_Severity > 0 )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_660",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_VPSelection_Lucian == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_662",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn08_VPSelection_Lucian == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_663",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_Personal_Festival_Force == true || BaseGame.Turn05_Personal_Festival_LesteKicked == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_665",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_Personal_Festival_Force == true || BaseGame.Turn05_Personal_Festival_LesteKicked == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_668",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Petr_isVP == true && BaseGame.Petr_Dead == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_669",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAnrica Mayor Curtan Leste gave a short introductory speech. It was hard to forget how the Benfi event went down."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_672",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_Personal_Festival_LesteLeft == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_673",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Benfi\", \"City_ArmedUnrest\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_674",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Estord\", \"City_ArmedUnrest\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_675",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Vesord\", \"City_ArmedUnrest\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_676",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Ribery\", \"City_ArmedUnrest\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_677",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Lachaven\", \"City_ArmedUnrest\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_679",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveTokenStatus(\"Sordland_City_Estord\", \"City_ArmedUnrest\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_682",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveTokenStatus(\"Sordland_City_Uziren\", \"City_ArmedUnrest\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_685",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Stopped_Investigations_NFP == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_687",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Stopped_Investigations_NFP == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_690",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Stopped_Investigations_NFP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_691",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Stopped_Investigations_NFP == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_693",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Stopped_Investigations_NFP == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_694",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Estord\", \"City_ArmyControl\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_695",
+            "type": "customNode",
+            "data": {
+                "label": "AddTokenStatus(\"Sordland_City_Estord\", \"City_ArmyControl\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_698",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_699",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_701",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_702",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_704",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_705",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_707",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_708",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LateGameCrisis <= 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_710",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LateGameCrisis <= 2)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_711",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Diplomacy_Valgsland_Alliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_714",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Report_Turn09_Conriat_SordishNavyDrill = true;\\nBaseGameSupport.Report_Turn09_Lachaven_SordishNavyDrill = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_715",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_LT_IndustrialExpansion_ElectronicsFuture = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_716",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"WaitingSpeech\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_717",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"CheerCrowd\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_718",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"CheerCrowd\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_719",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 250
             }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_51",
-            "source": "node_2",
-            "target": "node_51",
+            "id": "e1_to_712",
+            "source": "node_1",
+            "target": "node_712",
             "type": "step"
         },
         {
-            "id": "e23_to_13",
-            "source": "node_23",
-            "target": "node_13",
+            "id": "e7_to_71",
+            "source": "node_7",
+            "target": "node_71",
             "type": "step"
         },
         {
-            "id": "e27_to_20",
+            "id": "e17_to_43",
+            "source": "node_17",
+            "target": "node_43",
+            "type": "step"
+        },
+        {
+            "id": "e18_to_31",
+            "source": "node_18",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e25_to_686",
+            "source": "node_25",
+            "target": "node_686",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_686",
+            "source": "node_26",
+            "target": "node_686",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_1",
             "source": "node_27",
-            "target": "node_20",
+            "target": "node_1",
             "type": "step"
         },
         {
-            "id": "e34_to_23",
-            "source": "node_34",
-            "target": "node_23",
+            "id": "e29_to_689",
+            "source": "node_29",
+            "target": "node_689",
             "type": "step"
         },
         {
-            "id": "e35_to_17",
+            "id": "e30_to_717",
+            "source": "node_30",
+            "target": "node_717",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_434",
+            "source": "node_32",
+            "target": "node_434",
+            "type": "step"
+        },
+        {
+            "id": "e35_to_435",
             "source": "node_35",
-            "target": "node_17",
+            "target": "node_435",
             "type": "step"
         },
         {
-            "id": "e45_to_11",
-            "source": "node_45",
-            "target": "node_11",
+            "id": "e36_to_436",
+            "source": "node_36",
+            "target": "node_436",
             "type": "step"
         },
         {
-            "id": "e48_to_9",
-            "source": "node_48",
-            "target": "node_9",
+            "id": "e37_to_613",
+            "source": "node_37",
+            "target": "node_613",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_7",
+            "source": "node_40",
+            "target": "node_7",
+            "type": "step"
+        },
+        {
+            "id": "e42_to_71",
+            "source": "node_42",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_1",
+            "source": "node_50",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e54_to_1",
+            "source": "node_54",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e55_to_70",
+            "source": "node_55",
+            "target": "node_70",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_692",
+            "source": "node_57",
+            "target": "node_692",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_1",
+            "source": "node_60",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_440",
+            "source": "node_61",
+            "target": "node_440",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_441",
+            "source": "node_62",
+            "target": "node_441",
+            "type": "step"
+        },
+        {
+            "id": "e63_to_442",
+            "source": "node_63",
+            "target": "node_442",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_102",
+            "source": "node_64",
+            "target": "node_102",
+            "type": "step"
+        },
+        {
+            "id": "e97_to_64",
+            "source": "node_97",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_201",
+            "source": "node_98",
+            "target": "node_201",
+            "type": "step"
+        },
+        {
+            "id": "e102_to_259",
+            "source": "node_102",
+            "target": "node_259",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_30",
+            "source": "node_103",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e109_to_671",
+            "source": "node_109",
+            "target": "node_671",
+            "type": "step"
+        },
+        {
+            "id": "e110_to_311",
+            "source": "node_110",
+            "target": "node_311",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_661",
+            "source": "node_119",
+            "target": "node_661",
+            "type": "step"
+        },
+        {
+            "id": "e133_to_234",
+            "source": "node_133",
+            "target": "node_234",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_235",
+            "source": "node_134",
+            "target": "node_235",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_241",
+            "source": "node_140",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e141_to_236",
+            "source": "node_141",
+            "target": "node_236",
+            "type": "step"
+        },
+        {
+            "id": "e142_to_153",
+            "source": "node_142",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_153",
+            "source": "node_143",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e145_to_153",
+            "source": "node_145",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_264",
+            "source": "node_149",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e150_to_264",
+            "source": "node_150",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e151_to_264",
+            "source": "node_151",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e152_to_264",
+            "source": "node_152",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e154_to_247",
+            "source": "node_154",
+            "target": "node_247",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_146",
+            "source": "node_157",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_246",
+            "source": "node_159",
+            "target": "node_246",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_248",
+            "source": "node_160",
+            "target": "node_248",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_146",
+            "source": "node_161",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e162_to_146",
+            "source": "node_162",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e166_to_180",
+            "source": "node_166",
+            "target": "node_180",
+            "type": "step"
+        },
+        {
+            "id": "e167_to_181",
+            "source": "node_167",
+            "target": "node_181",
+            "type": "step"
+        },
+        {
+            "id": "e169_to_177",
+            "source": "node_169",
+            "target": "node_177",
+            "type": "step"
+        },
+        {
+            "id": "e171_to_317",
+            "source": "node_171",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_317",
+            "source": "node_172",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_317",
+            "source": "node_176",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_317",
+            "source": "node_178",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e179_to_317",
+            "source": "node_179",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e180_to_317",
+            "source": "node_180",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_317",
+            "source": "node_181",
+            "target": "node_317",
+            "type": "step"
+        },
+        {
+            "id": "e182_to_614",
+            "source": "node_182",
+            "target": "node_614",
+            "type": "step"
+        },
+        {
+            "id": "e186_to_198",
+            "source": "node_186",
+            "target": "node_198",
+            "type": "step"
+        },
+        {
+            "id": "e187_to_250",
+            "source": "node_187",
+            "target": "node_250",
+            "type": "step"
+        },
+        {
+            "id": "e190_to_251",
+            "source": "node_190",
+            "target": "node_251",
+            "type": "step"
+        },
+        {
+            "id": "e191_to_251",
+            "source": "node_191",
+            "target": "node_251",
+            "type": "step"
+        },
+        {
+            "id": "e192_to_509",
+            "source": "node_192",
+            "target": "node_509",
+            "type": "step"
+        },
+        {
+            "id": "e195_to_615",
+            "source": "node_195",
+            "target": "node_615",
+            "type": "step"
+        },
+        {
+            "id": "e197_to_250",
+            "source": "node_197",
+            "target": "node_250",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_249",
+            "source": "node_199",
+            "target": "node_249",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_187",
+            "source": "node_200",
+            "target": "node_187",
+            "type": "step"
+        },
+        {
+            "id": "e205_to_99",
+            "source": "node_205",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e216_to_225",
+            "source": "node_216",
+            "target": "node_225",
+            "type": "step"
+        },
+        {
+            "id": "e228_to_222",
+            "source": "node_228",
+            "target": "node_222",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_1",
+            "source": "node_231",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e232_to_509",
+            "source": "node_232",
+            "target": "node_509",
+            "type": "step"
+        },
+        {
+            "id": "e233_to_107",
+            "source": "node_233",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e234_to_139",
+            "source": "node_234",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e235_to_139",
+            "source": "node_235",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_142",
+            "source": "node_237",
+            "target": "node_142",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_144",
+            "source": "node_238",
+            "target": "node_144",
+            "type": "step"
+        },
+        {
+            "id": "e239_to_153",
+            "source": "node_239",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_153",
+            "source": "node_240",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e243_to_239",
+            "source": "node_243",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e246_to_146",
+            "source": "node_246",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e247_to_146",
+            "source": "node_247",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e248_to_146",
+            "source": "node_248",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e250_to_196",
+            "source": "node_250",
+            "target": "node_196",
+            "type": "step"
+        },
+        {
+            "id": "e257_to_206",
+            "source": "node_257",
+            "target": "node_206",
+            "type": "step"
+        },
+        {
+            "id": "e258_to_206",
+            "source": "node_258",
+            "target": "node_206",
+            "type": "step"
+        },
+        {
+            "id": "e267_to_320",
+            "source": "node_267",
+            "target": "node_320",
+            "type": "step"
+        },
+        {
+            "id": "e268_to_320",
+            "source": "node_268",
+            "target": "node_320",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_320",
+            "source": "node_271",
+            "target": "node_320",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_320",
+            "source": "node_272",
+            "target": "node_320",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_320",
+            "source": "node_273",
+            "target": "node_320",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_287",
+            "source": "node_278",
+            "target": "node_287",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_321",
+            "source": "node_286",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e287_to_321",
+            "source": "node_287",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e288_to_321",
+            "source": "node_288",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e289_to_302",
+            "source": "node_289",
+            "target": "node_302",
+            "type": "step"
+        },
+        {
+            "id": "e291_to_300",
+            "source": "node_291",
+            "target": "node_300",
+            "type": "step"
+        },
+        {
+            "id": "e299_to_173",
+            "source": "node_299",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_173",
+            "source": "node_300",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e301_to_173",
+            "source": "node_301",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e302_to_173",
+            "source": "node_302",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e303_to_321",
+            "source": "node_303",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_321",
+            "source": "node_304",
+            "target": "node_321",
+            "type": "step"
+        },
+        {
+            "id": "e306_to_315",
+            "source": "node_306",
+            "target": "node_315",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_718",
+            "source": "node_312",
+            "target": "node_718",
+            "type": "step"
+        },
+        {
+            "id": "e313_to_719",
+            "source": "node_313",
+            "target": "node_719",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_113",
+            "source": "node_314",
+            "target": "node_113",
+            "type": "step"
+        },
+        {
+            "id": "e315_to_183",
+            "source": "node_315",
+            "target": "node_183",
+            "type": "step"
+        },
+        {
+            "id": "e316_to_183",
+            "source": "node_316",
+            "target": "node_183",
+            "type": "step"
+        },
+        {
+            "id": "e317_to_305",
+            "source": "node_317",
+            "target": "node_305",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_183",
+            "source": "node_318",
+            "target": "node_183",
+            "type": "step"
+        },
+        {
+            "id": "e319_to_183",
+            "source": "node_319",
+            "target": "node_183",
+            "type": "step"
+        },
+        {
+            "id": "e320_to_304",
+            "source": "node_320",
+            "target": "node_304",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_173",
+            "source": "node_321",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_3",
+            "source": "node_325",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e329_to_3",
+            "source": "node_329",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e332_to_3",
+            "source": "node_332",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e333_to_3",
+            "source": "node_333",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e358_to_458",
+            "source": "node_358",
+            "target": "node_458",
+            "type": "step"
+        },
+        {
+            "id": "e362_to_462",
+            "source": "node_362",
+            "target": "node_462",
+            "type": "step"
+        },
+        {
+            "id": "e366_to_513",
+            "source": "node_366",
+            "target": "node_513",
+            "type": "step"
+        },
+        {
+            "id": "e371_to_376",
+            "source": "node_371",
+            "target": "node_376",
+            "type": "step"
+        },
+        {
+            "id": "e376_to_373",
+            "source": "node_376",
+            "target": "node_373",
+            "type": "step"
+        },
+        {
+            "id": "e379_to_531",
+            "source": "node_379",
+            "target": "node_531",
+            "type": "step"
+        },
+        {
+            "id": "e382_to_525",
+            "source": "node_382",
+            "target": "node_525",
+            "type": "step"
+        },
+        {
+            "id": "e383_to_526",
+            "source": "node_383",
+            "target": "node_526",
+            "type": "step"
+        },
+        {
+            "id": "e387_to_394",
+            "source": "node_387",
+            "target": "node_394",
+            "type": "step"
+        },
+        {
+            "id": "e392_to_381",
+            "source": "node_392",
+            "target": "node_381",
+            "type": "step"
+        },
+        {
+            "id": "e393_to_381",
+            "source": "node_393",
+            "target": "node_381",
+            "type": "step"
+        },
+        {
+            "id": "e396_to_524",
+            "source": "node_396",
+            "target": "node_524",
+            "type": "step"
+        },
+        {
+            "id": "e397_to_524",
+            "source": "node_397",
+            "target": "node_524",
+            "type": "step"
+        },
+        {
+            "id": "e405_to_418",
+            "source": "node_405",
+            "target": "node_418",
+            "type": "step"
+        },
+        {
+            "id": "e407_to_522",
+            "source": "node_407",
+            "target": "node_522",
+            "type": "step"
+        },
+        {
+            "id": "e411_to_523",
+            "source": "node_411",
+            "target": "node_523",
+            "type": "step"
+        },
+        {
+            "id": "e412_to_527",
+            "source": "node_412",
+            "target": "node_527",
+            "type": "step"
+        },
+        {
+            "id": "e413_to_527",
+            "source": "node_413",
+            "target": "node_527",
+            "type": "step"
+        },
+        {
+            "id": "e416_to_422",
+            "source": "node_416",
+            "target": "node_422",
+            "type": "step"
+        },
+        {
+            "id": "e417_to_643",
+            "source": "node_417",
+            "target": "node_643",
+            "type": "step"
+        },
+        {
+            "id": "e420_to_406",
+            "source": "node_420",
+            "target": "node_406",
+            "type": "step"
+        },
+        {
+            "id": "e421_to_406",
+            "source": "node_421",
+            "target": "node_406",
+            "type": "step"
+        },
+        {
+            "id": "e431_to_521",
+            "source": "node_431",
+            "target": "node_521",
+            "type": "step"
+        },
+        {
+            "id": "e432_to_448",
+            "source": "node_432",
+            "target": "node_448",
+            "type": "step"
+        },
+        {
+            "id": "e433_to_448",
+            "source": "node_433",
+            "target": "node_448",
+            "type": "step"
+        },
+        {
+            "id": "e438_to_61",
+            "source": "node_438",
+            "target": "node_61",
+            "type": "step"
+        },
+        {
+            "id": "e439_to_37",
+            "source": "node_439",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e441_to_37",
+            "source": "node_441",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e443_to_68",
+            "source": "node_443",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e446_to_532",
+            "source": "node_446",
+            "target": "node_532",
+            "type": "step"
+        },
+        {
+            "id": "e447_to_532",
+            "source": "node_447",
+            "target": "node_532",
+            "type": "step"
+        },
+        {
+            "id": "e449_to_455",
+            "source": "node_449",
+            "target": "node_455",
+            "type": "step"
+        },
+        {
+            "id": "e450_to_444",
+            "source": "node_450",
+            "target": "node_444",
+            "type": "step"
+        },
+        {
+            "id": "e451_to_444",
+            "source": "node_451",
+            "target": "node_444",
+            "type": "step"
+        },
+        {
+            "id": "e453_to_447",
+            "source": "node_453",
+            "target": "node_447",
+            "type": "step"
+        },
+        {
+            "id": "e454_to_532",
+            "source": "node_454",
+            "target": "node_532",
+            "type": "step"
+        },
+        {
+            "id": "e457_to_444",
+            "source": "node_457",
+            "target": "node_444",
+            "type": "step"
+        },
+        {
+            "id": "e460_to_360",
+            "source": "node_460",
+            "target": "node_360",
+            "type": "step"
+        },
+        {
+            "id": "e461_to_360",
+            "source": "node_461",
+            "target": "node_360",
+            "type": "step"
+        },
+        {
+            "id": "e463_to_364",
+            "source": "node_463",
+            "target": "node_364",
+            "type": "step"
+        },
+        {
+            "id": "e464_to_365",
+            "source": "node_464",
+            "target": "node_365",
+            "type": "step"
+        },
+        {
+            "id": "e484_to_683",
+            "source": "node_484",
+            "target": "node_683",
+            "type": "step"
+        },
+        {
+            "id": "e486_to_680",
+            "source": "node_486",
+            "target": "node_680",
+            "type": "step"
+        },
+        {
+            "id": "e496_to_675",
+            "source": "node_496",
+            "target": "node_675",
+            "type": "step"
+        },
+        {
+            "id": "e500_to_676",
+            "source": "node_500",
+            "target": "node_676",
+            "type": "step"
+        },
+        {
+            "id": "e504_to_677",
+            "source": "node_504",
+            "target": "node_677",
+            "type": "step"
+        },
+        {
+            "id": "e507_to_334",
+            "source": "node_507",
+            "target": "node_334",
+            "type": "step"
+        },
+        {
+            "id": "e508_to_674",
+            "source": "node_508",
+            "target": "node_674",
+            "type": "step"
+        },
+        {
+            "id": "e511_to_653",
+            "source": "node_511",
+            "target": "node_653",
+            "type": "step"
+        },
+        {
+            "id": "e512_to_653",
+            "source": "node_512",
+            "target": "node_653",
+            "type": "step"
+        },
+        {
+            "id": "e515_to_368",
+            "source": "node_515",
+            "target": "node_368",
+            "type": "step"
+        },
+        {
+            "id": "e516_to_369",
+            "source": "node_516",
+            "target": "node_369",
+            "type": "step"
+        },
+        {
+            "id": "e517_to_448",
+            "source": "node_517",
+            "target": "node_448",
+            "type": "step"
+        },
+        {
+            "id": "e519_to_517",
+            "source": "node_519",
+            "target": "node_517",
+            "type": "step"
+        },
+        {
+            "id": "e520_to_433",
+            "source": "node_520",
+            "target": "node_433",
+            "type": "step"
+        },
+        {
+            "id": "e521_to_518",
+            "source": "node_521",
+            "target": "node_518",
+            "type": "step"
+        },
+        {
+            "id": "e522_to_409",
+            "source": "node_522",
+            "target": "node_409",
+            "type": "step"
+        },
+        {
+            "id": "e523_to_413",
+            "source": "node_523",
+            "target": "node_413",
+            "type": "step"
+        },
+        {
+            "id": "e524_to_389",
+            "source": "node_524",
+            "target": "node_389",
+            "type": "step"
+        },
+        {
+            "id": "e525_to_384",
+            "source": "node_525",
+            "target": "node_384",
+            "type": "step"
+        },
+        {
+            "id": "e526_to_385",
+            "source": "node_526",
+            "target": "node_385",
+            "type": "step"
+        },
+        {
+            "id": "e529_to_414",
+            "source": "node_529",
+            "target": "node_414",
+            "type": "step"
+        },
+        {
+            "id": "e530_to_414",
+            "source": "node_530",
+            "target": "node_414",
+            "type": "step"
+        },
+        {
+            "id": "e531_to_390",
+            "source": "node_531",
+            "target": "node_390",
+            "type": "step"
+        },
+        {
+            "id": "e534_to_1",
+            "source": "node_534",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e535_to_1",
+            "source": "node_535",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e536_to_706",
+            "source": "node_536",
+            "target": "node_706",
+            "type": "step"
+        },
+        {
+            "id": "e542_to_547",
+            "source": "node_542",
+            "target": "node_547",
+            "type": "step"
+        },
+        {
+            "id": "e543_to_642",
+            "source": "node_543",
+            "target": "node_642",
+            "type": "step"
+        },
+        {
+            "id": "e544_to_322",
+            "source": "node_544",
+            "target": "node_322",
+            "type": "step"
+        },
+        {
+            "id": "e545_to_642",
+            "source": "node_545",
+            "target": "node_642",
+            "type": "step"
+        },
+        {
+            "id": "e547_to_642",
+            "source": "node_547",
+            "target": "node_642",
+            "type": "step"
+        },
+        {
+            "id": "e551_to_544",
+            "source": "node_551",
+            "target": "node_544",
+            "type": "step"
+        },
+        {
+            "id": "e553_to_578",
+            "source": "node_553",
+            "target": "node_578",
+            "type": "step"
+        },
+        {
+            "id": "e554_to_649",
+            "source": "node_554",
+            "target": "node_649",
+            "type": "step"
+        },
+        {
+            "id": "e556_to_597",
+            "source": "node_556",
+            "target": "node_597",
+            "type": "step"
+        },
+        {
+            "id": "e557_to_639",
+            "source": "node_557",
+            "target": "node_639",
+            "type": "step"
+        },
+        {
+            "id": "e560_to_634",
+            "source": "node_560",
+            "target": "node_634",
+            "type": "step"
+        },
+        {
+            "id": "e561_to_634",
+            "source": "node_561",
+            "target": "node_634",
+            "type": "step"
+        },
+        {
+            "id": "e563_to_592",
+            "source": "node_563",
+            "target": "node_592",
+            "type": "step"
+        },
+        {
+            "id": "e564_to_630",
+            "source": "node_564",
+            "target": "node_630",
+            "type": "step"
+        },
+        {
+            "id": "e566_to_591",
+            "source": "node_566",
+            "target": "node_591",
+            "type": "step"
+        },
+        {
+            "id": "e567_to_575",
+            "source": "node_567",
+            "target": "node_575",
+            "type": "step"
+        },
+        {
+            "id": "e569_to_579",
+            "source": "node_569",
+            "target": "node_579",
+            "type": "step"
+        },
+        {
+            "id": "e570_to_598",
+            "source": "node_570",
+            "target": "node_598",
+            "type": "step"
+        },
+        {
+            "id": "e571_to_558",
+            "source": "node_571",
+            "target": "node_558",
+            "type": "step"
+        },
+        {
+            "id": "e573_to_536",
+            "source": "node_573",
+            "target": "node_536",
+            "type": "step"
+        },
+        {
+            "id": "e574_to_568",
+            "source": "node_574",
+            "target": "node_568",
+            "type": "step"
+        },
+        {
+            "id": "e576_to_586",
+            "source": "node_576",
+            "target": "node_586",
+            "type": "step"
+        },
+        {
+            "id": "e577_to_572",
+            "source": "node_577",
+            "target": "node_572",
+            "type": "step"
+        },
+        {
+            "id": "e578_to_649",
+            "source": "node_578",
+            "target": "node_649",
+            "type": "step"
+        },
+        {
+            "id": "e579_to_709",
+            "source": "node_579",
+            "target": "node_709",
+            "type": "step"
+        },
+        {
+            "id": "e580_to_562",
+            "source": "node_580",
+            "target": "node_562",
+            "type": "step"
+        },
+        {
+            "id": "e581_to_552",
+            "source": "node_581",
+            "target": "node_552",
+            "type": "step"
+        },
+        {
+            "id": "e583_to_537",
+            "source": "node_583",
+            "target": "node_537",
+            "type": "step"
+        },
+        {
+            "id": "e584_to_548",
+            "source": "node_584",
+            "target": "node_548",
+            "type": "step"
+        },
+        {
+            "id": "e585_to_555",
+            "source": "node_585",
+            "target": "node_555",
+            "type": "step"
+        },
+        {
+            "id": "e586_to_703",
+            "source": "node_586",
+            "target": "node_703",
+            "type": "step"
+        },
+        {
+            "id": "e587_to_624",
+            "source": "node_587",
+            "target": "node_624",
+            "type": "step"
+        },
+        {
+            "id": "e590_to_624",
+            "source": "node_590",
+            "target": "node_624",
+            "type": "step"
+        },
+        {
+            "id": "e591_to_700",
+            "source": "node_591",
+            "target": "node_700",
+            "type": "step"
+        },
+        {
+            "id": "e592_to_630",
+            "source": "node_592",
+            "target": "node_630",
+            "type": "step"
+        },
+        {
+            "id": "e593_to_588",
+            "source": "node_593",
+            "target": "node_588",
+            "type": "step"
+        },
+        {
+            "id": "e595_to_581",
+            "source": "node_595",
+            "target": "node_581",
+            "type": "step"
+        },
+        {
+            "id": "e596_to_552",
+            "source": "node_596",
+            "target": "node_552",
+            "type": "step"
+        },
+        {
+            "id": "e597_to_639",
+            "source": "node_597",
+            "target": "node_639",
+            "type": "step"
+        },
+        {
+            "id": "e599_to_593",
+            "source": "node_599",
+            "target": "node_593",
+            "type": "step"
+        },
+        {
+            "id": "e600_to_588",
+            "source": "node_600",
+            "target": "node_588",
+            "type": "step"
+        },
+        {
+            "id": "e603_to_585",
+            "source": "node_603",
+            "target": "node_585",
+            "type": "step"
+        },
+        {
+            "id": "e604_to_555",
+            "source": "node_604",
+            "target": "node_555",
+            "type": "step"
+        },
+        {
+            "id": "e606_to_571",
+            "source": "node_606",
+            "target": "node_571",
+            "type": "step"
+        },
+        {
+            "id": "e607_to_558",
+            "source": "node_607",
+            "target": "node_558",
+            "type": "step"
+        },
+        {
+            "id": "e608_to_598",
+            "source": "node_608",
+            "target": "node_598",
+            "type": "step"
+        },
+        {
+            "id": "e610_to_580",
+            "source": "node_610",
+            "target": "node_580",
+            "type": "step"
+        },
+        {
+            "id": "e611_to_562",
+            "source": "node_611",
+            "target": "node_562",
+            "type": "step"
+        },
+        {
+            "id": "e612_to_598",
+            "source": "node_612",
+            "target": "node_598",
+            "type": "step"
+        },
+        {
+            "id": "e613_to_1",
+            "source": "node_613",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e614_to_186",
+            "source": "node_614",
+            "target": "node_186",
+            "type": "step"
+        },
+        {
+            "id": "e616_to_192",
+            "source": "node_616",
+            "target": "node_192",
+            "type": "step"
+        },
+        {
+            "id": "e619_to_192",
+            "source": "node_619",
+            "target": "node_192",
+            "type": "step"
+        },
+        {
+            "id": "e620_to_509",
+            "source": "node_620",
+            "target": "node_509",
+            "type": "step"
+        },
+        {
+            "id": "e622_to_193",
+            "source": "node_622",
+            "target": "node_193",
+            "type": "step"
+        },
+        {
+            "id": "e623_to_509",
+            "source": "node_623",
+            "target": "node_509",
+            "type": "step"
+        },
+        {
+            "id": "e625_to_582",
+            "source": "node_625",
+            "target": "node_582",
+            "type": "step"
+        },
+        {
+            "id": "e626_to_544",
+            "source": "node_626",
+            "target": "node_544",
+            "type": "step"
+        },
+        {
+            "id": "e628_to_565",
+            "source": "node_628",
+            "target": "node_565",
+            "type": "step"
+        },
+        {
+            "id": "e629_to_598",
+            "source": "node_629",
+            "target": "node_598",
+            "type": "step"
+        },
+        {
+            "id": "e632_to_612",
+            "source": "node_632",
+            "target": "node_612",
+            "type": "step"
+        },
+        {
+            "id": "e633_to_612",
+            "source": "node_633",
+            "target": "node_612",
+            "type": "step"
+        },
+        {
+            "id": "e636_to_601",
+            "source": "node_636",
+            "target": "node_601",
+            "type": "step"
+        },
+        {
+            "id": "e637_to_601",
+            "source": "node_637",
+            "target": "node_601",
+            "type": "step"
+        },
+        {
+            "id": "e638_to_716",
+            "source": "node_638",
+            "target": "node_716",
+            "type": "step"
+        },
+        {
+            "id": "e640_to_638",
+            "source": "node_640",
+            "target": "node_638",
+            "type": "step"
+        },
+        {
+            "id": "e641_to_716",
+            "source": "node_641",
+            "target": "node_716",
+            "type": "step"
+        },
+        {
+            "id": "e642_to_544",
+            "source": "node_642",
+            "target": "node_544",
+            "type": "step"
+        },
+        {
+            "id": "e645_to_422",
+            "source": "node_645",
+            "target": "node_422",
+            "type": "step"
+        },
+        {
+            "id": "e646_to_422",
+            "source": "node_646",
+            "target": "node_422",
+            "type": "step"
+        },
+        {
+            "id": "e648_to_598",
+            "source": "node_648",
+            "target": "node_598",
+            "type": "step"
+        },
+        {
+            "id": "e650_to_647",
+            "source": "node_650",
+            "target": "node_647",
+            "type": "step"
+        },
+        {
+            "id": "e651_to_648",
+            "source": "node_651",
+            "target": "node_648",
+            "type": "step"
+        },
+        {
+            "id": "e652_to_656",
+            "source": "node_652",
+            "target": "node_656",
+            "type": "step"
+        },
+        {
+            "id": "e654_to_657",
+            "source": "node_654",
+            "target": "node_657",
+            "type": "step"
+        },
+        {
+            "id": "e655_to_658",
+            "source": "node_655",
+            "target": "node_658",
+            "type": "step"
+        },
+        {
+            "id": "e656_to_465",
+            "source": "node_656",
+            "target": "node_465",
+            "type": "step"
+        },
+        {
+            "id": "e657_to_656",
+            "source": "node_657",
+            "target": "node_656",
+            "type": "step"
+        },
+        {
+            "id": "e658_to_660",
+            "source": "node_658",
+            "target": "node_660",
+            "type": "step"
+        },
+        {
+            "id": "e659_to_652",
+            "source": "node_659",
+            "target": "node_652",
+            "type": "step"
+        },
+        {
+            "id": "e660_to_657",
+            "source": "node_660",
+            "target": "node_657",
+            "type": "step"
+        },
+        {
+            "id": "e662_to_121",
+            "source": "node_662",
+            "target": "node_121",
+            "type": "step"
+        },
+        {
+            "id": "e663_to_667",
+            "source": "node_663",
+            "target": "node_667",
+            "type": "step"
+        },
+        {
+            "id": "e665_to_311",
+            "source": "node_665",
+            "target": "node_311",
+            "type": "step"
+        },
+        {
+            "id": "e668_to_112",
+            "source": "node_668",
+            "target": "node_112",
+            "type": "step"
+        },
+        {
+            "id": "e669_to_122",
+            "source": "node_669",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e672_to_670",
+            "source": "node_672",
+            "target": "node_670",
+            "type": "step"
+        },
+        {
+            "id": "e673_to_664",
+            "source": "node_673",
+            "target": "node_664",
+            "type": "step"
+        },
+        {
+            "id": "e674_to_678",
+            "source": "node_674",
+            "target": "node_678",
+            "type": "step"
+        },
+        {
+            "id": "e675_to_695",
+            "source": "node_675",
+            "target": "node_695",
+            "type": "step"
+        },
+        {
+            "id": "e676_to_501",
+            "source": "node_676",
+            "target": "node_501",
+            "type": "step"
+        },
+        {
+            "id": "e677_to_505",
+            "source": "node_677",
+            "target": "node_505",
+            "type": "step"
+        },
+        {
+            "id": "e679_to_334",
+            "source": "node_679",
+            "target": "node_334",
+            "type": "step"
+        },
+        {
+            "id": "e682_to_696",
+            "source": "node_682",
+            "target": "node_696",
+            "type": "step"
+        },
+        {
+            "id": "e685_to_485",
+            "source": "node_685",
+            "target": "node_485",
+            "type": "step"
+        },
+        {
+            "id": "e687_to_27",
+            "source": "node_687",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e690_to_1",
+            "source": "node_690",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e691_to_1",
+            "source": "node_691",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e693_to_60",
+            "source": "node_693",
+            "target": "node_60",
+            "type": "step"
+        },
+        {
+            "id": "e694_to_59",
+            "source": "node_694",
+            "target": "node_59",
+            "type": "step"
+        },
+        {
+            "id": "e695_to_497",
+            "source": "node_695",
+            "target": "node_497",
+            "type": "step"
+        },
+        {
+            "id": "e698_to_488",
+            "source": "node_698",
+            "target": "node_488",
+            "type": "step"
+        },
+        {
+            "id": "e699_to_2",
+            "source": "node_699",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e701_to_609",
+            "source": "node_701",
+            "target": "node_609",
+            "type": "step"
+        },
+        {
+            "id": "e702_to_612",
+            "source": "node_702",
+            "target": "node_612",
+            "type": "step"
+        },
+        {
+            "id": "e704_to_605",
+            "source": "node_704",
+            "target": "node_605",
+            "type": "step"
+        },
+        {
+            "id": "e705_to_601",
+            "source": "node_705",
+            "target": "node_601",
+            "type": "step"
+        },
+        {
+            "id": "e707_to_602",
+            "source": "node_707",
+            "target": "node_602",
+            "type": "step"
+        },
+        {
+            "id": "e708_to_608",
+            "source": "node_708",
+            "target": "node_608",
+            "type": "step"
+        },
+        {
+            "id": "e710_to_594",
+            "source": "node_710",
+            "target": "node_594",
+            "type": "step"
+        },
+        {
+            "id": "e711_to_648",
+            "source": "node_711",
+            "target": "node_648",
+            "type": "step"
+        },
+        {
+            "id": "e714_to_627",
+            "source": "node_714",
+            "target": "node_627",
+            "type": "step"
+        },
+        {
+            "id": "e715_to_627",
+            "source": "node_715",
+            "target": "node_627",
+            "type": "step"
+        },
+        {
+            "id": "e716_to_608",
+            "source": "node_716",
+            "target": "node_608",
+            "type": "step"
+        },
+        {
+            "id": "e717_to_98",
+            "source": "node_717",
+            "target": "node_98",
+            "type": "step"
+        },
+        {
+            "id": "e718_to_111",
+            "source": "node_718",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e719_to_314",
+            "source": "node_719",
+            "target": "node_314",
             "type": "step"
         }
     ]

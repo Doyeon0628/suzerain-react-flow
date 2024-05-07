@@ -5515,22 +5515,11 @@
             "id": "node_693",
             "type": "customNode",
             "data": {
-                "label": "UpdateCharacterTitle(\"Fetih Ejall\", \"Inmate 64284\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 3750
-            }
-        },
-        {
-            "id": "node_694",
-            "type": "customNode",
-            "data": {
                 "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 1500
+                "y": 3750
             }
         }
     ],
@@ -8470,9 +8459,9 @@
             "type": "step"
         },
         {
-            "id": "e681_to_694",
+            "id": "e681_to_611",
             "source": "node_681",
-            "target": "node_694",
+            "target": "node_611",
             "type": "step"
         },
         {
@@ -8545,12 +8534,6 @@
             "id": "e693_to_2",
             "source": "node_693",
             "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e694_to_611",
-            "source": "node_694",
-            "target": "node_611",
             "type": "step"
         }
     ]

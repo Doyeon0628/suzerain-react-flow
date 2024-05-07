@@ -15,18 +15,7 @@
             "id": "node_3",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nThe door of the car opened and flashes went off.\n\nSetRichPresenceData(Hosting a state visit for a capitalist superpower, Maroon Palace, Holsord); PlaySceneMusic(Diplomacy); AddConversant(Monica); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDwight Walker, President of Arcasia, Head of the ATO came out of the car, smiling and waving at the enormous crowd that gathered. It was not every day an Arcasian president came to visit Sordland after all.\n\nAddConversant(Dwight Walker); WaitForMessage(Continue);"
+                "label": "Narrator\n\nThe door of the pitch black sedan opened and flashes went off.\n\nSetRichPresenceData(Hosting a state visit for a communist superpower, Maroon Palace, Holsord); PlaySceneMusic(Diplomacy); AddConversant(Monica); WaitForMessage(Continue);"
             },
             "position": {
                 "x": 0,
@@ -34,10 +23,32 @@
             }
         },
         {
-            "id": "node_12",
+            "id": "node_5",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.SuperpowerVisit_MilitaryWelcome == true)\n\nnan"
+                "label": "Narrator\n\nThe famous ideologue and CSP leader, Leon Malenyev, came out of the car, smiling and waving at the enormous crowd that gathered. It was not every day the Chairman of United Contana came to visit Sordland.\n\nAddConversant(Leon Malenyev); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_6",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nBoth sides of the maroon carpet leading up to the palace were lined with soldiers wearing military uniforms from Sordish history. They had swords, shields and spears. Some of them were on horseback."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.SuperpowerVisit_MilitaryWelcome == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -48,7 +59,7 @@
             "id": "node_13",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nAs soon as President Walker stepped on the carpet, children appeared and showered the road with roses. He slowly started walking towards us."
+                "label": "!(BaseGame.SuperpowerVisit_MilitaryWelcome == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -56,21 +67,10 @@
             }
         },
         {
-            "id": "node_37",
+            "id": "node_19",
             "type": "customNode",
             "data": {
-                "label": "Dwight Walker\n\n“I'm charmed, Ms. Rayne.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAs soon as President Walker stepped on the carpet, all of the soldiers performed a hard salute. Celebratory gunshots were fired. Trumpets started playing a Sordish march."
+                "label": "Player\n\n\"How was your flight?\""
             },
             "position": {
                 "x": 0,
@@ -78,10 +78,21 @@
             }
         },
         {
-            "id": "node_46",
+            "id": "node_21",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nHe looked at Monica first, bowed and kissed her hand for a second longer than I liked."
+                "label": "Player\n\n“I wanted extravagance, not a circus show. What the hell is this?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It looks good, Lucian. Good job.”"
             },
             "position": {
                 "x": 0,
@@ -89,21 +100,10 @@
             }
         },
         {
-            "id": "node_54",
+            "id": "node_26",
             "type": "customNode",
             "data": {
-                "label": "Dwight Walker\n\n“Mr. President. It is so good to finally meet with you.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "customNode",
-            "data": {
-                "label": "Monica\n\n“I hope your wife and the family is well.”\n\n"
+                "label": "Narrator\n\nHe looked at me with an expressionless face."
             },
             "position": {
                 "x": 0,
@@ -111,18 +111,18 @@
             }
         },
         {
-            "id": "node_61",
+            "id": "node_27",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n“I wanted to meet with you for the longest time.”"
+                "label": "Lucian Galade\n\n“Thank you.”\n\n"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 750
             }
         },
         {
-            "id": "node_65",
+            "id": "node_30",
             "type": "customNode",
             "data": {
                 "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Iosef Lancea); WaitForMessage(Continue);"
@@ -133,527 +133,10 @@
             }
         },
         {
-            "id": "node_67",
+            "id": "node_34",
             "type": "customNode",
             "data": {
-                "label": "Player_Italic\n\nI didn't laugh at his joke which turned the situation a little bit awkward.\n\nDon't laugh."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nPresident Walker stepped on the carpet and started to make his way towards us."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Valgsland_Alliance == true || BaseGame.Valgsland_HeljilandRecognised == true || BaseGame.Archetype_ComradeRayne == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Turn09_FPnT_ATO_Aligned = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "customNode",
-            "data": {
-                "label": "(BaseGame.Reform_EmergencyDecree_Embargo_UC == true && BaseGame.Reform_EmergencyDecree_Embargo_Arcasia == false) || BaseGame.Lespia_Alliance == true || BaseGame.Decision_Turn05_SPAid_AcceptArcasia == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_105",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe was simply looking around at the extraordinary interior design of the Maroon Palace. Statues, paintings and various ornaments filled both sides of the corridor."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nPeople started clapping."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nPresident Walker and I separated and started mingling with the crowd. The reception was in full swing."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Right when we were getting to the good part.\"\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe band played on. For a moment, it felt like it was only the two of us in the room. We moved together as one, seamlessly gliding across the dance floor."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nPresident Walker approached, clapping and whistling himself."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“We had enough fun. Let's talk about business.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_156",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nMonica looked at me and smiled."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_170",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe pulled out a Rippo lighter and lit his cigar."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_171",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nWe clinked our glasses and took a sip."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_188",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe bursted into a laugh."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_195",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“I want to make you an offer.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_202",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Enable_PressRelease == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_205",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“I heard you got into a scandal. Something about a secretary.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_207",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Yes. What of it?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_212",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“I just made it out alive of a bad one myself. Oof. It was a rough one too.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_215",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Let's get it over with.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_216",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_219",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“I know that you are preparing to go to war against Rumburg.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_241",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“If you ask me it is a generous price in return for all the privileges you will receive.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_245",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Lespia_Alliance == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_249",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Let's make history. Here. Tonight. What do you say?”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_250",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“In ATO, we protect each other. We have a mutual defense clause in the case of war.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_252",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Before you answer, let me assure you. If you reject my kind offer, you won't like the results.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_253",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Do you dare threaten me here, in my palace?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_258",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“You won't be handing over the entire military command. Only a part of it.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_260",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“That's what I'd like to hear.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_264",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Very well. I accept.”\n\n“Very well. I accept. [Join ATO, Break Alliance with Valgsland, -2 Government Budget]”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_265",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“I have to decline, Mr. Walker.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_268",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Cheers to new found partnerships!”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_270",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Now it's starting to taste better!”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_273",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe grabbed his glass and downed the remaining whiskey."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Thank you for the offer however, we currently have no plans to enter ATO.”"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_286",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“At least I know that I tried.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_291",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Very well. I accept.”\n\n“Very well. I accept. [Join ATO, Break Alliance with Valgsland, -2 Government Budget]”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_292",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Regardless, it was good to meet with you. I hope this is the start of something good.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_296",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“I have a few more dance moves to show off.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_297",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Besides, I have a few more dance moves to show off.”\n\n\n\nSetRichPresenceData(Joined a capitalist superpower alliance, Maroon Palace, Holsord); UnlockSteamAchievement(Game_JoinedATO); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_298",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“Times are changing and so is the balance of the world.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_305",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_307",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.RumburgIncident_DeclareWar == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_309",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Joined_ATO = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_310",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nNext to the maroon carpet to the palace, Sordish troops were lined up. Sordish war planes flew above our heads, painting the sky with the colors of the Sordish flag."
+                "label": "Narrator\n\nFinally, I was within reach of one of the most powerful men in the world."
             },
             "position": {
                 "x": 0,
@@ -661,21 +144,10 @@
             }
         },
         {
-            "id": "node_311",
+            "id": "node_37",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Reform_PresiPower_Strong_PurgeGeneralStaff == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_314",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nOn the way to the entrance we stopped in front of Iosef who was in charge of the troops.\n\nAddConversant(Iosef Lancea); WaitForMessage(Continue);"
+                "label": "Leon Malenyev\n\n\"You are very kind, Mr. Rayne.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -683,7 +155,7 @@
             }
         },
         {
-            "id": "node_316",
+            "id": "node_43",
             "type": "customNode",
             "data": {
                 "label": "Narrator\n\nAs soon as our inspection finished, we entered the palace.\n\nRemoveConversant(Valken Kruger); WaitForMessage(Continue);"
@@ -694,10 +166,725 @@
             }
         },
         {
-            "id": "node_317",
+            "id": "node_44",
             "type": "customNode",
             "data": {
-                "label": "Dwight Walker\n\n“The Sordish Armed Forces will be a member of the ATO military structure. All branches be it air, navy, army will collaborate with the alliance network. We will provide assistance and training for free.”\n\n"
+                "label": "BaseGame.Lespia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true || BaseGame.Archetype_CapitalistRayne == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_48",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_FPnT_CSP_Aligned = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Please, this way. Let's move to the palace.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe smiled thinly."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA maroon carpet stretched from the vehicle to the palace, lined with Sordish troops. War planes flew above our heads, painting the sky with the colors of the Sordish flag."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMalenyev smiled and saluted Valken and the soldiers. They saluted back."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“I've wanted to meet with you for the longest time.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It is wonderful to see you, Chairman Malenyev.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_63",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nSeeing Malenyev approach, Lucian stood back.\n\nRemoveConversant(Lucian Galade); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFinally, I was within reach of one of the most powerful men in the world."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMalenyev smiled at the soldiers and saluted them. They saluted back."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It is really good to see you, Chairman Malenyev.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Welcome to Sordland.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_79",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe smiled."
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_81",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Welcome to Sordland.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_87",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"It is nice to meet you, Mrs. Rayne.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_90",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"How was your flight?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It is wonderful to see you, Chairman Malenyev.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Don't mind us. We were just passing by.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAt that moment, we came to the end of the corridor and entered the reception hall."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nGradually, the music and the sound of the party started to fade away."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"I look at the world today and think, it has changed so much since I joined the Rotskis as a young revolutionary...\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_125",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe laughed."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"You surprised me. It's usually one or the other, depending on who you're asking. But never together.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe sneered."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_144",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"I thought when Tarquin Soll came to power, he worked towards removing the republic's connection to its feudal past.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"You cannot see what the future holds for you if you're not literate in history.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_162",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"That's what I suspected. If it was not going to be the kingdom he despised so much, it made sense to look further back.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_165",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"He just left in the parts he liked. Isn't it fascinating how a single person can alter history just like that?\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_166",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"It is perhaps even more divided than ever. There are still wars in every corner of the world. There is still poverty, violence and slavery.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_179",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"Today, the whole continent is at peace, Mr. Rayne. And now the rest of the world is furious.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"In the end, you formed the largest country in the world.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_184",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Hegel_PutInAGoodWordWithMalenyev == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_185",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"There are many countries who look up to United Contana. You are not alone.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_190",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"We have. And now our responsibility is great. We cannot sit back and let Arcasian imperialism enslave the third world.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_191",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"I still remember how Contana was a massive war zone. When all the warring states were supplied weapons by the west. Kings and dictators killed each other.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe took another sip from his glass and stretched his hand to me."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Agnolia_Alliance == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"But before we talk about that...\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"Could you help me?\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_205",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Of course. Please follow me, Chairman Malenyev.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_210",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"Chancellor Hegel told me a lot about you.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"Are you even aware what goes on there?\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_221",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"You are supporting the foreign Agnolian regime, which is trying to destroy the local culture. The Heljilandian Valgs are being oppressed.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Agnolia_HeljilandRecognised == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Agnolia_Alliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_239",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I don't want to interfere with the matters between Valgsland and Agnolia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_245",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You are right, Chairman Malenyev. We can't.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_246",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes. I am behind Valgsland in this conflict.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_247",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_261",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"In the end, people are dying. And for no reason other than the political aims of their governments.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_265",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm sure we can find a diplomatic solution with Agnolia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_266",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I thought this was about people being killed.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_267",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_Alliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_269",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Lespia_Alliance == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_270",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Agnolia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Agnolia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"So, you are ready to tear down the agreement...\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"...And take away your support from Heljiland?\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_297",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe smiled."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_298",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"Don't rush your decision.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_299",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nOne of his bodyguards, dressed in full military uniform, rushed towards us with a bottle of water."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"Without us, Arcasia would dominate the world. The Arcasian Lira is already crippling other economies while they reap the benefits. Yet they claim they're the bringers of freedom. Absurd.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"What does the CSP offer for Sordland?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Will you stand with us against the threat of Rumburg?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_324",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Unfortunately, I have to decline.\""
             },
             "position": {
                 "x": 0,
@@ -708,29 +895,18 @@
             "id": "node_325",
             "type": "customNode",
             "data": {
-                "label": "Monica\n\n\"At your service, Mr. President.\""
+                "label": "Leon Malenyev\n\n\"Security. First and foremost, CSP is a defense pact. You will have the backing of the entire military power of our members.\"\n\n"
             },
             "position": {
                 "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_326",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nMonica blinked and abruptly removed her hand from mine."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
+                "y": 1000
             }
         },
         {
             "id": "node_330",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nMonica gave me an extremely strained smile."
+                "label": "BaseGame.Hegel_PutInAGoodWordWithMalenyev == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -738,10 +914,10 @@
             }
         },
         {
-            "id": "node_331",
+            "id": "node_333",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Relations_Monica_Opinion <= 0\n\nnan"
+                "label": "Leon Malenyev\n\n\"Not to mention visa-free access to every country within the CSP as well as other mutual assistance deals.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -749,10 +925,10 @@
             }
         },
         {
-            "id": "node_335",
+            "id": "node_334",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nBehind his back, she gave me a taunting look."
+                "label": "Leon Malenyev\n\n\"You must accept our doctrines and work towards the goals of the pact. To further our power against the ATO.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -763,7 +939,7 @@
             "id": "node_336",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn07_Fled_MarcelKoronti == true || BaseGame.Turn07_Fled_WalterTusk == true\n\nnan"
+                "label": "Leon Malenyev\n\n\"Your military alliance with Lespia must be cancelled immediately.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -771,10 +947,10 @@
             }
         },
         {
-            "id": "node_339",
+            "id": "node_341",
             "type": "customNode",
             "data": {
-                "label": "Dwight Walker\n\n“As you know, Arcasia is a country that has freedom at its very foundation. Anyone is welcome.”\n\n"
+                "label": "BaseGame.Agnolia_Alliance == true || BaseGame.Agnolia_HeljilandRecognised == true \n\nnan"
             },
             "position": {
                 "x": 0,
@@ -782,21 +958,21 @@
             }
         },
         {
-            "id": "node_348",
+            "id": "node_351",
             "type": "customNode",
             "data": {
-                "label": "Dwight Walker\n\n“Very well. I will have them deported back to their homeland.”\n\n"
+                "label": "Leon Malenyev\n\n\"Chancellor Hegel told me that I could trust you with the money.\"\n\n"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 250
             }
         },
         {
-            "id": "node_352",
+            "id": "node_357",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn07_Investigate_Oligarchs == true && BaseGame.Turn08_SnO_KorontiInvestigationStopped == false\n\nnan"
+                "label": "Leon Malenyev\n\n\"But my agents told me that you might be the one who wants to start a war. Not Rumburg. Is there any truth to that?\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -807,18 +983,7 @@
             "id": "node_358",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"No, don't do anything. It wouldn't be right.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_359",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Valgsland_Alliance = false; BaseGame.Valgsland_Alliance_Cancelled = true;\\nBaseGameSupport.News_Turn09_G_ATO_ValgslandAlliance_Cancelled = true;\\nBaseGameSupport.News_Turn09_HP_ATO_ValgslandAlliance_Cancelled = true\n\nnan"
+                "label": "Leon Malenyev\n\n\"I promise you. Their queen will no longer meddle in Sordland nor Eastern Merkopa.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -826,10 +991,43 @@
             }
         },
         {
+            "id": "node_360",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_361",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedC = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_362",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedA == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
             "id": "node_365",
             "type": "customNode",
             "data": {
-                "label": "// Continue\n\nnan"
+                "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -840,18 +1038,40 @@
             "id": "node_368",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Situation_Diplomacy_Arcasia_Military_Influence = false;\\nBaseGame.Situation_Diplomacy_Arcasia_Military_Support = false;\n\nnan"
+                "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedC == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
+            }
+        },
+        {
+            "id": "node_371",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedA == true && BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_373",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedA == true && BaseGameIsolated.Turn09_FPnT_UCVisit_ListenedB == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
             }
         },
         {
             "id": "node_375",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Joined_ATO == true\n\nnan"
+                "label": "CSPHub\n\nCSPHub"
             },
             "position": {
                 "x": 0,
@@ -859,32 +1079,21 @@
             }
         },
         {
-            "id": "node_377",
+            "id": "node_376",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Joined_ATO == true)\n\nnan"
+                "label": "Jump to: [CSPHub]\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 750
             }
         },
         {
             "id": "node_378",
             "type": "customNode",
             "data": {
-                "label": "BaseGameSupport.News_Turn09_HP_Joined_ATO = true; \\nBaseGameSupport.FactionReport_Turn09_ATO_WelcomesSordland = true;\\nBaseGameSupport.CountryReport_Turn09_Derdia_CursesATOJoin = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_379",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
+                "label": "Jump to: [CSPHub]\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -892,65 +1101,21 @@
             }
         },
         {
-            "id": "node_381",
+            "id": "node_379",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
+                "label": "Player\n\n\"Yes. We will bring the war to them, before they are fully prepared.\""
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 500
             }
         },
         {
-            "id": "node_382",
+            "id": "node_393",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Policy_Diplomacy_Agnolia_Alliance == false && BaseGame.Policy_Diplomacy_Valgsland_Alliance == false && BaseGame.Policy_Diplomacy_Lespia_Alliance == false && BaseGame.Policy_Diplomacy_Wehlen_JointOperation == false\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_385",
-            "type": "customNode",
-            "data": {
-                "label": "Dwight Walker\n\n“I have a few more dance moves to show off. Unlike Sordland, I don't dance alone.”\n\n\n\nSetRichPresenceData(Led their country to total isolation in the international scene, Maroon Palace, Holsord); UnlockSteamAchievement(Game_Isolated); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_386",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Policy_Diplomacy_Agnolia_Alliance == false && BaseGame.Policy_Diplomacy_Valgsland_Alliance == false && BaseGame.Policy_Diplomacy_Lespia_Alliance == false && BaseGame.Policy_Diplomacy_Wehlen_JointOperation == false\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_390",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_392",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
+                "label": "BaseGame.Lespia_Alliance = false; BaseGame.Lespia_Alliance_Cancelled = true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -961,29 +1126,29 @@
             "id": "node_394",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
+                "label": "BaseGame.Agnolia_Alliance = false; BaseGame.Agnolia_Alliance_Cancelled = true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 250
             }
         },
         {
-            "id": "node_396",
+            "id": "node_395",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
+                "label": "BaseGame.Lespia_Alliance == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 250
             }
         },
         {
-            "id": "node_398",
+            "id": "node_397",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
+                "label": "!(BaseGame.Lespia_Alliance == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -994,7 +1159,7 @@
             "id": "node_400",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
+                "label": "!(BaseGame.Agnolia_Alliance == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1002,54 +1167,21 @@
             }
         },
         {
-            "id": "node_402",
+            "id": "node_405",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Valgsland_Alliance == true\n\nnan"
+                "label": "BaseGame.Hegel_PutInAGoodWordWithMalenyev == true\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_404",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Valgsland_Alliance == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_406",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Capitalist += 5;\\nBaseGame.Sollist -= 2;\\nBaseGame.Malenyevist -= 3;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_407",
-            "type": "customNode",
-            "data": {
-                "label": "UpdateCountryRelationship(\"Sordland_Country_Lespia\", \"Allied\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
             }
         },
         {
             "id": "node_409",
             "type": "customNode",
             "data": {
-                "label": "PlaySoundEffect(\"ArcasiaMusic\");\n\nnan"
+                "label": "Narrator\n\nHe smiled."
             },
             "position": {
                 "x": 0,
@@ -1057,32 +1189,10 @@
             }
         },
         {
-            "id": "node_410",
+            "id": "node_413",
             "type": "customNode",
             "data": {
-                "label": "End();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_411",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Diplomacy_Energy_ForeignInfluence = true; BaseGame.Situation_Diplomacy_Energy_ForeignManipulation = false; \\nBaseGame.Situation_Diplomacy_Energy_Independence = false; \n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_414",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceSurge == true)\n\nnan"
+                "label": "!(BaseGame.Archetype_ComradeRayne == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1093,18 +1203,7 @@
             "id": "node_416",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Situation_Diplomacy_Energy_ForeignInfluence = true; BaseGame.Situation_Diplomacy_Energy_ForeignManipulation = false; \\nBaseGame.Situation_Diplomacy_Energy_Independence = false; \n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_419",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceFluctuation == true)\n\nnan"
+                "label": "Narrator\n\nHe narrowed his eyes and stared at me as he exhaled smoke right into my face."
             },
             "position": {
                 "x": 0,
@@ -1115,7 +1214,7 @@
             "id": "node_422",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Situation_Diplomacy_Energy_PriceBalanced = false; \\nBaseGame.Situation_Diplomacy_Energy_PriceSurge = false;\\nBaseGame.Situation_Diplomacy_Energy_PriceFluctuation = true;  \n\nnan"
+                "label": "Narrator\n\nHe slowly stood up from his seat, seemingly struggling."
             },
             "position": {
                 "x": 0,
@@ -1123,10 +1222,10 @@
             }
         },
         {
-            "id": "node_423",
+            "id": "node_424",
             "type": "customNode",
             "data": {
-                "label": "AddPlayerCountryStatus(\"Country_ATO\");\n\nnan"
+                "label": "Player\n\n\"Of course, Chairman Malenyev. Please come this way.\""
             },
             "position": {
                 "x": 0,
@@ -1134,10 +1233,10 @@
             }
         },
         {
-            "id": "node_429",
+            "id": "node_425",
             "type": "customNode",
             "data": {
-                "label": "BaseGameSupport.News_Turn10_HP_ATOMarketInfluencesEnergy = true;  \n\nnan"
+                "label": "Player\n\n\"I wanted to make a deal today as well. But your terms were not acceptable.\""
             },
             "position": {
                 "x": 0,
@@ -1145,10 +1244,21 @@
             }
         },
         {
-            "id": "node_430",
+            "id": "node_431",
             "type": "customNode",
             "data": {
-                "label": "EnableNews(\"G_Joined_ATO\");\n\nnan"
+                "label": "Narrator\n\nHe slowly stood up from his seat, seemingly struggling."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_439",
+            "type": "customNode",
+            "data": {
+                "label": "GameCondition.Turn09_FPnT_SuperpowerVisit = true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1156,652 +1266,1307 @@
             }
         },
         {
-            "id": "node_431",
+            "id": "node_441",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Joined_CSP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_446",
+            "type": "customNode",
+            "data": {
+                "label": "// continue\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_448",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Joined_CSP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_450",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Joined_CSP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_451",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_Alliance_Cancelled == true && BaseGame.Agnolia_Alliance_Cancelled == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_456",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Lespia_Alliance_Cancelled == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_461",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_HP_Joined_CSP = true;\\nBaseGameSupport.FactionReport_Turn09_CSP_WelcomesSordland = true;\\nBaseGameSupport.CountryReport_Turn09_Morella_CongratulatesCSPJoin = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_462",
+            "type": "customNode",
+            "data": {
+                "label": "EnableNews(\"G_Joined_CSP\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1250
+            }
+        },
+        {
+            "id": "node_463",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_G_Joined_CSP_EndAlliance_Agnolia = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_464",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn09_G_Joined_CSP_EndAlliance_Lespia = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_465",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Diplomacy_Agnolia_Alliance == false && BaseGame.Policy_Diplomacy_Valgsland_Alliance == false && BaseGame.Policy_Diplomacy_Lespia_Alliance == false && BaseGame.Policy_Diplomacy_Wehlen_JointOperation == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_468",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"Just know that standing alone in this world is not as easy as it seems.\"\n\n\n\nSetRichPresenceData(Led their country to total isolation in the international scene, Maroon Palace, Holsord); UnlockSteamAchievement(Game_Isolated); WaitForMessage(Continue);"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_469",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Lespia_Alliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_471",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Lespia_Alliance == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_474",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Agnolia_Alliance == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_475",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Agnolia_Alliance == true && BaseGame.Lespia_Alliance == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_478",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It's a deal, Chairman Malenyev.\"\n\n\"It's a deal, Chairman Malenyev. [Join CSP, Break Alliance with Lespia and Agnolia, -3 Government Budget]\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_479",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It's a deal, Chairman Malenyev.\"\n\n\"It's a deal, Chairman Malenyev. [Join CSP, Break Alliance with Lespia, -2 Government Budget]\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_480",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It's a deal, Chairman Malenyev.\"\n\n\"It's a deal, Chairman Malenyev. [Join CSP, Break Alliance with Agnolia, -1 Government Budget]\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_481",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCountryRelationship(\"Sordland_Country_Valgsland\", \"Allied\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_484",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It is wonderful to see you, Mr. Chavatangakwunua.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_485",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It is wonderful to see you, Mr. Chavatangakwunua.”\n\n"
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_488",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“It is wonderful to see you, Mr. Chavatangakwunua.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_491",
+            "type": "customNode",
+            "data": {
+                "label": "Leon Malenyev\n\n\"You are very kind, Mr. Rayne. Not a lot of people would even try to pronounce my real name.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_493",
+            "type": "customNode",
+            "data": {
+                "label": "PlaySoundEffect(\"ContanaMusic\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_494",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_495",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Diplomacy_Energy_ForeignInfluence = true; BaseGame.Situation_Diplomacy_Energy_ForeignManipulation = false; \\nBaseGame.Situation_Diplomacy_Energy_Independence = false; \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_498",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceSurge == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_502",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Heljiland_Map_Layer = 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_503",
+            "type": "customNode",
+            "data": {
+                "label": "AddPlayerCountryStatus(\"Country_CSP\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_504",
+            "type": "customNode",
+            "data": {
+                "label": "RemovePlayerCountryStatus(\"Country_Sordland_Recognition_HeljilandAgnolia\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_509",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveTokenStatus(\"Sordland_Country_Valgsland\", \"Country_Valgsland_TradeTariffs\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_510",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCountryRelationship(\"Sordland_Country_Rizia\", \"Unfriendly\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_511",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCountryRelationship(\"Sordland_Country_Valgsland\", \"Allied\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
+            }
+        },
+        {
+            "id": "node_512",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.News_Turn10_HP_CSPMarketInfluencesEnergy = true;  \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_513",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e1_to_97",
+            "id": "e1_to_45",
             "source": "node_1",
-            "target": "node_97",
+            "target": "node_45",
             "type": "step"
         },
         {
-            "id": "e3_to_361",
+            "id": "e3_to_41",
             "source": "node_3",
-            "target": "node_361",
+            "target": "node_41",
             "type": "step"
         },
         {
-            "id": "e5_to_18",
+            "id": "e5_to_24",
             "source": "node_5",
-            "target": "node_18",
+            "target": "node_24",
             "type": "step"
         },
         {
-            "id": "e12_to_311",
-            "source": "node_12",
-            "target": "node_311",
+            "id": "e6_to_205",
+            "source": "node_6",
+            "target": "node_205",
             "type": "step"
         },
         {
-            "id": "e13_to_69",
+            "id": "e11_to_139",
+            "source": "node_11",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e13_to_60",
             "source": "node_13",
-            "target": "node_69",
+            "target": "node_60",
             "type": "step"
         },
         {
-            "id": "e37_to_106",
+            "id": "e19_to_16",
+            "source": "node_19",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_80",
+            "source": "node_21",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
+            "id": "e23_to_16",
+            "source": "node_23",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_64",
+            "source": "node_26",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_79",
+            "source": "node_27",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e30_to_64",
+            "source": "node_30",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_27",
+            "source": "node_34",
+            "target": "node_27",
+            "type": "step"
+        },
+        {
+            "id": "e37_to_71",
             "source": "node_37",
-            "target": "node_106",
+            "target": "node_71",
             "type": "step"
         },
         {
-            "id": "e41_to_30",
-            "source": "node_41",
-            "target": "node_30",
+            "id": "e43_to_62",
+            "source": "node_43",
+            "target": "node_62",
             "type": "step"
         },
         {
-            "id": "e46_to_67",
-            "source": "node_46",
-            "target": "node_67",
+            "id": "e44_to_34",
+            "source": "node_44",
+            "target": "node_34",
             "type": "step"
         },
         {
-            "id": "e54_to_312",
-            "source": "node_54",
-            "target": "node_312",
+            "id": "e48_to_4",
+            "source": "node_48",
+            "target": "node_4",
             "type": "step"
         },
         {
-            "id": "e57_to_312",
-            "source": "node_57",
-            "target": "node_312",
+            "id": "e56_to_4",
+            "source": "node_56",
+            "target": "node_4",
             "type": "step"
         },
         {
-            "id": "e61_to_54",
+            "id": "e58_to_68",
+            "source": "node_58",
+            "target": "node_68",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_16",
+            "source": "node_59",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_32",
+            "source": "node_60",
+            "target": "node_32",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_44",
             "source": "node_61",
-            "target": "node_54",
-            "type": "step"
-        },
-        {
-            "id": "e65_to_317",
-            "source": "node_65",
-            "target": "node_317",
-            "type": "step"
-        },
-        {
-            "id": "e67_to_37",
-            "source": "node_67",
-            "target": "node_37",
-            "type": "step"
-        },
-        {
-            "id": "e68_to_37",
-            "source": "node_68",
-            "target": "node_37",
-            "type": "step"
-        },
-        {
-            "id": "e96_to_37",
-            "source": "node_96",
-            "target": "node_37",
-            "type": "step"
-        },
-        {
-            "id": "e100_to_4",
-            "source": "node_100",
-            "target": "node_4",
-            "type": "step"
-        },
-        {
-            "id": "e101_to_4",
-            "source": "node_101",
-            "target": "node_4",
-            "type": "step"
-        },
-        {
-            "id": "e105_to_4",
-            "source": "node_105",
-            "target": "node_4",
-            "type": "step"
-        },
-        {
-            "id": "e113_to_410",
-            "source": "node_113",
-            "target": "node_410",
-            "type": "step"
-        },
-        {
-            "id": "e116_to_112",
-            "source": "node_116",
-            "target": "node_112",
-            "type": "step"
-        },
-        {
-            "id": "e127_to_147",
-            "source": "node_127",
-            "target": "node_147",
-            "type": "step"
-        },
-        {
-            "id": "e129_to_161",
-            "source": "node_129",
-            "target": "node_161",
-            "type": "step"
-        },
-        {
-            "id": "e135_to_321",
-            "source": "node_135",
-            "target": "node_321",
-            "type": "step"
-        },
-        {
-            "id": "e151_to_328",
-            "source": "node_151",
-            "target": "node_328",
-            "type": "step"
-        },
-        {
-            "id": "e156_to_332",
-            "source": "node_156",
-            "target": "node_332",
-            "type": "step"
-        },
-        {
-            "id": "e170_to_203",
-            "source": "node_170",
-            "target": "node_203",
-            "type": "step"
-        },
-        {
-            "id": "e171_to_203",
-            "source": "node_171",
-            "target": "node_203",
-            "type": "step"
-        },
-        {
-            "id": "e188_to_195",
-            "source": "node_188",
-            "target": "node_195",
-            "type": "step"
-        },
-        {
-            "id": "e195_to_337",
-            "source": "node_195",
-            "target": "node_337",
-            "type": "step"
-        },
-        {
-            "id": "e202_to_217",
-            "source": "node_202",
-            "target": "node_217",
-            "type": "step"
-        },
-        {
-            "id": "e205_to_172",
-            "source": "node_205",
-            "target": "node_172",
-            "type": "step"
-        },
-        {
-            "id": "e207_to_212",
-            "source": "node_207",
-            "target": "node_212",
-            "type": "step"
-        },
-        {
-            "id": "e212_to_211",
-            "source": "node_212",
-            "target": "node_211",
-            "type": "step"
-        },
-        {
-            "id": "e215_to_172",
-            "source": "node_215",
-            "target": "node_172",
-            "type": "step"
-        },
-        {
-            "id": "e216_to_202",
-            "source": "node_216",
-            "target": "node_202",
-            "type": "step"
-        },
-        {
-            "id": "e219_to_299",
-            "source": "node_219",
-            "target": "node_299",
-            "type": "step"
-        },
-        {
-            "id": "e241_to_368",
-            "source": "node_241",
-            "target": "node_368",
-            "type": "step"
-        },
-        {
-            "id": "e245_to_318",
-            "source": "node_245",
-            "target": "node_318",
-            "type": "step"
-        },
-        {
-            "id": "e249_to_243",
-            "source": "node_249",
-            "target": "node_243",
-            "type": "step"
-        },
-        {
-            "id": "e250_to_395",
-            "source": "node_250",
-            "target": "node_395",
-            "type": "step"
-        },
-        {
-            "id": "e252_to_245",
-            "source": "node_252",
-            "target": "node_245",
-            "type": "step"
-        },
-        {
-            "id": "e253_to_403",
-            "source": "node_253",
-            "target": "node_403",
-            "type": "step"
-        },
-        {
-            "id": "e258_to_399",
-            "source": "node_258",
-            "target": "node_399",
-            "type": "step"
-        },
-        {
-            "id": "e260_to_399",
-            "source": "node_260",
-            "target": "node_399",
-            "type": "step"
-        },
-        {
-            "id": "e264_to_274",
-            "source": "node_264",
-            "target": "node_274",
-            "type": "step"
-        },
-        {
-            "id": "e265_to_261",
-            "source": "node_265",
-            "target": "node_261",
-            "type": "step"
-        },
-        {
-            "id": "e268_to_267",
-            "source": "node_268",
-            "target": "node_267",
-            "type": "step"
-        },
-        {
-            "id": "e270_to_408",
-            "source": "node_270",
-            "target": "node_408",
-            "type": "step"
-        },
-        {
-            "id": "e273_to_298",
-            "source": "node_273",
-            "target": "node_298",
-            "type": "step"
-        },
-        {
-            "id": "e279_to_261",
-            "source": "node_279",
-            "target": "node_261",
-            "type": "step"
-        },
-        {
-            "id": "e286_to_391",
-            "source": "node_286",
-            "target": "node_391",
-            "type": "step"
-        },
-        {
-            "id": "e291_to_287",
-            "source": "node_291",
-            "target": "node_287",
-            "type": "step"
-        },
-        {
-            "id": "e292_to_261",
-            "source": "node_292",
-            "target": "node_261",
-            "type": "step"
-        },
-        {
-            "id": "e296_to_383",
-            "source": "node_296",
-            "target": "node_383",
-            "type": "step"
-        },
-        {
-            "id": "e297_to_3",
-            "source": "node_297",
-            "target": "node_3",
-            "type": "step"
-        },
-        {
-            "id": "e298_to_310",
-            "source": "node_298",
-            "target": "node_310",
-            "type": "step"
-        },
-        {
-            "id": "e305_to_226",
-            "source": "node_305",
-            "target": "node_226",
-            "type": "step"
-        },
-        {
-            "id": "e307_to_281",
-            "source": "node_307",
-            "target": "node_281",
-            "type": "step"
-        },
-        {
-            "id": "e309_to_282",
-            "source": "node_309",
-            "target": "node_282",
-            "type": "step"
-        },
-        {
-            "id": "e310_to_407",
-            "source": "node_310",
-            "target": "node_407",
-            "type": "step"
-        },
-        {
-            "id": "e311_to_42",
-            "source": "node_311",
-            "target": "node_42",
-            "type": "step"
-        },
-        {
-            "id": "e314_to_63",
-            "source": "node_314",
-            "target": "node_63",
-            "type": "step"
-        },
-        {
-            "id": "e316_to_66",
-            "source": "node_316",
-            "target": "node_66",
-            "type": "step"
-        },
-        {
-            "id": "e317_to_44",
-            "source": "node_317",
             "target": "node_44",
             "type": "step"
         },
         {
-            "id": "e325_to_136",
-            "source": "node_325",
-            "target": "node_136",
+            "id": "e62_to_38",
+            "source": "node_62",
+            "target": "node_38",
             "type": "step"
         },
         {
-            "id": "e326_to_136",
-            "source": "node_326",
-            "target": "node_136",
+            "id": "e63_to_38",
+            "source": "node_63",
+            "target": "node_38",
             "type": "step"
         },
         {
-            "id": "e330_to_157",
-            "source": "node_330",
-            "target": "node_157",
+            "id": "e66_to_16",
+            "source": "node_66",
+            "target": "node_16",
             "type": "step"
         },
         {
-            "id": "e331_to_158",
-            "source": "node_331",
-            "target": "node_158",
+            "id": "e67_to_94",
+            "source": "node_67",
+            "target": "node_94",
             "type": "step"
         },
         {
-            "id": "e335_to_161",
-            "source": "node_335",
-            "target": "node_161",
+            "id": "e70_to_20",
+            "source": "node_70",
+            "target": "node_20",
             "type": "step"
         },
         {
-            "id": "e336_to_161",
-            "source": "node_336",
-            "target": "node_161",
+            "id": "e76_to_53",
+            "source": "node_76",
+            "target": "node_53",
             "type": "step"
         },
         {
-            "id": "e339_to_194",
-            "source": "node_339",
+            "id": "e79_to_21",
+            "source": "node_79",
+            "target": "node_21",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_16",
+            "source": "node_81",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_83",
+            "source": "node_87",
+            "target": "node_83",
+            "type": "step"
+        },
+        {
+            "id": "e90_to_16",
+            "source": "node_90",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_16",
+            "source": "node_93",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_16",
+            "source": "node_96",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_494",
+            "source": "node_98",
+            "target": "node_494",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_494",
+            "source": "node_105",
+            "target": "node_494",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_122",
+            "source": "node_123",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e125_to_167",
+            "source": "node_125",
+            "target": "node_167",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_122",
+            "source": "node_134",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e137_to_122",
+            "source": "node_137",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e144_to_193",
+            "source": "node_144",
+            "target": "node_193",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_99",
+            "source": "node_160",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e162_to_99",
+            "source": "node_162",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e165_to_122",
+            "source": "node_165",
+            "target": "node_122",
+            "type": "step"
+        },
+        {
+            "id": "e166_to_99",
+            "source": "node_166",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e179_to_192",
+            "source": "node_179",
+            "target": "node_192",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_190",
+            "source": "node_181",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e184_to_211",
+            "source": "node_184",
+            "target": "node_211",
+            "type": "step"
+        },
+        {
+            "id": "e185_to_212",
+            "source": "node_185",
+            "target": "node_212",
+            "type": "step"
+        },
+        {
+            "id": "e190_to_178",
+            "source": "node_190",
+            "target": "node_178",
+            "type": "step"
+        },
+        {
+            "id": "e191_to_178",
+            "source": "node_191",
+            "target": "node_178",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_145",
+            "source": "node_193",
+            "target": "node_145",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_215",
+            "source": "node_199",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_219",
+            "source": "node_200",
+            "target": "node_219",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_194",
+            "source": "node_201",
             "target": "node_194",
             "type": "step"
         },
         {
-            "id": "e348_to_358",
-            "source": "node_348",
-            "target": "node_358",
+            "id": "e205_to_8",
+            "source": "node_205",
+            "target": "node_8",
             "type": "step"
         },
         {
-            "id": "e352_to_194",
-            "source": "node_352",
-            "target": "node_194",
+            "id": "e210_to_183",
+            "source": "node_210",
+            "target": "node_183",
             "type": "step"
         },
         {
-            "id": "e358_to_351",
-            "source": "node_358",
-            "target": "node_351",
+            "id": "e213_to_195",
+            "source": "node_213",
+            "target": "node_195",
             "type": "step"
         },
         {
-            "id": "e359_to_350",
-            "source": "node_359",
-            "target": "node_350",
+            "id": "e221_to_216",
+            "source": "node_221",
+            "target": "node_216",
             "type": "step"
         },
         {
-            "id": "e365_to_425",
-            "source": "node_365",
-            "target": "node_425",
+            "id": "e231_to_246",
+            "source": "node_231",
+            "target": "node_246",
             "type": "step"
         },
         {
-            "id": "e368_to_242",
-            "source": "node_368",
-            "target": "node_242",
+            "id": "e235_to_251",
+            "source": "node_235",
+            "target": "node_251",
             "type": "step"
         },
         {
-            "id": "e375_to_3",
-            "source": "node_375",
-            "target": "node_3",
+            "id": "e239_to_255",
+            "source": "node_239",
+            "target": "node_255",
             "type": "step"
         },
         {
-            "id": "e377_to_424",
-            "source": "node_377",
-            "target": "node_424",
-            "type": "step"
-        },
-        {
-            "id": "e378_to_411",
-            "source": "node_378",
-            "target": "node_411",
-            "type": "step"
-        },
-        {
-            "id": "e379_to_431",
-            "source": "node_379",
-            "target": "node_431",
-            "type": "step"
-        },
-        {
-            "id": "e381_to_360",
-            "source": "node_381",
-            "target": "node_360",
-            "type": "step"
-        },
-        {
-            "id": "e382_to_375",
-            "source": "node_382",
-            "target": "node_375",
-            "type": "step"
-        },
-        {
-            "id": "e385_to_297",
-            "source": "node_385",
-            "target": "node_297",
-            "type": "step"
-        },
-        {
-            "id": "e386_to_3",
-            "source": "node_386",
-            "target": "node_3",
-            "type": "step"
-        },
-        {
-            "id": "e390_to_3",
-            "source": "node_390",
-            "target": "node_3",
-            "type": "step"
-        },
-        {
-            "id": "e392_to_292",
-            "source": "node_392",
-            "target": "node_292",
-            "type": "step"
-        },
-        {
-            "id": "e394_to_261",
-            "source": "node_394",
-            "target": "node_261",
-            "type": "step"
-        },
-        {
-            "id": "e396_to_279",
-            "source": "node_396",
-            "target": "node_279",
-            "type": "step"
-        },
-        {
-            "id": "e398_to_261",
-            "source": "node_398",
-            "target": "node_261",
-            "type": "step"
-        },
-        {
-            "id": "e400_to_265",
-            "source": "node_400",
-            "target": "node_265",
-            "type": "step"
-        },
-        {
-            "id": "e402_to_261",
-            "source": "node_402",
-            "target": "node_261",
-            "type": "step"
-        },
-        {
-            "id": "e404_to_256",
-            "source": "node_404",
+            "id": "e245_to_256",
+            "source": "node_245",
             "target": "node_256",
             "type": "step"
         },
         {
-            "id": "e406_to_261",
-            "source": "node_406",
-            "target": "node_261",
+            "id": "e246_to_258",
+            "source": "node_246",
+            "target": "node_258",
             "type": "step"
         },
         {
-            "id": "e407_to_380",
-            "source": "node_407",
-            "target": "node_380",
+            "id": "e247_to_257",
+            "source": "node_247",
+            "target": "node_257",
             "type": "step"
         },
         {
-            "id": "e409_to_271",
-            "source": "node_409",
-            "target": "node_271",
+            "id": "e261_to_254",
+            "source": "node_261",
+            "target": "node_254",
             "type": "step"
         },
         {
-            "id": "e410_to_115",
-            "source": "node_410",
-            "target": "node_115",
+            "id": "e265_to_275",
+            "source": "node_265",
+            "target": "node_275",
             "type": "step"
         },
         {
-            "id": "e411_to_2",
-            "source": "node_411",
-            "target": "node_2",
+            "id": "e266_to_287",
+            "source": "node_266",
+            "target": "node_287",
             "type": "step"
         },
         {
-            "id": "e414_to_412",
-            "source": "node_414",
-            "target": "node_412",
+            "id": "e267_to_288",
+            "source": "node_267",
+            "target": "node_288",
             "type": "step"
         },
         {
-            "id": "e416_to_430",
-            "source": "node_416",
-            "target": "node_430",
+            "id": "e269_to_337",
+            "source": "node_269",
+            "target": "node_337",
             "type": "step"
         },
         {
-            "id": "e419_to_417",
-            "source": "node_419",
+            "id": "e270_to_342",
+            "source": "node_270",
+            "target": "node_342",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_266",
+            "source": "node_272",
+            "target": "node_266",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_292",
+            "source": "node_278",
+            "target": "node_292",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_294",
+            "source": "node_283",
+            "target": "node_294",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_296",
+            "source": "node_297",
+            "target": "node_296",
+            "type": "step"
+        },
+        {
+            "id": "e298_to_291",
+            "source": "node_298",
+            "target": "node_291",
+            "type": "step"
+        },
+        {
+            "id": "e299_to_291",
+            "source": "node_299",
+            "target": "node_291",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_312",
+            "source": "node_318",
+            "target": "node_312",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_376",
+            "source": "node_321",
+            "target": "node_376",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_335",
+            "source": "node_323",
+            "target": "node_335",
+            "type": "step"
+        },
+        {
+            "id": "e324_to_356",
+            "source": "node_324",
+            "target": "node_356",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_417",
+            "source": "node_325",
             "target": "node_417",
             "type": "step"
         },
         {
-            "id": "e422_to_411",
-            "source": "node_422",
-            "target": "node_411",
+            "id": "e330_to_352",
+            "source": "node_330",
+            "target": "node_352",
             "type": "step"
         },
         {
-            "id": "e423_to_430",
-            "source": "node_423",
-            "target": "node_430",
+            "id": "e333_to_360",
+            "source": "node_333",
+            "target": "node_360",
             "type": "step"
         },
         {
-            "id": "e429_to_379",
-            "source": "node_429",
+            "id": "e334_to_351",
+            "source": "node_334",
+            "target": "node_351",
+            "type": "step"
+        },
+        {
+            "id": "e336_to_268",
+            "source": "node_336",
+            "target": "node_268",
+            "type": "step"
+        },
+        {
+            "id": "e341_to_346",
+            "source": "node_341",
+            "target": "node_346",
+            "type": "step"
+        },
+        {
+            "id": "e351_to_331",
+            "source": "node_351",
+            "target": "node_331",
+            "type": "step"
+        },
+        {
+            "id": "e357_to_353",
+            "source": "node_357",
+            "target": "node_353",
+            "type": "step"
+        },
+        {
+            "id": "e358_to_380",
+            "source": "node_358",
+            "target": "node_380",
+            "type": "step"
+        },
+        {
+            "id": "e360_to_377",
+            "source": "node_360",
+            "target": "node_377",
+            "type": "step"
+        },
+        {
+            "id": "e361_to_378",
+            "source": "node_361",
+            "target": "node_378",
+            "type": "step"
+        },
+        {
+            "id": "e362_to_379",
+            "source": "node_362",
             "target": "node_379",
             "type": "step"
         },
         {
-            "id": "e430_to_411",
-            "source": "node_430",
+            "id": "e365_to_322",
+            "source": "node_365",
+            "target": "node_322",
+            "type": "step"
+        },
+        {
+            "id": "e368_to_323",
+            "source": "node_368",
+            "target": "node_323",
+            "type": "step"
+        },
+        {
+            "id": "e371_to_324",
+            "source": "node_371",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e373_to_476",
+            "source": "node_373",
+            "target": "node_476",
+            "type": "step"
+        },
+        {
+            "id": "e375_to_410",
+            "source": "node_375",
+            "target": "node_410",
+            "type": "step"
+        },
+        {
+            "id": "e376_to_363",
+            "source": "node_376",
+            "target": "node_363",
+            "type": "step"
+        },
+        {
+            "id": "e378_to_376",
+            "source": "node_378",
+            "target": "node_376",
+            "type": "step"
+        },
+        {
+            "id": "e379_to_376",
+            "source": "node_379",
+            "target": "node_376",
+            "type": "step"
+        },
+        {
+            "id": "e393_to_362",
+            "source": "node_393",
+            "target": "node_362",
+            "type": "step"
+        },
+        {
+            "id": "e394_to_399",
+            "source": "node_394",
+            "target": "node_399",
+            "type": "step"
+        },
+        {
+            "id": "e395_to_441",
+            "source": "node_395",
+            "target": "node_441",
+            "type": "step"
+        },
+        {
+            "id": "e397_to_394",
+            "source": "node_397",
+            "target": "node_394",
+            "type": "step"
+        },
+        {
+            "id": "e400_to_395",
+            "source": "node_400",
+            "target": "node_395",
+            "type": "step"
+        },
+        {
+            "id": "e405_to_503",
+            "source": "node_405",
+            "target": "node_503",
+            "type": "step"
+        },
+        {
+            "id": "e409_to_439",
+            "source": "node_409",
+            "target": "node_439",
+            "type": "step"
+        },
+        {
+            "id": "e413_to_411",
+            "source": "node_413",
             "target": "node_411",
             "type": "step"
         },
         {
-            "id": "e431_to_413",
+            "id": "e416_to_482",
+            "source": "node_416",
+            "target": "node_482",
+            "type": "step"
+        },
+        {
+            "id": "e422_to_466",
+            "source": "node_422",
+            "target": "node_466",
+            "type": "step"
+        },
+        {
+            "id": "e424_to_427",
+            "source": "node_424",
+            "target": "node_427",
+            "type": "step"
+        },
+        {
+            "id": "e425_to_430",
+            "source": "node_425",
+            "target": "node_430",
+            "type": "step"
+        },
+        {
+            "id": "e431_to_440",
             "source": "node_431",
-            "target": "node_413",
+            "target": "node_440",
+            "type": "step"
+        },
+        {
+            "id": "e439_to_448",
+            "source": "node_439",
+            "target": "node_448",
+            "type": "step"
+        },
+        {
+            "id": "e441_to_484",
+            "source": "node_441",
+            "target": "node_484",
+            "type": "step"
+        },
+        {
+            "id": "e446_to_505",
+            "source": "node_446",
+            "target": "node_505",
+            "type": "step"
+        },
+        {
+            "id": "e448_to_432",
+            "source": "node_448",
+            "target": "node_432",
+            "type": "step"
+        },
+        {
+            "id": "e450_to_504",
+            "source": "node_450",
+            "target": "node_504",
+            "type": "step"
+        },
+        {
+            "id": "e451_to_495",
+            "source": "node_451",
+            "target": "node_495",
+            "type": "step"
+        },
+        {
+            "id": "e456_to_465",
+            "source": "node_456",
+            "target": "node_465",
+            "type": "step"
+        },
+        {
+            "id": "e461_to_495",
+            "source": "node_461",
+            "target": "node_495",
+            "type": "step"
+        },
+        {
+            "id": "e462_to_497",
+            "source": "node_462",
+            "target": "node_497",
+            "type": "step"
+        },
+        {
+            "id": "e463_to_495",
+            "source": "node_463",
+            "target": "node_495",
+            "type": "step"
+        },
+        {
+            "id": "e464_to_495",
+            "source": "node_464",
+            "target": "node_495",
+            "type": "step"
+        },
+        {
+            "id": "e465_to_495",
+            "source": "node_465",
+            "target": "node_495",
+            "type": "step"
+        },
+        {
+            "id": "e468_to_423",
+            "source": "node_468",
+            "target": "node_423",
+            "type": "step"
+        },
+        {
+            "id": "e469_to_423",
+            "source": "node_469",
+            "target": "node_423",
+            "type": "step"
+        },
+        {
+            "id": "e471_to_480",
+            "source": "node_471",
+            "target": "node_480",
+            "type": "step"
+        },
+        {
+            "id": "e474_to_481",
+            "source": "node_474",
+            "target": "node_481",
+            "type": "step"
+        },
+        {
+            "id": "e475_to_375",
+            "source": "node_475",
+            "target": "node_375",
+            "type": "step"
+        },
+        {
+            "id": "e478_to_470",
+            "source": "node_478",
+            "target": "node_470",
+            "type": "step"
+        },
+        {
+            "id": "e479_to_410",
+            "source": "node_479",
+            "target": "node_410",
+            "type": "step"
+        },
+        {
+            "id": "e480_to_410",
+            "source": "node_480",
+            "target": "node_410",
+            "type": "step"
+        },
+        {
+            "id": "e481_to_410",
+            "source": "node_481",
+            "target": "node_410",
+            "type": "step"
+        },
+        {
+            "id": "e484_to_402",
+            "source": "node_484",
+            "target": "node_402",
+            "type": "step"
+        },
+        {
+            "id": "e485_to_492",
+            "source": "node_485",
+            "target": "node_492",
+            "type": "step"
+        },
+        {
+            "id": "e488_to_72",
+            "source": "node_488",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e491_to_84",
+            "source": "node_491",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e493_to_39",
+            "source": "node_493",
+            "target": "node_39",
+            "type": "step"
+        },
+        {
+            "id": "e494_to_107",
+            "source": "node_494",
+            "target": "node_107",
+            "type": "step"
+        },
+        {
+            "id": "e495_to_2",
+            "source": "node_495",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e498_to_496",
+            "source": "node_498",
+            "target": "node_496",
+            "type": "step"
+        },
+        {
+            "id": "e502_to_452",
+            "source": "node_502",
+            "target": "node_452",
+            "type": "step"
+        },
+        {
+            "id": "e503_to_406",
+            "source": "node_503",
+            "target": "node_406",
+            "type": "step"
+        },
+        {
+            "id": "e504_to_509",
+            "source": "node_504",
+            "target": "node_509",
+            "type": "step"
+        },
+        {
+            "id": "e509_to_512",
+            "source": "node_509",
+            "target": "node_512",
+            "type": "step"
+        },
+        {
+            "id": "e510_to_447",
+            "source": "node_510",
+            "target": "node_447",
+            "type": "step"
+        },
+        {
+            "id": "e511_to_462",
+            "source": "node_511",
+            "target": "node_462",
+            "type": "step"
+        },
+        {
+            "id": "e512_to_511",
+            "source": "node_512",
+            "target": "node_511",
+            "type": "step"
+        },
+        {
+            "id": "e513_to_452",
+            "source": "node_513",
+            "target": "node_452",
             "type": "step"
         }
     ]

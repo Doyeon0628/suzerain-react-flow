@@ -2160,7 +2160,7 @@
             "id": "node_562",
             "type": "customNode",
             "data": {
-                "label": "Gus Manger\n\n\"The recent decision to revert the Energy Protection Act to its Soll-era 10 percent cap on foreign ownership had a severe impact on the company.\""
+                "label": "Gus Manger\n\n\"Furthermore, the President's recent decision to revert the Energy Protection Act to its Soll-era 10 percent cap on foreign ownership had a severe impact on the company.\""
             },
             "position": {
                 "x": 0,
@@ -2444,50 +2444,6 @@
         },
         {
             "id": "node_604",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn06_GasomStake_SellOneThird == true || BaseGame.Decision_Turn06_GasomStake_SellTwoThird == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_605",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Decision_Turn06_GasomStake_SellOneThird == true || BaseGame.Decision_Turn06_GasomStake_SellTwoThird == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_606",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Decision_Turn06_GasomStake_SellOneThird == true || BaseGame.Decision_Turn06_GasomStake_SellTwoThird == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_608",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Confrontation_USP_EnergyAct_RevertedTo10 == true || BaseGame.Policy_Economy_EnergyProtectionAct_Removed == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_611",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -3604,9 +3560,9 @@
             "type": "step"
         },
         {
-            "id": "e537_to_605",
+            "id": "e537_to_599",
             "source": "node_537",
-            "target": "node_605",
+            "target": "node_599",
             "type": "step"
         },
         {
@@ -3835,30 +3791,6 @@
             "id": "e604_to_575",
             "source": "node_604",
             "target": "node_575",
-            "type": "step"
-        },
-        {
-            "id": "e605_to_607",
-            "source": "node_605",
-            "target": "node_607",
-            "type": "step"
-        },
-        {
-            "id": "e606_to_599",
-            "source": "node_606",
-            "target": "node_599",
-            "type": "step"
-        },
-        {
-            "id": "e608_to_560",
-            "source": "node_608",
-            "target": "node_560",
-            "type": "step"
-        },
-        {
-            "id": "e611_to_578",
-            "source": "node_611",
-            "target": "node_578",
             "type": "step"
         }
     ]

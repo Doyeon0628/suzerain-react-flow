@@ -1,0 +1,601 @@
+{
+    "nodes": [
+        {
+            "id": "node_1",
+            "type": "customNode",
+            "data": {
+                "label": "output\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_14",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Decision_Turn10_MovePersonalWealth_Move == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nAt long last, you reached the other side and disembarked in the city of Konstantium.\\n\\nYou immediately accessed the savings you'd transferred to an overseas account. You had enough to afford...\n\n1958|Konstantium|Kyrute"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Exile_PetrWithYou == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_38",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Exile_CoupHappensAfterYouLeave == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_39",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nOnce Iosef and his troops realized you were gone, they released Monica and Deana from custody and staged a coup at the Maroon Palace, easily overpowering the security there."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Relations_Iosef_Enemy == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_43",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Relations_Iosef_Enemy == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nOnce Valken and his troops realized you were gone, they released Monica and Deana from custody and staged a coup at the Maroon Palace, easily overpowering the security there."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nAlbin struggled to keep the country together in your absence.\\n\\nYou felt..."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_59",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nGloria struggled to keep the country together in your absence.\\n\\nYou felt..."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_60",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nPetr struggled to keep the country together in your absence.\\n\\nYou felt..."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_61",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nWith both the vice president and the president gone, the country descended into chaos.\\n\\nYou felt..."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Epilogue_NewPresident_Lileas == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_66",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Epilogue_NewPresident_Frens == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nOver time, you assimilated further into life in Kyrute. \\n\\nYou...\n\n1963|Kyrute"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_126",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nTogether, you and Tuomas captured every detail of your time in office -- the political manoeuvring, the corruption, the toll it took on your family life. You..."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe book, titled 'Suzerain', was an instant best-seller. You were lauded for your unflinching honesty.\\n\\nYou and Petr leveraged your newfound celebrity to become members of the Kyrute elite.\\n\\nThe two of you lived out the rest of your lives surrounded by riches and sycophantic admirers. But you couldn't forget about all the people and places you had lost.\n\n1975|Kyrute"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe book, titled 'Suzerain', was an instant best-seller. You were lauded for your unflinching honesty.\\n\\nYou leveraged your newfound celebrity to become one of Kyrute's most powerful men.\\n\\nYou lived out the rest of your life surrounded by riches and sycophantic admirers. But you couldn't forget about all the people and places you had lost.\n\n1975|Kyrute"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_163",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...worried for her."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n...relieved it was no longer your responsibility."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_165",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Exile_WholeFamilyWithYou == true || BaseGame.Exile_MonicaDeanaWithYou == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nOnce Iosef and his troops realized you were gone, they staged a coup at the Maroon Palace, easily overpowering the security there."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_169",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Exile_WholeFamilyWithYou == true || BaseGame.Exile_MonicaDeanaWithYou == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFor the next few months, you followed the news from Sordland closely.\\n\\nOnce Valken and his troops realized you were gone, they staged a coup at the Maroon Palace, easily overpowering the security there."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_173",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_seaside\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_174",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_coast\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_175",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_coast\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_176",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_red\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_177",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_loss\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_178",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_sordishgoat\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_179",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"pe_blue\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_180",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "PrologueImage(\"\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_182",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1_to_174",
+            "source": "node_1",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e14_to_175",
+            "source": "node_14",
+            "target": "node_175",
+            "type": "step"
+        },
+        {
+            "id": "e15_to_176",
+            "source": "node_15",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e17_to_31",
+            "source": "node_17",
+            "target": "node_31",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_177",
+            "source": "node_38",
+            "target": "node_177",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_178",
+            "source": "node_39",
+            "target": "node_178",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_85",
+            "source": "node_41",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_166",
+            "source": "node_43",
+            "target": "node_166",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_170",
+            "source": "node_44",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_162",
+            "source": "node_58",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_162",
+            "source": "node_59",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e60_to_165",
+            "source": "node_60",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e61_to_162",
+            "source": "node_61",
+            "target": "node_162",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_163",
+            "source": "node_62",
+            "target": "node_163",
+            "type": "step"
+        },
+        {
+            "id": "e66_to_89",
+            "source": "node_66",
+            "target": "node_89",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_91",
+            "source": "node_96",
+            "target": "node_91",
+            "type": "step"
+        },
+        {
+            "id": "e126_to_182",
+            "source": "node_126",
+            "target": "node_182",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_143",
+            "source": "node_159",
+            "target": "node_143",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_143",
+            "source": "node_160",
+            "target": "node_143",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_179",
+            "source": "node_163",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_179",
+            "source": "node_164",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e165_to_179",
+            "source": "node_165",
+            "target": "node_179",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_40",
+            "source": "node_168",
+            "target": "node_40",
+            "type": "step"
+        },
+        {
+            "id": "e169_to_41",
+            "source": "node_169",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_45",
+            "source": "node_172",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e173_to_41",
+            "source": "node_173",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_3",
+            "source": "node_174",
+            "target": "node_3",
+            "type": "step"
+        },
+        {
+            "id": "e175_to_16",
+            "source": "node_175",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e176_to_18",
+            "source": "node_176",
+            "target": "node_18",
+            "type": "step"
+        },
+        {
+            "id": "e177_to_42",
+            "source": "node_177",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_46",
+            "source": "node_178",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e179_to_63",
+            "source": "node_179",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e180_to_94",
+            "source": "node_180",
+            "target": "node_94",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_127",
+            "source": "node_181",
+            "target": "node_127",
+            "type": "step"
+        },
+        {
+            "id": "e182_to_144",
+            "source": "node_182",
+            "target": "node_144",
+            "type": "step"
+        }
+    ]
+}

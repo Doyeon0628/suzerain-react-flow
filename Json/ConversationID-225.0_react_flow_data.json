@@ -1,54 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_3",
+            "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nShe let out a laugh."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_11",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn02_FPnT_Consulate_Condemn == true && BaseGame.Wehlen_JointOperation == false && BaseGame.Decision_Turn09_RumburgPeaceSummit_StartTalks == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n“Am I supposed to be impressed?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "customNode",
-            "data": {
-                "label": "Beatrice Livingston\n\n“Natural gas.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "customNode",
-            "data": {
-                "label": "Beatrice Livingston\n\n“What do you think?”\n\n"
+                "label": "Narrator\n\nI pushed open the door and stepped into the bustling locker room. The players, clad in their FC Anrica jerseys, all stopped what they were doing and turned their heads to look at me.\n\nRemoveConversant(Curtan Leste); RemoveConversant(Gus Manger); WaitForMessage(Continue);"
             },
             "position": {
                 "x": 0,
@@ -56,10 +12,10 @@
             }
         },
         {
-            "id": "node_52",
+            "id": "node_42",
             "type": "customNode",
             "data": {
-                "label": "Beatrice Livingston\n\n“A pity. Really.”\n\n"
+                "label": "BaseGameIsolated.FCAnricaTeamSpeech_Stress <= 5 && BaseGameIsolated.FCAnricaTeamSpeech_Stress >= 1\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -67,10 +23,10 @@
             }
         },
         {
-            "id": "node_62",
+            "id": "node_55",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n“Have a good afternoon, Ms. Livingston.”"
+                "label": "BaseGameIsolated.FCAnrica_Wins = true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -78,351 +34,10 @@
             }
         },
         {
-            "id": "node_68",
+            "id": "node_60",
             "type": "customNode",
             "data": {
-                "label": "Beatrice Livingston\n\n“I am certain that this will be the start of a lasting friendship.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_79",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe line dropped dead.\n\n\n\nRemoveConversant(Beatrice Livingston); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_82",
-            "type": "customNode",
-            "data": {
-                "label": "GameCondition.Turn10_FPnT_QueenPhoneCall = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "customNode",
-            "data": {
-                "label": "Beatrice Livingston\n\n“Forgive me for being so straightforward, but I have to ask.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.RumburgIncident_RumburgKnows == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Rumburg_GivenEstordAndNarbel = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_144",
-            "type": "customNode",
-            "data": {
-                "label": "Beatrice Livingston\n\n“Goodbye, Mr. Rayne.”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_147",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe line dropped dead.\n\n\n\nRemoveConversant(Beatrice Livingston); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_148",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nJust like that, I had thrown away any chance of a peace summit between Rumburg and Sordland.\n\n\n\nRemoveConversant(Beatrice Livingston); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nJust like that, there was about to be peace between Rumburg and Sordland.\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe decision wouldn't make me popular. But it was better than the alternative.\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_158",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.Report_Turn10_Narbel_Surrendered = true; BaseGameSupport.Report_Turn10_Estord_Surrendered = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_160",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.News_Turn10_R_Rumburg_GivenEstordAndNarbel = true; BaseGameSupport.News_Turn10_HP_Rumburg_GivenEstordAndNarbel = true; BaseGameSupport.News_Turn10_LT_Rumburg_GivenEstordAndNarbel = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Enable_Congress == false && BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_164",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.News_Turn10_HP_CongressCancelled = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.News_Turn10_R_CongressCancelled = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_169",
-            "type": "customNode",
-            "data": {
-                "label": "UpdateCountryRelationship(\"Sordland_Country_Rumburg\", \"Friendly\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_170",
-            "type": "customNode",
-            "data": {
-                "label": "PlaySoundEffect(\"PhoneRingPickUp\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_177",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Diplomacy_Energy_ForeignInfluence = true; BaseGame.Situation_Diplomacy_Energy_ForeignManipulation = false; \\nBaseGame.Situation_Diplomacy_Energy_Independence = false; \n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_182",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Gasom_Owneship_ForeignOwned == true && BaseGame.Turn03_EnT_Gasom_OnlyRiziaInvestment == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_185",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Media_Censored == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_189",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Public_Opinion -= 8;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_190",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Diplomacy_Energy_PriceBalanced == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_192",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Situation_Diplomacy_Energy_PriceBalanced == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_194",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Diplomacy_Energy_PriceFluctuation == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_200",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.GovernmentBudget -= 3;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_201",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Law_MediaBias == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_205",
-            "type": "customNode",
-            "data": {
-                "label": "UpdateCountryRelationship(\"Sordland_Country_Rizia\", \"Friendly\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_206",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Diplomacy_Energy_PriceBalanced == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_216",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.GovernmentBudget -= 2;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_217",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.GovernmentBudget -= 3;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_218",
-            "type": "customNode",
-            "data": {
-                "label": "EnableNews(\"G_Rumburg_GivenEstordAndNarbel\");\n\nnan"
+                "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -432,237 +47,27 @@
     ],
     "edges": [
         {
-            "id": "e3_to_147",
-            "source": "node_3",
-            "target": "node_147",
-            "type": "step"
-        },
-        {
-            "id": "e11_to_171",
-            "source": "node_11",
-            "target": "node_171",
-            "type": "step"
-        },
-        {
-            "id": "e14_to_85",
-            "source": "node_14",
-            "target": "node_85",
-            "type": "step"
-        },
-        {
-            "id": "e44_to_39",
-            "source": "node_44",
-            "target": "node_39",
-            "type": "step"
-        },
-        {
-            "id": "e51_to_194",
-            "source": "node_51",
-            "target": "node_194",
-            "type": "step"
-        },
-        {
-            "id": "e52_to_191",
-            "source": "node_52",
-            "target": "node_191",
-            "type": "step"
-        },
-        {
-            "id": "e62_to_207",
-            "source": "node_62",
-            "target": "node_207",
-            "type": "step"
-        },
-        {
-            "id": "e68_to_186",
-            "source": "node_68",
-            "target": "node_186",
-            "type": "step"
-        },
-        {
-            "id": "e79_to_157",
-            "source": "node_79",
-            "target": "node_157",
-            "type": "step"
-        },
-        {
-            "id": "e82_to_157",
-            "source": "node_82",
-            "target": "node_157",
-            "type": "step"
-        },
-        {
-            "id": "e83_to_172",
-            "source": "node_83",
-            "target": "node_172",
-            "type": "step"
-        },
-        {
-            "id": "e93_to_112",
-            "source": "node_93",
-            "target": "node_112",
-            "type": "step"
-        },
-        {
-            "id": "e135_to_146",
-            "source": "node_135",
-            "target": "node_146",
-            "type": "step"
-        },
-        {
-            "id": "e144_to_137",
-            "source": "node_144",
-            "target": "node_137",
-            "type": "step"
-        },
-        {
-            "id": "e147_to_5",
-            "source": "node_147",
-            "target": "node_5",
-            "type": "step"
-        },
-        {
-            "id": "e148_to_183",
-            "source": "node_148",
-            "target": "node_183",
-            "type": "step"
-        },
-        {
-            "id": "e149_to_82",
-            "source": "node_149",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e151_to_140",
-            "source": "node_151",
-            "target": "node_140",
-            "type": "step"
-        },
-        {
-            "id": "e158_to_120",
-            "source": "node_158",
-            "target": "node_120",
-            "type": "step"
-        },
-        {
-            "id": "e160_to_56",
-            "source": "node_160",
-            "target": "node_56",
-            "type": "step"
-        },
-        {
-            "id": "e161_to_219",
-            "source": "node_161",
+            "id": "e2_to_219",
+            "source": "node_2",
             "target": "node_219",
             "type": "step"
         },
         {
-            "id": "e164_to_83",
-            "source": "node_164",
-            "target": "node_83",
+            "id": "e42_to_50",
+            "source": "node_42",
+            "target": "node_50",
             "type": "step"
         },
         {
-            "id": "e168_to_83",
-            "source": "node_168",
-            "target": "node_83",
+            "id": "e55_to_43",
+            "source": "node_55",
+            "target": "node_43",
             "type": "step"
         },
         {
-            "id": "e169_to_83",
-            "source": "node_169",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e170_to_206",
-            "source": "node_170",
-            "target": "node_206",
-            "type": "step"
-        },
-        {
-            "id": "e177_to_170",
-            "source": "node_177",
-            "target": "node_170",
-            "type": "step"
-        },
-        {
-            "id": "e182_to_177",
-            "source": "node_182",
-            "target": "node_177",
-            "type": "step"
-        },
-        {
-            "id": "e185_to_174",
-            "source": "node_185",
-            "target": "node_174",
-            "type": "step"
-        },
-        {
-            "id": "e189_to_154",
-            "source": "node_189",
-            "target": "node_154",
-            "type": "step"
-        },
-        {
-            "id": "e190_to_154",
-            "source": "node_190",
-            "target": "node_154",
-            "type": "step"
-        },
-        {
-            "id": "e192_to_51",
-            "source": "node_192",
-            "target": "node_51",
-            "type": "step"
-        },
-        {
-            "id": "e194_to_55",
-            "source": "node_194",
-            "target": "node_55",
-            "type": "step"
-        },
-        {
-            "id": "e200_to_55",
-            "source": "node_200",
-            "target": "node_55",
-            "type": "step"
-        },
-        {
-            "id": "e201_to_55",
-            "source": "node_201",
-            "target": "node_55",
-            "type": "step"
-        },
-        {
-            "id": "e205_to_154",
-            "source": "node_205",
-            "target": "node_154",
-            "type": "step"
-        },
-        {
-            "id": "e206_to_150",
-            "source": "node_206",
-            "target": "node_150",
-            "type": "step"
-        },
-        {
-            "id": "e216_to_55",
-            "source": "node_216",
-            "target": "node_55",
-            "type": "step"
-        },
-        {
-            "id": "e217_to_55",
-            "source": "node_217",
-            "target": "node_55",
-            "type": "step"
-        },
-        {
-            "id": "e218_to_55",
-            "source": "node_218",
-            "target": "node_55",
+            "id": "e60_to_2",
+            "source": "node_60",
+            "target": "node_2",
             "type": "step"
         }
     ]

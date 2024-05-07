@@ -694,17 +694,6 @@
             }
         },
         {
-            "id": "node_251",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I can't agree to reverting the Energy Protection Act. We need foreign capital.\"\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
             "id": "node_252",
             "type": "customNode",
             "data": {
@@ -854,7 +843,7 @@
                 "label": "Gloria Tory\n\n\"You know what? If you're willing to do that, we'll have a deal.\""
             },
             "position": {
-                "x": 270,
+                "x": 0,
                 "y": 1000
             }
         },
@@ -1019,7 +1008,7 @@
                 "label": "Jump to: [Gloria Tory: \"\"You may be the president of this r...\"]\n\nnan"
             },
             "position": {
-                "x": 270,
+                "x": 0,
                 "y": 1250
             }
         },
@@ -4063,44 +4052,11 @@
             "id": "node_797",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Confrontation_Hub_CantAgreeEjallsArrest == false\n\nnan"
+                "label": "START\n\nnan"
             },
             "position": {
                 "x": 540,
                 "y": 5500
-            }
-        },
-        {
-            "id": "node_798",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Confrontation_Hub_CantAgreeEjallsArrest == false\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_799",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Confrontation_Hub_CantAgreeEjallsArrest == false)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_801",
-            "type": "customNode",
-            "data": {
-                "label": "START\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1750
             }
         }
     ],
@@ -4481,12 +4437,6 @@
             "id": "e250_to_269",
             "source": "node_250",
             "target": "node_269",
-            "type": "step"
-        },
-        {
-            "id": "e251_to_801",
-            "source": "node_251",
-            "target": "node_801",
             "type": "step"
         },
         {
@@ -6323,24 +6273,6 @@
             "id": "e797_to_315",
             "source": "node_797",
             "target": "node_315",
-            "type": "step"
-        },
-        {
-            "id": "e798_to_799",
-            "source": "node_798",
-            "target": "node_799",
-            "type": "step"
-        },
-        {
-            "id": "e799_to_251",
-            "source": "node_799",
-            "target": "node_251",
-            "type": "step"
-        },
-        {
-            "id": "e801_to_262",
-            "source": "node_801",
-            "target": "node_262",
             "type": "step"
         }
     ]

@@ -1,54 +1,32 @@
 {
     "nodes": [
         {
-            "id": "node_5",
-            "type": "customNode",
-            "data": {
-                "label": "Moderator\n\n\"Very interesting.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "customNode",
-            "data": {
-                "label": "Kesaro Kibener\n\n\"Each Sordish citizen wants to contribute and work for their country. There is no need for such programs, the only necessity is opportunity.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
             "id": "node_7",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Just kidding. We have too many problems to solve here at home before we can think of entering the space race.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_9",
-            "type": "customNode",
-            "data": {
-                "label": "Mansoun Leke\n\n\"I'm happy some of our parties' so-called radical ideas are beginning to filter into the political mainstream.\""
+                "label": "Mansoun Leke\n\n\"This simply proves the point I was about to make.\""
             },
             "position": {
                 "x": 0,
                 "y": 0
+            }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Law_Decree_Stronger == true || BaseGame.Policy_Law_Impeachment_Removed == true || BaseGame.Policy_Law_Veto_Loophole == true || BaseGame.Policy_Law_Threshold_15 == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 1000
             }
         },
         {
             "id": "node_12",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGameIsolated.Debate_Enable_FrensRicter == true)\n\nnan"
+                "label": "BaseGame.Policy_Law_Decree_Weaker == true || BaseGame.Policy_Law_Decree_Removed == true || BaseGame.Policy_Law_Threshold_3 == true || BaseGame.Policy_Law_Threshold_8 == true || BaseGame.Policy_Law_TermLimits_2 == true || BaseGame.Policy_Law_Honorary_Abolished == true || BaseGame.Archetype_DemocraticRayne == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -56,10 +34,10 @@
             }
         },
         {
-            "id": "node_13",
+            "id": "node_15",
             "type": "customNode",
             "data": {
-                "label": "(BaseGame.Turn04_InT_RailwayIssue_Solved == false && BaseGame.Turn01_InT_Investment_Railway == true) || BaseGame.Enable_LateOpenRailway == true\n\nnan"
+                "label": "BaseGame.Decision_Turn10_Term2Focus_Education == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -67,10 +45,32 @@
             }
         },
         {
-            "id": "node_23",
+            "id": "node_21",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Reform_Alliance_NFP == true)\n\nnan"
+                "label": "Manoly Suheil\n\n\"You already know what I'm going to say.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"Sordland has been denied change for too long, and President Rayne's promised reforms turned out to be a giant step in the wrong direction.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"President Rayne has pointed us in the right direction, but only the PFJP can transform Sordland into a true democracy.\""
             },
             "position": {
                 "x": 0,
@@ -81,18 +81,18 @@
             "id": "node_30",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Reform_Alliance_PFJP == true\n\nnan"
+                "label": "BaseGame.Decision_Turn10_Term2Focus_Military == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 250
             }
         },
         {
-            "id": "node_35",
+            "id": "node_32",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGameIsolated.Debate_Enable_LileasGraf == true)\n\nnan"
+                "label": "!(BaseGame.Decision_Turn10_Term2Focus_Military == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -100,62 +100,51 @@
             }
         },
         {
-            "id": "node_38",
+            "id": "node_33",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Citizens will still work. My plan will only ensure nobody has to go homeless.\""
+                "label": "Manoly Suheil\n\n\"President Rayne's sham 'emergency' has made it abundantly clear how much Sordland needs true democracy.\""
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
-            "id": "node_39",
+            "id": "node_40",
             "type": "customNode",
             "data": {
-                "label": "Kesaro Kibener\n\n\"As your alliance partner, I pledge the NFP will also strive to enhance our nuclear capabilities.\""
+                "label": "Player\n\n\"Recent events have shown just how unprepared our military is in the face of a potential foreign invasion. We will no longer be weak.\""
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 0
             }
         },
         {
             "id": "node_41",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"We will grant a basic living wage to every man and woman in Sordland. Unemployed or otherwise.\""
+                "label": "Manoly Suheil\n\n\"My very presence at this debate is proof of the lengths this man will go to cling to power. Sordland doesn't need another leader like that.\""
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
-            "id": "node_42",
+            "id": "node_45",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"I want Sordland to put a man on the moon.\""
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
             },
             "position": {
-                "x": 270,
+                "x": 0,
                 "y": 250
             }
         },
         {
             "id": "node_47",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_52",
             "type": "customNode",
             "data": {
                 "label": "!(BaseGameIsolated.Debate_Enable_KesaroKibener == true)\n\nnan"
@@ -166,10 +155,10 @@
             }
         },
         {
-            "id": "node_53",
+            "id": "node_51",
             "type": "customNode",
             "data": {
-                "label": "Frens Ricter\n\n\"I agree, but you've already proven yourself incapable of managing basic infrastructure projects.\""
+                "label": "Narrator\n\nRemus raised his fist."
             },
             "position": {
                 "x": 0,
@@ -177,10 +166,10 @@
             }
         },
         {
-            "id": "node_54",
+            "id": "node_57",
             "type": "customNode",
             "data": {
-                "label": "Frens Ricter\n\n\"You're both mad. Disincentivizing work will crater this country's economy.\""
+                "label": "!(BaseGame.Decision_Turn10_Term2Focus_Security == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -188,10 +177,10 @@
             }
         },
         {
-            "id": "node_55",
+            "id": "node_58",
             "type": "customNode",
             "data": {
-                "label": "Manoly Suheil\n\n\"There are so many problems still to be solved in Sordland. Space is just a flashy distraction.\""
+                "label": "Player\n\n\"What are you insinuating? Ricter's death had nothing to do with me.\""
             },
             "position": {
                 "x": 0,
@@ -199,10 +188,10 @@
             }
         },
         {
-            "id": "node_56",
+            "id": "node_62",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
+                "label": "Player_Italic\n\nI clenched my jaw and stayed silent.\n\nDon't interrupt."
             },
             "position": {
                 "x": 0,
@@ -210,10 +199,10 @@
             }
         },
         {
-            "id": "node_60",
+            "id": "node_68",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron == true\n\nnan"
+                "label": "BaseGame.Media_Censored == true || BaseGame.Media_SordlandToday_Bias == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -221,54 +210,10 @@
             }
         },
         {
-            "id": "node_63",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_ManolySuheil == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_69",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGameIsolated.Debate_Enable_ManolySuheil == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
             "id": "node_74",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_ManolySuheil == true\n\nnan"
+                "label": "Moderator\n\n\"Please let the other candidates speak, Mr. President.\""
             },
             "position": {
                 "x": 0,
@@ -279,7 +224,7 @@
             "id": "node_76",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGameIsolated.Debate_Enable_ManolySuheil == true)\n\nnan"
+                "label": "Moderator\n\n\"Okay. Let's move on.\""
             },
             "position": {
                 "x": 0,
@@ -290,18 +235,7 @@
             "id": "node_78",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nThe candidates around me gasped -- except for Remus, who looked intrigued."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "customNode",
-            "data": {
-                "label": "Frens Ricter\n\n\"You're insane. If we even attempt this, it's only a matter of time before Sordland becomes a crater.\""
+                "label": "Moderator\n\n\"Ms. Suheil, the circumstances of Mr. Ricter's detainment are well known. Don't promote conspiracy theories.\""
             },
             "position": {
                 "x": 0,
@@ -312,7 +246,29 @@
             "id": "node_81",
             "type": "customNode",
             "data": {
-                "label": "Manoly Suheil\n\n\"Perhaps, but you've already proven yourself incapable of managing basic infrastructure projects.\""
+                "label": "!(BaseGameIsolated.Debate_Enable_MansounLeke == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"This country is under attack from undesirable elements who would see it torn apart from within. They deserve nothing but expulsion from our services.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"Ye-\""
             },
             "position": {
                 "x": 0,
@@ -323,18 +279,7 @@
             "id": "node_84",
             "type": "customNode",
             "data": {
-                "label": "Manoly Suheil\n\n\"You're insane. If we even attempt this, it's only a matter of time before Sordland becomes a crater.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"No, that release was sent out in error. I'm keeping my plans modest.\""
+                "label": "Narrator\n\nHis face calm, he turned directly to the camera."
             },
             "position": {
                 "x": 0,
@@ -342,46 +287,13 @@
             }
         },
         {
-            "id": "node_87",
+            "id": "node_85",
             "type": "customNode",
             "data": {
-                "label": "Moderator\n\n\"Would you like to tell us what those are?\""
+                "label": "Denis Stahler\n\n\"And of course, the number-one mechanism of oppression is capitalism.\""
             },
             "position": {
                 "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"You'll find out once I get re-elected.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_90",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"With nuclear war an increasing possibility, survival on other planets is something we must consider.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"If we want to be taken seriously by the superpowers, this is the only way.\""
-            },
-            "position": {
-                "x": 270,
                 "y": 250
             }
         },
@@ -389,18 +301,40 @@
             "id": "node_92",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"A space program would create thousands of jobs while boosting our national morale.\""
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 0
             }
         },
         {
-            "id": "node_99",
+            "id": "node_94",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Only via mutually assured destruction can we achieve peace with our enemies.\""
+                "label": "!(BaseGameIsolated.Debate_Enable_LileasGraf == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_97",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Reform_Court_Success == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"Governing together, our parties will use the new reforms as a launchpad for new laws that ensure representation for every single Sordish citizen.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -411,7 +345,29 @@
             "id": "node_100",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"A nuclear program would create thousands of jobs and boost national morale.\""
+                "label": "Frens Ricter\n\n\"I will work hard to pass the constitutional reforms that he could not.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_102",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_109",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"My constitutional reforms will succeed where his failed and give power back to the people.\"\n\n"
             },
             "position": {
                 "x": 0,
@@ -419,18 +375,216 @@
             }
         },
         {
-            "id": "node_101",
+            "id": "node_110",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_ManolySuheil== true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_112",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_ManolySuheil== true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Polio is continuing to ravage our country. Ending the epidemic is of the utmost importance.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_115",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"A strong military is the backbone of Sordland. It's as simple as that.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Without an educated populace, Sordland is doomed to be stuck in the past. It's as simple as that.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_118",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nKesaro cleared his throat."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_120",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Devoting more resources towards education already paid enormous dividends during my first term. Why stop now?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_121",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Budget constraints during my first term meant Sordland's education system went underfunded. I regret that now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_122",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"As president, I would crack down on the enemies of the state who are threatening to tear this country apart.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Unrest_BFF_Deal_Signed == true || BaseGame.Unrest_BFF_Deal_Promised == true || BaseGame.Bludish_Opinion > 0 || BaseGame.Bill_Turn05_ReligiousHarmony_Vetoed == true || BaseGame.Bill_Turn07_LanguageBill_Vetoed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"Sordland is not free as long as its workers are still oppressed. Only once we have completely given the means of production back to the people can we begin to move this country forward.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDenis Stahler leaned forward in his chair."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_137",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"Good. One less terrorist on the streets.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"Separatists, militants, foreign agents, criminal cartels -- we shall show them all the meaning of Sordish justice.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Education_Budget_Decrease == true || BaseGame.Turn03_EnT_Education_Budget_Maintain == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_145",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn03_EnT_Education_Budget_Decrease == true || BaseGame.Turn03_EnT_Education_Budget_Maintain == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_148",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Situation_Welfare_EpidemicSpreads == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nMansoun Leke leaned forward in his chair."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_150",
             "type": "customNode",
             "data": {
                 "label": "BaseGameIsolated.Debate_Enable_MansounLeke == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 250
             }
         },
         {
-            "id": "node_103",
+            "id": "node_152",
             "type": "customNode",
             "data": {
                 "label": "!(BaseGameIsolated.Debate_Enable_MansounLeke == true)\n\nnan"
@@ -441,54 +595,10 @@
             }
         },
         {
-            "id": "node_108",
+            "id": "node_153",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_SpacePromise = true\n\nnan"
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_NuclearPromise = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_BasicIncomePromise = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Welfare_HousingAssistance== true\n\nnan"
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Situation_Welfare_UnemploymentWage == true\n\nnan"
+                "label": "Mansoun Leke\n\n\"The way you showed Fetih Ejall? They say he might never walk again.\""
             },
             "position": {
                 "x": 0,
@@ -496,10 +606,10 @@
             }
         },
         {
-            "id": "node_120",
+            "id": "node_156",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"My administration is already providing housing assistance to low-income citizens. This is just a logical extension of that policy.\"\n\n\"My administration is already providing housing assistance to low-income citizens. This is just a logical extension of that policy"
+                "label": "!(BaseGame.Turn03_EnT_Military_Budget_Decrease == true || BaseGame.Turn03_EnT_Military_Budget_Maintain == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -507,10 +617,10 @@
             }
         },
         {
-            "id": "node_121",
+            "id": "node_157",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Reform_Alliance_NFP == true\n\nnan"
+                "label": "Player\n\n\"Mansoun, don't speak out of turn.\""
             },
             "position": {
                 "x": 0,
@@ -518,7 +628,73 @@
             }
         },
         {
-            "id": "node_126",
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true || BaseGame.Turn03_EnT_LawEnforcement_Budget_Maintain == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn03_EnT_LawEnforcement_Budget_Decrease == true || BaseGame.Turn03_EnT_LawEnforcement_Budget_Maintain == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"What happened to Fetih is a shame. I would say that caution is advised to all who tread a path against our country.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_167",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Unrest_Peaceful_Happened == true || BaseGame.Unrest_Violent_Happened == true || BaseGame.Unrest_BFF_Happened == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_169",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_173",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"The outbreak would have ended on its own without you pumping Sordish citizens full of chemicals. It is the reality of natural selection.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_174",
             "type": "customNode",
             "data": {
                 "label": "BaseGameIsolated.Debate_Enable_RemusHolstron == true\n\nnan"
@@ -529,10 +705,10 @@
             }
         },
         {
-            "id": "node_128",
+            "id": "node_177",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGameIsolated.Debate_Enable_RemusHolstron == true)\n\nnan"
+                "label": "Kesaro Kibener\n\n\"The outbreak is a shame and my condolences to all who lost relatives to it. We hope to see a quicker end a better management.\""
             },
             "position": {
                 "x": 0,
@@ -540,10 +716,21 @@
             }
         },
         {
-            "id": "node_130",
+            "id": "node_178",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"All I have in mind is Sordish people and Sordish people alone.\""
+                "label": "Player\n\n\"Budget constraints during my first term meant I couldn't devote as many resources to health care as I had planned. I regret that now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_180",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Budget constraints during my first term meant I couldn't devote as many resources towards law enforcement as I had planned. I regret that now.\"\n\n\"Budget constraints during my first term meant I couldn't devote enough resources to this vital area. I regret that now.\""
             },
             "position": {
                 "x": 0,
@@ -551,7 +738,634 @@
             }
         },
         {
-            "id": "node_131",
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Devoting more resources towards law enforcement already paid enormous dividends during my first term. Why stop now?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_182",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Order_Nationwide_Revolt == true || BaseGame.Situation_Order_Nationwide_Protests == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_186",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf\n\n\"Everything this man knows about national security, he learned from me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_187",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Budget constraints during my first term meant the military went underfunded. I regret that now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_191",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Rumburg_PeaceSummit == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_199",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"That money would be better spent helping Sordland's people.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "Manoly Suheil\n\n\"That money would be better spent helping Sordland's people.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Welfare_HealthCrisis == true \n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_204",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_208",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_ManolySuheil== true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_212",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"You allowed Sordland to descend into a health crisis. Funding health care is useless unless the money is well allocated.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_213",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_RY == true || BaseGame.Security_Unrest_Police == true || BaseGame.Reform_EmergencyDecree_DetentionWithoutTrial == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_KesaroKibener == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_238",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Media_Censored == true || BaseGame.Media_SordlandToday_Bias == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_244",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Welfare_FailedEducationReform == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_251",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_ManolySuheil== true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_255",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"You had a chance to reform Sordland's education system, but you left it in shambles.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_256",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Welfare_EvolutionNotMandatory == false || BaseGame.Situation_Welfare_GenderEqualityInEducation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_259",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_268",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf\n\n\"Give this man a chance and he'll continue to warp our children's minds with his 'progressive' education reforms.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_269",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"Give this man a chance and he'll continue to warp your children's minds 'progressive' reforms.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_270",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"Give this man a chance and he'll continue to warp your children's minds with his anti-nationalist 'progressive' reforms.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_271",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Welfare_RelocationOfTeachersAndDoctors == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Situation_Welfare_RelocationOfTeachersAndDoctors == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_PFJP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_276",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Alliance_PFJP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_278",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Alliance_PFJP == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"The moment I take office, I will bring an end to his terror and push for the reforms the people have demanded for so long.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Law_ExcellentWomenRights == true || BaseGame.Situation_Law_ExpandedHumanRights == true || BaseGame.Situation_Law_BludishReconciliation == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"While President Rayne has made great strides in dismantling the mechanisms of oppression in Sordland, the hateful attitudes that built them are still very much present. We will never be free as long as minorities and women are still seen as second-class citizens.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_287",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn04_PSnW_Education_Privatization == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_291",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"Unless you eradicate Soll's backwards education system, our children are doomed.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_292",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn04_PSnW_Education_Privatization == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_295",
+            "type": "customNode",
+            "data": {
+                "label": "Lileas Graf\n\n\"Not to mention that he's putting their future in the hands of private corporations...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_296",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"And then tried to make up for it by forcing precious teachers to uproot their lives...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_297",
+            "type": "customNode",
+            "data": {
+                "label": "Manoly Suheil\n\n\"And then tried to make up for it by forcing precious teachers to uproot their lives...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_298",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Welfare_RelocationOfTeachersAndDoctors == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_301",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Welfare_RelocationOfTeachersAndDoctors == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_308",
+            "type": "customNode",
+            "data": {
+                "label": "Manoly Suheil\n\n\"There's preparedness, and then there's forcing our precious doctors to uproot their lives...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_309",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"On this topic, our parties are in absolute agreement.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_313",
+            "type": "customNode",
+            "data": {
+                "label": "Manoly Suheil\n\n\"On this topic, our parties are in absolute agreement.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_316",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_KesaroKibener == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_317",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"If you truly believed that, you would have had the populace vaccinated. As in every other developed country.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_318",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_ManolySuheil == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_ManolySuheil == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"On this topic, our parties are in absolute agreement.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_326",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Autocrat_Path == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_330",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_333",
+            "type": "customNode",
+            "data": {
+                "label": "Remus Holstron\n\n\"The outbreak will end on its own. It's natural selection. The strongest people with healthy immune systems will survive.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_334",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_EmergencyDecree_Banned_Bluds == false && BaseGame.Arrest_FetihEjall == false && BaseGame.Reform_Autocrat_Path == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_336",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_EmergencyDecree_Banned_Bluds == false && BaseGame.Arrest_FetihEjall == false && BaseGame.Reform_Autocrat_Path == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_343",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_346",
+            "type": "customNode",
+            "data": {
+                "label": "Kesaro Kibener\n\n\"Mr. Ejall was arrested for his crimes against the state, Mr. Leke. I would say that caution is advised to all who tread a path against our country's justice system.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_348",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -564,309 +1378,753 @@
     ],
     "edges": [
         {
-            "id": "e5_to_90",
-            "source": "node_5",
-            "target": "node_90",
-            "type": "step"
-        },
-        {
-            "id": "e6_to_2",
-            "source": "node_6",
-            "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e7_to_39",
+            "id": "e7_to_111",
             "source": "node_7",
-            "target": "node_39",
-            "type": "step"
-        },
-        {
-            "id": "e9_to_115",
-            "source": "node_9",
-            "target": "node_115",
-            "type": "step"
-        },
-        {
-            "id": "e12_to_60",
-            "source": "node_12",
-            "target": "node_60",
-            "type": "step"
-        },
-        {
-            "id": "e13_to_44",
-            "source": "node_13",
-            "target": "node_44",
-            "type": "step"
-        },
-        {
-            "id": "e23_to_40",
-            "source": "node_23",
-            "target": "node_40",
-            "type": "step"
-        },
-        {
-            "id": "e30_to_6",
-            "source": "node_30",
-            "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e35_to_84",
-            "source": "node_35",
-            "target": "node_84",
-            "type": "step"
-        },
-        {
-            "id": "e38_to_107",
-            "source": "node_38",
-            "target": "node_107",
-            "type": "step"
-        },
-        {
-            "id": "e39_to_6",
-            "source": "node_39",
-            "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e41_to_110",
-            "source": "node_41",
-            "target": "node_110",
-            "type": "step"
-        },
-        {
-            "id": "e42_to_111",
-            "source": "node_42",
             "target": "node_111",
             "type": "step"
         },
         {
-            "id": "e47_to_107",
-            "source": "node_47",
-            "target": "node_107",
+            "id": "e8_to_284",
+            "source": "node_8",
+            "target": "node_284",
             "type": "step"
         },
         {
-            "id": "e52_to_7",
-            "source": "node_52",
-            "target": "node_7",
+            "id": "e12_to_245",
+            "source": "node_12",
+            "target": "node_245",
             "type": "step"
         },
         {
-            "id": "e53_to_127",
-            "source": "node_53",
-            "target": "node_127",
+            "id": "e15_to_327",
+            "source": "node_15",
+            "target": "node_327",
             "type": "step"
         },
         {
-            "id": "e54_to_31",
-            "source": "node_54",
-            "target": "node_31",
+            "id": "e21_to_90",
+            "source": "node_21",
+            "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e55_to_117",
-            "source": "node_55",
+            "id": "e26_to_144",
+            "source": "node_26",
+            "target": "node_144",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_106",
+            "source": "node_27",
+            "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e30_to_283",
+            "source": "node_30",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e32_to_100",
+            "source": "node_32",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_56",
+            "source": "node_33",
+            "target": "node_56",
+            "type": "step"
+        },
+        {
+            "id": "e40_to_16",
+            "source": "node_40",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_190",
+            "source": "node_41",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e45_to_117",
+            "source": "node_45",
             "target": "node_117",
             "type": "step"
         },
         {
-            "id": "e56_to_30",
-            "source": "node_56",
-            "target": "node_30",
+            "id": "e47_to_119",
+            "source": "node_47",
+            "target": "node_119",
             "type": "step"
         },
         {
-            "id": "e60_to_92",
-            "source": "node_60",
-            "target": "node_92",
+            "id": "e51_to_80",
+            "source": "node_51",
+            "target": "node_80",
             "type": "step"
         },
         {
-            "id": "e63_to_95",
-            "source": "node_63",
-            "target": "node_95",
+            "id": "e57_to_134",
+            "source": "node_57",
+            "target": "node_134",
             "type": "step"
         },
         {
-            "id": "e67_to_8",
-            "source": "node_67",
+            "id": "e58_to_143",
+            "source": "node_58",
+            "target": "node_143",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_239",
+            "source": "node_62",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_239",
+            "source": "node_68",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_29",
+            "source": "node_74",
+            "target": "node_29",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_239",
+            "source": "node_76",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e78_to_46",
+            "source": "node_78",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e81_to_150",
+            "source": "node_81",
+            "target": "node_150",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_136",
+            "source": "node_82",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_128",
+            "source": "node_83",
+            "target": "node_128",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_77",
+            "source": "node_84",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e85_to_8",
+            "source": "node_85",
             "target": "node_8",
             "type": "step"
         },
         {
-            "id": "e69_to_85",
-            "source": "node_69",
-            "target": "node_85",
+            "id": "e92_to_315",
+            "source": "node_92",
+            "target": "node_315",
             "type": "step"
         },
         {
-            "id": "e70_to_94",
-            "source": "node_70",
-            "target": "node_94",
+            "id": "e94_to_68",
+            "source": "node_94",
+            "target": "node_68",
             "type": "step"
         },
         {
-            "id": "e74_to_109",
-            "source": "node_74",
-            "target": "node_109",
+            "id": "e97_to_275",
+            "source": "node_97",
+            "target": "node_275",
             "type": "step"
         },
         {
-            "id": "e76_to_38",
-            "source": "node_76",
-            "target": "node_38",
+            "id": "e98_to_279",
+            "source": "node_98",
+            "target": "node_279",
             "type": "step"
         },
         {
-            "id": "e78_to_10",
-            "source": "node_78",
-            "target": "node_10",
+            "id": "e100_to_155",
+            "source": "node_100",
+            "target": "node_155",
             "type": "step"
         },
         {
-            "id": "e80_to_22",
-            "source": "node_80",
+            "id": "e102_to_8",
+            "source": "node_102",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e109_to_46",
+            "source": "node_109",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e110_to_46",
+            "source": "node_110",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e112_to_22",
+            "source": "node_112",
             "target": "node_22",
             "type": "step"
         },
         {
-            "id": "e81_to_31",
-            "source": "node_81",
-            "target": "node_31",
+            "id": "e113_to_46",
+            "source": "node_113",
+            "target": "node_46",
             "type": "step"
         },
         {
-            "id": "e84_to_30",
-            "source": "node_84",
-            "target": "node_30",
+            "id": "e115_to_103",
+            "source": "node_115",
+            "target": "node_103",
             "type": "step"
         },
         {
-            "id": "e86_to_30",
-            "source": "node_86",
-            "target": "node_30",
+            "id": "e117_to_8",
+            "source": "node_117",
+            "target": "node_8",
             "type": "step"
         },
         {
-            "id": "e87_to_17",
-            "source": "node_87",
-            "target": "node_17",
+            "id": "e118_to_245",
+            "source": "node_118",
+            "target": "node_245",
             "type": "step"
         },
         {
-            "id": "e88_to_43",
-            "source": "node_88",
-            "target": "node_43",
+            "id": "e120_to_86",
+            "source": "node_120",
+            "target": "node_86",
             "type": "step"
         },
         {
-            "id": "e90_to_30",
-            "source": "node_90",
-            "target": "node_30",
+            "id": "e121_to_245",
+            "source": "node_121",
+            "target": "node_245",
             "type": "step"
         },
         {
-            "id": "e91_to_6",
-            "source": "node_91",
-            "target": "node_6",
+            "id": "e122_to_245",
+            "source": "node_122",
+            "target": "node_245",
             "type": "step"
         },
         {
-            "id": "e92_to_6",
-            "source": "node_92",
-            "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e99_to_71",
-            "source": "node_99",
-            "target": "node_71",
-            "type": "step"
-        },
-        {
-            "id": "e100_to_6",
-            "source": "node_100",
-            "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e101_to_6",
-            "source": "node_101",
-            "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e103_to_78",
-            "source": "node_103",
-            "target": "node_78",
-            "type": "step"
-        },
-        {
-            "id": "e108_to_6",
-            "source": "node_108",
-            "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e109_to_14",
-            "source": "node_109",
-            "target": "node_14",
-            "type": "step"
-        },
-        {
-            "id": "e110_to_64",
-            "source": "node_110",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e111_to_102",
-            "source": "node_111",
+            "id": "e124_to_102",
+            "source": "node_124",
             "target": "node_102",
             "type": "step"
         },
         {
-            "id": "e116_to_43",
-            "source": "node_116",
-            "target": "node_43",
+            "id": "e134_to_159",
+            "source": "node_134",
+            "target": "node_159",
             "type": "step"
         },
         {
-            "id": "e120_to_6",
-            "source": "node_120",
-            "target": "node_6",
+            "id": "e135_to_77",
+            "source": "node_135",
+            "target": "node_77",
             "type": "step"
         },
         {
-            "id": "e121_to_6",
-            "source": "node_121",
-            "target": "node_6",
+            "id": "e137_to_85",
+            "source": "node_137",
+            "target": "node_85",
             "type": "step"
         },
         {
-            "id": "e126_to_6",
-            "source": "node_126",
-            "target": "node_6",
+            "id": "e138_to_124",
+            "source": "node_138",
+            "target": "node_124",
             "type": "step"
         },
         {
-            "id": "e128_to_47",
-            "source": "node_128",
-            "target": "node_47",
+            "id": "e143_to_87",
+            "source": "node_143",
+            "target": "node_87",
             "type": "step"
         },
         {
-            "id": "e130_to_107",
-            "source": "node_130",
-            "target": "node_107",
+            "id": "e145_to_122",
+            "source": "node_145",
+            "target": "node_122",
             "type": "step"
         },
         {
-            "id": "e131_to_6",
-            "source": "node_131",
-            "target": "node_6",
+            "id": "e148_to_114",
+            "source": "node_148",
+            "target": "node_114",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_64",
+            "source": "node_149",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e150_to_284",
+            "source": "node_150",
+            "target": "node_284",
+            "type": "step"
+        },
+        {
+            "id": "e152_to_335",
+            "source": "node_152",
+            "target": "node_335",
+            "type": "step"
+        },
+        {
+            "id": "e153_to_136",
+            "source": "node_153",
+            "target": "node_136",
+            "type": "step"
+        },
+        {
+            "id": "e156_to_188",
+            "source": "node_156",
+            "target": "node_188",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_189",
+            "source": "node_157",
+            "target": "node_189",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_45",
+            "source": "node_158",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_181",
+            "source": "node_160",
+            "target": "node_181",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_138",
+            "source": "node_164",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e167_to_115",
+            "source": "node_167",
+            "target": "node_115",
+            "type": "step"
+        },
+        {
+            "id": "e169_to_103",
+            "source": "node_169",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e173_to_239",
+            "source": "node_173",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e174_to_239",
+            "source": "node_174",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e177_to_302",
+            "source": "node_177",
+            "target": "node_302",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_239",
+            "source": "node_178",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e180_to_202",
+            "source": "node_180",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_103",
+            "source": "node_181",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e182_to_103",
+            "source": "node_182",
+            "target": "node_103",
+            "type": "step"
+        },
+        {
+            "id": "e186_to_239",
+            "source": "node_186",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e187_to_239",
+            "source": "node_187",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e191_to_228",
+            "source": "node_191",
+            "target": "node_228",
+            "type": "step"
+        },
+        {
+            "id": "e193_to_239",
+            "source": "node_193",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e199_to_227",
+            "source": "node_199",
+            "target": "node_227",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_239",
+            "source": "node_200",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_239",
+            "source": "node_201",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e204_to_244",
+            "source": "node_204",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e208_to_239",
+            "source": "node_208",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e212_to_239",
+            "source": "node_212",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e213_to_239",
+            "source": "node_213",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_193",
+            "source": "node_229",
+            "target": "node_193",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_194",
+            "source": "node_238",
+            "target": "node_194",
+            "type": "step"
+        },
+        {
+            "id": "e244_to_2",
+            "source": "node_244",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e251_to_272",
+            "source": "node_251",
+            "target": "node_272",
+            "type": "step"
+        },
+        {
+            "id": "e255_to_299",
+            "source": "node_255",
+            "target": "node_299",
+            "type": "step"
+        },
+        {
+            "id": "e256_to_239",
+            "source": "node_256",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e259_to_288",
+            "source": "node_259",
+            "target": "node_288",
+            "type": "step"
+        },
+        {
+            "id": "e268_to_288",
+            "source": "node_268",
+            "target": "node_288",
+            "type": "step"
+        },
+        {
+            "id": "e269_to_293",
+            "source": "node_269",
+            "target": "node_293",
+            "type": "step"
+        },
+        {
+            "id": "e270_to_239",
+            "source": "node_270",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_239",
+            "source": "node_271",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_297",
+            "source": "node_273",
+            "target": "node_297",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_239",
+            "source": "node_274",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e276_to_99",
+            "source": "node_276",
+            "target": "node_99",
+            "type": "step"
+        },
+        {
+            "id": "e278_to_46",
+            "source": "node_278",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_46",
+            "source": "node_282",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_46",
+            "source": "node_283",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_120",
+            "source": "node_286",
+            "target": "node_120",
+            "type": "step"
+        },
+        {
+            "id": "e287_to_86",
+            "source": "node_287",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e291_to_239",
+            "source": "node_291",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e292_to_239",
+            "source": "node_292",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e295_to_239",
+            "source": "node_295",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e296_to_239",
+            "source": "node_296",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e297_to_239",
+            "source": "node_297",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e298_to_239",
+            "source": "node_298",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e301_to_239",
+            "source": "node_301",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e308_to_239",
+            "source": "node_308",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e309_to_239",
+            "source": "node_309",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_322",
+            "source": "node_312",
+            "target": "node_322",
+            "type": "step"
+        },
+        {
+            "id": "e313_to_244",
+            "source": "node_313",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_244",
+            "source": "node_314",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e316_to_178",
+            "source": "node_316",
+            "target": "node_178",
+            "type": "step"
+        },
+        {
+            "id": "e317_to_331",
+            "source": "node_317",
+            "target": "node_331",
+            "type": "step"
+        },
+        {
+            "id": "e318_to_239",
+            "source": "node_318",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_314",
+            "source": "node_323",
+            "target": "node_314",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_239",
+            "source": "node_325",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e326_to_239",
+            "source": "node_326",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_30",
+            "source": "node_328",
+            "target": "node_30",
+            "type": "step"
+        },
+        {
+            "id": "e330_to_46",
+            "source": "node_330",
+            "target": "node_46",
+            "type": "step"
+        },
+        {
+            "id": "e333_to_318",
+            "source": "node_333",
+            "target": "node_318",
+            "type": "step"
+        },
+        {
+            "id": "e334_to_239",
+            "source": "node_334",
+            "target": "node_239",
+            "type": "step"
+        },
+        {
+            "id": "e336_to_154",
+            "source": "node_336",
+            "target": "node_154",
+            "type": "step"
+        },
+        {
+            "id": "e343_to_8",
+            "source": "node_343",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e346_to_343",
+            "source": "node_346",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e348_to_8",
+            "source": "node_348",
+            "target": "node_8",
             "type": "step"
         }
     ]

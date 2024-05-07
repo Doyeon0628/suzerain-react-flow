@@ -4,84 +4,40 @@
             "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "Lucian Galade\n\n\"Unfortunately, sir, the Reformists appear to be as clean as a whistle. Earlier rumors about connections to oligarchs turned out to be just that: rumors.\""
+                "label": "Lucian Galade\n\n\"It concerns the Bernard Circas assassination.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes. The sooner the better.\""
             },
             "position": {
                 "x": 0,
                 "y": 250
-            }
-        },
-        {
-            "id": "node_12",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I certainly hope so.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn05_SnO_LE_Policy_SecretStateService == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_22",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nLucian shrugged stiffly."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_SecretState_Kill_FrensRicter == true || BaseGame.Turn07_SecretState_Detained_FrensRicter == true || BaseGame.Reform_Turn07_Emergency_Detained_Frens == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
             }
         },
         {
             "id": "node_27",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Turn07_SecretState_Kill_FrensRicter == true || BaseGame.Turn07_SecretState_Detained_FrensRicter == true || BaseGame.Reform_Turn07_Emergency_Detained_Frens == true)\n\nnan"
+                "label": "Player\n\n\"No, let this be our little secret for now.\""
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn07_SecretState_Kill_FrensRicter == true || BaseGame.Turn07_SecretState_Detained_FrensRicter == true || BaseGame.Reform_Turn07_Emergency_Detained_Frens == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         },
         {
             "id": "node_34",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Turn07_SecretState_Kill_FrensRicter == true || BaseGame.Turn07_SecretState_Detained_FrensRicter == true || BaseGame.Reform_Turn07_Emergency_Detained_Frens == true)\n\nnan"
+                "label": "Lucian Galade\n\n\"I assume Mrs. Morgna will want to take action on this immediately. They could go to trial by the end of the month.\""
             },
             "position": {
                 "x": 0,
@@ -89,10 +45,10 @@
             }
         },
         {
-            "id": "node_42",
+            "id": "node_35",
             "type": "customNode",
             "data": {
-                "label": "Lucian Galade\n\n\"As you wish. I'll give the order to the new police chief.\""
+                "label": "BaseGame.Turn09_A_Investigation_NFP_Trialled_RemusAndKesaro = true;\\nBaseGameSupport.Journal_Turn09_Investigations_TrialRemusAndKesaro = true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -100,271 +56,18 @@
             }
         },
         {
-            "id": "node_44",
+            "id": "node_45",
             "type": "customNode",
             "data": {
-                "label": "Lucian Galade\n\n\"That would put a rather abrupt end to the momentum she's been gathering and help clear the path for your re-election.\""
+                "label": "BaseGame.NFPLeader_Remus = false\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 0
             }
         },
         {
             "id": "node_48",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"Mr. President, you're already about to neutralize one of your biggest opposition parties. Taking out both would just be wishful thinking.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_49",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"You'll be happy to hear that the investigation into the NFP was rather more successful.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_50",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"Don't worry, Mr. President. I'm sure these allegations will be easy to sweep under the rug.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHis gaze seemed to be fixed on some faraway corner of the hotel room."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I like the way you're thinking.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Wouldn't it also be, you know, illegal?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_66",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"Thank you, sir.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_67",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"What's the big deal? He's the one who accepted it.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"As you wish. I'll give the order to the new police chief.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Relations_Lucian_Opinion > 0)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Relations_Lucian_Opinion > 0)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"The Anti-Corruption Police did turn up evidence of your having offered Frens Ricter a high-value construction contract in exchange for his party's support,\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Fired_KarlGreiser == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn07_SecretState_Kill_FrensRicter == true || BaseGame.Turn07_SecretState_Detained_FrensRicter == true || BaseGame.Reform_Turn07_Emergency_Detained_Frens == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Fired_KarlGreiser == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_91",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Relations_Lucian_Opinion < 0)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"As you wish. I'll give the order to Mr. Greiser.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_94",
-            "type": "customNode",
-            "data": {
-                "label": "Lucian Galade\n\n\"Those who believe in you, myself included, would argue your re-election takes a higher priority than pesky questions of legality.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [Campaign Rally]\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "customNode",
-            "data": {
-                "label": "Jump to: [NFP Investigation]\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.Journal_Turn09_Investigations_RicterFramed = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_98",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameSupport.Journal_Turn09_Investigations_ManolyFramed = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_99",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -377,207 +80,45 @@
     ],
     "edges": [
         {
-            "id": "e2_to_56",
+            "id": "e2_to_51",
             "source": "node_2",
-            "target": "node_56",
-            "type": "step"
-        },
-        {
-            "id": "e12_to_52",
-            "source": "node_12",
-            "target": "node_52",
-            "type": "step"
-        },
-        {
-            "id": "e19_to_85",
-            "source": "node_19",
-            "target": "node_85",
-            "type": "step"
-        },
-        {
-            "id": "e22_to_64",
-            "source": "node_22",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e25_to_79",
-            "source": "node_25",
-            "target": "node_79",
-            "type": "step"
-        },
-        {
-            "id": "e27_to_36",
-            "source": "node_27",
-            "target": "node_36",
-            "type": "step"
-        },
-        {
-            "id": "e32_to_89",
-            "source": "node_32",
-            "target": "node_89",
-            "type": "step"
-        },
-        {
-            "id": "e34_to_32",
-            "source": "node_34",
-            "target": "node_32",
-            "type": "step"
-        },
-        {
-            "id": "e42_to_14",
-            "source": "node_42",
-            "target": "node_14",
-            "type": "step"
-        },
-        {
-            "id": "e44_to_90",
-            "source": "node_44",
-            "target": "node_90",
-            "type": "step"
-        },
-        {
-            "id": "e48_to_59",
-            "source": "node_48",
-            "target": "node_59",
-            "type": "step"
-        },
-        {
-            "id": "e49_to_88",
-            "source": "node_49",
-            "target": "node_88",
-            "type": "step"
-        },
-        {
-            "id": "e50_to_97",
-            "source": "node_50",
-            "target": "node_97",
-            "type": "step"
-        },
-        {
-            "id": "e56_to_2",
-            "source": "node_56",
-            "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e57_to_13",
-            "source": "node_57",
-            "target": "node_13",
-            "type": "step"
-        },
-        {
-            "id": "e58_to_74",
-            "source": "node_58",
-            "target": "node_74",
-            "type": "step"
-        },
-        {
-            "id": "e66_to_78",
-            "source": "node_66",
-            "target": "node_78",
-            "type": "step"
-        },
-        {
-            "id": "e67_to_61",
-            "source": "node_67",
-            "target": "node_61",
-            "type": "step"
-        },
-        {
-            "id": "e68_to_90",
-            "source": "node_68",
-            "target": "node_90",
-            "type": "step"
-        },
-        {
-            "id": "e72_to_95",
-            "source": "node_72",
-            "target": "node_95",
-            "type": "step"
-        },
-        {
-            "id": "e75_to_67",
-            "source": "node_75",
-            "target": "node_67",
-            "type": "step"
-        },
-        {
-            "id": "e77_to_96",
-            "source": "node_77",
-            "target": "node_96",
-            "type": "step"
-        },
-        {
-            "id": "e78_to_55",
-            "source": "node_78",
-            "target": "node_55",
-            "type": "step"
-        },
-        {
-            "id": "e80_to_43",
-            "source": "node_80",
-            "target": "node_43",
-            "type": "step"
-        },
-        {
-            "id": "e83_to_46",
-            "source": "node_83",
-            "target": "node_46",
-            "type": "step"
-        },
-        {
-            "id": "e84_to_47",
-            "source": "node_84",
-            "target": "node_47",
-            "type": "step"
-        },
-        {
-            "id": "e91_to_51",
-            "source": "node_91",
             "target": "node_51",
             "type": "step"
         },
         {
-            "id": "e93_to_6",
-            "source": "node_93",
-            "target": "node_6",
+            "id": "e23_to_13",
+            "source": "node_23",
+            "target": "node_13",
             "type": "step"
         },
         {
-            "id": "e94_to_70",
-            "source": "node_94",
-            "target": "node_70",
+            "id": "e27_to_20",
+            "source": "node_27",
+            "target": "node_20",
             "type": "step"
         },
         {
-            "id": "e95_to_61",
-            "source": "node_95",
-            "target": "node_61",
+            "id": "e34_to_23",
+            "source": "node_34",
+            "target": "node_23",
             "type": "step"
         },
         {
-            "id": "e96_to_64",
-            "source": "node_96",
-            "target": "node_64",
+            "id": "e35_to_17",
+            "source": "node_35",
+            "target": "node_17",
             "type": "step"
         },
         {
-            "id": "e97_to_1",
-            "source": "node_97",
-            "target": "node_1",
+            "id": "e45_to_11",
+            "source": "node_45",
+            "target": "node_11",
             "type": "step"
         },
         {
-            "id": "e98_to_2",
-            "source": "node_98",
-            "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e99_to_2",
-            "source": "node_99",
-            "target": "node_2",
+            "id": "e48_to_9",
+            "source": "node_48",
+            "target": "node_9",
             "type": "step"
         }
     ]

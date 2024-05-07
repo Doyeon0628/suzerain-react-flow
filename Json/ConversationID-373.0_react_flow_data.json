@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_1",
+            "id": "node_4",
             "type": "customNode",
             "data": {
-                "label": "output\n\nnan"
+                "label": "Player_Romus\n\n\"I doubt that Morella would allow such an extension given your history.\""
             },
             "position": {
                 "x": 0,
@@ -12,10 +12,43 @@
             }
         },
         {
-            "id": "node_36",
+            "id": "node_13",
             "type": "customNode",
             "data": {
-                "label": "Daria de Rava\n\n\"Keep in mind that these are the same industries that have been working tirelessly to supply our troops with weapons and equipment. They should be lauded, not penalized.\""
+                "label": "Player_Romus\n\n\"It depends on whether you are able to make peace with the Morellan prime minister.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_27",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"I hear you have sold oil and gas to other Merkopan countries. Perhaps you would be willing to ship it to us across the Gulf of Moridia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"Once energy is flowing from Rizia to Derdia, we can begin to talk about further cooperation.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Turn07_DerdiaRequests_Morella == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -26,7 +59,7 @@
             "id": "node_37",
             "type": "customNode",
             "data": {
-                "label": "Manus Sazon\n\n\"As I was saying. Now that we are engaged in this unfortunate conflict, measures must be taken to mitigate its impact on ordinary citizens.\""
+                "label": "Player_Romus\n\n\"I agree to extend the pipeline. But you must be ready to stop your disgraceful border violations.\"\n\n\"I agree to extend the pipeline. But you must be ready to stop your disgraceful border violations.\" [-1 Budget]"
             },
             "position": {
                 "x": 0,
@@ -34,10 +67,10 @@
             }
         },
         {
-            "id": "node_97",
+            "id": "node_39",
             "type": "customNode",
             "data": {
-                "label": "Manus Sazon\n\n\"Ms. de Rava, I know you are used to being in charge of these proceedings, but I beg you to remember that is no longer the case.\""
+                "label": "Player_Romus\n\n\"My answer is no. You will have to come up with another energy solution.\""
             },
             "position": {
                 "x": 0,
@@ -45,10 +78,10 @@
             }
         },
         {
-            "id": "node_107",
+            "id": "node_43",
             "type": "customNode",
             "data": {
-                "label": "Manus Sazon\n\n\"Such as what, Ms. de Rava? Your party issued an official disproval of His Majesty's landowner tax decree. Is your only solution to place the burden on those who can least afford it?\""
+                "label": "Player_Romus\n\n\"I wouldn't call energy 'riches'. It is a basic need.\""
             },
             "position": {
                 "x": 0,
@@ -56,10 +89,76 @@
             }
         },
         {
-            "id": "node_110",
+            "id": "node_56",
             "type": "customNode",
             "data": {
-                "label": "Manus Sazon\n\n\"The House of Delegates supports this proposal by a high margin. Therefore, it will be passed on to the King to enact as he sees fit.\""
+                "label": "!(RiziaDLC.Resources_Energy < 2)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"Wouldn't it be easier for you to buy oil from Wehlen?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_58",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"To be frank, we need your diplomatic support more than we need you to buy our energy.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_65",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Turn07_Diplomacy_Derdia_EnableSaltanaMeeting = true; RiziaDLCIsolated.Turn07_Derdia_FavorsDone += 1\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Trait_ReligiousKing == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_70",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"You're very optimistic. But I would not count on Morella to offer either of those to us.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "Jorga Azmal\n\n\"That's unfortunate, Your Majesty.\""
             },
             "position": {
                 "x": 0,
@@ -67,21 +166,10 @@
             }
         },
         {
-            "id": "node_111",
+            "id": "node_75",
             "type": "customNode",
             "data": {
-                "label": "Manus Sazon\n\n\"Ms. de Rava's party issued an official disproval of His Majesty's inheritance tax decree. Her preferred solution, it seems, is to place the burden on those who can least afford it.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe turned a page in her binder."
+                "label": "Jorga Azmal\n\n\"Diplomatic support from a country with rolling blackouts. I'm not sure how much that's worth, Your Majesty.\""
             },
             "position": {
                 "x": 0,
@@ -89,10 +177,10 @@
             }
         },
         {
-            "id": "node_132",
+            "id": "node_79",
             "type": "customNode",
             "data": {
-                "label": "Manus Sazon\n\n\"I had hoped it would go through some sort of legislative process. But good news regardless.\""
+                "label": "Jorga Azmal\n\n\"'United' is not the word for it. But if Rizia wishes for us to keep the peace, we shall.\""
             },
             "position": {
                 "x": 0,
@@ -100,21 +188,10 @@
             }
         },
         {
-            "id": "node_142",
+            "id": "node_92",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nDaria frowned in consternation."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.HouseElections_RPPWinsSeats == true\n\nnan"
+                "label": "Jorga Azmal\n\n\"But as long as you continue to support Golcondists, we will endeavor to support you in whatever matters we can.\""
             },
             "position": {
                 "x": 0,
@@ -122,43 +199,10 @@
             }
         },
         {
-            "id": "node_152",
+            "id": "node_112",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Enable_Policy_RD_Economy_WarProfitsTax = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_164",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"I am confident that our victory in Pales will be swift enough that such a measure will not be called for.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Resources_Authority >= 3)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_170",
-            "type": "customNode",
-            "data": {
-                "label": "START\n\nnan"
+                "label": "!(RiziaDLC.Resources_Budget > 1)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -168,93 +212,117 @@
     ],
     "edges": [
         {
-            "id": "e1_to_150",
-            "source": "node_1",
-            "target": "node_150",
+            "id": "e4_to_61",
+            "source": "node_4",
+            "target": "node_61",
             "type": "step"
         },
         {
-            "id": "e36_to_81",
-            "source": "node_36",
-            "target": "node_81",
+            "id": "e13_to_55",
+            "source": "node_13",
+            "target": "node_55",
             "type": "step"
         },
         {
-            "id": "e37_to_84",
-            "source": "node_37",
+            "id": "e27_to_8",
+            "source": "node_27",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e28_to_55",
+            "source": "node_28",
+            "target": "node_55",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_84",
+            "source": "node_29",
             "target": "node_84",
             "type": "step"
         },
         {
-            "id": "e97_to_110",
-            "source": "node_97",
+            "id": "e37_to_64",
+            "source": "node_37",
+            "target": "node_64",
+            "type": "step"
+        },
+        {
+            "id": "e39_to_71",
+            "source": "node_39",
+            "target": "node_71",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_74",
+            "source": "node_43",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_36",
+            "source": "node_56",
+            "target": "node_36",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_82",
+            "source": "node_57",
+            "target": "node_82",
+            "type": "step"
+        },
+        {
+            "id": "e58_to_81",
+            "source": "node_58",
+            "target": "node_81",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_110",
+            "source": "node_65",
             "target": "node_110",
             "type": "step"
         },
         {
-            "id": "e107_to_145",
-            "source": "node_107",
-            "target": "node_145",
+            "id": "e68_to_45",
+            "source": "node_68",
+            "target": "node_45",
             "type": "step"
         },
         {
-            "id": "e110_to_98",
-            "source": "node_110",
-            "target": "node_98",
+            "id": "e70_to_100",
+            "source": "node_70",
+            "target": "node_100",
             "type": "step"
         },
         {
-            "id": "e111_to_160",
-            "source": "node_111",
-            "target": "node_160",
+            "id": "e71_to_110",
+            "source": "node_71",
+            "target": "node_110",
             "type": "step"
         },
         {
-            "id": "e127_to_142",
-            "source": "node_127",
-            "target": "node_142",
+            "id": "e75_to_54",
+            "source": "node_75",
+            "target": "node_54",
             "type": "step"
         },
         {
-            "id": "e132_to_155",
-            "source": "node_132",
-            "target": "node_155",
+            "id": "e79_to_97",
+            "source": "node_79",
+            "target": "node_97",
             "type": "step"
         },
         {
-            "id": "e142_to_128",
-            "source": "node_142",
-            "target": "node_128",
+            "id": "e92_to_17",
+            "source": "node_92",
+            "target": "node_17",
             "type": "step"
         },
         {
-            "id": "e149_to_121",
-            "source": "node_149",
-            "target": "node_121",
-            "type": "step"
-        },
-        {
-            "id": "e152_to_4",
-            "source": "node_152",
-            "target": "node_4",
-            "type": "step"
-        },
-        {
-            "id": "e164_to_153",
-            "source": "node_164",
-            "target": "node_153",
-            "type": "step"
-        },
-        {
-            "id": "e168_to_135",
-            "source": "node_168",
-            "target": "node_135",
-            "type": "step"
-        },
-        {
-            "id": "e170_to_111",
-            "source": "node_170",
-            "target": "node_111",
+            "id": "e112_to_38",
+            "source": "node_112",
+            "target": "node_38",
             "type": "step"
         }
     ]

@@ -4,7 +4,18 @@
             "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "(BaseGame.Leaker_WalterTusk == true || (BaseGame.Leaker_ACP == true && BaseGame.Turn07_Investigate_Opposition == true)) && BaseGame.Relations_Albin_Bribed == true\n\nnan"
+                "label": "BaseGame.Turn05_SnO_LE_Policy_AntiCorruptionPolice == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_5",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I want their heads, Lucian.\""
             },
             "position": {
                 "x": 0,
@@ -12,10 +23,32 @@
             }
         },
         {
-            "id": "node_18",
+            "id": "node_6",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.LeakedScandal_FrensRicter_TaurusBribe = true; BaseGame.LeakedScandals_Severity += 1;\\nBaseGame.LeakedScandal_Testify_ACP = true;\\nBaseGame.LeakedScandal_Testify_Oligarchs = true;\n\nnan"
+                "label": "Lucian Galade\n\n\"Mrs. Morgna's task force suspected Old Guard members of multiple cases of corruption and lobbying. But when they looked deeper into it, they found something truly shocking.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_9",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You're joking.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_17",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reform_Court_Success == true \n\nnan"
             },
             "position": {
                 "x": 0,
@@ -23,10 +56,10 @@
             }
         },
         {
-            "id": "node_30",
+            "id": "node_20",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.LeakedScandal_HeronGaraci_Bribe = true; BaseGame.LeakedScandals_Severity += 1;\\nBaseGame.LeakedScandal_Testify_Heron = true\n\nnan"
+                "label": "Player\n\n\"Who was involved in this?\""
             },
             "position": {
                 "x": 0,
@@ -34,10 +67,10 @@
             }
         },
         {
-            "id": "node_38",
+            "id": "node_22",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.Leaker_LucianGalade == true && BaseGame.Decision_Turn09_FundPoliticalGroup_YoungSords == true)\n\nnan"
+                "label": "Lucian Galade\n\n\"Of course, when that didn't work, they had other ways of impeding you.\""
             },
             "position": {
                 "x": 0,
@@ -45,10 +78,10 @@
             }
         },
         {
-            "id": "node_47",
+            "id": "node_23",
             "type": "customNode",
             "data": {
-                "label": "(BaseGame.Leaker_MarcelKoronti == true || (BaseGame.Leaker_ACP == true && BaseGame.Turn07_Investigate_Oligarchs == true)) && BaseGame.Turn07_GrantedShares_WalterTusk == true\n\nnan"
+                "label": "Lucian Galade\n\n\"And they succeeded.\""
             },
             "position": {
                 "x": 0,
@@ -56,10 +89,10 @@
             }
         },
         {
-            "id": "node_50",
+            "id": "node_24",
             "type": "customNode",
             "data": {
-                "label": "(BaseGame.Leaker_WalterTusk == true || (BaseGame.Leaker_ACP == true && BaseGame.Turn07_Investigate_Oligarchs == true)) && BaseGame.Turn07_GrantedShares_MarcelKoronti == true\n\nnan"
+                "label": "Lucian Galade\n\n\"As you may recall, Karl Greiser hinted at a 'complex web of connections' surrounding the Old Guard as well as multiple cases of corruption and lobbying.\""
             },
             "position": {
                 "x": 0,
@@ -67,10 +100,10 @@
             }
         },
         {
-            "id": "node_62",
+            "id": "node_51",
             "type": "customNode",
             "data": {
-                "label": "((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && BaseGame.Turn07_SecretState_Detained_KesaroKibener == true\n\nnan"
+                "label": "Narrator\n\nLucian swallowed."
             },
             "position": {
                 "x": 0,
@@ -78,10 +111,10 @@
             }
         },
         {
-            "id": "node_84",
+            "id": "node_54",
             "type": "customNode",
             "data": {
-                "label": "!(((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && (BaseGame.Turn07_SecretState_Kill_OrsoHawker == true && BaseGame.YoungSords_Kill_OrsoHawker == false))\n\nnan"
+                "label": "Lucian Galade\n\n\"And then there are the dozens of Assembly members and thousands of government officials who may have been aware of the assassination plot and helped cover it up.\""
             },
             "position": {
                 "x": 0,
@@ -89,10 +122,54 @@
             }
         },
         {
-            "id": "node_87",
+            "id": "node_59",
             "type": "customNode",
             "data": {
-                "label": "((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && BaseGame.Turn07_SecretState_Kill_FrensRicter == true\n\nnan"
+                "label": "Lucian Galade\n\n\"The main conspirator was Lileas Graf.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_64",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Orso Hawker should be our primary target. He is too dangerous keep around.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_75",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_A_Investigation_OldGuard_Trial_Lileas = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_76",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameSupport.Journal_Turn09_Investigations_TrialLileas = true;\\nBaseGameSupport.Codex_Characters_Cabinet_LileasGraf_Arrested = true;\\nBaseGameSupport.Codex_Characters_Cabinet_LileasGraf = false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_96",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Are there any other things they have done?\""
             },
             "position": {
                 "x": 0,
@@ -103,7 +180,7 @@
             "id": "node_101",
             "type": "customNode",
             "data": {
-                "label": "((BaseGame.Leaker_LucianGalade == true && BaseGame.SecretState_LucianKnowsSSPKills == true) || BaseGame.Leaker_KarlGreiser == true) && BaseGame.Turn08_SecondScandal_SecretState_ArrestPetr == true\n\nnan"
+                "label": "AssignConnection(\"Page_Cabinet\", \"Position_InteriorMinister\", \"\");\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -111,82 +188,158 @@
             }
         },
         {
-            "id": "node_105",
+            "id": "node_102",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.LeakedScandal_SecretState_DetainPetrVectern = true; BaseGame.LeakedScandals_Severity += 3;\\nBaseGame.LeakedScandal_Testify_Lucian = true;\\nBaseGame.LeakedScandal_Testify_Karl = true;\n\nnan"
+                "label": "AssignConnection(\"Page_Cabinet\", \"Position_InteriorMinister\", \"\");\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "AssignConnection(\"Page_Cabinet\", \"Position_InteriorMinister\", \"\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
             }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_621",
+            "id": "e2_to_65",
             "source": "node_2",
-            "target": "node_621",
+            "target": "node_65",
             "type": "step"
         },
         {
-            "id": "e18_to_12",
-            "source": "node_18",
-            "target": "node_12",
+            "id": "e5_to_25",
+            "source": "node_5",
+            "target": "node_25",
             "type": "step"
         },
         {
-            "id": "e30_to_23",
-            "source": "node_30",
-            "target": "node_23",
+            "id": "e6_to_57",
+            "source": "node_6",
+            "target": "node_57",
             "type": "step"
         },
         {
-            "id": "e38_to_35",
-            "source": "node_38",
-            "target": "node_35",
+            "id": "e9_to_61",
+            "source": "node_9",
+            "target": "node_61",
             "type": "step"
         },
         {
-            "id": "e47_to_88",
-            "source": "node_47",
-            "target": "node_88",
+            "id": "e17_to_97",
+            "source": "node_17",
+            "target": "node_97",
             "type": "step"
         },
         {
-            "id": "e50_to_41",
-            "source": "node_50",
-            "target": "node_41",
+            "id": "e20_to_11",
+            "source": "node_20",
+            "target": "node_11",
             "type": "step"
         },
         {
-            "id": "e62_to_41",
-            "source": "node_62",
-            "target": "node_41",
+            "id": "e22_to_95",
+            "source": "node_22",
+            "target": "node_95",
             "type": "step"
         },
         {
-            "id": "e84_to_68",
-            "source": "node_84",
-            "target": "node_68",
+            "id": "e23_to_97",
+            "source": "node_23",
+            "target": "node_97",
             "type": "step"
         },
         {
-            "id": "e87_to_80",
-            "source": "node_87",
-            "target": "node_80",
+            "id": "e24_to_97",
+            "source": "node_24",
+            "target": "node_97",
             "type": "step"
         },
         {
-            "id": "e101_to_72",
+            "id": "e51_to_2",
+            "source": "node_51",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e54_to_94",
+            "source": "node_54",
+            "target": "node_94",
+            "type": "step"
+        },
+        {
+            "id": "e59_to_9",
+            "source": "node_59",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e64_to_76",
+            "source": "node_64",
+            "target": "node_76",
+            "type": "step"
+        },
+        {
+            "id": "e75_to_94",
+            "source": "node_75",
+            "target": "node_94",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_104",
+            "source": "node_76",
+            "target": "node_104",
+            "type": "step"
+        },
+        {
+            "id": "e96_to_6",
+            "source": "node_96",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_75",
             "source": "node_101",
-            "target": "node_72",
+            "target": "node_75",
             "type": "step"
         },
         {
-            "id": "e105_to_72",
-            "source": "node_105",
-            "target": "node_72",
+            "id": "e102_to_85",
+            "source": "node_102",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_79",
+            "source": "node_103",
+            "target": "node_79",
+            "type": "step"
+        },
+        {
+            "id": "e104_to_77",
+            "source": "node_104",
+            "target": "node_77",
             "type": "step"
         }
     ]

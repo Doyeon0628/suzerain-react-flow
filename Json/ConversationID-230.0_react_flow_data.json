@@ -1,21 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_16",
+            "id": "node_17",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.EconomicDirection_Nationalization == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "customNode",
-            "data": {
-                "label": "Moderator\n\n\"What exactly does the Liberal Party have to offer that the USP did not?\""
+                "label": "BaseGame.NFPLeader_Remus == true && BaseGame.Turn09_A_Investigation_NFP_Trialled_Remus == false\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -26,7 +15,18 @@
             "id": "node_22",
             "type": "customNode",
             "data": {
-                "label": "Moderator\n\n\"What exactly does the Maroon Party have to offer that the USP did not?\""
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_23",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron = true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -37,7 +37,7 @@
             "id": "node_27",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"The USP has forgotten what the 'S' in its name stands for. My new party will put Sordland first.\""
+                "label": "Narrator\n\nBack during the '53 election, I had debated my political opponents on the radio. Now the debate was to be televised, like everything else these days."
             },
             "position": {
                 "x": 0,
@@ -45,10 +45,10 @@
             }
         },
         {
-            "id": "node_28",
+            "id": "node_45",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"In a word, money. The USP has had a chokehold on the economy for too long. It's time to give Sordish businesses a chance to thrive.\""
+                "label": "Player_Italic\n\nI kept my mouth shut.\n\nSay nothing."
             },
             "position": {
                 "x": 0,
@@ -56,76 +56,10 @@
             }
         },
         {
-            "id": "node_30",
+            "id": "node_47",
             "type": "customNode",
             "data": {
-                "label": "Lileas Graf\n\n\"Spoken like a true puppet of the Oligarchs.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_35",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Turn09_SollTrial_Guilty_Death == true || BaseGameIsolated.Turn09_SollTrial_Guilty_Prison == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_40",
-            "type": "customNode",
-            "data": {
-                "label": "Lileas Graf\n\n\"Preposterous. Any follower of Soll would stay true to the party he founded.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Archetype_SollistRayne == true || BaseGame.Turn08_Action_Party_Ultranationalist == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_60",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"The NFP doesn't think big enough. My party will crush all of Sordland's enemies.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I liked Soll's ideas. Not the man himself.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Not after the way I was betrayed.\""
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -133,10 +67,10 @@
             }
         },
         {
-            "id": "node_65",
+            "id": "node_56",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"No. It's time to take his ideas and bring them into our modern age.\""
+                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -144,21 +78,10 @@
             }
         },
         {
-            "id": "node_67",
+            "id": "node_61",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Soll betrayed his own ideals. He had to go.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
+                "label": "Moderator\n\n\"To my right, Lileas Graf, former Interior Minister and leader of the USP.\"\n\nAddConversant(Lileas Graf); WaitForMessage(Continue);"
             },
             "position": {
                 "x": 0,
@@ -166,10 +89,10 @@
             }
         },
         {
-            "id": "node_78",
+            "id": "node_69",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"I'm prepared to ally with the PFJP.\""
+                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -177,10 +100,10 @@
             }
         },
         {
-            "id": "node_79",
+            "id": "node_75",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"No, the PFJP is too capitalist for my tastes.\""
+                "label": "Kesaro Kibener\n\n\"Greci Sordland.\""
             },
             "position": {
                 "x": 0,
@@ -188,32 +111,10 @@
             }
         },
         {
-            "id": "node_81",
+            "id": "node_83",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"The USP cannot admit that Malenyev had the right idea. My party will finally bring communism to Sordland:\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I still respect you, Lileas. I had hoped we could settle this like adults.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_90",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"I was happy to lose. It gave me the excuse to do what I'd wanted to for years.\""
+                "label": "Denis Stahler\n\n\"That's right. We may have failed to meet the threshold last time, but the poor and downtrodden of Sordland *will* unite and rise up.\""
             },
             "position": {
                 "x": 0,
@@ -224,7 +125,7 @@
             "id": "node_91",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"That was the initial reason, yes. But I've had time to develop my platform.\""
+                "label": "!(BaseGameIsolated.Debate_Enable_LileasGraf == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -232,10 +133,10 @@
             }
         },
         {
-            "id": "node_92",
+            "id": "node_96",
             "type": "customNode",
             "data": {
-                "label": "Denis Stahler\n\n\"That doesn't change the fact that--\""
+                "label": "Lileas Graf\n\n\"And protector of the legacy of Tarquin Soll, lest we forget. I'm looking forward to your questions.\""
             },
             "position": {
                 "x": 0,
@@ -243,109 +144,21 @@
             }
         },
         {
-            "id": "node_93",
+            "id": "node_97",
             "type": "customNode",
             "data": {
-                "label": "Denis Stahler\n\n\"But if you really pay attention to what Marcia said--\""
+                "label": "Narrator\n\nShe shot a pointed glance in my direction."
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_94",
-            "type": "customNode",
-            "data": {
-                "label": "Denis Stahler\n\n\"Then you've just lost yourself an ally. In fact--\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "customNode",
-            "data": {
-                "label": "Manoly Suheil\n\n\"Never. Not after what happened to--\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_100",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_FrensRicter == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_104",
-            "type": "customNode",
-            "data": {
-                "label": "Manoly Suheil\n\n\"Fair enough. There's room in the Assembly for both our parties. In fact--\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_109",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_114",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_121",
-            "type": "customNode",
-            "data": {
-                "label": "Lileas Graf\n\n\"You were such a bright boy, President Rayne. What happened?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_122",
-            "type": "customNode",
-            "data": {
-                "label": "Remus Holstron\n\n\"Come over here and say that to my face. I doubt that you have the same will as we do.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         },
         {
             "id": "node_123",
             "type": "customNode",
             "data": {
-                "label": "Kesaro Kibener\n\n\"Such crude language, Mr. President.\""
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -353,282 +166,163 @@
             }
         },
         {
-            "id": "node_124",
+            "id": "node_132",
             "type": "customNode",
             "data": {
-                "label": "Lileas Graf\n\n\"A valid sentiment.\""
+                "label": "BaseGame.Turn09_A_Investigation_PFJP_RicterFramed == false\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_125",
-            "type": "customNode",
-            "data": {
-                "label": "Lileas Graf\n\n\"With my help, you could have. You don't have a prayer now.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_126",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "customNode",
-            "data": {
-                "label": "Lileas Graf\n\n\"Saving one's own party is hardly a 'betrayal' --\""
-            },
-            "position": {
-                "x": 0,
-                "y": 500
+                "y": 250
             }
         },
         {
             "id": "node_137",
             "type": "customNode",
             "data": {
-                "label": "Lileas Graf\n\n\"The feeling is mutual.\""
+                "label": "!(BaseGame.Faction_PFJP_Destroyed == true )\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
             }
+        },
+        {
+            "id": "node_138",
+            "type": "customNode",
+            "data": {
+                "label": "End();\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
         }
     ],
     "edges": [
         {
-            "id": "e16_to_32",
-            "source": "node_16",
-            "target": "node_32",
+            "id": "e17_to_133",
+            "source": "node_17",
+            "target": "node_133",
             "type": "step"
         },
         {
-            "id": "e21_to_42",
-            "source": "node_21",
-            "target": "node_42",
-            "type": "step"
-        },
-        {
-            "id": "e22_to_42",
+            "id": "e22_to_6",
             "source": "node_22",
-            "target": "node_42",
+            "target": "node_6",
             "type": "step"
         },
         {
-            "id": "e27_to_69",
+            "id": "e23_to_9",
+            "source": "node_23",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e27_to_140",
             "source": "node_27",
-            "target": "node_69",
+            "target": "node_140",
             "type": "step"
         },
         {
-            "id": "e28_to_51",
-            "source": "node_28",
-            "target": "node_51",
+            "id": "e45_to_132",
+            "source": "node_45",
+            "target": "node_132",
             "type": "step"
         },
         {
-            "id": "e30_to_13",
-            "source": "node_30",
-            "target": "node_13",
+            "id": "e47_to_89",
+            "source": "node_47",
+            "target": "node_89",
             "type": "step"
         },
         {
-            "id": "e35_to_139",
-            "source": "node_35",
-            "target": "node_139",
-            "type": "step"
-        },
-        {
-            "id": "e40_to_64",
-            "source": "node_40",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e41_to_67",
-            "source": "node_41",
-            "target": "node_67",
-            "type": "step"
-        },
-        {
-            "id": "e60_to_115",
-            "source": "node_60",
-            "target": "node_115",
-            "type": "step"
-        },
-        {
-            "id": "e63_to_110",
-            "source": "node_63",
-            "target": "node_110",
-            "type": "step"
-        },
-        {
-            "id": "e64_to_135",
-            "source": "node_64",
-            "target": "node_135",
-            "type": "step"
-        },
-        {
-            "id": "e65_to_136",
-            "source": "node_65",
+            "id": "e56_to_136",
+            "source": "node_56",
             "target": "node_136",
             "type": "step"
         },
         {
-            "id": "e67_to_138",
-            "source": "node_67",
-            "target": "node_138",
+            "id": "e61_to_82",
+            "source": "node_61",
+            "target": "node_82",
             "type": "step"
         },
         {
-            "id": "e68_to_135",
-            "source": "node_68",
-            "target": "node_135",
+            "id": "e69_to_77",
+            "source": "node_69",
+            "target": "node_77",
             "type": "step"
         },
         {
-            "id": "e78_to_109",
-            "source": "node_78",
-            "target": "node_109",
+            "id": "e75_to_98",
+            "source": "node_75",
+            "target": "node_98",
             "type": "step"
         },
         {
-            "id": "e79_to_96",
-            "source": "node_79",
-            "target": "node_96",
+            "id": "e83_to_47",
+            "source": "node_83",
+            "target": "node_47",
             "type": "step"
         },
         {
-            "id": "e81_to_101",
-            "source": "node_81",
-            "target": "node_101",
-            "type": "step"
-        },
-        {
-            "id": "e89_to_121",
-            "source": "node_89",
-            "target": "node_121",
-            "type": "step"
-        },
-        {
-            "id": "e90_to_122",
-            "source": "node_90",
-            "target": "node_122",
-            "type": "step"
-        },
-        {
-            "id": "e91_to_121",
+            "id": "e91_to_1",
             "source": "node_91",
-            "target": "node_121",
+            "target": "node_1",
             "type": "step"
         },
         {
-            "id": "e92_to_122",
-            "source": "node_92",
-            "target": "node_122",
+            "id": "e96_to_54",
+            "source": "node_96",
+            "target": "node_54",
             "type": "step"
         },
         {
-            "id": "e93_to_30",
-            "source": "node_93",
-            "target": "node_30",
+            "id": "e97_to_54",
+            "source": "node_97",
+            "target": "node_54",
             "type": "step"
         },
         {
-            "id": "e94_to_30",
-            "source": "node_94",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e99_to_30",
-            "source": "node_99",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e100_to_30",
-            "source": "node_100",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e104_to_30",
-            "source": "node_104",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e109_to_30",
-            "source": "node_109",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e114_to_30",
-            "source": "node_114",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e121_to_30",
-            "source": "node_121",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e122_to_30",
-            "source": "node_122",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e123_to_30",
+            "id": "e123_to_139",
             "source": "node_123",
-            "target": "node_30",
+            "target": "node_139",
             "type": "step"
         },
         {
-            "id": "e124_to_30",
-            "source": "node_124",
-            "target": "node_30",
+            "id": "e132_to_48",
+            "source": "node_132",
+            "target": "node_48",
             "type": "step"
         },
         {
-            "id": "e125_to_30",
-            "source": "node_125",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e126_to_30",
-            "source": "node_126",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e135_to_30",
-            "source": "node_135",
-            "target": "node_30",
-            "type": "step"
-        },
-        {
-            "id": "e137_to_30",
+            "id": "e137_to_57",
             "source": "node_137",
-            "target": "node_30",
+            "target": "node_57",
+            "type": "step"
+        },
+        {
+            "id": "e138_to_74",
+            "source": "node_138",
+            "target": "node_74",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_28",
+            "source": "node_140",
+            "target": "node_28",
             "type": "step"
         }
     ]

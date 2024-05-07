@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_1",
+            "id": "node_27",
             "type": "customNode",
             "data": {
-                "label": "output\n\nnan"
+                "label": "RiziaDLC.Diplomacy_Pales_DiplomaticArbitration_WonHalf == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -12,283 +12,28 @@
             }
         },
         {
-            "id": "node_3",
+            "id": "node_31",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nI placed the phone to my ear. I took a deep breath as Duke Reinhart picked it up."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_5",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Duke Reinhart. How pleasing it is to get a chance to speak with you again.\""
+                "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"This is the King speaking.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_16",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I'm afraid I don't see it that way, Your Majesty. Especially after what happened.\"\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Well... It doesn't really matter, Your Grace.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Me too, Your Grace. And now, you're going to hear me out.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I'm listening.\"\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_29",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"I'm listening.\"\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "customNode",
-            "data": {
-                "label": "//\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_71",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"You're not complying with my demands, then?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "customNode",
-            "data": {
-                "label": "!((RiziaDLC.Pales_War == true && RiziaDLC.PostIncident_Border_JointInvestigation == true))\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.War_Incident_Border == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "customNode",
-            "data": {
-                "label": "Axel Reinhart\n\n\"The world knows it was Rizia who was behind the incident at our border, Your Majesty.\"\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "customNode",
-            "data": {
-                "label": "AddConversant(\"Axel Reinhart\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "customNode",
-            "data": {
-                "label": "RemoveConversant(\"Axel Reinhart\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_89",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Pales_War = true;\\nRiziaDLC.Diplomacy_Pales_NegotiatingPower = -100;\\nRiziaDLC.Policy_Diplomacy_TradeDeal_Pales = false;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         }
     ],
     "edges": [
         {
-            "id": "e1_to_89",
-            "source": "node_1",
-            "target": "node_89",
+            "id": "e27_to_2",
+            "source": "node_27",
+            "target": "node_2",
             "type": "step"
         },
         {
-            "id": "e3_to_87",
-            "source": "node_3",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e5_to_23",
-            "source": "node_5",
-            "target": "node_23",
-            "type": "step"
-        },
-        {
-            "id": "e6_to_79",
-            "source": "node_6",
-            "target": "node_79",
-            "type": "step"
-        },
-        {
-            "id": "e16_to_27",
-            "source": "node_16",
-            "target": "node_27",
-            "type": "step"
-        },
-        {
-            "id": "e20_to_82",
-            "source": "node_20",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e21_to_82",
-            "source": "node_21",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e28_to_82",
-            "source": "node_28",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e29_to_82",
-            "source": "node_29",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e47_to_66",
-            "source": "node_47",
-            "target": "node_66",
-            "type": "step"
-        },
-        {
-            "id": "e71_to_64",
-            "source": "node_71",
-            "target": "node_64",
-            "type": "step"
-        },
-        {
-            "id": "e80_to_17",
-            "source": "node_80",
-            "target": "node_17",
-            "type": "step"
-        },
-        {
-            "id": "e81_to_13",
-            "source": "node_81",
-            "target": "node_13",
-            "type": "step"
-        },
-        {
-            "id": "e84_to_31",
-            "source": "node_84",
-            "target": "node_31",
-            "type": "step"
-        },
-        {
-            "id": "e86_to_36",
-            "source": "node_86",
-            "target": "node_36",
-            "type": "step"
-        },
-        {
-            "id": "e87_to_4",
-            "source": "node_87",
-            "target": "node_4",
-            "type": "step"
-        },
-        {
-            "id": "e89_to_3",
-            "source": "node_89",
-            "target": "node_3",
+            "id": "e31_to_2",
+            "source": "node_31",
+            "target": "node_2",
             "type": "step"
         }
     ]

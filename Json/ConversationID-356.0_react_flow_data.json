@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_4",
+            "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Country_HouseToras > 0)\n\nnan"
+                "label": "Hugo Toras\n\n\"Before we begin in earnest, we must acknowledge the results of the recent House of Delegates election.\""
             },
             "position": {
                 "x": 0,
@@ -12,10 +12,10 @@
             }
         },
         {
-            "id": "node_43",
+            "id": "node_5",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.HouseElections_RNCWinsSeats = true\n\nnan"
+                "label": "!(RiziaDLC.HouseElections_RPPWinsSeats == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -23,10 +23,10 @@
             }
         },
         {
-            "id": "node_72",
+            "id": "node_10",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Focus_Government_Reform == true && RiziaDLC.LeaningValue_Democratic > 0\n\nnan"
+                "label": "!(RiziaDLC.HouseElections_RNCWinsSeats == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -34,10 +34,10 @@
             }
         },
         {
-            "id": "node_75",
+            "id": "node_11",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Situation_Law_TreatmentOfForeigners_Unfair == true\n\nnan"
+                "label": "Narrator\n\nHugo had a wide smile on his face."
             },
             "position": {
                 "x": 0,
@@ -45,21 +45,10 @@
             }
         },
         {
-            "id": "node_80",
+            "id": "node_15",
             "type": "customNode",
             "data": {
-                "label": "EvaluateConditionalInstruction(\"HouseElection_RPPWins\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Country_HouseSazon > 0)\n\nnan"
+                "label": "RiziaDLC.Vina_OnCouncil == true && RiziaDLC.Diplomacy_Pales_Vina_LeadsDeal == false\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -67,10 +56,10 @@
             }
         },
         {
-            "id": "node_114",
+            "id": "node_37",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.Focus_Government_Reform == true || RiziaDLC.Reforms_InProgressWithManusAndVina == true || RiziaDLC.Policy_RD_Welfare_ElectoralReform == true)\n\nnan"
+                "label": "Player_Romus\n\n\"Brilliant. I'm glad to hear that the majority of the Rizian public still respects the authority of their monarch and his supporters.\""
             },
             "position": {
                 "x": 0,
@@ -78,131 +67,120 @@
             }
         },
         {
-            "id": "node_137",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Welfare_Housing_LackOfAffordable == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Situation_Welfare_Housing_LackOfAffordable == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Welfare_Housing_WorseningCrisis == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_142",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Situation_Welfare_Housing_WorseningCrisis == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_145",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Situation_Welfare_WorkersRights_Horrible == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_164",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Decision_Turn05_RNCElectionFund_Generous == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_167",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Decision_Turn05_RNCElectionFund_Moderate == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_175",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn06_VotingCalc_RPP+= 10\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_176",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn06_VotingCalc_RPP+= 10\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_181",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn06_VotingCalc_RNC+= 20\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_182",
+            "id": "node_44",
             "type": "customNode",
             "data": {
                 "label": "RiziaDLC.Policy_RD_Welfare_FreePress == true\n\nnan"
             },
             "position": {
                 "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_51",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"With some aid from the so-called free press, of course.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_56",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"Indeed, Your Majesty.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_85",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_RD_Welfare_ElectoralReform == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "Hugo Toras\n\n\"I admit I questioned your reform of the Rizian electoral system at first. But we now know for a fact that the people of this kingdom favor stability and tradition.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Situation_Order_SuOmina_AlliedToCrown == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.Reports_Turn06_Iza_SuOminaIntimidatesVoters = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_104",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.News_Turn06_V_ElectionRPPWin = true;\\nRiziaDLCSupport.News_Turn06_RH_ElectionRPPWin = true;\\nRiziaDLCSupport.Reports_Turn06_Morella_CongraltulateRPPWin = true;\\nRiziaDLCSupport.Reports_Turn06_Kyrute_CongratulateSuccesfulElections = true;\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_106",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.News_Turn06_V_ElectionStatusQuo = true;\\nRiziaDLCSupport.News_Turn06_RH_ElectionStatusQuo = true;\\nRiziaDLCSupport.Reports_Turn06_Kyrute_CongratulateSuccesfulElections = true;\\nRiziaDLCSupport.Reports_Turn06_Rumburg_CongratulateRNCWin= true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
                 "y": 250
             }
         },
         {
-            "id": "node_185",
+            "id": "node_107",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Turn06_VotingCalc_RNC+= 15;\\nRiziaDLCIsolated.Turn06_VotingCalc_RPP+= 5\n\nnan"
+                "label": "RiziaDLC.Policy_RD_Welfare_ElectoralReform == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_114",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSupport.Reports_Turn06_Sordland_CongratulateRPPWin = true;\\n\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -210,10 +188,10 @@
             }
         },
         {
-            "id": "node_198",
+            "id": "node_115",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Turn06_VotingCalc_RPP += 20\n\nnan"
+                "label": "BaseGame.Reform_Reformist_Path == false\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -221,29 +199,7 @@
             }
         },
         {
-            "id": "node_208",
-            "type": "customNode",
-            "data": {
-                "label": "EvaluateConditionalInstruction(\"HouseElection_RPPWins\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_217",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn06_VotingCalc_RNC -= 15\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_218",
+            "id": "node_119",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -256,141 +212,117 @@
     ],
     "edges": [
         {
-            "id": "e4_to_80",
-            "source": "node_4",
-            "target": "node_80",
+            "id": "e2_to_244",
+            "source": "node_2",
+            "target": "node_244",
             "type": "step"
         },
         {
-            "id": "e43_to_81",
-            "source": "node_43",
-            "target": "node_81",
+            "id": "e5_to_105",
+            "source": "node_5",
+            "target": "node_105",
             "type": "step"
         },
         {
-            "id": "e72_to_3",
-            "source": "node_72",
-            "target": "node_3",
+            "id": "e10_to_106",
+            "source": "node_10",
+            "target": "node_106",
             "type": "step"
         },
         {
-            "id": "e75_to_10",
-            "source": "node_75",
-            "target": "node_10",
+            "id": "e11_to_107",
+            "source": "node_11",
+            "target": "node_107",
             "type": "step"
         },
         {
-            "id": "e80_to_73",
-            "source": "node_80",
-            "target": "node_73",
+            "id": "e15_to_83",
+            "source": "node_15",
+            "target": "node_83",
             "type": "step"
         },
         {
-            "id": "e84_to_116",
-            "source": "node_84",
-            "target": "node_116",
+            "id": "e37_to_53",
+            "source": "node_37",
+            "target": "node_53",
             "type": "step"
         },
         {
-            "id": "e114_to_97",
-            "source": "node_114",
+            "id": "e44_to_92",
+            "source": "node_44",
+            "target": "node_92",
+            "type": "step"
+        },
+        {
+            "id": "e51_to_91",
+            "source": "node_51",
+            "target": "node_91",
+            "type": "step"
+        },
+        {
+            "id": "e56_to_97",
+            "source": "node_56",
             "target": "node_97",
             "type": "step"
         },
         {
-            "id": "e137_to_155",
-            "source": "node_137",
-            "target": "node_155",
+            "id": "e85_to_41",
+            "source": "node_85",
+            "target": "node_41",
             "type": "step"
         },
         {
-            "id": "e139_to_178",
-            "source": "node_139",
-            "target": "node_178",
+            "id": "e99_to_64",
+            "source": "node_99",
+            "target": "node_64",
             "type": "step"
         },
         {
-            "id": "e140_to_181",
-            "source": "node_140",
-            "target": "node_181",
+            "id": "e100_to_64",
+            "source": "node_100",
+            "target": "node_64",
             "type": "step"
         },
         {
-            "id": "e142_to_177",
-            "source": "node_142",
-            "target": "node_177",
+            "id": "e103_to_4",
+            "source": "node_103",
+            "target": "node_4",
             "type": "step"
         },
         {
-            "id": "e145_to_131",
-            "source": "node_145",
-            "target": "node_131",
+            "id": "e104_to_4",
+            "source": "node_104",
+            "target": "node_4",
             "type": "step"
         },
         {
-            "id": "e164_to_183",
-            "source": "node_164",
-            "target": "node_183",
+            "id": "e106_to_12",
+            "source": "node_106",
+            "target": "node_12",
             "type": "step"
         },
         {
-            "id": "e167_to_187",
-            "source": "node_167",
-            "target": "node_187",
+            "id": "e107_to_14",
+            "source": "node_107",
+            "target": "node_14",
             "type": "step"
         },
         {
-            "id": "e175_to_141",
-            "source": "node_175",
-            "target": "node_141",
+            "id": "e114_to_7",
+            "source": "node_114",
+            "target": "node_7",
             "type": "step"
         },
         {
-            "id": "e176_to_141",
-            "source": "node_176",
-            "target": "node_141",
+            "id": "e115_to_7",
+            "source": "node_115",
+            "target": "node_7",
             "type": "step"
         },
         {
-            "id": "e181_to_163",
-            "source": "node_181",
-            "target": "node_163",
-            "type": "step"
-        },
-        {
-            "id": "e182_to_196",
-            "source": "node_182",
-            "target": "node_196",
-            "type": "step"
-        },
-        {
-            "id": "e185_to_182",
-            "source": "node_185",
-            "target": "node_182",
-            "type": "step"
-        },
-        {
-            "id": "e198_to_211",
-            "source": "node_198",
-            "target": "node_211",
-            "type": "step"
-        },
-        {
-            "id": "e208_to_2",
-            "source": "node_208",
-            "target": "node_2",
-            "type": "step"
-        },
-        {
-            "id": "e217_to_200",
-            "source": "node_217",
-            "target": "node_200",
-            "type": "step"
-        },
-        {
-            "id": "e218_to_200",
-            "source": "node_218",
-            "target": "node_200",
+            "id": "e119_to_25",
+            "source": "node_119",
+            "target": "node_25",
             "type": "step"
         }
     ]

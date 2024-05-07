@@ -12,87 +12,65 @@
             }
         },
         {
-            "id": "node_7",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour parents named you Anton. As the only child of a diligent civil servant, you lived quite an ordinary childhood.\\n\\nLife was not bad. You were lucky enough to attend a well-known public school.\\n\\nBut frequent fights broke out at the Rayne family home, which made you feel uneasy."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_8",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYour parents named you Anton. As the only child of a farmer, you spent your childhood among wheat fields.\\n\\nLife was not easy. You were too poor to afford a good education.\\n\\nThe Rayne family was caring regardless of the economically dire situation. Your parents always did their best to support you."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
             "id": "node_9",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nDuring a history class at school, the bell started to ring unexpectedly. You heard a loud commotion outside.\\n\\nAs everyone tried to figure out what was going on, the principal announced the historic revolution. \\n\\nThe Kingdom was no more. The Republic of Sordland was born.\n\n1923|September 9th\n\nPlaySoundEffect(School); WaitForMessage(Continue);"
+                "label": "Narrator\n\n<b><size=26>2,2 million</size></b> people found a job."
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 0
             }
         },
         {
-            "id": "node_10",
+            "id": "node_18",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nYou did not fully understand."
+                "label": "Narrator\n\n<b><size=26>9,822</size></b> people died due to complications related to Polio."
             },
             "position": {
                 "x": 0,
-                "y": 1250
+                "y": 0
             }
         },
         {
-            "id": "node_11",
+            "id": "node_31",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nYou were happy that you had the day off."
+                "label": "Narrator\n\nDuring street clashes <b><size=26>52</size></b> police officers and <b><size=26>228</size></b> protesters were killed, <b><size=26>8,821</size></b> protesters were arrested."
             },
             "position": {
                 "x": 0,
-                "y": 1750
+                "y": 0
             }
         },
         {
-            "id": "node_12",
+            "id": "node_32",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nYou were somewhat worried."
+                "label": "Narrator\n\nDuring street clashes <b><size=26>39</size></b> police officers and <b><size=26>109</size></b> protesters were killed, <b><size=26>11,823</size></b> protesters were arrested."
             },
             "position": {
-                "x": 270,
-                "y": 1750
+                "x": 0,
+                "y": 0
             }
         },
         {
-            "id": "node_13",
+            "id": "node_36",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nAfter graduating, you passed the university exam with high marks.\\n\\nYou had the opportunity to choose between several studies. You chose...\n\n1926"
+                "label": "Narrator\n\n<b><size=26>304,754</size></b> people lost their jobs."
             },
             "position": {
-                "x": 540,
-                "y": 1750
+                "x": 0,
+                "y": 0
             }
         },
         {
-            "id": "node_16",
+            "id": "node_37",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...History at the Deyr University of Culture."
+                "label": "BaseGame.Situation_Welfare_QualityRuralHealthServices == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -100,142 +78,10 @@
             }
         },
         {
-            "id": "node_18",
+            "id": "node_39",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nDuring the first year you attended a lecture with Deivid Wisci. He was a well-known diplomat from the Foreign Ministry and the son of the President.\\n\\nAfter observing the hall in silence, he explained how the Supreme Court is obstructing justice in Sordland. \\n\\nHe stated that laws should be applied fairly, and that even the members of the Supreme Court, are subject to the same laws."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_19",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDuring the first year you attended a lecture with Deivid Wisci. He was a well-known diplomat from the Foreign Ministry and the son of the President.\\n\\nAfter observing the hall in silence, he explained why Realpolitik is important for a successful foreign policy.\\n\\nHe argued that a strategy based on practical and material factors would be much more successful in reaching Sordland's ambitions."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_20",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nSoldiers entered the campus in the evening ahead of the first election.\\n\\nMany were in shock as the uniformed men created a security cordon and started arresting the teachers. \\n\\nA group of students started gathering in protest. Along with your best friend Petr Vectern, you decided to...\n\n1927|May 22nd"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...protest with the students."
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_24",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Birthplace_Holsord_Middle = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Birthplace_Deyr_Poor = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_26",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Studyplace_Holsord_Law = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_28",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Studyplace_Deyr_History = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe majority of the students and teachers displayed their opposition.\\n\\nThus, Lachaven became a target for the military regime.\\n\\nYou didn't want to stay idle and decided to join...\n\n1927|October 10th"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe coup split the students into two groups and caused frequent fights. \\n\\nTorture and imprisonment of any opposing voice became a daily routine in Deyr.\\n\\nYou didn't want to stay idle and decided to join...\n\n1927|October 10th"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_43",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...a political debate group."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_44",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nA student fell and was trampled as everybody started running away."
-            },
-            "position": {
-                "x": 540,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_47",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou tried to go out to see."
+                "label": "!(BaseGame.Situation_Welfare_QualityRuralHealthServices == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -246,18 +92,7 @@
             "id": "node_50",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nUnlike the others, you were lucky to escape."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_51",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou tried to bury yourself under the sheets."
+                "label": "!(BaseGame.Unrest_Peaceful_Happened == true && BaseGame.Turn09_UnrestStopped == false)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -268,62 +103,18 @@
             "id": "node_53",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nBut the soldiers locked the doors."
+                "label": "!(BaseGame.Unrest_Peaceful_Happened == true && BaseGame.Turn09_UnrestStopped == true)\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_54",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe dozens of debates helped you hone your oratory skills while also helping you grow your network.\\n\\nEven though the discussions between different groups often became heated, you all grew from sharing ideas.\\n\\nIn one of the meetings, Petr Vectern introduced you to a classmate of his, Monica. You were immediately attracted to..."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_55",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe politically charged environment led you to..."
-            },
-            "position": {
-                "x": 540,
-                "y": 1000
             }
         },
         {
             "id": "node_56",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...join the Red Youth, the socialists."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...join the Young Sords, the nationalists."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_58",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe radio relayed that the communist general Rikard surrounded Luderin and his troops, demanding their surrender.\\n\\nThey refused and heavy fighting broke out across the country. \\n\\nYou just couldn't believe it. The army was fighting amongst themselves.\n\n1928|June 2nd\n\nPlaySoundEffect(Newscaster); WaitForMessage(Continue);"
+                "label": "!(BaseGame.Reform_EmergencyDecree_DetentionWithoutTrial == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -334,18 +125,7 @@
             "id": "node_59",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_University_Political_Socialist == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_63",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nRikard's sudden attack caused even more bloodshed in the country. \\n\\nHe seemed different compared to fascist Luderin. In your opinion however, he was more of the same. \\n\\nSo you participated in a protest march. You were chanting..."
+                "label": "!(BaseGame.Reform_EmergencyDecree_SuspendedProtests == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -353,10 +133,10 @@
             }
         },
         {
-            "id": "node_64",
+            "id": "node_65",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...“United we stand, divided we fall!”\n\n"
+                "label": "!(BaseGame.Reform_Autocrat_Path == true && BaseGame.Decision_Turn08_ExtendEmergency_Extend == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -364,296 +144,21 @@
             }
         },
         {
-            "id": "node_67",
+            "id": "node_69",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nYou ran to save her."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_70",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nBut you couldn't reach her in time...\n\nPlaySoundEffect(Tank); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_72",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nBut all your efforts were in vain...\n\nPlaySoundEffect(Tank); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe clashes escalated into a full blown civil war. The horrors made you isolate yourself for a while.\\n\\nMonica helped you cope and love grew between the two of you.\\n\\nHowever, it was a difficult time for love."
+                "label": "BaseGame.Situation_Order_CrimeWave == true\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_74",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe charismatic Colonel, Tarquin Soll, orchestrated a sudden attack on the capital where the Luderinist and Rikardist forces were battling each other. He defeated both, ending the war.\\n\\nA new constitution was written, and the military government began efforts to restore stability. Many people saw the Colonel as a savior. \\n\\nHe formed the United Sordland party and ran as a presidential candidate. In the first-ever single-party elections...\n\n1929|Republic of Sordland"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...you did not vote."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nA devastating civil war broke out in the neighboring country, Wehlen. It quickly turned into a proxy war between regional and world powers.\\n\\nThe distinguished major, Iosef Lancea, ordered you to lead your squad on a border patrol mission.\\n\\nIt was a very cold winter night when you began marching out of Gumren Outpost.\n\n1930|February|Bergia Region"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nThe years passed."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
             }
         },
         {
             "id": "node_79",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nYour only concern was passing the exams.\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou could see your breath."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_84",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...escorted them back."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_86",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Studyplace_Holsord_Law == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_94",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYou became the legal assistant to one of the more experienced members of assembly.\\n\\nYou worked long and hard, going through hundreds of pages of legal documents late into the night."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_95",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYou became the economics assistant to one of the more experienced members of assembly.\\n\\nYou worked long and hard, investigating hundreds of pages of economic reports late into the night."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_96",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nYou became the foreign policy assistant to one of the more experienced members of assembly.\\n\\nYou worked long and hard, reviewing dozens of foreign policy plans late into the night."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_97",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nIt was the best opportunity to change the country for the better."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_99",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou were climbing the ladder."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_101",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nPresident Soll barely secured a majority in the election against the opposition leader.\\n\\nOver the next year, the Sordish people grew increasingly discontent with corruption and the worsening quality of life. Economic growth was slowing down.\\n\\nMeanwhile, calls for a United Sordland Party congress became louder as a leadership struggle started to brew. You...\n\n1945|October|Time of Change"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_102",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...joined the internal opposition."
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Studyplace_Holsord_Law == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_110",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe president offered you the position of Minister of Economy, Commerce and Energy in the next government if you backed him in the upcoming vote.\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe president offered you the position of Minister of Foreign Affairs and Trade in the next government if you backed him in the upcoming vote.\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe congress was nothing short of impressive. The banners of the United Sordland Party were decorating every possible spot.\\n\\nThousands of influential political figures, lobbyists and benefactors gathered for this turning point. \\n\\nThe voting for the party leadership began.\n\n1946|August\n\nPlaySoundEffect(Congress); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_114",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou voted for Ewald Alphonso."
-            },
-            "position": {
-                "x": 0,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_116",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou voted for Tarquin Soll."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_120",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...didn't care about who was in charge."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_122",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe Presidency of Alphonso saw many bold reforms in government and law and advancements in liberal democratic values.\\n\\nHowever, due to infighting and disorganization, continental economic tensions, and fast-track privatization, it was followed by a severe economic recession.\\n\\nThe other parties announced their bids for the 1953 election, but the unfair election system hampered opposition efforts to campaign. You...\n\n1951|Summer|A New Sordland"
+                "label": "Narrator\n\nDuring protests, <b><size=26>2 billion SR</size></b> worth public property damage was done and <b><size=26>821</size></b> arrests were made."
             },
             "position": {
                 "x": 0,
@@ -661,505 +166,76 @@
             }
         },
         {
-            "id": "node_124",
+            "id": "node_128",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...advised Alphonso to step down."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_125",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe listened to your advice. \\n\\nAlphonso conceded the leadership struggle and the party eventually voted you in because of your indisputable influence.\\n\\nFollowing this, you announced that you would be running for President in the general election with Petr as your running mate.\n\n1953|March"
+                "label": "!(BaseGame.Policy_Order_SecretStatePolice == true)\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_126",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...worried that your reputation would be tarnished along with Alphonso."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_129",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...her diligence."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_130",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nSordland plunged into chaos."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         },
         {
             "id": "node_131",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nYou stayed."
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_132",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou never forgot her face."
+                "label": "!(BaseGame.Turn09_A_Investigation_OldGuard_GovernmentOfficialsPurge == true)\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_133",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nThe chaos had to end."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_136",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nA month later, your daughter was born. Monica named her Deana. She motivated you during a tumultuous period in the party.\\n\\nAs the VP and the leader of the USP, Ewald Alphonso began dismantling the old organizations and structures established by the USP such as the State Educators Corps and the Sordish State Corporation Bills.\\n\\nThe general elections were approaching. The United Sordland party was under new leadership. You...\n\n1946|October 15th|Uncertain Years"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...did your best not to help him."
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_138",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...dedicated yourself to the party and its success."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_139",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter visiting every city and town during the campaign, you made a speech on state television.\\n\\nYou promised to...\n\n1953|October|Election Campaign\n\nPlaySoundEffect(Speech); WaitForMessage(Continue);"
-            },
-            "position": {
-                "x": 540,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...preserve national values."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_144",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Speech_Democracy_Liberal = true; \\nBaseGame.Democratic += 1;\\nBaseGame.Bludish_Opinion += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_146",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nThe broadcast ended."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_148",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...blamed Alphonso for the crisis on television."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_149",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou questioned what you were being taught.\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_150",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...a student council."
-            },
-            "position": {
-                "x": 270,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_151",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...a human rights group."
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_152",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...“End the chaos! We want stability!”\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_153",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...“Workers of the world, unite!”"
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_154",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...“Bring down the fascists!”"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_155",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...“One nation, one system, one people!”\n\n"
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_156",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou left."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_157",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...you voted for the United Sordland Party."
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_159",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nWorking for the ruling party was the easiest path to power."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_161",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou accepted right away."
-            },
-            "position": {
-                "x": 270,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_162",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...kept supporting the president."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_163",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...watched from the sidelines."
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_165",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe contender for party leadership was Ewald Alphonso, a reformist and talented business magnate with a growing follower base within the party.\\n\\nMeanwhile, in a desperate effort to secure votes before the congress, President Soll was meeting party members one by one.\n\n1946|July"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
             }
         },
         {
             "id": "node_167",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nHe approached you too."
-            },
-            "position": {
-                "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_168",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nUnfortunately, Tarquin Soll lost the leadership vote to Ewald Alphonso by a small margin. \\n\\nDuring the congress, Soll announced he would retire from politics at the end of his term, and appointed Alphonso as Vice President.\\n\\nThe systems he had established were to stay much longer; his achievements wouldn't be forgotten. You...\n\n1946|September 1st"
+                "label": "Narrator\n\n<b><size=26>13,142</size></b> businesses were founded."
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_169",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...were troubled by the departure of Soll."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_170",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...were happy that Soll was finally leaving."
-            },
-            "position": {
-                "x": 270,
-                "y": 750
             }
         },
         {
             "id": "node_171",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...joined the party effort and campaigned for him."
+                "label": "Narrator\n\n<b><size=26>1,340</size></b> women won a domestic violence case at the courts."
             },
             "position": {
                 "x": 0,
-                "y": 750
+                "y": 0
             }
         },
         {
             "id": "node_173",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...did your best in order to make Sordland a better place."
-            },
-            "position": {
-                "x": 270,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_174",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...thought that your party could not survive another crisis."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_175",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe council was focused on increasing the student involvement in the campus along with partaking in the budget. \\n\\nThrough active participation, you gained budget management and leadership skills.\\n\\nIn one of the meetings, Petr Vectern introduced you to a classmate of his, Monica. You were immediately attracted to..."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_176",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe group heavily protested against the deteriorating human rights situation in Sordland. \\n\\nYou contributed in thorough discussions on how to protect and expand freedoms.\\n\\nIn one of the meetings, Petr Vectern introduced you to a classmate of his, Monica. You were immediately attracted to..."
+                "label": "BaseGame.Turn06_PSnW_Healthcare_Privatization == true\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_177",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...her beauty."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_178",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe clashes escalated into a full blown civil war. The horrors made you isolate yourself for a while.\\n\\nMonica helped you cope and love grew between the two of you.\\n\\nHowever, it was a difficult time for love."
-            },
-            "position": {
-                "x": 810,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_179",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nIt was time to serve your national duty."
-            },
-            "position": {
-                "x": 0,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_180",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nYou agreed in principle.\n\n"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
             }
         },
         {
             "id": "node_181",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...were worried about the economic recession."
+                "label": "!(BaseGame.Turn06_PSnW_Healthcare_Privatization == true && BaseGame.Turn04_PSnW_Education_Privatization == true)\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_182",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nIt was time to face the truth."
-            },
-            "position": {
-                "x": 270,
-                "y": 500
+                "y": 0
             }
         },
         {
             "id": "node_184",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nAfter the patrol, Major Lancea arrived with anger and immediately relieved you of your command, calling you a disappointment.\\n\\nOne of your squad members had reported your actions.\\n\\nAfter several months of scrubbing the floors as a punishment..."
+                "label": "!(BaseGame.SordishStateCorporation_Privatization + BaseGame.NedamMiningGroup_Privatization >= 1)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1167,21 +243,10 @@
             }
         },
         {
-            "id": "node_186",
+            "id": "node_185",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nThe media backlash prompted President Alphonso to reshuffle his cabinet, but most of his inner circle, even Minister of Development Gus Manger, abandoned him.\\n\\nAlphonso was removed from power by a no-confidence vote. The party eventually voted you in because of your influence.\\n\\nFollowing this, you announced that you would be running for President in the general election with Petr as your running mate.\n\n1953|March"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_187",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...her intelligence."
+                "label": "BaseGame.SordishStateCorporation_Privatization + BaseGame.NedamMiningGroup_Privatization >= 3\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1192,40 +257,18 @@
             "id": "node_188",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_Party_Takeover_PublicBlame = true\n\nnan"
-            },
-            "position": {
-                "x": 540,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_191",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_University_Political_Active = true \n\nnan"
+                "label": "BaseGame.SordishStateCorporation_Privatization + BaseGame.NedamMiningGroup_Privatization >= 6\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
             "id": "node_195",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n...your duties ended and you went back to civilian life."
-            },
-            "position": {
-                "x": 540,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_197",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDuring your absence, Petr Vectern found trustworthy contacts and strengthened your position in the party.\\n\\nAt the same time, President Soll increased his authority over the years. His growing ego started to cause strife within the USP.\n\n1941|October"
+                "label": "BaseGame.SordlandArmySize == 1 && BaseGame.Ending_RumburgWarLost == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1233,32 +276,10 @@
             }
         },
         {
-            "id": "node_198",
+            "id": "node_203",
             "type": "customNode",
             "data": {
-                "label": "Player\n\nThe cracks began to show."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_199",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...stay away from any political organization."
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_201",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\nSordland plunged into chaos."
+                "label": "!(BaseGame.SordlandArmySize == 2 && BaseGame.Ending_RumburgWarLost == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1266,43 +287,32 @@
             }
         },
         {
-            "id": "node_202",
+            "id": "node_207",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_University_Political_Active = false\n\nnan"
+                "label": "BaseGame.Turn05_SnO_Military_ReduceSize == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 0
             }
         },
         {
-            "id": "node_204",
+            "id": "node_212",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\n“Great nation of Sordland! Due to our incompetent leadership, enemies both internal and external are influencing our glorious nation.\\n\\nToday, more than ever, we need to unite under one flag and protect our values! Greci Sordland!\"\n\n\n\nPlaySoundEffect(Cheering); WaitForMessage(Continue);"
+                "label": "!(BaseGame.Situation_Military_GreenGenerals == true)\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
-            "id": "node_205",
+            "id": "node_217",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.PersonalWealth += 3;\\nBaseGame.Public_Opinion -= 2;\\nBaseGame.Bludish_Opinion -= 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_208",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n...sacrificed work to spend time with your family."
+                "label": "Narrator\n\n<b><size=26>99,332</size></b> soldiers died during the Rumburg Invasion."
             },
             "position": {
                 "x": 0,
@@ -1313,7 +323,7 @@
             "id": "node_218",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_Family_Important = true\n\nnan"
+                "label": "Narrator\n\n<b><size=26>156,332</size></b> soldiers died during the Rumburg Invasion."
             },
             "position": {
                 "x": 0,
@@ -1324,7 +334,7 @@
             "id": "node_219",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nJust like your father once did, you prioritized work over family. Along with Petr Vectern, you accomplished great things for your party. \\n\\nAt home, Monica and Franc felt your absence.\\n\\nMeanwhile, President Soll increased his authority over the years. His growing ego started to cause strife within the USP.\n\n1941|October"
+                "label": "Narrator\n\n<b><size=26>189,229</size></b> soldiers died during the Rumburg Invasion."
             },
             "position": {
                 "x": 0,
@@ -1335,7 +345,7 @@
             "id": "node_220",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_University_1stCoup_Protested = true\n\nnan"
+                "label": "Narrator\n\n<b><size=26>433,165</size></b> soldiers died during the Rumburg Invasion."
             },
             "position": {
                 "x": 0,
@@ -1346,7 +356,18 @@
             "id": "node_221",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_Protest_Girl_Crushed = true\n\nnan"
+                "label": "Narrator\n\n<b><size=26>86,450</size></b> soldiers became unemployed."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_222",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>6,894</size></b> military personnel were forcibly retired."
             },
             "position": {
                 "x": 0,
@@ -1354,21 +375,32 @@
             }
         },
         {
-            "id": "node_222",
+            "id": "node_223",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_Birthplace_Lachaven_Rich == true\n\nnan"
+                "label": "Narrator\n\n<b><size=26>102,345</size></b> conscripts joined the work force."
             },
             "position": {
                 "x": 0,
-                "y": 500
+                "y": 250
             }
         },
         {
-            "id": "node_226",
+            "id": "node_224",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_University_Political_Active = true; BaseGame.Prologue_University_Political_Socialist = true; BaseGame.Malenyevist += 1; BaseGame.Sollist -= 1\n\nnan"
+                "label": "Narrator\n\n<b><size=26>1,314</size></b> conscripts died in training."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Situation_Economy_LargeBusiness_CreateJobs == true && BaseGame.Turn09_EnT_SordishRecovery == true && BaseGame.Reform_PresiPower_Weak_FairTradeCommission == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1379,73 +411,7 @@
             "id": "node_227",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_University_Political_Active = true; BaseGame.Prologue_University_Political_Nationalist = true; BaseGame.Sollist += 1; BaseGame.Malenyevist -= 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_228",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Sollist += 1\\n\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_230",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.PersonalWealth += 2;\\nBaseGame.Public_Opinion += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_231",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.PersonalWealth += 1;\\nBaseGame.Public_Opinion += 2;\\nBaseGame.Bludish_Opinion += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_232",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_MinisterOffer_Accepted = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_233",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_MinisterOffer_Rejected = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_234",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Party_CampaignedForAlphonso = true\n\nnan"
+                "label": "!(BaseGame.Situation_Economy_LargeBusiness_CreateJobs == true && BaseGame.Turn09_EnT_SordishRecovery == true && BaseGame.Reform_PresiPower_Weak_FairTradeCommission == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1453,21 +419,10 @@
             }
         },
         {
-            "id": "node_235",
+            "id": "node_237",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_Party_CampaignedForAlphonso == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_238",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Public_Opinion -= 1\n\nnan"
+                "label": "Narrator\n\n<b><size=26>81,340</size></b> companies declared bankruptcy."
             },
             "position": {
                 "x": 0,
@@ -1478,7 +433,7 @@
             "id": "node_239",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_Birthplace_Deyr_Poor == true\n\nnan"
+                "label": "Narrator\n\nForeign investors have pulled out around <b><size=26>3 billion</size></b> SR from the Sordish market."
             },
             "position": {
                 "x": 0,
@@ -1486,417 +441,65 @@
             }
         },
         {
-            "id": "node_242",
+            "id": "node_240",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nAfter graduating, you passed the university exam with high marks.\\n\\nEven though your family was poor, the public education system made it possible to go to university. You had the opportunity to choose between several studies.\\n\\nYou chose...\n\n1926"
+                "label": "BaseGame.HeartOfSordland_Nationalization + BaseGame.BergiaSteel_Nationalization >= 1\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_243",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Prologue_Party_CampaignedForAlphonso == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_246",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThe Presidency of Alphonso saw many bold reforms in government and law and advancements in liberal democratic values. He valued your support throughout.\\n\\nHowever, due to infighting and disorganization, continental economic tensions, and fast-track privatization, it was followed by a severe economic recession.\\n\\nThe other parties announced their bids for the 1953 election, but the unfair election system hampered opposition efforts to campaign. You...\n\n1951|Summer|A New Sordland"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_247",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_248",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_university\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
             }
         },
         {
             "id": "node_249",
             "type": "customNode",
             "data": {
-                "label": "AdvanceTimeline();\\nPrologueImage(\"pe_coup\");\n\nnan"
+                "label": "Narrator\n\n<b><size=26>5,200</size></b> state employees lost their jobs while 3 oligarchs obtained 20% of the Sordish economy."
             },
             "position": {
                 "x": 0,
-                "y": 1000
-            }
-        },
-        {
-            "id": "node_250",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_holsord\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1750
-            }
-        },
-        {
-            "id": "node_251",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_lachaven\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_252",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_deyr\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_253",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_254",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_255",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_protest\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_256",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_protest\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_257",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_coup2\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_258",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\\nPrologueImage(\"pe_soll\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_259",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\\nPrologueImage(\"pe_outpost\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
             "id": "node_260",
             "type": "customNode",
             "data": {
-                "label": "PrologueImage(\"pe_wedding\");\n\nnan"
+                "label": "Narrator\n\n<b><size=26>5,143</size></b> news articles were censored."
             },
             "position": {
                 "x": 0,
-                "y": 750
+                "y": 0
             }
         },
         {
             "id": "node_261",
             "type": "customNode",
             "data": {
-                "label": "PrologueImage(\"pe_suitcase\");\n\nnan"
+                "label": "Narrator\n\n<b><size=26>1,143</size></b> news articles were altered."
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
             }
         },
         {
             "id": "node_262",
             "type": "customNode",
             "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_263",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_meeting\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_264",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\\nPrologueImage(\"pe_baby\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_265",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\\nPrologueImage(\"pe_innercircle\");\n\nnan"
+                "label": "BaseGame.Turn09_EnT_SordishDepression == true && (BaseGame.EconomyAction_PrintMoney == true || BaseGame.Turn09_EnT_HyperInflation == true || BaseGame.Situation_Economy_DebtCrisis == true)\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
-            }
-        },
-        {
-            "id": "node_266",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_267",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_politicians\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1250
             }
         },
         {
             "id": "node_268",
             "type": "customNode",
             "data": {
-                "label": "PrologueImage(\"pe_meeting\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_269",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_congress\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_270",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1500
-            }
-        },
-        {
-            "id": "node_271",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_baby\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_272",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\\nPrologueImage(\"pe_flag\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 1250
-            }
-        },
-        {
-            "id": "node_273",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_274",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\\nPrologueImage(\"pe_speech\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_275",
-            "type": "customNode",
-            "data": {
-                "label": "AdvanceTimeline();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 750
-            }
-        },
-        {
-            "id": "node_276",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_vote\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_277",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_lachaven\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_278",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_holsord\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_279",
-            "type": "customNode",
-            "data": {
-                "label": "PrologueImage(\"pe_deyr\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_280",
-            "type": "customNode",
-            "data": {
-                "label": "PlayLoopedMusic(\"PrologueIntro\", \"PrologueLoop\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_284",
-            "type": "customNode",
-            "data": {
-                "label": "DontPlayMapMusic();\n\nnan"
+                "label": "BaseGame.Bill_Turn04_WorkersRights_Signed == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1904,10 +507,87 @@
             }
         },
         {
-            "id": "node_288",
+            "id": "node_271",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Prologue_University_SupportWomensRights = true\n\nnan"
+                "label": "Narrator\n\n<b><size=26>2,5 million</size></b> workers benefitted from minimum wage."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_272",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>110,467</size></b> people benefitted from state housing."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nPrice of bread increased from 0,5 SR to <b><size=26>4 SR.</size></b>"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_274",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_RumburgWarWin == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>2,2 million</size></b> civilians have died in the war."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_WorldWar == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>63 million</size></b> people died during the world war."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true && BaseGame.Turn09_EnT_SordishRecovery == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -1918,7 +598,7 @@
             "id": "node_289",
             "type": "customNode",
             "data": {
-                "label": "DontPlayMapAmbience();\n\nnan"
+                "label": "Narrator\n\nDuring the coup <b><size=26>33</size></b> soldiers and <b><size=26>1,430</size></b> protesters were killed, <b><size=26>146,399</size></b> protesters were detained."
             },
             "position": {
                 "x": 0,
@@ -1927,6 +607,50 @@
         },
         {
             "id": "node_290",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Joined_ATO == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_295",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Joined_CSP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>998</size></b> CSP officers arrived in Sordland."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\n<b><size=26>86,391</size></b> government welfare payments bounced."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -1939,1058 +663,362 @@
     ],
     "edges": [
         {
-            "id": "e1_to_281",
+            "id": "e1_to_283",
             "source": "node_1",
-            "target": "node_281",
+            "target": "node_283",
             "type": "step"
         },
         {
-            "id": "e7_to_206",
-            "source": "node_7",
-            "target": "node_206",
-            "type": "step"
-        },
-        {
-            "id": "e8_to_231",
-            "source": "node_8",
-            "target": "node_231",
-            "type": "step"
-        },
-        {
-            "id": "e9_to_232",
+            "id": "e9_to_263",
             "source": "node_9",
-            "target": "node_232",
-            "type": "step"
-        },
-        {
-            "id": "e10_to_248",
-            "source": "node_10",
-            "target": "node_248",
-            "type": "step"
-        },
-        {
-            "id": "e11_to_240",
-            "source": "node_11",
-            "target": "node_240",
-            "type": "step"
-        },
-        {
-            "id": "e12_to_240",
-            "source": "node_12",
-            "target": "node_240",
-            "type": "step"
-        },
-        {
-            "id": "e13_to_240",
-            "source": "node_13",
-            "target": "node_240",
-            "type": "step"
-        },
-        {
-            "id": "e16_to_28",
-            "source": "node_16",
-            "target": "node_28",
-            "type": "step"
-        },
-        {
-            "id": "e18_to_249",
-            "source": "node_18",
-            "target": "node_249",
-            "type": "step"
-        },
-        {
-            "id": "e19_to_249",
-            "source": "node_19",
-            "target": "node_249",
-            "type": "step"
-        },
-        {
-            "id": "e20_to_249",
-            "source": "node_20",
-            "target": "node_249",
-            "type": "step"
-        },
-        {
-            "id": "e21_to_250",
-            "source": "node_21",
-            "target": "node_250",
-            "type": "step"
-        },
-        {
-            "id": "e24_to_278",
-            "source": "node_24",
-            "target": "node_278",
-            "type": "step"
-        },
-        {
-            "id": "e25_to_279",
-            "source": "node_25",
-            "target": "node_279",
-            "type": "step"
-        },
-        {
-            "id": "e26_to_280",
-            "source": "node_26",
-            "target": "node_280",
-            "type": "step"
-        },
-        {
-            "id": "e28_to_18",
-            "source": "node_28",
-            "target": "node_18",
-            "type": "step"
-        },
-        {
-            "id": "e41_to_251",
-            "source": "node_41",
-            "target": "node_251",
-            "type": "step"
-        },
-        {
-            "id": "e42_to_252",
-            "source": "node_42",
-            "target": "node_252",
-            "type": "step"
-        },
-        {
-            "id": "e43_to_253",
-            "source": "node_43",
-            "target": "node_253",
-            "type": "step"
-        },
-        {
-            "id": "e44_to_195",
-            "source": "node_44",
-            "target": "node_195",
-            "type": "step"
-        },
-        {
-            "id": "e47_to_192",
-            "source": "node_47",
-            "target": "node_192",
-            "type": "step"
-        },
-        {
-            "id": "e50_to_129",
-            "source": "node_50",
-            "target": "node_129",
-            "type": "step"
-        },
-        {
-            "id": "e51_to_129",
-            "source": "node_51",
-            "target": "node_129",
-            "type": "step"
-        },
-        {
-            "id": "e53_to_129",
-            "source": "node_53",
-            "target": "node_129",
-            "type": "step"
-        },
-        {
-            "id": "e54_to_129",
-            "source": "node_54",
-            "target": "node_129",
-            "type": "step"
-        },
-        {
-            "id": "e55_to_188",
-            "source": "node_55",
-            "target": "node_188",
-            "type": "step"
-        },
-        {
-            "id": "e56_to_200",
-            "source": "node_56",
-            "target": "node_200",
-            "type": "step"
-        },
-        {
-            "id": "e57_to_227",
-            "source": "node_57",
-            "target": "node_227",
-            "type": "step"
-        },
-        {
-            "id": "e58_to_228",
-            "source": "node_58",
-            "target": "node_228",
-            "type": "step"
-        },
-        {
-            "id": "e59_to_254",
-            "source": "node_59",
-            "target": "node_254",
-            "type": "step"
-        },
-        {
-            "id": "e63_to_257",
-            "source": "node_63",
-            "target": "node_257",
-            "type": "step"
-        },
-        {
-            "id": "e64_to_256",
-            "source": "node_64",
-            "target": "node_256",
-            "type": "step"
-        },
-        {
-            "id": "e67_to_157",
-            "source": "node_67",
-            "target": "node_157",
-            "type": "step"
-        },
-        {
-            "id": "e70_to_157",
-            "source": "node_70",
-            "target": "node_157",
-            "type": "step"
-        },
-        {
-            "id": "e72_to_258",
-            "source": "node_72",
-            "target": "node_258",
-            "type": "step"
-        },
-        {
-            "id": "e73_to_133",
-            "source": "node_73",
-            "target": "node_133",
-            "type": "step"
-        },
-        {
-            "id": "e74_to_134",
-            "source": "node_74",
-            "target": "node_134",
-            "type": "step"
-        },
-        {
-            "id": "e75_to_259",
-            "source": "node_75",
-            "target": "node_259",
-            "type": "step"
-        },
-        {
-            "id": "e77_to_180",
-            "source": "node_77",
-            "target": "node_180",
-            "type": "step"
-        },
-        {
-            "id": "e78_to_260",
-            "source": "node_78",
-            "target": "node_260",
-            "type": "step"
-        },
-        {
-            "id": "e79_to_10",
-            "source": "node_79",
-            "target": "node_10",
-            "type": "step"
-        },
-        {
-            "id": "e81_to_46",
-            "source": "node_81",
-            "target": "node_46",
-            "type": "step"
-        },
-        {
-            "id": "e84_to_185",
-            "source": "node_84",
-            "target": "node_185",
-            "type": "step"
-        },
-        {
-            "id": "e86_to_204",
-            "source": "node_86",
-            "target": "node_204",
-            "type": "step"
-        },
-        {
-            "id": "e94_to_261",
-            "source": "node_94",
-            "target": "node_261",
-            "type": "step"
-        },
-        {
-            "id": "e95_to_262",
-            "source": "node_95",
-            "target": "node_262",
-            "type": "step"
-        },
-        {
-            "id": "e96_to_262",
-            "source": "node_96",
-            "target": "node_262",
-            "type": "step"
-        },
-        {
-            "id": "e97_to_262",
-            "source": "node_97",
-            "target": "node_262",
-            "type": "step"
-        },
-        {
-            "id": "e99_to_263",
-            "source": "node_99",
             "target": "node_263",
             "type": "step"
         },
         {
-            "id": "e101_to_210",
-            "source": "node_101",
-            "target": "node_210",
+            "id": "e18_to_38",
+            "source": "node_18",
+            "target": "node_38",
             "type": "step"
         },
         {
-            "id": "e102_to_267",
-            "source": "node_102",
-            "target": "node_267",
+            "id": "e31_to_90",
+            "source": "node_31",
+            "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e103_to_230",
-            "source": "node_103",
-            "target": "node_230",
+            "id": "e32_to_90",
+            "source": "node_32",
+            "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e110_to_269",
-            "source": "node_110",
+            "id": "e36_to_269",
+            "source": "node_36",
             "target": "node_269",
             "type": "step"
         },
         {
-            "id": "e111_to_269",
-            "source": "node_111",
-            "target": "node_269",
+            "id": "e37_to_12",
+            "source": "node_37",
+            "target": "node_12",
             "type": "step"
         },
         {
-            "id": "e113_to_233",
-            "source": "node_113",
-            "target": "node_233",
+            "id": "e39_to_20",
+            "source": "node_39",
+            "target": "node_20",
             "type": "step"
         },
         {
-            "id": "e114_to_270",
-            "source": "node_114",
-            "target": "node_270",
+            "id": "e50_to_79",
+            "source": "node_50",
+            "target": "node_79",
             "type": "step"
         },
         {
-            "id": "e116_to_271",
-            "source": "node_116",
-            "target": "node_271",
+            "id": "e53_to_80",
+            "source": "node_53",
+            "target": "node_80",
             "type": "step"
         },
         {
-            "id": "e120_to_169",
-            "source": "node_120",
-            "target": "node_169",
+            "id": "e56_to_83",
+            "source": "node_56",
+            "target": "node_83",
             "type": "step"
         },
         {
-            "id": "e122_to_273",
-            "source": "node_122",
-            "target": "node_273",
+            "id": "e59_to_84",
+            "source": "node_59",
+            "target": "node_84",
             "type": "step"
         },
         {
-            "id": "e124_to_149",
-            "source": "node_124",
-            "target": "node_149",
+            "id": "e65_to_81",
+            "source": "node_65",
+            "target": "node_81",
             "type": "step"
         },
         {
-            "id": "e125_to_191",
-            "source": "node_125",
-            "target": "node_191",
-            "type": "step"
-        },
-        {
-            "id": "e126_to_275",
-            "source": "node_126",
-            "target": "node_275",
-            "type": "step"
-        },
-        {
-            "id": "e129_to_35",
-            "source": "node_129",
-            "target": "node_35",
-            "type": "step"
-        },
-        {
-            "id": "e130_to_286",
-            "source": "node_130",
-            "target": "node_286",
-            "type": "step"
-        },
-        {
-            "id": "e131_to_60",
-            "source": "node_131",
-            "target": "node_60",
-            "type": "step"
-        },
-        {
-            "id": "e132_to_72",
-            "source": "node_132",
-            "target": "node_72",
-            "type": "step"
-        },
-        {
-            "id": "e133_to_222",
-            "source": "node_133",
-            "target": "node_222",
-            "type": "step"
-        },
-        {
-            "id": "e136_to_104",
-            "source": "node_136",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e137_to_272",
-            "source": "node_137",
-            "target": "node_272",
-            "type": "step"
-        },
-        {
-            "id": "e138_to_122",
-            "source": "node_138",
-            "target": "node_122",
-            "type": "step"
-        },
-        {
-            "id": "e139_to_244",
-            "source": "node_139",
-            "target": "node_244",
-            "type": "step"
-        },
-        {
-            "id": "e140_to_276",
-            "source": "node_140",
-            "target": "node_276",
-            "type": "step"
-        },
-        {
-            "id": "e144_to_205",
-            "source": "node_144",
-            "target": "node_205",
-            "type": "step"
-        },
-        {
-            "id": "e146_to_190",
-            "source": "node_146",
-            "target": "node_190",
-            "type": "step"
-        },
-        {
-            "id": "e148_to_277",
-            "source": "node_148",
-            "target": "node_277",
-            "type": "step"
-        },
-        {
-            "id": "e149_to_236",
-            "source": "node_149",
-            "target": "node_236",
-            "type": "step"
-        },
-        {
-            "id": "e150_to_21",
-            "source": "node_150",
-            "target": "node_21",
-            "type": "step"
-        },
-        {
-            "id": "e151_to_194",
-            "source": "node_151",
-            "target": "node_194",
-            "type": "step"
-        },
-        {
-            "id": "e152_to_193",
-            "source": "node_152",
-            "target": "node_193",
-            "type": "step"
-        },
-        {
-            "id": "e153_to_70",
-            "source": "node_153",
-            "target": "node_70",
-            "type": "step"
-        },
-        {
-            "id": "e154_to_67",
-            "source": "node_154",
-            "target": "node_67",
-            "type": "step"
-        },
-        {
-            "id": "e155_to_67",
-            "source": "node_155",
-            "target": "node_67",
-            "type": "step"
-        },
-        {
-            "id": "e156_to_70",
-            "source": "node_156",
-            "target": "node_70",
-            "type": "step"
-        },
-        {
-            "id": "e157_to_179",
-            "source": "node_157",
-            "target": "node_179",
-            "type": "step"
-        },
-        {
-            "id": "e159_to_87",
-            "source": "node_159",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e161_to_207",
-            "source": "node_161",
-            "target": "node_207",
-            "type": "step"
-        },
-        {
-            "id": "e162_to_207",
-            "source": "node_162",
-            "target": "node_207",
-            "type": "step"
-        },
-        {
-            "id": "e163_to_229",
-            "source": "node_163",
-            "target": "node_229",
-            "type": "step"
-        },
-        {
-            "id": "e165_to_268",
-            "source": "node_165",
-            "target": "node_268",
-            "type": "step"
-        },
-        {
-            "id": "e167_to_114",
-            "source": "node_167",
-            "target": "node_114",
-            "type": "step"
-        },
-        {
-            "id": "e168_to_104",
-            "source": "node_168",
-            "target": "node_104",
-            "type": "step"
-        },
-        {
-            "id": "e169_to_271",
-            "source": "node_169",
-            "target": "node_271",
-            "type": "step"
-        },
-        {
-            "id": "e170_to_137",
-            "source": "node_170",
-            "target": "node_137",
-            "type": "step"
-        },
-        {
-            "id": "e171_to_137",
-            "source": "node_171",
-            "target": "node_137",
-            "type": "step"
-        },
-        {
-            "id": "e173_to_244",
-            "source": "node_173",
-            "target": "node_244",
-            "type": "step"
-        },
-        {
-            "id": "e174_to_244",
-            "source": "node_174",
-            "target": "node_244",
-            "type": "step"
-        },
-        {
-            "id": "e175_to_124",
-            "source": "node_175",
-            "target": "node_124",
-            "type": "step"
-        },
-        {
-            "id": "e176_to_130",
-            "source": "node_176",
-            "target": "node_130",
-            "type": "step"
-        },
-        {
-            "id": "e177_to_188",
-            "source": "node_177",
-            "target": "node_188",
-            "type": "step"
-        },
-        {
-            "id": "e178_to_286",
-            "source": "node_178",
-            "target": "node_286",
-            "type": "step"
-        },
-        {
-            "id": "e179_to_134",
-            "source": "node_179",
-            "target": "node_134",
-            "type": "step"
-        },
-        {
-            "id": "e180_to_78",
-            "source": "node_180",
-            "target": "node_78",
-            "type": "step"
-        },
-        {
-            "id": "e181_to_21",
-            "source": "node_181",
-            "target": "node_21",
-            "type": "step"
-        },
-        {
-            "id": "e182_to_124",
-            "source": "node_182",
-            "target": "node_124",
-            "type": "step"
-        },
-        {
-            "id": "e184_to_45",
-            "source": "node_184",
-            "target": "node_45",
-            "type": "step"
-        },
-        {
-            "id": "e186_to_275",
-            "source": "node_186",
-            "target": "node_275",
-            "type": "step"
-        },
-        {
-            "id": "e187_to_275",
-            "source": "node_187",
-            "target": "node_275",
-            "type": "step"
-        },
-        {
-            "id": "e188_to_286",
-            "source": "node_188",
-            "target": "node_286",
-            "type": "step"
-        },
-        {
-            "id": "e191_to_126",
-            "source": "node_191",
-            "target": "node_126",
-            "type": "step"
-        },
-        {
-            "id": "e195_to_55",
-            "source": "node_195",
+            "id": "e69_to_55",
+            "source": "node_69",
             "target": "node_55",
             "type": "step"
         },
         {
-            "id": "e197_to_261",
-            "source": "node_197",
-            "target": "node_261",
+            "id": "e79_to_90",
+            "source": "node_79",
+            "target": "node_90",
             "type": "step"
         },
         {
-            "id": "e198_to_266",
-            "source": "node_198",
-            "target": "node_266",
+            "id": "e128_to_145",
+            "source": "node_128",
+            "target": "node_145",
             "type": "step"
         },
         {
-            "id": "e199_to_102",
-            "source": "node_199",
-            "target": "node_102",
+            "id": "e131_to_146",
+            "source": "node_131",
+            "target": "node_146",
             "type": "step"
         },
         {
-            "id": "e201_to_255",
-            "source": "node_201",
-            "target": "node_255",
+            "id": "e167_to_226",
+            "source": "node_167",
+            "target": "node_226",
             "type": "step"
         },
         {
-            "id": "e202_to_179",
-            "source": "node_202",
-            "target": "node_179",
-            "type": "step"
-        },
-        {
-            "id": "e204_to_93",
-            "source": "node_204",
-            "target": "node_93",
-            "type": "step"
-        },
-        {
-            "id": "e205_to_147",
-            "source": "node_205",
-            "target": "node_147",
-            "type": "step"
-        },
-        {
-            "id": "e208_to_264",
-            "source": "node_208",
-            "target": "node_264",
-            "type": "step"
-        },
-        {
-            "id": "e218_to_264",
-            "source": "node_218",
-            "target": "node_264",
-            "type": "step"
-        },
-        {
-            "id": "e219_to_198",
-            "source": "node_219",
-            "target": "node_198",
-            "type": "step"
-        },
-        {
-            "id": "e220_to_266",
-            "source": "node_220",
-            "target": "node_266",
-            "type": "step"
-        },
-        {
-            "id": "e221_to_50",
-            "source": "node_221",
-            "target": "node_50",
-            "type": "step"
-        },
-        {
-            "id": "e222_to_74",
-            "source": "node_222",
-            "target": "node_74",
-            "type": "step"
-        },
-        {
-            "id": "e226_to_266",
-            "source": "node_226",
-            "target": "node_266",
-            "type": "step"
-        },
-        {
-            "id": "e227_to_59",
-            "source": "node_227",
-            "target": "node_59",
-            "type": "step"
-        },
-        {
-            "id": "e228_to_59",
-            "source": "node_228",
-            "target": "node_59",
-            "type": "step"
-        },
-        {
-            "id": "e230_to_165",
-            "source": "node_230",
-            "target": "node_165",
-            "type": "step"
-        },
-        {
-            "id": "e231_to_79",
-            "source": "node_231",
-            "target": "node_79",
-            "type": "step"
-        },
-        {
-            "id": "e232_to_79",
-            "source": "node_232",
-            "target": "node_79",
-            "type": "step"
-        },
-        {
-            "id": "e233_to_114",
-            "source": "node_233",
-            "target": "node_114",
-            "type": "step"
-        },
-        {
-            "id": "e234_to_114",
-            "source": "node_234",
-            "target": "node_114",
-            "type": "step"
-        },
-        {
-            "id": "e235_to_122",
-            "source": "node_235",
-            "target": "node_122",
-            "type": "step"
-        },
-        {
-            "id": "e238_to_189",
-            "source": "node_238",
-            "target": "node_189",
-            "type": "step"
-        },
-        {
-            "id": "e239_to_189",
-            "source": "node_239",
-            "target": "node_189",
-            "type": "step"
-        },
-        {
-            "id": "e242_to_14",
-            "source": "node_242",
-            "target": "node_14",
-            "type": "step"
-        },
-        {
-            "id": "e243_to_15",
-            "source": "node_243",
-            "target": "node_15",
-            "type": "step"
-        },
-        {
-            "id": "e246_to_123",
-            "source": "node_246",
-            "target": "node_123",
-            "type": "step"
-        },
-        {
-            "id": "e247_to_274",
-            "source": "node_247",
-            "target": "node_274",
-            "type": "step"
-        },
-        {
-            "id": "e248_to_11",
-            "source": "node_248",
-            "target": "node_11",
-            "type": "step"
-        },
-        {
-            "id": "e249_to_181",
-            "source": "node_249",
-            "target": "node_181",
-            "type": "step"
-        },
-        {
-            "id": "e250_to_22",
-            "source": "node_250",
-            "target": "node_22",
-            "type": "step"
-        },
-        {
-            "id": "e251_to_152",
-            "source": "node_251",
-            "target": "node_152",
-            "type": "step"
-        },
-        {
-            "id": "e252_to_152",
-            "source": "node_252",
-            "target": "node_152",
-            "type": "step"
-        },
-        {
-            "id": "e253_to_152",
-            "source": "node_253",
-            "target": "node_152",
-            "type": "step"
-        },
-        {
-            "id": "e254_to_131",
-            "source": "node_254",
-            "target": "node_131",
-            "type": "step"
-        },
-        {
-            "id": "e255_to_202",
-            "source": "node_255",
-            "target": "node_202",
-            "type": "step"
-        },
-        {
-            "id": "e256_to_156",
-            "source": "node_256",
-            "target": "node_156",
-            "type": "step"
-        },
-        {
-            "id": "e257_to_66",
-            "source": "node_257",
-            "target": "node_66",
-            "type": "step"
-        },
-        {
-            "id": "e258_to_68",
-            "source": "node_258",
-            "target": "node_68",
-            "type": "step"
-        },
-        {
-            "id": "e259_to_158",
-            "source": "node_259",
-            "target": "node_158",
-            "type": "step"
-        },
-        {
-            "id": "e260_to_82",
-            "source": "node_260",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e261_to_160",
-            "source": "node_261",
-            "target": "node_160",
-            "type": "step"
-        },
-        {
-            "id": "e262_to_100",
-            "source": "node_262",
-            "target": "node_100",
-            "type": "step"
-        },
-        {
-            "id": "e263_to_101",
-            "source": "node_263",
-            "target": "node_101",
-            "type": "step"
-        },
-        {
-            "id": "e264_to_162",
-            "source": "node_264",
+            "id": "e171_to_162",
+            "source": "node_171",
             "target": "node_162",
             "type": "step"
         },
         {
-            "id": "e265_to_209",
-            "source": "node_265",
-            "target": "node_209",
+            "id": "e173_to_162",
+            "source": "node_173",
+            "target": "node_162",
             "type": "step"
         },
         {
-            "id": "e266_to_199",
-            "source": "node_266",
-            "target": "node_199",
+            "id": "e181_to_194",
+            "source": "node_181",
+            "target": "node_194",
             "type": "step"
         },
         {
-            "id": "e267_to_164",
-            "source": "node_267",
-            "target": "node_164",
+            "id": "e184_to_251",
+            "source": "node_184",
+            "target": "node_251",
             "type": "step"
         },
         {
-            "id": "e268_to_167",
-            "source": "node_268",
-            "target": "node_167",
+            "id": "e185_to_247",
+            "source": "node_185",
+            "target": "node_247",
             "type": "step"
         },
         {
-            "id": "e269_to_113",
-            "source": "node_269",
-            "target": "node_113",
-            "type": "step"
-        },
-        {
-            "id": "e270_to_117",
-            "source": "node_270",
-            "target": "node_117",
-            "type": "step"
-        },
-        {
-            "id": "e271_to_171",
-            "source": "node_271",
-            "target": "node_171",
-            "type": "step"
-        },
-        {
-            "id": "e272_to_172",
-            "source": "node_272",
-            "target": "node_172",
-            "type": "step"
-        },
-        {
-            "id": "e273_to_174",
-            "source": "node_273",
-            "target": "node_174",
-            "type": "step"
-        },
-        {
-            "id": "e274_to_175",
-            "source": "node_274",
-            "target": "node_175",
-            "type": "step"
-        },
-        {
-            "id": "e275_to_128",
-            "source": "node_275",
-            "target": "node_128",
-            "type": "step"
-        },
-        {
-            "id": "e276_to_142",
-            "source": "node_276",
-            "target": "node_142",
-            "type": "step"
-        },
-        {
-            "id": "e277_to_183",
-            "source": "node_277",
+            "id": "e188_to_183",
+            "source": "node_188",
             "target": "node_183",
             "type": "step"
         },
         {
-            "id": "e278_to_7",
-            "source": "node_278",
-            "target": "node_7",
+            "id": "e195_to_255",
+            "source": "node_195",
+            "target": "node_255",
             "type": "step"
         },
         {
-            "id": "e279_to_8",
-            "source": "node_279",
-            "target": "node_8",
+            "id": "e203_to_221",
+            "source": "node_203",
+            "target": "node_221",
             "type": "step"
         },
         {
-            "id": "e280_to_9",
-            "source": "node_280",
-            "target": "node_9",
+            "id": "e207_to_202",
+            "source": "node_207",
+            "target": "node_202",
             "type": "step"
         },
         {
-            "id": "e284_to_6",
-            "source": "node_284",
-            "target": "node_6",
+            "id": "e212_to_223",
+            "source": "node_212",
+            "target": "node_223",
             "type": "step"
         },
         {
-            "id": "e288_to_56",
-            "source": "node_288",
-            "target": "node_56",
+            "id": "e217_to_111",
+            "source": "node_217",
+            "target": "node_111",
             "type": "step"
         },
         {
-            "id": "e289_to_56",
+            "id": "e218_to_111",
+            "source": "node_218",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e219_to_111",
+            "source": "node_219",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e220_to_111",
+            "source": "node_220",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e221_to_111",
+            "source": "node_221",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e222_to_111",
+            "source": "node_222",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_111",
+            "source": "node_223",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_111",
+            "source": "node_224",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_111",
+            "source": "node_225",
+            "target": "node_111",
+            "type": "step"
+        },
+        {
+            "id": "e227_to_170",
+            "source": "node_227",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_174",
+            "source": "node_237",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e239_to_174",
+            "source": "node_239",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_174",
+            "source": "node_240",
+            "target": "node_174",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_244",
+            "source": "node_249",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e260_to_291",
+            "source": "node_260",
+            "target": "node_291",
+            "type": "step"
+        },
+        {
+            "id": "e261_to_2",
+            "source": "node_261",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e262_to_2",
+            "source": "node_262",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e268_to_34",
+            "source": "node_268",
+            "target": "node_34",
+            "type": "step"
+        },
+        {
+            "id": "e271_to_37",
+            "source": "node_271",
+            "target": "node_37",
+            "type": "step"
+        },
+        {
+            "id": "e272_to_12",
+            "source": "node_272",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_12",
+            "source": "node_273",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e274_to_12",
+            "source": "node_274",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_12",
+            "source": "node_281",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_12",
+            "source": "node_282",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_275",
+            "source": "node_285",
+            "target": "node_275",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_12",
+            "source": "node_286",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e289_to_3",
             "source": "node_289",
-            "target": "node_56",
+            "target": "node_3",
             "type": "step"
         },
         {
-            "id": "e290_to_2",
+            "id": "e290_to_12",
             "source": "node_290",
+            "target": "node_12",
+            "type": "step"
+        },
+        {
+            "id": "e295_to_301",
+            "source": "node_295",
+            "target": "node_301",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_2",
+            "source": "node_300",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_2",
+            "source": "node_312",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_2",
+            "source": "node_314",
             "target": "node_2",
             "type": "step"
         }

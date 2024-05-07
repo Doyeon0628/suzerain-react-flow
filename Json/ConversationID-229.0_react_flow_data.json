@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_17",
+            "id": "node_1",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.NFPLeader_Remus == true && BaseGame.Turn09_A_Investigation_NFP_Trialled_Remus == false\n\nnan"
+                "label": "output\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -12,10 +12,10 @@
             }
         },
         {
-            "id": "node_22",
+            "id": "node_3",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener = true\n\nnan"
+                "label": "Narrator\n\nIt was raining as my car came to a stop by the Holsord Grand Cemetery.\n\nSetRichPresenceData(Saying their last goodbyes to a fallen comrade, Grand Cemetery, Holsord); PlaySceneMusic(Relationship); WaitForMessage(Continue);"
             },
             "position": {
                 "x": 0,
@@ -23,10 +23,10 @@
             }
         },
         {
-            "id": "node_23",
+            "id": "node_10",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron = true\n\nnan"
+                "label": "BaseGame.Relations_Serge_Friend== true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -34,10 +34,10 @@
             }
         },
         {
-            "id": "node_27",
+            "id": "node_14",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nBack during the '53 election, I had debated my political opponents on the radio. Now the debate was to be televised, like everything else these days."
+                "label": "Narrator\n\nLittle Georg was crying silently next to his sister, Erica."
             },
             "position": {
                 "x": 0,
@@ -45,10 +45,10 @@
             }
         },
         {
-            "id": "node_45",
+            "id": "node_15",
             "type": "customNode",
             "data": {
-                "label": "Player_Italic\n\nI kept my mouth shut.\n\nSay nothing."
+                "label": "Narrator\n\nThey were too young to experience the pain of losing a father."
             },
             "position": {
                 "x": 0,
@@ -56,21 +56,10 @@
             }
         },
         {
-            "id": "node_47",
+            "id": "node_51",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_56",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGameIsolated.Debate_Enable_KesaroKibener == true\n\nnan"
+                "label": "Narrator\n\nAs the casket hit the ground, mourners sprinkled handfuls of dirt on Serge's grave."
             },
             "position": {
                 "x": 0,
@@ -81,7 +70,7 @@
             "id": "node_61",
             "type": "customNode",
             "data": {
-                "label": "Moderator\n\n\"To my right, Lileas Graf, former Interior Minister and leader of the USP.\"\n\nAddConversant(Lileas Graf); WaitForMessage(Continue);"
+                "label": "Player\n\n“Ms. Wolkner. I will never forget your husband's service and his heroic sacrifice.\""
             },
             "position": {
                 "x": 0,
@@ -89,10 +78,21 @@
             }
         },
         {
-            "id": "node_69",
+            "id": "node_65",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_RemusHolstron == true\n\nnan"
+                "label": "Player\n\n“You must be strong.”"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn02_Funeral_Attend == true && (BaseGame.Decision_Turn09_PetrFuneral_RegularFuneral == true ||  BaseGame.Decision_Turn09_PetrFuneral_StateFuneral == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -100,10 +100,21 @@
             }
         },
         {
-            "id": "node_75",
+            "id": "node_76",
             "type": "customNode",
             "data": {
-                "label": "Kesaro Kibener\n\n\"Greci Sordland.\""
+                "label": "BaseGameSupport.News_Turn10_ST_Serge_Funeral = true; BaseGameSupport.News_Turn10_LT_Serge_Funeral = true; BaseGameSupport.News_Turn10_HP_Serge_Funeral = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_82",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nShe was wearing an elegant black dress and a beautiful diamond necklace. She thanked me for everything I'd done for her family."
             },
             "position": {
                 "x": 0,
@@ -114,7 +125,7 @@
             "id": "node_83",
             "type": "customNode",
             "data": {
-                "label": "Denis Stahler\n\n\"That's right. We may have failed to meet the threshold last time, but the poor and downtrodden of Sordland *will* unite and rise up.\""
+                "label": "BaseGame.Relations_Serge_Friend== true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -122,10 +133,10 @@
             }
         },
         {
-            "id": "node_91",
+            "id": "node_87",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGameIsolated.Debate_Enable_LileasGraf == true)\n\nnan"
+                "label": "Narrator\n\nShe was wearing a simple but well-fitting black dress and holding a portrait of Serge in her arms."
             },
             "position": {
                 "x": 0,
@@ -133,10 +144,10 @@
             }
         },
         {
-            "id": "node_96",
+            "id": "node_88",
             "type": "customNode",
             "data": {
-                "label": "Lileas Graf\n\n\"And protector of the legacy of Tarquin Soll, lest we forget. I'm looking forward to your questions.\""
+                "label": "Player\n\n\"Don't worry. I'll make sure you and your children are still well cared for.\""
             },
             "position": {
                 "x": 0,
@@ -144,10 +155,10 @@
             }
         },
         {
-            "id": "node_97",
+            "id": "node_89",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nShe shot a pointed glance in my direction."
+                "label": "BaseGame.Relations_Serge_Acquaintance== true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -155,10 +166,10 @@
             }
         },
         {
-            "id": "node_123",
+            "id": "node_93",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_LileasGraf == true\n\nnan"
+                "label": "Player\n\n\"Don't worry. I'll make sure the children are still well cared for.\""
             },
             "position": {
                 "x": 0,
@@ -166,54 +177,10 @@
             }
         },
         {
-            "id": "node_132",
+            "id": "node_94",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn09_A_Investigation_PFJP_RicterFramed == false\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Faction_PFJP_Destroyed == true )\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_138",
-            "type": "customNode",
-            "data": {
-                "label": "End();\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_140",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.Turn10_PartyCongress_Lost == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_142",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Turn10_PartyCongress_Lost == true)\n\nnan"
+                "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -223,123 +190,105 @@
     ],
     "edges": [
         {
-            "id": "e17_to_133",
-            "source": "node_17",
-            "target": "node_133",
+            "id": "e1_to_80",
+            "source": "node_1",
+            "target": "node_80",
             "type": "step"
         },
         {
-            "id": "e22_to_6",
-            "source": "node_22",
-            "target": "node_6",
+            "id": "e3_to_73",
+            "source": "node_3",
+            "target": "node_73",
             "type": "step"
         },
         {
-            "id": "e23_to_9",
-            "source": "node_23",
-            "target": "node_9",
+            "id": "e10_to_84",
+            "source": "node_10",
+            "target": "node_84",
             "type": "step"
         },
         {
-            "id": "e27_to_141",
-            "source": "node_27",
-            "target": "node_141",
-            "type": "step"
-        },
-        {
-            "id": "e45_to_132",
-            "source": "node_45",
-            "target": "node_132",
-            "type": "step"
-        },
-        {
-            "id": "e47_to_89",
-            "source": "node_47",
-            "target": "node_89",
-            "type": "step"
-        },
-        {
-            "id": "e56_to_136",
-            "source": "node_56",
-            "target": "node_136",
-            "type": "step"
-        },
-        {
-            "id": "e61_to_82",
-            "source": "node_61",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e69_to_77",
-            "source": "node_69",
-            "target": "node_77",
-            "type": "step"
-        },
-        {
-            "id": "e75_to_98",
-            "source": "node_75",
-            "target": "node_98",
-            "type": "step"
-        },
-        {
-            "id": "e83_to_47",
-            "source": "node_83",
-            "target": "node_47",
-            "type": "step"
-        },
-        {
-            "id": "e91_to_1",
-            "source": "node_91",
-            "target": "node_1",
-            "type": "step"
-        },
-        {
-            "id": "e96_to_54",
-            "source": "node_96",
-            "target": "node_54",
-            "type": "step"
-        },
-        {
-            "id": "e97_to_54",
-            "source": "node_97",
-            "target": "node_54",
-            "type": "step"
-        },
-        {
-            "id": "e123_to_139",
-            "source": "node_123",
-            "target": "node_139",
-            "type": "step"
-        },
-        {
-            "id": "e132_to_48",
-            "source": "node_132",
-            "target": "node_48",
-            "type": "step"
-        },
-        {
-            "id": "e137_to_57",
-            "source": "node_137",
+            "id": "e14_to_57",
+            "source": "node_14",
             "target": "node_57",
             "type": "step"
         },
         {
-            "id": "e138_to_74",
-            "source": "node_138",
-            "target": "node_74",
+            "id": "e15_to_57",
+            "source": "node_15",
+            "target": "node_57",
             "type": "step"
         },
         {
-            "id": "e140_to_28",
-            "source": "node_140",
-            "target": "node_28",
+            "id": "e51_to_79",
+            "source": "node_51",
+            "target": "node_79",
             "type": "step"
         },
         {
-            "id": "e142_to_28",
-            "source": "node_142",
-            "target": "node_28",
+            "id": "e61_to_16",
+            "source": "node_61",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e65_to_11",
+            "source": "node_65",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_5",
+            "source": "node_68",
+            "target": "node_5",
+            "type": "step"
+        },
+        {
+            "id": "e76_to_8",
+            "source": "node_76",
+            "target": "node_8",
+            "type": "step"
+        },
+        {
+            "id": "e82_to_2",
+            "source": "node_82",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_63",
+            "source": "node_83",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e87_to_63",
+            "source": "node_87",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e88_to_63",
+            "source": "node_88",
+            "target": "node_63",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_65",
+            "source": "node_89",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_65",
+            "source": "node_93",
+            "target": "node_65",
+            "type": "step"
+        },
+        {
+            "id": "e94_to_65",
+            "source": "node_94",
+            "target": "node_65",
             "type": "step"
         }
     ]

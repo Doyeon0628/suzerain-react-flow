@@ -1,10 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_1",
+            "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "output\n\nnan"
+                "label": "Moderator\n\n\"Uh, it appears we have time for one last question.\""
             },
             "position": {
                 "x": 0,
@@ -12,10 +12,10 @@
             }
         },
         {
-            "id": "node_6",
+            "id": "node_29",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.Debate_Enable_MansounLeke == true\n\nnan"
+                "label": "BaseGameIsolated.Debate_DenisChallenge == false\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -23,32 +23,10 @@
             }
         },
         {
-            "id": "node_10",
+            "id": "node_54",
             "type": "customNode",
             "data": {
-                "label": "Mansoun Leke\n\n\"Denis, calm down.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_25",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nHe and Denis walked out of the studio. None of the other candidates spoke."
-            },
-            "position": {
-                "x": 270,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_27",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nDenis loudly pushed his chair back and stormed out of the studio. None of the other candidates spoke."
+                "label": "Narrator\n\nDenis looked at the floor."
             },
             "position": {
                 "x": 0,
@@ -56,43 +34,10 @@
             }
         },
         {
-            "id": "node_32",
+            "id": "node_55",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.Turn07_SecretState_Kill_OrsoHawker == true || BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true || BaseGame.Turn09_A_Investigation_Oligarchs_Kill_Tusk == true || BaseGame.Killed_MarcelKoronti == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_41",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Sit back down. Now.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_42",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Mr. Stahler. Leave this stage and do not ever show your face in front of me again.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_57",
-            "type": "customNode",
-            "data": {
-                "label": "Player\n\n\"Guards, this man is a danger to me. Please escort him out of the building at once.\""
+                "label": "BaseGameIsolated.Debate_Enable_LileasGraf\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -103,15 +48,213 @@
             "id": "node_62",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nDenis paled slightly."
+                "label": "Player\n\n\"I couldn't have said that better myself.\""
             },
             "position": {
-                "x": 270,
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_71",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_DenisStahler == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_92",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nFrens looked at Denis and Mansoun's empty chairs."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_93",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nManoly looked at Denis and Mansoun's empty chairs."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_113",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"I am grateful to the President for finally paving the way for my party into Assembly. But I ask you: Why stop there? Sordish Socialism is upon our doorstep. All that is left to do is embrace it.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_129",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_FrensRicter == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_134",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I've already said everything I need to say. Thank you for a pleasant evening.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_143",
+            "type": "customNode",
+            "data": {
+                "label": "Frens Ricter\n\n\"Whatever differences President Rayne and I expressed during this debate, our alliance still stands. No matter who wins, we will govern together to bring Sordland a freedom it has never known before.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_RemusHolstron == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_150",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I understand your concerns given my predecessors' attempts to cling to power. But I swear I will serve only as long as the people want me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_151",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Of course, there's always the possibility of election fraud, in which case I will fight to make sure the will of the people is respected.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_152",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_ManolySuheil == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_DenisStahler == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_161",
+            "type": "customNode",
+            "data": {
+                "label": "Moderator\n\n\"Um...with those who remain at least.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_162",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"Denis, calm down.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_165",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe moderator took a minute to regain her composure."
+            },
+            "position": {
+                "x": 0,
                 "y": 500
             }
         },
         {
-            "id": "node_66",
+            "id": "node_166",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nDenis rose from his seat.\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_167",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"Admiration? You had me thrown in prison!\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGameIsolated.Debate_Enable_MansounLeke == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_170",
             "type": "customNode",
             "data": {
                 "label": "!(BaseGameIsolated.Debate_Enable_MansounLeke == true)\n\nnan"
@@ -122,10 +265,21 @@
             }
         },
         {
-            "id": "node_67",
+            "id": "node_172",
             "type": "customNode",
             "data": {
-                "label": "Denis Stahler\n\n\"Let's just get this dog and pony show over with.\""
+                "label": "Denis Stahler\n\n\"Unbelievable.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_173",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"This charade has gone on long enough. Can't you others see he has the media rigged against us?\""
             },
             "position": {
                 "x": 0,
@@ -133,7 +287,139 @@
             }
         },
         {
-            "id": "node_69",
+            "id": "node_181",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I didn't give that order.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_182",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"Not to mention the disappearance of one of the most prominent opposition leaders.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_185",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_SecretState_Kill_OrsoHawker == true || BaseGame.Turn08_SecondScandal_SecretState_Kill_Petr == true || BaseGame.Turn09_A_Investigation_Oligarchs_Kill_Tusk == true || BaseGame.Killed_MarcelKoronti == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_190",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe studio went deathly silent."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_191",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Mr. Stahler. If I really am as powerful as you claim, wouldn't it be extremely foolish of you to speak against me?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_192",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Sit back down. Now.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Malenyevist > 15\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_196",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Malenyevist > 15)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_201",
+            "type": "customNode",
+            "data": {
+                "label": "Denis Stahler\n\n\"Abdicating responsibility. A good look for a President.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_214",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGameIsolated.Debate_Enable_MansounLeke == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_215",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe and Denis walked out of the studio. None of the other candidates spoke."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_218",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Democratic < -10)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_228",
             "type": "customNode",
             "data": {
                 "label": "Denis Stahler\n\n\"I cannot fucking believe this!\""
@@ -144,100 +430,273 @@
             }
         },
         {
-            "id": "node_70",
+            "id": "node_229",
             "type": "customNode",
             "data": {
-                "label": "START\n\nnan"
+                "label": "Narrator\n\nDenis loudly pushed his chair back and stormed out of the studio. None of the other candidates spoke."
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "Mansoun Leke\n\n\"Sorry, Denis, I can't risk it. You're on your own.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
             }
         }
     ],
     "edges": [
         {
-            "id": "e1_to_70",
-            "source": "node_1",
-            "target": "node_70",
+            "id": "e2_to_99",
+            "source": "node_2",
+            "target": "node_99",
             "type": "step"
         },
         {
-            "id": "e6_to_27",
-            "source": "node_6",
-            "target": "node_27",
+            "id": "e29_to_47",
+            "source": "node_29",
+            "target": "node_47",
             "type": "step"
         },
         {
-            "id": "e10_to_59",
-            "source": "node_10",
-            "target": "node_59",
+            "id": "e54_to_159",
+            "source": "node_54",
+            "target": "node_159",
             "type": "step"
         },
         {
-            "id": "e25_to_62",
-            "source": "node_25",
-            "target": "node_62",
+            "id": "e55_to_78",
+            "source": "node_55",
+            "target": "node_78",
             "type": "step"
         },
         {
-            "id": "e27_to_54",
-            "source": "node_27",
-            "target": "node_54",
+            "id": "e62_to_148",
+            "source": "node_62",
+            "target": "node_148",
             "type": "step"
         },
         {
-            "id": "e32_to_26",
-            "source": "node_32",
-            "target": "node_26",
+            "id": "e71_to_115",
+            "source": "node_71",
+            "target": "node_115",
             "type": "step"
         },
         {
-            "id": "e41_to_63",
-            "source": "node_41",
+            "id": "e92_to_153",
+            "source": "node_92",
+            "target": "node_153",
+            "type": "step"
+        },
+        {
+            "id": "e93_to_80",
+            "source": "node_93",
+            "target": "node_80",
+            "type": "step"
+        },
+        {
+            "id": "e113_to_137",
+            "source": "node_113",
+            "target": "node_137",
+            "type": "step"
+        },
+        {
+            "id": "e129_to_141",
+            "source": "node_129",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e134_to_100",
+            "source": "node_134",
+            "target": "node_100",
+            "type": "step"
+        },
+        {
+            "id": "e143_to_127",
+            "source": "node_143",
+            "target": "node_127",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_66",
+            "source": "node_149",
+            "target": "node_66",
+            "type": "step"
+        },
+        {
+            "id": "e150_to_63",
+            "source": "node_150",
             "target": "node_63",
             "type": "step"
         },
         {
-            "id": "e42_to_62",
-            "source": "node_42",
-            "target": "node_62",
+            "id": "e151_to_54",
+            "source": "node_151",
+            "target": "node_54",
             "type": "step"
         },
         {
-            "id": "e57_to_12",
-            "source": "node_57",
-            "target": "node_12",
+            "id": "e152_to_54",
+            "source": "node_152",
+            "target": "node_54",
             "type": "step"
         },
         {
-            "id": "e62_to_5",
-            "source": "node_62",
-            "target": "node_5",
+            "id": "e158_to_132",
+            "source": "node_158",
+            "target": "node_132",
             "type": "step"
         },
         {
-            "id": "e66_to_31",
-            "source": "node_66",
-            "target": "node_31",
+            "id": "e161_to_69",
+            "source": "node_161",
+            "target": "node_69",
             "type": "step"
         },
         {
-            "id": "e67_to_28",
-            "source": "node_67",
-            "target": "node_28",
+            "id": "e162_to_69",
+            "source": "node_162",
+            "target": "node_69",
             "type": "step"
         },
         {
-            "id": "e69_to_65",
-            "source": "node_69",
-            "target": "node_65",
+            "id": "e165_to_213",
+            "source": "node_165",
+            "target": "node_213",
             "type": "step"
         },
         {
-            "id": "e70_to_4",
-            "source": "node_70",
-            "target": "node_4",
+            "id": "e166_to_54",
+            "source": "node_166",
+            "target": "node_54",
+            "type": "step"
+        },
+        {
+            "id": "e167_to_234",
+            "source": "node_167",
+            "target": "node_234",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_226",
+            "source": "node_168",
+            "target": "node_226",
+            "type": "step"
+        },
+        {
+            "id": "e170_to_163",
+            "source": "node_170",
+            "target": "node_163",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_207",
+            "source": "node_172",
+            "target": "node_207",
+            "type": "step"
+        },
+        {
+            "id": "e173_to_220",
+            "source": "node_173",
+            "target": "node_220",
+            "type": "step"
+        },
+        {
+            "id": "e181_to_210",
+            "source": "node_181",
+            "target": "node_210",
+            "type": "step"
+        },
+        {
+            "id": "e182_to_202",
+            "source": "node_182",
+            "target": "node_202",
+            "type": "step"
+        },
+        {
+            "id": "e185_to_221",
+            "source": "node_185",
+            "target": "node_221",
+            "type": "step"
+        },
+        {
+            "id": "e190_to_165",
+            "source": "node_190",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e191_to_217",
+            "source": "node_191",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
+            "id": "e192_to_211",
+            "source": "node_192",
+            "target": "node_211",
+            "type": "step"
+        },
+        {
+            "id": "e194_to_165",
+            "source": "node_194",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e196_to_172",
+            "source": "node_196",
+            "target": "node_172",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_193",
+            "source": "node_201",
+            "target": "node_193",
+            "type": "step"
+        },
+        {
+            "id": "e214_to_185",
+            "source": "node_214",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e215_to_230",
+            "source": "node_215",
+            "target": "node_230",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_192",
+            "source": "node_218",
+            "target": "node_192",
+            "type": "step"
+        },
+        {
+            "id": "e228_to_216",
+            "source": "node_228",
+            "target": "node_216",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_167",
+            "source": "node_229",
+            "target": "node_167",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_210",
+            "source": "node_231",
+            "target": "node_210",
             "type": "step"
         }
     ]

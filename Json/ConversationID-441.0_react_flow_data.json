@@ -4,183 +4,7 @@
             "id": "node_2",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nElena took out a large notebook, placed it on the table and opened it up."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_4",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_Budget > 0\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_14",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"As already mentioned, living standards in Rizia are in a very healthy position as a result of a combination of economic policies.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_15",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_BudgetModifiersTotal >= 7\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_21",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Resources_BudgetModifiersTotal == 0 && RiziaDLC.Resources_Budget >= 1\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_32",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"We have a significant amount of money flowing into our economy. This is a good indicator for the future.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_33",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"We have a balanced budget at the moment. This isn't a bad indicator for our economy.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_59",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"While the enacted war profits tax is helping with our immediate finances, it is having bad and possibly lasting effects on the growth of our economy.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_68",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_73",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_ProductionCapacity_High == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_75",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Situation_Economy_ProductionCapacity_High == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_76",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"Our production capacity has increased significantly.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_77",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"However, the negative effects of the crisis still loom, since our production capacity still suffers.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_78",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_ProductionCapacity_Low == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_80",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Situation_Economy_ProductionCapacity_Low == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_81",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"And thus, our production capacity has suffered significantly.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_NewBusiness_Rise == true\n\nnan"
+                "label": "Laurento Esquibel\n\n\"Of course, Your Majesty.\""
             },
             "position": {
                 "x": 0,
@@ -188,10 +12,10 @@
             }
         },
         {
-            "id": "node_88",
+            "id": "node_9",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Situation_Economy_NewBusiness_Reduction == true\n\nnan"
+                "label": "RiziaDLC.Situation_Diplomacy_Lespia_SanctionsRizia == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -199,10 +23,10 @@
             }
         },
         {
-            "id": "node_92",
+            "id": "node_13",
             "type": "customNode",
             "data": {
-                "label": "Elena Werner\n\n\"As we find ourselves increasingly mired in what appears to be a deepening recession, there is an alarming trend of substantial withdrawal of investments across the board.\""
+                "label": "RiziaDLC.Diplomacy_Lespia_WillVoteYes_MITZ == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -210,87 +34,10 @@
             }
         },
         {
-            "id": "node_93",
+            "id": "node_44",
             "type": "customNode",
             "data": {
-                "label": "Elena Werner\n\n\"In terms of our energy situation, we managed to greatly diversify our energy sources. This helps our economic options.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_103",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"Despite this, however, the energy crisis continues with no end in sight. I believe this should be our most significant concern.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_104",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"In terms of our energy situation, we have a very rigid energy economy with heavy reliance on certain sources. As long as our access to resources remain, this means a stronger future.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_105",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"In terms of our energy situation, we seem to have a mixed energy economy. But I believe we must try to diversify our sources further in order to cover potential weaknesses.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_106",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "customNode",
-            "data": {
-                "label": "//\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_115",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"This is a significant problem. What should we do?\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_117",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"Thank you for sharing this, Ms. Werner.\""
+                "label": "Player_Romus\n\n\"This will surely help our standing with them.\""
             },
             "position": {
                 "x": 0,
@@ -298,10 +45,10 @@
             }
         },
         {
-            "id": "node_119",
+            "id": "node_48",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"This is great news. Thank you for all your contributions, Ms. Werner.\""
+                "label": "Laurento Esquibel\n\n\"Of course.\""
             },
             "position": {
                 "x": 0,
@@ -309,32 +56,32 @@
             }
         },
         {
-            "id": "node_120",
+            "id": "node_50",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Good to know.\""
+                "label": "Player_Romus\n\n\"Of course he did. Frankly, we shouldn't care less. They were, and will never be, on our side.\""
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Diplomacy_Wehlen_AgreementRefused == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
             }
         },
         {
             "id": "node_121",
             "type": "customNode",
             "data": {
-                "label": "Elena Werner\n\n\"We should look for ways to find new sources of energy or improve our current extraction capacity.\""
-            },
-            "position": {
-                "x": 270,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_133",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 2;\n\nnan"
+                "label": "Laurento Esquibel\n\n\"Unfortunately, we couldn't export the promised amount of energy to Wehlen and our energy deal broke down. He will likely use this against us.\""
             },
             "position": {
                 "x": 0,
@@ -342,43 +89,10 @@
             }
         },
         {
-            "id": "node_134",
+            "id": "node_150",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_135",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 3;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_136",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_137",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
+                "label": "Laurento Esquibel\n\n\"On the other hand, despite our trade, our relations with Morella are still not very positive.\""
             },
             "position": {
                 "x": 0,
@@ -386,10 +100,10 @@
             }
         },
         {
-            "id": "node_144",
+            "id": "node_161",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Situation_Economy_NewBusiness_Reduction = true;\\nRiziaDLC.Situation_Economy_NewBusiness_Rise = false;\\nRiziaDLC.Situation_Economy_NewBusiness_Collapse = false;\\nRiziaDLCSupport.Reports_Turn08_Topes_NewBusinessReductionCollapse = true;\n\nnan"
+                "label": "Player_Romus\n\n\"At this point, I couldn't care less about our relations with them. I'm not doing this to pick a side.\""
             },
             "position": {
                 "x": 0,
@@ -397,10 +111,10 @@
             }
         },
         {
-            "id": "node_145",
+            "id": "node_163",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Situation_Economy_NewBusiness_Collapse = true;\\nRiziaDLC.Situation_Economy_NewBusiness_Rise = false;\\nRiziaDLC.Situation_Economy_NewBusiness_Reduction = false;\\nRiziaDLCSupport.Reports_Turn08_Sallabes_NewBusinessCollapse = true;\\nRiziaDLCSupport.News_Turn08_V_CouncilEconomy_NewBusinessCollapse = true;\n\nnan"
+                "label": "Player_Romus\n\n\"I hate to put my trust on Mr. Alvarez on this but we will see what happens soon enough.\""
             },
             "position": {
                 "x": 0,
@@ -408,10 +122,10 @@
             }
         },
         {
-            "id": "node_146",
+            "id": "node_164",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Country_EconomicGrowth >= 5\n\nnan"
+                "label": "RiziaDLC.Policy_Law_GolcondistBlasphemy == false && RiziaDLC.Country_GolcondistOpinion > 0\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -419,43 +133,10 @@
             }
         },
         {
-            "id": "node_154",
+            "id": "node_180",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"Our nation is on a steadfast path to stand shoulder to shoulder with the great powers. Elena, your contributions are pivotal in this journey.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_183",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Situation_Economy_TouristDestination_Global == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_184",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 2;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_185",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
+                "label": "Player_Romus\n\n\"Thanks for telling me.\""
             },
             "position": {
                 "x": 0,
@@ -463,10 +144,10 @@
             }
         },
         {
-            "id": "node_186",
+            "id": "node_203",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
+                "label": "Laurento Esquibel\n\n\"The royal wedding shall take place after your upcoming visit to the Alliance of Nations.\""
             },
             "position": {
                 "x": 0,
@@ -474,120 +155,10 @@
             }
         },
         {
-            "id": "node_188",
+            "id": "node_217",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.Situation_Economy_ProductionCapacity_Average == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_192",
-            "type": "customNode",
-            "data": {
-                "label": "Elena Werner\n\n\"However, our goods are no longer in demand around the country and the world. Our industrial production capacity has fallen.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_193",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"This is something to work on.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_194",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue -= 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_196",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_197",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_FootballTeams_Continental == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_208",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_223",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue -= 2;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_230",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_TouristDestination_Regional == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_233",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue += 1;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_234",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Economy_EnergyCrisis == true\n\nnan"
+                "label": "RiziaDLC.Policy_Diplomacy_Pales_MilitaryAlliance == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -598,7 +169,7 @@
             "id": "node_237",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Turn08_Council_EconomyValue -= 2;\n\nnan"
+                "label": "Player_Romus\n\n\"Great. Everything's going according to plan.\""
             },
             "position": {
                 "x": 0,
@@ -609,7 +180,7 @@
             "id": "node_238",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.EnergyCrisis_Happened_BeforeTurn8 == true\n\nnan"
+                "label": "Player_Romus\n\n\"I will not stop until we achieve reunification.\""
             },
             "position": {
                 "x": 0,
@@ -617,10 +188,10 @@
             }
         },
         {
-            "id": "node_240",
+            "id": "node_239",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLC.EnergyCrisis_Happened_BeforeTurn8 == true)\n\nnan"
+                "label": "Player_Romus\n\n\"Keep up the good work, Mr. Esquibel. We wouldn't have achieved this without you.\""
             },
             "position": {
                 "x": 0,
@@ -628,10 +199,241 @@
             }
         },
         {
-            "id": "node_252",
+            "id": "node_243",
             "type": "customNode",
             "data": {
-                "label": "START\n\nnan"
+                "label": "Player_Romus\n\n\"Send my congratulations to Duke Reinhart.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_245",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Council_Security_Taddeus == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_266",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"That's not good news. We can't let Pales fall into the hands of the ATO.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.War_Used_ExperimentalWeapons > 2\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"Unfortunately, the international community can still unite against us, now that our use of experimental weapons from Rumburg was made public by Palesian journalists.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_314",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I like the sound of it. Tell me more.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_320",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"And in the P.S. section of the letter we discovered a Golcondist curse.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "Sal Ignacius\n\n\"I have prayed to Wruhec to dispel the bad spirits from Derdia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_322",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Economy_PalesPipeline_Completed == true && (RiziaDLC.Situation_Economy_AureusField_HighExtraction == true || RiziaDLC.Situation_Economy_AureusField_MediumExtraction == true) && RiziaDLC.Pales_War == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCIsolated.Intermerkopum_Counter += 1;\\nRiziaDLC.Diplomacy_Pales_IntermerkopumPotential = true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_343",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Economy_PalesPipeline_Completed == true && (RiziaDLC.Situation_Economy_AureusField_HighExtraction == true || RiziaDLC.Situation_Economy_AureusField_MediumExtraction == true) && RiziaDLC.Pales_War == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_356",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Policy_Economy_MorellaPipeline_Project == true || RiziaDLC.Policy_Economy_MorellaPipeline_Completed == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_358",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.Policy_Economy_MorellaPipeline_Project == true || RiziaDLC.Policy_Economy_MorellaPipeline_Completed == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_363",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"I truly believe that our national interests do align with our neighbors -- and if we can connect our economies further and create balanced dependencies to each other...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_370",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"This isn't about clashing with them. This is about offering an alternative for peace, and protecting the interests of Southern Merkopa.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_379",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"Well, Your Majesty. In case of a conflict, we will have the keys. Rizia will be in a stronger position in such an alliance.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_381",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"I see what you're getting at. Clever.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_388",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"As you wish, Your Majesty. I will reach out to you about it if a development happens.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_389",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"MorGas is a crucial bargaining chip that we have. We can provide cheaper gas to our other neighbors, connecting our economies even further.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_390",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.CountryRelation_Rumburg_Unfriendly == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_394",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"We are still on good terms with Rumburg and GRACE. But our distant geographical proximity limits the benefits we can get out of that relationship.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_395",
+            "type": "customNode",
+            "data": {
+                "label": "Laurento Esquibel\n\n\"I urge you to reconsider.\""
             },
             "position": {
                 "x": 0,
@@ -641,351 +443,243 @@
     ],
     "edges": [
         {
-            "id": "e2_to_320",
+            "id": "e2_to_319",
             "source": "node_2",
-            "target": "node_320",
+            "target": "node_319",
             "type": "step"
         },
         {
-            "id": "e4_to_136",
-            "source": "node_4",
-            "target": "node_136",
+            "id": "e9_to_76",
+            "source": "node_9",
+            "target": "node_76",
             "type": "step"
         },
         {
-            "id": "e14_to_134",
-            "source": "node_14",
-            "target": "node_134",
+            "id": "e13_to_71",
+            "source": "node_13",
+            "target": "node_71",
             "type": "step"
         },
         {
-            "id": "e15_to_135",
-            "source": "node_15",
-            "target": "node_135",
+            "id": "e44_to_96",
+            "source": "node_44",
+            "target": "node_96",
             "type": "step"
         },
         {
-            "id": "e21_to_178",
-            "source": "node_21",
-            "target": "node_178",
+            "id": "e48_to_44",
+            "source": "node_48",
+            "target": "node_44",
             "type": "step"
         },
         {
-            "id": "e32_to_5",
-            "source": "node_32",
-            "target": "node_5",
+            "id": "e50_to_64",
+            "source": "node_50",
+            "target": "node_64",
             "type": "step"
         },
         {
-            "id": "e33_to_185",
-            "source": "node_33",
-            "target": "node_185",
+            "id": "e99_to_119",
+            "source": "node_99",
+            "target": "node_119",
             "type": "step"
         },
         {
-            "id": "e59_to_188",
-            "source": "node_59",
-            "target": "node_188",
-            "type": "step"
-        },
-        {
-            "id": "e68_to_125",
-            "source": "node_68",
-            "target": "node_125",
-            "type": "step"
-        },
-        {
-            "id": "e73_to_138",
-            "source": "node_73",
-            "target": "node_138",
-            "type": "step"
-        },
-        {
-            "id": "e75_to_139",
-            "source": "node_75",
-            "target": "node_139",
-            "type": "step"
-        },
-        {
-            "id": "e76_to_189",
-            "source": "node_76",
-            "target": "node_189",
-            "type": "step"
-        },
-        {
-            "id": "e77_to_120",
-            "source": "node_77",
-            "target": "node_120",
-            "type": "step"
-        },
-        {
-            "id": "e78_to_118",
-            "source": "node_78",
-            "target": "node_118",
-            "type": "step"
-        },
-        {
-            "id": "e80_to_196",
-            "source": "node_80",
-            "target": "node_196",
-            "type": "step"
-        },
-        {
-            "id": "e81_to_197",
-            "source": "node_81",
-            "target": "node_197",
-            "type": "step"
-        },
-        {
-            "id": "e83_to_113",
-            "source": "node_83",
-            "target": "node_113",
-            "type": "step"
-        },
-        {
-            "id": "e88_to_150",
-            "source": "node_88",
-            "target": "node_150",
-            "type": "step"
-        },
-        {
-            "id": "e92_to_151",
-            "source": "node_92",
-            "target": "node_151",
-            "type": "step"
-        },
-        {
-            "id": "e93_to_152",
-            "source": "node_93",
-            "target": "node_152",
-            "type": "step"
-        },
-        {
-            "id": "e103_to_73",
-            "source": "node_103",
-            "target": "node_73",
-            "type": "step"
-        },
-        {
-            "id": "e104_to_72",
-            "source": "node_104",
-            "target": "node_72",
-            "type": "step"
-        },
-        {
-            "id": "e105_to_242",
-            "source": "node_105",
-            "target": "node_242",
-            "type": "step"
-        },
-        {
-            "id": "e106_to_245",
-            "source": "node_106",
-            "target": "node_245",
-            "type": "step"
-        },
-        {
-            "id": "e111_to_74",
-            "source": "node_111",
-            "target": "node_74",
-            "type": "step"
-        },
-        {
-            "id": "e115_to_87",
-            "source": "node_115",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e117_to_87",
-            "source": "node_117",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e119_to_87",
-            "source": "node_119",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e120_to_87",
-            "source": "node_120",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e121_to_87",
+            "id": "e121_to_101",
             "source": "node_121",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e133_to_95",
-            "source": "node_133",
-            "target": "node_95",
-            "type": "step"
-        },
-        {
-            "id": "e134_to_25",
-            "source": "node_134",
-            "target": "node_25",
-            "type": "step"
-        },
-        {
-            "id": "e135_to_25",
-            "source": "node_135",
-            "target": "node_25",
-            "type": "step"
-        },
-        {
-            "id": "e136_to_39",
-            "source": "node_136",
-            "target": "node_39",
-            "type": "step"
-        },
-        {
-            "id": "e137_to_51",
-            "source": "node_137",
-            "target": "node_51",
-            "type": "step"
-        },
-        {
-            "id": "e144_to_84",
-            "source": "node_144",
-            "target": "node_84",
-            "type": "step"
-        },
-        {
-            "id": "e145_to_84",
-            "source": "node_145",
-            "target": "node_84",
-            "type": "step"
-        },
-        {
-            "id": "e146_to_84",
-            "source": "node_146",
-            "target": "node_84",
-            "type": "step"
-        },
-        {
-            "id": "e154_to_175",
-            "source": "node_154",
-            "target": "node_175",
-            "type": "step"
-        },
-        {
-            "id": "e183_to_207",
-            "source": "node_183",
-            "target": "node_207",
-            "type": "step"
-        },
-        {
-            "id": "e184_to_231",
-            "source": "node_184",
-            "target": "node_231",
-            "type": "step"
-        },
-        {
-            "id": "e185_to_39",
-            "source": "node_185",
-            "target": "node_39",
-            "type": "step"
-        },
-        {
-            "id": "e186_to_5",
-            "source": "node_186",
-            "target": "node_5",
-            "type": "step"
-        },
-        {
-            "id": "e188_to_53",
-            "source": "node_188",
-            "target": "node_53",
-            "type": "step"
-        },
-        {
-            "id": "e192_to_78",
-            "source": "node_192",
-            "target": "node_78",
-            "type": "step"
-        },
-        {
-            "id": "e193_to_118",
-            "source": "node_193",
-            "target": "node_118",
-            "type": "step"
-        },
-        {
-            "id": "e194_to_87",
-            "source": "node_194",
-            "target": "node_87",
-            "type": "step"
-        },
-        {
-            "id": "e196_to_82",
-            "source": "node_196",
-            "target": "node_82",
-            "type": "step"
-        },
-        {
-            "id": "e197_to_83",
-            "source": "node_197",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e208_to_201",
-            "source": "node_208",
-            "target": "node_201",
-            "type": "step"
-        },
-        {
-            "id": "e223_to_214",
-            "source": "node_223",
-            "target": "node_214",
-            "type": "step"
-        },
-        {
-            "id": "e230_to_217",
-            "source": "node_230",
-            "target": "node_217",
-            "type": "step"
-        },
-        {
-            "id": "e233_to_198",
-            "source": "node_233",
-            "target": "node_198",
-            "type": "step"
-        },
-        {
-            "id": "e234_to_198",
-            "source": "node_234",
-            "target": "node_198",
-            "type": "step"
-        },
-        {
-            "id": "e237_to_140",
-            "source": "node_237",
-            "target": "node_140",
-            "type": "step"
-        },
-        {
-            "id": "e238_to_140",
-            "source": "node_238",
-            "target": "node_140",
-            "type": "step"
-        },
-        {
-            "id": "e240_to_101",
-            "source": "node_240",
             "target": "node_101",
             "type": "step"
         },
         {
-            "id": "e252_to_72",
-            "source": "node_252",
-            "target": "node_72",
+            "id": "e150_to_126",
+            "source": "node_150",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e161_to_132",
+            "source": "node_161",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e163_to_132",
+            "source": "node_163",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_132",
+            "source": "node_164",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e180_to_322",
+            "source": "node_180",
+            "target": "node_322",
+            "type": "step"
+        },
+        {
+            "id": "e203_to_273",
+            "source": "node_203",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e217_to_269",
+            "source": "node_217",
+            "target": "node_269",
+            "type": "step"
+        },
+        {
+            "id": "e237_to_265",
+            "source": "node_237",
+            "target": "node_265",
+            "type": "step"
+        },
+        {
+            "id": "e238_to_265",
+            "source": "node_238",
+            "target": "node_265",
+            "type": "step"
+        },
+        {
+            "id": "e239_to_256",
+            "source": "node_239",
+            "target": "node_256",
+            "type": "step"
+        },
+        {
+            "id": "e243_to_271",
+            "source": "node_243",
+            "target": "node_271",
+            "type": "step"
+        },
+        {
+            "id": "e245_to_266",
+            "source": "node_245",
+            "target": "node_266",
+            "type": "step"
+        },
+        {
+            "id": "e266_to_323",
+            "source": "node_266",
+            "target": "node_323",
+            "type": "step"
+        },
+        {
+            "id": "e280_to_292",
+            "source": "node_280",
+            "target": "node_292",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_279",
+            "source": "node_286",
+            "target": "node_279",
+            "type": "step"
+        },
+        {
+            "id": "e314_to_370",
+            "source": "node_314",
+            "target": "node_370",
+            "type": "step"
+        },
+        {
+            "id": "e320_to_344",
+            "source": "node_320",
+            "target": "node_344",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_176",
+            "source": "node_321",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e322_to_190",
+            "source": "node_322",
+            "target": "node_190",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_343",
+            "source": "node_328",
+            "target": "node_343",
+            "type": "step"
+        },
+        {
+            "id": "e343_to_303",
+            "source": "node_343",
+            "target": "node_303",
+            "type": "step"
+        },
+        {
+            "id": "e356_to_347",
+            "source": "node_356",
+            "target": "node_347",
+            "type": "step"
+        },
+        {
+            "id": "e358_to_390",
+            "source": "node_358",
+            "target": "node_390",
+            "type": "step"
+        },
+        {
+            "id": "e363_to_391",
+            "source": "node_363",
+            "target": "node_391",
+            "type": "step"
+        },
+        {
+            "id": "e370_to_2",
+            "source": "node_370",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e379_to_370",
+            "source": "node_379",
+            "target": "node_370",
+            "type": "step"
+        },
+        {
+            "id": "e381_to_396",
+            "source": "node_381",
+            "target": "node_396",
+            "type": "step"
+        },
+        {
+            "id": "e388_to_370",
+            "source": "node_388",
+            "target": "node_370",
+            "type": "step"
+        },
+        {
+            "id": "e389_to_302",
+            "source": "node_389",
+            "target": "node_302",
+            "type": "step"
+        },
+        {
+            "id": "e390_to_360",
+            "source": "node_390",
+            "target": "node_360",
+            "type": "step"
+        },
+        {
+            "id": "e394_to_364",
+            "source": "node_394",
+            "target": "node_364",
+            "type": "step"
+        },
+        {
+            "id": "e395_to_364",
+            "source": "node_395",
+            "target": "node_364",
             "type": "step"
         }
     ]

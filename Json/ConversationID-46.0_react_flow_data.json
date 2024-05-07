@@ -576,7 +576,7 @@
             "id": "node_112",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"It shows the complexity of our nation.\""
+                "label": "Player\n\n\"It's a testament to the complexity of our nation.\""
             },
             "position": {
                 "x": 0,
@@ -587,7 +587,7 @@
             "id": "node_113",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"There are some issues, but with your foundation, you're already making a difference.\""
+                "label": "Player\n\n\"Its wealth disparities concern me. But with your foundation, you're already making a difference.\""
             },
             "position": {
                 "x": 270,
@@ -2292,22 +2292,11 @@
             "id": "node_393",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n\"Its wealth disparities concern me. This place needs our help.\""
+                "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 750
-            }
-        },
-        {
-            "id": "node_394",
-            "type": "customNode",
-            "data": {
-                "label": "START\n\nnan"
-            },
-            "position": {
-                "x": 810,
-                "y": 250
             }
         }
     ],
@@ -3564,12 +3553,6 @@
             "id": "e393_to_203",
             "source": "node_393",
             "target": "node_203",
-            "type": "step"
-        },
-        {
-            "id": "e394_to_145",
-            "source": "node_394",
-            "target": "node_145",
             "type": "step"
         }
     ]

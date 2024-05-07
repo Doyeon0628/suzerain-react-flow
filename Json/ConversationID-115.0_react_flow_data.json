@@ -265,17 +265,6 @@
             }
         },
         {
-            "id": "node_106",
-            "type": "customNode",
-            "data": {
-                "label": "!(BaseGame.Arrest_FetihEjall == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
             "id": "node_107",
             "type": "customNode",
             "data": {
@@ -521,22 +510,11 @@
             "id": "node_180",
             "type": "customNode",
             "data": {
-                "label": "UpdateCharacterTitle(\"Fetih Ejall\", \"Inmate 64284\");\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_181",
-            "type": "customNode",
-            "data": {
                 "label": "START\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 500
             }
         }
     ],
@@ -686,12 +664,6 @@
             "type": "step"
         },
         {
-            "id": "e106_to_181",
-            "source": "node_106",
-            "target": "node_181",
-            "type": "step"
-        },
-        {
             "id": "e107_to_28",
             "source": "node_107",
             "target": "node_28",
@@ -827,12 +799,6 @@
             "id": "e180_to_6",
             "source": "node_180",
             "target": "node_6",
-            "type": "step"
-        },
-        {
-            "id": "e181_to_108",
-            "source": "node_181",
-            "target": "node_108",
             "type": "step"
         }
     ]

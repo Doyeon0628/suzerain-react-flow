@@ -1,10 +1,87 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_10",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nI pushed open the door and stepped into the bustling locker room. The players, clad in their FC Anrica jerseys, all stopped what they were doing and turned their heads to look at me.\n\nRemoveConversant(Curtan Leste); RemoveConversant(Gus Manger); WaitForMessage(Continue);"
+                "label": "!(BaseGame.Turn07_PTV_SollConfrontation == true )\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nTarquin Soll leaned on his cane and turned his head to look at me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_15",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Movies and football. Well, a pair of strivers like us have earned the right to a little leisure.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_19",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nI approached the sofa and sat next to him."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_21",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I suppose that demands some respect.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You cannot escape justice forever, Mr. Soll.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_31",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I am surprised that you have the audacity to face me after the way our last meeting ended.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_33",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Your support for FC Anrica and Sordish sports is heartening. Nothing brings the country together like watching their football team win.\""
             },
             "position": {
                 "x": 0,
@@ -12,10 +89,10 @@
             }
         },
         {
-            "id": "node_42",
+            "id": "node_34",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.FCAnricaTeamSpeech_Stress <= 5 && BaseGameIsolated.FCAnricaTeamSpeech_Stress >= 1\n\nnan"
+                "label": "Player\n\n\"That's very kind of you, Colonel.\""
             },
             "position": {
                 "x": 0,
@@ -23,10 +100,10 @@
             }
         },
         {
-            "id": "node_55",
+            "id": "node_38",
             "type": "customNode",
             "data": {
-                "label": "BaseGameIsolated.FCAnrica_Wins = true\n\nnan"
+                "label": "Tarquin Soll\n\n\"Your resolve to punish me is pitiable, Mr. Rayne.\""
             },
             "position": {
                 "x": 0,
@@ -34,7 +111,1558 @@
             }
         },
         {
-            "id": "node_60",
+            "id": "node_50",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI did not respond.\n\nStay silent."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_57",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Thank you for your sympathy. It truly means a lot.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_62",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_A_Investigation_OldGuard_Trial_Lileas == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I wouldn't have taken you for a football fan, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"For a retired man, you certainly get around a lot.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_78",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Can't an old man still travel?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_89",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"My system is nothing but just. It keeps power-mad tyrants from throwing innocent old men in prison.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_98",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Joined_ATO == true || BaseGame.Joined_CSP == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_99",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Is everything faring well with your new Constitution, Mr. Rayne?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_100",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe gestured to the FC Anrica pin on his suit lapel."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_101",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_EnT_SordishRecovery == false\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_103",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_EnT_SordishRecovery == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_105",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_EnT_SordishDepression == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_107",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_EnT_SordishDepression == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_109",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_P_FCAnrica == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_111",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn05_P_FCAnrica == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_116",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm happy to see you so excited, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_117",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe gestured to the FC Anrica pin on his suit lapel."
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_119",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn05_P_FCAnrica == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm sure the team will give it their all, knowing that you and I are watching.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_124",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm happy to see you so excited, sir.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_125",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"As a partner of the club, I must say I am humbled to see that pin on your jacket.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_127",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"We can find a more suitable occasion for a deeper conversation, if you so desire.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_130",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Yes, you won. No need to rub that in my face, Colonel.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_131",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I may have not changed the constitution, but I've done my best to reform Sordland in my own way.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_132",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That's nothing for you to worry about, Mr. Soll.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_136",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That's nothing for you to worry about, Mr. Soll.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_139",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"If you don't mind, Colonel, I'd prefer to watch the match in silence.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_140",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Enough about me. Tell me more about how you and Lileas Graf conspired to throw Sordland into instability.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_141",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Don't be a fool, Mr. Rayne.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_144",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I will decide what I worry about, Mr. Rayne.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_149",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"So I have seen. And the results have been impressive.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_152",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Such childish games don't interest me. I am interested in results from this nation.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_155",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"And you are turning Sordland into a puppet for superpowers to play with.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_157",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Military_Budget_Decrease == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_160",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Joined_ATO == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Archetype_SollistRayne == true && BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false &&\\nBaseGame.Turn09_EnT_SordishRecovery == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_167",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Despite all my concerns, your achievements for this country have been commendable.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Furthermore, you chose to defund our national defense in a time when Eastern Merkopa is waiting to explode in our faces.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_170",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Policy_Welfare_EducationPrivatization == true || BaseGame.Policy_Welfare_HealthPrivatization == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_180",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I am warning you, Anton. The path you've chosen will only bring about disparity and exploitation.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_182",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I am warning you, Anton. Don't you dare go too far.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_183",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I am warning you, Anton. The path you've chosen will only bring about exploitation and abuse.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_188",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I hope your heart is in the right place, Mr. Rayne.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_189",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"My path is my own to tread. You have no influence over my presidency, Colonel.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'm sorry but I'm done with the warmongering and paranoia.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_207",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Law_Decrees_Stronger == true && (BaseGame.Reform_Law_Veto_Loophole == true || BaseGame.Reform_Law_Impeachment_Removed == true || BaseGame.Policy_Order_SecretStatePolice == true))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_209",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Don't get me wrong. I may have reacted the same way in your stead. But I would have made sure the Sordish military was well and ready for such a fight.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_210",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Turn02_FPnT_Consulate_Condemn == true && BaseGame.Wehlen_JointOperation == false && BaseGame.Decision_Turn09_RumburgPeaceSummit_StartTalks == true) == false && (BaseGame.Enable_RumburgIncident == true && BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false) == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_215",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Say what you will. Deep down inside, you know I'm right.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_216",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Turn02_FPnT_Consulate_Condemn == true && BaseGame.Wehlen_JointOperation == false && BaseGame.Decision_Turn09_RumburgPeaceSummit_StartTalks == true) == false && (BaseGame.Enable_RumburgIncident == true && BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false) == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_218",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Turn02_FPnT_Consulate_Condemn == true && BaseGame.Wehlen_JointOperation == false && BaseGame.Decision_Turn09_RumburgPeaceSummit_StartTalks == true) == false && (BaseGame.Enable_RumburgIncident == true && BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false) == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_219",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn03_EnT_Military_Budget_Increase == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_225",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That's rich, coming from you of all people.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_226",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I am not you, Colonel.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_229",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHis brow furrowed as he looked at me."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_231",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Autocrat_Path == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_233",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_Autocrat_Path == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_234",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I am doing everything I can to prevent a conflict with them.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_235",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Why are you so scared, Colonel? If the Rums come, we will show them hell.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_239",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It's the path that Queen Beatrice chose, not me.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_240",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_242",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.RumburgIncident_DeclareWar == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_243",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_245",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.RumburgIncident_DeclareWar == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_246",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"We are ready to crush Rumburg's armies once and for all.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_253",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"You alone know what's best for Sordland, don't you?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_254",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I have nothing but faith in this country and its fine military. But both are nothing without a strong leader to guide them.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_256",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"It's too late for regrets.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_258",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"You must try harder before it's too late.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_260",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"It's nothing for you to worry about, Mr. Soll.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_261",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Not everyone has been on board with it. But I'm still confident it's the right course of action.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_262",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'll be honest. I am starting to doubt that it was the right decision.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_263",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Decision_Turn08_ExtendEmergency_Extend == true\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_266",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"How is everything faring with your emergency, Mr. Rayne?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_267",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Decision_Turn08_ExtendEmergency_Extend == true &&\\nBaseGame.Archetype_SollistRayne == true) && (BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_269",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Decision_Turn08_ExtendEmergency_Extend == true &&\\nBaseGame.Archetype_SollistRayne == true) && (BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_270",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Unless they crack under the pressure, of course.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_273",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Archetype_SollistRayne == true && BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false &&\\nBaseGame.Turn09_EnT_SordishRecovery == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_275",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Archetype_SollistRayne == true && BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false &&\\nBaseGame.Turn09_EnT_SordishRecovery == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_279",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"That's not for you to question, sir.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"My heart belongs to Sordland.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You know it is, Colonel.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I hope yours is as well.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"In any case... None of that really matters now.\""
+            },
+            "position": {
+                "x": 540,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Everything's running as smoothly as possible.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_287",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"My emergency? I thought it was *your* idea.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_290",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"We must look to the future.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_291",
+            "type": "customNode",
+            "data": {
+                "label": "OptionsWSoll\n\nOptionsWSoll"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_292",
+            "type": "customNode",
+            "data": {
+                "label": "Jump to: [OptionsWSoll]\n\nnan"
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_295",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I'll drink to that.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_298",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Speaking of drinks...\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_300",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"You know what? I think I need a drink.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_304",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Vectern sis da.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_305",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_311",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"In any case... None of that really matters anymore.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_312",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"In any case... None of that really matters anymore.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_313",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Ending_Coup == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_319",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"In any case... None of that really matters anymore.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_321",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"In any case... None of that really matters anymore.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_323",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"All incompetent leaders get what's coming to them in the end. Yourself included.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_324",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"You who claim to champion justice will soon get a taste of your own medicine.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_325",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"You still have a lot to learn.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_326",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn08_Action_Court_Shuffled == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_328",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_Action_Court_Shuffled == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_331",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn08_Action_Court_OldGuardReplaced == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_335",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I am surprised that you have the audacity to face me after the stunt you pulled with the Supreme Court.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_338",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"The Court now works the way it is supposed to. True justice will be served in Sordland for the first time.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_342",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn07_SecretState_Kill_OrsoHawker == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_346",
+            "type": "customNode",
+            "data": {
+                "label": "(BaseGame.Reform_Law_Honorary_NoImmunity == true || BaseGame.Reform_Law_Honorary_Abolished == true) && BaseGame.Reform_Reform_Court_Success == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_352",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nHe smiled."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_354",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"If something will collapse, it will be Rumburg.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_363",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.RumburgIncident_DeclareWar == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_367",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"If and when that fateful day comes, I will not stand idly by and watch my country fall. I will tell you that much.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_373",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nA sudden burst of cheering from the stadium made both of us look out the window. The players had begun walking out onto the field."
+            },
+            "position": {
+                "x": 270,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_374",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Perhaps I do. But what makes you think you should be the one to teach me?\""
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_377",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"Whatever you say, I respect you Colonel. I wish we had some understanding.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_378",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Look, Mr. Rayne. It's starting.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_382",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n\"I forgot that you were from Anrica.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_383",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Italic\n\nI kept watching the stadium.\n\nKeep watching."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_389",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"If it weren't for my name plastered everywhere in this city, I might have forgotten myself.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_390",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"It's been some time.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_392",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"As if plastering my name everywhere in this city wasn't enough. I suppose I'm flattered.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_393",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"To be quite precise, it wasn't my idea. It was a rare show of initiative from Mr. Hawker.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_395",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_Reform_Court_Success == true && BaseGame.Reform_BludishRights_Amendment_Proposal == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 750
+            }
+        },
+        {
+            "id": "node_398",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"You made a grave mistake by removing the national identity of this country from its constitution.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_404",
+            "type": "customNode",
+            "data": {
+                "label": "!((BaseGame.Decision_Turn08_ExtendEmergency_Extend == true &&\\nBaseGame.Archetype_SollistRayne == true) && (BaseGame.Joined_ATO == false && BaseGame.Joined_CSP == false))\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_406",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"You must be referring to Alphonso. Sordland couldn't get enough of him.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_408",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Ah, yes. I always found it unbecoming for sitting presidents to engage in such schemes. But you must have been doing something right for our boys to progress this far.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_409",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I'll be even more excited if they win.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_410",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I don't watch all the games. But I do have a soft spot for these hometown heroes.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_411",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"But you must have been doing something right for our boys to progress this far.\""
+            },
+            "position": {
+                "x": 270,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_412",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"When it comes to football, yes.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_413",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Unless they crack under pressure, of course.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_414",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"I'll be more excited when our boys win.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_415",
+            "type": "customNode",
+            "data": {
+                "label": "Tarquin Soll\n\n\"Every decision you make will be faced with dissent. You must not let yourself succumb to doubt because of it.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_416",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Reform_PresiPower_Strong_PurgeGeneralStaff == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 500
+            }
+        },
+        {
+            "id": "node_418",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Reform_PresiPower_Strong_PurgeGeneralStaff == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_420",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Turn09_EnT_SordishRecovery == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_422",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.Turn09_EnT_SordishRecovery == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_424",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -47,27 +1675,915 @@
     ],
     "edges": [
         {
-            "id": "e2_to_219",
-            "source": "node_2",
-            "target": "node_219",
+            "id": "e10_to_32",
+            "source": "node_10",
+            "target": "node_32",
             "type": "step"
         },
         {
-            "id": "e42_to_50",
-            "source": "node_42",
-            "target": "node_50",
+            "id": "e11_to_60",
+            "source": "node_11",
+            "target": "node_60",
             "type": "step"
         },
         {
-            "id": "e55_to_43",
-            "source": "node_55",
-            "target": "node_43",
+            "id": "e15_to_403",
+            "source": "node_15",
+            "target": "node_403",
             "type": "step"
         },
         {
-            "id": "e60_to_2",
-            "source": "node_60",
+            "id": "e19_to_327",
+            "source": "node_19",
+            "target": "node_327",
+            "type": "step"
+        },
+        {
+            "id": "e21_to_33",
+            "source": "node_21",
+            "target": "node_33",
+            "type": "step"
+        },
+        {
+            "id": "e26_to_77",
+            "source": "node_26",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e31_to_77",
+            "source": "node_31",
+            "target": "node_77",
+            "type": "step"
+        },
+        {
+            "id": "e33_to_26",
+            "source": "node_33",
+            "target": "node_26",
+            "type": "step"
+        },
+        {
+            "id": "e34_to_73",
+            "source": "node_34",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e38_to_84",
+            "source": "node_38",
+            "target": "node_84",
+            "type": "step"
+        },
+        {
+            "id": "e50_to_105",
+            "source": "node_50",
+            "target": "node_105",
+            "type": "step"
+        },
+        {
+            "id": "e57_to_139",
+            "source": "node_57",
+            "target": "node_139",
+            "type": "step"
+        },
+        {
+            "id": "e62_to_141",
+            "source": "node_62",
+            "target": "node_141",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_407",
+            "source": "node_73",
+            "target": "node_407",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_411",
+            "source": "node_74",
+            "target": "node_411",
+            "type": "step"
+        },
+        {
+            "id": "e78_to_232",
+            "source": "node_78",
+            "target": "node_232",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_78",
+            "source": "node_89",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e98_to_156",
+            "source": "node_98",
+            "target": "node_156",
+            "type": "step"
+        },
+        {
+            "id": "e99_to_158",
+            "source": "node_99",
+            "target": "node_158",
+            "type": "step"
+        },
+        {
+            "id": "e100_to_135",
+            "source": "node_100",
+            "target": "node_135",
+            "type": "step"
+        },
+        {
+            "id": "e101_to_117",
+            "source": "node_101",
+            "target": "node_117",
+            "type": "step"
+        },
+        {
+            "id": "e103_to_155",
+            "source": "node_103",
+            "target": "node_155",
+            "type": "step"
+        },
+        {
+            "id": "e105_to_134",
+            "source": "node_105",
+            "target": "node_134",
+            "type": "step"
+        },
+        {
+            "id": "e107_to_144",
+            "source": "node_107",
+            "target": "node_144",
+            "type": "step"
+        },
+        {
+            "id": "e109_to_413",
+            "source": "node_109",
+            "target": "node_413",
+            "type": "step"
+        },
+        {
+            "id": "e111_to_126",
+            "source": "node_111",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e116_to_414",
+            "source": "node_116",
+            "target": "node_414",
+            "type": "step"
+        },
+        {
+            "id": "e117_to_415",
+            "source": "node_117",
+            "target": "node_415",
+            "type": "step"
+        },
+        {
+            "id": "e119_to_272",
+            "source": "node_119",
+            "target": "node_272",
+            "type": "step"
+        },
+        {
+            "id": "e123_to_409",
+            "source": "node_123",
+            "target": "node_409",
+            "type": "step"
+        },
+        {
+            "id": "e124_to_271",
+            "source": "node_124",
+            "target": "node_271",
+            "type": "step"
+        },
+        {
+            "id": "e125_to_410",
+            "source": "node_125",
+            "target": "node_410",
+            "type": "step"
+        },
+        {
+            "id": "e127_to_412",
+            "source": "node_127",
+            "target": "node_412",
+            "type": "step"
+        },
+        {
+            "id": "e130_to_118",
+            "source": "node_130",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_142",
+            "source": "node_131",
+            "target": "node_142",
+            "type": "step"
+        },
+        {
+            "id": "e132_to_147",
+            "source": "node_132",
+            "target": "node_147",
+            "type": "step"
+        },
+        {
+            "id": "e136_to_151",
+            "source": "node_136",
+            "target": "node_151",
+            "type": "step"
+        },
+        {
+            "id": "e139_to_230",
+            "source": "node_139",
+            "target": "node_230",
+            "type": "step"
+        },
+        {
+            "id": "e140_to_374",
+            "source": "node_140",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e141_to_382",
+            "source": "node_141",
+            "target": "node_382",
+            "type": "step"
+        },
+        {
+            "id": "e144_to_97",
+            "source": "node_144",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e149_to_146",
+            "source": "node_149",
+            "target": "node_146",
+            "type": "step"
+        },
+        {
+            "id": "e152_to_396",
+            "source": "node_152",
+            "target": "node_396",
+            "type": "step"
+        },
+        {
+            "id": "e155_to_97",
+            "source": "node_155",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e157_to_184",
+            "source": "node_157",
+            "target": "node_184",
+            "type": "step"
+        },
+        {
+            "id": "e160_to_176",
+            "source": "node_160",
+            "target": "node_176",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_184",
+            "source": "node_164",
+            "target": "node_184",
+            "type": "step"
+        },
+        {
+            "id": "e167_to_268",
+            "source": "node_167",
+            "target": "node_268",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_185",
+            "source": "node_168",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e170_to_241",
+            "source": "node_170",
+            "target": "node_241",
+            "type": "step"
+        },
+        {
+            "id": "e180_to_237",
+            "source": "node_180",
+            "target": "node_237",
+            "type": "step"
+        },
+        {
+            "id": "e182_to_197",
+            "source": "node_182",
+            "target": "node_197",
+            "type": "step"
+        },
+        {
+            "id": "e183_to_191",
+            "source": "node_183",
+            "target": "node_191",
+            "type": "step"
+        },
+        {
+            "id": "e188_to_97",
+            "source": "node_188",
+            "target": "node_97",
+            "type": "step"
+        },
+        {
+            "id": "e189_to_282",
+            "source": "node_189",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e194_to_203",
+            "source": "node_194",
+            "target": "node_203",
+            "type": "step"
+        },
+        {
+            "id": "e207_to_170",
+            "source": "node_207",
+            "target": "node_170",
+            "type": "step"
+        },
+        {
+            "id": "e209_to_220",
+            "source": "node_209",
+            "target": "node_220",
+            "type": "step"
+        },
+        {
+            "id": "e210_to_223",
+            "source": "node_210",
+            "target": "node_223",
+            "type": "step"
+        },
+        {
+            "id": "e215_to_106",
+            "source": "node_215",
+            "target": "node_106",
+            "type": "step"
+        },
+        {
+            "id": "e216_to_303",
+            "source": "node_216",
+            "target": "node_303",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_209",
+            "source": "node_218",
+            "target": "node_209",
+            "type": "step"
+        },
+        {
+            "id": "e219_to_306",
+            "source": "node_219",
+            "target": "node_306",
+            "type": "step"
+        },
+        {
+            "id": "e225_to_314",
+            "source": "node_225",
+            "target": "node_314",
+            "type": "step"
+        },
+        {
+            "id": "e226_to_225",
+            "source": "node_226",
+            "target": "node_225",
+            "type": "step"
+        },
+        {
+            "id": "e229_to_255",
+            "source": "node_229",
+            "target": "node_255",
+            "type": "step"
+        },
+        {
+            "id": "e231_to_285",
+            "source": "node_231",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e233_to_264",
+            "source": "node_233",
+            "target": "node_264",
+            "type": "step"
+        },
+        {
+            "id": "e234_to_48",
+            "source": "node_234",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e235_to_259",
+            "source": "node_235",
+            "target": "node_259",
+            "type": "step"
+        },
+        {
+            "id": "e239_to_195",
+            "source": "node_239",
+            "target": "node_195",
+            "type": "step"
+        },
+        {
+            "id": "e240_to_203",
+            "source": "node_240",
+            "target": "node_203",
+            "type": "step"
+        },
+        {
+            "id": "e242_to_214",
+            "source": "node_242",
+            "target": "node_214",
+            "type": "step"
+        },
+        {
+            "id": "e243_to_211",
+            "source": "node_243",
+            "target": "node_211",
+            "type": "step"
+        },
+        {
+            "id": "e245_to_209",
+            "source": "node_245",
+            "target": "node_209",
+            "type": "step"
+        },
+        {
+            "id": "e246_to_217",
+            "source": "node_246",
+            "target": "node_217",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_235",
+            "source": "node_249",
+            "target": "node_235",
+            "type": "step"
+        },
+        {
+            "id": "e253_to_314",
+            "source": "node_253",
+            "target": "node_314",
+            "type": "step"
+        },
+        {
+            "id": "e254_to_314",
+            "source": "node_254",
+            "target": "node_314",
+            "type": "step"
+        },
+        {
+            "id": "e256_to_292",
+            "source": "node_256",
+            "target": "node_292",
+            "type": "step"
+        },
+        {
+            "id": "e258_to_357",
+            "source": "node_258",
+            "target": "node_357",
+            "type": "step"
+        },
+        {
+            "id": "e260_to_286",
+            "source": "node_260",
+            "target": "node_286",
+            "type": "step"
+        },
+        {
+            "id": "e261_to_145",
+            "source": "node_261",
+            "target": "node_145",
+            "type": "step"
+        },
+        {
+            "id": "e262_to_416",
+            "source": "node_262",
+            "target": "node_416",
+            "type": "step"
+        },
+        {
+            "id": "e263_to_143",
+            "source": "node_263",
+            "target": "node_143",
+            "type": "step"
+        },
+        {
+            "id": "e266_to_260",
+            "source": "node_266",
+            "target": "node_260",
+            "type": "step"
+        },
+        {
+            "id": "e267_to_262",
+            "source": "node_267",
+            "target": "node_262",
+            "type": "step"
+        },
+        {
+            "id": "e269_to_421",
+            "source": "node_269",
+            "target": "node_421",
+            "type": "step"
+        },
+        {
+            "id": "e270_to_215",
+            "source": "node_270",
+            "target": "node_215",
+            "type": "step"
+        },
+        {
+            "id": "e273_to_78",
+            "source": "node_273",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e275_to_284",
+            "source": "node_275",
+            "target": "node_284",
+            "type": "step"
+        },
+        {
+            "id": "e279_to_216",
+            "source": "node_279",
+            "target": "node_216",
+            "type": "step"
+        },
+        {
+            "id": "e280_to_244",
+            "source": "node_280",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e281_to_244",
+            "source": "node_281",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_244",
+            "source": "node_282",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_244",
+            "source": "node_283",
+            "target": "node_244",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_392",
+            "source": "node_285",
+            "target": "node_392",
+            "type": "step"
+        },
+        {
+            "id": "e287_to_165",
+            "source": "node_287",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e290_to_394",
+            "source": "node_290",
+            "target": "node_394",
+            "type": "step"
+        },
+        {
+            "id": "e291_to_298",
+            "source": "node_291",
+            "target": "node_298",
+            "type": "step"
+        },
+        {
+            "id": "e292_to_140",
+            "source": "node_292",
+            "target": "node_140",
+            "type": "step"
+        },
+        {
+            "id": "e295_to_374",
+            "source": "node_295",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e298_to_374",
+            "source": "node_298",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e300_to_374",
+            "source": "node_300",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e304_to_377",
+            "source": "node_304",
+            "target": "node_377",
+            "type": "step"
+        },
+        {
+            "id": "e305_to_374",
+            "source": "node_305",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e311_to_274",
+            "source": "node_311",
+            "target": "node_274",
+            "type": "step"
+        },
+        {
+            "id": "e312_to_325",
+            "source": "node_312",
+            "target": "node_325",
+            "type": "step"
+        },
+        {
+            "id": "e313_to_324",
+            "source": "node_313",
+            "target": "node_324",
+            "type": "step"
+        },
+        {
+            "id": "e319_to_292",
+            "source": "node_319",
+            "target": "node_292",
+            "type": "step"
+        },
+        {
+            "id": "e321_to_371",
+            "source": "node_321",
+            "target": "node_371",
+            "type": "step"
+        },
+        {
+            "id": "e323_to_371",
+            "source": "node_323",
+            "target": "node_371",
+            "type": "step"
+        },
+        {
+            "id": "e324_to_361",
+            "source": "node_324",
+            "target": "node_361",
+            "type": "step"
+        },
+        {
+            "id": "e325_to_361",
+            "source": "node_325",
+            "target": "node_361",
+            "type": "step"
+        },
+        {
+            "id": "e326_to_377",
+            "source": "node_326",
+            "target": "node_377",
+            "type": "step"
+        },
+        {
+            "id": "e328_to_336",
+            "source": "node_328",
+            "target": "node_336",
+            "type": "step"
+        },
+        {
+            "id": "e331_to_336",
+            "source": "node_331",
+            "target": "node_336",
+            "type": "step"
+        },
+        {
+            "id": "e335_to_9",
+            "source": "node_335",
+            "target": "node_9",
+            "type": "step"
+        },
+        {
+            "id": "e338_to_35",
+            "source": "node_338",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e342_to_35",
+            "source": "node_342",
+            "target": "node_35",
+            "type": "step"
+        },
+        {
+            "id": "e346_to_353",
+            "source": "node_346",
+            "target": "node_353",
+            "type": "step"
+        },
+        {
+            "id": "e352_to_78",
+            "source": "node_352",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e354_to_78",
+            "source": "node_354",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e363_to_417",
+            "source": "node_363",
+            "target": "node_417",
+            "type": "step"
+        },
+        {
+            "id": "e367_to_417",
+            "source": "node_367",
+            "target": "node_417",
+            "type": "step"
+        },
+        {
+            "id": "e373_to_292",
+            "source": "node_373",
+            "target": "node_292",
+            "type": "step"
+        },
+        {
+            "id": "e374_to_379",
+            "source": "node_374",
+            "target": "node_379",
+            "type": "step"
+        },
+        {
+            "id": "e377_to_374",
+            "source": "node_377",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e378_to_374",
+            "source": "node_378",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e382_to_374",
+            "source": "node_382",
+            "target": "node_374",
+            "type": "step"
+        },
+        {
+            "id": "e383_to_391",
+            "source": "node_383",
+            "target": "node_391",
+            "type": "step"
+        },
+        {
+            "id": "e389_to_2",
+            "source": "node_389",
             "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e390_to_2",
+            "source": "node_390",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e392_to_78",
+            "source": "node_392",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e393_to_2",
+            "source": "node_393",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e395_to_165",
+            "source": "node_395",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e398_to_165",
+            "source": "node_398",
+            "target": "node_165",
+            "type": "step"
+        },
+        {
+            "id": "e404_to_16",
+            "source": "node_404",
+            "target": "node_16",
+            "type": "step"
+        },
+        {
+            "id": "e406_to_13",
+            "source": "node_406",
+            "target": "node_13",
+            "type": "step"
+        },
+        {
+            "id": "e408_to_119",
+            "source": "node_408",
+            "target": "node_119",
+            "type": "step"
+        },
+        {
+            "id": "e409_to_273",
+            "source": "node_409",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e410_to_273",
+            "source": "node_410",
+            "target": "node_273",
+            "type": "step"
+        },
+        {
+            "id": "e411_to_118",
+            "source": "node_411",
+            "target": "node_118",
+            "type": "step"
+        },
+        {
+            "id": "e412_to_78",
+            "source": "node_412",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e413_to_78",
+            "source": "node_413",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e414_to_78",
+            "source": "node_414",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e415_to_78",
+            "source": "node_415",
+            "target": "node_78",
+            "type": "step"
+        },
+        {
+            "id": "e416_to_395",
+            "source": "node_416",
+            "target": "node_395",
+            "type": "step"
+        },
+        {
+            "id": "e418_to_370",
+            "source": "node_418",
+            "target": "node_370",
+            "type": "step"
+        },
+        {
+            "id": "e420_to_368",
+            "source": "node_420",
+            "target": "node_368",
+            "type": "step"
+        },
+        {
+            "id": "e422_to_168",
+            "source": "node_422",
+            "target": "node_168",
+            "type": "step"
+        },
+        {
+            "id": "e424_to_185",
+            "source": "node_424",
+            "target": "node_185",
             "type": "step"
         }
     ]

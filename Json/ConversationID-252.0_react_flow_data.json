@@ -1,22 +1,124 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_4",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nKarl Greiser walked in. He took off his hat, stuck it under his arm and gave a stiff bow."
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
             }
+        },
+        {
+            "id": "node_8",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n“Thank you, your honor.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_11",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_67",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n“Very well. You may leave.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_68",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n“Good luck, Mr. President. Enjoy.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_72",
+            "type": "customNode",
+            "data": {
+                "label": "UpdateCharacterTitle(\"Heron Garaci\", \"Former Justice\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_73",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_122",
-            "source": "node_2",
-            "target": "node_122",
+            "id": "e4_to_73",
+            "source": "node_4",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e8_to_73",
+            "source": "node_8",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e11_to_69",
+            "source": "node_11",
+            "target": "node_69",
+            "type": "step"
+        },
+        {
+            "id": "e67_to_11",
+            "source": "node_67",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e68_to_11",
+            "source": "node_68",
+            "target": "node_11",
+            "type": "step"
+        },
+        {
+            "id": "e72_to_2",
+            "source": "node_72",
+            "target": "node_2",
+            "type": "step"
+        },
+        {
+            "id": "e73_to_3",
+            "source": "node_73",
+            "target": "node_3",
             "type": "step"
         }
     ]

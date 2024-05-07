@@ -1,10 +1,54 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_3",
             "type": "customNode",
             "data": {
-                "label": "Narrator\n\nKarl Greiser walked in. He took off his hat, stuck it under his arm and gave a stiff bow."
+                "label": "Orso Hawker\n\n“This court now summons Lucian Galade to present his evidence.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_26",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“The President told me that if I failed to carry out his orders, my life would be in danger.\"\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_28",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Bullshit!”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_29",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“Your honor, objection!”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_41",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandal_Franc_StateUniversity == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -12,10 +56,109 @@
             }
         },
         {
-            "id": "node_15",
+            "id": "node_43",
             "type": "customNode",
             "data": {
-                "label": "Ovid Grecer\n\n“Mr. Greiser. In the evidence provided to this court, there are very big claims.”\n\n"
+                "label": "!(BaseGame.LeakedScandal_Franc_StateUniversity == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_44",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.LeakedScandal_GusManger_UnderhallCollusion == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_46",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandal_GusManger_UnderhallCollusion == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_49",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandal_HiddenFunding_RedYouth == true || BaseGame.LeakedScandal_HiddenFunding_YoungSords == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_52",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandal_MarcelKoronti_MediaDeal == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_74",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandal_SecretState_DetainFrensRicter == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_77",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandal_SecretState_DetainKesaroKibener == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_80",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandal_SecretState_KillFrensRicter == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_83",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.LeakedScandal_SecretState_KillKesaroKibener == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_84",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“He has fabricated evidence in order to detain Kesaro Kibener, leader of the NFP!”\n\n"
             },
             "position": {
                 "x": 0,
@@ -26,7 +169,7 @@
             "id": "node_89",
             "type": "customNode",
             "data": {
-                "label": "Ovid Grecer\n\n“What is the largest task this Secret State Police has handled by the order of the President of Sordland?”\n\n"
+                "label": "Lucian Galade\n\n“The evidence is clear, your honor.”\n\n"
             },
             "position": {
                 "x": 0,
@@ -34,21 +177,10 @@
             }
         },
         {
-            "id": "node_90",
+            "id": "node_101",
             "type": "customNode",
             "data": {
-                "label": "BaseGame.LeakedScandal_SecretState_KillKesaroKibener == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_93",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.LeakedScandal_SecretState_DetainFrensRicter == true\n\nnan"
+                "label": "Ovid Grecer\n\n“Let's hear it from the man himself.”\n\n"
             },
             "position": {
                 "x": 0,
@@ -59,7 +191,7 @@
             "id": "node_102",
             "type": "customNode",
             "data": {
-                "label": "Karl Greiser\n\n“It was the detainment of Frens Ricter.”\n\n"
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -67,21 +199,10 @@
             }
         },
         {
-            "id": "node_119",
+            "id": "node_106",
             "type": "customNode",
             "data": {
-                "label": "Player\n\n“You can't even look me in the eye, can you?”"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_123",
-            "type": "customNode",
-            "data": {
-                "label": "BaseGame.LeakedScandal_SecretState_KillPetrVectern == true\n\nnan"
+                "label": "BaseGame.ChiefJustice_HeronGaraci == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -92,7 +213,7 @@
             "id": "node_131",
             "type": "customNode",
             "data": {
-                "label": "!(BaseGame.LeakedScandal_SecretState_KillOrsoHawker == true)\n\nnan"
+                "label": "Heron Garaci\n\n“Back to you, Mr. Galade.”\n\n"
             },
             "position": {
                 "x": 0,
@@ -100,10 +221,10 @@
             }
         },
         {
-            "id": "node_132",
+            "id": "node_151",
             "type": "customNode",
             "data": {
-                "label": "Karl Greiser\n\n“It was the assassination of Petr Vectern.”\n\n"
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -111,82 +232,556 @@
             }
         },
         {
-            "id": "node_138",
+            "id": "node_155",
             "type": "customNode",
             "data": {
-                "label": "Karl Greiser\n\n“It was the detainment of Livia Suno.”\n\n"
+                "label": "BaseGame.ChiefJustice_HeronGaraci == true\n\nnan"
             },
             "position": {
                 "x": 0,
                 "y": 0
+            }
+        },
+        {
+            "id": "node_158",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n“I see.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_159",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“Recently, I managed to uncover a new scandal in the cabinet.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_164",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_168",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_HeronGaraci == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_170",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.ChiefJustice_HeronGaraci == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_172",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“I was personally present when the President attended a secret backroom meeting in Conriat.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_178",
+            "type": "customNode",
+            "data": {
+                "label": "Ovid Grecer\n\n“Silence in the court! Mr. Galade, please continue.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_179",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n“Silence in the court! Mr. Galade, please continue.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_180",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_184",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_HeronGaraci == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_195",
+            "type": "customNode",
+            "data": {
+                "label": "!(BaseGame.ChiefJustice_OvidGrecer == true)\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.ChiefJustice_OvidGrecer == true\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "Heron Garaci\n\n“Silence!”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_224",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“My personal investigations turned up shocking news about President Rayne's seemingly perfect family.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_249",
+            "type": "customNode",
+            "data": {
+                "label": "Player\n\n“How long have you been planning this?”"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_259",
+            "type": "customNode",
+            "data": {
+                "label": "Orso Hawker\n\n“Silence in the court!”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_260",
+            "type": "customNode",
+            "data": {
+                "label": "Ovid Grecer\n\n“Silence in the court!”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_280",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“The evidence is clear. I have the papers detailing that Mr. President had his then secretary, Ms. Suno killed!”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_281",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“President Rayne targeted the legal and official opposition the Assembly.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_282",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“President Rayne targeted the legal and official opposition the Assembly.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_283",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“President Rayne targeted the legal and official opposition the Assembly.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_284",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“President Rayne targeted the legal and official opposition the Assembly.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_285",
+            "type": "customNode",
+            "data": {
+                "label": "Lucian Galade\n\n“President Rayne targeted well known state figures in our government.”\n\n"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_286",
+            "type": "customNode",
+            "data": {
+                "label": "START\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
             }
         }
     ],
     "edges": [
         {
-            "id": "e2_to_110",
-            "source": "node_2",
-            "target": "node_110",
+            "id": "e3_to_13",
+            "source": "node_3",
+            "target": "node_13",
             "type": "step"
         },
         {
-            "id": "e15_to_122",
-            "source": "node_15",
-            "target": "node_122",
+            "id": "e26_to_58",
+            "source": "node_26",
+            "target": "node_58",
             "type": "step"
         },
         {
-            "id": "e89_to_124",
+            "id": "e28_to_185",
+            "source": "node_28",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e29_to_185",
+            "source": "node_29",
+            "target": "node_185",
+            "type": "step"
+        },
+        {
+            "id": "e41_to_24",
+            "source": "node_41",
+            "target": "node_24",
+            "type": "step"
+        },
+        {
+            "id": "e43_to_225",
+            "source": "node_43",
+            "target": "node_225",
+            "type": "step"
+        },
+        {
+            "id": "e44_to_233",
+            "source": "node_44",
+            "target": "node_233",
+            "type": "step"
+        },
+        {
+            "id": "e46_to_160",
+            "source": "node_46",
+            "target": "node_160",
+            "type": "step"
+        },
+        {
+            "id": "e49_to_133",
+            "source": "node_49",
+            "target": "node_133",
+            "type": "step"
+        },
+        {
+            "id": "e52_to_173",
+            "source": "node_52",
+            "target": "node_173",
+            "type": "step"
+        },
+        {
+            "id": "e74_to_282",
+            "source": "node_74",
+            "target": "node_282",
+            "type": "step"
+        },
+        {
+            "id": "e77_to_283",
+            "source": "node_77",
+            "target": "node_283",
+            "type": "step"
+        },
+        {
+            "id": "e80_to_284",
+            "source": "node_80",
+            "target": "node_284",
+            "type": "step"
+        },
+        {
+            "id": "e83_to_285",
+            "source": "node_83",
+            "target": "node_285",
+            "type": "step"
+        },
+        {
+            "id": "e84_to_286",
+            "source": "node_84",
+            "target": "node_286",
+            "type": "step"
+        },
+        {
+            "id": "e89_to_262",
             "source": "node_89",
-            "target": "node_124",
+            "target": "node_262",
             "type": "step"
         },
         {
-            "id": "e90_to_124",
-            "source": "node_90",
-            "target": "node_124",
+            "id": "e101_to_1",
+            "source": "node_101",
+            "target": "node_1",
             "type": "step"
         },
         {
-            "id": "e93_to_135",
-            "source": "node_93",
-            "target": "node_135",
-            "type": "step"
-        },
-        {
-            "id": "e102_to_91",
+            "id": "e102_to_1",
             "source": "node_102",
-            "target": "node_91",
+            "target": "node_1",
             "type": "step"
         },
         {
-            "id": "e119_to_2",
-            "source": "node_119",
+            "id": "e106_to_1",
+            "source": "node_106",
+            "target": "node_1",
+            "type": "step"
+        },
+        {
+            "id": "e131_to_48",
+            "source": "node_131",
+            "target": "node_48",
+            "type": "step"
+        },
+        {
+            "id": "e151_to_45",
+            "source": "node_151",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e155_to_45",
+            "source": "node_155",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e158_to_152",
+            "source": "node_158",
+            "target": "node_152",
+            "type": "step"
+        },
+        {
+            "id": "e159_to_45",
+            "source": "node_159",
+            "target": "node_45",
+            "type": "step"
+        },
+        {
+            "id": "e164_to_51",
+            "source": "node_164",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e168_to_51",
+            "source": "node_168",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e170_to_164",
+            "source": "node_170",
+            "target": "node_164",
+            "type": "step"
+        },
+        {
+            "id": "e172_to_51",
+            "source": "node_172",
+            "target": "node_51",
+            "type": "step"
+        },
+        {
+            "id": "e178_to_191",
+            "source": "node_178",
+            "target": "node_191",
+            "type": "step"
+        },
+        {
+            "id": "e179_to_41",
+            "source": "node_179",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e180_to_41",
+            "source": "node_180",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e184_to_41",
+            "source": "node_184",
+            "target": "node_41",
+            "type": "step"
+        },
+        {
+            "id": "e195_to_206",
+            "source": "node_195",
+            "target": "node_206",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_210",
+            "source": "node_200",
+            "target": "node_210",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_42",
+            "source": "node_223",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_42",
+            "source": "node_224",
+            "target": "node_42",
+            "type": "step"
+        },
+        {
+            "id": "e249_to_2",
+            "source": "node_249",
             "target": "node_2",
             "type": "step"
         },
         {
-            "id": "e123_to_22",
-            "source": "node_123",
-            "target": "node_22",
+            "id": "e259_to_247",
+            "source": "node_259",
+            "target": "node_247",
             "type": "step"
         },
         {
-            "id": "e131_to_104",
-            "source": "node_131",
-            "target": "node_104",
+            "id": "e260_to_247",
+            "source": "node_260",
+            "target": "node_247",
             "type": "step"
         },
         {
-            "id": "e132_to_100",
-            "source": "node_132",
-            "target": "node_100",
+            "id": "e280_to_73",
+            "source": "node_280",
+            "target": "node_73",
             "type": "step"
         },
         {
-            "id": "e138_to_108",
-            "source": "node_138",
-            "target": "node_108",
+            "id": "e281_to_73",
+            "source": "node_281",
+            "target": "node_73",
+            "type": "step"
+        },
+        {
+            "id": "e282_to_72",
+            "source": "node_282",
+            "target": "node_72",
+            "type": "step"
+        },
+        {
+            "id": "e283_to_85",
+            "source": "node_283",
+            "target": "node_85",
+            "type": "step"
+        },
+        {
+            "id": "e284_to_86",
+            "source": "node_284",
+            "target": "node_86",
+            "type": "step"
+        },
+        {
+            "id": "e285_to_87",
+            "source": "node_285",
+            "target": "node_87",
+            "type": "step"
+        },
+        {
+            "id": "e286_to_88",
+            "source": "node_286",
+            "target": "node_88",
             "type": "step"
         }
     ]

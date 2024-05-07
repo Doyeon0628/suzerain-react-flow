@@ -1,21 +1,10 @@
 {
     "nodes": [
         {
-            "id": "node_2",
+            "id": "node_9",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.War_Pales_Operation1_Won == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_6",
-            "type": "customNode",
-            "data": {
-                "label": "Taddeus Azaro\n\n\"The troops are eagerly awaiting orders to begin the second operation.\""
+                "label": "Narrator\n\nThe military helicopter gracefully landed on the helipad."
             },
             "position": {
                 "x": 0,
@@ -23,10 +12,10 @@
             }
         },
         {
-            "id": "node_22",
+            "id": "node_12",
             "type": "customNode",
             "data": {
-                "label": "Lucita Azaro\n\n\"Our troops are trying to push however, the enemy does not yield.\""
+                "label": "Narrator\n\nI fixed the collars of my military uniform. I felt comfortable in it. This whole trip reminded me of the good old days at Camp Domus."
             },
             "position": {
                 "x": 0,
@@ -34,10 +23,10 @@
             }
         },
         {
-            "id": "node_24",
+            "id": "node_38",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.War_Objective_Captured_Arces == true && RiziaDLC.War_Objective_Captured_Ziqes == true\n\nnan"
+                "label": "Narrator\n\nAfter saluting, I shook hands with him. I leaned forward to his ear."
             },
             "position": {
                 "x": 0,
@@ -45,10 +34,10 @@
             }
         },
         {
-            "id": "node_53",
+            "id": "node_39",
             "type": "customNode",
             "data": {
-                "label": "Player_Romus\n\n\"You may have a point. Very well then. We will wait and see.\""
+                "label": "Narrator\n\nHe turned around and saluted the soldiers."
             },
             "position": {
                 "x": 0,
@@ -56,10 +45,10 @@
             }
         },
         {
-            "id": "node_59",
+            "id": "node_65",
             "type": "customNode",
             "data": {
-                "label": "Taddeus Azaro\n\n\"As you wish, sire.\""
+                "label": "Narrator\n\nGeneral Azaro was looking at a table along with other high ranking officers, arguing loudly."
             },
             "position": {
                 "x": 0,
@@ -67,142 +56,10 @@
             }
         },
         {
-            "id": "node_60",
+            "id": "node_66",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLC.War_Operation2Loss_Charge = true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_62",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"We need to talk about the enemy positions.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_64",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCSetup.War_Operation2_DeploymentOverride_Pales_Strong == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_83",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"Even more so than our initial invasion.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_85",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.War_Control_Skipped == false\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_87",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.War_Control_Skipped == false)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_88",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLC.Situation_Order_ForeignIntelligence_Adequate == true || RiziaDLC.Situation_Order_ForeignIntelligence_Effective == true\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_90",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLC.Situation_Order_ForeignIntelligence_Adequate == true || RiziaDLC.Situation_Order_ForeignIntelligence_Effective == true)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_111",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"As for their navy, they seemed to have pulled back south to blockade the seas neighboring Remaz.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_112",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"As for their navy, they seemed to have chosen to disperse their battleships.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_113",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"Lespia is another matter.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_126",
-            "type": "customNode",
-            "data": {
-                "label": "Taddeus Azaro\n\n\"These meddlers...It will be their turn at one point as well.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_127",
-            "type": "customNode",
-            "data": {
-                "label": "Taddeus Azaro\n\n\"These meddlers are a bit too scared to attempt anything, it seems.\""
+                "label": "Narrator\n\nAfter the protocols, General Azaro approached."
             },
             "position": {
                 "x": 0,
@@ -210,10 +67,32 @@
             }
         },
         {
-            "id": "node_128",
+            "id": "node_67",
             "type": "customNode",
             "data": {
-                "label": "Lucita Azaro\n\n\"There is still much to discuss about our plans however, this short overview should be it for now.\""
+                "label": "Narrator\n\nWe stopped in front of a soldier, at least 2 meter tall man with many scars in his face. He looked proud and boastful, towering over everyone else."
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_123",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Resources_Military_Manpower += 250\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_125",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nGeneral Azaro was surrounded by a few high ranking officers."
             },
             "position": {
                 "x": 0,
@@ -224,7 +103,40 @@
             "id": "node_131",
             "type": "customNode",
             "data": {
-                "label": "Lucita Azaro\n\n\"Their navy is currently blockading our ports in the southern seas.\""
+                "label": "Lucita Azaro\n\n\"Your Majesty. General Azaro.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_135",
+            "type": "customNode",
+            "data": {
+                "label": "Player_Romus\n\n\"General Azaro, please start.\""
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_155",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLCSetup.War_Operation2_DeploymentOverride_Pales_Naval_Default_NoBlockade = true;\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_169",
+            "type": "customNode",
+            "data": {
+                "label": "Narrator\n\nThe disgraced general started rolling his wheelchair out."
             },
             "position": {
                 "x": 0,
@@ -232,10 +144,10 @@
             }
         },
         {
-            "id": "node_133",
+            "id": "node_174",
             "type": "customNode",
             "data": {
-                "label": "Lucita Azaro\n\n\"Lespia can be the deciding factor here.\""
+                "label": "Narrator\n\nLucita got up and gestured at the other military staff present in the tent to leave."
             },
             "position": {
                 "x": 0,
@@ -243,10 +155,10 @@
             }
         },
         {
-            "id": "node_137",
+            "id": "node_175",
             "type": "customNode",
             "data": {
-                "label": "Taddeus Azaro\n\n\"Do you have any questions for us, Your Majesty?\""
+                "label": "RiziaDLC.War_Pales_Operation1_Won == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -254,10 +166,10 @@
             }
         },
         {
-            "id": "node_143",
+            "id": "node_183",
             "type": "customNode",
             "data": {
-                "label": "RiziaDLCIsolated.Turn08_OperationResult_Lose_CanWeWin == false\n\nnan"
+                "label": "Narrator\n\nThe disgraced general started rolling his wheelchair out."
             },
             "position": {
                 "x": 0,
@@ -265,10 +177,10 @@
             }
         },
         {
-            "id": "node_148",
+            "id": "node_188",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLCIsolated.Turn08_OperationResult_Lose_Mistake == false)\n\nnan"
+                "label": "RiziaDLC.War_Pales_Operation1_Won == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -276,10 +188,54 @@
             }
         },
         {
-            "id": "node_164",
+            "id": "node_192",
             "type": "customNode",
             "data": {
-                "label": "Jump to: [Operation 2 Lose Questions]\n\nnan"
+                "label": "AddConversant(\"Taddeus Azaro\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_193",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Taddeus Azaro\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_194",
+            "type": "customNode",
+            "data": {
+                "label": "AddConversant(\"Lucita Azaro\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_196",
+            "type": "customNode",
+            "data": {
+                "label": "RemoveConversant(\"Lucita Azaro\");\\nRemoveConversant(\"Taddeus Azaro\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 250
+            }
+        },
+        {
+            "id": "node_200",
+            "type": "customNode",
+            "data": {
+                "label": "!(RiziaDLC.War_Control_Skipped == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -287,10 +243,10 @@
             }
         },
         {
-            "id": "node_176",
+            "id": "node_201",
             "type": "customNode",
             "data": {
-                "label": "Lucita Azaro\n\n\"Pales itself is a very well defended city. It will be tough to bring down its walls. Literally and figuratively.\""
+                "label": "RiziaDLC.Situation_Diplomacy_PowerProjection_Overwhelming == true\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -298,43 +254,10 @@
             }
         },
         {
-            "id": "node_182",
+            "id": "node_203",
             "type": "customNode",
             "data": {
-                "label": "!(RiziaDLCIsolated.Turn08_OperationResult_Win_IntelligenceTrust == false)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_185",
-            "type": "customNode",
-            "data": {
-                "label": "!(RiziaDLCIsolated.Turn08_OperationResult_Win_DisableNavy == false)\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_197",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No, I don't.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_198",
-            "type": "customNode",
-            "data": {
-                "label": "Taddeus Azaro\n\n\"I would like to say soon, Your Majesty.\""
+                "label": "!(RiziaDLC.Situation_Diplomacy_PowerProjection_Overwhelming == true)\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -345,7 +268,7 @@
             "id": "node_215",
             "type": "customNode",
             "data": {
-                "label": "Taddeus Azaro\n\n\"Then thank you for your time, Your Majesty.\""
+                "label": "RiziaDLC.Army_Unit_Infantry_Total = RiziaDLC.War_Control_Skipped_Infantry - (RiziaDLC.War_Control_Skipped_Infantry / 5);\\nRiziaDLC.Army_Unit_Tank_Total = RiziaDLC.War_Control_Skipped_Tank - (RiziaDLC.War_Control_Skipped_Tank / 5);\\nRiziaDLC.Army_Unit_Support_Total = RiziaDLC.War_Control_Skipped_Support - (RiziaDLC.War_Control_Skipped_Support / 5);\\nRiziaDLC.Army_Unit_Ship_Total = RiziaDLC.War_Control_Skipped_Ship - (RiziaDLC.War_Control_Skipped_Ship / 5);\\nRiziaDLC.Army_Unit_Submarine_Total = RiziaDLC.War_Control_Skipped_Submarine - (RiziaDLC.War_Control_Skipped_Submarine / 5);\\nRiziaDLC.Army_Unit_Azaro_Total = RiziaDLC.War_Control_Skipped_Azaro - (RiziaDLC.War_Control_Skipped_Azaro / 5);\\nRiziaDLC.Army_Unit_Flagship_Total = RiziaDLC.War_Control_Skipped_Flagship - (RiziaDLC.War_Control_Skipped_Flagship / 5);\\nRiziaDLC.Army_Unit_GoldenGuard_Total = RiziaDLC.War_Control_Skipped_GoldenGuard - (RiziaDLC.War_Control_Skipped_GoldenGuard / 5);\\nRiziaDLC.Army_Unit_Marine_Total = RiziaDLC.War_Control_Skipped_Marine - (RiziaDLC.War_Control_Skipped_Marine / 5);\\nRiziaDLC.Army_Unit_Mercenary_Total = RiziaDLC.War_Control_Skipped_Mercenary - (RiziaDLC.War_Control_Skipped_Mercenary / 5);\\nRiziaDLC.Army_Unit_Mountaineer_Total = RiziaDLC.War_Control_Skipped_Mountaineer - (RiziaDLC.War_Control_Skipped_Mountaineer / 5);\\nRiziaDLC.Army_Unit_Paratrooper_Total = RiziaDLC.War_Control_Skipped_Paratrooper - (RiziaDLC.War_Control_Skipped_Paratrooper / 5);\\nRiziaDLC.Army_Unit_Sazon_Total = RiziaDLC.War_Control_Skipped_Sazon - (RiziaDLC.War_Control_Skipped_Sazon / 5);\n\nnan"
             },
             "position": {
                 "x": 0,
@@ -353,161 +276,51 @@
             }
         },
         {
-            "id": "node_216",
+            "id": "node_218",
             "type": "customNode",
             "data": {
-                "label": "Lucita Azaro\n\n\"Thank you.\""
+                "label": "RiziaDLC.War_Control_Skipped_Infantry = RiziaDLC.Army_Unit_Infantry_Total;\\nRiziaDLC.War_Control_Skipped_Tank = RiziaDLC.Army_Unit_Tank_Total;\\nRiziaDLC.War_Control_Skipped_Support = RiziaDLC.Army_Unit_Support_Total;\\nRiziaDLC.War_Control_Skipped_Ship = RiziaDLC.Army_Unit_Ship_Total;\\nRiziaDLC.War_Control_Skipped_Submarine = RiziaDLC.Army_Unit_Submarine_Total;\\nRiziaDLC.War_Control_Skipped_Azaro = RiziaDLC.Army_Unit_Azaro_Total;\\nRiziaDLC.War_Control_Skipped_Flagship = RiziaDLC.Army_Unit_Flagship_Total;\\nRiziaDLC.War_Control_Skipped_GoldenGuard = RiziaDLC.Army_Unit_GoldenGuard_Total;\\nRiziaDLC.War_Control_Skipped_Marine = RiziaDLC.Army_Unit_Marine_Total;\\nRiziaDLC.War_Control_Skipped_Mercenary = RiziaDLC.Army_Unit_Mercenary_Total;\\nRiziaDLC.War_Control_Skipped_Mountaineer = RiziaDLC.Army_Unit_Mountaineer_Total;\\nRiziaDLC.War_Control_Skipped_Paratrooper = RiziaDLC.Army_Unit_Paratrooper_Total;\\nRiziaDLC.War_Control_Skipped_Sazon = RiziaDLC.Army_Unit_Sazon_Total;\\n\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 250
+                "y": 0
+            }
+        },
+        {
+            "id": "node_220",
+            "type": "customNode",
+            "data": {
+                "label": "RiziaDLC.Army_Unit_Infantry_Total = RiziaDLC.War_Control_Skipped_Infantry - (RiziaDLC.War_Control_Skipped_Infantry / 4);\\nRiziaDLC.Army_Unit_Tank_Total = RiziaDLC.War_Control_Skipped_Tank - (RiziaDLC.War_Control_Skipped_Tank / 4);\\nRiziaDLC.Army_Unit_Support_Total = RiziaDLC.War_Control_Skipped_Support - (RiziaDLC.War_Control_Skipped_Support / 4);\\nRiziaDLC.Army_Unit_Ship_Total = RiziaDLC.War_Control_Skipped_Ship - (RiziaDLC.War_Control_Skipped_Ship / 4);\\nRiziaDLC.Army_Unit_Submarine_Total = RiziaDLC.War_Control_Skipped_Submarine - (RiziaDLC.War_Control_Skipped_Submarine / 4);\\nRiziaDLC.Army_Unit_Azaro_Total = RiziaDLC.War_Control_Skipped_Azaro - (RiziaDLC.War_Control_Skipped_Azaro / 4);\\nRiziaDLC.Army_Unit_Flagship_Total = RiziaDLC.War_Control_Skipped_Flagship - (RiziaDLC.War_Control_Skipped_Flagship / 4);\\nRiziaDLC.Army_Unit_GoldenGuard_Total = RiziaDLC.War_Control_Skipped_GoldenGuard - (RiziaDLC.War_Control_Skipped_GoldenGuard / 4);\\nRiziaDLC.Army_Unit_Marine_Total = RiziaDLC.War_Control_Skipped_Marine - (RiziaDLC.War_Control_Skipped_Marine / 4);\\nRiziaDLC.Army_Unit_Mercenary_Total = RiziaDLC.War_Control_Skipped_Mercenary - (RiziaDLC.War_Control_Skipped_Mercenary / 4);\\nRiziaDLC.Army_Unit_Mountaineer_Total = RiziaDLC.War_Control_Skipped_Mountaineer - (RiziaDLC.War_Control_Skipped_Mountaineer / 4);\\nRiziaDLC.Army_Unit_Paratrooper_Total = RiziaDLC.War_Control_Skipped_Paratrooper - (RiziaDLC.War_Control_Skipped_Paratrooper / 4);\\nRiziaDLC.Army_Unit_Sazon_Total = RiziaDLC.War_Control_Skipped_Sazon - (RiziaDLC.War_Control_Skipped_Sazon / 4);\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "node_223",
+            "type": "customNode",
+            "data": {
+                "label": "PlayLoopedMusic(\"R_GridlockLight\", \"R_GridlockLight_Loop\");\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
             }
         },
         {
             "id": "node_224",
             "type": "customNode",
             "data": {
-                "label": "Lucita Azaro\n\n\"Thank you, Your Majesty.\""
+                "label": "RiziaDLC.War_Pales_Operation1_Won == true\n\nnan"
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 500
             }
         },
         {
             "id": "node_227",
-            "type": "customNode",
-            "data": {
-                "label": "Lucita Azaro\n\n\"Thank you.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_228",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe spread multiple strategic maps of the region on the table and leaned over it."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_229",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe drew a circle around the peninsula and tapped her finger over it a few times."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_230",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe drew a line around the border and tapped her finger over it a few times."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_231",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThis time another stack of papers were on the table. Some of them having photographs of what it seemed like battleships at night."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_232",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nShe pointed at Lespia on the map."
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_233",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nAfter putting an X on Pales, she leaned back and crossed her arms."
-            },
-            "position": {
-                "x": 0,
-                "y": 500
-            }
-        },
-        {
-            "id": "node_234",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nThey were both taken aback. They looked like they would protest but their shoulders dropped in obedience."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_237",
-            "type": "customNode",
-            "data": {
-                "label": "Taddeus Azaro\n\n\"We held and we will continue to do so until our last breath. Rest assured, Your Majesty.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_238",
-            "type": "customNode",
-            "data": {
-                "label": "Narrator\n\nLooking down without meeting my eyes at all, she collected the documents on the table."
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
-        },
-        {
-            "id": "node_239",
-            "type": "customNode",
-            "data": {
-                "label": "Player_Romus\n\n\"No matter what, I thank you for your advice.\""
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_248",
-            "type": "customNode",
-            "data": {
-                "label": "RiziaDLCSupport.Journal_Turn08_PostOperation1_Charge = true;\n\nnan"
-            },
-            "position": {
-                "x": 0,
-                "y": 250
-            }
-        },
-        {
-            "id": "node_249",
             "type": "customNode",
             "data": {
                 "label": "START\n\nnan"
@@ -520,285 +333,183 @@
     ],
     "edges": [
         {
-            "id": "e2_to_179",
-            "source": "node_2",
-            "target": "node_179",
+            "id": "e9_to_194",
+            "source": "node_9",
+            "target": "node_194",
             "type": "step"
         },
         {
-            "id": "e6_to_230",
-            "source": "node_6",
-            "target": "node_230",
-            "type": "step"
-        },
-        {
-            "id": "e22_to_231",
-            "source": "node_22",
-            "target": "node_231",
-            "type": "step"
-        },
-        {
-            "id": "e24_to_236",
-            "source": "node_24",
-            "target": "node_236",
-            "type": "step"
-        },
-        {
-            "id": "e53_to_235",
-            "source": "node_53",
-            "target": "node_235",
-            "type": "step"
-        },
-        {
-            "id": "e59_to_235",
-            "source": "node_59",
-            "target": "node_235",
-            "type": "step"
-        },
-        {
-            "id": "e60_to_132",
-            "source": "node_60",
-            "target": "node_132",
-            "type": "step"
-        },
-        {
-            "id": "e62_to_232",
-            "source": "node_62",
-            "target": "node_232",
-            "type": "step"
-        },
-        {
-            "id": "e64_to_89",
-            "source": "node_64",
-            "target": "node_89",
-            "type": "step"
-        },
-        {
-            "id": "e83_to_233",
-            "source": "node_83",
-            "target": "node_233",
-            "type": "step"
-        },
-        {
-            "id": "e85_to_94",
-            "source": "node_85",
-            "target": "node_94",
-            "type": "step"
-        },
-        {
-            "id": "e87_to_226",
-            "source": "node_87",
-            "target": "node_226",
-            "type": "step"
-        },
-        {
-            "id": "e88_to_227",
-            "source": "node_88",
-            "target": "node_227",
-            "type": "step"
-        },
-        {
-            "id": "e90_to_65",
-            "source": "node_90",
-            "target": "node_65",
-            "type": "step"
-        },
-        {
-            "id": "e111_to_83",
-            "source": "node_111",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e112_to_83",
-            "source": "node_112",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e113_to_83",
-            "source": "node_113",
-            "target": "node_83",
-            "type": "step"
-        },
-        {
-            "id": "e126_to_248",
-            "source": "node_126",
-            "target": "node_248",
-            "type": "step"
-        },
-        {
-            "id": "e127_to_177",
-            "source": "node_127",
-            "target": "node_177",
-            "type": "step"
-        },
-        {
-            "id": "e128_to_177",
-            "source": "node_128",
-            "target": "node_177",
-            "type": "step"
-        },
-        {
-            "id": "e131_to_178",
-            "source": "node_131",
-            "target": "node_178",
-            "type": "step"
-        },
-        {
-            "id": "e133_to_237",
-            "source": "node_133",
-            "target": "node_237",
-            "type": "step"
-        },
-        {
-            "id": "e137_to_239",
-            "source": "node_137",
-            "target": "node_239",
-            "type": "step"
-        },
-        {
-            "id": "e143_to_162",
-            "source": "node_143",
-            "target": "node_162",
-            "type": "step"
-        },
-        {
-            "id": "e148_to_140",
-            "source": "node_148",
-            "target": "node_140",
-            "type": "step"
-        },
-        {
-            "id": "e164_to_216",
-            "source": "node_164",
-            "target": "node_216",
-            "type": "step"
-        },
-        {
-            "id": "e176_to_193",
-            "source": "node_176",
+            "id": "e12_to_193",
+            "source": "node_12",
             "target": "node_193",
             "type": "step"
         },
         {
-            "id": "e182_to_173",
-            "source": "node_182",
-            "target": "node_173",
+            "id": "e38_to_68",
+            "source": "node_38",
+            "target": "node_68",
             "type": "step"
         },
         {
-            "id": "e185_to_175",
-            "source": "node_185",
-            "target": "node_175",
+            "id": "e39_to_25",
+            "source": "node_39",
+            "target": "node_25",
             "type": "step"
         },
         {
-            "id": "e197_to_86",
-            "source": "node_197",
-            "target": "node_86",
+            "id": "e65_to_192",
+            "source": "node_65",
+            "target": "node_192",
             "type": "step"
         },
         {
-            "id": "e198_to_86",
-            "source": "node_198",
-            "target": "node_86",
+            "id": "e66_to_110",
+            "source": "node_66",
+            "target": "node_110",
             "type": "step"
         },
         {
-            "id": "e215_to_131",
-            "source": "node_215",
-            "target": "node_131",
+            "id": "e67_to_31",
+            "source": "node_67",
+            "target": "node_31",
             "type": "step"
         },
         {
-            "id": "e216_to_228",
-            "source": "node_216",
-            "target": "node_228",
+            "id": "e123_to_196",
+            "source": "node_123",
+            "target": "node_196",
             "type": "step"
         },
         {
-            "id": "e224_to_2",
-            "source": "node_224",
-            "target": "node_2",
+            "id": "e125_to_119",
+            "source": "node_125",
+            "target": "node_119",
             "type": "step"
         },
         {
-            "id": "e227_to_217",
-            "source": "node_227",
-            "target": "node_217",
+            "id": "e131_to_196",
+            "source": "node_131",
+            "target": "node_196",
             "type": "step"
         },
         {
-            "id": "e228_to_240",
-            "source": "node_228",
-            "target": "node_240",
+            "id": "e135_to_1",
+            "source": "node_135",
+            "target": "node_1",
             "type": "step"
         },
         {
-            "id": "e229_to_3",
-            "source": "node_229",
-            "target": "node_3",
+            "id": "e155_to_169",
+            "source": "node_155",
+            "target": "node_169",
             "type": "step"
         },
         {
-            "id": "e230_to_7",
-            "source": "node_230",
-            "target": "node_7",
+            "id": "e169_to_224",
+            "source": "node_169",
+            "target": "node_224",
             "type": "step"
         },
         {
-            "id": "e231_to_23",
-            "source": "node_231",
-            "target": "node_23",
+            "id": "e174_to_197",
+            "source": "node_174",
+            "target": "node_197",
             "type": "step"
         },
         {
-            "id": "e232_to_63",
-            "source": "node_232",
-            "target": "node_63",
+            "id": "e175_to_185",
+            "source": "node_175",
+            "target": "node_185",
             "type": "step"
         },
         {
-            "id": "e233_to_118",
-            "source": "node_233",
-            "target": "node_118",
+            "id": "e183_to_137",
+            "source": "node_183",
+            "target": "node_137",
             "type": "step"
         },
         {
-            "id": "e234_to_129",
-            "source": "node_234",
-            "target": "node_129",
+            "id": "e188_to_137",
+            "source": "node_188",
+            "target": "node_137",
             "type": "step"
         },
         {
-            "id": "e237_to_134",
-            "source": "node_237",
-            "target": "node_134",
+            "id": "e192_to_66",
+            "source": "node_192",
+            "target": "node_66",
             "type": "step"
         },
         {
-            "id": "e238_to_50",
-            "source": "node_238",
-            "target": "node_50",
+            "id": "e193_to_17",
+            "source": "node_193",
+            "target": "node_17",
             "type": "step"
         },
         {
-            "id": "e239_to_138",
-            "source": "node_239",
+            "id": "e194_to_126",
+            "source": "node_194",
+            "target": "node_126",
+            "type": "step"
+        },
+        {
+            "id": "e196_to_132",
+            "source": "node_196",
+            "target": "node_132",
+            "type": "step"
+        },
+        {
+            "id": "e200_to_225",
+            "source": "node_200",
+            "target": "node_225",
+            "type": "step"
+        },
+        {
+            "id": "e201_to_138",
+            "source": "node_201",
             "target": "node_138",
             "type": "step"
         },
         {
-            "id": "e248_to_127",
-            "source": "node_248",
-            "target": "node_127",
+            "id": "e203_to_216",
+            "source": "node_203",
+            "target": "node_216",
             "type": "step"
         },
         {
-            "id": "e249_to_60",
-            "source": "node_249",
-            "target": "node_60",
+            "id": "e215_to_211",
+            "source": "node_215",
+            "target": "node_211",
+            "type": "step"
+        },
+        {
+            "id": "e218_to_138",
+            "source": "node_218",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e220_to_138",
+            "source": "node_220",
+            "target": "node_138",
+            "type": "step"
+        },
+        {
+            "id": "e223_to_213",
+            "source": "node_223",
+            "target": "node_213",
+            "type": "step"
+        },
+        {
+            "id": "e224_to_6",
+            "source": "node_224",
+            "target": "node_6",
+            "type": "step"
+        },
+        {
+            "id": "e227_to_205",
+            "source": "node_227",
+            "target": "node_205",
             "type": "step"
         }
     ]

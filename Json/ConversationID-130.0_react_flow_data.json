@@ -3587,6 +3587,17 @@
             }
         },
         {
+            "id": "node_605",
+            "type": "customNode",
+            "data": {
+                "label": "BaseGame.Democratic -= 3;\\nBaseGame.Sollist += 1;\\n\n\nnan"
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
             "id": "node_606",
             "type": "customNode",
             "data": {
@@ -3605,7 +3616,7 @@
             },
             "position": {
                 "x": 0,
-                "y": 0
+                "y": 250
             }
         },
         {
@@ -9502,6 +9513,12 @@
             "id": "e602_to_615",
             "source": "node_602",
             "target": "node_615",
+            "type": "step"
+        },
+        {
+            "id": "e605_to_607",
+            "source": "node_605",
+            "target": "node_607",
             "type": "step"
         },
         {
